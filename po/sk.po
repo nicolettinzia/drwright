@@ -1,0 +1,171 @@
+# DrWright
+# Copyright (C) 2003
+# This file is distributed under the same license as the DrWright package.
+# Pavel Kanzelsberger <kanzels@boxnetwork.sk>, 2003.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: drwright\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-09-29 19:30+0200\n"
+"PO-Revision-Date: 2003-09-29 22:10+0100\n"
+"Last-Translator: Pavel Kanzelsberger <kanzels@boxnetwork.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>Prestávka</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>Práca</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Skontrolovať či je dovolené odkladať prestávky"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "DrWright Nastavenia"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Dĺžka prestávky ked nie je dovolené písanie"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Dĺžka upozornenia pred začatím prestávky"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Dĺžka práce pred vynútením prestávky"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Voľba vety, ktorá sa použije pre odloženie prestávky"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "_Povoliť odklad prestávok"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "_Dĺžka trvania prestávky"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "_Čas na upozornenie"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "_Dĺžka práce"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minúty"
+
+#: src/main.c:128
+msgid "DrWright is already running."
+msgstr "DrWright je už spustený."
+
+#: src/main.c:141
+msgid ""
+"DrWright uses the notification area to display information. You don't seem "
+"to have a notification area on your panel. You can add it by right-clicking "
+"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr ""
+"DrWright používa notifikačný priestor na zobrazenie informácií. Pravdepodobne "
+"nemáte notifikačný priestor na vašom paneli. Môžete si ho tam pridať kliknutím "
+"pravým tlačidlom na panel a vyberte 'Pridať do panelu -> Pomôcky -> Notifikácia'."
+
+#: src/drwright.c:134
+msgid "/_Enabled"
+msgstr "/_Zapnutý"
+
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Urobiť prestávku"
+
+#: src/drwright.c:137
+msgid "/_Preferences"
+msgstr "/_Nastavenia"
+
+#: src/drwright.c:138
+msgid "/_About"
+msgstr "/_O Programe"
+
+#: src/drwright.c:140
+msgid "/_Remove Icon"
+msgstr "/_Odstrániť ikonku"
+
+#: src/drwright.c:443
+msgid "Disabled"
+msgstr "Zakázaný"
+
+#: src/drwright.c:461
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "%d minút do najbližšej prestávky"
+
+#: src/drwright.c:464
+msgid "One minute until the next break"
+msgstr "Jedna minúta do najbližšej prestávky"
+
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Menej ako minúta do najbližšej prestávky"
+
+#: src/drwright.c:577
+msgid "Quit DrWright?"
+msgstr "Ukončiť DrWright?"
+
+#: src/drwright.c:578
+msgid "Don't forget to take regular breaks."
+msgstr "Nezabúdajte na pravidelné prestávky."
+
+#: src/drwright.c:589
+msgid "Don't Quit"
+msgstr "Neskončiť"
+
+#: src/drwright.c:593
+msgid "Quit"
+msgstr "Skončiť"
+
+#: src/drwright.c:642
+msgid "About DrWright"
+msgstr "O Programe DrWright"
+
+#: src/drwright.c:667
+msgid "A computer break reminder."
+msgstr "Nástroj upozorňujúci na prestávky pri práci s počítačom."
+
+#: src/drwright.c:668
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "Autor Richard Hult &lt;richard@imendio.com&gt;"
+
+#: src/drwright.c:669
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Grafické spracovanie Anders Carlsson, Preklad Pavel Kanzelsberger"
+
+#: src/drwright.c:828
+msgid "Break reminder"
+msgstr "Upozornenie na prestávku"
+
+#: src/drw-break-window.c:259
+msgid "Postpone break"
+msgstr "Odložiť prestávku"
+
+#: src/drw-break-window.c:297
+msgid "Take a break!"
+msgstr "Urobte si prestávku!"
