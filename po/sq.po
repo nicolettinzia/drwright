@@ -1,13 +1,13 @@
-# translation of drwright.HEAD to Albanian
+# translation of drwright to Albanian
 # This file is distributed under the same license as the drwright package.
 # Laurent Dhima <laurenti@alblinux.net>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright.HEAD\n"
+"Project-Id-Version: drwright.HEAD.sq\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-01-13 14:29+0100\n"
-"PO-Revision-Date: 2004-01-13 14:39+0100\n"
+"POT-Creation-Date: 2004-02-16 19:31+0100\n"
+"PO-Revision-Date: 2004-02-16 19:33+0100\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -85,9 +85,10 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
-"DrWright shfrytëzon zonën e njftimeve për të shfaqur informacionet. Ju nuk keni "
-"një zonë të tillë në panel. Mund t'a shtoni me një klik të djathtë mbi panelin tuaj "
-"dhe duke zgjedhur 'Shtoji panelit -> Ndihmues -> Zona e njoftimit'."
+"DrWright shfrytëzon zonën e njftimeve për të shfaqur informacionet. Ju nuk "
+"keni një zonë të tillë në panel. Mund t'a shtoni me një klik të djathtë mbi "
+"panelin tuaj dhe duke zgjedhur 'Shtoji panelit -> Ndihmues -> Zona e "
+"njoftimit'."
 
 #: src/drwright.c:138
 msgid "/_Enabled"
@@ -109,64 +110,64 @@ msgstr "/_Info"
 msgid "/_Remove Icon"
 msgstr "/_Hiq ikonën"
 
-#: src/drwright.c:451
+#: src/drwright.c:467
 msgid "Disabled"
 msgstr "Jo aktiv"
 
-#: src/drwright.c:469
+#: src/drwright.c:485
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minuta para pauzës së ardhëshme"
 
-#: src/drwright.c:472
+#: src/drwright.c:488
 msgid "One minute until the next break"
 msgstr "Një minutë para pauzës në vazhdim"
 
-#: src/drwright.c:474
+#: src/drwright.c:490
 msgid "Less than one minute until the next break"
 msgstr "Më pak se një minutë deri në pushimin tjetër"
 
-#: src/drwright.c:585
+#: src/drwright.c:601
 msgid "Quit DrWright?"
 msgstr "Përfundon DrWright?"
 
-#: src/drwright.c:586
+#: src/drwright.c:602
 msgid "Don't forget to take regular breaks."
 msgstr "Mos harro të kryesh rregullisht pauza."
 
-#: src/drwright.c:597
+#: src/drwright.c:613
 msgid "Don't Quit"
 msgstr "Mos dil"
 
-#: src/drwright.c:601
+#: src/drwright.c:617
 msgid "Quit"
 msgstr "Dil"
 
-#: src/drwright.c:650
+#: src/drwright.c:666
 msgid "About DrWright"
 msgstr "Informacione në lidhje me DrWright"
 
-#: src/drwright.c:675
+#: src/drwright.c:691
 msgid "A computer break reminder."
 msgstr "Një kujtues i pushimit për kompjuter."
 
-#: src/drwright.c:676
+#: src/drwright.c:692
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Shkruar nga Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:677
+#: src/drwright.c:693
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Eye candy shtuar nga Anders Carlsson"
 
-#: src/drwright.c:844
+#: src/drwright.c:860
 msgid "Break reminder"
 msgstr "Kujtuesi i pushimit"
 
-#: src/drw-break-window.c:210
-msgid "Postpone break"
-msgstr "Shtyje pauzën"
+#: src/drw-break-window.c:209
+msgid "_Postpone break"
+msgstr "_Shtyje pushimin"
 
-#: src/drw-break-window.c:248
+#: src/drw-break-window.c:247
 msgid "Take a break!"
 msgstr "Pusho pak!"
 
