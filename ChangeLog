@@ -1,3 +1,8 @@
+2004-03-20  Richard Hult  <richard@imendio.com>
+
+	* src/drw-monitor.c (drw_monitor_timeout): Raise the threshold for
+	activity, makes totem not trigger typing breaks.
+
 2004-02-28  Richard Hult  <richard@imendio.com>
 
 	* src/drw-monitor.c: Remove old crufty includes. Fixes bug
