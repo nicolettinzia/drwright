@@ -1,8 +1,14 @@
-*.gmo
 POTFILES
 Makefile.in.in
 Makefile.in
 Makefile
-messages.mo
-drwright.pot
+*.gmo
+*.mo
+*.pot
+messages
+missing
+cat-id-tbl.c
+stamp-cat-id
+po2tbl.sed
+po2tbl.sed.in
 .intltool-merge-cache

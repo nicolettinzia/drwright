@@ -1,13 +1,16 @@
-# DrWright
-# Copyright (C) 2002-2003 Richard Hult.
+# Swedish messages for DrWright.
+# Copyright (C) 2003 Free Software Foundation, Inc.
 # Richard Hult <richard@imendo.com>, 2003.
+# Christian Rose <menthos@menthos.com>, 2003.
+#
+# $Id$
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: DrWright 0.15\n"
-"POT-Creation-Date: 2003-05-19 23:49+0200\n"
-"PO-Revision-Date: 2003-02-28 22:35+01\n"
-"Last-Translator: Richard Hult <richard@imendo.com>\n"
+"Project-Id-Version: drwright\n"
+"POT-Creation-Date: 2003-05-20 00:27+0200\n"
+"PO-Revision-Date: 2003-05-20 00:28+0200\n"
+"Last-Translator: Christian Rose <menthos@menthos.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,7 +71,7 @@ msgstr "Visa varningsfönster "
 
 #: data/glade/drw-preferences.glade.h:14
 msgid "DrWright Preferences"
-msgstr "DrWright-inställningar"
+msgstr "Inställningar för DrWright"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -90,7 +93,7 @@ msgstr ""
 
 #: src/drwright.c:130
 msgid "/_Enabled"
-msgstr "_Aktiverad"
+msgstr "/_Aktiverad"
 
 #: src/drwright.c:132
 msgid "/_Preferences"
@@ -106,7 +109,7 @@ msgstr "/_Ta bort ikon"
 
 #: src/drwright.c:180
 msgid "Break coming up!"
-msgstr "Paus snart!"
+msgstr "Snart paus!"
 
 #: src/drwright.c:183
 msgid "Break!"
@@ -114,7 +117,7 @@ msgstr "Paus!"
 
 #: src/drwright.c:523
 msgid "Disabled"
-msgstr "Avstängd"
+msgstr "Inaktiverad"
 
 #: src/drwright.c:532
 #, c-format
@@ -139,7 +142,7 @@ msgstr "Om DrWright"
 
 #: src/drwright.c:711
 msgid "A computer break reminder."
-msgstr "En datorpauspåminnare"
+msgstr "En datorpauspåminnare."
 
 #: src/drwright.c:712
 msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
@@ -164,3 +167,36 @@ msgstr "Ta en paus!"
 #: src/drw-preferences.c:363
 msgid "Advanced"
 msgstr "Avancerat"
+
+#~ msgid "W_arning time:"
+#~ msgstr "_Varningstid:"
+
+#~ msgid "W_arning time"
+#~ msgstr "_Varningstid"
+
+#~ msgid "Warning time:"
+#~ msgstr "Varningstid:"
+
+#~ msgid "Warning time"
+#~ msgstr "Varningstid"
+
+#~ msgid "Warning _method:"
+#~ msgstr "Varnings_metod:"
+
+#~ msgid "Warning method:"
+#~ msgstr "Varningsmetod:"
+
+#~ msgid "Warning method"
+#~ msgstr "Varningsmetod"
+
+#~ msgid "Display warning window"
+#~ msgstr "Visa varningsfönster"
+
+#~ msgid "_Enabled"
+#~ msgstr "_Aktiverad"
+
+#~ msgid "About"
+#~ msgstr "Om"
+
+#~ msgid "A computer break reminder"
+#~ msgstr "En datorpauspåminnare"
