@@ -1,3 +1,14 @@
+2004-09-28  Richard Hult  <richard@imendio.com>
+
+	Release 0.18.
+	
+	* configure.in: Bump to 0.18 and make a release for non-GNOME
+	users.
+
+	* Makefile.am: Fix distcheck.
+
+	* src/dbus.c: Update for dbus 0.22.
+
 2004-08-11  Ankit Patel <ankit@redhat.com>
 
 	* configure.in: Added "gu" to ALL_LINGUAS.

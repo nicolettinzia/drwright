@@ -7,15 +7,25 @@ desktop_files=$(desktop_in_files:.desktop.in=.desktop)
 Applicationsdir = $(datadir)/applications
 Applications_DATA = $(desktop_files)
 
+INTLTOOL = 				\
+	intltool-extract.in 		\
+	intltool-merge.in 		\
+	intltool-update.in
+
 EXTRA_DIST = 				\
 	AUTHORS 			\
 	ChangeLog			\
 	README				\
 	drwright.spec			\
 	drwright.spec.in		\
-	intltool-extract.in  		\
-	intltool-merge.in    		\
-	intltool-update.in		\
-	intltool-modules/XML/Parser/Style/OrigTree.pm \
+	$(INTLTOOL)			\
 	$(desktop_in_files)		\
 	$(desktop_files)
+
+DISTCLEANFILES = 		\
+	intltool-extract	\
+	intltool-merge		\
+	intltool-update		\
+	$(desktop_files)
+
+DISTCHECK_CONFIGURE_FLAGS = --enable-dbus=no

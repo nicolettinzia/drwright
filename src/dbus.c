@@ -30,7 +30,6 @@ static DBusHandlerResult server_message_func      (DBusConnection *connection,
 
 
 static DBusConnection *bus_conn;
-static const char *server_path[] = { "org", "gnome", "TypingMonitor", NULL };
 
 static DBusObjectPathVTable
 server_vtable = {
@@ -65,7 +64,7 @@ dbus_init_service (void)
 	}
 
 	if (!dbus_connection_register_object_path (bus_conn,
-						   server_path,
+						   "/org/gnome/TypingMonitor",
 						   &server_vtable,
 						   NULL)) {
 		g_warning ("Failed to register server object with the D-BUS bus daemon");

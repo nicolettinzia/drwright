@@ -33,7 +33,13 @@ drwright_LDADD = @DRWRIGHT_LIBS@ @XSS_LIBS@
 schemadir = @GCONF_SCHEMA_FILE_DIR@
 schema_DATA = drwright.schemas
 
+if GCONF_SCHEMAS_INSTALL
 install-data-local:
-	GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(srcdir)/$(schema_DATA)
+        if test -z "$(DESTDIR)" ; then \
+          for p in $(schema_DATA) ; do \
+            GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(srcdir)/$$p ; \
+          done \
+        fi
+endif
 
 EXTRA_DIST = $(schema_DATA) $(dbus_sources)

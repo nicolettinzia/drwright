@@ -20,7 +20,7 @@
 #ifndef __DBUS_H__
 #define __DBUS_H__
 
-#include <dbus/dbus-glib.h>
+#include <dbus/dbus-glib-lowlevel.h>
 
 #define DRWRIGHT_DBUS_SERVICE "org.gnome.TypingMonitor"
 
