@@ -1,3 +1,8 @@
+2004-02-28  Richard Hult  <richard@imendio.com>
+
+	* src/drw-monitor.c: Remove old crufty includes. Fixes bug
+	#135300.
+
 2004-02-17  Richard Hult  <richard@imendio.com>
 
 	* src/drwright.c:

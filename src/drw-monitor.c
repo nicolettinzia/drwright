@@ -22,15 +22,7 @@
 #include <config.h>
 #include <gdk/gdk.h>
 #include <gdk/gdkx.h>
-#include <gtk/gtkinvisible.h>
 #include <math.h>
-#include <unistd.h>
-#include <sys/ioctl.h>
-#include <sys/vt.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/stat.h>
 #include <X11/Xlib.h>
 #include <X11/extensions/scrnsaver.h>
 #include "drw-monitor.h"
