@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-05-19 23:49+0200\n"
-"PO-Revision-Date: 2003-05-08 15:21+0200\n"
+"POT-Creation-Date: 2003-06-16 11:07+0200\n"
+"PO-Revision-Date: 2003-06-16 11:10+0200\n"
 "Last-Translator: Luca Ferretti <elle.uca@infinito.it>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
@@ -14,63 +14,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Tempo di a_vviso:</b>"
-
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Metodo di avviso:</b>"
+msgid "<b>Break</b>"
+msgstr "<b>Pausa</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>Intervallo di _pausa:</b>"
+msgid "<b>Work</b>"
+msgstr "<b>Lavoro</b>"
 
+# oppure "di rimandare", ma mi pare fonicamente + forzata
 #: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>S_bloccaggio:</b>"
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Attivare per consentire la postposizione delle pause"
 
 #: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>Intervallo di _lavoro:</b>"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">Durata della pausa durante la quale la digitazione è "
-"impedita.</span>"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Durata dell'avviso prima di iniziare una pausa.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Durata del lavoro prima di obbligare ad una pausa.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Consetire lo sblocco, usando la frase:"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Mostrare finestra di avviso "
-
-#: data/glade/drw-preferences.glade.h:14
 msgid "DrWright Preferences"
 msgstr "Preferenze di DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Durata della pausa durante la quale la digitazione è impedita"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Durata dell'avviso prima di iniziare una pausa"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Durata del lavoro prima di obbligare ad una pausa"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Frase opzionale da usare per postporre una pausa"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "C_onsentire la postposizione delle pause"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "Intervallo di _pausa:"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "Tempo di a_vviso:"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "Intervallo di _lavoro:"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -91,85 +89,104 @@ msgstr ""
 "funzione facendo clic col tasto destro sul pannello e scegliendo Aggiungi al "
 "pannello -> Utilità -> Area di notifica."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Abilitato"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Pausa adesso"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/Preferen_ze"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/I_nformazioni"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr "/_Rimuovi icona"
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "La pausa si avvicina!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Pausa!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Disabilitato"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "Mancano %d minuti alla prossima pausa"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Manca un minuto alla prossima pausa"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Manca meno di un minuto alla prossima pausa"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Uscire da DrWright?"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "Non dimenticarsi di fare una pausa, ogni tanto."
 
-#: src/drwright.c:687
+#: src/drwright.c:637
 msgid "About DrWright"
 msgstr "Informazioni su DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:711
+#: src/drwright.c:661
 msgid "A computer break reminder."
 msgstr "Un promemoria per le pause dal computer."
 
-#: src/drwright.c:712
-#, fuzzy
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
-msgstr "Sviluppato da Richard Hult &lt;rhult@codefactory.se&gt;"
+#: src/drwright.c:662
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "Sviluppato da Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:713
+#: src/drwright.c:663
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Raffinatezze visive aggiunte da Anders Carlsson"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:826
+#: src/drwright.c:822
 msgid "Break reminder"
 msgstr "Un promemoria di pause"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Sblocca"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr "Postponi pausa"
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Fatti una pausa!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Avanzate"
+#~ msgid "Break coming up!"
+#~ msgstr "La pausa si avvicina!"
+
+#~ msgid "Break!"
+#~ msgstr "Pausa!"
+
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>_Metodo di avviso:</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>S_bloccaggio:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Consetire lo sblocco, usando la frase:"
+
+#~ msgid "Display warning window "
+#~ msgstr "Mostrare finestra di avviso "
+
+#~ msgid "Unlock"
+#~ msgstr "Sblocca"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzate"
 
 #~ msgid "/_Quit"
 #~ msgstr "/_Esci"
