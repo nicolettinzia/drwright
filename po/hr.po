@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright 0\n"
-"POT-Creation-Date: 2004-02-01 16:50+0100\n"
-"PO-Revision-Date: 2004-02-01 16:50+CET\n"
+"POT-Creation-Date: 2004-03-20 14:43+0100\n"
+"PO-Revision-Date: 2004-03-20 14:43+CET\n"
 "Last-Translator: auto\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
-msgstr ""
+msgstr "_Omogući odgađanje pauza"
 
 #: data/glade/drw-preferences.glade.h:12
 msgid "_Break interval lasts"
@@ -104,64 +104,64 @@ msgstr "/_O"
 msgid "/_Remove Icon"
 msgstr ""
 
-#: src/drwright.c:451
+#: src/drwright.c:475
 msgid "Disabled"
 msgstr "Onemogućeno"
 
-#: src/drwright.c:469
+#: src/drwright.c:493
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d  minuta do sljedeće pauze"
 
-#: src/drwright.c:472
+#: src/drwright.c:496
 msgid "One minute until the next break"
 msgstr ""
 
-#: src/drwright.c:474
+#: src/drwright.c:498
 msgid "Less than one minute until the next break"
 msgstr "Manje od minute do sljedećeg prekida"
 
-#: src/drwright.c:585
+#: src/drwright.c:609
 msgid "Quit DrWright?"
 msgstr ""
 
-#: src/drwright.c:586
+#: src/drwright.c:610
 msgid "Don't forget to take regular breaks."
 msgstr ""
 
-#: src/drwright.c:597
+#: src/drwright.c:621
 msgid "Don't Quit"
 msgstr ""
 
-#: src/drwright.c:601
+#: src/drwright.c:625
 msgid "Quit"
 msgstr "Izlaz"
 
-#: src/drwright.c:650
+#: src/drwright.c:674
 msgid "About DrWright"
 msgstr "O DrWright-u"
 
-#: src/drwright.c:675
+#: src/drwright.c:699
 msgid "A computer break reminder."
 msgstr "Podsjetnik na pauzu računala."
 
-#: src/drwright.c:676
+#: src/drwright.c:700
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Napisao Richard Hulta &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:677
+#: src/drwright.c:701
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ukras dodan od Andersa Carlssona"
 
-#: src/drwright.c:844
+#: src/drwright.c:868
 msgid "Break reminder"
 msgstr "Podsjetnik na prekid"
 
-#: src/drw-break-window.c:210
-msgid "Postpone break"
-msgstr "Odgodi prekid"
+#: src/drw-break-window.c:208
+msgid "_Postpone break"
+msgstr "_Odgodi prekid"
 
-#: src/drw-break-window.c:248
+#: src/drw-break-window.c:251
 msgid "Take a break!"
 msgstr "Uzmi stanku!"
 
