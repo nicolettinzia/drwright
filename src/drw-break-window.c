@@ -25,8 +25,9 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 #include <gconf/gconf-client.h>
+#include <libgnome/gnome-i18n.h>
 #include "drw-break-window.h"
-#include "drw-intl.h"
+#include "drwright.h"
 
 struct _DrwBreakWindowPriv {
 	GtkWidget *clock_label;
@@ -152,11 +153,11 @@ drw_break_window_init (DrwBreakWindow *window)
         window->priv = priv;
 
 	priv->break_time = 60 * gconf_client_get_int (gconf_client_get_default (),
-						      "/apps/drwright/break_time",
+						      GCONF_PATH "/break_time",
 						      NULL);
 	
 	allow_postpone = gconf_client_get_bool (gconf_client_get_default (),
-					      "/apps/drwright/allow_postpone",
+					      GCONF_PATH "/allow_postpone",
 					      NULL);
 
 	GTK_WINDOW (window)->type = GTK_WINDOW_POPUP;
@@ -482,7 +483,7 @@ postpone_entry_activate_cb (GtkWidget      *entry,
 	str = gtk_entry_get_text (GTK_ENTRY (entry));
 
 	phrase = gconf_client_get_string (gconf_client_get_default (),
-					  "/apps/drwright/unlock_phrase",
+					  GCONF_PATH "/unlock_phrase",
 					  NULL);
 	
 	if (!strcmp (str, phrase)) {
@@ -565,7 +566,7 @@ postpone_clicked_cb (GtkWidget *button,
 	
 	/* Disable the phrase for now. */
 	phrase = NULL; /*gconf_client_get_string (gconf_client_get_default (),
-					  "/apps/drwright/unlock_phrase",
+					  GCONF_PATH "/unlock_phrase",
 					  NULL);*/
 
 	if (!phrase || !phrase[0]) {

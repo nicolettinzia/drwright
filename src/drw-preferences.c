@@ -22,8 +22,8 @@
 #include <string.h>
 #include <gtk/gtk.h>
 #include <gconf/gconf-client.h>
+#include <libgnome/gnome-i18n.h>
 #include <glade/glade.h>
-#include "drw-intl.h"
 
 typedef struct {
 	gint       type_time;
@@ -43,7 +43,7 @@ typedef struct {
 	GtkWidget *postpone_entry;
 } DrwPreferences;
 
-extern GConfClient *client;
+extern GConfClient *gconf_client;
 
 static void
 type_time_changed_cb (GtkSpinButton  *sb,
@@ -53,7 +53,7 @@ type_time_changed_cb (GtkSpinButton  *sb,
 	
 	t = gtk_spin_button_get_value_as_int (sb);
 	
-	gconf_client_set_int (client, "/apps/drwright/type_time", t, NULL);
+	gconf_client_set_int (gconf_client, "/apps/drwright/type_time", t, NULL);
 }
 
 static void
@@ -64,7 +64,7 @@ break_time_changed_cb (GtkSpinButton  *sb,
 
 	t = gtk_spin_button_get_value_as_int (sb);
 	
-	gconf_client_set_int (client, "/apps/drwright/break_time", t, NULL);
+	gconf_client_set_int (gconf_client, "/apps/drwright/break_time", t, NULL);
 }
 
 static void
@@ -75,7 +75,7 @@ warn_time_changed_cb (GtkSpinButton  *sb,
 
 	t = gtk_spin_button_get_value_as_int (sb);
 	
-	gconf_client_set_int (client, "/apps/drwright/warn_time", t, NULL);
+	gconf_client_set_int (gconf_client, "/apps/drwright/warn_time", t, NULL);
 }
 
 static void
@@ -86,7 +86,7 @@ allow_postpone_toggled_cb (GtkToggleButton *tb,
 	
 	a = gtk_toggle_button_get_active (tb);
 	
-	gconf_client_set_bool (client, "/apps/drwright/allow_postpone", a, NULL);
+	gconf_client_set_bool (gconf_client, "/apps/drwright/allow_postpone", a, NULL);
 }
 
 static void
@@ -97,7 +97,7 @@ unlock_phrase_changed_cb (GtkEntry       *entry,
 
 	str = gtk_entry_get_text (entry);
 	
-	gconf_client_set_string (client, "/apps/drwright/unlock_phrase", str, NULL);
+	gconf_client_set_string (gconf_client, "/apps/drwright/unlock_phrase", str, NULL);
 }
 
 static void
@@ -191,7 +191,7 @@ static void
 window_destroy_cb (GtkWidget      *widget,
 		   DrwPreferences *prefs)
 {
-	gconf_client_notify_remove (client, prefs->notify_id);
+	gconf_client_notify_remove (gconf_client, prefs->notify_id);
 
 	g_free (prefs->unlock_phrase);
 	g_free (prefs);
@@ -203,31 +203,30 @@ drw_preferences_new (void)
 	DrwPreferences *prefs;
 	GladeXML       *glade;
 	GtkWidget      *dialog;
-//	GtkWidget      *widget;
 	GtkSizeGroup   *group;
 
 	prefs = g_new0 (DrwPreferences, 1);
 
-	prefs->notify_id = gconf_client_notify_add (client, "/apps/drwright",
+	prefs->notify_id = gconf_client_notify_add (gconf_client, "/apps/drwright",
 						    gconf_notify_cb,
 						    prefs,
 						    NULL,
 						    NULL);
 	
 	prefs->type_time = gconf_client_get_int (
-		client, "/apps/drwright/type_time", NULL);
+		gconf_client, "/apps/drwright/type_time", NULL);
 	
 	prefs->break_time = gconf_client_get_int (
-		client, "/apps/drwright/break_time", NULL);
+		gconf_client, "/apps/drwright/break_time", NULL);
 	
 	prefs->warn_time = gconf_client_get_int (
-		client, "/apps/drwright/warn_time", NULL);
+		gconf_client, "/apps/drwright/warn_time", NULL);
 	
 	prefs->allow_postpone = gconf_client_get_bool (
-		client, "/apps/drwright/allow_postpone", NULL);
+		gconf_client, "/apps/drwright/allow_postpone", NULL);
 	
 	prefs->unlock_phrase = g_strdup (gconf_client_get_string (
-		client, "/apps/drwright/unlock_phrase", NULL));
+		gconf_client, "/apps/drwright/unlock_phrase", NULL));
 	
 	glade = glade_xml_new (GLADEDIR "/drw-preferences.glade",
 			       NULL,

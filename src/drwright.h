@@ -21,8 +21,10 @@
 #ifndef __DR_WRIGHT_H__
 #define __DR_WRIGHT_H__
 
+#define GCONF_PATH "/apps/drwright"
+
 typedef struct _DrWright DrWright;
 
-DrWright *         drwright_new            (void);
+DrWright *drwright_new (void);
 
 #endif /* __DR_WRIGHT_H__ */

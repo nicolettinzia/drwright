@@ -26,7 +26,7 @@
 #include <gconf/gconf.h>
 #include <gconf/gconf-client.h>
 #include <libgnomeui/libgnomeui.h>
-#include "drw-intl.h"
+#include <libgnome/gnome-i18n.h>
 #include "drw-selection.h"
 #include "drwright.h"
 

@@ -28,9 +28,9 @@
 #include <gtk/gtk.h>
 #include <libgnomeui/gnome-stock-icons.h>
 #include <libgnomeui/gnome-client.h>
+#include <libgnome/gnome-i18n.h>
 #include <gconf/gconf-client.h>
 #include "drwright.h"
-#include "drw-intl.h"
 #include "drw-break-window.h"
 #include "drw-monitor.h"
 #include "drw-preferences.h"
@@ -137,10 +137,10 @@ static GtkItemFactoryEntry popup_items[] = {
 	{ N_("/_Preferences"),  NULL, GIF_CB (popup_preferences_cb), 0,                  "<StockItem>",  GTK_STOCK_PREFERENCES },
 	{ N_("/_About"),        NULL, GIF_CB (popup_about_cb),       0,                  "<StockItem>",  GNOME_STOCK_ABOUT },
 	{ "/sep2",              NULL, 0,                             0,                  "<Separator>",  NULL },
-	{ N_("/_Remove Icon"),  "",   GIF_CB (popup_quit_cb),        0,                  "<StockItem>",  GTK_STOCK_REMOVE },
+	{ N_("/_Remove Icon"),  "",   GIF_CB (popup_quit_cb),        0,                  "<StockItem>",  GTK_STOCK_REMOVE }
 };
 
-GConfClient *client = NULL;
+GConfClient *gconf_client = NULL;
 gboolean debug;
 
 static void
@@ -449,11 +449,11 @@ update_tooltip (DrWright *dr)
 	switch (dr->state) {
 	case STATE_WARN_TYPE:
 	case STATE_WARN_IDLE:
-		min = ceil ((dr->warn_time - elapsed_time) / 60.0);
+		min = floor (0.5 + (dr->warn_time - elapsed_time) / 60.0);
 		break;
 		
 	default:
-		min = ceil ((dr->type_time - elapsed_time) / 60.0);
+		min = floor (0.5 + (dr->type_time - elapsed_time) / 60.0);
 		break;
 	}
 
@@ -492,7 +492,7 @@ gconf_notify_cb (GConfClient *client,
 	DrWright  *dr = user_data;
 	GtkWidget *item;
 	
-	if (!strcmp (entry->key, "/apps/drwright/type_time")) {
+	if (!strcmp (entry->key, GCONF_PATH "/type_time")) {
 		if (entry->value->type == GCONF_VALUE_INT) {
 			dr->type_time = 60 * gconf_value_get_int (entry->value);
 			dr->warn_time = MIN (dr->type_time / 10, 5*60);
@@ -500,20 +500,13 @@ gconf_notify_cb (GConfClient *client,
 			dr->state = STATE_START;
 		}
 	}
-/*	else if (!strcmp (entry->key, "/apps/drwright/warn_time")) {
-		if (entry->value->type == GCONF_VALUE_INT) {
-			dr->warn_time = 60 * gconf_value_get_int (entry->value);
-			dr->state = STATE_START;
-		}
-	}
-*/
-	else if (!strcmp (entry->key, "/apps/drwright/break_time")) {
+	else if (!strcmp (entry->key, GCONF_PATH "/break_time")) {
 		if (entry->value->type == GCONF_VALUE_INT) {
 			dr->break_time = 60 * gconf_value_get_int (entry->value);
 			dr->state = STATE_START;
 		}
 	}
-	else if (!strcmp (entry->key, "/apps/drwright/enabled")) {
+	else if (!strcmp (entry->key, GCONF_PATH "/enabled")) {
 		if (entry->value->type == GCONF_VALUE_BOOL) {
 			dr->enabled = gconf_value_get_bool (entry->value);
 			dr->state = STATE_START;
@@ -543,7 +536,8 @@ popup_enabled_cb (gpointer   callback_data,
 
 	enabled = gtk_check_menu_item_get_active (GTK_CHECK_MENU_ITEM (item));
 
-	gconf_client_set_bool (client, "/apps/drwright/enabled",
+	gconf_client_set_bool (gconf_client,
+			       GCONF_PATH "/enabled",
 			       enabled,
 			       NULL);
 }
@@ -646,7 +640,8 @@ popup_about_cb (gpointer   callback_data,
 					 GTK_RESPONSE_OK);
 	
 	gtk_window_set_title (GTK_WINDOW (about_window), _("About DrWright"));
-	icon = NULL; /*gdk_pixbuf_new_from_file (IMAGEDIR "/bar.png", NULL);*/
+
+	icon = NULL; /* Should get one... */
 	if (icon != NULL) {
 		gtk_window_set_icon (GTK_WINDOW (about_window), icon);
 		g_object_unref (icon);
@@ -874,33 +869,29 @@ drwright_new (void)
 
         dr = g_new0 (DrWright, 1);
 
-	client = gconf_client_get_default ();
+	gconf_client = gconf_client_get_default ();
 
-	gconf_client_add_dir (client,
-			     "/apps/drwright",
+	gconf_client_add_dir (gconf_client, GCONF_PATH "",
 			      GCONF_CLIENT_PRELOAD_NONE,
 			      NULL);
-
-	gconf_client_notify_add (client, "/apps/drwright",
+	
+	gconf_client_notify_add (gconf_client, GCONF_PATH "",
 				 gconf_notify_cb,
 				 dr,
 				 NULL,
 				 NULL);
 	
 	dr->type_time = 60 * gconf_client_get_int (
-		client, "/apps/drwright/type_time", NULL);
+		gconf_client, GCONF_PATH "/type_time", NULL);
 	
-/*	dr->warn_time = 60 * gconf_client_get_int (
-		client, "/apps/drwright/warn_time", NULL);
-*/
 	dr->warn_time = MIN (dr->type_time / 10, 60*5);
 	
 	dr->break_time = 60 * gconf_client_get_int (
-		client, "/apps/drwright/break_time", NULL);
+		gconf_client, GCONF_PATH "/break_time", NULL);
 
 	dr->enabled = gconf_client_get_bool (
-		client,
-		"/apps/drwright/enabled",
+		gconf_client,
+		GCONF_PATH "/enabled",
 		NULL);
 
 	if (debug) {
@@ -908,8 +899,8 @@ drwright_new (void)
 	}
 	
 	dr->popup_factory = gtk_item_factory_new (GTK_TYPE_MENU,
-						      "<main>",
-						      NULL);
+						  "<main>",
+						  NULL);
 	gtk_item_factory_set_translate_func (dr->popup_factory,
 					     item_factory_trans_cb,
 					     NULL,

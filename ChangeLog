@@ -1,3 +1,11 @@
+2003-06-29  Richard Hult  <richard@imendio.com>
+
+	* src/*.c: Include gnome-i18n.h instead of drw-intl.h. Use macro
+	for gconf path instead of hard coding it throughout the code.
+
+	* src/drwright.c: Tweak the popup menu a bit, fix the tooltip, and
+	a few other small fixes.
+
 2003-06-26  Richard Hult  <richard@imendio.com>
 
 	* src/drwright.c (popup_about_cb): Remove cool (according to Ross)
