@@ -202,8 +202,6 @@ update_icon (DrWright *dr)
 
 	offset = CLAMP ((height - 0) * (1.0 - r), 1, height - 0);
 
-	g_print ("%d\n", offset);
-	
 	switch (dr->state) {
 	case STATE_WARN_TYPE:
 	case STATE_WARN_IDLE:
@@ -912,8 +910,6 @@ drwright_new (void)
 		GCONF_PATH "/enabled",
 		NULL);
 
-	g_print ("%d %d\n", dr->type_time, dr->break_time);
-	
 	if (debug) {
 		setup_debug_values (dr);
 	}
