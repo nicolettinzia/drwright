@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-05-22 17:43+0200\n"
-"PO-Revision-Date: 2003-05-20 00:28+0200\n"
+"POT-Creation-Date: 2003-05-27 15:27+0200\n"
+"PO-Revision-Date: 2003-05-27 15:28+0200\n"
 "Last-Translator: Christian Rose <menthos@menthos.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -140,24 +140,27 @@ msgid "A computer break reminder."
 msgstr "En datorpauspåminnare."
 
 #: src/drwright.c:636
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
-msgstr "Skrivet av Richard Hult &lt;rhult@codefactory.se&gt;"
+msgid "Written by Richard Hult &lt;richard@codefactory.se&gt;"
+msgstr "Skrivet av Richard Hult &lt;richard@codefactory.se&gt;"
 
 #: src/drwright.c:637
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ögongodis tillagt av Anders Carlsson"
 
-#: src/drwright.c:767
+#: src/drwright.c:796
 msgid "Break reminder"
 msgstr "Pauspåminnare"
 
-#: src/drw-break-window.c:266
+#: src/drw-break-window.c:258
 msgid "Postpone break"
 msgstr "Skjut upp pausen"
 
-#: src/drw-break-window.c:304
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Ta en paus!"
+
+#~ msgid "Written by Richard Hult <richard@codefactory.se>"
+#~ msgstr "Skrivet av Richard Hult <richard@codefactory.se>"
 
 #~ msgid "Break coming up!"
 #~ msgstr "Snart paus!"
