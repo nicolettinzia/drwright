@@ -1,0 +1,171 @@
+# translation of drwright.HEAD.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ankit Patel <ankit@redhat.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drwright.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-08-11 11:05+0200\n"
+"PO-Revision-Date: 2004-08-11 15:09+0530\n"
+"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+"Language-Team: Gujarati\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>વિરામ</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>કામ</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "ચકાસો કે શું વિરામો રદ કરવા માટે માન્ય છે"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "DrWright પસંદગીઓ"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "જ્યારે છાપવાની મનાઈ હોય ત્યારે વિરામોનો સમયગાળો"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "વિરામો શરુ કરવા પહેલાની ચેતવણીનો સમય"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "વિરામો દબાણ કરતા પહેલાં કામ કરવાનો સમયગાળો"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "વિરામ રદ કરવા માટે વપરાતો વૈકલ્પિક તબક્કો"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "વિરામોને રદ કરવાનું માન્ય રાખો (_A)"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "વિરામોના અંતરાલ અંત થાય છે (_B)"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "ચેતવણી સમય છે (_W)"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "કામ કરવાનો અંતરાલ અંત થાય છે (_W)"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "મિનિટો"
+
+#: src/main.c:128
+msgid "DrWright is already running."
+msgstr "DrWright એ પહેલાથી જ ચાલુ છે."
+
+#: src/main.c:141
+msgid ""
+"DrWright uses the notification area to display information. You don't seem "
+"to have a notification area on your panel. You can add it by right-clicking "
+"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr "DrWright જાણકારી પ્રદર્શિત કરવા માટે નોંધણી વિસ્તાર વાપરે છે. તમારો નોંધણી વિસ્તાર પેનલ પર હોય એ જરુરી નથી. તમે એને તમારી પેનલ પર જમણું ક્લિક કરીને ઉમેરી શકો છો અને 'પેનલમાં ઉમેરો -> ઉપયોગિતાઓ -> નોંધણી વિસ્તાર' પસંદ કરીને."
+
+#: src/drwright.c:138
+msgid "/_Enabled"
+msgstr "/સક્રિય કરેલ છે (_E)"
+
+#: src/drwright.c:139
+msgid "/_Take a Break"
+msgstr "/વિરામ લો (_T)"
+
+#: src/drwright.c:141
+msgid "/_Preferences"
+msgstr "/પસંદગીઓ (_P)"
+
+#: src/drwright.c:142
+msgid "/_About"
+msgstr "/વિશે (_A)"
+
+#: src/drwright.c:144
+msgid "/_Remove Icon"
+msgstr "/ચિહ્ન દૂર કરો (_R)"
+
+#: src/drwright.c:475
+msgid "Disabled"
+msgstr "નિષ્ક્રિય કરેલ"
+
+#: src/drwright.c:493
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "પછીના વિરામ સુધીની %d મિનિટો"
+
+#: src/drwright.c:496
+msgid "One minute until the next break"
+msgstr "પછીના વિરામ સુધી એક મિનિટ"
+
+#: src/drwright.c:498
+msgid "Less than one minute until the next break"
+msgstr "પછીના વિરામ સુધી એક કરતાં ઓછી મિનિટ"
+
+#: src/drwright.c:609
+msgid "Quit DrWright?"
+msgstr "શું DrWright બંધ કરવું છે?"
+
+#: src/drwright.c:610
+msgid "Don't forget to take regular breaks."
+msgstr "નિયમિત વિરામ લેવાનું ભૂલશો નહિં."
+
+#: src/drwright.c:621
+msgid "Don't Quit"
+msgstr "બહાર નીકળો નહિં"
+
+#: src/drwright.c:625
+msgid "Quit"
+msgstr "બહાર નીકળો"
+
+#: src/drwright.c:674
+msgid "About DrWright"
+msgstr "DrWright વિશે"
+
+#: src/drwright.c:699
+msgid "A computer break reminder."
+msgstr "કમ્પ્યુટર વિરામ યાદ અપાવનાર"
+
+#: src/drwright.c:700
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "રીચાર્ડ હલ્ટ દ્વારા લખાયેલ &lt;richard@imendio.com&gt;"
+
+#: src/drwright.c:701
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Eye candy added by Anders Carlsson"
+
+#: src/drwright.c:868
+msgid "Break reminder"
+msgstr "વિરામ યાદ અપાવનાર"
+
+#: src/drw-break-window.c:208
+msgid "_Postpone break"
+msgstr "વિરામ રદ કરો (_P)"
+
+#: src/drw-break-window.c:251
+msgid "Take a break!"
+msgstr "વિરામ લો!"
+
