@@ -2,14 +2,14 @@
 # Copyright (C) 2002, 2003 Richard Hult.
 # This file is distributed under the same license as the DrWright package.
 # 
-#Филип Андонов <demercel@netbg.com>, 2003.
+# Р¤РёР»РёРї РђРЅРґРѕРЅРѕРІ <demercel@netbg.com>, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright 0.14\n"
 "POT-Creation-Date: 2003-04-17 18:56+0200\n"
 "PO-Revision-Date: 2003-01-20 16:36:37+0100\n"
-"Last-Translator: Филип Андонов <demercel@netbg.com>\n"
+"Last-Translator: Р¤РёР»РёРї РђРЅРґРѕРЅРѕРІ <demercel@netbg.com>\n"
 "Language-Team: bg <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: src/main.c:128
 msgid "DrWright is already running."
-msgstr "DrWright вече е стартиран"
+msgstr "DrWright РІРµС‡Рµ Рµ СЃС‚Р°СЂС‚РёСЂР°РЅ"
 
 #: src/main.c:141
 msgid ""
@@ -28,68 +28,68 @@ msgstr ""
 
 #: src/drwright.c:130
 msgid "/_Enabled"
-msgstr "/Активиран"
+msgstr "/РђРєС‚РёРІРёСЂР°РЅ"
 
 #: src/drwright.c:132
 msgid "/_Preferences"
-msgstr "/_Предпочитания"
+msgstr "/_РџСЂРµРґРїРѕС‡РёС‚Р°РЅРёСЏ"
 
 #: src/drwright.c:133
 msgid "/_About"
-msgstr "/_Относно"
+msgstr "/_РћС‚РЅРѕСЃРЅРѕ"
 
 #: src/drwright.c:135
 msgid "/_Remove Icon"
-msgstr "_Премахни Икона"
+msgstr "_РџСЂРµРјР°С…РЅРё РРєРѕРЅР°"
 
 #: src/drwright.c:180
 msgid "Break coming up!"
-msgstr "Почивката е скоро!"
+msgstr "РџРѕС‡РёРІРєР°С‚Р° Рµ СЃРєРѕСЂРѕ!"
 
 #: src/drwright.c:183
 msgid "Break!"
-msgstr "Почивка!"
+msgstr "РџРѕС‡РёРІРєР°!"
 
 #: src/drwright.c:523
 msgid "Disabled"
-msgstr "Деактивиран"
+msgstr "Р”РµР°РєС‚РёРІРёСЂР°РЅ"
 
 #: src/drwright.c:532
 #, c-format
 msgid "%d minutes until the next break"
-msgstr "%d минути до следващата  почивка"
+msgstr "%d РјРёРЅСѓС‚Рё РґРѕ СЃР»РµРґРІР°С‰Р°С‚Р°  РїРѕС‡РёРІРєР°"
 
 #: src/drwright.c:534
 msgid "One minute until the next break"
-msgstr "Една минута до следващата почивка"
+msgstr "Р•РґРЅР° РјРёРЅСѓС‚Р° РґРѕ СЃР»РµРґРІР°С‰Р°С‚Р° РїРѕС‡РёРІРєР°"
 
 #: src/drwright.c:633
 msgid "Quit DrWright?"
-msgstr "Изход от DrWright?"
+msgstr "РР·С…РѕРґ РѕС‚ DrWright?"
 
 #: src/drwright.c:634
 msgid "Don't forget to take regular breaks."
-msgstr "Не забравяйте да правите редовни почивки"
+msgstr "РќРµ Р·Р°Р±СЂР°РІСЏР№С‚Рµ РґР° РїСЂР°РІРёС‚Рµ СЂРµРґРѕРІРЅРё РїРѕС‡РёРІРєРё"
 
 #: src/drwright.c:687
 msgid "About DrWright"
-msgstr "Относно DrWright"
+msgstr "РћС‚РЅРѕСЃРЅРѕ DrWright"
 
 #: src/drwright.c:712
 msgid "A computer break reminder."
-msgstr "Напомняне за почивки на компютъра"
+msgstr "РќР°РїРѕРјРЅСЏРЅРµ Р·Р° РїРѕС‡РёРІРєРё РЅР° РєРѕРјРїСЋС‚СЉСЂР°"
 
 #: src/drwright.c:714
 msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
-msgstr "Написано от Richard Hult &lt;rhult@codefactory.se&gt;"
+msgstr "РќР°РїРёСЃР°РЅРѕ РѕС‚ Richard Hult &lt;rhult@codefactory.se&gt;"
 
 #: src/drwright.c:715
 msgid "Eye candy added by Anders Carlsson"
-msgstr "Визуални глезотии от Anders Carlsson"
+msgstr "Р’РёР·СѓР°Р»РЅРё РіР»РµР·РѕС‚РёРё РѕС‚ Anders Carlsson"
 
 #: src/drwright.c:828
 msgid "Break reminder"
-msgstr "Напомнящ почивки"
+msgstr "РќР°РїРѕРјРЅСЏС‰ РїРѕС‡РёРІРєРё"
 
 #: src/drw-preferences.glade.h:1
 msgid "*"
@@ -97,37 +97,38 @@ msgstr "*"
 
 #: src/drw-preferences.glade.h:2
 msgid "<b>W_arning time:</b>"
-msgstr "<b>Предупредително_време:</b>"
+msgstr "<b>РџСЂРµРґСѓРїСЂРµРґРёС‚РµР»РЅРѕ_РІСЂРµРјРµ:</b>"
 
 #: src/drw-preferences.glade.h:3
 msgid "<b>Warning _method:</b>"
-msgstr "<b>Метод_на_напомняне:</b>"
+msgstr "<b>РњРµС‚РѕРґ_РЅР°_РЅР°РїРѕРјРЅСЏРЅРµ:</b>"
 
 #: src/drw-preferences.glade.h:4
 msgid "<b>_Break interval:</b>"
-msgstr "<b>_Продължителност на почивката:</b>"
+msgstr "<b>_РџСЂРѕРґСЉР»Р¶РёС‚РµР»РЅРѕСЃС‚ РЅР° РїРѕС‡РёРІРєР°С‚Р°:</b>"
 
 #: src/drw-preferences.glade.h:5
 msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Отключване:</b>"
+msgstr "<b>_РћС‚РєР»СЋС‡РІР°РЅРµ:</b>"
 
 #: src/drw-preferences.glade.h:6
 msgid "<b>_Work interval:</b>"
-msgstr "<b>_Работен интервал:</b>"
+msgstr "<b>_Р Р°Р±РѕС‚РµРЅ РёРЅС‚РµСЂРІР°Р»:</b>"
 
 #: src/drw-preferences.glade.h:7
 msgid ""
 "<span size=\"small\">Duration of the break when typing is disallowed.</span>"
 msgstr ""
-"<span size=\"small\">Продължителност на почивката, през която писането не е разрешено.</"
-"span>"
+"<span size=\"small\">РџСЂРѕРґСЉР»Р¶РёС‚РµР»РЅРѕСЃС‚ РЅР° РїРѕС‡РёРІРєР°С‚Р°, РїСЂРµР· РєРѕСЏС‚Рѕ РїРёСЃР°РЅРµС‚Рѕ РЅРµ Рµ "
+"СЂР°Р·СЂРµС€РµРЅРѕ.</span>"
 
 #: src/drw-preferences.glade.h:8
 msgid ""
 "<span size=\"small\">Duration of warning before starting a break.\n"
 "</span>"
 msgstr ""
-"<span size=\"small\">Продължителност на предупреждението преди начало на почивката.\n"
+"<span size=\"small\">РџСЂРѕРґСЉР»Р¶РёС‚РµР»РЅРѕСЃС‚ РЅР° РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµС‚Рѕ РїСЂРµРґРё РЅР°С‡Р°Р»Рѕ РЅР° "
+"РїРѕС‡РёРІРєР°С‚Р°.\n"
 "</span>"
 
 #: src/drw-preferences.glade.h:10
@@ -135,36 +136,37 @@ msgid ""
 "<span size=\"small\">Duration of work before forcing a break.\n"
 "</span>"
 msgstr ""
-"<span size=\"small\">Продължителност на работата, преди принудителна почивка.\n"
+"<span size=\"small\">РџСЂРѕРґСЉР»Р¶РёС‚РµР»РЅРѕСЃС‚ РЅР° СЂР°Р±РѕС‚Р°С‚Р°, РїСЂРµРґРё РїСЂРёРЅСѓРґРёС‚РµР»РЅР° "
+"РїРѕС‡РёРІРєР°.\n"
 "</span>"
 
 #: src/drw-preferences.glade.h:12
 msgid "Allow unlocking, using the phrase:"
-msgstr "Позволява отключване при използване на фразата:"
+msgstr "РџРѕР·РІРѕР»СЏРІР° РѕС‚РєР»СЋС‡РІР°РЅРµ РїСЂРё РёР·РїРѕР»Р·РІР°РЅРµ РЅР° С„СЂР°Р·Р°С‚Р°:"
 
 #: src/drw-preferences.glade.h:13
 msgid "Display warning window "
-msgstr "Показване на предупредителен прозорец"
+msgstr "РџРѕРєР°Р·РІР°РЅРµ РЅР° РїСЂРµРґСѓРїСЂРµРґРёС‚РµР»РµРЅ РїСЂРѕР·РѕСЂРµС†"
 
 #: src/drw-preferences.glade.h:14
 msgid "DrWright Preferences"
-msgstr "DrWright предпочитания"
+msgstr "DrWright РїСЂРµРґРїРѕС‡РёС‚Р°РЅРёСЏ"
 
 #: src/drw-preferences.glade.h:15
 msgid "minutes"
-msgstr "минути"
+msgstr "РјРёРЅСѓС‚Рё"
 
 #: src/drw-break-window.c:240
 msgid "Unlock"
-msgstr "Отключване"
+msgstr "РћС‚РєР»СЋС‡РІР°РЅРµ"
 
 #: src/drw-break-window.c:278
 msgid "Take a break!"
-msgstr "Направи почивка!"
+msgstr "РќР°РїСЂР°РІРё РїРѕС‡РёРІРєР°!"
 
 #: src/drw-preferences.c:363
 msgid "Advanced"
-msgstr "Разширени"
+msgstr "Р Р°Р·С€РёСЂРµРЅРё"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
@@ -173,7 +175,7 @@ msgstr "Разширени"
 #~ msgstr "(C) Copyright 2002, CodeFactory"
 
 #~ msgid "/_Quit"
-#~ msgstr "/_Изход"
+#~ msgstr "/_РР·С…РѕРґ"
 
 #~ msgid "Done"
 #~ msgstr "Fertig"

@@ -4,9 +4,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright 0.14.91\n"
-"POT-Creation-Date: 2003-05-19 23:49+0200\n"
-"PO-Revision-Date: 2003-02-19 16:10+0800\n"
+"Project-Id-Version: drwright 0.16\n"
+"POT-Creation-Date: 2003-05-20 19:59+0800\n"
+"PO-Revision-Date: 2003-05-20 20:49+0800\n"
 "Last-Translator: Abel Cheung <maddog@linux.org.hk>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "分鐘"
 
 #: src/main.c:128
 msgid "DrWright is already running."
-msgstr "DrWright 已經在執行。"
+msgstr "DrWright 正在執行中。"
 
 #: src/main.c:141
 msgid ""
@@ -80,6 +80,9 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
+"DrWright 使用面板程式狀態通知區來顯示資訊，但面板中似乎沒有程式狀態通知區。您"
+"可以在面板上按滑鼠右邊按鈕，然後選擇「加入至面板→公用程式→程式狀態通知區」，"
+"就可以加入程式狀態通知區。"
 
 #: src/drwright.c:130
 msgid "/_Enabled"
@@ -95,7 +98,7 @@ msgstr "/關於(_A)"
 
 #: src/drwright.c:135
 msgid "/_Remove Icon"
-msgstr ""
+msgstr "/移除圖示(_R)"
 
 #: src/drwright.c:180
 msgid "Break coming up!"
@@ -135,9 +138,8 @@ msgid "A computer break reminder."
 msgstr "在使用電腦時發出休息提示的小工具。"
 
 #: src/drwright.c:712
-#, fuzzy
 msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
-msgstr "由 &lt;richard@imendo.com&gt; 編寫"
+msgstr "由 Richard Hult &lt;richard@imendo.com&gt; 編寫"
 
 #: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
@@ -158,15 +160,6 @@ msgstr "請休息一下！"
 #: src/drw-preferences.c:363
 msgid "Advanced"
 msgstr "進階"
-
-#~ msgid "DrWright"
-#~ msgstr "DrWright"
-
-#~ msgid "(C) Copyright 2002, CodeFactory"
-#~ msgstr "版權所有 ©2002，CodeFactory"
-
-#~ msgid "/_Quit"
-#~ msgstr "/結束(_Q)"
 
 #~ msgid "Done"
 #~ msgstr "完成"
