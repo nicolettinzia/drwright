@@ -1,15 +1,15 @@
-# DrWright translation for Welsh (pigeon Welsh at least)
-# corrections appreciated...
-#
+# drwright yn Gymraeg.
 # Copyright (C) 2003 Alan Cox
 # This file is distributed under the same license as the DrWright package.
-# Alan Cox <alan@redhat.com>
+# Alan Cox <alan@redhat.com> 2003.
+# Dafydd Harries <daf@parnassus.ath.cx>, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-06-24 00:30+0200\n"
-"PO-Revision-Date: 2003-07-02 00:22+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-08-19 02:43+0100\n"
+"PO-Revision-Date: 2003-07-02 14:59+0100\n"
 "Last-Translator: Dafydd Harries <daf@parnassus.ath.cx>\n"
 "Language-Team: gnome-cy <gnome-cy@pengwyn.linux.org.uk>\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgstr "Hyd y saib pan mae teipio wedi ei wahardd"
 
 #: data/glade/drw-preferences.glade.h:8
 msgid "Duration of warning before starting a break"
-msgstr "Hyd y rhybudd cyn ddechrau saib"
+msgstr "Hyd y rhybudd cyn dechrau saib"
 
 #: data/glade/drw-preferences.glade.h:9
 msgid "Duration of work before forcing a break"
-msgstr "Hyd y gwaith cyn gorfodi rhybudd"
+msgstr "Hyd y gwaith cyn gorfodi saib"
 
 #: data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
@@ -58,11 +58,11 @@ msgstr "Y mynegiad opsiynnol i'w ddefnyddio ar gyfer gohirio saib"
 
 #: data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
-msgstr "_Caniatau gohirio seibiau"
+msgstr "_Caniatáu gohirio seibiau"
 
 #: data/glade/drw-preferences.glade.h:12
 msgid "_Break interval lasts"
-msgstr "_Hyd ysbaid seibiau"
+msgstr "Ysbaid _seibio yn para"
 
 #: data/glade/drw-preferences.glade.h:13
 msgid "_Warning time is"
@@ -78,7 +78,7 @@ msgstr "munud"
 
 #: src/main.c:128
 msgid "DrWright is already running."
-msgstr "Mae DrWright yn rhedeg eisioes."
+msgstr "Mae DrWright wedi ei weithredu eisioes."
 
 #: src/main.c:141
 msgid ""
@@ -88,7 +88,7 @@ msgid ""
 msgstr ""
 "Mae DrWright yn defnyddio man hysbysu i ddangos gwybodaeth. Mae'n ymddangos "
 "nad oes man hysbysu gan eich panel. Gallwch chi ychwanegu un trwy de-glicio "
-"ar y Panel a dewis 'Ychwanegu at y Panel -> Cyfleuster -> Man Hysbysu'."
+"ar y Panel a dewis 'Ychwanegu at y Panel -> Cyfleusterau -> Man Hysbysu'."
 
 #: src/drwright.c:134
 msgid "/_Enabled"
@@ -117,59 +117,59 @@ msgstr "Analluogwyd"
 #: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
-msgstr "%d munud nes y saib nesaf"
+msgstr "%d munud tan y saib nesaf"
 
 #: src/drwright.c:464
 msgid "One minute until the next break"
-msgstr "Un munud nes y saib nesaf"
+msgstr "Un munud tan y saib nesaf"
 
 #: src/drwright.c:466
 msgid "Less than one minute until the next break"
-msgstr "Llai nag un munud nes y saib nesaf"
+msgstr "Llai nag un munud tan y saib nesaf"
 
-#: src/drwright.c:583
+#: src/drwright.c:577
 msgid "Quit DrWright?"
 msgstr "Gadael DrWright?"
 
-#: src/drwright.c:584
+#: src/drwright.c:578
 msgid "Don't forget to take regular breaks."
 msgstr "Peidiwch anghofio cymryd seibiau rheolaidd."
 
-#: src/drwright.c:595
+#: src/drwright.c:589
 msgid "Don't Quit"
-msgstr "Peidio Gadel"
+msgstr "Peidio Gadael"
 
-#: src/drwright.c:599
+#: src/drwright.c:593
 msgid "Quit"
 msgstr "Gadael"
 
-#: src/drwright.c:645
+#: src/drwright.c:642
 msgid "About DrWright"
 msgstr "Ynghlych DrWright"
 
-#: src/drwright.c:669
+#: src/drwright.c:667
 msgid "A computer break reminder."
 msgstr "Atgof seibiau cyfrifadur."
 
-#: src/drwright.c:670
+#: src/drwright.c:668
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Ysgrifennwyd gan Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:671
+#: src/drwright.c:669
 msgid "Eye candy added by Anders Carlsson"
-msgstr "Ychwannegwyd melysion llygaid gan Anders Carlsson"
+msgstr "Ychwanegwyd melysion gweledol gan Anders Carlsson"
 
-#: src/drwright.c:830
+#: src/drwright.c:828
 msgid "Break reminder"
 msgstr "Atgof saib"
 
-#: src/drw-break-window.c:258
+#: src/drw-break-window.c:259
 msgid "Postpone break"
-msgstr "Gohirio saib"
+msgstr "Gohirio'r saib"
 
-#: src/drw-break-window.c:296
+#: src/drw-break-window.c:297
 msgid "Take a break!"
-msgstr "Cymrwch saib!"
+msgstr "Cymerwch saib!"
 
 #~ msgid "Break coming up!"
 #~ msgstr "Mae toriad yn dod!"
@@ -196,4 +196,4 @@ msgstr "Cymrwch saib!"
 #~ msgstr "Datgloi"
 
 #~ msgid "Advanced"
-#~ msgstr "Uwch"
+#~ msgstr "Pellach"
