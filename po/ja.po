@@ -5,9 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright 0.16\n"
-"POT-Creation-Date: 2003-06-24 00:30+0200\n"
-"PO-Revision-Date: 2003-04-19 00:58+0900\n"
+"Project-Id-Version: drwright HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-06-25 01:02+0900\n"
+"PO-Revision-Date: 2003-06-25 00:59+0900\n"
 "Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
@@ -16,73 +17,59 @@ msgstr ""
 
 #: data/glade/drw-preferences.glade.h:1
 msgid "    "
-msgstr ""
+msgstr "    "
 
 #: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
 #: data/glade/drw-preferences.glade.h:3
-#, fuzzy
 msgid "<b>Break</b>"
-msgstr "<b>一休みの間隔(_B):</b>"
+msgstr "<b>一休みの時間</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-#, fuzzy
 msgid "<b>Work</b>"
-msgstr "<b>作業の間隔(_W):</b>"
+msgstr "<b>作業時間</b>"
 
 #: data/glade/drw-preferences.glade.h:5
 msgid "Check if breaks are allowed to be postponed"
-msgstr ""
+msgstr "一休みを延期できるようにする場合にチェックして下さい"
 
 #: data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
 msgstr "DrWright の設定"
 
 #: data/glade/drw-preferences.glade.h:7
-#, fuzzy
 msgid "Duration of the break when typing is disallowed"
-msgstr ""
-"<span size=\"small\">キー入力している際の一休みの継続は許可されていません。</"
-"span>"
+msgstr "一休みする時間です (キー入力不可)"
 
 #: data/glade/drw-preferences.glade.h:8
-#, fuzzy
 msgid "Duration of warning before starting a break"
-msgstr ""
-"<span size=\"small\">一休みを開始する前の警告時間です。\n"
-"</span>"
+msgstr "一休みを開始する前の警告時間です"
 
 #: data/glade/drw-preferences.glade.h:9
-#, fuzzy
 msgid "Duration of work before forcing a break"
-msgstr ""
-"<span size=\"small\">強制的に一休みする前の作業時間です。\n"
-"</span>"
+msgstr "一休みに入る前に警告する時間です"
 
 #: data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
-msgstr ""
+msgstr "一休みを延期するのに利用する追加フレーズです"
 
 #: data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
-msgstr ""
+msgstr "一休みの延期を許可する(_A)"
 
 #: data/glade/drw-preferences.glade.h:12
-#, fuzzy
 msgid "_Break interval lasts"
-msgstr "<b>一休みの間隔(_B):</b>"
+msgstr "一休みする時間(_B)"
 
 #: data/glade/drw-preferences.glade.h:13
-#, fuzzy
 msgid "_Warning time is"
-msgstr "<b>警告する時間(_A):</b>"
+msgstr "警告する時間(_W)"
 
 #: data/glade/drw-preferences.glade.h:14
-#, fuzzy
 msgid "_Work interval lasts"
-msgstr "<b>作業の間隔(_W):</b>"
+msgstr "最後に警告を出す時間(_W)"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -107,9 +94,8 @@ msgid "/_Enabled"
 msgstr "/有効にする(_E)"
 
 #: src/drwright.c:135
-#, fuzzy
 msgid "/_Take a Break"
-msgstr "一休みして下さい！"
+msgstr "/一休みする(_T)"
 
 #: src/drwright.c:137
 msgid "/_Preferences"
@@ -125,7 +111,7 @@ msgstr "/アイコンの削除(_R)"
 
 #: src/drwright.c:443
 msgid "Disabled"
-msgstr "無効"
+msgstr "無効です"
 
 #: src/drwright.c:461
 #, c-format
@@ -137,9 +123,8 @@ msgid "One minute until the next break"
 msgstr "次の一休みまであと 1 分です"
 
 #: src/drwright.c:466
-#, fuzzy
 msgid "Less than one minute until the next break"
-msgstr "次の一休みまであと 1 分です"
+msgstr "次の一休みまで 1 分を切りました"
 
 #: src/drwright.c:583
 msgid "Quit DrWright?"
@@ -151,11 +136,11 @@ msgstr "定期的な一休みを忘れずに。"
 
 #: src/drwright.c:595
 msgid "Don't Quit"
-msgstr ""
+msgstr "終了しない"
 
 #: src/drwright.c:599
 msgid "Quit"
-msgstr ""
+msgstr "終了する"
 
 #: src/drwright.c:645
 msgid "About DrWright"
@@ -166,9 +151,8 @@ msgid "A computer break reminder."
 msgstr "コンピュータの一休み催促ツールです。"
 
 #: src/drwright.c:670
-#, fuzzy
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "作者: Richard Hult &lt;rhult@codefactory.se&gt;"
+msgstr "作者: Richard Hult &lt;richard@imendio.com&gt;"
 
 #: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
@@ -180,32 +164,8 @@ msgstr "一休み催促ツール"
 
 #: src/drw-break-window.c:258
 msgid "Postpone break"
-msgstr ""
+msgstr "延期を中止する"
 
 #: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "一休みして下さい！"
-
-#~ msgid "Break coming up!"
-#~ msgstr "一休みの時間です！"
-
-#~ msgid "Break!"
-#~ msgstr "一休みしましょう！"
-
-#~ msgid "<b>Warning _method:</b>"
-#~ msgstr "<b>警告する方法(_M):</b>"
-
-#~ msgid "<b>_Unlocking:</b>"
-#~ msgstr "<b>アンロック(_U):</b>"
-
-#~ msgid "Allow unlocking, using the phrase:"
-#~ msgstr "アンロックを許可する際に使用するフレーズ:"
-
-#~ msgid "Display warning window "
-#~ msgstr "警告ウィンドウを表示する"
-
-#~ msgid "Unlock"
-#~ msgstr "アンロック"
-
-#~ msgid "Advanced"
-#~ msgstr "拡張オプション"
