@@ -1,84 +1,78 @@
-# DrWright - tumaczenie polskie
-# Jarosaw wierad <messer@messer.homelinux.org>, 2003.
-#
+# Copyright (C) 2001-2002 Free Software Foundation, Inc.
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aktualną wersję tego pliku możesz odnaleźć w repozytorium cvs.gnome.pl
+# (:pserver:anonymous@cvs.gnome.pl:/home/cvs, puste hasło)
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas na adres:
+# translators@gnome.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-06-24 00:30+0200\n"
-"PO-Revision-Date: 1003-03-06 12:05+0100\n"
-"Last-Translator: Jarosaw Messer wierad <messer@messer.homelinux.org>\n"
-"Language-Team: Jarosaw Messer wierad <messer@messer.homelinux.org>\n"
+"POT-Creation-Date: 2003-07-08 08:47+0200\n"
+"PO-Revision-Date: 1003-07-05 01:48+0100\n"
+"Last-Translator: GNOME PL Team <translators@gnome.pl>\n"
+"Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
 
 #: data/glade/drw-preferences.glade.h:1
 msgid "    "
-msgstr ""
+msgstr "    "
 
 #: data/glade/drw-preferences.glade.h:2
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #: data/glade/drw-preferences.glade.h:3
-#, fuzzy
 msgid "<b>Break</b>"
-msgstr "<b>_Czas przerwy:</b>"
+msgstr "<b>Przerwa</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-#, fuzzy
 msgid "<b>Work</b>"
-msgstr "<b>C_zas Pracy:</b>"
+msgstr "<b>Praca</b>"
 
 #: data/glade/drw-preferences.glade.h:5
 msgid "Check if breaks are allowed to be postponed"
-msgstr ""
+msgstr "Zaznacz jeśli przerwy mogą być przekładane"
 
 #: data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
-msgstr "DrWright Waciwoci"
+msgstr "Preferencje DrWright"
 
 #: data/glade/drw-preferences.glade.h:7
-#, fuzzy
 msgid "Duration of the break when typing is disallowed"
-msgstr ""
-"<span size=\"small\">interdit.\n"
-"</span>"
+msgstr "Przerwa podczas pisania jest zabroniona"
 
 #: data/glade/drw-preferences.glade.h:8
-#, fuzzy
 msgid "Duration of warning before starting a break"
-msgstr "<span size=\"small\">Okres ostrzeenia przez rozpoczciem przerwy</span>"
+msgstr "Czas wyświetlania ostrzeżenia przed rozpoczęciem przerwy"
 
 #: data/glade/drw-preferences.glade.h:9
-#, fuzzy
 msgid "Duration of work before forcing a break"
-msgstr ""
-"<span size=\"small\">Okres pracy przed wymuszeniem przerwy\n"
-"</span>"
+msgstr "Czas pracy przed wymuszeniem przerwy"
 
 #: data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
-msgstr ""
+msgstr "Opcjonalny napi używany do przekładania przerwy"
 
 #: data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
-msgstr ""
+msgstr "_Możliwe przekładanie przerw"
 
 #: data/glade/drw-preferences.glade.h:12
-#, fuzzy
 msgid "_Break interval lasts"
-msgstr "<b>_Czas przerwy:</b>"
+msgstr "_Okres przerw"
 
 #: data/glade/drw-preferences.glade.h:13
-#, fuzzy
 msgid "_Warning time is"
-msgstr "<b>C_zas ostrzeenia:</b>"
+msgstr "_Czas ostrzegania"
 
 #: data/glade/drw-preferences.glade.h:14
-#, fuzzy
 msgid "_Work interval lasts"
-msgstr "<b>C_zas Pracy:</b>"
+msgstr "_Okres pracy"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -86,7 +80,7 @@ msgstr "minut"
 
 #: src/main.c:128
 msgid "DrWright is already running."
-msgstr "DrWright uruchomiony."
+msgstr "DrWright jest już uruchomiony."
 
 #: src/main.c:141
 msgid ""
@@ -94,145 +88,89 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
-"DrWright uywa pola powiadamiania do wywietlania informacji. Wygldana to, e "
-"nie masz pola powiadamiania  na swoim panelu. Moesz j doda klikajcprawym "
-"przyciskiem myszy na swoim panelu i wybierajc 'Add to panel -> Utilities -> "
-"Notification area'."
+"DrWright używa pola powiadamiania do wyświetlania informacji. Wygląda na to, "
+"że brak jest pola powiadamiania na panelu. Można je dodać klikając prawym "
+"przyciskiem myszy na panelu a następnie wybierając \"Dodaj do panelu -> "
+"Narzędzia -> Obszar powiadamiania\"."
 
 #: src/drwright.c:134
 msgid "/_Enabled"
-msgstr "/_Wczone"
+msgstr "/_Włącz"
 
 #: src/drwright.c:135
-#, fuzzy
 msgid "/_Take a Break"
-msgstr "Czas na przerw!"
+msgstr "/_Weź przerwę"
 
 #: src/drwright.c:137
 msgid "/_Preferences"
-msgstr "/_Waciwoci"
+msgstr "/_Właściwości"
 
 #: src/drwright.c:138
 msgid "/_About"
-msgstr "_O..."
+msgstr "_O programie..."
 
 #: src/drwright.c:140
 msgid "/_Remove Icon"
-msgstr ""
+msgstr "/_Usuń ikonę"
 
 #: src/drwright.c:443
 msgid "Disabled"
-msgstr "Wyczone"
+msgstr "Wyłączone"
 
 #: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
-msgstr "%d minut do nastpnej przerwy"
+msgstr "%d minut do następnej przerwy"
 
 #: src/drwright.c:464
 msgid "One minute until the next break"
-msgstr "Jedna minuta do nastpnej przerwy"
+msgstr "Jedna minuta do następnej przerwy"
 
 #: src/drwright.c:466
-#, fuzzy
 msgid "Less than one minute until the next break"
-msgstr "Jedna minuta do nastpnej przerwy"
+msgstr "Mniej niż jedna minuta do następnej przerwy"
 
-#: src/drwright.c:583
+#: src/drwright.c:577
 msgid "Quit DrWright?"
-msgstr "Zamkn DrWright?"
+msgstr "Zamknąć DrWright?"
 
-#: src/drwright.c:584
-#, fuzzy
+#: src/drwright.c:578
 msgid "Don't forget to take regular breaks."
-msgstr "Nie zapominaj robi regularnych przerw."
+msgstr "Nie zapominaj robić regularnych przerw."
 
-#: src/drwright.c:595
+#: src/drwright.c:589
 msgid "Don't Quit"
-msgstr ""
+msgstr "Nie kończ"
 
-#: src/drwright.c:599
-#, fuzzy
+#: src/drwright.c:593
 msgid "Quit"
-msgstr "/_Wyjcie"
+msgstr "Zakończ"
 
-#: src/drwright.c:645
+#: src/drwright.c:642
 msgid "About DrWright"
 msgstr "O DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:669
+#: src/drwright.c:667
 msgid "A computer break reminder."
 msgstr "Program do przypominania o przerwach w pracy z komputerem."
 
-#: src/drwright.c:670
-#, fuzzy
+#: src/drwright.c:668
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Stworzony przez Richard Hult %lt;richard@imendo.com&gt;"
+msgstr "Napisany przez Richarda Hulta %lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:671
+#: src/drwright.c:669
 msgid "Eye candy added by Anders Carlsson"
-msgstr "Grafika stworzona przez Andres Carlsson"
+msgstr "Grafika autorstwa Andresa Carlssona"
 
-#: src/drwright.c:830
+#: src/drwright.c:828
 msgid "Break reminder"
 msgstr "Program do przypominania o przerwach"
 
-#: src/drw-break-window.c:258
+#: src/drw-break-window.c:259
 msgid "Postpone break"
-msgstr ""
+msgstr "Przełóż przerwę"
 
-#: src/drw-break-window.c:296
+#: src/drw-break-window.c:297
 msgid "Take a break!"
-msgstr "Czas na przerw!"
-
-#~ msgid "<b>Warning _method:</b>"
-#~ msgstr "<b>M_etoda ostrzeenia:</b>"
-
-#, fuzzy
-#~ msgid "<b>_Unlocking:</b>"
-#~ msgstr "<b>_Odblokuj:</b>"
-
-#~ msgid "Allow unlocking, using the phrase:"
-#~ msgstr "Pozwl na odblokowanie uywajc frazy:"
-
-#~ msgid "Display warning window "
-#~ msgstr "Wywietlaj okno z ostrzeeniem"
-
-#~ msgid "Break coming up!"
-#~ msgstr "Zblia si przerwa!"
-
-#~ msgid "Break!"
-#~ msgstr "Przerwa!"
-
-#~ msgid "Unlock"
-#~ msgstr "Odblokuj"
-
-#~ msgid "Advanced"
-#~ msgstr "Zaawansowane"
-
-#~ msgid "DrWright"
-#~ msgstr "DrWright"
-
-#~ msgid "(C) Copyright 2002, CodeFactory"
-#~ msgstr "(C) Copyright 2002, CodeFactory"
-
-#~ msgid "Done"
-#~ msgstr "Gotowe."
-
-#~ msgid ""
-#~ "<span size=\"small\">Warn about upcoming break with a window.\n"
-#~ "</span>"
-#~ msgstr ""
-#~ "<span size=\"small\">Ostrze o nadchodzcej przerwie za pomoc okienka "
-#~ "imminente.\n"
-#~ "</span>"
-
-#~ msgid "Do you really want to quit?"
-#~ msgstr "Czy na prawd wyj ?"
-
-#~ msgid "<span size=\"25000\"><b>Done</b></span>"
-#~ msgstr "<span size=\"25000\"><b>Gotowe</b></span>"
-
-#~ msgid "Preferences"
-#~ msgstr "Waciwoci"
+msgstr "Czas na przerwę!"
