@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drwright.HEAD.sq\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-08-18 03:06+0200\n"
+"POT-Creation-Date: 2004-08-19 11:08+0200\n"
 "PO-Revision-Date: 2004-02-16 19:33+0100\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
@@ -139,9 +139,10 @@ msgstr "Mos harro të kryesh rregullisht pauza."
 msgid "Don't Quit"
 msgstr "Mos dil"
 
+#. GRUT modified this item
 #: src/drwright.c:625
 msgid "Quit"
-msgstr "Dil"
+msgstr "Dalja"
 
 #: src/drwright.c:674
 msgid "About DrWright"
@@ -170,3 +171,4 @@ msgstr "_Shtyje pushimin"
 #: src/drw-break-window.c:251
 msgid "Take a break!"
 msgstr "Pusho pak!"
+
