@@ -1,7 +1,8 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * Copyright (C) 2002      CodeFactory AB
+ * Copyright (C) 2003-2004 Imendio HB
  * Copyright (C) 2002-2003 Richard Hult <richard@imendio.com>
+ * Copyright (C) 2002      CodeFactory AB
 
  *
  * This program is free software; you can redistribute it and/or
@@ -36,7 +37,6 @@ struct _DrwBreakWindowPriv {
 	GtkWidget *break_label;
 	GtkWidget *image;
 
-	GtkWidget *postpone_entry;
 	GtkWidget *postpone_button;
 	
 	GTimer    *timer;
@@ -45,10 +45,8 @@ struct _DrwBreakWindowPriv {
 	
 	gchar     *break_text;
 	guint      clock_timeout_id;
-	guint      postpone_timeout_id;
+	guint      postpone_sensitize_id;
 };
-
-#define POSTPONE_CANCEL 30*1000
 
 /* Signals */
 enum {
@@ -61,6 +59,7 @@ static void         drw_break_window_class_init    (DrwBreakWindowClass *klass);
 static void         drw_break_window_init          (DrwBreakWindow      *window);
 static void         drw_break_window_finalize      (GObject             *object);
 static void         drw_break_window_dispose       (GObject             *object);
+static gboolean     postpone_sensitize_cb          (DrwBreakWindow      *window);
 static gboolean     clock_timeout_cb               (DrwBreakWindow      *window);
 static void         postpone_clicked_cb              (GtkWidget           *button,
 						    GtkWidget           *window);
@@ -208,7 +207,17 @@ drw_break_window_init (DrwBreakWindow *window)
 
 		priv->postpone_button = gtk_button_new_with_mnemonic (_("_Postpone break"));
 		gtk_widget_show (priv->postpone_button);
+		
+		gtk_widget_set_sensitive (priv->postpone_button, FALSE);
 
+		if (priv->postpone_sensitize_id) {
+			g_source_remove (priv->postpone_sensitize_id);
+		}
+		
+		priv->postpone_sensitize_id = g_timeout_add (500,
+							     (GSourceFunc) postpone_sensitize_cb,
+							     window);
+	
 		g_signal_connect (priv->postpone_button,
 				  "clicked",
 				  G_CALLBACK (postpone_clicked_cb),
@@ -216,11 +225,6 @@ drw_break_window_init (DrwBreakWindow *window)
 		
 		gtk_box_pack_end (GTK_BOX (button_box), priv->postpone_button, FALSE, TRUE, 0);
 
-		priv->postpone_entry = gtk_entry_new ();
-		gtk_entry_set_has_frame (GTK_ENTRY (priv->postpone_entry), FALSE);
-
-		gtk_box_pack_end (GTK_BOX (button_box), priv->postpone_entry, FALSE, TRUE, 4);
-		
 		gtk_box_pack_end (GTK_BOX (outer_vbox), button_box, FALSE, TRUE, 0);
 	}
 	
@@ -298,8 +302,8 @@ drw_break_window_finalize (GObject *object)
 		g_source_remove (priv->clock_timeout_id);
 	}
 
-	if (priv->postpone_timeout_id != 0) {
-		g_source_remove (priv->postpone_timeout_id);
+	if (priv->postpone_sensitize_id != 0) {
+		g_source_remove (priv->postpone_sensitize_id);
 	}
 	
 	g_free (priv);
@@ -323,11 +327,10 @@ drw_break_window_dispose (GObject *object)
 		priv->clock_timeout_id = 0;
 	}
 
-	if (priv->postpone_timeout_id != 0) {
-		g_source_remove (priv->postpone_timeout_id);
-		priv->postpone_timeout_id = 0;
+	if (priv->postpone_sensitize_id != 0) {
+		g_source_remove (priv->postpone_sensitize_id);
 	}
-
+	
         if (G_OBJECT_CLASS (parent_class)->dispose) {
                 (* G_OBJECT_CLASS (parent_class)->dispose) (object);
         }
@@ -337,6 +340,19 @@ GtkWidget *
 drw_break_window_new (void)
 {
 	return g_object_new (DRW_TYPE_BREAK_WINDOW, NULL);
+}
+
+static gboolean
+postpone_sensitize_cb (DrwBreakWindow *window)
+{
+	DrwBreakWindowPriv *priv;
+
+	priv = window->priv;
+
+	gtk_widget_set_sensitive (priv->postpone_button, TRUE);
+
+	priv->postpone_sensitize_id = 0;
+	return FALSE;
 }
 
 static gboolean
@@ -362,7 +378,6 @@ clock_timeout_cb (DrwBreakWindow *window)
 		priv->clock_timeout_id = 0;
 
 		g_signal_emit (window, signals[DONE], 0, NULL);
-		//gtk_widget_destroy (GTK_WIDGET (window));
 
 		return FALSE;
 	}
@@ -377,27 +392,6 @@ clock_timeout_cb (DrwBreakWindow *window)
 	g_free (txt);
 
 	return TRUE;
-}
-
-static void
-postpone_entry_activate_cb (GtkWidget      *entry,
-			  DrwBreakWindow *window)
-{
-	const gchar *str;
-	const gchar *phrase;
-
-	str = gtk_entry_get_text (GTK_ENTRY (entry));
-
-	phrase = gconf_client_get_string (gconf_client_get_default (),
-					  GCONF_PATH "/unlock_phrase",
-					  NULL);
-	
-	if (!strcmp (str, phrase)) {
-		g_signal_emit (window, signals[POSTPONE], 0, NULL);
-		return;
-	}
-
-	gtk_entry_set_text (GTK_ENTRY (entry), "");
 }
 
 static gboolean
@@ -421,86 +415,11 @@ grab_on_window (GdkWindow *window,
 	return FALSE;
 }
 
-static gboolean
-postpone_cancel_cb (DrwBreakWindow *window)
-{
-	DrwBreakWindowPriv *priv;
-
-	priv = window->priv;
-
-	gtk_entry_set_text (GTK_ENTRY (priv->postpone_entry), "");
-	gtk_widget_hide (priv->postpone_entry);
-
-	priv->postpone_timeout_id = 0;
-	
-	return FALSE;
-}
-
-static gboolean
-postpone_entry_key_press_event_cb (GtkEntry       *entry,
-				 GdkEventKey    *event,
-				 DrwBreakWindow *window)
-{
-	DrwBreakWindowPriv *priv;
-
-	priv = window->priv;
-
-	if (event->keyval == GDK_Escape) {
-		if (priv->postpone_timeout_id) {
-			g_source_remove (priv->postpone_timeout_id);
-		}
-		
-		postpone_cancel_cb (window);
-
-		return TRUE;
-	}
-	
-	g_source_remove (priv->postpone_timeout_id);
-	
-	priv->postpone_timeout_id = g_timeout_add (POSTPONE_CANCEL, (GSourceFunc) postpone_cancel_cb, window);
-
-	return FALSE;
-}
-
 static void
 postpone_clicked_cb (GtkWidget *button,
 		   GtkWidget *window)
 {
-	DrwBreakWindow     *bw = DRW_BREAK_WINDOW (window);
-	DrwBreakWindowPriv *priv = bw->priv;
-	gchar              *phrase;
-	
-	/* Disable the phrase for now. */
-	phrase = NULL; /*gconf_client_get_string (gconf_client_get_default (),
-					  GCONF_PATH "/unlock_phrase",
-					  NULL);*/
-
-	if (!phrase || !phrase[0]) {
-		g_signal_emit (window, signals[POSTPONE], 0, NULL);
-		return;
-	}
-
-	if (GTK_WIDGET_VISIBLE (priv->postpone_entry)) {
-		gtk_widget_activate (priv->postpone_entry);
-		return;
-	}
-	
-	gtk_widget_show (priv->postpone_entry);
-
-	priv->postpone_timeout_id = g_timeout_add (POSTPONE_CANCEL, (GSourceFunc) postpone_cancel_cb, bw);
-
-	grab_on_window (priv->postpone_entry->window,  gtk_get_current_event_time ());
-	gtk_widget_grab_focus (priv->postpone_entry);
-
-	g_signal_connect (priv->postpone_entry,
-			  "activate",
-			  G_CALLBACK (postpone_entry_activate_cb),
-			  bw);
-
-	g_signal_connect (priv->postpone_entry,
-			  "key_press_event",
-			  G_CALLBACK (postpone_entry_key_press_event_cb),
-			  bw);
+	g_signal_emit (window, signals[POSTPONE], 0, NULL);
 }
 
 static void

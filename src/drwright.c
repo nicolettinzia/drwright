@@ -395,6 +395,14 @@ maybe_change_state (DrWright *dr)
 		break;
 		
 	case STATE_BREAK_SETUP:
+		/* Don't allow more than one break window to coexist, can happen
+		 * if a break is manually enforced.
+		 */
+		if (dr->break_window) {
+			dr->state = STATE_BREAK;
+			break;
+		}
+		
 		stop_blinking (dr);
 		gtk_image_set_from_pixbuf (GTK_IMAGE (dr->icon_image), dr->red_bar);
 
