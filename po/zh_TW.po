@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright 0.16\n"
-"POT-Creation-Date: 2003-05-28 06:10+0800\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-05-28 07:36+0800\n"
 "Last-Translator: Abel Cheung <maddog@linux.org.hk>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -132,23 +132,32 @@ msgstr "是否結束 DrWright？"
 msgid "Don't forget to take regular breaks."
 msgstr "請勿忘記定時休息一下。"
 
-#: src/drwright.c:637
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+msgid "Quit"
+msgstr ""
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "關於 DrWright"
 
-#: src/drwright.c:661
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "在使用電腦時發出休息提示的小工具。"
 
-#: src/drwright.c:662
-msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
+#: src/drwright.c:670
+#, fuzzy
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "由 Richard Hult &lt;richard@codefactory.se&gt; 編寫"
 
-#: src/drwright.c:663
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "由 Anders Carlsson 加入視覺效果"
 
-#: src/drwright.c:822
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "休息提示"
 

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-05-19 23:49+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 1003-03-06 12:05+0100\n"
 "Last-Translator: Jarosaw Messer wierad <messer@messer.homelinux.org>\n"
 "Language-Team: Jarosaw Messer wierad <messer@messer.homelinux.org>\n"
@@ -13,63 +13,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glade/drw-preferences.glade.h:1
-msgid "*"
+msgid "    "
 msgstr ""
 
 #: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>C_zas ostrzeenia:</b>"
+msgid "*"
+msgstr ""
 
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>M_etoda ostrzeenia:</b>"
-
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
+#, fuzzy
+msgid "<b>Break</b>"
 msgstr "<b>_Czas przerwy:</b>"
 
-#: data/glade/drw-preferences.glade.h:5
+#: data/glade/drw-preferences.glade.h:4
 #, fuzzy
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Odblokuj:</b>"
+msgid "<b>Work</b>"
+msgstr "<b>C_zas Pracy:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr ""
 
 #: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>C_zas Pracy:</b>"
+msgid "DrWright Preferences"
+msgstr "DrWright Waciwoci"
 
 #: data/glade/drw-preferences.glade.h:7
 #, fuzzy
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgid "Duration of the break when typing is disallowed"
 msgstr ""
 "<span size=\"small\">interdit.\n"
 "</span>"
 
 #: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
+#, fuzzy
+msgid "Duration of warning before starting a break"
 msgstr "<span size=\"small\">Okres ostrzeenia przez rozpoczciem przerwy</span>"
 
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
+#: data/glade/drw-preferences.glade.h:9
+#, fuzzy
+msgid "Duration of work before forcing a break"
 msgstr ""
 "<span size=\"small\">Okres pracy przed wymuszeniem przerwy\n"
 "</span>"
 
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr ""
+
 #: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Pozwl na odblokowanie uywajc frazy:"
+#, fuzzy
+msgid "_Break interval lasts"
+msgstr "<b>_Czas przerwy:</b>"
 
 #: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Wywietlaj okno z ostrzeeniem"
+#, fuzzy
+msgid "_Warning time is"
+msgstr "<b>C_zas ostrzeenia:</b>"
 
 #: data/glade/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright Waciwoci"
+#, fuzzy
+msgid "_Work interval lasts"
+msgstr "<b>C_zas Pracy:</b>"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -90,94 +99,123 @@ msgstr ""
 "przyciskiem myszy na swoim panelu i wybierajc 'Add to panel -> Utilities -> "
 "Notification area'."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Wczone"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+#, fuzzy
+msgid "/_Take a Break"
+msgstr "Czas na przerw!"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Waciwoci"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "_O..."
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr ""
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "Zblia si przerwa!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Przerwa!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Wyczone"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minut do nastpnej przerwy"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Jedna minuta do nastpnej przerwy"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+#, fuzzy
+msgid "Less than one minute until the next break"
+msgstr "Jedna minuta do nastpnej przerwy"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Zamkn DrWright?"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 #, fuzzy
 msgid "Don't forget to take regular breaks."
 msgstr "Nie zapominaj robi regularnych przerw."
 
-#: src/drwright.c:687
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/_Wyjcie"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "O DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:711
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Program do przypominania o przerwach w pracy z komputerem."
 
-#: src/drwright.c:712
+#: src/drwright.c:670
 #, fuzzy
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Stworzony przez Richard Hult %lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:713
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Grafika stworzona przez Andres Carlsson"
 
-#: src/drwright.c:826
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Program do przypominania o przerwach"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Odblokuj"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr ""
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Czas na przerw!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Zaawansowane"
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>M_etoda ostrzeenia:</b>"
+
+#, fuzzy
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>_Odblokuj:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Pozwl na odblokowanie uywajc frazy:"
+
+#~ msgid "Display warning window "
+#~ msgstr "Wywietlaj okno z ostrzeeniem"
+
+#~ msgid "Break coming up!"
+#~ msgstr "Zblia si przerwa!"
+
+#~ msgid "Break!"
+#~ msgstr "Przerwa!"
+
+#~ msgid "Unlock"
+#~ msgstr "Odblokuj"
+
+#~ msgid "Advanced"
+#~ msgstr "Zaawansowane"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
 
 #~ msgid "(C) Copyright 2002, CodeFactory"
 #~ msgstr "(C) Copyright 2002, CodeFactory"
-
-#~ msgid "/_Quit"
-#~ msgstr "/_Wyjcie"
 
 #~ msgid "Done"
 #~ msgstr "Gotowe."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-05-19 23:49+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-03-08 13:18+0900\n"
 "Last-Translator: Kang Jeong-Hee <Keizi@mail.co.kr>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -15,57 +15,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr ""
-
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
+msgid "<b>Break</b>"
 msgstr ""
 
 #: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr ""
-
-#: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
+#, fuzzy
+msgid "<b>Work</b>"
 msgstr "<b>해제(_U):</b>"
 
-#: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
 msgstr ""
 
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "DrWright 설정"
+
 #: data/glade/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgid "Duration of the break when typing is disallowed"
 msgstr ""
 
 #: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
+msgid "Duration of warning before starting a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
 msgstr ""
 
 #: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
+msgid "Optional phrase to use for postponing a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
 msgstr ""
 
 #: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "다음 문구를 치면 해제되게 합니다:"
+msgid "_Break interval lasts"
+msgstr ""
 
 #: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "안내 창 표시"
+msgid "_Warning time is"
+msgstr ""
 
 #: data/glade/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright 설정"
+msgid "_Work interval lasts"
+msgstr ""
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -85,89 +89,111 @@ msgstr ""
 "패널에서 오른쪽 버튼을 클릭해 '패널에 추가 -> 유틸리티 -> 알림 구역'으로추가"
 "할 수 있습니다."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/켜짐(_E)"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+#, fuzzy
+msgid "/_Take a Break"
+msgstr "좀 쉬세요!"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/설정(_P)"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/정보(_A)"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr ""
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "쉴 시간 다 됐어요!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "쉬세요!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "꺼짐"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "다음 쉴 때까지 %d 분 남았습니다"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "쉴 때까지 일 분 남았습니다"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+#, fuzzy
+msgid "Less than one minute until the next break"
+msgstr "쉴 때까지 일 분 남았습니다"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "DrWright를 끝낼까요?"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "규칙적으로 쉬는 거 잊지 마세요."
 
-#: src/drwright.c:687
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/끝냄(_Q)"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "DrWright 정보"
 
-#: src/drwright.c:711
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "컴퓨터가 쉴 때를 알려줍니다."
 
-#: src/drwright.c:712
+#: src/drwright.c:670
 #, fuzzy
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Richard Hult &lt;richard@imendo.com&gt;가만들었습니다."
 
-#: src/drwright.c:713
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Anders Carlsson가 모양을 냈습니다."
 
-#: src/drwright.c:826
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "쉴 때를 알려줍니다"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "해제"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr ""
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "좀 쉬세요!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "확장"
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "다음 문구를 치면 해제되게 합니다:"
+
+#~ msgid "Display warning window "
+#~ msgstr "안내 창 표시"
+
+#~ msgid "Break coming up!"
+#~ msgstr "쉴 시간 다 됐어요!"
+
+#~ msgid "Break!"
+#~ msgstr "쉬세요!"
+
+#~ msgid "Unlock"
+#~ msgstr "해제"
+
+#~ msgid "Advanced"
+#~ msgstr "확장"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
 
 #~ msgid "(C) Copyright 2002, CodeFactory"
 #~ msgstr "(C) 저작권 2002, CodeFactory"
-
-#~ msgid "/_Quit"
-#~ msgstr "/끝냄(_Q)"

@@ -45,6 +45,20 @@
     </schema>
 
   <schema>
+      <key>/schemas/apps/drwright/allow_postpone</key>
+      <applyto>/apps/drwright/allow_postpone</applyto>
+      <owner>drwright</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+         <short>Allow postponing of breaks</short>
+         <long>
+           Whether or not breaks can be cancelled and postponed.
+         </long>
+      </locale>
+    </schema>
+
+  <schema>
       <key>/schemas/apps/drwright/allow_unlock</key>
       <applyto>/apps/drwright/allow_unlock</applyto>
       <owner>drwright</owner>

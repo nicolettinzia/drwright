@@ -1,6 +1,6 @@
 # Swedish messages for DrWright.
 # Copyright (C) 2003 Free Software Foundation, Inc.
-# Richard Hult <rhult@codefactory.se>, 2003.
+# Richard Hult <richard@imendio.com>, 2003.
 # Christian Rose <menthos@menthos.com>, 2003.
 #
 # $Id$
@@ -8,9 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-06-22 00:50+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-06-22 00:51+0200\n"
-"Last-Translator: Richard Hult <rhult@codefactory.se>\n"
+"Last-Translator: Richard Hult <richard@imendio.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -135,23 +135,31 @@ msgstr "Avsluta DrWright?"
 msgid "Don't forget to take regular breaks."
 msgstr "Glöm inte att ta regelbunda pauser."
 
-#: src/drwright.c:637
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+msgid "Quit"
+msgstr ""
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "Om DrWright"
 
-#: src/drwright.c:661
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "En datorpauspåminnare."
 
-#: src/drwright.c:662
+#: src/drwright.c:670
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Skrivet av Richard Hult &lt;rhult@imendio.com&gt;"
 
-#: src/drwright.c:663
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ögongodis tillagt av Anders Carlsson"
 
-#: src/drwright.c:822
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Pauspåminnare"
 

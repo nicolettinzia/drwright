@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-05-19 23:49+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-03-05 20:22+0200\n"
 "Last-Translator: Arman Aksoy <armish@linux-sevenler.de>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -16,62 +16,73 @@ msgstr ""
 "X-Generator: KBabel 1.0\n"
 
 #: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Uyarı z_amanı:</b>"
-
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>Uyarı _biçimi:</b>"
-
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
+#, fuzzy
+msgid "<b>Break</b>"
 msgstr "<b>_Ara verme süresi:</b>"
 
-#: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Açılma:</b>"
-
-#: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
+#: data/glade/drw-preferences.glade.h:4
+#, fuzzy
+msgid "<b>Work</b>"
 msgstr "<b>_Çalışma süresi:</b>"
 
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "DrWright Tercihleri"
+
 #: data/glade/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+#, fuzzy
+msgid "Duration of the break when typing is disallowed"
 msgstr "<span size=\"small\">Yazım kapalı olduğunda aranın sürekliliği.</span>"
 
 #: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
+#, fuzzy
+msgid "Duration of warning before starting a break"
 msgstr ""
 "<span size=\"small\">Bir araya başlamadab önce gösterilecek uyarının "
 "sürekliliği.\n"
 "</span>"
 
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
+#: data/glade/drw-preferences.glade.h:9
+#, fuzzy
+msgid "Duration of work before forcing a break"
 msgstr ""
 "<span size=\"small\">Bir ara verilmeden önceki işin sürekliliği.\n"
 "</span>"
 
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr ""
+
 #: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Bu deyim ile ekranı aç:"
+#, fuzzy
+msgid "_Break interval lasts"
+msgstr "<b>_Ara verme süresi:</b>"
 
 #: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Uyarı penceresini göster "
+#, fuzzy
+msgid "_Warning time is"
+msgstr "<b>Uyarı z_amanı:</b>"
 
 #: data/glade/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright Tercihleri"
+#, fuzzy
+msgid "_Work interval lasts"
+msgstr "<b>_Çalışma süresi:</b>"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -91,89 +102,117 @@ msgstr ""
 "bir bilgilendirme alanı bulunamadı. Panelinize sağ tıklayarak, 'Panele Ekle  "
 ">  Araçlar  >  Bilgilendirme alanı' ile bu bölgeyi kullanabilirsiniz."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Açık"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+#, fuzzy
+msgid "/_Take a Break"
+msgstr "Ara ver!"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/Ter_cihler"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/_Hakkında"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr ""
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "Ara veriliyor!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Ara!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Kapalı"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "Bir sonraki araya %d dakika var"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Bir sonraki araya bir dakika var"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+#, fuzzy
+msgid "Less than one minute until the next break"
+msgstr "Bir sonraki araya bir dakika var"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "DrWright'tan çıkmak istiyor musun?"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "Düzenli ara vermeyi unutmayın."
 
-#: src/drwright.c:687
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/_Çık"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "DrWright Hakkında"
 
-#: src/drwright.c:711
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Bilgisayar arası vermek için hatırlatıcı."
 
-#: src/drwright.c:712
+#: src/drwright.c:670
 #, fuzzy
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Richard Hult &lt;richard@imendo.com&gt; tarafından yazılmıştır"
 
-#: src/drwright.c:713
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Göz şekeri Anders Carlsson tarafından eklenmiştir"
 
-#: src/drwright.c:826
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Ara hatırlatıcısı"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Aç"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr ""
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Ara ver!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Gelişmiş"
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>Uyarı _biçimi:</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>_Açılma:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Bu deyim ile ekranı aç:"
+
+#~ msgid "Display warning window "
+#~ msgstr "Uyarı penceresini göster "
+
+#~ msgid "Break coming up!"
+#~ msgstr "Ara veriliyor!"
+
+#~ msgid "Break!"
+#~ msgstr "Ara!"
+
+#~ msgid "Unlock"
+#~ msgstr "Aç"
+
+#~ msgid "Advanced"
+#~ msgstr "Gelişmiş"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
 
 #~ msgid "(C) Copyright 2002, CodeFactory"
 #~ msgstr "(C) Copyright 2002, CodeFactory"
-
-#~ msgid "/_Quit"
-#~ msgstr "/_Çık"

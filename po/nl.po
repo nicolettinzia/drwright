@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright 0.13\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-06-14 12:12+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-05-07 18:08+0100\n"
 "Last-Translator: Luc Roobrouck <luc.roobrouck(at)pandora.be>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
 
 #: data/glade/drw-preferences.glade.h:1
 msgid "    "
@@ -135,23 +135,32 @@ msgstr "DrWright Afsluiten?"
 msgid "Don't forget to take regular breaks."
 msgstr "Vergeet niet om regelmatig te pauzeren."
 
-#: src/drwright.c:637
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/_Afsluiten"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "Over DrWright"
 
-#: src/drwright.c:661
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Een programma dat je eraan herinnert regelmatig een pauze te nemen."
 
-#: src/drwright.c:662
+#: src/drwright.c:670
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Geschreven door Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:663
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "\"Eye candy\" toegevoegd door Anders Carlsson"
 
-#: src/drwright.c:822
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Een programma dat je eraan herinnert regelmatig een pauze te nemen."
 
@@ -192,9 +201,6 @@ msgstr "Neem een pauze!"
 
 #~ msgid "(C) Copyright 2002, CodeFactory"
 #~ msgstr "(C) Copyright 2002, CodeFactory"
-
-#~ msgid "/_Quit"
-#~ msgstr "/_Afsluiten"
 
 #~ msgid "Done"
 #~ msgstr "Afgelopen"

@@ -1,3 +1,12 @@
+2003-06-24  Richard Hult  <richard@imendio.com>
+
+	* configure.in: Bump version.
+
+	* src/drwright.schemas: Add allow_postpone key.
+
+	* data/glade/drw-preferences.glade:
+	* src/drw-break-window.c: Clean up some unlock/postpone confusion.
+	
 2003-06-17  Richard Hult  <richard@imendio.com>
 
 	* src/drw-break-window.c (unlock_clicked_cb): Disable unlock

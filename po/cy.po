@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-02-28 23:06+0100\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-05-08 21:52+0100\n"
 "Last-Translator: Alan Cox <alan@redhat.com>\n"
 "Language-Team: gnome-cy <gnome-cy@pengwyn.linux.org.uk>\n"
@@ -16,162 +16,200 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/main.c:122
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+#, fuzzy
+msgid "<b>Break</b>"
+msgstr "<b>_Ysbaid toriadau:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+#, fuzzy
+msgid "<b>Work</b>"
+msgstr "<b>_Ysbaid gweithio:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "Hoffiannau DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+#, fuzzy
+msgid "Duration of the break when typing is disallowed"
+msgstr "<span size=\"small\">Hyd yr toriad pan peidiwch deipio.</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+#, fuzzy
+msgid "Duration of warning before starting a break"
+msgstr ""
+"<span size=\"small\">Hyd yr rhybudd cyn dechrawch toriad.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:9
+#, fuzzy
+msgid "Duration of work before forcing a break"
+msgstr ""
+"<span size=\"small\">Hyd y gwaith cyn bod eisiau toriad.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:12
+#, fuzzy
+msgid "_Break interval lasts"
+msgstr "<b>_Ysbaid toriadau:</b>"
+
+#: data/glade/drw-preferences.glade.h:13
+#, fuzzy
+msgid "_Warning time is"
+msgstr "<b>_Rhybudd amser:</b>"
+
+#: data/glade/drw-preferences.glade.h:14
+#, fuzzy
+msgid "_Work interval lasts"
+msgstr "<b>_Ysbaid gweithio:</b>"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "munud"
+
+#: src/main.c:128
 msgid "DrWright is already running."
 msgstr "Mae DrWright yn rhedeg yn barod."
 
-#: src/main.c:135
+#: src/main.c:141
 msgid ""
 "DrWright uses the notification area to display information. You don't seem "
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
-"Mae DrWright yn defnyddio man hysbysu i ddangos gwasanaethu. Does dim "
-"man hysbysu 'da eich panel. Gallwch chi ychwanegu hi trwy glicio-de "
-"ar y Panel a dewis 'Ychwanegu at y Panel -> Cyfleustr -> Man Hysbysu'."
+"Mae DrWright yn defnyddio man hysbysu i ddangos gwasanaethu. Does dim man "
+"hysbysu 'da eich panel. Gallwch chi ychwanegu hi trwy glicio-de ar y Panel a "
+"dewis 'Ychwanegu at y Panel -> Cyfleustr -> Man Hysbysu'."
 
-#: src/drwright.c:129
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Alluogir"
 
-#: src/drwright.c:131
+#: src/drwright.c:135
+#, fuzzy
+msgid "/_Take a Break"
+msgstr "Cymrywch toriad!"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Hoffiannau"
 
-#: src/drwright.c:132
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/_Ynghylch"
 
-#: src/drwright.c:134
-msgid "/_Quit"
-msgstr "/_Gadael"
+#: src/drwright.c:140
+msgid "/_Remove Icon"
+msgstr ""
 
-#: src/drwright.c:179
-msgid "Break coming up!"
-msgstr "Mae toriad yn dod!"
-
-#: src/drwright.c:182
-msgid "Break!"
-msgstr "Aroswch!"
-
-#: src/drwright.c:522
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Analluogwyd"
 
-#: src/drwright.c:531
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d munud nes y toriad nesaf"
 
-#: src/drwright.c:533
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Un munud nes y toriad nesaf"
 
-#: src/drwright.c:631
+#: src/drwright.c:466
+#, fuzzy
+msgid "Less than one minute until the next break"
+msgstr "Un munud nes y toriad nesaf"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Gadael DrWright?"
 
-#: src/drwright.c:632
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "Peidiwch anghofio cymryd toriadau rheolaidd."
 
-#: src/drwright.c:680
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/_Gadael"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "Ynghlych DrWright"
 
-#: src/drwright.c:705
-msgid "DrWright"
-msgstr "DrWright"
-
-#: src/drwright.c:706
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Atgof toriadau gan cyfrifadur."
 
-#: src/drwright.c:707
-msgid "Â© Copyright 2002, 2003, CodeFactory AB, Richard Hult"
-msgstr "Hawlfraint 2002, 2003, CodeFactory AB, Richard Hult"
-
-#: src/drwright.c:708
-msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
+#: src/drwright.c:670
+#, fuzzy
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Ysgrifenodd gan Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:709
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Cafodd candi llygaid ei hychwanegu gan Anders Carlsson"
 
-#: src/drwright.c:822
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Atgof toriad"
 
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr "*"
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>_Rhybudd amser:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Modd rhybuddd:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Ysbaid toriadau:</b>"
-
-#: src/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Datgloi:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>_Ysbaid gweithio:</b>"
-
-#: src/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
 msgstr ""
-"<span size=\"small\">Hyd yr toriad pan peidiwch deipio.</span>"
 
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Hyd yr rhybudd cyn dechrawch toriad.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr "<span size=\"small\">Hyd y gwaith cyn bod eisiau toriad.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Caniatau datgloi defnyddio y ymadrodd:"
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Dangos ffenest rhybudd "
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "Hoffiannau DrWright"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "munud"
-
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Datgloi"
-
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Cymrywch toriad!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Uwch"
+#~ msgid "Break coming up!"
+#~ msgstr "Mae toriad yn dod!"
+
+#~ msgid "Break!"
+#~ msgstr "Aroswch!"
+
+#~ msgid "DrWright"
+#~ msgstr "DrWright"
+
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>_Modd rhybuddd:</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>_Datgloi:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Caniatau datgloi defnyddio y ymadrodd:"
+
+#~ msgid "Display warning window "
+#~ msgstr "Dangos ffenest rhybudd "
+
+#~ msgid "Unlock"
+#~ msgstr "Datgloi"
+
+#~ msgid "Advanced"
+#~ msgstr "Uwch"

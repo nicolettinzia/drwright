@@ -30,7 +30,7 @@ typedef struct {
 	gint       break_time;
 	gint       warn_time;
 
-	gboolean   allow_unlock;
+	gboolean   allow_postpone;
 	gchar     *unlock_phrase;
 	
 	guint      notify_id;
@@ -39,8 +39,8 @@ typedef struct {
 	GtkWidget *break_sb;
 	GtkWidget *warn_sb;
 
-	GtkWidget *unlock_cb;
-	GtkWidget *unlock_entry;
+	GtkWidget *postpone_cb;
+	GtkWidget *postpone_entry;
 } DrwPreferences;
 
 extern GConfClient *client;
@@ -79,14 +79,14 @@ warn_time_changed_cb (GtkSpinButton  *sb,
 }
 
 static void
-allow_unlock_toggled_cb (GtkToggleButton *tb,
+allow_postpone_toggled_cb (GtkToggleButton *tb,
 			   DrwPreferences  *prefs)
 {
 	gboolean a;
 	
 	a = gtk_toggle_button_get_active (tb);
 	
-	gconf_client_set_bool (client, "/apps/drwright/allow_unlock", a, NULL);
+	gconf_client_set_bool (client, "/apps/drwright/allow_postpone", a, NULL);
 }
 
 static void
@@ -122,12 +122,12 @@ warn_time_update (DrwPreferences *prefs)
 }
 
 static void
-allow_unlock_update (DrwPreferences *prefs)
+allow_postpone_update (DrwPreferences *prefs)
 {
-	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (prefs->unlock_cb),
-				      prefs->allow_unlock);
+	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (prefs->postpone_cb),
+				      prefs->allow_postpone);
 
-	gtk_widget_set_sensitive (prefs->unlock_entry, prefs->allow_unlock);
+	gtk_widget_set_sensitive (prefs->postpone_entry, prefs->allow_postpone);
 }
 
 static void
@@ -140,7 +140,7 @@ unlock_phrase_update (DrwPreferences *prefs)
 		str = "";
 	}
 	
-	gtk_entry_set_text (GTK_ENTRY (prefs->unlock_entry),
+	gtk_entry_set_text (GTK_ENTRY (prefs->postpone_entry),
 			    str);
 }
 
@@ -172,10 +172,10 @@ gconf_notify_cb (GConfClient *client,
 			warn_time_update (prefs);
 		}
 	}
-	else if (!strcmp (entry->key, "/apps/drwright/allow_unlock")) {
+	else if (!strcmp (entry->key, "/apps/drwright/allow_postpone")) {
 		if (entry->value->type == GCONF_VALUE_BOOL) {
-			prefs->allow_unlock = gconf_value_get_bool (entry->value);
-			allow_unlock_update (prefs);
+			prefs->allow_postpone = gconf_value_get_bool (entry->value);
+			allow_postpone_update (prefs);
 		}
 	}
 	else if (!strcmp (entry->key, "/apps/drwright/unlock_phrase")) {
@@ -223,8 +223,8 @@ drw_preferences_new (void)
 	prefs->warn_time = gconf_client_get_int (
 		client, "/apps/drwright/warn_time", NULL);
 	
-	prefs->allow_unlock = gconf_client_get_bool (
-		client, "/apps/drwright/allow_unlock", NULL);
+	prefs->allow_postpone = gconf_client_get_bool (
+		client, "/apps/drwright/allow_postpone", NULL);
 	
 	prefs->unlock_phrase = g_strdup (gconf_client_get_string (
 		client, "/apps/drwright/unlock_phrase", NULL));
@@ -256,18 +256,18 @@ drw_preferences_new (void)
 			  G_CALLBACK (warn_time_changed_cb),
 			  prefs);
 
-	prefs->unlock_entry = glade_xml_get_widget (glade, "unlock_entry");
+	prefs->postpone_entry = glade_xml_get_widget (glade, "unlock_entry");
 	unlock_phrase_update (prefs);
-	g_signal_connect (prefs->unlock_entry,
+	g_signal_connect (prefs->postpone_entry,
 			  "changed",
 			  G_CALLBACK (unlock_phrase_changed_cb),
 			  prefs);
 
-	prefs->unlock_cb = glade_xml_get_widget (glade, "unlock_checkbutton");
-	allow_unlock_update (prefs);
-	g_signal_connect (prefs->unlock_cb,
+	prefs->postpone_cb = glade_xml_get_widget (glade, "postpone_checkbutton");
+	allow_postpone_update (prefs);
+	g_signal_connect (prefs->postpone_cb,
 			  "toggled",
-			  G_CALLBACK (allow_unlock_toggled_cb),
+			  G_CALLBACK (allow_postpone_toggled_cb),
 			  prefs);
 
 	g_signal_connect (dialog,
@@ -284,7 +284,7 @@ drw_preferences_new (void)
 	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "type_pad_label"));
 	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "warn_pad_label"));
 	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "break_pad_label"));
-	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "unlock_pad_label"));
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "postpone_pad_label"));
 	g_object_unref (group);
 
 	group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);

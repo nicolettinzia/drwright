@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright.HEAD.es\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-06-18 03:55+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-06-18 18:07+0000\n"
 "Last-Translator: Francisco Javier F. Serrador <serrador@arrakis.es>\n"
 "Language-Team: Spanish <traductores@es.gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Generator: KBabel 1.0.1\n"
 
 #: data/glade/drw-preferences.glade.h:1
@@ -87,9 +87,9 @@ msgid ""
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
 "DrWright usa el área de notificación para mostrar información. No parece "
-"tener un área de notificación en su panel. Puede añadir una pulsando "
-"con el botón derecho del ratón sobre su panel y eligiendo: "
-"«Añadir al panel ->Utilidades -> Área de notificación»."
+"tener un área de notificación en su panel. Puede añadir una pulsando con el "
+"botón derecho del ratón sobre su panel y eligiendo: «Añadir al panel -"
+">Utilidades -> Área de notificación»."
 
 #: src/drwright.c:134
 msgid "/_Enabled"
@@ -136,23 +136,32 @@ msgstr "Finalizar DrWright?"
 msgid "Don't forget to take regular breaks."
 msgstr "No olvide descansar regularmente."
 
-#: src/drwright.c:637
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/_Salir"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "Acerca de DrWright"
 
-#: src/drwright.c:661
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Recuerda tomar descansos del ordenador."
 
-#: src/drwright.c:662
+#: src/drwright.c:670
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Escrito por Richard Hult &lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:663
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Interfaz más agradable añadida por Anders Carlsson"
 
-#: src/drwright.c:822
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Recordador de descansos"
 
@@ -194,9 +203,6 @@ msgstr "TÃ³mate un descanso!"
 #~ msgid "(C) Copyright 2002, CodeFactory"
 #~ msgstr "(C) Copyright 2002, CodeFactory"
 
-#~ msgid "/_Quit"
-#~ msgstr "/_Salir"
-
 #~ msgid ""
 #~ "<span size=\"small\">Warn about upcoming break with a window.\n"
 #~ "</span>"
@@ -207,4 +213,3 @@ msgstr "TÃ³mate un descanso!"
 
 #~ msgid "Done"
 #~ msgstr "Hecho"
-

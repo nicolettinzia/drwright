@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.4\n"
-"POT-Creation-Date: 2003-05-24 11:52+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-05-24 19:20+0000\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
@@ -15,62 +15,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Hora _aviso:</b>"
-
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Método aviso:</b>"
-
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
+#, fuzzy
+msgid "<b>Break</b>"
 msgstr "<b>Intervalo _interrupção:</b>"
 
-#: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Destrancar:</b>"
-
-#: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
+#: data/glade/drw-preferences.glade.h:4
+#, fuzzy
+msgid "<b>Work</b>"
 msgstr "<b>Intrevalo _trabalho:</b>"
 
-#: data/glade/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
 msgstr ""
-"<span size=\"small\">Duração da interrupção durante a qual escrever não é permitido.</span>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "Preferências DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+#, fuzzy
+msgid "Duration of the break when typing is disallowed"
+msgstr ""
+"<span size=\"small\">Duração da interrupção durante a qual escrever não é "
+"permitido.</span>"
 
 #: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
+#, fuzzy
+msgid "Duration of warning before starting a break"
 msgstr ""
 "<span size=\"small\">Duração do aviso antes de iniciar uma interrupção.\n"
 "</span>"
 
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
+#: data/glade/drw-preferences.glade.h:9
+#, fuzzy
+msgid "Duration of work before forcing a break"
 msgstr ""
 "<span size=\"small\">Duração do trabalho antes de forçar uma interrupção.\n"
 "</span>"
 
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr ""
+
 #: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Permitir destrancar utilizando a frase:"
+#, fuzzy
+msgid "_Break interval lasts"
+msgstr "<b>Intervalo _interrupção:</b>"
 
 #: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Mostrar janela de aviso "
+#, fuzzy
+msgid "_Warning time is"
+msgstr "<b>Hora _aviso:</b>"
 
 #: data/glade/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "Preferências DrWright"
+#, fuzzy
+msgid "_Work interval lasts"
+msgstr "<b>Intrevalo _trabalho:</b>"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -86,84 +98,115 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
-"DrWright utiliza a área de notificação para apresentar informação. Não parece "
-"existir uma área de notificação no seu painel. Pode adiciona-la clicando com "
-"o botão direito do rato no painel e seleccionando 'Adicionar ao painel -> "
-"Utilitário -> Área de Notificação'."
+"DrWright utiliza a área de notificação para apresentar informação. Não "
+"parece existir uma área de notificação no seu painel. Pode adiciona-la "
+"clicando com o botão direito do rato no painel e seleccionando 'Adicionar ao "
+"painel -> Utilitário -> Área de Notificação'."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Activo"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+#, fuzzy
+msgid "/_Take a Break"
+msgstr "Faça um intrevalo!"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Preferências"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/_Sobre"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr "/_Remover Ícone"
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "Está a chegar um intrevalo!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Intrevalo!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Inactivo"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minutos até ao próximo intrevalo"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Um minuto até ao próximo intrevalo"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+#, fuzzy
+msgid "Less than one minute until the next break"
+msgstr "Um minuto até ao próximo intrevalo"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Terminar DrWright?"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "Não se esqueça de fazer intrevalos regulares."
 
-#: src/drwright.c:687
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+msgid "Quit"
+msgstr ""
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "Sobre DrWright"
 
-#: src/drwright.c:711
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Um lembrete de intrevalos."
 
-#: src/drwright.c:712
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
+#: src/drwright.c:670
+#, fuzzy
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Escrito por Richard Hult &lt;rhult@imendo.com&gt;"
 
-#: src/drwright.c:713
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Imagens adicionadas por Anders Carlsson"
 
-#: src/drwright.c:826
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Lembrete intrevalos"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Destrancar"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr ""
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Faça um intrevalo!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Avançado"
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>_Método aviso:</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>_Destrancar:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Permitir destrancar utilizando a frase:"
+
+#~ msgid "Display warning window "
+#~ msgstr "Mostrar janela de aviso "
+
+#~ msgid "Break coming up!"
+#~ msgstr "Está a chegar um intrevalo!"
+
+#~ msgid "Break!"
+#~ msgstr "Intrevalo!"
+
+#~ msgid "Unlock"
+#~ msgstr "Destrancar"
+
+#~ msgid "Advanced"
+#~ msgstr "Avançado"

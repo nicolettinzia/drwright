@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-06-16 11:07+0200\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-06-16 11:10+0200\n"
 "Last-Translator: Luca Ferretti <elle.uca@infinito.it>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -134,25 +134,34 @@ msgstr "Uscire da DrWright?"
 msgid "Don't forget to take regular breaks."
 msgstr "Non dimenticarsi di fare una pausa, ogni tanto."
 
-#: src/drwright.c:637
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/_Esci"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "Informazioni su DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:661
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Un promemoria per le pause dal computer."
 
-#: src/drwright.c:662
+#: src/drwright.c:670
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Sviluppato da Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:663
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Raffinatezze visive aggiunte da Anders Carlsson"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:822
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Un promemoria di pause"
 
@@ -187,9 +196,6 @@ msgstr "Fatti una pausa!"
 
 #~ msgid "Advanced"
 #~ msgstr "Avanzate"
-
-#~ msgid "/_Quit"
-#~ msgstr "/_Esci"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-02-28 23:06+0100\n"
+"POT-Creation-Date: 2003-06-24 00:30+0200\n"
 "PO-Revision-Date: 2003-05-09 13:43-0300\n"
 "Last-Translator: Gustavo Franco <stratus@acm.org>\n"
 "Language-Team:\n"
@@ -13,11 +13,85 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/main.c:122
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+#, fuzzy
+msgid "<b>Break</b>"
+msgstr "<b>_Intervalo da parada:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+#, fuzzy
+msgid "<b>Work</b>"
+msgstr "<b>I_ntervalo de trabalho:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "Prefer�ncias do DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+#, fuzzy
+msgid "Duration of the break when typing is disallowed"
+msgstr ""
+"<span size=\"small\">Dura��o da parada quando a digita��o estiver "
+"desabilitada.</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+#, fuzzy
+msgid "Duration of warning before starting a break"
+msgstr ""
+"<span size=\"small\">Dura��o do alerta antes de iniciar uma parada.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:9
+#, fuzzy
+msgid "Duration of work before forcing a break"
+msgstr ""
+"<span size=\"small\">Dura��o do trabalho antes de for�ar uma parada.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:12
+#, fuzzy
+msgid "_Break interval lasts"
+msgstr "<b>_Intervalo da parada:</b>"
+
+#: data/glade/drw-preferences.glade.h:13
+#, fuzzy
+msgid "_Warning time is"
+msgstr "<b>_Tempo de aviso:</b>"
+
+#: data/glade/drw-preferences.glade.h:14
+#, fuzzy
+msgid "_Work interval lasts"
+msgstr "<b>I_ntervalo de trabalho:</b>"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minutos"
+
+#: src/main.c:128
 msgid "DrWright is already running."
 msgstr "DrWright j� esta em execu��o."
 
-#: src/main.c:135
+#: src/main.c:141
 msgid ""
 "DrWright uses the notification area to display information. You don't seem "
 "to have a notification area on your panel. You can add it by right-clicking "
@@ -25,153 +99,120 @@ msgid ""
 msgstr ""
 "O DrWright usa a �rea de notifica��o para exibir informa��o.N�o parece que "
 "voc� tem uma �rea de notifica��o no seu painel. Voc� pode adicionar uma, "
-"clicando com o bot�o direito no seu painel e escolhendo "
-"'Adicionar ao Painel -> Utilit�rios -> Area de notifica��o'."
+"clicando com o bot�o direito no seu painel e escolhendo 'Adicionar ao Painel "
+"-> Utilit�rios -> Area de notifica��o'."
 
-#: src/drwright.c:129
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Habilitado"
 
-#: src/drwright.c:131
+#: src/drwright.c:135
+#, fuzzy
+msgid "/_Take a Break"
+msgstr "Fa�a uma parada!"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Prefer�ncias"
 
-#: src/drwright.c:132
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/_Sobre"
 
-#: src/drwright.c:134
-msgid "/_Quit"
-msgstr "/_Sair"
+#: src/drwright.c:140
+msgid "/_Remove Icon"
+msgstr ""
 
-#: src/drwright.c:179
-msgid "Break coming up!"
-msgstr "Irei parar!"
-
-#: src/drwright.c:182
-msgid "Break!"
-msgstr "Parado!"
-
-#: src/drwright.c:522
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Desabilitado"
 
-#: src/drwright.c:531
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minutos at� a pr�xima parada"
 
-#: src/drwright.c:533
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Um minuto at� a pr�xima parada"
 
-#: src/drwright.c:631
+#: src/drwright.c:466
+#, fuzzy
+msgid "Less than one minute until the next break"
+msgstr "Um minuto at� a pr�xima parada"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Sair do DrWright?"
 
-#: src/drwright.c:632
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "N�o esque�a de fazer paradas regulares."
 
-#: src/drwright.c:680
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr ""
+
+#: src/drwright.c:599
+#, fuzzy
+msgid "Quit"
+msgstr "/_Sair"
+
+#: src/drwright.c:645
 msgid "About DrWright"
 msgstr "Sobre o DrWright"
 
-#: src/drwright.c:705
-msgid "DrWright"
-msgstr "DrWright"
-
-#: src/drwright.c:706
+#: src/drwright.c:669
 msgid "A computer break reminder."
 msgstr "Um lembrete de suas paradas ao utilizar o computador."
 
-#: src/drwright.c:707
-msgid "(C) Copyright 2002, CodeFactory"
-msgstr "(C) Copyright 2002, CodeFactory"
-
-#: src/drwright.c:708
-msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
+#: src/drwright.c:670
+#, fuzzy
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Escrito por Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:709
+#: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Embelezamento adicionado por Anders Carlsson"
 
-#: src/drwright.c:822
+#: src/drwright.c:830
 msgid "Break reminder"
 msgstr "Lembrete de parada"
 
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr "*"
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>_Tempo de aviso:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Metodo de aviso:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Intervalo da parada:</b>"
-
-#: src/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Destravando:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>I_ntervalo de trabalho:</b>"
-
-#: src/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
 msgstr ""
-"<span size=\"small\">Dura��o da parada quando a digita��o estiver desabilitada.</span>"
 
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Dura��o do alerta antes de iniciar uma parada.\n"
-"</span>"
-
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Dura��o do trabalho antes de for�ar uma parada.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Habilitar destravamento, utilizando a senha: "
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Exibir janela de aviso "
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "Prefer�ncias do DrWright"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minutos"
-
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Destravar"
-
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Fa�a uma parada!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Avan�ado"
+#~ msgid "Break coming up!"
+#~ msgstr "Irei parar!"
+
+#~ msgid "Break!"
+#~ msgstr "Parado!"
+
+#~ msgid "DrWright"
+#~ msgstr "DrWright"
+
+#~ msgid "(C) Copyright 2002, CodeFactory"
+#~ msgstr "(C) Copyright 2002, CodeFactory"
+
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>_Metodo de aviso:</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>_Destravando:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Habilitar destravamento, utilizando a senha: "
+
+#~ msgid "Display warning window "
+#~ msgstr "Exibir janela de aviso "
+
+#~ msgid "Unlock"
+#~ msgstr "Destravar"
+
+#~ msgid "Advanced"
+#~ msgstr "Avan�ado"
