@@ -1,0 +1,166 @@
+# Copyright (C) 2003
+# This file is distributed under the same license as the drwright package.
+# Valek Filippov <frob@df.ru>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drwright\n"
+"POT-Creation-Date: 2003-06-26 22:54+0400\n"
+"PO-Revision-Date: 2003-06-26 23:38+0400\n"
+"Last-Translator: Valek Filippov <frob@df.ru>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>Перерыв</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>Работа</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Могут ли перерывы быть отложены"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "Настройки DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Длительность перерыва во время которого запрещен набор текста"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Длительность предупреждения до начала перерыва"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Длительность работы до принудительной перерыва"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Необязательная фраза используемая для откладывания перерыва"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "Разрешить откладывание перерывов"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "Последние интервалы между перерывами"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "Время предупреждения"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "Последние интервалы между работой"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "минут"
+
+#: src/main.c:128
+msgid "DrWright is already running."
+msgstr "DrWright уже запущен."
+
+#: src/main.c:141
+msgid ""
+"DrWright uses the notification area to display information. You don't seem "
+"to have a notification area on your panel. You can add it by right-clicking "
+"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr ""
+
+#: src/drwright.c:134
+msgid "/_Enabled"
+msgstr "/Включен"
+
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/Сделать перерыв"
+
+#: src/drwright.c:137
+msgid "/_Preferences"
+msgstr "/Настройки"
+
+#: src/drwright.c:138
+msgid "/_About"
+msgstr "/О программе"
+
+#: src/drwright.c:140
+msgid "/_Remove Icon"
+msgstr "/Удалить пиктограмму"
+
+#: src/drwright.c:443
+msgid "Disabled"
+msgstr "Отключен"
+
+#: src/drwright.c:461
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "%d минут до следующего перерыва"
+
+#: src/drwright.c:464
+msgid "One minute until the next break"
+msgstr "Одна минута до следующего перерыва"
+
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Меньше чем одна минута до следующего перерыва"
+
+#: src/drwright.c:583
+msgid "Quit DrWright?"
+msgstr "Выйти из DrWright?"
+
+#: src/drwright.c:584
+msgid "Don't forget to take regular breaks."
+msgstr "Не забывайте делать регулярные перерывы."
+
+#: src/drwright.c:595
+msgid "Don't Quit"
+msgstr "Не выходить"
+
+#: src/drwright.c:599
+msgid "Quit"
+msgstr "Выйти"
+
+#: src/drwright.c:648
+msgid "About DrWright"
+msgstr "О программе DrWright"
+
+#: src/drwright.c:672
+msgid "A computer break reminder."
+msgstr "Напоминатель о перерывах в работе."
+
+#: src/drwright.c:673
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "Написа Richard Hult &lt;richard@imendio.com&gt;"
+
+#: src/drwright.c:674
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Улучшения сделал Anders Carlsson"
+
+#: src/drwright.c:833
+msgid "Break reminder"
+msgstr "Напоминатель о перерывах"
+
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr "Отложить перерыв"
+
+#: src/drw-break-window.c:296
+msgid "Take a break!"
+msgstr "Сделать перерыв!"
