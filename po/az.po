@@ -1,0 +1,174 @@
+# drwright.HEAD.po faylının Azərbaycan dilinə tərcüməsi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Mətin Əmirov <metin@karegen.com>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drwright.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-08-23 03:48+0200\n"
+"PO-Revision-Date: 2003-08-24 22:02+0300\n"
+"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
+"Language-Team: Azerbaijani <gnome@azitt.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>Fasilə</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>İş</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Fasilələrin tə'xirə salma icazələrinin olduğunu yoxla"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "DrWright Qurğuları"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Yazma qadağan olanda fasilənin sürəkliyi"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Fasilə vermədən əvvəlki xəbərdarlığın sürəkliyi"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Fasiləyə məcbur etmədən əvvəlki iş sürəkliyi"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Fasiləni tə'xirə almaq üçün istəyə bağlı ifadə"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "Fasilələrin tə'xirə salınmasına _icazə ver"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "_Fasilənin sürəkliyi:"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "_Xəbərdarlığın sürəkliyi"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "_İşin sürəkliyi"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "dəqiqə"
+
+#: src/main.c:128
+msgid "DrWright is already running."
+msgstr "DrWright onsuz da fəaldır."
+
+#: src/main.c:141
+msgid ""
+"DrWright uses the notification area to display information. You don't seem "
+"to have a notification area on your panel. You can add it by right-clicking "
+"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr ""
+"DrWright mə'lumatı göstərmək üçün bildiriş sahəsini istifadə edir. "
+"Panelinizdə bildiriş sahəsi appleti mövcud deyil. Onu əlavə etmək üçün "
+"panelinizə sağ tıqlayıb 'Panelə Əlavə Et -> Tə'minatlar -> Bildiriş sahəsi' "
+"menyusunu seçin."
+
+#: src/drwright.c:134
+msgid "/_Enabled"
+msgstr "/_Fəal"
+
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Fasilə Ver"
+
+#: src/drwright.c:137
+msgid "/_Preferences"
+msgstr "/_Qurğular"
+
+#: src/drwright.c:138
+msgid "/_About"
+msgstr "/_Haqqında"
+
+#: src/drwright.c:140
+msgid "/_Remove Icon"
+msgstr "/_Timsalı Sil"
+
+#: src/drwright.c:443
+msgid "Disabled"
+msgstr "Qeyri-fəal"
+
+#: src/drwright.c:461
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "növbəti fasiləyə %d dəqiqə qalıb"
+
+#: src/drwright.c:464
+msgid "One minute until the next break"
+msgstr "Növbəti fasiləyə bir dəqiqə qalıb"
+
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Növbəti fasiləyə bir dəqiqədən az vaxt qalıb"
+
+#: src/drwright.c:577
+msgid "Quit DrWright?"
+msgstr "DrWright'dan Çıxılsın?"
+
+#: src/drwright.c:578
+msgid "Don't forget to take regular breaks."
+msgstr "Davamlı fasilələr almaq yadınızdan çıxmasın."
+
+#: src/drwright.c:589
+msgid "Don't Quit"
+msgstr "Çıxma"
+
+#: src/drwright.c:593
+msgid "Quit"
+msgstr "Çıx"
+
+#: src/drwright.c:642
+msgid "About DrWright"
+msgstr "DrWright Haqqında"
+
+#: src/drwright.c:667
+msgid "A computer break reminder."
+msgstr "Kopüter fasiləsini yada salan tə'minat."
+
+#: src/drwright.c:668
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "Richard Hult &lt;richard@imendio.com&gt; tərəfindən yazılıb"
+
+#: src/drwright.c:669
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Qrafika Anders Carlsson tərəfindən əlavə edilib"
+
+#: src/drwright.c:828
+msgid "Break reminder"
+msgstr "Fasilə yada salıcısı"
+
+#: src/drw-break-window.c:259
+msgid "Postpone break"
+msgstr "Fasiləni tə'xirə sal"
+
+#: src/drw-break-window.c:297
+msgid "Take a break!"
+msgstr "Fasilə ver!"
+
