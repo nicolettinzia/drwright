@@ -8,9 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-05-27 15:27+0200\n"
-"PO-Revision-Date: 2003-05-27 15:28+0200\n"
-"Last-Translator: Christian Rose <menthos@menthos.com>\n"
+"POT-Creation-Date: 2003-05-27 22:05+0200\n"
+"PO-Revision-Date: 2003-05-20 00:28+0200\n"
+"Last-Translator: Richard Hult <rhult@codefactory.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,64 +90,68 @@ msgstr ""
 "ha en sådan i din panel. Du kan lägga till en genom att högerklicka på "
 "panelen och välja \"Lägg till i panelen -> Verktyg -> Notifieringsyta\"."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Aktiverad"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Ta en paus"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Inställningar"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "_Om"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr "/_Ta bort ikon"
 
-#: src/drwright.c:438
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Inaktiverad"
 
-#: src/drwright.c:456
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minuter till nästa paus"
 
-#: src/drwright.c:459
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "En minut till nästa paus"
 
-#: src/drwright.c:461
+#: src/drwright.c:466
 msgid "Less than one minute until the next break"
 msgstr "Mindre än en minut till nästa paus"
 
-#: src/drwright.c:557
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Avsluta DrWright?"
 
-#: src/drwright.c:558
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "Glöm inte att ta regelbunda pauser."
 
-#: src/drwright.c:611
+#: src/drwright.c:637
 msgid "About DrWright"
 msgstr "Om DrWright"
 
-#: src/drwright.c:635
+#: src/drwright.c:661
 msgid "A computer break reminder."
 msgstr "En datorpauspåminnare."
 
-#: src/drwright.c:636
-msgid "Written by Richard Hult &lt;richard@codefactory.se&gt;"
-msgstr "Skrivet av Richard Hult &lt;richard@codefactory.se&gt;"
+#: src/drwright.c:662
+msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
+msgstr "Skrivet av Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:637
+#: src/drwright.c:663
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ögongodis tillagt av Anders Carlsson"
 
-#: src/drwright.c:796
+#: src/drwright.c:822
 msgid "Break reminder"
 msgstr "Pauspåminnare"
 

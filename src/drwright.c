@@ -36,11 +36,12 @@
 #include "drw-preferences.h"
 #include "eggtrayicon.h"
 
-#define BLINK_TIMEOUT 200
-#define BLINK_TIMEOUT_MIN 120
+#define BLINK_TIMEOUT        200
+#define BLINK_TIMEOUT_MIN    120
 #define BLINK_TIMEOUT_FACTOR 100
 
 #define POPUP_ITEM_ENABLED 1
+#define POPUP_ITEM_BREAK   2
 
 typedef enum {
 	STATE_START,
@@ -110,6 +111,9 @@ static void     break_window_postpone_cb (GtkWidget      *window,
 static void     popup_enabled_cb         (gpointer        callback_data,
 					  guint           action,
 					  GtkWidget      *widget);
+static void     popup_break_cb           (gpointer        callback_data,
+					  guint           action,
+					  GtkWidget      *widget);
 static void     popup_preferences_cb     (gpointer        callback_data,
 					  guint           action,
 					  GtkWidget      *widget);
@@ -128,6 +132,7 @@ static void     init_tray_icon           (DrWright       *dr);
 
 static GtkItemFactoryEntry popup_items[] = {
 	{ N_("/_Enabled"),      NULL, GIF_CB (popup_enabled_cb),     POPUP_ITEM_ENABLED, "<ToggleItem>", NULL },
+	{ N_("/_Take a Break"), NULL, GIF_CB (popup_break_cb),       POPUP_ITEM_BREAK,   "<Item>",       NULL },
 	{ "/sep1",              NULL, 0,                             0,                  "<Separator>",  NULL },
 	{ N_("/_Preferences"),  NULL, GIF_CB (popup_preferences_cb), 0,                  "<StockItem>",  GTK_STOCK_PREFERENCES },
 	{ N_("/_About"),        NULL, GIF_CB (popup_about_cb),       0,                  "<StockItem>",  GNOME_STOCK_ABOUT },
@@ -484,7 +489,8 @@ gconf_notify_cb (GConfClient *client,
 		 GConfEntry  *entry,
 		 gpointer     user_data)
 {
-	DrWright *dr = user_data;
+	DrWright  *dr = user_data;
+	GtkWidget *item;
 	
 	if (!strcmp (entry->key, "/apps/drwright/type_time")) {
 		if (entry->value->type == GCONF_VALUE_INT) {
@@ -512,6 +518,10 @@ gconf_notify_cb (GConfClient *client,
 			dr->enabled = gconf_value_get_bool (entry->value);
 			dr->state = STATE_START;
 
+			item = gtk_item_factory_get_widget_by_action (dr->popup_factory,
+								      POPUP_ITEM_BREAK);
+			gtk_widget_set_sensitive (item, dr->enabled);
+			
 			update_tooltip (dr);
 		}
 	}
@@ -526,13 +536,29 @@ popup_enabled_cb (gpointer   callback_data,
 {
 	DrWright  *dr = callback_data;
 	GtkWidget *item;
+	gboolean   enabled;
 
 	item = gtk_item_factory_get_widget_by_action (dr->popup_factory,
 						      POPUP_ITEM_ENABLED);
 
+	enabled = gtk_check_menu_item_get_active (GTK_CHECK_MENU_ITEM (item));
+
 	gconf_client_set_bool (client, "/apps/drwright/enabled",
-			       gtk_check_menu_item_get_active (GTK_CHECK_MENU_ITEM (item)),
-			       NULL);	
+			       enabled,
+			       NULL);
+}
+
+static void
+popup_break_cb (gpointer   callback_data,
+		guint      action,
+		GtkWidget *widget)
+{
+	DrWright  *dr = callback_data;
+
+	if (dr->enabled) {
+		dr->state = STATE_BREAK_SETUP;
+		maybe_change_state (dr);
+	}
 }
 
 static void
@@ -633,7 +659,7 @@ popup_about_cb (gpointer   callback_data,
 				  "<span size=\"small\">%s</span>\n"
 				  "<span size=\"small\">%s</span>\n",
 				  _("A computer break reminder."),
-				  _("Written by Richard Hult &lt;richard@codefactory.se&gt;"),
+				  _("Written by Richard Hult &lt;rhult@codefactory.se&gt;"),
 				  _("Eye candy added by Anders Carlsson"));
 	gtk_label_set_markup (GTK_LABEL (label), markup);
 	g_free (markup);
@@ -883,11 +909,12 @@ drwright_new (void)
 				       popup_items,
 				       dr);
 
-	item = gtk_item_factory_get_widget_by_action (dr->popup_factory,
-						      POPUP_ITEM_ENABLED);
-	
+	item = gtk_item_factory_get_widget_by_action (dr->popup_factory, POPUP_ITEM_ENABLED);
 	gtk_check_menu_item_set_active (GTK_CHECK_MENU_ITEM (item), dr->enabled);
 
+	item = gtk_item_factory_get_widget_by_action (dr->popup_factory, POPUP_ITEM_BREAK);
+	gtk_widget_set_sensitive (item, dr->enabled);
+	
 	dr->timer = g_timer_new ();
 	dr->idle_timer = g_timer_new ();
 	

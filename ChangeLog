@@ -1,3 +1,9 @@
+2003-05-27  Richard Hult  <rhult@codefactory.se>
+
+	* src/drwright.c (popup_break_cb): Add "take a break" feature.
+	(drwright_new, gconf_notify_cb): Make take a break item sensitive
+	only when drwright is enabled.
+
 2003-05-24  Richard Hult  <rhult@codefactory.se>
 
 	* src/disclosure-widget.[ch]: Remove.

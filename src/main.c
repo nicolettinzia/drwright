@@ -152,9 +152,9 @@ main (int argc, char *argv[])
 
 	gnome_client_set_priority (client, 70);
 	if (!debug) {
-		/* Don't respawn in debug mode. */
 		gnome_client_set_restart_style (client, GNOME_RESTART_IMMEDIATELY);
 	} else {
+		/* Don't respawn in debug mode. */
 		gnome_client_set_restart_style (client, GNOME_RESTART_IF_RUNNING);
 	}
 	
