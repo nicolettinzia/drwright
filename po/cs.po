@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright VERSION\n"
-"POT-Creation-Date: 2003-05-20 12:08+0200\n"
-"PO-Revision-Date: 2003-05-21 11:10+0200\n"
+"POT-Creation-Date: 2003-05-29 12:01+0200\n"
+"PO-Revision-Date: 2003-05-29 14:51+0200\n"
 "Last-Translator: Miloslav Trmac <mitr@volny.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,61 +15,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Čas _varování:</b>"
-
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Metoda varování:</b>"
+msgid "<b>Break</b>"
+msgstr "<b>Přestávka</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>Interval _přestávek:</b>"
+msgid "<b>Work</b>"
+msgstr "<b>Práce</b>"
 
 #: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Odemknutí:</b>"
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Zaškrtněte, pokud mohou být přestávky odloženy"
 
 #: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>Interval _práce:</b>"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr "<span size=\"small\">Délka přestávky, kdy psaní není povoleno.</span>"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Délka varování před začátkem přestávky.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Délka práce před vynucením přestávky.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Dovolit odemknutí pomocí fráze:"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Zobrazit okno varování "
-
-#: data/glade/drw-preferences.glade.h:14
 msgid "DrWright Preferences"
 msgstr "Nastavení DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Délka přestávky, kdy psaní není povoleno"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Délka varování před začátkem přestávky"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Délka práce před vynucením přestávky"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Nepovinná fráze, kterou použít pro odložení přestávky"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "_Povolit odkládání přestávek"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "Interval _přestávek trvá"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "Čas _varování je"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "Interval _práce trvá"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -89,79 +88,75 @@ msgstr ""
 "zřejmě nemáte oznamovací oblast. Můžete ji přidat kliknutím na panel pravým "
 "tlačítkem a zvolením 'Přidat na panel -> Pomůcky -> Oznamovací oblast'."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Povoleno"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Udělat si přestávku"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Nastavení"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/O _programu"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr "/_Odstranit ikonu"
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "Blíží se přestávka!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Přestávka!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Zakázáno"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minut do další přestávky"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Jedna minuta do další přestávky"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Méně než jedna minuta do další přestávky"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Ukončit DrWright?"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "Nezapomeňte si pravidelně udělat přestávku."
 
-#: src/drwright.c:687
+#: src/drwright.c:637
 msgid "About DrWright"
 msgstr "O DrWright"
 
-#: src/drwright.c:711
+#: src/drwright.c:661
 msgid "A computer break reminder."
 msgstr "Připomínač přestávek od počítače."
 
-#: src/drwright.c:712
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
-msgstr "Napsal Richard Hult &lt;rhult@imendo.com&gt;"
+#: src/drwright.c:662
+msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
+msgstr "Napsal Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:713
+#: src/drwright.c:663
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Hezkou grafiku přidal Anders Carlsson"
 
-#: src/drwright.c:826
+#: src/drwright.c:822
 msgid "Break reminder"
 msgstr "Připomenutí přestávky"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Odemknout"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr "Odložit přestávku"
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Udělejte si přestávku!"
-
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Pokročilé"
