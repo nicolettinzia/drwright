@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
 "POT-Creation-Date: 2003-06-24 00:30+0200\n"
-"PO-Revision-Date: 2003-05-08 21:52+0100\n"
-"Last-Translator: Alan Cox <alan@redhat.com>\n"
+"PO-Revision-Date: 2003-07-02 00:22+0100\n"
+"Last-Translator: Dafydd Harries <daf@parnassus.ath.cx>\n"
 "Language-Team: gnome-cy <gnome-cy@pengwyn.linux.org.uk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,71 +18,59 @@ msgstr ""
 
 #: data/glade/drw-preferences.glade.h:1
 msgid "    "
-msgstr ""
+msgstr "    "
 
 #: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
 #: data/glade/drw-preferences.glade.h:3
-#, fuzzy
 msgid "<b>Break</b>"
-msgstr "<b>_Ysbaid toriadau:</b>"
+msgstr "<b>Saib</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-#, fuzzy
 msgid "<b>Work</b>"
-msgstr "<b>_Ysbaid gweithio:</b>"
+msgstr "<b>Gwaith</b>"
 
 #: data/glade/drw-preferences.glade.h:5
 msgid "Check if breaks are allowed to be postponed"
-msgstr ""
+msgstr "Gwirio os ceir gohirio seibiau"
 
 #: data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
-msgstr "Hoffiannau DrWright"
+msgstr "Hoffterau DrWright"
 
 #: data/glade/drw-preferences.glade.h:7
-#, fuzzy
 msgid "Duration of the break when typing is disallowed"
-msgstr "<span size=\"small\">Hyd yr toriad pan peidiwch deipio.</span>"
+msgstr "Hyd y saib pan mae teipio wedi ei wahardd"
 
 #: data/glade/drw-preferences.glade.h:8
-#, fuzzy
 msgid "Duration of warning before starting a break"
-msgstr ""
-"<span size=\"small\">Hyd yr rhybudd cyn dechrawch toriad.\n"
-"</span>"
+msgstr "Hyd y rhybudd cyn ddechrau saib"
 
 #: data/glade/drw-preferences.glade.h:9
-#, fuzzy
 msgid "Duration of work before forcing a break"
-msgstr ""
-"<span size=\"small\">Hyd y gwaith cyn bod eisiau toriad.\n"
-"</span>"
+msgstr "Hyd y gwaith cyn gorfodi rhybudd"
 
 #: data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
-msgstr ""
+msgstr "Y mynegiad opsiynnol i'w ddefnyddio ar gyfer gohirio saib"
 
 #: data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
-msgstr ""
+msgstr "_Caniatau gohirio seibiau"
 
 #: data/glade/drw-preferences.glade.h:12
-#, fuzzy
 msgid "_Break interval lasts"
-msgstr "<b>_Ysbaid toriadau:</b>"
+msgstr "_Hyd ysbaid seibiau"
 
 #: data/glade/drw-preferences.glade.h:13
-#, fuzzy
 msgid "_Warning time is"
-msgstr "<b>_Rhybudd amser:</b>"
+msgstr "Amser _rhybuddio yw"
 
 #: data/glade/drw-preferences.glade.h:14
-#, fuzzy
 msgid "_Work interval lasts"
-msgstr "<b>_Ysbaid gweithio:</b>"
+msgstr "Ysbaid _gweithio yn para"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -90,7 +78,7 @@ msgstr "munud"
 
 #: src/main.c:128
 msgid "DrWright is already running."
-msgstr "Mae DrWright yn rhedeg yn barod."
+msgstr "Mae DrWright yn rhedeg eisioes."
 
 #: src/main.c:141
 msgid ""
@@ -98,22 +86,21 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
-"Mae DrWright yn defnyddio man hysbysu i ddangos gwasanaethu. Does dim man "
-"hysbysu 'da eich panel. Gallwch chi ychwanegu hi trwy glicio-de ar y Panel a "
-"dewis 'Ychwanegu at y Panel -> Cyfleustr -> Man Hysbysu'."
+"Mae DrWright yn defnyddio man hysbysu i ddangos gwybodaeth. Mae'n ymddangos "
+"nad oes man hysbysu gan eich panel. Gallwch chi ychwanegu un trwy de-glicio "
+"ar y Panel a dewis 'Ychwanegu at y Panel -> Cyfleuster -> Man Hysbysu'."
 
 #: src/drwright.c:134
 msgid "/_Enabled"
-msgstr "/_Alluogir"
+msgstr "/_Galluogi"
 
 #: src/drwright.c:135
-#, fuzzy
 msgid "/_Take a Break"
-msgstr "Cymrywch toriad!"
+msgstr "/_Cymryd Saib"
 
 #: src/drwright.c:137
 msgid "/_Preferences"
-msgstr "/_Hoffiannau"
+msgstr "/_Hoffterau"
 
 #: src/drwright.c:138
 msgid "/_About"
@@ -121,7 +108,7 @@ msgstr "/_Ynghylch"
 
 #: src/drwright.c:140
 msgid "/_Remove Icon"
-msgstr ""
+msgstr "/_Tynnu'r Eicon"
 
 #: src/drwright.c:443
 msgid "Disabled"
@@ -130,16 +117,15 @@ msgstr "Analluogwyd"
 #: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
-msgstr "%d munud nes y toriad nesaf"
+msgstr "%d munud nes y saib nesaf"
 
 #: src/drwright.c:464
 msgid "One minute until the next break"
-msgstr "Un munud nes y toriad nesaf"
+msgstr "Un munud nes y saib nesaf"
 
 #: src/drwright.c:466
-#, fuzzy
 msgid "Less than one minute until the next break"
-msgstr "Un munud nes y toriad nesaf"
+msgstr "Llai nag un munud nes y saib nesaf"
 
 #: src/drwright.c:583
 msgid "Quit DrWright?"
@@ -147,16 +133,15 @@ msgstr "Gadael DrWright?"
 
 #: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
-msgstr "Peidiwch anghofio cymryd toriadau rheolaidd."
+msgstr "Peidiwch anghofio cymryd seibiau rheolaidd."
 
 #: src/drwright.c:595
 msgid "Don't Quit"
-msgstr ""
+msgstr "Peidio Gadel"
 
 #: src/drwright.c:599
-#, fuzzy
 msgid "Quit"
-msgstr "/_Gadael"
+msgstr "Gadael"
 
 #: src/drwright.c:645
 msgid "About DrWright"
@@ -164,28 +149,27 @@ msgstr "Ynghlych DrWright"
 
 #: src/drwright.c:669
 msgid "A computer break reminder."
-msgstr "Atgof toriadau gan cyfrifadur."
+msgstr "Atgof seibiau cyfrifadur."
 
 #: src/drwright.c:670
-#, fuzzy
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Ysgrifenodd gan Richard Hult &lt;rhult@codefactory.se&gt;"
+msgstr "Ysgrifennwyd gan Richard Hult &lt;richard@imendio.com&gt;"
 
 #: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
-msgstr "Cafodd candi llygaid ei hychwanegu gan Anders Carlsson"
+msgstr "Ychwannegwyd melysion llygaid gan Anders Carlsson"
 
 #: src/drwright.c:830
 msgid "Break reminder"
-msgstr "Atgof toriad"
+msgstr "Atgof saib"
 
 #: src/drw-break-window.c:258
 msgid "Postpone break"
-msgstr ""
+msgstr "Gohirio saib"
 
 #: src/drw-break-window.c:296
 msgid "Take a break!"
-msgstr "Cymrywch toriad!"
+msgstr "Cymrwch saib!"
 
 #~ msgid "Break coming up!"
 #~ msgstr "Mae toriad yn dod!"
