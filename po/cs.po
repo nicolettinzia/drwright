@@ -1,14 +1,15 @@
 # Czech translation of drwright.
-# Copyright (C) 2003 drwright's COPYRIGHT HOLDER
+# Copyright (C) 2003, 2004 drwright's COPYRIGHT HOLDER
+# Copyright (C) 2004 Miloslav Trmac <mitr@volny.cz>
 # This file is distributed under the same license as the drwright package.
-# Miloslav Trmac <mitr@volny.cz>, 2003.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-01-24 03:26+0100\n"
-"PO-Revision-Date: 2003-06-24 17:36+0200\n"
+"POT-Creation-Date: 2004-02-02 14:22+0100\n"
+"PO-Revision-Date: 2004-02-02 18:33+0100\n"
 "Last-Translator: Miloslav Trmac <mitr@volny.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -109,63 +110,63 @@ msgstr "/O _programu"
 msgid "/_Remove Icon"
 msgstr "/_Odstranit ikonu"
 
-#: src/drwright.c:451
+#: src/drwright.c:467
 msgid "Disabled"
 msgstr "Zakázáno"
 
-#: src/drwright.c:469
+#: src/drwright.c:485
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minut do další přestávky"
 
-#: src/drwright.c:472
+#: src/drwright.c:488
 msgid "One minute until the next break"
 msgstr "Jedna minuta do další přestávky"
 
-#: src/drwright.c:474
+#: src/drwright.c:490
 msgid "Less than one minute until the next break"
 msgstr "Méně než jedna minuta do další přestávky"
 
-#: src/drwright.c:585
+#: src/drwright.c:601
 msgid "Quit DrWright?"
 msgstr "Ukončit DrWright?"
 
-#: src/drwright.c:586
+#: src/drwright.c:602
 msgid "Don't forget to take regular breaks."
 msgstr "Nezapomeňte si pravidelně udělat přestávku."
 
-#: src/drwright.c:597
+#: src/drwright.c:613
 msgid "Don't Quit"
 msgstr "Nekončit"
 
-#: src/drwright.c:601
+#: src/drwright.c:617
 msgid "Quit"
 msgstr "Skončit"
 
-#: src/drwright.c:650
+#: src/drwright.c:666
 msgid "About DrWright"
 msgstr "O DrWright"
 
-#: src/drwright.c:675
+#: src/drwright.c:691
 msgid "A computer break reminder."
 msgstr "Připomínač přestávek od počítače."
 
-#: src/drwright.c:676
+#: src/drwright.c:692
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Napsal Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:677
+#: src/drwright.c:693
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Hezkou grafiku přidal Anders Carlsson"
 
-#: src/drwright.c:844
+#: src/drwright.c:860
 msgid "Break reminder"
 msgstr "Připomenutí přestávky"
 
-#: src/drw-break-window.c:210
-msgid "Postpone break"
-msgstr "Odložit přestávku"
+#: src/drw-break-window.c:209
+msgid "_Postpone break"
+msgstr "_Odložit přestávku"
 
-#: src/drw-break-window.c:248
+#: src/drw-break-window.c:247
 msgid "Take a break!"
 msgstr "Udělejte si přestávku!"
