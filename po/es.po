@@ -1,87 +1,84 @@
+# translation of drwright.HEAD.es.po to Spanish
 # This file is distributed under the same license as the rest of DrWright.
 # By Nicols Lichtmaier <nick@technisys.com.ar>
+# Francisco Javier F. Serrador <serrador@arrakis.es>, 2003
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: DrWright 0.14\n"
-"POT-Creation-Date: 2003-05-19 23:49+0200\n"
-"PO-Revision-Date: 2003-01-22 20:25-0300\n"
-"Last-Translator: Nicols Lichtmaier <nick@technisys.com.ar>\n"
-"Language-Team: es\n"
+"Project-Id-Version: drwright.HEAD.es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-06-18 03:55+0200\n"
+"PO-Revision-Date: 2003-06-18 18:07+0000\n"
+"Last-Translator: Francisco Javier F. Serrador <serrador@arrakis.es>\n"
+"Language-Team: Spanish <traductores@es.gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
 
 #: data/glade/drw-preferences.glade.h:1
-msgid "*"
-msgstr ""
+msgid "    "
+msgstr "    "
 
 #: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Tiempo de _advertencia</b>"
+msgid "*"
+msgstr "*"
 
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Método de advertencia:</b>"
+msgid "<b>Break</b>"
+msgstr "<b>Descanso</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Duración del descanso:</b>"
+msgid "<b>Work</b>"
+msgstr "<b>Trabajo</b>"
 
 #: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>D_estrabe:</b>"
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Marcar si está permitido que se posponer descansos "
 
 #: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>Tiempo de _trabajo:</b>"
-
-#: data/glade/drw-preferences.glade.h:7
-#, fuzzy
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">Duración del descanso cuando no se permite teclear.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Duración de la advertencia antes de comenzar el "
-"descanso.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Duración del período de trabajo antes de forzar un "
-"descanso.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Permitir desbloquear, usando la frase:"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Mostrar ventana de advertencia"
-
-#: data/glade/drw-preferences.glade.h:14
 msgid "DrWright Preferences"
 msgstr "Preferencias de DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Duración del descanso cuando no se permite teclear"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Duración de la advertencia antes de comenzar el descanso"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Duración del período de trabajo antes de forzar un descanso"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Frase opcional a usar al posponer un descanso"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "_Permitir postponer descansos"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "_Intervalos de descanso que quedan"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "La hora de _advertencia es"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "Intervalos de _trabajo que quedan"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
 msgstr "minutos"
 
 #: src/main.c:128
-#, fuzzy
 msgid "DrWright is already running."
-msgstr "DrWright ya est ejecutándose."
+msgstr "DrWright ya está ejecutándose.."
 
 #: src/main.c:141
 msgid ""
@@ -89,85 +86,107 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
+"DrWright usa el área de notificación para mostrar información. No parece "
+"tener un área de notificación en su panel. Puede añadir una pulsando "
+"con el botón derecho del ratón sobre su panel y eligiendo: "
+"«Añadir al panel ->Utilidades -> Área de notificación»."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Activado"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Descansar"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Preferencias"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/_Acerca de"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
-msgstr ""
+msgstr "/_Quitar icono"
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "¡Que llega el descanso!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Descanso!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Deshabilitado"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minutos hasta el próximo descanso"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Un minuto hasta el próximo descanso"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Menos de un minuto hasta el siguiente descanso"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "Finalizar DrWright?"
 
-#: src/drwright.c:634
-#, fuzzy
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
-msgstr "No olvide tomar descansos regularmente."
+msgstr "No olvide descansar regularmente."
 
-#: src/drwright.c:687
+#: src/drwright.c:637
 msgid "About DrWright"
 msgstr "Acerca de DrWright"
 
-#: src/drwright.c:711
+#: src/drwright.c:661
 msgid "A computer break reminder."
 msgstr "Recuerda tomar descansos del ordenador."
 
-#: src/drwright.c:712
-#, fuzzy
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
+#: src/drwright.c:662
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Escrito por Richard Hult &lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:713
+#: src/drwright.c:663
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Interfaz más agradable añadida por Anders Carlsson"
 
-#: src/drwright.c:826
+#: src/drwright.c:822
 msgid "Break reminder"
 msgstr "Recordador de descansos"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Desbloquear"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr "Postponer descanso"
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "TÃ³mate un descanso!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Avanzado"
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>_Método de advertencia:</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>D_estrabe:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Permitir desbloquear, usando la frase:"
+
+#~ msgid "Display warning window "
+#~ msgstr "Mostrar ventana de advertencia"
+
+#~ msgid "Break coming up!"
+#~ msgstr "¡Que llega el descanso!"
+
+#~ msgid "Break!"
+#~ msgstr "Descanso!"
+
+#~ msgid "Unlock"
+#~ msgstr "Desbloquear"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzado"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
@@ -188,3 +207,4 @@ msgstr "Avanzado"
 
 #~ msgid "Done"
 #~ msgstr "Hecho"
+
