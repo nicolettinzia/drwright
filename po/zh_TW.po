@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright 0.16\n"
-"POT-Creation-Date: 2003-05-20 19:59+0800\n"
-"PO-Revision-Date: 2003-05-20 20:49+0800\n"
+"POT-Creation-Date: 2003-05-28 06:10+0800\n"
+"PO-Revision-Date: 2003-05-28 07:36+0800\n"
 "Last-Translator: Abel Cheung <maddog@linux.org.hk>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
@@ -14,57 +14,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>提示時間(_A)：</b>"
-
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>提示方式(_M)：</b>"
+msgid "<b>Break</b>"
+msgstr "<b>休息</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>休息時間(_B)：</b>"
+msgid "<b>Work</b>"
+msgstr "<b>工作</b>"
 
 #: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>解除封鎖(_U)：</b>"
+msgid "Check if breaks are allowed to be postponed"
+msgstr "選用這個設定可以讓您暫時放棄休息"
 
 #: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>工作時間(_W)：</b>"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr "<span size=\"small\">休息時間內不允許使用鍵盤。</span>"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr "<span size=\"small\">在休息前的指定時間發出提示。</span>"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr "<span size=\"small\">強制休息之前可工作的時間。</span>"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "可透過輸入指定字串解除封鎖："
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "顯示提示視窗"
-
-#: data/glade/drw-preferences.glade.h:14
 msgid "DrWright Preferences"
 msgstr "DrWright 偏好設定"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "指定休息時間長度，這段期間內不允許使用鍵盤"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "休息之前，在指定時間發出提示"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "強制休息之前可以工作的時間"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "可以選擇性指定的字串，用來暫時放棄休息"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "允許暫時放棄休息(_A)"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "休息時間(_B)"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "提示時間(_W)"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "工作時間(_W)"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -84,82 +87,102 @@ msgstr ""
 "可以在面板上按滑鼠右邊按鈕，然後選擇「加入至面板→公用程式→程式狀態通知區」，"
 "就可以加入程式狀態通知區。"
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/啟用(_E)"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/休息一下(_T)"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/偏好設定(_P)"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/關於(_A)"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr "/移除圖示(_R)"
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "接近休息時間！"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "休息！"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "暫停使用"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "距離休息時間還有 %d 分鐘"
 
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "距離休息時間還有 1 分鐘"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "距離休息時間少於 1 分鐘"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "是否結束 DrWright？"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "請勿忘記定時休息一下。"
 
-#: src/drwright.c:687
+#: src/drwright.c:637
 msgid "About DrWright"
 msgstr "關於 DrWright"
 
-#: src/drwright.c:711
+#: src/drwright.c:661
 msgid "A computer break reminder."
 msgstr "在使用電腦時發出休息提示的小工具。"
 
-#: src/drwright.c:712
-msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
-msgstr "由 Richard Hult &lt;richard@imendo.com&gt; 編寫"
+#: src/drwright.c:662
+msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
+msgstr "由 Richard Hult &lt;richard@codefactory.se&gt; 編寫"
 
-#: src/drwright.c:713
+#: src/drwright.c:663
 msgid "Eye candy added by Anders Carlsson"
 msgstr "由 Anders Carlsson 加入視覺效果"
 
-#: src/drwright.c:826
+#: src/drwright.c:822
 msgid "Break reminder"
 msgstr "休息提示"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "解除封鎖"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr "暫時放棄休息"
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "請休息一下！"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "進階"
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>提示方式(_M)：</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>解除封鎖(_U)：</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "可透過輸入指定字串解除封鎖："
+
+#~ msgid "Display warning window "
+#~ msgstr "顯示提示視窗"
+
+#~ msgid "Break coming up!"
+#~ msgstr "接近休息時間！"
+
+#~ msgid "Break!"
+#~ msgstr "休息！"
+
+#~ msgid "Unlock"
+#~ msgstr "解除封鎖"
+
+#~ msgid "Advanced"
+#~ msgstr "進階"
 
 #~ msgid "Done"
 #~ msgstr "完成"
