@@ -1,18 +1,78 @@
 # DrWright
 # Copyright (C) 2002 Luc Roobrouck <luc.roobrouck@pandora.be>
 # This file is distributed under the same license as the DrWright package.
-# Luc Roobrouck <luc.roobrouck@pandora.be>
+# Luc Roobrouck <luc.roobrouck(at)pandora.be>
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright 0.13\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
-"PO-Revision-Date: 2003-05-29 17:08+0100\n"
-"Last-Translator: Luc Roobrouck <luc.roobrouck@pandora.be>\n"
+"POT-Creation-Date: 2003-06-06 03:50+0200\n"
+"PO-Revision-Date: 2003-05-07 18:08+0100\n"
+"Last-Translator: Luc Roobrouck <luc.roobrouck(at)pandora.be>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>Pauze</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>Werk</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Uitstellen toestaan"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "DrWright Voorkeuren"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Tijdsduur van de pauze wanneer typen niet mogelijk is"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Tijdsduur van de waarschuwing voorafgaande aan een pauze"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Tijdsduur om te werken vooraleer te pauzeren"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Optionele zin om te gebruiken bij het uitstellen van een pauze"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "_Uitstellen van een pauze toestaan"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "_Pauze-interval duurt"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "W_aarschuwingstijd is</b>"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "_Werk-interval duurt"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minuten"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -25,151 +85,106 @@ msgid ""
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
 "DrWright gebruikt het mededelingengebied om informatie weer te geven. U "
-"heeftblijkbaar het mededelingengebied niet ingeschakeld op uw paneel. U kan "
-"dittoevoegen door met de rechtermuisknop te klikken op het paneel "
-"enToevoegen aan paneel -> Gereedschap -> Mededelingengebied te kiezen."
+"heeft blijkbaar het mededelingengebied niet ingeschakeld op uw paneel. U kan "
+"dit toevoegen door met de rechtermuisknop te klikken op het paneel en "
+"Toevoegen aan paneel -> Gereedschap -> Mededelingengebied te kiezen."
 
-#: src/drwright.c:130
+#: src/drwright.c:134
 msgid "/_Enabled"
 msgstr "/_Ingeschakeld"
 
-#: src/drwright.c:132
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Neem een pauze"
+
+#: src/drwright.c:137
 msgid "/_Preferences"
 msgstr "/_Voorkeuren"
 
-#: src/drwright.c:133
+#: src/drwright.c:138
 msgid "/_About"
 msgstr "/I_nfo"
 
-#: src/drwright.c:135
+#: src/drwright.c:140
 msgid "/_Remove Icon"
 msgstr "/Pictogram ver_wijderen"
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "Er is een pauze op komst"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Pauze!"
-
-#: src/drwright.c:523
+#: src/drwright.c:443
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
-#: src/drwright.c:532
+#: src/drwright.c:461
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minuten tot de volgende pauze"
 
-# ik schrijf '1' als cijfer omdat 'éÂén' blijkbaar niet werkt
-#: src/drwright.c:534
+#: src/drwright.c:464
 msgid "One minute until the next break"
 msgstr "Nog één minuut tot de volgende pauze"
 
-#: src/drwright.c:633
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Nog minder dan één minuut tot de volgende pauze"
+
+#: src/drwright.c:583
 msgid "Quit DrWright?"
 msgstr "DrWright Afsluiten?"
 
-#: src/drwright.c:634
+#: src/drwright.c:584
 msgid "Don't forget to take regular breaks."
 msgstr "Vergeet niet om regelmatig te pauzeren."
 
-#: src/drwright.c:687
+#: src/drwright.c:637
 msgid "About DrWright"
 msgstr "Over DrWright"
 
-#: src/drwright.c:712
+#: src/drwright.c:661
 msgid "A computer break reminder."
 msgstr "Een programma dat je eraan herinnert regelmatig een pauze te nemen."
 
-#: src/drwright.c:714
+#: src/drwright.c:662
 msgid "Written by Richard Hult &lt;rhult@codefactory.se&gt;"
 msgstr "Geschreven door Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:715
+#: src/drwright.c:663
 msgid "Eye candy added by Anders Carlsson"
 msgstr "\"Eye candy\" toegevoegd door Anders Carlsson"
 
-#: src/drwright.c:828
+#: src/drwright.c:822
 msgid "Break reminder"
 msgstr "Een programma dat je eraan herinnert regelmatig een pauze te nemen."
 
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr "*"
+#: src/drw-break-window.c:258
+msgid "Postpone break"
+msgstr "Pauze uistellen"
 
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>W_aarschuwingstijd:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>Waarschuwings_methode:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Pauze-interval:</b>"
-
-#: src/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>Ontgrendelen:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>_Werk-interval:</b>"
-
-#: src/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">Tijdsduur van de pauze wanneer typen niet mogelijk is.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Tijdsduur van de waarschuwing voorafgaande aan een "
-"pauze.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Tijdsduur om te werken vooraleer te pauzeren.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Ontgrendeling toestaan, gebruik makend van de zin:"
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Waarschuwingsvenster tonen"
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright Voorkeuren"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minuten"
-
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Ontgrendelen"
-
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:296
 msgid "Take a break!"
 msgstr "Neem een pauze!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Geavanceerd"
+#~ msgid "Break coming up!"
+#~ msgstr "Er is een pauze op komst"
+
+#~ msgid "Break!"
+#~ msgstr "Pauze!"
+
+#~ msgid "<b>Warning _method:</b>"
+#~ msgstr "<b>Waarschuwings_methode:</b>"
+
+#~ msgid "<b>_Unlocking:</b>"
+#~ msgstr "<b>Ontgrendelen:</b>"
+
+#~ msgid "Allow unlocking, using the phrase:"
+#~ msgstr "Ontgrendeling toestaan, gebruik makend van de zin:"
+
+#~ msgid "Display warning window "
+#~ msgstr "Waarschuwingsvenster tonen"
+
+#~ msgid "Unlock"
+#~ msgstr "Ontgrendelen"
+
+#~ msgid "Advanced"
+#~ msgstr "Geavanceerd"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
