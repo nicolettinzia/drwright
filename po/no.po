@@ -1,0 +1,167 @@
+# Norwegian translation of control-center (bokm�l dialect).
+# Copyright (C) 1999,2000 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999,2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: control-center 2.2.2\n"
+"POT-Creation-Date: 2003-08-24 01:42+0200\n"
+"PO-Revision-Date: 2003-08-24 01:44+0200\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian <no@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Report-Msgid-Bugs-To: \n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>Pause</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>Arbeid</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Sjekk om pauser kan utsettes"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "Brukervalg for DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Varighet for skrivepause"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Varighet for advarsel pausen starter"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Varighet på arbeidstid før tvungen pause"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "Till_at utsettelse av pauser"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "_Pauseintervallet varer"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "Tid for a_dvarsel er"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "_Arbeidsintervallet varer"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minutter"
+
+#: src/main.c:128
+msgid "DrWright is already running."
+msgstr "DrWright kjører allerede."
+
+#: src/main.c:141
+msgid ""
+"DrWright uses the notification area to display information. You don't seem "
+"to have a notification area on your panel. You can add it by right-clicking "
+"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr ""
+
+#: src/drwright.c:134
+msgid "/_Enabled"
+msgstr "/_Aktivert"
+
+#: src/drwright.c:135
+msgid "/_Take a Break"
+msgstr "/_Ta en pause"
+
+#: src/drwright.c:137
+msgid "/_Preferences"
+msgstr "/_Brukervalg"
+
+#: src/drwright.c:138
+msgid "/_About"
+msgstr "/_Om"
+
+#: src/drwright.c:140
+msgid "/_Remove Icon"
+msgstr "/Fje_rn ikon"
+
+#: src/drwright.c:443
+msgid "Disabled"
+msgstr "Slått av"
+
+#: src/drwright.c:461
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "%d minutter til neste pause"
+
+#: src/drwright.c:464
+msgid "One minute until the next break"
+msgstr "Ett minutt til neste pause"
+
+#: src/drwright.c:466
+msgid "Less than one minute until the next break"
+msgstr "Mindre enn ett minutt til neste pause"
+
+#: src/drwright.c:577
+msgid "Quit DrWright?"
+msgstr "Avslutt DrWright?"
+
+#: src/drwright.c:578
+msgid "Don't forget to take regular breaks."
+msgstr "Ikke glem å ta jevnlige pauser."
+
+#: src/drwright.c:589
+msgid "Don't Quit"
+msgstr "Ikke avslutt"
+
+#: src/drwright.c:593
+msgid "Quit"
+msgstr "Avslutt"
+
+#: src/drwright.c:642
+msgid "About DrWright"
+msgstr "Om DrWright"
+
+#: src/drwright.c:667
+msgid "A computer break reminder."
+msgstr "Påminnelse om pause fra datamaskinen."
+
+#: src/drwright.c:668
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "Skrevet av Richard Hult &lt;richard@imendio.com&gt;"
+
+#: src/drwright.c:669
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+
+#: src/drwright.c:828
+msgid "Break reminder"
+msgstr "Påminnelse om pause"
+
+#: src/drw-break-window.c:259
+msgid "Postpone break"
+msgstr "Utsett pause"
+
+#: src/drw-break-window.c:297
+msgid "Take a break!"
+msgstr "Ta en pause!"
