@@ -1,14 +1,16 @@
 # Catalan translation of drwright.
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the drwright package.
+#
 # Jordi Mallach <jordi@sindominio.net>, 2003.
+# Josep Puigdemont i Casamajó <josep@imatge-sintetica.com>, 2005.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright 0.16\n"
 "POT-Creation-Date: 2003-06-24 00:30+0200\n"
-"PO-Revision-Date: 2003-06-15 12:39+0200\n"
-"Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
+"PO-Revision-Date: 2005-03-26 17:33+0100\n"
+"Last-Translator: Josep Puigdemont <josep@imatge-sintetica.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,74 +18,59 @@ msgstr ""
 
 #: data/glade/drw-preferences.glade.h:1
 msgid "    "
-msgstr ""
+msgstr "    "
 
 #: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
 #: data/glade/drw-preferences.glade.h:3
-#, fuzzy
 msgid "<b>Break</b>"
-msgstr "<b>Interval de _descans:</b>"
+msgstr "<b>Descans</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-#, fuzzy
 msgid "<b>Work</b>"
-msgstr "<b>Interval de _treball:</b>"
+msgstr "<b>Feina</b>"
 
 #: data/glade/drw-preferences.glade.h:5
 msgid "Check if breaks are allowed to be postponed"
-msgstr ""
+msgstr "Comprova si els descansos es poden ajornar"
 
 #: data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
 msgstr "Preferències de DrWright"
 
 #: data/glade/drw-preferences.glade.h:7
-#, fuzzy
 msgid "Duration of the break when typing is disallowed"
-msgstr ""
-"<span size=\"small\">Duració del descans, durant el qual no es pot escriure."
-"</span>"
+msgstr "Durada del descans quan no es permet teclejar"
 
 #: data/glade/drw-preferences.glade.h:8
-#, fuzzy
 msgid "Duration of warning before starting a break"
-msgstr ""
-"<span size=\"small\">Duració de l'avís abans de començar un descans.\n"
-"</span>"
+msgstr "Durada de l'avís abans d'iniciar un descans"
 
 #: data/glade/drw-preferences.glade.h:9
-#, fuzzy
 msgid "Duration of work before forcing a break"
-msgstr ""
-"<span size=\"small\">Duració del temps de treball abans de forçar un "
-"descans.\n"
-"</span>"
+msgstr "Durada del període de treball abans de forçar un descans"
 
 #: data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
-msgstr ""
+msgstr "Frase opcional a utilitzar quan s'ajorni un descans"
 
 #: data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
-msgstr ""
+msgstr "_Permet ajornar descansos"
 
 #: data/glade/drw-preferences.glade.h:12
-#, fuzzy
 msgid "_Break interval lasts"
-msgstr "<b>Interval de _descans:</b>"
+msgstr "El _descans dura"
 
 #: data/glade/drw-preferences.glade.h:13
-#, fuzzy
 msgid "_Warning time is"
-msgstr "<b>Temps d'_avís:</b>"
+msgstr "El temps d'_avís és de"
 
 #: data/glade/drw-preferences.glade.h:14
-#, fuzzy
 msgid "_Work interval lasts"
-msgstr "<b>Interval de _treball:</b>"
+msgstr "L'interval de _treball dura"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -100,7 +87,7 @@ msgid ""
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
 "DrWright utilitza l'àrea de notificació per a mostrar informació. Sembla que "
-"no teniu un àrea de notificació al vostre quadre. Podeu afegir-la fent clic "
+"no teniu cap àrea de notificació al vostre quadre. Podeu afegir-la fent clic "
 "amb el botó dret al quadre i seleccionant «Afegeix al quadre -> Utilitats -> "
 "Area de notificació»."
 
@@ -109,9 +96,8 @@ msgid "/_Enabled"
 msgstr "/_Habilitat"
 
 #: src/drwright.c:135
-#, fuzzy
 msgid "/_Take a Break"
-msgstr "Descanseu!"
+msgstr "/_Feu una pausa"
 
 #: src/drwright.c:137
 msgid "/_Preferences"
@@ -139,9 +125,8 @@ msgid "One minute until the next break"
 msgstr "Un minut fins el pròxim descans"
 
 #: src/drwright.c:466
-#, fuzzy
 msgid "Less than one minute until the next break"
-msgstr "Un minut fins el pròxim descans"
+msgstr "Menys d'un minut fins el proper descans"
 
 #: src/drwright.c:583
 msgid "Quit DrWright?"
@@ -153,11 +138,11 @@ msgstr "No oblideu prendre descansos regularment."
 
 #: src/drwright.c:595
 msgid "Don't Quit"
-msgstr ""
+msgstr "No surtis"
 
 #: src/drwright.c:599
 msgid "Quit"
-msgstr ""
+msgstr "Surt"
 
 #: src/drwright.c:645
 msgid "About DrWright"
@@ -165,12 +150,11 @@ msgstr "Quant a DrWright"
 
 #: src/drwright.c:669
 msgid "A computer break reminder."
-msgstr "Recordador de descansos d'ordinador."
+msgstr "L'ordinador us fa memòria de quan fer descansos."
 
 #: src/drwright.c:670
-#, fuzzy
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Escrit per Richard Hutl &lt;rhult@codefactory.se&gt;"
+msgstr "Escrit per Richard Hutl &lt;rhult@imendio.com&gt;"
 
 #: src/drwright.c:671
 msgid "Eye candy added by Anders Carlsson"
@@ -182,7 +166,7 @@ msgstr "Recordador de descansos"
 
 #: src/drw-break-window.c:258
 msgid "Postpone break"
-msgstr ""
+msgstr "Ajorna el descans"
 
 #: src/drw-break-window.c:296
 msgid "Take a break!"
