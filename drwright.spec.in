@@ -61,7 +61,7 @@ gconftool-2 --makefile-install-rule %{_sysconfdir}/gconf/schemas/drwright.schema
 - remove %{_datadir} /locale/sv/LC_MESSAGES/drwright.mo from %files
 - because it's done with find_lang
 
-* Wed Oct 9 2002 Richard Hult <richard@imendo.com>
+* Wed Oct 9 2002 Richard Hult <richard@imendio.com>
 - Generate spec file from drwright.spec.in.
 
 * Fri Aug 23 2002 Anders Carlsson <andersca@gnu.org>

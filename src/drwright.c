@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
  * Copyright (C) 2002 CodeFactory AB
- * Copyright (C) 2002-2003 Richard Hult <rhult@codefactory.se>
+ * Copyright (C) 2002-2003 Richard Hult <richard@imendio.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -659,7 +659,7 @@ popup_about_cb (gpointer   callback_data,
 				  "<span size=\"small\">%s</span>\n"
 				  "<span size=\"small\">%s</span>\n",
 				  _("A computer break reminder."),
-				  _("Written by Richard Hult &lt;rhult@codefactory.se&gt;"),
+				  _("Written by Richard Hult &lt;richard@imendio.com&gt;"),
 				  _("Eye candy added by Anders Carlsson"));
 	gtk_label_set_markup (GTK_LABEL (label), markup);
 	g_free (markup);
