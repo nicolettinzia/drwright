@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drwright.HEAD.sq\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-16 19:31+0100\n"
+"POT-Creation-Date: 2004-06-23 14:12+0200\n"
 "PO-Revision-Date: 2004-02-16 19:33+0100\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
@@ -71,9 +71,10 @@ msgstr "Koha e _paralajmërimeve është"
 msgid "_Work interval lasts"
 msgstr "Kohëzgjatja e intervalit të _punës"
 
+#. GRUT modified this item
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
-msgstr "minute"
+msgstr "minuta"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -102,72 +103,73 @@ msgstr "/_Pusho pak"
 msgid "/_Preferences"
 msgstr "/_Preferimet"
 
+#. GRUT modified this item
 #: src/drwright.c:142
 msgid "/_About"
-msgstr "/_Info"
+msgstr "/_Informacione"
 
 #: src/drwright.c:144
 msgid "/_Remove Icon"
 msgstr "/_Hiq ikonën"
 
-#: src/drwright.c:467
+#: src/drwright.c:475
 msgid "Disabled"
 msgstr "Jo aktiv"
 
-#: src/drwright.c:485
+#: src/drwright.c:493
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minuta para pauzës së ardhëshme"
 
-#: src/drwright.c:488
+#: src/drwright.c:496
 msgid "One minute until the next break"
 msgstr "Një minutë para pauzës në vazhdim"
 
-#: src/drwright.c:490
+#: src/drwright.c:498
 msgid "Less than one minute until the next break"
 msgstr "Më pak se një minutë deri në pushimin tjetër"
 
-#: src/drwright.c:601
+#: src/drwright.c:609
 msgid "Quit DrWright?"
 msgstr "Përfundon DrWright?"
 
-#: src/drwright.c:602
+#: src/drwright.c:610
 msgid "Don't forget to take regular breaks."
 msgstr "Mos harro të kryesh rregullisht pauza."
 
-#: src/drwright.c:613
+#: src/drwright.c:621
 msgid "Don't Quit"
 msgstr "Mos dil"
 
-#: src/drwright.c:617
+#: src/drwright.c:625
 msgid "Quit"
 msgstr "Dil"
 
-#: src/drwright.c:666
+#: src/drwright.c:674
 msgid "About DrWright"
 msgstr "Informacione në lidhje me DrWright"
 
-#: src/drwright.c:691
+#: src/drwright.c:699
 msgid "A computer break reminder."
 msgstr "Një kujtues i pushimit për kompjuter."
 
-#: src/drwright.c:692
+#: src/drwright.c:700
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Shkruar nga Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:693
+#: src/drwright.c:701
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Eye candy shtuar nga Anders Carlsson"
 
-#: src/drwright.c:860
+#: src/drwright.c:868
 msgid "Break reminder"
 msgstr "Kujtuesi i pushimit"
 
-#: src/drw-break-window.c:209
+#: src/drw-break-window.c:208
 msgid "_Postpone break"
 msgstr "_Shtyje pushimin"
 
-#: src/drw-break-window.c:247
+#: src/drw-break-window.c:251
 msgid "Take a break!"
 msgstr "Pusho pak!"
 
