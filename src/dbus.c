@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2003 Richard Hult <richard@imendio.com>
+ * Copyright (C) 2003-2004 Richard Hult <richard@imendio.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -34,50 +34,47 @@ static const char *server_path[] = { "org", "gnome", "TypingMonitor", NULL };
 
 static DBusObjectPathVTable
 server_vtable = {
-  server_unregistered_func,
-  server_message_func,
-  NULL,
+	server_unregistered_func,
+	server_message_func,
+	NULL,
 };
 
 
 static gboolean
 dbus_init_service (void)
 {
-  DBusError error;
+	DBusError error;
 
-  if (bus_conn)
-    return TRUE;
+	if (bus_conn)
+		return TRUE;
   
-  dbus_error_init (&error);
-  bus_conn = dbus_bus_get (DBUS_BUS_SESSION, &error);
+	dbus_error_init (&error);
+	bus_conn = dbus_bus_get (DBUS_BUS_SESSION, &error);
   
-  if (!bus_conn) 
-    {
-      g_warning ("Failed to connect to the D-BUS daemon: %s", error.message);
-      dbus_error_free (&error);
-      return FALSE;
-    }
+	if (!bus_conn) {
+		g_warning ("Failed to connect to the D-BUS daemon: %s", error.message);
+		dbus_error_free (&error);
+		return FALSE;
+	}
   
-  dbus_bus_acquire_service (bus_conn, DRWRIGHT_DBUS_SERVICE, 0, &error);
-  if (dbus_error_is_set (&error)) 
-    {
-      g_warning ("Failed to acquire drwright service");
-      dbus_error_free (&error);
-      return FALSE;
-    }
+	dbus_bus_acquire_service (bus_conn, DRWRIGHT_DBUS_SERVICE, 0, &error);
+	if (dbus_error_is_set (&error)) {
+		g_warning ("Failed to acquire drwright service");
+		dbus_error_free (&error);
+		return FALSE;
+	}
 
-  if (!dbus_connection_register_object_path (bus_conn,
-					     server_path,
-					     &server_vtable,
-					     NULL))
-    {
-      g_warning ("Failed to register server object with the D-BUS bus daemon");
-      return FALSE;
-    }
+	if (!dbus_connection_register_object_path (bus_conn,
+						   server_path,
+						   &server_vtable,
+						   NULL)) {
+		g_warning ("Failed to register server object with the D-BUS bus daemon");
+		return FALSE;
+	}
   
-  dbus_connection_setup_with_g_main (bus_conn, NULL);
+	dbus_connection_setup_with_g_main (bus_conn, NULL);
   
-  return TRUE;
+	return TRUE;
 }
 
 static void
@@ -85,56 +82,31 @@ server_unregistered_func (DBusConnection *connection, void *user_data)
 {
 }
 
-#if 0
-static void
-send_ok_reply (DBusConnection *connection,
-	       DBusMessage    *message)
-{
-  DBusMessage *reply;
-
-  reply = dbus_message_new_method_return (message);
-                                                                                
-  dbus_connection_send (connection, reply, NULL);
-  dbus_message_unref (reply);
-}
-
-static DBusHandlerResult
-handle_play (DBusConnection *connection,
-	     DBusMessage    *message,
-	     MainWindow     *window)
-{
-  main_window_handle_play (window);
-  send_ok_reply (connection, message);
-  
-  return DBUS_HANDLER_RESULT_HANDLED;
-}
-#endif
-
 static DBusHandlerResult
 server_message_func (DBusConnection *connection,
 		     DBusMessage    *message,
 		     gpointer        user_data)
 {
-  return DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+	return DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
 }
 
 gboolean
 dbus_emit_break (gboolean started)
 {
-  DBusMessage *message;
+	DBusMessage *message;
 
-  if (!dbus_init_service ()) {
-    return FALSE;
-  }
+	if (!dbus_init_service ()) {
+		return FALSE;
+	}
 
-  message = dbus_message_new_signal (DRWRIGHT_DBUS_OBJECT,
-				     DRWRIGHT_DBUS_INTERFACE,
-				     started ? DRWRIGHT_DBUS_BREAK_STARTED: DRWRIGHT_DBUS_BREAK_FINISHED);
+	message = dbus_message_new_signal (DRWRIGHT_DBUS_OBJECT,
+					   DRWRIGHT_DBUS_INTERFACE,
+					   started ? DRWRIGHT_DBUS_BREAK_STARTED: DRWRIGHT_DBUS_BREAK_FINISHED);
       
-  dbus_connection_send (bus_conn, message, NULL);
+	dbus_connection_send (bus_conn, message, NULL);
   
-  dbus_message_unref (message);
+	dbus_message_unref (message);
 
-  return TRUE;
+	return TRUE;
 }
 

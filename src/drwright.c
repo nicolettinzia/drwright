@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
+ * Copyright (C) 2002-2004 Richard Hult <richard@imendio.com>
  * Copyright (C) 2002 CodeFactory AB
- * Copyright (C) 2002-2003 Richard Hult <richard@imendio.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -201,6 +201,8 @@ update_icon (DrWright *dr)
 	}
 
 	offset = CLAMP ((height - 0) * (1.0 - r), 1, height - 0);
+
+	g_print ("%d\n", offset);
 	
 	switch (dr->state) {
 	case STATE_WARN_TYPE:
@@ -910,6 +912,8 @@ drwright_new (void)
 		GCONF_PATH "/enabled",
 		NULL);
 
+	g_print ("%d %d\n", dr->type_time, dr->break_time);
+	
 	if (debug) {
 		setup_debug_values (dr);
 	}

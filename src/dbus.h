@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2003 Richard Hult <richard@imendio.com>
+ * Copyright (C) 2004 Richard Hult <richard@imendio.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
