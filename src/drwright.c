@@ -635,7 +635,10 @@ popup_about_cb (gpointer   callback_data,
 	
 	about_window = gtk_dialog_new ();
 
-	g_object_add_weak_pointer (G_OBJECT (about_window), (gpointer *) &about_window);
+	g_signal_connect (about_window,
+			  "destroy",
+                          G_CALLBACK (gtk_widget_destroyed),
+	                  &about_window);
 	
 	gtk_dialog_add_button (GTK_DIALOG (about_window),
 			       GTK_STOCK_OK, GTK_RESPONSE_OK);

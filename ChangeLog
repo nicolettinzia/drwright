@@ -1,3 +1,9 @@
+2003-06-26  Richard Hult  <richard@imendio.com>
+
+	* src/drwright.c (popup_about_cb): Remove cool (according to Ross)
+	weak ref and add boring gtk_widget_destroyed to get rid of strict
+	aliasing warning with gcc 3.3.
+
 2003-06-24  Richard Hult  <richard@imendio.com>
 
 	* drwright.spec.in: Update description and release.
