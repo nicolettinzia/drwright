@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright.HEAD.es\n"
-"POT-Creation-Date: 2003-06-24 00:30+0200\n"
-"PO-Revision-Date: 2003-06-18 18:07+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-07-12 20:02+0200\n"
+"PO-Revision-Date: 2003-07-13 03:59+0200\n"
 "Last-Translator: Francisco Javier F. Serrador <serrador@arrakis.es>\n"
 "Language-Team: Spanish <traductores@es.gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Report-Msgid-Bugs-To: \n"
 "X-Generator: KBabel 1.0.1\n"
 
 #: data/glade/drw-preferences.glade.h:1
@@ -128,48 +128,47 @@ msgstr "Un minuto hasta el próximo descanso"
 msgid "Less than one minute until the next break"
 msgstr "Menos de un minuto hasta el siguiente descanso"
 
-#: src/drwright.c:583
+#: src/drwright.c:577
 msgid "Quit DrWright?"
 msgstr "Finalizar DrWright?"
 
-#: src/drwright.c:584
+#: src/drwright.c:578
 msgid "Don't forget to take regular breaks."
 msgstr "No olvide descansar regularmente."
 
-#: src/drwright.c:595
+#: src/drwright.c:589
 msgid "Don't Quit"
-msgstr ""
+msgstr "No salir"
 
-#: src/drwright.c:599
-#, fuzzy
+#: src/drwright.c:593
 msgid "Quit"
-msgstr "/_Salir"
+msgstr "Salir"
 
-#: src/drwright.c:645
+#: src/drwright.c:642
 msgid "About DrWright"
 msgstr "Acerca de DrWright"
 
-#: src/drwright.c:669
+#: src/drwright.c:667
 msgid "A computer break reminder."
 msgstr "Recuerda tomar descansos del ordenador."
 
-#: src/drwright.c:670
+#: src/drwright.c:668
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Escrito por Richard Hult &lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:671
+#: src/drwright.c:669
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Interfaz más agradable añadida por Anders Carlsson"
 
-#: src/drwright.c:830
+#: src/drwright.c:828
 msgid "Break reminder"
 msgstr "Recordador de descansos"
 
-#: src/drw-break-window.c:258
+#: src/drw-break-window.c:259
 msgid "Postpone break"
 msgstr "Postponer descanso"
 
-#: src/drw-break-window.c:296
+#: src/drw-break-window.c:297
 msgid "Take a break!"
 msgstr "TÃ³mate un descanso!"
 
@@ -213,3 +212,4 @@ msgstr "TÃ³mate un descanso!"
 
 #~ msgid "Done"
 #~ msgstr "Hecho"
+
