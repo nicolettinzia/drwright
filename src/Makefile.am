@@ -16,7 +16,6 @@ drwright_SOURCES = 				\
 	drw-monitor.h				\
 	drw-preferences.c			\
 	drw-preferences.h			\
-	drw-intl.h				\
 	eggtrayicon.c				\
 	eggtrayicon.h				\
 	drw-selection.c				\
