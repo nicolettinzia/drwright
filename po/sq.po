@@ -1,0 +1,172 @@
+# translation of drwright.HEAD to Albanian
+# This file is distributed under the same license as the drwright package.
+# Laurent Dhima <laurenti@alblinux.net>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drwright.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-13 14:29+0100\n"
+"PO-Revision-Date: 2004-01-13 14:39+0100\n"
+"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
+"Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>Pushim</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>Punë</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Kontrollo nëse lejohet shtyrja më vonë e pauzave"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "Preferimet e DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Kohëzgjatja e pauzës gjatë së cilës nuk lejohet shkrimi "
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Kohëzgjatja e paralajmërimit para se të fillohet pushimi"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Kohëzgjatja e punës para se të detyrohet një ndërprerje"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Fraza opcionale që duhet përdorur për të shtyrë një pushim"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "_Lejo shtyrjen e pushimeve"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "Kohëzgjatja e intervalit të _pauzës"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "Koha e _paralajmërimeve është"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "Kohëzgjatja e intervalit të _punës"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minute"
+
+#: src/main.c:128
+msgid "DrWright is already running."
+msgstr "DrWright është duke u ekzekutuar rregullisht."
+
+#: src/main.c:141
+msgid ""
+"DrWright uses the notification area to display information. You don't seem "
+"to have a notification area on your panel. You can add it by right-clicking "
+"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr ""
+"DrWright shfrytëzon zonën e njftimeve për të shfaqur informacionet. Ju nuk keni "
+"një zonë të tillë në panel. Mund t'a shtoni me një klik të djathtë mbi panelin tuaj "
+"dhe duke zgjedhur 'Shtoji panelit -> Ndihmues -> Zona e njoftimit'."
+
+#: src/drwright.c:138
+msgid "/_Enabled"
+msgstr "/_Aktiv"
+
+#: src/drwright.c:139
+msgid "/_Take a Break"
+msgstr "/_Pusho pak"
+
+#: src/drwright.c:141
+msgid "/_Preferences"
+msgstr "/_Preferimet"
+
+#: src/drwright.c:142
+msgid "/_About"
+msgstr "/_Info"
+
+#: src/drwright.c:144
+msgid "/_Remove Icon"
+msgstr "/_Hiq ikonën"
+
+#: src/drwright.c:451
+msgid "Disabled"
+msgstr "Jo aktiv"
+
+#: src/drwright.c:469
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "%d minuta para pauzës së ardhëshme"
+
+#: src/drwright.c:472
+msgid "One minute until the next break"
+msgstr "Një minutë para pauzës në vazhdim"
+
+#: src/drwright.c:474
+msgid "Less than one minute until the next break"
+msgstr "Më pak se një minutë deri në pushimin tjetër"
+
+#: src/drwright.c:585
+msgid "Quit DrWright?"
+msgstr "Përfundon DrWright?"
+
+#: src/drwright.c:586
+msgid "Don't forget to take regular breaks."
+msgstr "Mos harro të kryesh rregullisht pauza."
+
+#: src/drwright.c:597
+msgid "Don't Quit"
+msgstr "Mos dil"
+
+#: src/drwright.c:601
+msgid "Quit"
+msgstr "Dil"
+
+#: src/drwright.c:650
+msgid "About DrWright"
+msgstr "Informacione në lidhje me DrWright"
+
+#: src/drwright.c:675
+msgid "A computer break reminder."
+msgstr "Një kujtues i pushimit për kompjuter."
+
+#: src/drwright.c:676
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "Shkruar nga Richard Hult &lt;richard@imendio.com&gt;"
+
+#: src/drwright.c:677
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Eye candy shtuar nga Anders Carlsson"
+
+#: src/drwright.c:844
+msgid "Break reminder"
+msgstr "Kujtuesi i pushimit"
+
+#: src/drw-break-window.c:210
+msgid "Postpone break"
+msgstr "Shtyje pauzën"
+
+#: src/drw-break-window.c:248
+msgid "Take a break!"
+msgstr "Pusho pak!"
+
