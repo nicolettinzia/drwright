@@ -1,17 +1,80 @@
 # DrWright Italian Translation
 # Copyright (C) 2002, Free Software Foundation, Inc.
-# Luca Ferretti <elle.uca@genie.it>, 2002.
+# Luca Ferretti <elle.uca@infinito.it>, 2002.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
-"PO-Revision-Date: 2002-11-22 16:32+0100\n"
-"Last-Translator: Luca Ferretti <elle.uca@genie.it>\n"
-"Language-Team: Italian <tp@list.linux.it>\n"
+"POT-Creation-Date: 2003-05-19 23:49+0200\n"
+"PO-Revision-Date: 2003-05-08 15:21+0200\n"
+"Last-Translator: Luca Ferretti <elle.uca@infinito.it>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>Tempo di a_vviso:</b>"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>_Metodo di avviso:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>Intervallo di _pausa:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>S_bloccaggio:</b>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>Intervallo di _lavoro:</b>"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr ""
+"<span size=\"small\">Durata della pausa durante la quale la digitazione è "
+"impedita.</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Durata dell'avviso prima di iniziare una pausa.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Durata del lavoro prima di obbligare ad una pausa.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr "Consetire lo sblocco, usando la frase:"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Mostrare finestra di avviso "
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "Preferenze di DrWright"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minuti"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -23,6 +86,10 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
+"Per mostrare delle informazioni DrWright necessita dell'area di notifica del "
+"pannello, che però non sembre essere abilitata. È possibile attivare tale "
+"funzione facendo clic col tasto destro sul pannello e scegliendo Aggiungi al "
+"pannello -> Utilità -> Area di notifica."
 
 #: src/drwright.c:130
 msgid "/_Enabled"
@@ -34,11 +101,11 @@ msgstr "/Preferen_ze"
 
 #: src/drwright.c:133
 msgid "/_About"
-msgstr "/_Informazioni"
+msgstr "/I_nformazioni"
 
 #: src/drwright.c:135
 msgid "/_Remove Icon"
-msgstr ""
+msgstr "/_Rimuovi icona"
 
 #: src/drwright.c:180
 msgid "Break coming up!"
@@ -50,7 +117,7 @@ msgstr "Pausa!"
 
 #: src/drwright.c:523
 msgid "Disabled"
-msgstr ""
+msgstr "Disabilitato"
 
 #: src/drwright.c:532
 #, c-format
@@ -63,10 +130,9 @@ msgstr "Manca un minuto alla prossima pausa"
 
 #: src/drwright.c:633
 msgid "Quit DrWright?"
-msgstr "Chiudere DrWright?"
+msgstr "Uscire da DrWright?"
 
 #: src/drwright.c:634
-#, fuzzy
 msgid "Don't forget to take regular breaks."
 msgstr "Non dimenticarsi di fare una pausa, ogni tanto."
 
@@ -75,93 +141,27 @@ msgid "About DrWright"
 msgstr "Informazioni su DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:712
+#: src/drwright.c:711
 msgid "A computer break reminder."
 msgstr "Un promemoria per le pause dal computer."
 
-#: src/drwright.c:714
-msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
-msgstr "Sviluppato da Richard Hult %lt;richard@imendo.com&gt;"
+#: src/drwright.c:712
+#, fuzzy
+msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
+msgstr "Sviluppato da Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:715
+#: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Raffinatezze visive aggiunte da Anders Carlsson"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:828
-#, fuzzy
+#: src/drwright.c:826
 msgid "Break reminder"
-msgstr "Un promemoria per le pause dal computer."
-
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr ""
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Tempo di a_vviso:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Tipo di avviso:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>Intervallo di _pausa:</b>"
-
-#: src/drw-preferences.glade.h:5
-#, fuzzy
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>Tempo di a_vviso:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>Intervallo di _lavoro:</b>"
-
-#: src/drw-preferences.glade.h:7
-#, fuzzy
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">Durata della pausa durante la quale la digitazione "
-"èimpedita.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Durata dell'avviso prima di iniziare una pausa.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Durata del lavoro prima di obbligare ad una pausa.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr ""
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Mostrare finestra di avviso "
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "Preferenze di DrWright"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minuti"
+msgstr "Un promemoria di pause"
 
 #: src/drw-break-window.c:240
 msgid "Unlock"
-msgstr ""
+msgstr "Sblocca"
 
 #: src/drw-break-window.c:278
 msgid "Take a break!"
@@ -169,16 +169,16 @@ msgstr "Fatti una pausa!"
 
 #: src/drw-preferences.c:363
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzate"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Esci"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
 
 #~ msgid "(C) Copyright 2002, CodeFactory"
-#~ msgstr "(C) Copyright 2002, CodeFactory"
-
-#~ msgid "/_Quit"
-#~ msgstr "/_Esci"
+#~ msgstr "© Copyright 2002, CodeFactory"
 
 #~ msgid "Done"
 #~ msgstr "Al lavoro!"

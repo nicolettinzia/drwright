@@ -4,12 +4,78 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright 0.14\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
+"POT-Creation-Date: 2003-05-19 23:49+0200\n"
 "PO-Revision-Date: 2003-01-22 20:25-0300\n"
 "Last-Translator: Nicols Lichtmaier <nick@technisys.com.ar>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "*"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>Tiempo de _advertencia</b>"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>_Método de advertencia:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>_Duración del descanso:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>D_estrabe:</b>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>Tiempo de _trabajo:</b>"
+
+#: data/glade/drw-preferences.glade.h:7
+#, fuzzy
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr ""
+"<span size=\"small\">Duración del descanso cuando no se permite teclear.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Duración de la advertencia antes de comenzar el "
+"descanso.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Duración del período de trabajo antes de forzar un "
+"descanso.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr "Permitir desbloquear, usando la frase:"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Mostrar ventana de advertencia"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "Preferencias de DrWright"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minutos"
 
 #: src/main.c:128
 #, fuzzy
@@ -73,87 +139,22 @@ msgstr "No olvide tomar descansos regularmente."
 msgid "About DrWright"
 msgstr "Acerca de DrWright"
 
-#: src/drwright.c:712
+#: src/drwright.c:711
 msgid "A computer break reminder."
 msgstr "Recuerda tomar descansos del ordenador."
 
-#: src/drwright.c:714
-msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
+#: src/drwright.c:712
+#, fuzzy
+msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
 msgstr "Escrito por Richard Hult &lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:715
+#: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Interfaz más agradable añadida por Anders Carlsson"
 
-#: src/drwright.c:828
+#: src/drwright.c:826
 msgid "Break reminder"
 msgstr "Recordador de descansos"
-
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr ""
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Tiempo de _advertencia</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Método de advertencia:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Duración del descanso:</b>"
-
-#: src/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>D_estrabe:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>Tiempo de _trabajo:</b>"
-
-#: src/drw-preferences.glade.h:7
-#, fuzzy
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">Duración del descanso cuando no se permite teclear.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Duración de la advertencia antes de comenzar el "
-"descanso.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Duración del período de trabajo antes de forzar un "
-"descanso.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Permitir desbloquear, usando la frase:"
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Mostrar ventana de advertencia"
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "Preferencias de DrWright"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minutos"
 
 #: src/drw-break-window.c:240
 msgid "Unlock"

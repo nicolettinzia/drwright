@@ -5,13 +5,78 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright 0.12\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
+"POT-Creation-Date: 2003-05-19 23:49+0200\n"
 "PO-Revision-Date: 2003-01-14 02:12+01\n"
 "Last-Translator: Kim Schulz <kim@gnome.dk>\n"
 "Language-Team: Dansk <dansk@klid.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "*"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>_Advarsles tid:</b>"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>Advarsels _metode:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>_Pause interval:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+#, fuzzy
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>_Advarsles tid:</b>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>A_rbejds interval</b>"
+
+#: data/glade/drw-preferences.glade.h:7
+#, fuzzy
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr ""
+"<span size=\"small\">Varighed af pausen hvor skrivning er forbudt.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Varighed af advarsel før pausen starter.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Varighed af arbejde inden pausen skal indfinde.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Vis advarsels vindue"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "DrWright indstillinger"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minutter"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -74,86 +139,22 @@ msgstr "Glem ikke at holde pause jævnligt."
 msgid "About DrWright"
 msgstr "Om DrWright"
 
-#: src/drwright.c:712
+#: src/drwright.c:711
 msgid "A computer break reminder."
 msgstr "En computer pause påminder"
 
-#: src/drwright.c:714
-msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
+#: src/drwright.c:712
+#, fuzzy
+msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
 msgstr "Skrevet af Richard Hult $lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:715
+#: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Billede-lækkerier tilføjet af Anders Carlsson "
 
-#: src/drwright.c:828
+#: src/drwright.c:826
 msgid "Break reminder"
 msgstr "Pause påminder"
-
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr ""
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>_Advarsles tid:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>Advarsels _metode:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Pause interval:</b>"
-
-#: src/drw-preferences.glade.h:5
-#, fuzzy
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Advarsles tid:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>A_rbejds interval</b>"
-
-#: src/drw-preferences.glade.h:7
-#, fuzzy
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">Varighed af pausen hvor skrivning er forbudt.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Varighed af advarsel før pausen starter.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Varighed af arbejde inden pausen skal indfinde.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr ""
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Vis advarsels vindue"
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright indstillinger"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minutter"
 
 #: src/drw-break-window.c:240
 msgid "Unlock"

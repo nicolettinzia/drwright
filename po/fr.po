@@ -1,16 +1,81 @@
 # DrWright French Translation
 # Jean Schurger <yshark@schurger.org>, 2002.
+# Baptiste MILLE-MATHIAS <bmm80@ifrance.com>, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
-"PO-Revision-Date: 2002-12-12 12:05+0100\n"
-"Last-Translator: Jean Schurger <yshark@schurger.org>\n"
-"Language-Team: Jean Schurger <yshark@schurger.org>\n"
+"POT-Creation-Date: 2003-05-19 23:49+0200\n"
+"PO-Revision-Date: 2003-05-15 12:05+0100\n"
+"Last-Translator: Baptiste MILLE-MATHIAS <bmm80@ifrance.com>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>_Temps d'avertissement:</b>"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>_Méthode d'avertissement:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>_Durée d'une pause:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>Déb_loquage:</b>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>Durée de tra_vail:</b>"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr ""
+"<span size=\"small\">Durée de la pause pendant laquelle pianoter est "
+"désactivé.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Durée de l'avertissement avant de commencer la pause.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Temps de travail avant une pause forcée.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr "Pour débloquer, taper cette phrase :"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Afficher la fenêtre d'avertissement"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "Préferences de DrWright"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minutes"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -22,6 +87,10 @@ msgid ""
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
+"DrWright se sert de la zone de notification pour afficher des informations. "
+"Il semble qu'il n'y ait pas de zone de notification sur votre tableau de "
+"bord. Vous pouvez l'ajouter en cliquant-droit sur votre panneau et choisir "
+"'Ajouter au Tableau de bord -> Utilitaire -> Zone de Notification'."
 
 #: src/drwright.c:130
 msgid "/_Enabled"
@@ -49,7 +118,7 @@ msgstr "Pause!"
 
 #: src/drwright.c:523
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: src/drwright.c:532
 #, c-format
@@ -58,14 +127,13 @@ msgstr "%d minutes avant la prochaine pause"
 
 #: src/drwright.c:534
 msgid "One minute until the next break"
-msgstr "une minute avant la prochaine pause"
+msgstr "Une minute avant la prochaine pause"
 
 #: src/drwright.c:633
 msgid "Quit DrWright?"
 msgstr "Quitter DrWright ?"
 
 #: src/drwright.c:634
-#, fuzzy
 msgid "Don't forget to take regular breaks."
 msgstr "N'oublier pas de prendre des pauses régulières"
 
@@ -74,92 +142,27 @@ msgid "About DrWright"
 msgstr "À propos de DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:712
+#: src/drwright.c:711
 msgid "A computer break reminder."
 msgstr "Pour vous rappeller qu'il faut prendre des pauses"
 
-#: src/drwright.c:714
-msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
-msgstr "Ecrit par Richard Hult %lt;richard@imendo.com&gt;"
+#: src/drwright.c:712
+#, fuzzy
+msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
+msgstr "Ecrit par Richard Hult %lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:715
+#: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
-msgstr "Fins graphiques de Anders Carlsson"
+msgstr "Améliorations graphiques de Anders Carlsson"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:828
+#: src/drwright.c:826
 msgid "Break reminder"
 msgstr "Pour vous rappeller qu'il faut prendre des pauses"
 
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr ""
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>_Temps d'avertissement:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>_Méthode d'avertissement:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Durée d'une pause:</b>"
-
-#: src/drw-preferences.glade.h:5
-#, fuzzy
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Temps d'avertissement:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>Durée de tra_vail:</b>"
-
-#: src/drw-preferences.glade.h:7
-#, fuzzy
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">Durée de la pause pendant laquelle pianoter est "
-"interdit.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Durée de l'avertissement avant de commencer la pause.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Temps de travail avant une pause forcée.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr ""
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Afficher la fenêtre d'avertissement"
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "Préferences de DrWright"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minutes"
-
 #: src/drw-break-window.c:240
 msgid "Unlock"
-msgstr ""
+msgstr "Débloquage"
 
 #: src/drw-break-window.c:278
 msgid "Take a break!"
@@ -167,16 +170,16 @@ msgstr "Faites une pause!"
 
 #: src/drw-preferences.c:363
 msgid "Advanced"
-msgstr ""
+msgstr "Avancé"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Quitter"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
 
 #~ msgid "(C) Copyright 2002, CodeFactory"
 #~ msgstr "(C) Copyright 2002, CodeFactory"
-
-#~ msgid "/_Quit"
-#~ msgstr "/_Quitter"
 
 #~ msgid "Done"
 #~ msgstr "Fini"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
+"POT-Creation-Date: 2003-05-19 23:49+0200\n"
 "PO-Revision-Date: 2003-03-05 20:22+0200\n"
 "Last-Translator: Arman Aksoy <armish@linux-sevenler.de>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -14,6 +14,68 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>Uyarı z_amanı:</b>"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>Uyarı _biçimi:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>_Ara verme süresi:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>_Açılma:</b>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>_Çalışma süresi:</b>"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr "<span size=\"small\">Yazım kapalı olduğunda aranın sürekliliği.</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Bir araya başlamadab önce gösterilecek uyarının "
+"sürekliliği.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Bir ara verilmeden önceki işin sürekliliği.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr "Bu deyim ile ekranı aç:"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Uyarı penceresini göster "
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "DrWright Tercihleri"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "dakika"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -78,83 +140,22 @@ msgstr "Düzenli ara vermeyi unutmayın."
 msgid "About DrWright"
 msgstr "DrWright Hakkında"
 
-#: src/drwright.c:712
+#: src/drwright.c:711
 msgid "A computer break reminder."
 msgstr "Bilgisayar arası vermek için hatırlatıcı."
 
-#: src/drwright.c:714
-msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
+#: src/drwright.c:712
+#, fuzzy
+msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
 msgstr "Richard Hult &lt;richard@imendo.com&gt; tarafından yazılmıştır"
 
-#: src/drwright.c:715
+#: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Göz şekeri Anders Carlsson tarafından eklenmiştir"
 
-#: src/drwright.c:828
+#: src/drwright.c:826
 msgid "Break reminder"
 msgstr "Ara hatırlatıcısı"
-
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr "*"
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>Uyarı z_amanı:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>Uyarı _biçimi:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Ara verme süresi:</b>"
-
-#: src/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Açılma:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>_Çalışma süresi:</b>"
-
-#: src/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr "<span size=\"small\">Yazım kapalı olduğunda aranın sürekliliği.</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Bir araya başlamadab önce gösterilecek uyarının "
-"sürekliliği.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Bir ara verilmeden önceki işin sürekliliği.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Bu deyim ile ekranı aç:"
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Uyarı penceresini göster "
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright Tercihleri"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "dakika"
 
 #: src/drw-break-window.c:240
 msgid "Unlock"

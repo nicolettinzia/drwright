@@ -5,13 +5,74 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright 0.15\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
+"POT-Creation-Date: 2003-05-19 23:49+0200\n"
 "PO-Revision-Date: 2003-02-28 22:35+01\n"
 "Last-Translator: Richard Hult <richard@imendo.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>_Varningstid:</b>"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>Varnings_metod:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>_Pauslängd:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>_Upplåsning:</b>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>_Aktivitetsintervall:</b>"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr "<span size=\"small\">Längd på paus när skrivande inte tillåts.</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Längd på varningen som ges innan paus.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Längd på arbete innan paus.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr "Tillåt upplåsning, med frasen:"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Visa varningsfönster "
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "DrWright-inställningar"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minuter"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -76,82 +137,21 @@ msgstr "Glöm inte att ta regelbunda pauser."
 msgid "About DrWright"
 msgstr "Om DrWright"
 
-#: src/drwright.c:712
+#: src/drwright.c:711
 msgid "A computer break reminder."
 msgstr "En datorpauspåminnare"
 
-#: src/drwright.c:714
-msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
+#: src/drwright.c:712
+msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
 msgstr "Skrivet av Richard Hult &lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:715
+#: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ögongodis tillagt av Anders Carlsson"
 
-#: src/drwright.c:828
+#: src/drwright.c:826
 msgid "Break reminder"
 msgstr "Pauspåminnare"
-
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr "*"
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>_Varningstid:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>Varnings_metod:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Pauslängd:</b>"
-
-#: src/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Upplåsning:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>_Aktivitetsintervall:</b>"
-
-#: src/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr "<span size=\"small\">Längd på paus när skrivande inte tillåts.</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Längd på varningen som ges innan paus.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Längd på arbete innan paus.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Tillåt upplåsning, med frasen:"
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Visa varningsfönster "
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright-inställningar"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minuter"
 
 #: src/drw-break-window.c:240
 msgid "Unlock"

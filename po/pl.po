@@ -4,13 +4,76 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
-"POT-Creation-Date: 2003-04-17 18:56+0200\n"
+"POT-Creation-Date: 2003-05-19 23:49+0200\n"
 "PO-Revision-Date: 1003-03-06 12:05+0100\n"
 "Last-Translator: Jarosaw Messer wierad <messer@messer.homelinux.org>\n"
 "Language-Team: Jarosaw Messer wierad <messer@messer.homelinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/drw-preferences.glade.h:1
+msgid "*"
+msgstr ""
+
+#: data/glade/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>C_zas ostrzeenia:</b>"
+
+#: data/glade/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>M_etoda ostrzeenia:</b>"
+
+#: data/glade/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>_Czas przerwy:</b>"
+
+#: data/glade/drw-preferences.glade.h:5
+#, fuzzy
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>_Odblokuj:</b>"
+
+#: data/glade/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>C_zas Pracy:</b>"
+
+#: data/glade/drw-preferences.glade.h:7
+#, fuzzy
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr ""
+"<span size=\"small\">interdit.\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr "<span size=\"small\">Okres ostrzeenia przez rozpoczciem przerwy</span>"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Okres pracy przed wymuszeniem przerwy\n"
+"</span>"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr "Pozwl na odblokowanie uywajc frazy:"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Wywietlaj okno z ostrzeeniem"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "DrWright Waciwoci"
+
+#: data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minut"
 
 #: src/main.c:128
 msgid "DrWright is already running."
@@ -78,84 +141,22 @@ msgid "About DrWright"
 msgstr "O DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:712
+#: src/drwright.c:711
 msgid "A computer break reminder."
 msgstr "Program do przypominania o przerwach w pracy z komputerem."
 
-#: src/drwright.c:714
-msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
+#: src/drwright.c:712
+#, fuzzy
+msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
 msgstr "Stworzony przez Richard Hult %lt;richard@imendo.com&gt;"
 
-#: src/drwright.c:715
+#: src/drwright.c:713
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Grafika stworzona przez Andres Carlsson"
 
-#: src/drwright.c:828
+#: src/drwright.c:826
 msgid "Break reminder"
 msgstr "Program do przypominania o przerwach"
-
-#: src/drw-preferences.glade.h:1
-msgid "*"
-msgstr ""
-
-#: src/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>C_zas ostrzeenia:</b>"
-
-#: src/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>M_etoda ostrzeenia:</b>"
-
-#: src/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Czas przerwy:</b>"
-
-#: src/drw-preferences.glade.h:5
-#, fuzzy
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Odblokuj:</b>"
-
-#: src/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>C_zas Pracy:</b>"
-
-#: src/drw-preferences.glade.h:7
-#, fuzzy
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr ""
-"<span size=\"small\">interdit.\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr "<span size=\"small\">Okres ostrzeenia przez rozpoczciem przerwy</span>"
-
-#: src/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Okres pracy przed wymuszeniem przerwy\n"
-"</span>"
-
-#: src/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Pozwl na odblokowanie uywajc frazy:"
-
-#: src/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Wywietlaj okno z ostrzeeniem"
-
-#: src/drw-preferences.glade.h:14
-msgid "DrWright Preferences"
-msgstr "DrWright Waciwoci"
-
-#: src/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minut"
 
 #: src/drw-break-window.c:240
 msgid "Unlock"

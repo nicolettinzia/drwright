@@ -27,16 +27,10 @@ drwright_SOURCES = 				\
 drwright_LDADD = @DRWRIGHT_LIBS@ -L/usr/X11R6/lib -lXss
 drwright_LDFLAGS = -export-dynamic
 
-imagedir = $(datadir)/drwright
-image_DATA = stop.png bar.png bar-red.png bar-green.png bar-disabled.png ocean-stripes.png
-
 schemadir = @GCONF_SCHEMA_FILE_DIR@
 schema_DATA = drwright.schemas
-
-gladedir = $(datadir)/drwright
-glade_DATA = drw-preferences.glade
 
 install-data-local:
 	GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(srcdir)/$(schema_DATA)
 
-EXTRA_DIST = $(schema_DATA) $(image_DATA) $(glade_DATA)
+EXTRA_DIST = $(schema_DATA)
