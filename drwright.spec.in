@@ -4,7 +4,7 @@
 Summary: A program that reminds you to take wrist breaks
 Name: %name
 Version: %ver
-Release: cf1
+Release: imendio.1
 Source: %{name}-%{ver}.tar.gz
 License: GPL
 Group: Applications/System
@@ -16,7 +16,7 @@ BuildRequires: GConf2-devel >= @GCONF_REQUIRED@
 BuildRequires: libglade2-devel >= @LIBGLADE_REQUIRED@
 BuildRequires: desktop-file-utils >= @DESKTOP_FILE_UTILS_REQUIRED@
 %description
-DrWright is a program that forces you to take wrist breaks to rest your hands.
+DrWright is a program that reminds you to take wrist breaks to rest your hands.
 %prep
 %setup -q
 
