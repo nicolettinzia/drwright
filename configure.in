@@ -62,7 +62,7 @@ GETTEXT_PACKAGE=drwright
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", "")
 
-ALL_LINGUAS="bg ca cy cs da de es fr it ja ko nl pl pt pt_BR ru sr sv tr zh_CN zh_TW"
+ALL_LINGUAS="bg ca cy cs da de es fr it ja ko nl pl pt pt_BR ru sr sr@Latn sv tr zh_CN zh_TW"
 
 AM_GLIB_GNU_GETTEXT
 
