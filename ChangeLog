@@ -1,0 +1,230 @@
+2003-04-17  Richard Hult  <richard@imendo.com>
+
+	* Release 0.16.
+	
+2003-03-17  Richard Hult  <richard@imendo.com>
+
+	* src/main.c (session_save): Fix stupid memory bug.
+
+	* src/drwright.c (popup_quit_cb): Destroy the dialog immediately,
+	and remove from session.
+	(popup_about_cb): Don't translate the copyright string and the
+	program name.
+
+	* src/main.c (main): Set priority and restart style.
+
+	* src/drwright.c: Change quit menu item to "Remove Icon".
+
+	* src/main.c (main): Add -n, to skip notification area checking.
+
+	* configure.in (GETTEXT_PACKAGE): Add translations.
+
+2003-03-05  Richard Hult  <richard@imendo.com>
+
+	* Version marker.
+
+2003-02-28  Richard Hult  <richard@imendo.com>
+
+	* configure.in: Add new translations and bump version to 0.15.
+
+2003-02-26  Richard Hult  <richard@imendo.com>
+
+	* src/main.c (have_tray): Add.
+	(main): Check if we have a tray, otherwise show dialog.
+
+2003-01-26  Richard Hult  <richard@imendo.com>
+
+	* src/drw-break-window.c (unlock_entry_key_press_event_cb): Remove
+	the source if the unlock entry is cancelled.
+
+2003-01-20  Richard Hult  <richard@imendo.com>
+
+	* src/main.c (session_save): Doh. Do it right this time.
+
+	* src/drw-break-window.c (drw_break_window_init): Remove obsolete
+	code.
+	(clock_timeout_cb): Destroy the break window when the break is
+	over.
+
+2003-01-19  Richard Hult  <richard@imendo.com>
+
+	* src/drw-break-window.c (label_expose_event_cb)
+	(label_size_request_cb, get_layout_location)
+	(drw_break_window_init): Add drop shadow to the break labels,
+	borrowed and modified from eel.
+
+2003-01-18  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.c (blink_timeout_cb): Tweak the blinking speed a
+	bit, start out slower and stop incresing the speed a bit sooner.
+	(maybe_change_state): Change the suspend detection to not restart
+	the countdown unless we get a longer delay than the warning
+	time.
+
+	* src/drw-preferences.c (window_destroy_cb): Plug leak.
+	(drw_preferences_new): Dup the string we get from gconf.
+
+	* configure.in: Bump.
+
+	* src/drwright.c (drwright_new): Update the tooltip every 15
+	seconds, instead of 30.
+	(maybe_change_state): Update tooltip when we get to start state.
+
+	* src/drw-break-window.c (unlock_clicked_cb):
+	(grab_on_window, unlock_entry_activate_cb): Implement unlocking.
+	(unlock_entry_changed_cb, unlock_cancel_cb): Hide the entry (and
+	remove the grab) after a time of inactivity.
+	(unlock_clicked_cb): Make the unlock button unlock if pressed
+	while the entry is visible and the right phrase is entered.
+	(unlock_entry_key_press_event_cb): Hide the entry on escape.
+
+2003-01-17  Richard Hult  <richard@imendo.com>
+
+	* src/Makefile.am: Add -export-dynamic so custom widgets work with
+	libglade.
+
+	* src/drw-preferences.c (unlock_phrase_update) 
+	(allow_unlock_update): Add unlock stuff.
+
+	* src/drwright.schemas: Add unlock keys.
+
+	* src/drw-preferences.c (drw_preferences_new): Add unlocking
+	widgets, and move warning method to advanced section and put a
+	disclosure widget there to hide it. 
+
+	* src/drwright.c (maybe_change_state): If we get 10 seconds
+	between our 0.5 second callback, we probably were suspended so
+	start over. Should make DrWright happier with APM.
+
+	* src/drw-break-window.c (unlock_clicked_cb): Implement, destroy
+	the window.
+
+	* src/drwright.c (popup_quit_cb): Fix typo spotted by Ross Burton.
+	(break_window_destroy_cb): Handle the break window being
+	destroyed by ending the break.
+
+	* src/drw-break-window.c (drw_break_window_init): Don't need to
+	show the window here, now that we don't grab. Don't listen for key
+	presses. Get unlock preference, and show unlock button if enabled.
+
+	* drwright.desktop.in (Terminal): Remove the icon, I don't have
+	one.
+
+2003-01-14  Anders Carlsson  <andersca@gnu.org>
+
+	* configure.in (ALL_LINGUAS): Add Danish translation 
+	by Kim Schultz.
+
+2003-01-10  Richard Hult  <richard@imendo.com>
+
+	* Release 0.14.
+
+	* src/drw-break-window.c (drw_break_window_init): Don't grab the
+	keyboard, makes XScreensaver complain.
+
+2002-11-29  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.c (update_tooltip): Don't show a time if we're
+	disabled.
+
+2002-11-26  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.c (init_tray_icon): Handle destruction a bit
+	better. Should work for panel crashing and tray removal now.
+ 
+2002-11-23  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.c (init_tray_icon): Refactor tray icon creation.
+	(icon_destroy_event_cb): Create tray icon if the tray is
+	destroyed.
+
+2002-11-22  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.c (stop_blinking): Fix hiding the warn dialog.
+	(update_warning_dialog): Don't put 0:00 in the label.
+
+2002-11-21  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.c (show_warning_dialog): Hide the dialog when the
+	button is clicked.
+
+2002-11-20  Richard Hult  <richard@imendo.com>
+
+	* src/drw-preferences.c: Implement warning window preference.
+
+	* src/drwright.c (popup_about_cb): Clean up.
+	(gconf_notify_cb): Don't restart unless we change time
+	preferences. Implement warning window all over the place.
+
+	* src/drw-break-window.c (clock_timeout_cb): Rip out the markup
+	from the translatable part of the string.
+
+	* src/drwright.schemas: Remove break text (ye ye you shouldn't
+	remove keys, but I don't care ;).
+
+	* src/drw-break-window.c (drw_break_window_init): Don't get the
+	break text from GConf, that's too silly.
+
+	* src/drw-preferences.glade: Remove the frame.
+
+	* configure.in (GETTEXT_PACKAGE): Add Italian translation from
+	Luca Ferretti <elle.uca@genie.it>.
+
+	* src/drwright.c: Apply a slightly modified patch from Luc
+	Roobrouck <luc.roobrouck@pandora.be> to show a tooltip with the
+	time until break.
+
+	* configure.in (GETTEXT_PACKAGE): Add Dutch translation from Luc
+	Roobrouck <luc.roobrouck@pandora.be>
+
+2002-11-09  Richard Hult  <richard@imendo.com>
+
+	* src/drw-preferences.c: Remove enabled setting.
+
+	* src/drwright.c (icon_destroy_cb, drwright_new,
+	popup_enabled_cb): Quit if our window is destroyed.  Use stock
+	item for About. Remove "Break now" and add "Enabled" toggle item.
+
+2002-10-30  Richard Hult  <richard@imendo.com>
+
+	* configure.in: Require libgnomeui. Bump version.
+
+	* src/main.c (main): Connect to session manager. Initialize GNOME
+	stuff. Use Owens selection voodoo to get only one instance running
+	at a time.
+
+2002-10-29  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.schemas: Change defaults to 60/5/5.
+
+	* src/drwright.c (popup_break_cb): Add "take a break" menu item.
+
+	* src/drwright-preferences.glade: Fix up, patch from Jonathan.
+
+	* src/*.png: Make the bar a bit wider.
+
+2002-10-09  Richard Hult  <richard@imendo.com>
+
+	* src/drwright.c: Fix up about box.
+
+	* po/sv.po: Update.
+
+	* drwright.spec.in:
+	* configure.in: Release 0.12.
+	
+2002-10-08  Anders Carlsson  <andersca@gnu.org>
+
+	* src/Makefile.am:
+	* src/drw-monitor.c: (drw_monitor_class_init), (drw_monitor_init),
+	(drw_monitor_finalize), (drw_monitor_timeout), (drw_monitor_setup):
+	* src/drw-monitor.h:
+	* src/drw-preferences.c: (enabled_update), (gconf_notify_cb),
+	(drw_preferences_new):
+	* src/drw-preferences.glade:
+	* src/drwright.c: (gconf_notify_cb), (drwright_new):
+	Use Xss for determining idle time + general cleanup.
+	
+2002-07-16  Richard Hult  <richard@imendo.com>
+
+	* Release 0.8.
+

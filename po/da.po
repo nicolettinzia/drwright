@@ -1,0 +1,187 @@
+# DrWright
+# Copyright (C) 2002 Richard Hult.
+# Richard Hult <richard@imendo.com>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrWright 0.12\n"
+"POT-Creation-Date: 2003-04-17 18:56+0200\n"
+"PO-Revision-Date: 2003-01-14 02:12+01\n"
+"Last-Translator: Kim Schulz <kim@gnome.dk>\n"
+"Language-Team: Dansk <dansk@klid.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:128
+msgid "DrWright is already running."
+msgstr "DrWright kører allerede."
+
+#: src/main.c:141
+msgid ""
+"DrWright uses the notification area to display information. You don't seem "
+"to have a notification area on your panel. You can add it by right-clicking "
+"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr ""
+
+#: src/drwright.c:130
+msgid "/_Enabled"
+msgstr "/_Slået Til"
+
+#: src/drwright.c:132
+msgid "/_Preferences"
+msgstr "/_Indstillinger"
+
+#: src/drwright.c:133
+msgid "/_About"
+msgstr "/_Om"
+
+#: src/drwright.c:135
+msgid "/_Remove Icon"
+msgstr ""
+
+#: src/drwright.c:180
+msgid "Break coming up!"
+msgstr "Pause påbegyndes snart!"
+
+#: src/drwright.c:183
+msgid "Break!"
+msgstr "Pause!"
+
+#: src/drwright.c:523
+msgid "Disabled"
+msgstr "Slået fra"
+
+#: src/drwright.c:532
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "%d minutter indtil næste pause"
+
+#: src/drwright.c:534
+msgid "One minute until the next break"
+msgstr "Et minut indtil næste pause"
+
+#: src/drwright.c:633
+msgid "Quit DrWright?"
+msgstr "Afslut DrWright?"
+
+#: src/drwright.c:634
+#, fuzzy
+msgid "Don't forget to take regular breaks."
+msgstr "Glem ikke at holde pause jævnligt."
+
+#: src/drwright.c:687
+msgid "About DrWright"
+msgstr "Om DrWright"
+
+#: src/drwright.c:712
+msgid "A computer break reminder."
+msgstr "En computer pause påminder"
+
+#: src/drwright.c:714
+msgid "Written by Richard Hult &lt;richard@imendo.com&gt;"
+msgstr "Skrevet af Richard Hult $lt;richard@imendo.com&gt;"
+
+#: src/drwright.c:715
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Billede-lækkerier tilføjet af Anders Carlsson "
+
+#: src/drwright.c:828
+msgid "Break reminder"
+msgstr "Pause påminder"
+
+#: src/drw-preferences.glade.h:1
+msgid "*"
+msgstr ""
+
+#: src/drw-preferences.glade.h:2
+msgid "<b>W_arning time:</b>"
+msgstr "<b>_Advarsles tid:</b>"
+
+#: src/drw-preferences.glade.h:3
+msgid "<b>Warning _method:</b>"
+msgstr "<b>Advarsels _metode:</b>"
+
+#: src/drw-preferences.glade.h:4
+msgid "<b>_Break interval:</b>"
+msgstr "<b>_Pause interval:</b>"
+
+#: src/drw-preferences.glade.h:5
+#, fuzzy
+msgid "<b>_Unlocking:</b>"
+msgstr "<b>_Advarsles tid:</b>"
+
+#: src/drw-preferences.glade.h:6
+msgid "<b>_Work interval:</b>"
+msgstr "<b>A_rbejds interval</b>"
+
+#: src/drw-preferences.glade.h:7
+#, fuzzy
+msgid ""
+"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
+msgstr ""
+"<span size=\"small\">Varighed af pausen hvor skrivning er forbudt.\n"
+"</span>"
+
+#: src/drw-preferences.glade.h:8
+msgid ""
+"<span size=\"small\">Duration of warning before starting a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Varighed af advarsel før pausen starter.\n"
+"</span>"
+
+#: src/drw-preferences.glade.h:10
+msgid ""
+"<span size=\"small\">Duration of work before forcing a break.\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">Varighed af arbejde inden pausen skal indfinde.\n"
+"</span>"
+
+#: src/drw-preferences.glade.h:12
+msgid "Allow unlocking, using the phrase:"
+msgstr ""
+
+#: src/drw-preferences.glade.h:13
+msgid "Display warning window "
+msgstr "Vis advarsels vindue"
+
+#: src/drw-preferences.glade.h:14
+msgid "DrWright Preferences"
+msgstr "DrWright indstillinger"
+
+#: src/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "minutter"
+
+#: src/drw-break-window.c:240
+msgid "Unlock"
+msgstr ""
+
+#: src/drw-break-window.c:278
+msgid "Take a break!"
+msgstr "Hold en pause!"
+
+#: src/drw-preferences.c:363
+msgid "Advanced"
+msgstr ""
+
+#~ msgid "DrWright"
+#~ msgstr "DrWright"
+
+#~ msgid "(C) Copyright 2002, CodeFactory"
+#~ msgstr "(C) Copyright 2002, CodeFactory"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Afslut"
+
+#~ msgid "Done"
+#~ msgstr "Færdig"
+
+#~ msgid ""
+#~ "<span size=\"small\">Warn about upcoming break with a window.\n"
+#~ "</span>"
+#~ msgstr ""
+#~ "<span size=\"small\">advar om kommende pauser med et windue.\n"
+#~ "</span>"

@@ -1,0 +1,95 @@
+AC_INIT(src)
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE(drwright, 0.16)
+
+AM_MAINTAINER_MODE
+
+AC_ISC_POSIX
+AC_PROG_CC
+AC_STDC_HEADERS
+AM_PROG_LIBTOOL
+AM_PATH_GLIB_2_0 
+
+AC_PROG_INTLTOOL
+
+dnl ==========================================================================
+dnl
+dnl Library Dependencies, uses pkg-config to detect correct version, etc
+dnl
+dnl ==========================================================================
+
+dnl If you add a version number here, you *must* add an AC_SUBST line for
+dnl it too, or it will never make it into the spec file!
+
+GLIB_REQUIRED=2.0.3
+PANGO_REQUIRED=1.0.99
+GTK_REQUIRED=2.0.4
+GCONF_REQUIRED=1.2.0
+LIBGLADE_REQUIRED=2.0.0
+LIBGNOMEUI_REQUIRED=2.0.0
+DESKTOP_FILE_UTILS_REQUIRED=0.2.90
+
+AC_SUBST(GLIB_REQUIRED)
+AC_SUBST(PANGO_REQUIRED)
+AC_SUBST(GTK_REQUIRED)
+AC_SUBST(GCONF_REQUIRED)
+AC_SUBST(LIBGLADE_REQUIRED)
+AC_SUBST(LIBGNOMEUI_REQUIRED)
+AC_SUBST(DESKTOP_FILE_UTILS_REQUIRED)
+
+dnl ================================
+dnl | Pkg-Config dependency checks |---------------------------
+dnl ================================
+
+PKG_CHECK_MODULES(DRWRIGHT,
+[
+	glib-2.0 >= $GLIB_REQUIRED
+	gobject-2.0
+	gtk+-2.0 >= $GTK_REQUIRED
+	gconf-2.0 >= $GCONF_REQUIRED
+	libglade-2.0 >= $LIBGLADE_REQUIRED 
+	libgnomeui-2.0 >= $LIBGNOMEUI_REQUIRED
+])
+
+AC_SUBST(DRWRIGHT_CFLAGS)
+AC_SUBST(DRWRIGHT_LIBS)
+dnl -----------------------------------------------------------
+
+dnl  ------------------
+dnl | Language Support |---------------------------------------
+dnl  ------------------
+GETTEXT_PACKAGE=drwright
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", "")
+
+ALL_LINGUAS="da de es fr it ko nl pl sv tr zh_TW"
+
+AM_GLIB_GNU_GETTEXT
+
+if test "x$prefix" = "xNONE"; then
+  DRWRIGHT_LOCALEDIR=$ac_default_prefix/share/locale
+else
+  DRWRIGHT_LOCALEDIR=$prefix/share/locale
+fi
+AC_DEFINE_UNQUOTED(DRWRIGHT_LOCALEDIR, "$DRWRIGHT_LOCALEDIR", "")
+dnl -----------------------------------------------------------
+
+AC_PATH_PROG(GCONFTOOL, gconftool-2, no)
+
+if test x"$GCONFTOOL" = xno; then
+  AC_MSG_ERROR([gconftool-2 executable not found in your path - should be installed with GConf])
+fi
+
+AM_GCONF_SOURCE_2
+
+AC_OUTPUT([
+Makefile
+src/Makefile
+po/Makefile.in
+data/Makefile
+data/images/Makefile
+data/glade/Makefile
+drwright.spec
+])
+
+
