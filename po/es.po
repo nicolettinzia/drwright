@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: drwright.HEAD.es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2003-07-12 20:02+0200\n"
-"PO-Revision-Date: 2003-07-13 03:59+0200\n"
+"PO-Revision-Date: 2003-07-20 05:46+0200\n"
 "Last-Translator: Francisco Javier F. Serrador <serrador@arrakis.es>\n"
 "Language-Team: Spanish <traductores@es.gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "<b>Trabajo</b>"
 
 #: data/glade/drw-preferences.glade.h:5
 msgid "Check if breaks are allowed to be postponed"
-msgstr "Marcar si está permitido que se posponer descansos "
+msgstr "Marcar si quiere permitir posponer descansos"
 
 #: data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
@@ -42,11 +42,11 @@ msgstr "Preferencias de DrWright"
 
 #: data/glade/drw-preferences.glade.h:7
 msgid "Duration of the break when typing is disallowed"
-msgstr "Duración del descanso cuando no se permite teclear"
+msgstr "Duración del descanso en el que no se permite teclear"
 
 #: data/glade/drw-preferences.glade.h:8
 msgid "Duration of warning before starting a break"
-msgstr "Duración de la advertencia antes de comenzar el descanso"
+msgstr "Duración de la advertencia antes de comenzar un descanso"
 
 #: data/glade/drw-preferences.glade.h:9
 msgid "Duration of work before forcing a break"
@@ -62,15 +62,15 @@ msgstr "_Permitir postponer descansos"
 
 #: data/glade/drw-preferences.glade.h:12
 msgid "_Break interval lasts"
-msgstr "_Intervalos de descanso que quedan"
+msgstr "_Duración del intervalo de descanso"
 
 #: data/glade/drw-preferences.glade.h:13
 msgid "_Warning time is"
-msgstr "La hora de _advertencia es"
+msgstr "El tiempo de _advertencia es"
 
 #: data/glade/drw-preferences.glade.h:14
 msgid "_Work interval lasts"
-msgstr "Intervalos de _trabajo que quedan"
+msgstr "Duración del intervalo de _trabajo"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -97,7 +97,7 @@ msgstr "/_Activado"
 
 #: src/drwright.c:135
 msgid "/_Take a Break"
-msgstr "/_Descansar"
+msgstr "/_Descansar ahora"
 
 #: src/drwright.c:137
 msgid "/_Preferences"
@@ -130,7 +130,7 @@ msgstr "Menos de un minuto hasta el siguiente descanso"
 
 #: src/drwright.c:577
 msgid "Quit DrWright?"
-msgstr "Finalizar DrWright?"
+msgstr "¿Finalizar DrWright?"
 
 #: src/drwright.c:578
 msgid "Don't forget to take regular breaks."
@@ -150,7 +150,7 @@ msgstr "Acerca de DrWright"
 
 #: src/drwright.c:667
 msgid "A computer break reminder."
-msgstr "Recuerda tomar descansos del ordenador."
+msgstr "Un recordatorio para tomar descansos."
 
 #: src/drwright.c:668
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
@@ -170,7 +170,7 @@ msgstr "Postponer descanso"
 
 #: src/drw-break-window.c:297
 msgid "Take a break!"
-msgstr "TÃ³mate un descanso!"
+msgstr "¡Tómate un descanso!"
 
 #~ msgid "<b>Warning _method:</b>"
 #~ msgstr "<b>_Método de advertencia:</b>"
