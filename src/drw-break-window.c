@@ -71,7 +71,6 @@ static void         label_size_request_cb          (GtkLabel            *label,
 						    GtkRequisition      *requisition,
 						    gpointer             user_data);
 
-
 static GObjectClass *parent_class;
 static guint signals[LAST_SIGNAL];
 
@@ -206,8 +205,8 @@ drw_break_window_init (DrwBreakWindow *window)
 		gtk_widget_show (button_box);
 		
 		gtk_container_set_border_width (GTK_CONTAINER (button_box), 12);
-		
-		priv->postpone_button = gtk_button_new_with_label (_("Postpone break"));
+
+		priv->postpone_button = gtk_button_new_with_mnemonic (_("_Postpone break"));
 		gtk_widget_show (priv->postpone_button);
 
 		g_signal_connect (priv->postpone_button,
@@ -489,9 +488,8 @@ postpone_clicked_cb (GtkWidget *button,
 	gtk_widget_show (priv->postpone_entry);
 
 	priv->postpone_timeout_id = g_timeout_add (POSTPONE_CANCEL, (GSourceFunc) postpone_cancel_cb, bw);
-	
+
 	grab_on_window (priv->postpone_entry->window,  gtk_get_current_event_time ());
-	
 	gtk_widget_grab_focus (priv->postpone_entry);
 
 	g_signal_connect (priv->postpone_entry,

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-06-29 00:31+0200\n"
+"POT-Creation-Date: 2004-02-02 00:19+0100\n"
 "PO-Revision-Date: 2003-06-22 00:51+0200\n"
 "Last-Translator: Richard Hult <richard@imendio.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
@@ -90,84 +90,84 @@ msgstr ""
 "ha en sådan i din panel. Du kan lägga till en genom att högerklicka på "
 "panelen och välja \"Lägg till i panelen -> Verktyg -> Notifieringsyta\"."
 
-#: src/drwright.c:134
+#: src/drwright.c:138
 msgid "/_Enabled"
 msgstr "/_Aktiverad"
 
-#: src/drwright.c:135
+#: src/drwright.c:139
 msgid "/_Take a Break"
 msgstr "/_Ta en paus"
 
-#: src/drwright.c:137
+#: src/drwright.c:141
 msgid "/_Preferences"
 msgstr "/_Inställningar"
 
-#: src/drwright.c:138
+#: src/drwright.c:142
 msgid "/_About"
 msgstr "_Om"
 
-#: src/drwright.c:140
+#: src/drwright.c:144
 msgid "/_Remove Icon"
 msgstr "/_Ta bort ikon"
 
-#: src/drwright.c:443
+#: src/drwright.c:467
 msgid "Disabled"
 msgstr "Inaktiverad"
 
-#: src/drwright.c:461
+#: src/drwright.c:485
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minuter till nästa paus"
 
-#: src/drwright.c:464
+#: src/drwright.c:488
 msgid "One minute until the next break"
 msgstr "En minut till nästa paus"
 
-#: src/drwright.c:466
+#: src/drwright.c:490
 msgid "Less than one minute until the next break"
 msgstr "Mindre än en minut till nästa paus"
 
-#: src/drwright.c:577
+#: src/drwright.c:601
 msgid "Quit DrWright?"
 msgstr "Avsluta DrWright?"
 
-#: src/drwright.c:578
+#: src/drwright.c:602
 msgid "Don't forget to take regular breaks."
 msgstr "Glöm inte att ta regelbunda pauser."
 
-#: src/drwright.c:589
+#: src/drwright.c:613
 msgid "Don't Quit"
 msgstr "Avsluta inte"
 
-#: src/drwright.c:593
+#: src/drwright.c:617
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/drwright.c:642
+#: src/drwright.c:666
 msgid "About DrWright"
 msgstr "Om DrWright"
 
-#: src/drwright.c:667
+#: src/drwright.c:691
 msgid "A computer break reminder."
 msgstr "En datorpauspåminnare."
 
-#: src/drwright.c:668
+#: src/drwright.c:692
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Skrivet av Richard Hult &lt;rhult@imendio.com&gt;"
 
-#: src/drwright.c:669
+#: src/drwright.c:693
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ögongodis tillagt av Anders Carlsson"
 
-#: src/drwright.c:828
+#: src/drwright.c:860
 msgid "Break reminder"
 msgstr "Pauspåminnare"
 
-#: src/drw-break-window.c:259
-msgid "Postpone break"
-msgstr "Skjut upp pausen"
+#: src/drw-break-window.c:209
+msgid "_Postpone break"
+msgstr "_Skjut upp pausen"
 
-#: src/drw-break-window.c:297
+#: src/drw-break-window.c:247
 msgid "Take a break!"
 msgstr "Ta en paus!"
 
