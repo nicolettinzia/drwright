@@ -1,3 +1,15 @@
+2004-01-04  Richard Hult  <richard@imendio.com>
+
+	* autogen.sh:
+	* .cvsignore:
+	* Makefile.am: intltool-foo.
+
+	* configure.in:
+	* src/Makefile.am:
+	* src/drw-break-window.c:
+	* src/drwright.c: Merge from typing-monitor and add some
+	experimental d-bus stuff.
+
 2003-12-03  Sanlig Badral  <badral@openmn.org>
 
 	* configure.in: Added "mn" to ALL_LINGUAS.

@@ -36,6 +36,10 @@
 #include "drw-preferences.h"
 #include "eggtrayicon.h"
 
+#ifdef HAVE_DBUS
+#include "dbus.h"
+#endif
+
 #define BLINK_TIMEOUT        200
 #define BLINK_TIMEOUT_MIN    120
 #define BLINK_TIMEOUT_FACTOR 100
@@ -396,6 +400,10 @@ maybe_change_state (DrWright *dr)
 
 		gtk_widget_show (dr->break_window);
 
+#ifdef HAVE_DBUS
+		dbus_emit_break (TRUE);
+#endif
+				
 		dr->state = STATE_BREAK;
 		break;
 	       
@@ -763,6 +771,10 @@ break_window_done_cb (GtkWidget *window,
 	dr->break_window = NULL;
 	
 	maybe_change_state (dr);
+
+#ifdef HAVE_DBUS
+	dbus_emit_break (FALSE);
+#endif
 }
 
 static void
@@ -778,6 +790,10 @@ break_window_postpone_cb (GtkWidget *window,
 	start_blinking (dr);
 	update_icon (dr);
 	update_tooltip (dr);
+
+#ifdef HAVE_DBUS
+	dbus_emit_break (FALSE);
+#endif
 }
 
 static char *

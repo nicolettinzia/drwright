@@ -1,6 +1,6 @@
 AC_INIT(src)
 AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE(drwright, 0.17)
+AM_INIT_AUTOMAKE(drwright, 0.17cvs)
 
 AM_MAINTAINER_MODE
 
@@ -8,7 +8,7 @@ AC_ISC_POSIX
 AC_PROG_CC
 AC_STDC_HEADERS
 AM_PROG_LIBTOOL
-AM_PATH_GLIB_2_0 
+AM_PATH_GLIB_2_0
 
 AC_PROG_INTLTOOL
 
@@ -21,9 +21,9 @@ dnl ==========================================================================
 dnl If you add a version number here, you *must* add an AC_SUBST line for
 dnl it too, or it will never make it into the spec file!
 
-GLIB_REQUIRED=2.0.3
-PANGO_REQUIRED=1.0.99
-GTK_REQUIRED=2.0.4
+GLIB_REQUIRED=2.2.0
+PANGO_REQUIRED=1.2
+GTK_REQUIRED=2.2.0
 GCONF_REQUIRED=1.2.0
 LIBGLADE_REQUIRED=2.0.0
 LIBGNOMEUI_REQUIRED=2.0.0
@@ -37,12 +37,30 @@ AC_SUBST(LIBGLADE_REQUIRED)
 AC_SUBST(LIBGNOMEUI_REQUIRED)
 AC_SUBST(DESKTOP_FILE_UTILS_REQUIRED)
 
+dnl D-BUS
+dnl ==========================
+AC_ARG_ENABLE(dbus, [  --enable-dbus=[no/yes]    compile with d-bus support.],,enable_dbus=no)
+
+if test "x$enable_dbus" = "xyes"; then
+   dbus_pkgconfig="dbus-glib-1 >= 0.20"
+   PKG_CHECK_MODULES(DBUS, $dbus_pkgconfig, have_dbus=yes, have_dbus=no)
+   if test x$have_dbus = xyes; then
+      AC_DEFINE(HAVE_DBUS, 1, d-bus support)
+  fi
+else
+   have_dbus=no
+   dbus_pkgconfig=
+fi
+
+AM_CONDITIONAL(HAVE_DBUS, test x$have_dbus = xyes)
+
 dnl ================================
 dnl | Pkg-Config dependency checks |---------------------------
 dnl ================================
 
 PKG_CHECK_MODULES(DRWRIGHT,
 [
+	$dbus_pkgconfig
 	glib-2.0 >= $GLIB_REQUIRED
 	gobject-2.0
 	gtk+-2.0 >= $GTK_REQUIRED
@@ -54,6 +72,7 @@ PKG_CHECK_MODULES(DRWRIGHT,
 AC_SUBST(DRWRIGHT_CFLAGS)
 AC_SUBST(DRWRIGHT_LIBS)
 dnl -----------------------------------------------------------
+
 
 dnl  ------------------
 dnl | Language Support |---------------------------------------
@@ -92,4 +111,6 @@ data/glade/Makefile
 drwright.spec
 ])
 
-
+echo
+echo D-BUS support: $have_dbus
+echo

@@ -1,9 +1,8 @@
 SUBDIRS = src po data
 
-@INTLTOOL_DESKTOP_RULE@
-
 desktop_in_files=drwright.desktop.in
 desktop_files=$(desktop_in_files:.desktop.in=.desktop)
+@INTLTOOL_DESKTOP_RULE@
 
 Applicationsdir = $(datadir)/applications
 Applications_DATA = $(desktop_files)
@@ -17,6 +16,6 @@ EXTRA_DIST = 				\
 	intltool-extract.in  		\
 	intltool-merge.in    		\
 	intltool-update.in		\
+	intltool-modules/XML/Parser/Style/OrigTree.pm \
 	$(desktop_in_files)		\
 	$(desktop_files)
-

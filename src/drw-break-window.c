@@ -1,7 +1,8 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * Copyright (C) 2002 CodeFactory AB
- * Copyright (C) 2002 Richard Hult <richard@imendio.com>
+ * Copyright (C) 2002      CodeFactory AB
+ * Copyright (C) 2002-2003 Richard Hult <richard@imendio.com>
+
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -26,8 +27,9 @@
 #include <gdk/gdkkeysyms.h>
 #include <gconf/gconf-client.h>
 #include <libgnome/gnome-i18n.h>
-#include "drw-break-window.h"
 #include "drwright.h"
+#include "drw-utils.h"
+#include "drw-break-window.h"
 
 struct _DrwBreakWindowPriv {
 	GtkWidget *clock_label;
@@ -58,11 +60,7 @@ enum {
 static void         drw_break_window_class_init    (DrwBreakWindowClass *klass);
 static void         drw_break_window_init          (DrwBreakWindow      *window);
 static void         drw_break_window_finalize      (GObject             *object);
-static GdkPixbuf *  create_tile_pixbuf             (GdkPixbuf           *dest_pixbuf,
-						    GdkPixbuf           *src_pixbuf,
-						    GdkRectangle        *field_geom,
-						    guint                alpha,
-						    GdkColor            *bg_color);
+static void         drw_break_window_dispose       (GObject             *object);
 static gboolean     clock_timeout_cb               (DrwBreakWindow      *window);
 static void         postpone_clicked_cb              (GtkWidget           *button,
 						    GtkWidget           *window);
@@ -112,6 +110,7 @@ drw_break_window_class_init (DrwBreakWindowClass *klass)
         parent_class = G_OBJECT_CLASS (g_type_class_peek_parent (klass));
         
         object_class->finalize = drw_break_window_finalize;
+        object_class->dispose = drw_break_window_dispose;
 
 	signals[POSTPONE] = 
 		g_signal_new ("postpone",
@@ -141,13 +140,15 @@ drw_break_window_init (DrwBreakWindow *window)
 	GtkWidget          *frame;
 	GtkWidget          *align;
 	gchar              *str;
-	GdkPixbuf          *tmp_pixbuf, *pixbuf, *tile_pixbuf;
-	GdkPixmap          *pixmap;
-	GdkRectangle        rect;
-	GdkColor            color;
 	GtkWidget          *outer_vbox;
 	GtkWidget          *button_box;
 	gboolean            allow_postpone;
+
+	GdkScreen          *screen;
+	GdkDisplay         *display;
+	GdkRectangle        geometry;
+	gint                monitor;
+	gfloat              w, h;
 
         priv = g_new0 (DrwBreakWindowPriv, 1);
         window->priv = priv;
@@ -169,78 +170,28 @@ drw_break_window_init (DrwBreakWindow *window)
 	gtk_widget_set_app_paintable (GTK_WIDGET (window), TRUE);
 	gtk_widget_realize (GTK_WIDGET (window));
 
-	tmp_pixbuf = gdk_pixbuf_get_from_drawable (NULL,
-						   gdk_get_default_root_window (),
-						   gdk_colormap_get_system (),
-						   0,
-						   0,
-						   0,
-						   0,
-						   gdk_screen_width (),
-						   gdk_screen_height ());
-
-	pixbuf = gdk_pixbuf_new_from_file (IMAGEDIR "/ocean-stripes.png", NULL);
-
-	rect.x = 0;
-	rect.y = 0;
-	rect.width = gdk_screen_width ();
-	rect.height = gdk_screen_height ();
-
-	color.red = 0;
-	color.blue = 0;
-	color.green = 0;
-	
-	tile_pixbuf = create_tile_pixbuf (NULL,
-					  pixbuf,
-					  &rect,
-					  155,
-					  &color);
-
-	g_object_unref (pixbuf);
-
-	gdk_pixbuf_composite (tile_pixbuf,
-			      tmp_pixbuf,
-			      0,
-			      0,
-			      gdk_screen_width (),
-			      gdk_screen_height (),
-			      0,
-			      0,
-			      1,
-			      1,
-			      GDK_INTERP_NEAREST,
-			      225);
-
-	g_object_unref (tile_pixbuf);
-
-	pixmap = gdk_pixmap_new (GTK_WIDGET (window)->window,
-				 gdk_screen_width (),
-				 gdk_screen_height (),
-				 -1);
-
-	gdk_pixbuf_render_to_drawable_alpha (tmp_pixbuf,
-					     pixmap,
-					     0,
-					     0,
-					     0,
-					     0,
-					     gdk_screen_width (),
-					     gdk_screen_height (),
-					     GDK_PIXBUF_ALPHA_BILEVEL,
-					     0,
-					     GDK_RGB_DITHER_NONE,
-					     0,
-					     0);
-	g_object_unref (tmp_pixbuf);
-
-	gdk_window_set_back_pixmap (GTK_WIDGET (window)->window, pixmap, FALSE);
-	g_object_unref (pixmap);
+	drw_setup_background (GTK_WIDGET (window));
 	
 	frame = gtk_frame_new (NULL);
 	gtk_frame_set_shadow_type (GTK_FRAME (frame), GTK_SHADOW_NONE);
 	gtk_widget_show (frame);
+
+	display = gdk_display_get_default ();
+	screen = gdk_display_get_default_screen (display);
+
+	if (gdk_screen_get_n_monitors (screen) != 1) {
+		monitor = gdk_screen_get_monitor_at_point (screen,
+				(gint) 0.5 * gdk_screen_width (),
+				(gint) 0.5 * gdk_screen_height ());
+		gdk_screen_get_monitor_geometry (screen, monitor, &geometry);
+
+		w = (0.5 * geometry.width + geometry.x) / gdk_screen_width ();
+		h = (0.5 * geometry.height + geometry.y) / gdk_screen_height ();
+		align = gtk_alignment_new (w, h, 0.0, 0.0);
+	} else {
+		align = gtk_alignment_new (0.5, 0.5, 0.0, 0.0);
+	}
 	
-	align = gtk_alignment_new (0.5, 0.5, 0.0, 0.0);
 	gtk_widget_show (align);
 
 	outer_vbox = gtk_vbox_new (FALSE, 0);
@@ -360,77 +311,33 @@ drw_break_window_finalize (GObject *object)
         }
 }
 
+static void
+drw_break_window_dispose (GObject *object)
+{
+        DrwBreakWindow     *window = DRW_BREAK_WINDOW (object);
+        DrwBreakWindowPriv *priv;
+        
+        priv = window->priv;
+
+	if (priv->clock_timeout_id != 0) {
+		g_source_remove (priv->clock_timeout_id);
+		priv->clock_timeout_id = 0;
+	}
+
+	if (priv->postpone_timeout_id != 0) {
+		g_source_remove (priv->postpone_timeout_id);
+		priv->postpone_timeout_id = 0;
+	}
+
+        if (G_OBJECT_CLASS (parent_class)->dispose) {
+                (* G_OBJECT_CLASS (parent_class)->dispose) (object);
+        }
+}
+
 GtkWidget *
 drw_break_window_new (void)
 {
 	return g_object_new (DRW_TYPE_BREAK_WINDOW, NULL);
-}
-
-static GdkPixbuf *
-create_tile_pixbuf (GdkPixbuf    *dest_pixbuf,
-		    GdkPixbuf    *src_pixbuf,
-		    GdkRectangle *field_geom,
-		    guint         alpha,
-		    GdkColor     *bg_color) 
-{
-	gboolean need_composite;
-	gboolean use_simple;
-	gdouble  cx, cy;
-	gdouble  colorv;
-	gint     pwidth, pheight;
-
-	need_composite = (alpha < 255 || gdk_pixbuf_get_has_alpha (src_pixbuf));
-	use_simple = (dest_pixbuf == NULL);
-
-	if (dest_pixbuf == NULL)
-		dest_pixbuf = gdk_pixbuf_new (GDK_COLORSPACE_RGB, FALSE, 8, field_geom->width, field_geom->height);
-
-	if (need_composite && use_simple)
-		colorv = ((bg_color->red & 0xff00) << 8) |
-			(bg_color->green & 0xff00) |
-			((bg_color->blue & 0xff00) >> 8);
-	else
-		colorv = 0;
-
-	pwidth = gdk_pixbuf_get_width (src_pixbuf);
-	pheight = gdk_pixbuf_get_height (src_pixbuf);
-
-	for (cy = 0; cy < field_geom->height; cy += pheight) {
-		for (cx = 0; cx < field_geom->width; cx += pwidth) {
-			if (need_composite && !use_simple)
-				gdk_pixbuf_composite
-					(src_pixbuf, dest_pixbuf,
-					 cx, cy,
-					 MIN (pwidth, field_geom->width - cx), 
-					 MIN (pheight, field_geom->height - cy),
-					 cx, cy,
-					 1.0, 1.0,
-					 GDK_INTERP_BILINEAR,
-					 alpha);
-			else if (need_composite && use_simple)
-				gdk_pixbuf_composite_color
-					(src_pixbuf, dest_pixbuf,
-					 cx, cy,
-					 MIN (pwidth, field_geom->width - cx), 
-					 MIN (pheight, field_geom->height - cy),
-					 cx, cy,
-					 1.0, 1.0,
-					 GDK_INTERP_BILINEAR,
-					 alpha,
-					 65536, 65536, 65536,
-					 colorv, colorv);
-			else
-				gdk_pixbuf_copy_area
-					(src_pixbuf,
-					 0, 0,
-					 MIN (pwidth, field_geom->width - cx),
-					 MIN (pheight, field_geom->height - cy),
-					 dest_pixbuf,
-					 cx, cy);
-		}
-	}
-
-	return dest_pixbuf;
 }
 
 static gboolean
