@@ -1,3 +1,8 @@
+2004-03-21  Richard Hult  <richard@imendio.com>
+
+	* configure.in:
+	* src/Makefile.in: Try improving the Xss detection.
+	
 2004-03-20  Richard Hult  <richard@imendio.com>
 
 	* src/drw-monitor.c (drw_monitor_timeout): Raise the threshold for

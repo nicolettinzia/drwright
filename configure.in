@@ -8,6 +8,7 @@ AC_ISC_POSIX
 AC_PROG_CC
 AC_STDC_HEADERS
 AM_PROG_LIBTOOL
+AC_PATH_XTRA
 AM_PATH_GLIB_2_0
 
 AC_PROG_INTLTOOL
@@ -81,6 +82,23 @@ AC_SUBST(DRWRIGHT_CFLAGS)
 AC_SUBST(DRWRIGHT_LIBS)
 dnl -----------------------------------------------------------
 
+dnl
+dnl Check for XScreenSaver extension
+dnl		
+
+dnl Check for XScreenSaver
+old_LIBS="$LIBS"
+old_CFLAGS="$CFLAGS"
+LIBS="$LIBS -L$x_libraries"
+CFLAGS="$CFLAGS -I$x_includes"
+AC_CHECK_LIB(Xext, XScreenSaverQueryInfo,[XSS_LIBS="-L$x_libraries"],[],[-lX11 -lXext -lm])
+AC_CHECK_LIB(Xss, XScreenSaverQueryInfo,[XSS_LIBS="-L$x_libraries -lXss"],[],[-lX11 -lXext -lm])
+LIBS="$old_LIBS"
+CFLAGS="$old_CFLAGS"
+if test "x$XSS_LIBS" = "x"; then
+  AC_MSG_ERROR([XScreenSaver extension not found])  
+fi
+AC_SUBST(XSS_LIBS)
 
 dnl  ------------------
 dnl | Language Support |---------------------------------------

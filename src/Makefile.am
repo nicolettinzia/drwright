@@ -8,7 +8,6 @@ if HAVE_DBUS
 dbus_sources = dbus.c dbus.h
 endif
 
-bin_PROGRAMS = 
 bin_PROGRAMS = drwright
 
 drwright_SOURCES = 				\
@@ -29,7 +28,7 @@ drwright_SOURCES = 				\
 	drw-selection.c				\
 	drw-selection.h
 
-drwright_LDADD = @DRWRIGHT_LIBS@ -L/usr/X11R6/lib -lXss
+drwright_LDADD = @DRWRIGHT_LIBS@ @XSS_LIBS@
 
 schemadir = @GCONF_SCHEMA_FILE_DIR@
 schema_DATA = drwright.schemas
