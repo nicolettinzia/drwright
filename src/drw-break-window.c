@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
  * Copyright (C) 2002 CodeFactory AB
- * Copyright (C) 2002 Richard Hult <richard@imendo.com>
+ * Copyright (C) 2002 Richard Hult <rhult@codefactory.se>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -47,6 +47,13 @@ struct _DrwBreakWindowPriv {
 
 #define UNLOCK_CANCEL 30*1000
 
+/* Signals */
+enum {
+	DONE,
+	POSTPONE,
+	LAST_SIGNAL
+};
+
 static void         drw_break_window_class_init    (DrwBreakWindowClass *klass);
 static void         drw_break_window_init          (DrwBreakWindow      *window);
 static void         drw_break_window_finalize      (GObject             *object);
@@ -67,8 +74,7 @@ static void         label_size_request_cb          (GtkLabel            *label,
 
 
 static GObjectClass *parent_class;
-extern gboolean debug;
-extern gboolean debug_break_time;
+static guint signals[LAST_SIGNAL];
 
 GType
 drw_break_window_get_type (void)
@@ -105,6 +111,24 @@ drw_break_window_class_init (DrwBreakWindowClass *klass)
         parent_class = G_OBJECT_CLASS (g_type_class_peek_parent (klass));
         
         object_class->finalize = drw_break_window_finalize;
+
+	signals[POSTPONE] = 
+		g_signal_new ("postpone",
+			      G_TYPE_FROM_CLASS (klass),
+			      G_SIGNAL_RUN_LAST,
+			      0,
+			      NULL, NULL,
+			      g_cclosure_marshal_VOID__VOID,
+			      G_TYPE_NONE, 0);
+	
+	signals[DONE] = 
+		g_signal_new ("done",
+			      G_TYPE_FROM_CLASS (klass),
+			      G_SIGNAL_RUN_LAST,
+			      0,
+			      NULL, NULL,
+			      g_cclosure_marshal_VOID__VOID,
+			      G_TYPE_NONE, 0);
 }
 
 static void
@@ -135,12 +159,6 @@ drw_break_window_init (DrwBreakWindow *window)
 					      "/apps/drwright/allow_unlock",
 					      NULL);
 
-	priv->break_time = MAX (priv->break_time, debug_break_time);
-	
-	if (debug) {
-		priv->break_time = debug_break_time;
-	}
-	
 	GTK_WINDOW (window)->type = GTK_WINDOW_POPUP;	
 
 	gtk_window_set_default_size (GTK_WINDOW (window),
@@ -237,7 +255,7 @@ drw_break_window_init (DrwBreakWindow *window)
 		
 		gtk_container_set_border_width (GTK_CONTAINER (button_box), 12);
 		
-		priv->unlock_button = gtk_button_new_with_label (_("Unlock"));
+		priv->unlock_button = gtk_button_new_with_label (_("Postpone break"));
 		gtk_widget_show (priv->unlock_button);
 		
 		g_signal_connect (priv->unlock_button,
@@ -436,7 +454,8 @@ clock_timeout_cb (DrwBreakWindow *window)
 		 */
 		priv->clock_timeout_id = 0;
 
-		gtk_widget_destroy (GTK_WIDGET (window));
+		g_signal_emit (window, signals[DONE], 0, NULL);
+		//gtk_widget_destroy (GTK_WIDGET (window));
 
 		return FALSE;
 	}
@@ -467,7 +486,9 @@ unlock_entry_activate_cb (GtkWidget      *entry,
 					  NULL);
 	
 	if (!strcmp (str, phrase)) {
-		gtk_widget_destroy (GTK_WIDGET (window));
+		g_signal_emit (window, signals[POSTPONE], 0, NULL);
+		//gtk_widget_destroy (GTK_WIDGET (window));
+		return;
 	}
 
 	gtk_entry_set_text (GTK_ENTRY (entry), "");
@@ -548,7 +569,9 @@ unlock_clicked_cb (GtkWidget *button,
 					  NULL);
 
 	if (!phrase || !phrase[0]) {
-		gtk_widget_destroy (window);
+		g_signal_emit (window, signals[POSTPONE], 0, NULL);
+
+		//gtk_widget_destroy (window);
 		return;
 	}
 
@@ -576,16 +599,15 @@ unlock_clicked_cb (GtkWidget *button,
 			  bw);
 }
 
-
 static void
-get_layout_location (GtkLabel  *label,
-                     gint      *xp,
-                     gint      *yp)
+get_layout_location (GtkLabel *label,
+                     gint     *xp,
+                     gint     *yp)
 {
-	GtkMisc *misc;
+	GtkMisc   *misc;
 	GtkWidget *widget;
-	float xalign;
-	int x, y;
+	gfloat     xalign;
+	gint       x, y;
 	
 	misc = GTK_MISC (label);
 	widget = GTK_WIDGET (label);
@@ -618,10 +640,10 @@ label_expose_event_cb (GtkLabel       *label,
 		       GdkEventExpose *event,
 		       gpointer        user_data)
 {
-	int x, y;
-	GdkColor color;
+	gint       x, y;
+	GdkColor   color;
 	GtkWidget *widget;
-	GdkGC *gc;
+	GdkGC     *gc;
 
 	color.red = 0;
 	color.green = 0;

@@ -20,9 +20,7 @@ drwright_SOURCES = 				\
 	eggtrayicon.c				\
 	eggtrayicon.h				\
 	drw-selection.c				\
-	drw-selection.h				\
-	disclosure-widget.c			\
-	disclosure-widget.h
+	drw-selection.h
 
 drwright_LDADD = @DRWRIGHT_LIBS@ -L/usr/X11R6/lib -lXss
 drwright_LDFLAGS = -export-dynamic

@@ -1,4 +1,4 @@
-SUBDIRS = src po
+SUBDIRS = src po data
 
 @INTLTOOL_DESKTOP_RULE@
 

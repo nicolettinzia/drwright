@@ -1,6 +1,6 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * Copyright (C) 2002 Richard Hult <richard@imendo.com>
+ * Copyright (C) 2002 Richard Hult <rhult@codefactory.se>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -24,14 +24,11 @@
 #include <gconf/gconf-client.h>
 #include <glade/glade.h>
 #include "drw-intl.h"
-#include "disclosure-widget.h"
 
 typedef struct {
 	gint       type_time;
 	gint       break_time;
 	gint       warn_time;
-
-	gboolean   warn_window;
 
 	gboolean   allow_unlock;
 	gchar     *unlock_phrase;
@@ -42,9 +39,6 @@ typedef struct {
 	GtkWidget *break_sb;
 	GtkWidget *warn_sb;
 
-	/* Advanced. */
-	GtkWidget *advanced_table;
-	GtkWidget *window_cb;
 	GtkWidget *unlock_cb;
 	GtkWidget *unlock_entry;
 } DrwPreferences;
@@ -82,17 +76,6 @@ warn_time_changed_cb (GtkSpinButton  *sb,
 	t = gtk_spin_button_get_value_as_int (sb);
 	
 	gconf_client_set_int (client, "/apps/drwright/warn_time", t, NULL);
-}
-
-static void
-warn_window_toggled_cb (GtkToggleButton *tb,
-			DrwPreferences  *prefs)
-{
-	gboolean a;
-
-	a = gtk_toggle_button_get_active (tb);
-	
-	gconf_client_set_bool (client, "/apps/drwright/use_warning_window", a, NULL);
 }
 
 static void
@@ -136,13 +119,6 @@ warn_time_update (DrwPreferences *prefs)
 {
 	gtk_spin_button_set_value (GTK_SPIN_BUTTON (prefs->warn_sb),
 				   prefs->warn_time);
-}
-
-static void
-warn_window_update (DrwPreferences *prefs)
-{
-	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (prefs->window_cb),
-				      prefs->warn_window);
 }
 
 static void
@@ -196,12 +172,6 @@ gconf_notify_cb (GConfClient *client,
 			warn_time_update (prefs);
 		}
 	}
-	else if (!strcmp (entry->key, "/apps/drwright/use_warning_window")) {
-		if (entry->value->type == GCONF_VALUE_BOOL) {
-			prefs->warn_window = gconf_value_get_bool (entry->value);
-			warn_window_update (prefs);
-		}
-	}
 	else if (!strcmp (entry->key, "/apps/drwright/allow_unlock")) {
 		if (entry->value->type == GCONF_VALUE_BOOL) {
 			prefs->allow_unlock = gconf_value_get_bool (entry->value);
@@ -214,17 +184,6 @@ gconf_notify_cb (GConfClient *client,
 			prefs->unlock_phrase = g_strdup (gconf_value_get_string (entry->value));
 			unlock_phrase_update (prefs);
 		}
-	}
-}
-
-static void
-disclosure_toggled_cb (GtkToggleButton *button,
-		       DrwPreferences  *prefs)
-{
-	if (gtk_toggle_button_get_active (button)) {
-		gtk_widget_show (prefs->advanced_table);
-	} else {
-		gtk_widget_hide (prefs->advanced_table);
 	}
 }
 
@@ -244,7 +203,7 @@ drw_preferences_new (void)
 	DrwPreferences *prefs;
 	GladeXML       *glade;
 	GtkWidget      *dialog;
-	GtkWidget      *widget;
+//	GtkWidget      *widget;
 	GtkSizeGroup   *group;
 
 	prefs = g_new0 (DrwPreferences, 1);
@@ -264,9 +223,6 @@ drw_preferences_new (void)
 	prefs->warn_time = gconf_client_get_int (
 		client, "/apps/drwright/warn_time", NULL);
 	
-	prefs->warn_window = gconf_client_get_bool (
-		client, "/apps/drwright/use_warning_window", NULL);
-
 	prefs->allow_unlock = gconf_client_get_bool (
 		client, "/apps/drwright/allow_unlock", NULL);
 	
@@ -293,20 +249,11 @@ drw_preferences_new (void)
 			  G_CALLBACK (break_time_changed_cb),
 			  prefs);
 
-	prefs->advanced_table = glade_xml_get_widget (glade, "advanced_table");
-	
 	prefs->warn_sb = glade_xml_get_widget (glade, "warn_spinbutton");
 	warn_time_update (prefs);
 	g_signal_connect (prefs->warn_sb,
 			  "value-changed",
 			  G_CALLBACK (warn_time_changed_cb),
-			  prefs);
-
-	prefs->window_cb = glade_xml_get_widget (glade, "window_checkbutton");
-	warn_window_update (prefs);
-	g_signal_connect (prefs->window_cb,
-			  "toggled",
-			  G_CALLBACK (warn_window_toggled_cb),
 			  prefs);
 
 	prefs->unlock_entry = glade_xml_get_widget (glade, "unlock_entry");
@@ -323,12 +270,6 @@ drw_preferences_new (void)
 			  G_CALLBACK (allow_unlock_toggled_cb),
 			  prefs);
 
-	widget = glade_xml_get_widget (glade, "disclosure_widget");
-	g_signal_connect (widget,
-			  "toggled",
-			  G_CALLBACK (disclosure_toggled_cb),
-			  prefs);
-	
 	g_signal_connect (dialog,
 			  "response",
 			  G_CALLBACK (gtk_widget_destroy),
@@ -340,12 +281,22 @@ drw_preferences_new (void)
 			  prefs);
 
 	group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
-	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "work_label"));
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "type_pad_label"));
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "warn_pad_label"));
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "break_pad_label"));
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "unlock_pad_label"));
+	g_object_unref (group);
+
+	group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "type_label"));
 	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "warn_label"));
 	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "break_label"));
-	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "method_label"));
-	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "unlock_label"));
-	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "empty_label"));
+	g_object_unref (group);
+
+	group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "type_spinbutton"));
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "warn_spinbutton"));
+	gtk_size_group_add_widget (group, glade_xml_get_widget (glade, "break_spinbutton"));
 	g_object_unref (group);
 
 	gtk_widget_show (dialog);
@@ -355,13 +306,3 @@ drw_preferences_new (void)
 	return prefs;
 }
 
-GtkWidget *
-create_disclosure_widget (void)
-{
-	GtkWidget *widget;
-
-	widget = cddb_disclosure_new (_("Advanced"), _("Advanced"));
-	gtk_widget_show (widget);
-
-	return widget;
-}

@@ -1,3 +1,38 @@
+2003-05-24  Richard Hult  <rhult@codefactory.se>
+
+	* src/disclosure-widget.[ch]: Remove.
+	
+	* src/drwright.c (popup_menu_cb): Popup context menu on
+	shift-f10. Fixes part of bug #112474.
+	(icon_event_box_expose_event_cb): Draw focus rectangle.
+
+	* data/images: Use colors from the HIG palette and crop the icons
+	a bit.
+
+2003-05-22  Richard Hult  <rhult@codefactory.se>
+
+	* Makefile.am:
+	* data/glade/drw-preferences.glade:
+	* src/Makefile.am:
+	* src/drw-break-window.c: (drw_break_window_class_init),
+	(drw_break_window_init), (clock_timeout_cb),
+	(unlock_entry_activate_cb), (unlock_clicked_cb),
+	(get_layout_location), (label_expose_event_cb):
+	* src/drw-preferences.c: (gconf_notify_cb), (drw_preferences_new):
+	* src/drwright.c: (setup_debug_values), (update_icon),
+	(blink_timeout_cb), (start_blinking), (stop_blinking),
+	(maybe_change_state), (update_tooltip), (gconf_notify_cb),
+	(break_window_done_cb), (break_window_postpone_cb), (drwright_new):
+
+	Lots of changes, remove unlock feature and replace it with a
+	postpone feature, and remove all the crap that was a workaround
+	for not having that before. Always update the icon and tooltip
+	after postponing, or after a break is finished.
+	
+2003-05-19  Richard Hult  <rhult@codefactory.se>
+
+	* Makefile.am (SUBDIRS): Add data.
+
 2003-05-24  Duarte Loreto <happyguy_pt@hotmail.com>
 
         * configure.in: Added Portuguese (pt) to ALL_LINGUAS.
@@ -10,11 +45,11 @@
 
 	* configure.in: Added "bg" "cy" "ja" "pt_BR" "sr" "zh_CN" to ALL_LINGUAS.
 
-2003-04-17  Richard Hult  <richard@imendo.com>
+2003-04-17  Richard Hult  <rhult@codefactory.se>
 
 	* Release 0.16.
 	
-2003-03-17  Richard Hult  <richard@imendo.com>
+2003-03-17  Richard Hult  <rhult@codefactory.se>
 
 	* src/main.c (session_save): Fix stupid memory bug.
 
@@ -31,25 +66,25 @@
 
 	* configure.in (GETTEXT_PACKAGE): Add translations.
 
-2003-03-05  Richard Hult  <richard@imendo.com>
+2003-03-05  Richard Hult  <rhult@codefactory.se>
 
 	* Version marker.
 
-2003-02-28  Richard Hult  <richard@imendo.com>
+2003-02-28  Richard Hult  <rhult@codefactory.se>
 
 	* configure.in: Add new translations and bump version to 0.15.
 
-2003-02-26  Richard Hult  <richard@imendo.com>
+2003-02-26  Richard Hult  <rhult@codefactory.se>
 
 	* src/main.c (have_tray): Add.
 	(main): Check if we have a tray, otherwise show dialog.
 
-2003-01-26  Richard Hult  <richard@imendo.com>
+2003-01-26  Richard Hult  <rhult@codefactory.se>
 
 	* src/drw-break-window.c (unlock_entry_key_press_event_cb): Remove
 	the source if the unlock entry is cancelled.
 
-2003-01-20  Richard Hult  <richard@imendo.com>
+2003-01-20  Richard Hult  <rhult@codefactory.se>
 
 	* src/main.c (session_save): Doh. Do it right this time.
 
@@ -58,14 +93,14 @@
 	(clock_timeout_cb): Destroy the break window when the break is
 	over.
 
-2003-01-19  Richard Hult  <richard@imendo.com>
+2003-01-19  Richard Hult  <rhult@codefactory.se>
 
 	* src/drw-break-window.c (label_expose_event_cb)
 	(label_size_request_cb, get_layout_location)
 	(drw_break_window_init): Add drop shadow to the break labels,
 	borrowed and modified from eel.
 
-2003-01-18  Richard Hult  <richard@imendo.com>
+2003-01-18  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.c (blink_timeout_cb): Tweak the blinking speed a
 	bit, start out slower and stop incresing the speed a bit sooner.
@@ -90,7 +125,7 @@
 	while the entry is visible and the right phrase is entered.
 	(unlock_entry_key_press_event_cb): Hide the entry on escape.
 
-2003-01-17  Richard Hult  <richard@imendo.com>
+2003-01-17  Richard Hult  <rhult@codefactory.se>
 
 	* src/Makefile.am: Add -export-dynamic so custom widgets work with
 	libglade.
@@ -127,40 +162,40 @@
 	* configure.in (ALL_LINGUAS): Add Danish translation 
 	by Kim Schultz.
 
-2003-01-10  Richard Hult  <richard@imendo.com>
+2003-01-10  Richard Hult  <rhult@codefactory.se>
 
 	* Release 0.14.
 
 	* src/drw-break-window.c (drw_break_window_init): Don't grab the
 	keyboard, makes XScreensaver complain.
 
-2002-11-29  Richard Hult  <richard@imendo.com>
+2002-11-29  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.c (update_tooltip): Don't show a time if we're
 	disabled.
 
-2002-11-26  Richard Hult  <richard@imendo.com>
+2002-11-26  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.c (init_tray_icon): Handle destruction a bit
 	better. Should work for panel crashing and tray removal now.
  
-2002-11-23  Richard Hult  <richard@imendo.com>
+2002-11-23  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.c (init_tray_icon): Refactor tray icon creation.
 	(icon_destroy_event_cb): Create tray icon if the tray is
 	destroyed.
 
-2002-11-22  Richard Hult  <richard@imendo.com>
+2002-11-22  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.c (stop_blinking): Fix hiding the warn dialog.
 	(update_warning_dialog): Don't put 0:00 in the label.
 
-2002-11-21  Richard Hult  <richard@imendo.com>
+2002-11-21  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.c (show_warning_dialog): Hide the dialog when the
 	button is clicked.
 
-2002-11-20  Richard Hult  <richard@imendo.com>
+2002-11-20  Richard Hult  <rhult@codefactory.se>
 
 	* src/drw-preferences.c: Implement warning window preference.
 
@@ -189,7 +224,7 @@
 	* configure.in (GETTEXT_PACKAGE): Add Dutch translation from Luc
 	Roobrouck <luc.roobrouck@pandora.be>
 
-2002-11-09  Richard Hult  <richard@imendo.com>
+2002-11-09  Richard Hult  <rhult@codefactory.se>
 
 	* src/drw-preferences.c: Remove enabled setting.
 
@@ -197,7 +232,7 @@
 	popup_enabled_cb): Quit if our window is destroyed.  Use stock
 	item for About. Remove "Break now" and add "Enabled" toggle item.
 
-2002-10-30  Richard Hult  <richard@imendo.com>
+2002-10-30  Richard Hult  <rhult@codefactory.se>
 
 	* configure.in: Require libgnomeui. Bump version.
 
@@ -205,7 +240,7 @@
 	stuff. Use Owens selection voodoo to get only one instance running
 	at a time.
 
-2002-10-29  Richard Hult  <richard@imendo.com>
+2002-10-29  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.schemas: Change defaults to 60/5/5.
 
@@ -215,7 +250,7 @@
 
 	* src/*.png: Make the bar a bit wider.
 
-2002-10-09  Richard Hult  <richard@imendo.com>
+2002-10-09  Richard Hult  <rhult@codefactory.se>
 
 	* src/drwright.c: Fix up about box.
 
@@ -236,7 +271,7 @@
 	* src/drwright.c: (gconf_notify_cb), (drwright_new):
 	Use Xss for determining idle time + general cleanup.
 	
-2002-07-16  Richard Hult  <richard@imendo.com>
+2002-07-16  Richard Hult  <rhult@codefactory.se>
 
 	* Release 0.8.
 

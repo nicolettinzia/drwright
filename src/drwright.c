@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
  * Copyright (C) 2002 CodeFactory AB
- * Copyright (C) 2002-2003 Richard Hult <richard@imendo.com>
+ * Copyright (C) 2002-2003 Richard Hult <rhult@codefactory.se>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -75,8 +75,6 @@ struct _DrWright {
 	gint            break_time;
 	gint            warn_time;
 
-	gboolean        use_warning_window;
-
 	gboolean        enabled;
 
 	guint           clock_timeout_id;
@@ -98,30 +96,32 @@ struct _DrWright {
 	GtkWidget      *warn_dialog;
 };
 
-static void     activity_detected_cb    (DrwMonitor     *monitor,
-					 DrWright       *drwright);
-static gboolean maybe_change_state      (DrWright       *drwright);
-static gboolean update_tooltip          (DrWright       *drwright);
-static gboolean icon_button_press_cb    (GtkWidget      *widget,
-					 GdkEventButton *event,
-					 DrWright       *drwright);
-static void     break_window_destroy_cb (GtkWidget      *window,
-					 DrWright       *dr);
-static void     popup_enabled_cb        (gpointer        callback_data,
-					 guint           action,
-					 GtkWidget      *widget);
-static void     popup_preferences_cb    (gpointer        callback_data,
-					 guint           action,
-					 GtkWidget      *widget);
-static void     popup_quit_cb           (gpointer        callback_data,
-					 guint           action,
-					 GtkWidget      *widget);
-static void     popup_about_cb          (gpointer        callback_data,
-					 guint           action,
-					 GtkWidget      *widget);
-static gchar *  item_factory_trans_cb   (const gchar    *path,
-					 gpointer        data);
-static void     init_tray_icon          (DrWright       *dr);
+static void     activity_detected_cb     (DrwMonitor     *monitor,
+					  DrWright       *drwright);
+static gboolean maybe_change_state       (DrWright       *drwright);
+static gboolean update_tooltip           (DrWright       *drwright);
+static gboolean icon_button_press_cb     (GtkWidget      *widget,
+					  GdkEventButton *event,
+					  DrWright       *drwright);
+static void     break_window_done_cb     (GtkWidget      *window,
+					  DrWright       *dr);
+static void     break_window_postpone_cb (GtkWidget      *window,
+					  DrWright       *dr);
+static void     popup_enabled_cb         (gpointer        callback_data,
+					  guint           action,
+					  GtkWidget      *widget);
+static void     popup_preferences_cb     (gpointer        callback_data,
+					  guint           action,
+					  GtkWidget      *widget);
+static void     popup_quit_cb            (gpointer        callback_data,
+					  guint           action,
+					  GtkWidget      *widget);
+static void     popup_about_cb           (gpointer        callback_data,
+					  guint           action,
+					  GtkWidget      *widget);
+static gchar *  item_factory_trans_cb    (const gchar    *path,
+					  gpointer        data);
+static void     init_tray_icon           (DrWright       *dr);
 
 
 #define GIF_CB(x) ((GtkItemFactoryCallback)(x))
@@ -137,114 +137,13 @@ static GtkItemFactoryEntry popup_items[] = {
 
 GConfClient *client = NULL;
 gboolean debug;
-gboolean debug_break_time;
-
 
 static void
-sanity_check_preferences (DrWright *dr)
+setup_debug_values (DrWright *dr)
 {
-	dr->type_time = MAX (dr->type_time, 10);
-	dr->warn_time = CLAMP (dr->warn_time, 5, dr->type_time - 5);
-
-	if (debug) {
-		dr->type_time = 5;
-		dr->warn_time = 4;
-		dr->break_time = 10;
-
-		debug_break_time = dr->break_time;
-	}
-}
-
-static void
-update_warning_dialog (DrWright *dr)
-{
-	gint   elapsed_time, min, sec;
-	gchar *str;
-
-	if (!dr->warn_dialog) {
-		return;
-	}
-	
-	elapsed_time = g_timer_elapsed (dr->timer, NULL);
-
-	sec = dr->type_time - elapsed_time;
-	min = sec / 60;
-	sec -= min * 60;
-
-	min = MAX (0, min);
-	sec = MAX (0, sec);
-
-	if (min > 0 || sec > 0) {
-		str = g_strdup_printf ("%s\n"
-				       "<span size=\"10000\"><b>%d:%02d</b></span>",
-				       _("Break coming up!"),
-				       min, sec);
-	} else {
-		str = g_strdup (_("Break!"));
-	}		
-	
-	g_object_set (GTK_MESSAGE_DIALOG (dr->warn_dialog)->label,
-		      "use-markup", TRUE,
-		      "wrap", TRUE,
-		      "label", str,
-		      NULL);
-	
-	g_free (str);
-}
-
-static gboolean
-warn_dialog_delete_event (GtkWidget *dialog)
-{
-	gtk_widget_hide (dialog);
-	return TRUE;
-}
-
-static void
-warn_dialog_response (GtkWidget *dialog)
-{
-	gtk_widget_hide (dialog);
-}
-
-static void
-hide_warning_dialog (DrWright *dr)
-{
-	if (dr->warn_dialog) {
-		gtk_widget_hide (dr->warn_dialog);
-		return;
-	}
-}
-
-static void
-show_warning_dialog (DrWright *dr)
-{
-	if (!dr->use_warning_window) {
-		return;
-	}
-	
-	if (dr->warn_dialog) {
-		gtk_window_present (GTK_WINDOW (dr->warn_dialog));
-		return;
-	}
-	
-	dr->warn_dialog = gtk_message_dialog_new (NULL,
-						  0,
-						  GTK_MESSAGE_INFO,
-						  GTK_BUTTONS_CLOSE,
-						  " ");
-	
-	update_warning_dialog (dr);
-
-	g_signal_connect (dr->warn_dialog,
-			  "delete_event",
-			  G_CALLBACK (warn_dialog_delete_event),
-			  NULL);
-
-	g_signal_connect (dr->warn_dialog,
-			  "response",
-			  G_CALLBACK (warn_dialog_response),
-			  NULL);
-	
-	gtk_widget_show (dr->warn_dialog);
+	dr->type_time = 5;
+	dr->warn_time = 4;
+	dr->break_time = 10;
 }
 
 static void
@@ -269,15 +168,29 @@ update_icon (DrWright *dr)
 
 	set_pixbuf = TRUE;
 
-	if (dr->state == STATE_BREAK) {
-		r = (float) (dr->break_time - g_timer_elapsed (dr->timer, NULL)) / (float) dr->break_time;
-	}
-	else if (dr->state == STATE_BREAK_DONE) {
+	switch (dr->state) {
+	case STATE_BREAK:
+	case STATE_BREAK_SETUP:
+		r = 1;
+		break;
+		
+	case STATE_BREAK_DONE:
+	case STATE_BREAK_DONE_SETUP:
+	case STATE_START:
 		r = 0;
-	} else {
+		break;
+		
+	case STATE_WARN_IDLE:
+	case STATE_WARN_TYPE:
+		r = ((float)(dr->type_time - dr->warn_time) / dr->type_time) +
+			(float) g_timer_elapsed (dr->timer, NULL) / (float) dr->warn_time;
+		break;
+
+	default:
 		r = (float) g_timer_elapsed (dr->timer, NULL) / (float) dr->type_time;
+		break;
 	}
-	
+
 	offset = CLAMP ((height - 0) * (1.0 - r), 1, height - 0);
 	
 	switch (dr->state) {
@@ -326,7 +239,7 @@ blink_timeout_cb (DrWright *dr)
 	gfloat r;
 	gint   timeout;
 	
-	r = (dr->type_time - g_timer_elapsed (dr->timer, NULL)) / dr->warn_time;
+	r = (dr->warn_time - g_timer_elapsed (dr->timer, NULL)) / dr->warn_time;
 	timeout = BLINK_TIMEOUT + BLINK_TIMEOUT_FACTOR * r;
 
 	if (timeout < BLINK_TIMEOUT_MIN) {
@@ -356,7 +269,6 @@ static void
 start_blinking (DrWright *dr)
 {
 	if (!dr->blink_timeout_id) {
-		show_warning_dialog (dr);
 		dr->blink_on = TRUE;
 		blink_timeout_cb (dr);
 	}
@@ -367,8 +279,6 @@ start_blinking (DrWright *dr)
 static void
 stop_blinking (DrWright *dr)
 {
-	hide_warning_dialog (dr);
-
 	if (dr->blink_timeout_id) {
 		g_source_remove (dr->blink_timeout_id);
 		dr->blink_timeout_id = 0;
@@ -398,8 +308,6 @@ maybe_change_state (DrWright *dr)
 		dr->state = STATE_START;
 	}
 
-	update_warning_dialog (dr);
-	
 	switch (dr->state) {
 	case STATE_START:
 		if (dr->break_window) {
@@ -432,9 +340,10 @@ maybe_change_state (DrWright *dr)
 	case STATE_TYPE:
 		if (elapsed_time >= dr->type_time - dr->warn_time) {
 			dr->state = STATE_WARN_TYPE;
+			g_timer_start (dr->timer);
 
 			start_blinking (dr);
-		} else if (elapsed_time >= dr->type_time) {
+ 		} else if (elapsed_time >= dr->type_time) {
 			dr->state = STATE_BREAK_SETUP;
 		}
 		else if (!dr->is_active) {
@@ -444,7 +353,7 @@ maybe_change_state (DrWright *dr)
 		break;
 
 	case STATE_WARN_TYPE:
-		if (elapsed_time >= dr->type_time) {
+		if (elapsed_time >= dr->warn_time) {
 			dr->state = STATE_BREAK_SETUP;
 		}
 		else if (!dr->is_active) {
@@ -471,10 +380,15 @@ maybe_change_state (DrWright *dr)
 		dr->break_window = drw_break_window_new ();
 
 		g_signal_connect (dr->break_window,
-				  "destroy",
-				  G_CALLBACK (break_window_destroy_cb),
+				  "done",
+				  G_CALLBACK (break_window_done_cb),
 				  dr);
-		
+
+		g_signal_connect (dr->break_window,
+				  "postpone",
+				  G_CALLBACK (break_window_postpone_cb),
+				  dr);
+
 		gtk_widget_show (dr->break_window);
 
 		dr->state = STATE_BREAK;
@@ -512,7 +426,8 @@ maybe_change_state (DrWright *dr)
 	return TRUE;
 }
 
-static gboolean update_tooltip (DrWright *dr)
+static gboolean
+update_tooltip (DrWright *dr)
 {
 	gint   elapsed_time, min;
 	gchar *str;
@@ -526,12 +441,24 @@ static gboolean update_tooltip (DrWright *dr)
 	
 	elapsed_time = g_timer_elapsed (dr->timer, NULL);
 
-	min = ceil ((dr->type_time - elapsed_time) / 60.0);
+	switch (dr->state) {
+	case STATE_WARN_TYPE:
+	case STATE_WARN_IDLE:
+		min = ceil ((dr->warn_time - elapsed_time) / 60.0);
+		break;
+		
+	default:
+		min = ceil ((dr->type_time - elapsed_time) / 60.0);
+		break;
+	}
 
 	if (min > 1) {
 		str = g_strdup_printf (_("%d minutes until the next break"), min);
-	} else {
+	}
+	else if (min == 1) {
 		str = g_strdup_printf (_("One minute until the next break"));
+	} else {
+		str = g_strdup_printf (_("Less than one minute until the next break"));
 	}
 	
 	gtk_tooltips_set_tip (GTK_TOOLTIPS (dr->tooltips),
@@ -562,25 +489,22 @@ gconf_notify_cb (GConfClient *client,
 	if (!strcmp (entry->key, "/apps/drwright/type_time")) {
 		if (entry->value->type == GCONF_VALUE_INT) {
 			dr->type_time = 60 * gconf_value_get_int (entry->value);
+			dr->warn_time = MIN (dr->type_time / 10, 5*60);
+			
 			dr->state = STATE_START;
 		}
 	}
-	else if (!strcmp (entry->key, "/apps/drwright/warn_time")) {
+/*	else if (!strcmp (entry->key, "/apps/drwright/warn_time")) {
 		if (entry->value->type == GCONF_VALUE_INT) {
 			dr->warn_time = 60 * gconf_value_get_int (entry->value);
 			dr->state = STATE_START;
 		}
 	}
+*/
 	else if (!strcmp (entry->key, "/apps/drwright/break_time")) {
 		if (entry->value->type == GCONF_VALUE_INT) {
 			dr->break_time = 60 * gconf_value_get_int (entry->value);
 			dr->state = STATE_START;
-		}
-	}
-	else if (!strcmp (entry->key, "/apps/drwright/use_warning_window")) {
-		if (entry->value->type == GCONF_VALUE_BOOL) {
-			dr->use_warning_window = gconf_value_get_bool (entry->value);
-			hide_warning_dialog (dr);
 		}
 	}
 	else if (!strcmp (entry->key, "/apps/drwright/enabled")) {
@@ -709,7 +633,7 @@ popup_about_cb (gpointer   callback_data,
 				  "<span size=\"small\">%s</span>\n"
 				  "<span size=\"small\">%s</span>\n",
 				  _("A computer break reminder."),
-				  _("Written by Richard Hult &lt;rhult@imendo.com&gt;"),
+				  _("Written by Richard Hult &lt;richard@codefactory.se&gt;"),
 				  _("Eye candy added by Anders Carlsson"));
 	gtk_label_set_markup (GTK_LABEL (label), markup);
 	g_free (markup);
@@ -761,23 +685,8 @@ icon_button_press_cb (GtkWidget      *widget,
 		      GdkEventButton *event,
 		      DrWright       *dr)
 {
-	gint       seconds;
-	gint       minutes;
 	GtkWidget *menu;
 
-	if (debug && event->button == 1) {
-		seconds = g_timer_elapsed (dr->timer, NULL);
-		minutes = seconds / 60;
-		seconds -= minutes * 60;
-		g_print ("\nType: %d:%02d\n", minutes, seconds);
-		
-		seconds = g_timer_elapsed (dr->idle_timer, NULL);
-		minutes = seconds / 60;
-		seconds -= minutes * 60;
-		g_print ("Idle: %d:%02d\n", minutes, seconds);
-
-		return FALSE;
-	}
 	if (event->button == 3) {
 		menu = gtk_item_factory_get_widget (dr->popup_factory, "");
 
@@ -796,13 +705,47 @@ icon_button_press_cb (GtkWidget      *widget,
 }
 
 static void
-break_window_destroy_cb (GtkWidget *window,
-			 DrWright  *dr)
+popup_menu_cb (GtkWidget *widget,
+	       DrWright  *dr)
 {
+	GtkWidget *menu;
+	
+	menu = gtk_item_factory_get_widget (dr->popup_factory, "");
+	
+	gtk_menu_popup (GTK_MENU (menu),
+			NULL,
+			NULL,
+			popup_menu_position_cb,
+			dr->icon,
+			0,
+			gtk_get_current_event_time());
+}
+
+static void
+break_window_done_cb (GtkWidget *window,
+		      DrWright  *dr)
+{
+	gtk_widget_destroy (dr->break_window);
+	
 	dr->state = STATE_BREAK_DONE_SETUP;
 	dr->break_window = NULL;
-
+	
 	maybe_change_state (dr);
+}
+
+static void
+break_window_postpone_cb (GtkWidget *window,
+			  DrWright  *dr)
+{
+	gtk_widget_destroy (dr->break_window);
+
+	dr->state = STATE_WARN_TYPE;
+	dr->break_window = NULL;
+
+	g_timer_start (dr->timer);
+	start_blinking (dr);
+	update_icon (dr);
+	update_tooltip (dr);
 }
 
 static char *
@@ -819,7 +762,34 @@ icon_event_box_destroy_cb (GtkWidget *widget,
 	gtk_widget_destroy (GTK_WIDGET (dr->icon));
 	init_tray_icon (dr);
 }
-	
+
+static gboolean
+icon_event_box_expose_event_cb (GtkWidget      *widget,
+				GdkEventExpose *event,
+				DrWright       *dr)
+{
+	if (GTK_WIDGET_HAS_FOCUS (widget)) {
+		gint focus_width, focus_pad;
+		gint x, y, width, height;
+		
+		gtk_widget_style_get (widget,
+				      "focus-line-width", &focus_width,
+				      "focus-padding", &focus_pad,
+				      NULL);
+		x = widget->allocation.x + focus_pad;
+		y = widget->allocation.y + focus_pad;
+		width = widget->allocation.width - 2 * focus_pad;
+		height = widget->allocation.height - 2 * focus_pad;
+
+		gtk_paint_focus (widget->style, widget->window,
+				 GTK_WIDGET_STATE (widget),
+				 &event->area, widget, "button",
+				 x, y, width, height);
+	}
+
+	return FALSE;
+}
+
 static void
 init_tray_icon (DrWright *dr)
 {
@@ -829,9 +799,11 @@ init_tray_icon (DrWright *dr)
 	dr->icon_image = gtk_image_new_from_pixbuf (dr->neutral_bar);
 	gtk_container_add (GTK_CONTAINER (dr->icon_event_box), dr->icon_image);
 		
-	gtk_widget_add_events (GTK_WIDGET (dr->icon), GDK_BUTTON_PRESS_MASK);
+	gtk_widget_add_events (GTK_WIDGET (dr->icon), GDK_BUTTON_PRESS_MASK | GDK_FOCUS_CHANGE_MASK);
 	gtk_container_add (GTK_CONTAINER (dr->icon), dr->icon_event_box);
 	gtk_widget_show_all (GTK_WIDGET (dr->icon));
+
+	GTK_WIDGET_SET_FLAGS (dr->icon_event_box, GTK_CAN_FOCUS);
 	
 	update_tooltip (dr);
 	update_icon (dr);
@@ -845,6 +817,16 @@ init_tray_icon (DrWright *dr)
 			  "destroy",
 			  G_CALLBACK (icon_event_box_destroy_cb),
 			  dr);
+
+	g_signal_connect (dr->icon,
+			  "popup_menu",
+			  G_CALLBACK (popup_menu_cb),
+			  dr);
+	
+	g_signal_connect_after (dr->icon_event_box,
+				"expose_event",
+				G_CALLBACK (icon_event_box_expose_event_cb),
+				dr);
 }
 
 DrWright *
@@ -871,21 +853,22 @@ drwright_new (void)
 	dr->type_time = 60 * gconf_client_get_int (
 		client, "/apps/drwright/type_time", NULL);
 	
-	dr->warn_time = 60 * gconf_client_get_int (
+/*	dr->warn_time = 60 * gconf_client_get_int (
 		client, "/apps/drwright/warn_time", NULL);
+*/
+	dr->warn_time = MIN (dr->type_time / 10, 60*5);
 	
 	dr->break_time = 60 * gconf_client_get_int (
 		client, "/apps/drwright/break_time", NULL);
 
-	dr->use_warning_window = gconf_client_get_bool (
-		client, "/apps/drwright/use_warning_window", NULL);
-	
 	dr->enabled = gconf_client_get_bool (
 		client,
 		"/apps/drwright/enabled",
 		NULL);
 
-	sanity_check_preferences (dr);
+	if (debug) {
+		setup_debug_values (dr);
+	}
 	
 	dr->popup_factory = gtk_item_factory_new (GTK_TYPE_MENU,
 						      "<main>",

@@ -1,6 +1,6 @@
 # Swedish messages for DrWright.
 # Copyright (C) 2003 Free Software Foundation, Inc.
-# Richard Hult <richard@imendo.com>, 2003.
+# Richard Hult <rhult@codefactory.se>, 2003.
 # Christian Rose <menthos@menthos.com>, 2003.
 #
 # $Id$
@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
-"POT-Creation-Date: 2003-05-20 00:27+0200\n"
+"POT-Creation-Date: 2003-05-22 17:43+0200\n"
 "PO-Revision-Date: 2003-05-20 00:28+0200\n"
 "Last-Translator: Christian Rose <menthos@menthos.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
@@ -17,61 +17,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "<b>W_arning time:</b>"
-msgstr "<b>_Varningstid:</b>"
-
 #: data/glade/drw-preferences.glade.h:3
-msgid "<b>Warning _method:</b>"
-msgstr "<b>Varnings_metod:</b>"
+msgid "<b>Break</b>"
+msgstr "<b>Paus</b>"
 
 #: data/glade/drw-preferences.glade.h:4
-msgid "<b>_Break interval:</b>"
-msgstr "<b>_Pauslängd:</b>"
+msgid "<b>Work</b>"
+msgstr "<b>Arbete</b>"
 
 #: data/glade/drw-preferences.glade.h:5
-msgid "<b>_Unlocking:</b>"
-msgstr "<b>_Upplåsning:</b>"
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Kryssa i om pauser ska tillåtas att avbrytas"
 
 #: data/glade/drw-preferences.glade.h:6
-msgid "<b>_Work interval:</b>"
-msgstr "<b>_Aktivitetsintervall:</b>"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid ""
-"<span size=\"small\">Duration of the break when typing is disallowed.</span>"
-msgstr "<span size=\"small\">Längd på paus när skrivande inte tillåts.</span>"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid ""
-"<span size=\"small\">Duration of warning before starting a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Längd på varningen som ges innan paus.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid ""
-"<span size=\"small\">Duration of work before forcing a break.\n"
-"</span>"
-msgstr ""
-"<span size=\"small\">Längd på arbete innan paus.\n"
-"</span>"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "Allow unlocking, using the phrase:"
-msgstr "Tillåt upplåsning, med frasen:"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "Display warning window "
-msgstr "Visa varningsfönster "
-
-#: data/glade/drw-preferences.glade.h:14
 msgid "DrWright Preferences"
 msgstr "Inställningar för DrWright"
+
+#: data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "Längd på paus när skrivande inte tillåts"
+
+#: data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "Längd på varningen som ges innan paus"
+
+#: data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "Längd på arbete innan paus"
+
+#: data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "Valfri fras att använda för att skjuta upp en paus"
+
+#: data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "_Tillåt uppskjutning av paus"
+
+#: data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "_Pausen varar"
+
+#: data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "_Varningstiden är"
+
+#: data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "_Arbetsintervallet varar"
 
 #: data/glade/drw-preferences.glade.h:15
 msgid "minutes"
@@ -107,66 +106,64 @@ msgstr "_Om"
 msgid "/_Remove Icon"
 msgstr "/_Ta bort ikon"
 
-#: src/drwright.c:180
-msgid "Break coming up!"
-msgstr "Snart paus!"
-
-#: src/drwright.c:183
-msgid "Break!"
-msgstr "Paus!"
-
-#: src/drwright.c:523
+#: src/drwright.c:438
 msgid "Disabled"
 msgstr "Inaktiverad"
 
-#: src/drwright.c:532
+#: src/drwright.c:456
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minuter till nästa paus"
 
-#: src/drwright.c:534
+#: src/drwright.c:459
 msgid "One minute until the next break"
 msgstr "En minut till nästa paus"
 
-#: src/drwright.c:633
+#: src/drwright.c:461
+msgid "Less than one minute until the next break"
+msgstr "Mindre än en minut till nästa paus"
+
+#: src/drwright.c:557
 msgid "Quit DrWright?"
 msgstr "Avsluta DrWright?"
 
-#: src/drwright.c:634
+#: src/drwright.c:558
 msgid "Don't forget to take regular breaks."
 msgstr "Glöm inte att ta regelbunda pauser."
 
-#: src/drwright.c:687
+#: src/drwright.c:611
 msgid "About DrWright"
 msgstr "Om DrWright"
 
-#: src/drwright.c:711
+#: src/drwright.c:635
 msgid "A computer break reminder."
 msgstr "En datorpauspåminnare."
 
-#: src/drwright.c:712
+#: src/drwright.c:636
 msgid "Written by Richard Hult &lt;rhult@imendo.com&gt;"
-msgstr "Skrivet av Richard Hult &lt;richard@imendo.com&gt;"
+msgstr "Skrivet av Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:713
+#: src/drwright.c:637
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ögongodis tillagt av Anders Carlsson"
 
-#: src/drwright.c:826
+#: src/drwright.c:767
 msgid "Break reminder"
 msgstr "Pauspåminnare"
 
-#: src/drw-break-window.c:240
-msgid "Unlock"
-msgstr "Lås upp"
+#: src/drw-break-window.c:266
+msgid "Postpone break"
+msgstr "Skjut upp pausen"
 
-#: src/drw-break-window.c:278
+#: src/drw-break-window.c:304
 msgid "Take a break!"
 msgstr "Ta en paus!"
 
-#: src/drw-preferences.c:363
-msgid "Advanced"
-msgstr "Avancerat"
+#~ msgid "Break coming up!"
+#~ msgstr "Snart paus!"
+
+#~ msgid "Break!"
+#~ msgstr "Paus!"
 
 #~ msgid "W_arning time:"
 #~ msgstr "_Varningstid:"
