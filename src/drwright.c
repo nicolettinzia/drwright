@@ -586,10 +586,18 @@ popup_quit_cb (gpointer   callback_data,
 	dialog = gtk_message_dialog_new (NULL,
 					 0,
 					 GTK_MESSAGE_QUESTION,
-					 GTK_BUTTONS_YES_NO,
+					 GTK_BUTTONS_NONE,
 					 str);
 
 	g_free (str);
+
+	gtk_dialog_add_button (GTK_DIALOG (dialog),
+			       _("Don't Quit"),
+			       GTK_RESPONSE_NO);
+	
+	gtk_dialog_add_button (GTK_DIALOG (dialog),
+			       _("Quit"),
+			       GTK_RESPONSE_YES);
 	
 	g_object_set (GTK_MESSAGE_DIALOG (dialog)->label,
 		      "use-markup", TRUE,

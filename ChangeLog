@@ -1,3 +1,12 @@
+2003-06-17  Richard Hult  <richard@imendio.com>
+
+	* src/drw-break-window.c (unlock_clicked_cb): Disable unlock
+	phrase for now.
+
+2003-06-16  Richard Hult  <richard@imendio.com>
+
+	* src/drwright.c (popup_quit_cb): Don't use Yes/No buttons.
+
 2003-06-13  Richard Hult  <richard@imendio.com>
 
 	* *: Update contact information.

@@ -159,7 +159,7 @@ drw_break_window_init (DrwBreakWindow *window)
 					      "/apps/drwright/allow_unlock",
 					      NULL);
 
-	GTK_WINDOW (window)->type = GTK_WINDOW_POPUP;	
+	GTK_WINDOW (window)->type = GTK_WINDOW_POPUP;
 
 	gtk_window_set_default_size (GTK_WINDOW (window),
 				     gdk_screen_width (),
@@ -257,7 +257,7 @@ drw_break_window_init (DrwBreakWindow *window)
 		
 		priv->unlock_button = gtk_button_new_with_label (_("Postpone break"));
 		gtk_widget_show (priv->unlock_button);
-		
+
 		g_signal_connect (priv->unlock_button,
 				  "clicked",
 				  G_CALLBACK (unlock_clicked_cb),
@@ -568,10 +568,9 @@ unlock_clicked_cb (GtkWidget *button,
 					  "/apps/drwright/unlock_phrase",
 					  NULL);
 
-	if (!phrase || !phrase[0]) {
+	/* Disable the phrase for now. */
+	if (FALSE && !phrase || !phrase[0]) {
 		g_signal_emit (window, signals[POSTPONE], 0, NULL);
-
-		//gtk_widget_destroy (window);
 		return;
 	}
 
