@@ -1,11 +1,11 @@
-# Translation of drwright to Croatian
-# Copyright (C) Croatian team
-# Translators: Automatski Prijevod <>,Boris Tudan <boris.tudan@ka.htnet.hr>,
+# Translation of drwright to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Boris Tudan <boris.tudan@ka.htnet.hr>,Nikola Planinac <>,
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright 0\n"
-"POT-Creation-Date: 2003-11-06 18:06+0100\n"
-"PO-Revision-Date: 2003-11-10 16:48+CET\n"
+"POT-Creation-Date: 2004-02-01 16:50+0100\n"
+"PO-Revision-Date: 2004-02-01 16:50+CET\n"
 "Last-Translator: auto\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "MIME-Version: 1.0\n"
@@ -84,84 +84,84 @@ msgid ""
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
 
-#: src/drwright.c:134
+#: src/drwright.c:138
 msgid "/_Enabled"
 msgstr ""
 
-#: src/drwright.c:135
+#: src/drwright.c:139
 msgid "/_Take a Break"
 msgstr "/_Uzmi pauzu"
 
-#: src/drwright.c:137
+#: src/drwright.c:141
 msgid "/_Preferences"
 msgstr "/Podešenja"
 
-#: src/drwright.c:138
+#: src/drwright.c:142
 msgid "/_About"
 msgstr "/_O"
 
-#: src/drwright.c:140
+#: src/drwright.c:144
 msgid "/_Remove Icon"
 msgstr ""
 
-#: src/drwright.c:443
+#: src/drwright.c:451
 msgid "Disabled"
 msgstr "Onemogućeno"
 
-#: src/drwright.c:461
+#: src/drwright.c:469
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d  minuta do sljedeće pauze"
 
-#: src/drwright.c:464
+#: src/drwright.c:472
 msgid "One minute until the next break"
 msgstr ""
 
-#: src/drwright.c:466
+#: src/drwright.c:474
 msgid "Less than one minute until the next break"
-msgstr ""
+msgstr "Manje od minute do sljedećeg prekida"
 
-#: src/drwright.c:577
+#: src/drwright.c:585
 msgid "Quit DrWright?"
 msgstr ""
 
-#: src/drwright.c:578
+#: src/drwright.c:586
 msgid "Don't forget to take regular breaks."
 msgstr ""
 
-#: src/drwright.c:589
+#: src/drwright.c:597
 msgid "Don't Quit"
 msgstr ""
 
-#: src/drwright.c:593
+#: src/drwright.c:601
 msgid "Quit"
 msgstr "Izlaz"
 
-#: src/drwright.c:642
+#: src/drwright.c:650
 msgid "About DrWright"
-msgstr ""
+msgstr "O DrWright-u"
 
-#: src/drwright.c:667
+#: src/drwright.c:675
 msgid "A computer break reminder."
 msgstr "Podsjetnik na pauzu računala."
 
-#: src/drwright.c:668
+#: src/drwright.c:676
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr ""
+msgstr "Napisao Richard Hulta &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:669
+#: src/drwright.c:677
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Ukras dodan od Andersa Carlssona"
 
-#: src/drwright.c:828
+#: src/drwright.c:844
 msgid "Break reminder"
 msgstr "Podsjetnik na prekid"
 
-#: src/drw-break-window.c:259
+#: src/drw-break-window.c:210
 msgid "Postpone break"
-msgstr ""
+msgstr "Odgodi prekid"
 
-#: src/drw-break-window.c:297
+#: src/drw-break-window.c:248
 msgid "Take a break!"
-msgstr ""
+msgstr "Uzmi stanku!"
 
