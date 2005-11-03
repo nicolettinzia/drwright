@@ -1,3 +1,9 @@
+2005-11-03  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* configure.in:
+	* src/dbus.c: (dbus_init_service):
+	Update to use dbus 0.50 API.
+
 2005-07-17  Pawan Chitrakar  <pawan@nplinux.org>
 
 	* configure.in: Added ne in ALL_LINGUAS
