@@ -1,86 +1,89 @@
-# DrWright French Translation
-# Copyright (C) 2002-2003 Free Software Foundation, Inc.
+# French Translation of drwright
+# Copyright (C) 2002-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the drwright package.
+#
 # Jean Schurger <yshark@schurger.org>, 2002.
 # Baptiste MILLE-MATHIAS <bmm80@ifrance.com>, 2003.
 # Stéphane Raimbault <raimbault.stephane@free.fr>, 2003.
+# Emmanuel Andry <eandry@free.fr>, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: DrWright 0.17\n"
+"Project-Id-Version: DrWright 0.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-07-19 14:33+0200\n"
-"PO-Revision-Date: 2003-07-19 14:33+0200\n"
-"Last-Translator: Stéphane Raimbault <raimbault.stephane@free.fr>\n"
+"POT-Creation-Date: 2006-07-28 13:12+0200\n"
+"PO-Revision-Date: 2006-07-28 12:58+0200\n"
+"Last-Translator: Emmanuel Andry <eandry@free.fr>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/glade/drw-preferences.glade.h:1
+#: ../data/glade/drw-preferences.glade.h:1
 msgid "    "
 msgstr "    "
 
-#: data/glade/drw-preferences.glade.h:2
+#: ../data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:3
+#: ../data/glade/drw-preferences.glade.h:3
 msgid "<b>Break</b>"
 msgstr "<b>Pause</b>"
 
-#: data/glade/drw-preferences.glade.h:4
+#: ../data/glade/drw-preferences.glade.h:4
 msgid "<b>Work</b>"
 msgstr "<b>Travail</b>"
 
-#: data/glade/drw-preferences.glade.h:5
+#: ../data/glade/drw-preferences.glade.h:5
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Permet que les pauses puissent êtres ajournées par l'utilisateur"
 
-#: data/glade/drw-preferences.glade.h:6
+#: ../data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
 msgstr "Préférences de DrWright"
 
-#: data/glade/drw-preferences.glade.h:7
+#: ../data/glade/drw-preferences.glade.h:7
 msgid "Duration of the break when typing is disallowed"
 msgstr "Durée de la pause pendant laquelle il n'est pas possible de pianoter"
 
-#: data/glade/drw-preferences.glade.h:8
+#: ../data/glade/drw-preferences.glade.h:8
 msgid "Duration of warning before starting a break"
 msgstr "Durée de l'avertissement avant de commencer la pause"
 
-#: data/glade/drw-preferences.glade.h:9
+#: ../data/glade/drw-preferences.glade.h:9
 msgid "Duration of work before forcing a break"
 msgstr "Durée du travail avant de déclencher une pause"
 
-#: data/glade/drw-preferences.glade.h:10
+#: ../data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
 msgstr "Phrase optionnelle à utiliser pour ajourner une pause"
 
-#: data/glade/drw-preferences.glade.h:11
+#: ../data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
 msgstr "_Autoriser l'ajournement des pauses"
 
-#: data/glade/drw-preferences.glade.h:12
+#: ../data/glade/drw-preferences.glade.h:12
 msgid "_Break interval lasts"
 msgstr "L'intervalle de _pause dure"
 
-#: data/glade/drw-preferences.glade.h:13
+#: ../data/glade/drw-preferences.glade.h:13
 msgid "_Warning time is"
 msgstr "La durée d'_avertissement est"
 
-#: data/glade/drw-preferences.glade.h:14
+#: ../data/glade/drw-preferences.glade.h:14
 msgid "_Work interval lasts"
-msgstr "L'intervalle de _travail dure "
+msgstr "L'intervalle de _travail dure"
 
-#: data/glade/drw-preferences.glade.h:15
+#: ../data/glade/drw-preferences.glade.h:15
 msgid "minutes"
 msgstr "minutes"
 
-#: src/main.c:128
+#: ../src/main.c:128
 msgid "DrWright is already running."
 msgstr "DrWright est déjà en cours d'exécution."
 
-#: src/main.c:141
+#: ../src/main.c:141
 msgid ""
 "DrWright uses the notification area to display information. You don't seem "
 "to have a notification area on your panel. You can add it by right-clicking "
@@ -91,85 +94,85 @@ msgstr ""
 "bord. Vous pouvez l'ajouter en cliquant-droit sur votre panneau et choisir "
 "'Ajouter au Tableau de bord -> Utilitaire -> Zone de Notification'."
 
-#: src/drwright.c:134
+#: ../src/drwright.c:138
 msgid "/_Enabled"
 msgstr "/_Activé"
 
-#: src/drwright.c:135
+#: ../src/drwright.c:139
 msgid "/_Take a Break"
 msgstr "/_Faites une pause !"
 
-#: src/drwright.c:137
+#: ../src/drwright.c:141
 msgid "/_Preferences"
 msgstr "/_Préférences"
 
-#: src/drwright.c:138
+#: ../src/drwright.c:142
 msgid "/_About"
 msgstr "/À _propos..."
 
-#: src/drwright.c:140
+#: ../src/drwright.c:144
 msgid "/_Remove Icon"
 msgstr "/_Supprimer l'icône"
 
-#: src/drwright.c:443
+#: ../src/drwright.c:475
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: src/drwright.c:461
+#: ../src/drwright.c:493
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minutes avant la prochaine pause"
 
-#: src/drwright.c:464
+#: ../src/drwright.c:496
 msgid "One minute until the next break"
 msgstr "Une minute avant la prochaine pause"
 
-#: src/drwright.c:466
+#: ../src/drwright.c:498
 msgid "Less than one minute until the next break"
 msgstr "Moins d'une minute avant la prochaine pause"
 
-#: src/drwright.c:577
+#: ../src/drwright.c:609
 msgid "Quit DrWright?"
 msgstr "Quitter DrWright ?"
 
-#: src/drwright.c:578
+#: ../src/drwright.c:610
 msgid "Don't forget to take regular breaks."
-msgstr "N'oubliez pas d'effectuer des pauses régulières"
+msgstr "N'oubliez pas d'effectuer des pauses régulières."
 
-#: src/drwright.c:589
+#: ../src/drwright.c:621
 msgid "Don't Quit"
 msgstr "Ne pas quitter"
 
-#: src/drwright.c:593
+#: ../src/drwright.c:625
 msgid "Quit"
 msgstr "Quitter"
 
-#: src/drwright.c:642
+#: ../src/drwright.c:674
 msgid "About DrWright"
 msgstr "À propos de DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:667
+#: ../src/drwright.c:699
 msgid "A computer break reminder."
 msgstr "Un outil pour vous aider à prendre des pauses."
 
-#: src/drwright.c:668
+#: ../src/drwright.c:700
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 msgstr "Écrit par Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:669
+#: ../src/drwright.c:701
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Améliorations graphiques par Anders Carlsson"
 
 # Sembrebrebbe + adatto avvisatore....
-#: src/drwright.c:828
+#: ../src/drwright.c:868
 msgid "Break reminder"
 msgstr "Rappel les pauses"
 
-#: src/drw-break-window.c:259
-msgid "Postpone break"
-msgstr "Ajourner la pause"
+#: ../src/drw-break-window.c:208
+msgid "_Postpone break"
+msgstr "_Ajourner la pause"
 
-#: src/drw-break-window.c:297
+#: ../src/drw-break-window.c:251
 msgid "Take a break!"
 msgstr "Faites une pause !"
