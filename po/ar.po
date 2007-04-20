@@ -2,13 +2,13 @@
 # Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2006.
-#
+# Djihed Afifi <djihed@gmail.com>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-11-17 21:14+0000\n"
-"PO-Revision-Date: 2006-11-18 01:00+0100\n"
+"PO-Revision-Date: 2007-04-20 06:20+0100\n"
 "Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,183 +18,151 @@ msgstr ""
 "X-Poedit-Language: Arabic\n"
 
 #: ../data/glade/drw-preferences.glade.h:1
-#, fuzzy
 msgid "    "
 msgstr "    "
 
 #: ../data/glade/drw-preferences.glade.h:2
-#, fuzzy
 msgid "*"
 msgstr "*"
 
 #: ../data/glade/drw-preferences.glade.h:3
-#, fuzzy
 msgid "<b>Break</b>"
-msgstr "رموز التّوقّف"
+msgstr "<b>استراحة</b>"
 
 #: ../data/glade/drw-preferences.glade.h:4
-#, fuzzy
 msgid "<b>Work</b>"
 msgstr "<b>عمل</b>"
 
 #: ../data/glade/drw-preferences.glade.h:5
-#, fuzzy
 msgid "Check if breaks are allowed to be postponed"
 msgstr "تثبت من انه يمكن تأجيل الإستراحات"
 
 #: ../data/glade/drw-preferences.glade.h:6
-#, fuzzy
 msgid "DrWright Preferences"
-msgstr "خيارات داشر"
+msgstr "خيارات الدكتور ورايت"
 
 #: ../data/glade/drw-preferences.glade.h:7
-#, fuzzy
 msgid "Duration of the break when typing is disallowed"
 msgstr "مدة الإستراحة عند منع الكتابة"
 
 #: ../data/glade/drw-preferences.glade.h:8
-#, fuzzy
 msgid "Duration of warning before starting a break"
-msgstr "مدة العمل فبل فرض إستراحة"
+msgstr "مدة التنبيه فبل فرض إستراحة"
 
 #: ../data/glade/drw-preferences.glade.h:9
-#, fuzzy
 msgid "Duration of work before forcing a break"
 msgstr "مدة العمل فبل فرض إستراحة"
 
 #: ../data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
-msgstr ""
+msgstr "جملة اختيارية لتأجيل الاستراحة"
 
 #: ../data/glade/drw-preferences.glade.h:11
-#, fuzzy
 msgid "_Allow postponing of breaks"
-msgstr "السماح بإرجاء فترات الراحة"
+msgstr "ال_سماح بتأجيل فترات الراحة"
 
 #: ../data/glade/drw-preferences.glade.h:12
-#, fuzzy
 msgid "_Break interval lasts"
-msgstr "مدة الإ_ستراحة:"
+msgstr "مدة الإ_ستراحة"
 
 #: ../data/glade/drw-preferences.glade.h:13
-#, fuzzy
 msgid "_Warning time is"
-msgstr "زمن البدء خاطئ"
+msgstr "زمن الت_نبيه:"
 
 #: ../data/glade/drw-preferences.glade.h:14
-#, fuzzy
 msgid "_Work interval lasts"
-msgstr "مدة ال_عمل:"
+msgstr "مدة ال_عمل"
 
 #: ../data/glade/drw-preferences.glade.h:15
-#, fuzzy
 msgid "minutes"
 msgstr "دقائق"
 
 #: ../src/main.c:128
-#, fuzzy
 msgid "DrWright is already running."
-msgstr "GDM يعمل بالفعل. إلغاء!"
+msgstr "الدكتور ورايت يعمل مسبقا"
 
 #: ../src/main.c:141
 msgid "DrWright uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choose 'Add to panel -> Utilities -> Notification area'."
-msgstr ""
+msgstr "يستعمل الدكتور ورايت مساحة التبليغ لعرض معلومات. يبدو انك لا تملك مساحة للتبليغ على شريطك. الرجاء اضافتها."
 
 #: ../src/drwright.c:138
-#, fuzzy
 msgid "/_Enabled"
-msgstr "مفعّل"
+msgstr "/_مفعّل"
 
 #: ../src/drwright.c:139
-#, fuzzy
 msgid "/_Take a Break"
-msgstr "/إ_سترح"
+msgstr "/_إسترح"
 
 #: ../src/drwright.c:141
-#, fuzzy
 msgid "/_Preferences"
-msgstr "/الت_فضيلات"
+msgstr "/_التفضيلات"
 
 #: ../src/drwright.c:142
-#, fuzzy
 msgid "/_About"
 msgstr "/_حول"
 
 #: ../src/drwright.c:144
-#, fuzzy
 msgid "/_Remove Icon"
-msgstr "حجم الأيقونة"
+msgstr "/_حذف الأيقونة"
 
 #: ../src/drwright.c:475
-#, fuzzy
 msgid "Disabled"
 msgstr "معطل"
 
 #: ../src/drwright.c:493
-#, fuzzy, c-format
+#, c-format
 msgid "%d minutes until the next break"
-msgstr "دقيقة واحدة حتّى التّوقّف التّالي"
+msgstr "%d دقائق حتّى التّوقّف التّالي"
 
 #: ../src/drwright.c:496
-#, fuzzy
 msgid "One minute until the next break"
-msgstr "أقل من دقيقة حتى الإستراحة القادمة"
+msgstr "دقيقة واحدة حتى الإستراحة القادمة"
 
 #: ../src/drwright.c:498
-#, fuzzy
 msgid "Less than one minute until the next break"
 msgstr "أقل من دقيقة حتى الإستراحة القادمة"
 
 #: ../src/drwright.c:609
-#, fuzzy
 msgid "Quit DrWright?"
-msgstr "لا تخرج"
+msgstr "اغلق الدكتور ورايت؟"
 
 #: ../src/drwright.c:610
 msgid "Don't forget to take regular breaks."
-msgstr ""
+msgstr "لا تنس ان تأخذ فترات استراحة بانتظام"
 
 #: ../src/drwright.c:621
-#, fuzzy
 msgid "Don't Quit"
-msgstr "لا تخرج"
+msgstr "لا تغلق"
 
 #: ../src/drwright.c:625
-#, fuzzy
 msgid "Quit"
-msgstr "خروج"
+msgstr "اغلق"
 
 #: ../src/drwright.c:674
-#, fuzzy
 msgid "About DrWright"
-msgstr "_حول الملحق"
+msgstr "حول الدكتور ورايت"
 
 #: ../src/drwright.c:699
-#, fuzzy
 msgid "A computer break reminder."
 msgstr "مذكّر الإستراحة عن الحاسوب"
 
 #: ../src/drwright.c:700
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr ""
+msgstr "مكتوب من طرف Richard Hult &lt;richard@imendio.com&gt;"
 
 #: ../src/drwright.c:701
-#, fuzzy
 msgid "Eye candy added by Anders Carlsson"
 msgstr "الرسوم الجميلة اضيفت من قبل أندرس كارلسن"
 
 #: ../src/drwright.c:868
-#, fuzzy
 msgid "Break reminder"
-msgstr "مذكّر الإستراحة عن الحاسوب"
+msgstr "مذكّر الإستراحة"
 
 #: ../src/drw-break-window.c:208
-#, fuzzy
 msgid "_Postpone break"
 msgstr "تأجيل الإ_ستراحة"
 
 #: ../src/drw-break-window.c:251
-#, fuzzy
 msgid "Take a break!"
 msgstr "إسترح!"
 
