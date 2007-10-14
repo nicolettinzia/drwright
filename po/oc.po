@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrWright 0.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-07-28 13:12+0200\n"
+"POT-Creation-Date: 2007-10-13 17:46+0200\n"
 "PO-Revision-Date: 2007-08-19 17:23+0200\n"
 "Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/glade/drw-preferences.glade.h:1
 msgid "    "
@@ -118,10 +118,12 @@ msgid "%d minutes until the next break"
 msgstr ""
 
 #: ../src/drwright.c:496
+#, c-format
 msgid "One minute until the next break"
 msgstr ""
 
 #: ../src/drwright.c:498
+#, c-format
 msgid "Less than one minute until the next break"
 msgstr "Mens d'una minuta abans la pausa seguenta"
 
@@ -170,4 +172,3 @@ msgstr ""
 #: ../src/drw-break-window.c:251
 msgid "Take a break!"
 msgstr "Arrestatz-vos un pauc !"
-
