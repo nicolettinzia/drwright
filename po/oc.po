@@ -11,14 +11,13 @@ msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-10-13 17:46+0200\n"
-"PO-Revision-Date: 2007-11-20 14:29+0100\n"
+"PO-Revision-Date: 2007-11-21 19:16+0100\n"
 "Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);"
 
 #: ../data/glade/drw-preferences.glade.h:1
 msgid "    "
@@ -42,7 +41,7 @@ msgstr ""
 
 #: ../data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
-msgstr ""
+msgstr "Preferéncias de DrWright"
 
 #: ../data/glade/drw-preferences.glade.h:7
 msgid "Duration of the break when typing is disallowed"
@@ -82,7 +81,7 @@ msgstr "minutas"
 
 #: ../src/main.c:128
 msgid "DrWright is already running."
-msgstr ""
+msgstr "DrWright marcha ja."
 
 #: ../src/main.c:141
 msgid ""
@@ -93,7 +92,7 @@ msgstr ""
 
 #: ../src/drwright.c:138
 msgid "/_Enabled"
-msgstr ""
+msgstr "/_Activat"
 
 #: ../src/drwright.c:139
 msgid "/_Take a Break"
@@ -109,7 +108,7 @@ msgstr "/_A prepaus"
 
 #: ../src/drwright.c:144
 msgid "/_Remove Icon"
-msgstr ""
+msgstr "/_Suprimir l'icòna"
 
 #: ../src/drwright.c:475
 msgid "Disabled"
@@ -132,7 +131,7 @@ msgstr "Mens d'una minuta abans la pausa seguenta"
 
 #: ../src/drwright.c:609
 msgid "Quit DrWright?"
-msgstr ""
+msgstr "Sortir de DrWright ?"
 
 #: ../src/drwright.c:610
 msgid "Don't forget to take regular breaks."
@@ -140,7 +139,7 @@ msgstr ""
 
 #: ../src/drwright.c:621
 msgid "Don't Quit"
-msgstr ""
+msgstr "Sortir pas"
 
 #: ../src/drwright.c:625
 msgid "Quit"
@@ -148,7 +147,7 @@ msgstr "Quitar"
 
 #: ../src/drwright.c:674
 msgid "About DrWright"
-msgstr ""
+msgstr "A prepaus de DrWright"
 
 # Sembrebrebbe + adatto avvisatore....
 #: ../src/drwright.c:699
