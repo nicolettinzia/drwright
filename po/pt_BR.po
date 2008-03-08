@@ -1,182 +1,183 @@
 # DrWright Portuguese(Brazillian) Translation
 # Copyright (C) 2002, Free Software Foundation, Inc.
-# Gustavo Franco <stratus@acm.org>, 2003 - 2004.
-# 
-# 
+# Gustavo Franco <stratus@acm.org>, 2003.
+# Leonardo Ferreira Fontenelle <leo.fontenlle@gmail.com>, 2008.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DrWright\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-10 19:04+0200\n"
-"PO-Revision-Date: 2004-04-10 19:01-0300\n"
-"Last-Translator: Viviani Ap. dos Santos <vivi_olivetti@brfree.com.br>\n"
-"Language-Team: GNOME-BR <gnome-l10n-br@listas.cipsga.org.br>\n"
+"POT-Creation-Date: 2008-03-08 13:56-0300\n"
+"PO-Revision-Date: 2008-03-08 13:58-0300\n"
+"Last-Translator: Leonardo Ferreira Fontenelle <leo.fontenlle@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
-#: data/glade/drw-preferences.glade.h:1
+#: ../data/glade/drw-preferences.glade.h:1
 msgid "    "
-msgstr "...."
+msgstr "    "
 
-#: data/glade/drw-preferences.glade.h:2
+#: ../data/glade/drw-preferences.glade.h:2
 msgid "*"
 msgstr "*"
 
-#: data/glade/drw-preferences.glade.h:3
+#: ../data/glade/drw-preferences.glade.h:3
 msgid "<b>Break</b>"
 msgstr "<b>Pausa</b>"
 
-#: data/glade/drw-preferences.glade.h:4
+#: ../data/glade/drw-preferences.glade.h:4
 msgid "<b>Work</b>"
 msgstr "<b>Trabalho</b>"
 
-#: data/glade/drw-preferences.glade.h:5
+#: ../data/glade/drw-preferences.glade.h:5
 msgid "Check if breaks are allowed to be postponed"
-msgstr "Verifique se as pausas estão reservadas para posteriormente"
+msgstr "Marque para permitir que as pausas sejam postergadas"
 
-#: data/glade/drw-preferences.glade.h:6
+#: ../data/glade/drw-preferences.glade.h:6
 msgid "DrWright Preferences"
 msgstr "Preferências do DrWright"
 
-#: data/glade/drw-preferences.glade.h:7
+#: ../data/glade/drw-preferences.glade.h:7
 msgid "Duration of the break when typing is disallowed"
-msgstr "Duração da pausa quando a digitação estiver "
-"desabilitada."
+msgstr "Duração da pausa, durante a qual a digitação estará desabilitada"
 
-#: data/glade/drw-preferences.glade.h:8
+#: ../data/glade/drw-preferences.glade.h:8
 msgid "Duration of warning before starting a break"
 msgstr "Duração do alerta antes de iniciar uma pausa"
 
-#: data/glade/drw-preferences.glade.h:9
+#: ../data/glade/drw-preferences.glade.h:9
 msgid "Duration of work before forcing a break"
 msgstr "Duração do trabalho antes de forçar uma pausa"
 
-#: data/glade/drw-preferences.glade.h:10
+#: ../data/glade/drw-preferences.glade.h:10
 msgid "Optional phrase to use for postponing a break"
-msgstr "Frase opcinal para usar de pausa posterior"
+msgstr "Frase opcional a ser usada para adiamento de pausa"
 
-#: data/glade/drw-preferences.glade.h:11
+#: ../data/glade/drw-preferences.glade.h:11
 msgid "_Allow postponing of breaks"
-msgstr "Reserve p_ausas posteriores"
+msgstr "_Permitir adiamento de pausas"
 
-#: data/glade/drw-preferences.glade.h:12
+#: ../data/glade/drw-preferences.glade.h:12
 msgid "_Break interval lasts"
-msgstr "Últimos Intervalos da pausa"
+msgstr "_Pausa com duração de"
 
-#: data/glade/drw-preferences.glade.h:13
+#: ../data/glade/drw-preferences.glade.h:13
 msgid "_Warning time is"
-msgstr "Alerta de tempo é"
+msgstr "_Aviso com duração de"
 
-#: data/glade/drw-preferences.glade.h:14
+#: ../data/glade/drw-preferences.glade.h:14
 msgid "_Work interval lasts"
-msgstr "Últimos Intervalos de trabalho"
+msgstr "_Trabalho com duração de</b>"
 
-#: data/glade/drw-preferences.glade.h:15
+#: ../data/glade/drw-preferences.glade.h:15
 msgid "minutes"
 msgstr "minutos"
 
-#: src/main.c:128
+#: ../src/main.c:128
 msgid "DrWright is already running."
 msgstr "DrWright já está em execução."
 
-#: src/main.c:141
+#: ../src/main.c:141
 msgid ""
 "DrWright uses the notification area to display information. You don't seem "
 "to have a notification area on your panel. You can add it by right-clicking "
 "on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
-"O DrWright usa a área de notificação para exibir informação.Não parece que "
-"você tem uma área de notificação no seu painel. Você pode adicionar uma, "
-"clicando com o botão direito no seu painel e em seguida em 'Adicionar ao Painel "
-"-> Utilitários -> Area de notificação'."
+"O DrWright usa a área de notificação para exibir informações. Você não "
+"parece ter uma área de notificação em seu painel. Você pode adicionar uma "
+"clicando com o botão direito no seu painel e escolhendo \"Adicionar ao "
+"Painel → Utilitários → Área de notificação\"."
 
-#: src/drwright.c:138
+#: ../src/drwright.c:138
 msgid "/_Enabled"
 msgstr "/_Habilitado"
 
-#: src/drwright.c:139
+#: ../src/drwright.c:139
 msgid "/_Take a Break"
-msgstr "/_Faça uma parada"
+msgstr "/_Fazer uma Pausa"
 
-#: src/drwright.c:141
+#: ../src/drwright.c:141
 msgid "/_Preferences"
 msgstr "/_Preferências"
 
-#: src/drwright.c:142
+#: ../src/drwright.c:142
 msgid "/_About"
 msgstr "/_Sobre"
 
-#: src/drwright.c:144
+#: ../src/drwright.c:144
 msgid "/_Remove Icon"
 msgstr "/_Remover Ícone"
 
-#: src/drwright.c:475
+#: ../src/drwright.c:475
 msgid "Disabled"
 msgstr "Desabilitado"
 
-#: src/drwright.c:493
+#: ../src/drwright.c:493
 #, c-format
 msgid "%d minutes until the next break"
 msgstr "%d minutos até a próxima pausa"
 
-#: src/drwright.c:496
+#: ../src/drwright.c:496
+#, c-format
 msgid "One minute until the next break"
 msgstr "Um minuto até a próxima pausa"
 
-#: src/drwright.c:498
+#: ../src/drwright.c:498
+#, c-format
 msgid "Less than one minute until the next break"
 msgstr "Menos de um minuto até a próxima pausa"
 
-#: src/drwright.c:609
+#: ../src/drwright.c:609
 msgid "Quit DrWright?"
-msgstr "Fechar o DrWright?"
+msgstr "Sair do DrWright?"
 
-#: src/drwright.c:610
+#: ../src/drwright.c:610
 msgid "Don't forget to take regular breaks."
-msgstr "Não esqueça de fazer pausas regulares."
+msgstr "Não se esqueça de fazer pausas regulares."
 
-#: src/drwright.c:621
+#: ../src/drwright.c:621
 msgid "Don't Quit"
-msgstr "Não Fechar"
+msgstr "Não Sair"
 
-#: src/drwright.c:625
+#: ../src/drwright.c:625
 msgid "Quit"
-msgstr "Sair"
+msgstr "_Sair"
 
-#: src/drwright.c:674
+#: ../src/drwright.c:674
 msgid "About DrWright"
 msgstr "Sobre o DrWright"
 
-#: src/drwright.c:699
+#: ../src/drwright.c:699
 msgid "A computer break reminder."
 msgstr "Um lembrete de suas pausas ao utilizar o computador."
 
-#: src/drwright.c:700
+#: ../src/drwright.c:700
 msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Escrito por Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "Escrito por Richard Hult &lt;rhult@codefactory.se&gt;"
 
-#: src/drwright.c:701
+#: ../src/drwright.c:701
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Embelezamento adicionado por Anders Carlsson"
 
-#: src/drwright.c:868
+#: ../src/drwright.c:868
 msgid "Break reminder"
 msgstr "Lembrete de pausa"
 
-#: src/drw-break-window.c:208
+#: ../src/drw-break-window.c:208
 msgid "_Postpone break"
-msgstr "_Pausas posteriores"
+msgstr "_Adiar Pausa"
 
-#: src/drw-break-window.c:251
+#: ../src/drw-break-window.c:251
 msgid "Take a break!"
-msgstr "Faça uma pausa!"
+msgstr "Faça uma parada!"
 
 #~ msgid "Break coming up!"
-#~ msgstr "Irei parar!"
+#~ msgstr "Lá vem uma pausa!"
 
 #~ msgid "Break!"
-#~ msgstr "Parado!"
+#~ msgstr "Pausa!"
 
 #~ msgid "DrWright"
 #~ msgstr "DrWright"
@@ -185,19 +186,19 @@ msgstr "Faça uma pausa!"
 #~ msgstr "(C) Copyright 2002, CodeFactory"
 
 #~ msgid "<b>Warning _method:</b>"
-#~ msgstr "<b>_Metodo de aviso:</b>"
+#~ msgstr "<b>_Método de aviso:</b>"
 
 #~ msgid "<b>_Unlocking:</b>"
-#~ msgstr "<b>_Destravando:</b>"
+#~ msgstr "<b>_Desbloqueio:</b>"
 
 #~ msgid "Allow unlocking, using the phrase:"
-#~ msgstr "Habilitar destravamento, utilizando a senha: "
+#~ msgstr "Habilitar desbloqueio, utilizando a senha: "
 
 #~ msgid "Display warning window "
 #~ msgstr "Exibir janela de aviso "
 
 #~ msgid "Unlock"
-#~ msgstr "Destravar"
+#~ msgstr "Desbloquear"
 
 #~ msgid "Advanced"
-#~ msgstr "Avan�ado"
+#~ msgstr "Avançado"
