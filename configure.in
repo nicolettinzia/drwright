@@ -36,16 +36,22 @@ AC_HEADER_STDC
 AM_PROG_LIBTOOL
 
 # ************
+# Requirements
+# ************
+
+GLIB_REQUIRED=2.26.0
+GIO_REQUIRED=2.26.0
+GTK_REQUIRED=2.91.0
+LIBCANBERRA_REQUIRED=0
+GSD_REQUIRED=2.91.0
+
+# ************
 # Typing Break
 # ************
 
-GLIB_REQUIRED=2.12.0
-GTK_REQUIRED=2.91.0
-LIBCANBERRA_REQUIRED=0
-
 PKG_CHECK_MODULES([TYPING],[
   glib-2.0 >= $GLIB_REQUIRED
-  gconf-2.0
+  gio-2.0 >= $GIO_REQUIRED
   gtk+-3.0 >= $GTK_REQUIRED
   libcanberra-gtk3 >= $LIBCANBERRA_REQUIRED
   x11])
@@ -70,13 +76,11 @@ AC_SUBST(SCREENSAVER_LIBS)
 # GSD plugin
 # **********
 
-GSD_REQUIRED=2.91.0
-
 PKG_CHECK_MODULES([GSD_PLUGIN],[
   gnome-settings-daemon >= $GSD_REQUIRED
+  gio-2.0 >= $GIO_REQUIRED
   gtk+-3.0
-  gdk-x11-3.0
-  gconf-2.0])
+  gdk-x11-3.0])
 
 gsd_plugindir=`$PKG_CONFIG --variable plugindir gnome-settings-daemon`
 AC_SUBST([gsd_plugindir])
@@ -92,6 +96,11 @@ case $host_os in
 esac
 AC_SUBST([GSD_PLUGIN_LDFLAGS])
 
+# *********
+# GSettings
+# *********
+
+GLIB_GSETTINGS
 
 # *****************
 # Optional features

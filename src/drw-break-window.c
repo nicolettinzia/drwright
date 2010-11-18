@@ -24,9 +24,9 @@
 #include <string.h>
 #include <math.h>
 #include <glib/gi18n.h>
+#include <gio/gio.h>
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
-#include <gconf/gconf-client.h>
 
 #ifdef HAVE_CANBERRA_GTK
 #include <canberra-gtk.h>
@@ -52,6 +52,8 @@ struct _DrwBreakWindowPrivate {
 	guint      clock_timeout_id;
 	guint      postpone_timeout_id;
 	guint      postpone_sensitize_id;
+
+        GSettings *settings;
 };
 
 #define DRW_BREAK_WINDOW_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), DRW_TYPE_BREAK_WINDOW, DrwBreakWindowPrivate))
@@ -131,23 +133,17 @@ drw_break_window_init (DrwBreakWindow *window)
 	GdkRectangle           monitor;
 	gint                   right_padding;
 	gint                   bottom_padding;
-	GConfClient	      *client;
+	GSettings             *settings;
 
 	priv = DRW_BREAK_WINDOW_GET_PRIVATE (window);
 	window->priv = priv;
 
-	client = gconf_client_get_default ();
+        priv->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
 
-	priv->break_time = 60 * gconf_client_get_int (client,
-						      GCONF_PATH "/break_time",
-						      NULL);
+	priv->break_time = 60 * g_settings_get_int (priv->settings, "break-time");
 
-	allow_postpone = gconf_client_get_bool (client,
-					      GCONF_PATH "/allow_postpone",
-					      NULL);
-	g_object_unref (client);
+        allow_postpone = g_settings_get_boolean (priv->settings, "allow-postpone");
 
-	g_object_set (window, "type", GTK_WINDOW_POPUP, NULL);
 	gtk_window_set_keep_above (GTK_WINDOW (window), TRUE);
 	gtk_window_fullscreen (GTK_WINDOW (window));
 	gtk_window_set_modal (GTK_WINDOW (window), TRUE);
@@ -304,11 +300,11 @@ drw_break_window_finalize (GObject *object)
 		g_source_remove (priv->postpone_sensitize_id);
 	}
 
+        g_object_unref (priv->settings);
+
 	window->priv = NULL;
 
-	if (G_OBJECT_CLASS (drw_break_window_parent_class)->finalize) {
-		(* G_OBJECT_CLASS (drw_break_window_parent_class)->finalize) (object);
-        }
+	G_OBJECT_CLASS (drw_break_window_parent_class)->finalize (object);
 }
 
 static void
@@ -417,24 +413,18 @@ static void
 postpone_entry_activate_cb (GtkWidget      *entry,
 			  DrwBreakWindow *window)
 {
-	const gchar *str;
-	gchar *phrase;
-	GConfClient *client = gconf_client_get_default();
+        DrwBreakWindowPrivate *priv = window->priv;
+	const gchar *str, *phrase;
 
 	str = gtk_entry_get_text (GTK_ENTRY (entry));
 
-	phrase = gconf_client_get_string (client,
-					  GCONF_PATH "/unlock_phrase",
-					  NULL);
-	g_object_unref (client);
+        g_settings_get (priv->settings, "unlock-phrase", "&s", &phrase);
 
 	if (!strcmp (str, phrase)) {
 		g_signal_emit (window, signals[POSTPONE], 0, NULL);
-		g_free (phrase);
 		return;
 	}
 
-	g_free (phrase);
 	gtk_entry_set_text (GTK_ENTRY (entry), "");
 }
 
@@ -506,12 +496,10 @@ postpone_clicked_cb (GtkWidget *button,
 {
 	DrwBreakWindow        *bw = DRW_BREAK_WINDOW (window);
 	DrwBreakWindowPrivate *priv = bw->priv;
-	gchar                 *phrase;
+	const gchar           *phrase;
 
 	/* Disable the phrase for now. */
-	phrase = NULL; /*gconf_client_get_string (gconf_client_get_default (),
-					  GCONF_PATH "/unlock_phrase",
-					  NULL);*/
+	phrase = NULL; /* g_settings_get_string (priv->settings, "unlock-phrase", "&s", &phrase); */
 
 	if (!phrase || !phrase[0]) {
 		g_signal_emit (window, signals[POSTPONE], 0, NULL);

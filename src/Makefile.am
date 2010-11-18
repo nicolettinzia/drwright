@@ -93,34 +93,31 @@ gsd_plugin_DATA = $(gsd_plugin_in_files:.gnome-settings-plugin.in=.gnome-setting
 
 @GSD_INTLTOOL_PLUGIN_RULE@
 
-# GConf schema
+# GSettings
 
-schemadir = $(GCONF_SCHEMA_FILE_DIR)
-schema_in_files = drwright.schemas.in
-schema_DATA = drwright.schemas
+gsettings_schemas_in_files = org.gnome-settings-daemon.plugins.TypingBreak.gschema.xml.in
+gsettings_SCHEMAS = $(gsettings_schemas_in_files:.gschema.xml.in=.gschema.xml)
 
-if GCONF_SCHEMAS_INSTALL
-install-data-local:
-	GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(top_builddir)/src/$(schema_DATA)
-endif
+gsettings_convertdir = $(datadir)/GConf/gsettings
+dist_gsettings_convert_DATA = drwright.convert
 
-@INTLTOOL_SCHEMAS_RULE@
+@GSETTINGS_RULES@
+@INTLTOOL_XML_NOMERGE_RULE@
 
 # Clean
 
 EXTRA_DIST = 			\
 	$(gsd_plugin_in_files)	\
-	$(schema_in_files) 	\
+	$(gsettings_schemas_in_files) 	\
 	$(NULL)
 
 CLEANFILES = 			\
-	$(gsd_plugin_DATA)		\
-	$(schema_DATA)		\
+	$(gsd_plugin_DATA)	\
+	$(gsettings_SCHEMAS)	\
 	$(NULL)
 
 DISTCLEANFILES =		\
 	$(gsd_plugin_DATA)	\
-	$(schema_DATA)		\
 	$(NULL)
 
 # includes

@@ -33,25 +33,26 @@
 
 #include <glib.h>
 #include <glib/gi18n.h>
+#include <gio/gio.h>
 #include <gdk/gdk.h>
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
-#include <gconf/gconf-client.h>
 
 #include "gnome-settings-profile.h"
 #include "gsd-typing-break-manager.h"
 
-#define GSD_TYPING_BREAK_MANAGER_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), GSD_TYPE_TYPING_BREAK_MANAGER, GsdTypingBreakManagerPrivate))
+#define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.TypingBreak"
+#define I_(string) (g_intern_static_string (string))
 
-#define GCONF_BREAK_DIR           "/desktop/gnome/typing_break"
+#define GSD_TYPING_BREAK_MANAGER_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), GSD_TYPE_TYPING_BREAK_MANAGER, GsdTypingBreakManagerPrivate))
 
 struct GsdTypingBreakManagerPrivate
 {
+        GSettings *settings;
         GPid  typing_monitor_pid;
         guint typing_monitor_idle_id;
         guint child_watch_id;
         guint setup_id;
-        guint notify;
 };
 
 static void     gsd_typing_break_manager_class_init  (GsdTypingBreakManagerClass *klass);
@@ -137,16 +138,13 @@ setup_typing_break (GsdTypingBreakManager *manager,
 }
 
 static void
-typing_break_callback (GConfClient           *client,
-                       guint                  cnxn_id,
-                       GConfEntry            *entry,
-                       GsdTypingBreakManager *manager)
+typing_break_enabled_changed_cb (GSettings *settings,
+                                 const char *key,
+                                 GsdTypingBreakManager *manager)
 {
-        if (! strcmp (entry->key, "/desktop/gnome/typing_break/enabled")) {
-                if (entry->value->type == GCONF_VALUE_BOOL) {
-                        setup_typing_break (manager, gconf_value_get_bool (entry->value));
-                }
-        }
+        g_assert (key == I_("enabled"));
+
+        setup_typing_break (manager, g_settings_get_boolean (settings, key));
 }
 
 static gboolean
@@ -161,28 +159,20 @@ gboolean
 gsd_typing_break_manager_start (GsdTypingBreakManager *manager,
                                 GError               **error)
 {
-        GConfClient *client;
-        gboolean     enabled;
+        GsdTypingBreakManagerPrivate *priv = manager->priv;
 
         g_debug ("Starting typing_break manager");
         gnome_settings_profile_start (NULL);
 
-        client = gconf_client_get_default ();
+        priv->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
+        g_signal_connect (priv->settings, "changed::enabled",
+                          G_CALLBACK (typing_break_enabled_changed_cb),
+                          manager);
 
-        gconf_client_add_dir (client, GCONF_BREAK_DIR, GCONF_CLIENT_PRELOAD_ONELEVEL, NULL);
-        manager->priv->notify =
-                gconf_client_notify_add (client,
-                                         GCONF_BREAK_DIR,
-                                         (GConfClientNotifyFunc) typing_break_callback, manager,
-                                         NULL, NULL);
-
-        enabled = gconf_client_get_bool (client, GCONF_BREAK_DIR "/enabled", NULL);
-        g_object_unref (client);
-        if (enabled) {
-                manager->priv->setup_id =
-                        g_timeout_add_seconds (3,
-                                               (GSourceFunc) really_setup_typing_break,
-                                               manager);
+        if (g_settings_get_boolean (priv->settings, "enabled")) {
+                priv->setup_id = g_timeout_add_seconds (3,
+                                                        (GSourceFunc) really_setup_typing_break,
+                                                        manager);
         }
 
         gnome_settings_profile_end (NULL);
@@ -218,74 +208,13 @@ gsd_typing_break_manager_stop (GsdTypingBreakManager *manager)
                 p->typing_monitor_pid = 0;
         }
 
-        if (p->notify != 0) {
-                GConfClient *client = gconf_client_get_default ();
-                gconf_client_remove_dir (client, GCONF_BREAK_DIR, NULL);
-                gconf_client_notify_remove (client, p->notify);
-                g_object_unref (client);
-                p->notify = 0;
+        if (p->settings != NULL) {
+                g_signal_handlers_disconnect_by_func (p->settings,
+                                                      G_CALLBACK (typing_break_enabled_changed_cb),
+                                                      manager);
+                g_object_unref (p->settings);
+                p->settings = NULL;
         }
-}
-
-static void
-gsd_typing_break_manager_set_property (GObject        *object,
-                               guint           prop_id,
-                               const GValue   *value,
-                               GParamSpec     *pspec)
-{
-        GsdTypingBreakManager *self;
-
-        self = GSD_TYPING_BREAK_MANAGER (object);
-
-        switch (prop_id) {
-        default:
-                G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
-                break;
-        }
-}
-
-static void
-gsd_typing_break_manager_get_property (GObject        *object,
-                               guint           prop_id,
-                               GValue         *value,
-                               GParamSpec     *pspec)
-{
-        GsdTypingBreakManager *self;
-
-        self = GSD_TYPING_BREAK_MANAGER (object);
-
-        switch (prop_id) {
-        default:
-                G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
-                break;
-        }
-}
-
-static GObject *
-gsd_typing_break_manager_constructor (GType                  type,
-                              guint                  n_construct_properties,
-                              GObjectConstructParam *construct_properties)
-{
-        GsdTypingBreakManager      *typing_break_manager;
-        GsdTypingBreakManagerClass *klass;
-
-        klass = GSD_TYPING_BREAK_MANAGER_CLASS (g_type_class_peek (GSD_TYPE_TYPING_BREAK_MANAGER));
-
-        typing_break_manager = GSD_TYPING_BREAK_MANAGER (G_OBJECT_CLASS (gsd_typing_break_manager_parent_class)->constructor (type,
-                                                                                                      n_construct_properties,
-                                                                                                      construct_properties));
-
-        return G_OBJECT (typing_break_manager);
-}
-
-static void
-gsd_typing_break_manager_dispose (GObject *object)
-{
-        GsdTypingBreakManager *typing_break_manager;
-
-        typing_break_manager = GSD_TYPING_BREAK_MANAGER (object);
-
-        G_OBJECT_CLASS (gsd_typing_break_manager_parent_class)->dispose (object);
 }
 
 static void
@@ -293,10 +222,6 @@ gsd_typing_break_manager_class_init (GsdTypingBreakManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->get_property = gsd_typing_break_manager_get_property;
-        object_class->set_property = gsd_typing_break_manager_set_property;
-        object_class->constructor = gsd_typing_break_manager_constructor;
-        object_class->dispose = gsd_typing_break_manager_dispose;
         object_class->finalize = gsd_typing_break_manager_finalize;
 
         g_type_class_add_private (klass, sizeof (GsdTypingBreakManagerPrivate));
@@ -306,20 +231,12 @@ static void
 gsd_typing_break_manager_init (GsdTypingBreakManager *manager)
 {
         manager->priv = GSD_TYPING_BREAK_MANAGER_GET_PRIVATE (manager);
-
 }
 
 static void
 gsd_typing_break_manager_finalize (GObject *object)
 {
-        GsdTypingBreakManager *typing_break_manager;
-
-        g_return_if_fail (object != NULL);
-        g_return_if_fail (GSD_IS_TYPING_BREAK_MANAGER (object));
-
-        typing_break_manager = GSD_TYPING_BREAK_MANAGER (object);
-
-        g_return_if_fail (typing_break_manager->priv != NULL);
+        GsdTypingBreakManager *typing_break_manager = GSD_TYPING_BREAK_MANAGER (object);
 
         G_OBJECT_CLASS (gsd_typing_break_manager_parent_class)->finalize (object);
 }

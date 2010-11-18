@@ -23,11 +23,11 @@
 #include <config.h>
 #include <string.h>
 #include <math.h>
+#include <gio/gio.h>
 #include <glib/gi18n.h>
 #include <gdk/gdk.h>
 #include <gdk/gdkkeysyms.h>
 #include <gtk/gtk.h>
-#include <gconf/gconf-client.h>
 
 #ifdef HAVE_APP_INDICATOR
 #include <libappindicator/app-indicator.h>
@@ -48,6 +48,8 @@
 #define POPUP_ITEM_ENABLED 1
 #define POPUP_ITEM_BREAK   2
 
+#define I_(string) (g_intern_static_string (string))
+
 typedef enum {
 	STATE_START,
 	STATE_RUNNING,
@@ -64,6 +66,8 @@ typedef enum {
 #endif /* HAVE_APP_INDICATOR */
 
 struct _DrWright {
+        GSettings      *settings;
+
 	/* Widgets. */
 	GtkWidget      *break_window;
 	GList          *secondary_break_windows;
@@ -548,39 +552,29 @@ activity_detected_cb (DrwMonitor *monitor,
 }
 
 static void
-gconf_notify_cb (GConfClient *client,
-		 guint        cnxn_id,
-		 GConfEntry  *entry,
-		 gpointer     user_data)
+settings_change_cb (GSettings *settings,
+                    const char *key,
+                    DrWright  *dr)
 {
-	DrWright  *dr = user_data;
 	GtkWidget *item;
 
-	if (!strcmp (entry->key, GCONF_PATH "/type_time")) {
-		if (entry->value->type == GCONF_VALUE_INT) {
-			dr->type_time = 60 * gconf_value_get_int (entry->value);
-			dr->warn_time = MIN (dr->type_time / 10, 5*60);
+        if (key == I_("type-time")) {
+                dr->type_time = 60 * g_settings_get_int (settings, key);
+                dr->warn_time = MIN (dr->type_time / 10, 5*60);
 
-			dr->state = STATE_START;
-		}
-	}
-	else if (!strcmp (entry->key, GCONF_PATH "/break_time")) {
-		if (entry->value->type == GCONF_VALUE_INT) {
-			dr->break_time = 60 * gconf_value_get_int (entry->value);
-			dr->state = STATE_START;
-		}
-	}
-	else if (!strcmp (entry->key, GCONF_PATH "/enabled")) {
-		if (entry->value->type == GCONF_VALUE_BOOL) {
-			dr->enabled = gconf_value_get_bool (entry->value);
-			dr->state = STATE_START;
+                dr->state = STATE_START;
+	} else if (key == I_("break-time")) {
+                dr->break_time = 60 * g_settings_get_int (settings, key);
+                dr->state = STATE_START;
+	} else if (key == I_("enabled")) {
+                dr->enabled = g_settings_get_boolean (settings, key);
+                dr->state = STATE_START;
 
-			item = gtk_ui_manager_get_widget (dr->ui_manager,
-							  "/Pop/TakeABreak");
-			gtk_widget_set_sensitive (item, dr->enabled);
+                item = gtk_ui_manager_get_widget (dr->ui_manager,
+                                                  "/Pop/TakeABreak");
+                gtk_widget_set_sensitive (item, dr->enabled);
 
-			update_status (dr);
-		}
+                update_status (dr);
 	}
 
 	maybe_change_state (dr);
@@ -810,8 +804,8 @@ drwright_new (void)
 {
 	DrWright  *dr;
 	GtkWidget *item;
-	GConfClient *client;
 	GtkActionGroup *action_group;
+        GSettings *settings;
 
 	static const char ui_description[] =
 	  "<ui>"
@@ -825,33 +819,14 @@ drwright_new (void)
 
         dr = g_new0 (DrWright, 1);
 
-	client = gconf_client_get_default ();
+        dr->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
+        g_signal_connect (dr->settings, "changed",
+                          G_CALLBACK (settings_change_cb), dr);
 
-	gconf_client_add_dir (client,
-			      GCONF_PATH,
-			      GCONF_CLIENT_PRELOAD_NONE,
-			      NULL);
-
-	gconf_client_notify_add (client, GCONF_PATH,
-				 gconf_notify_cb,
-				 dr,
-				 NULL,
-				 NULL);
-
-	dr->type_time = 60 * gconf_client_get_int (
-		client, GCONF_PATH "/type_time", NULL);
-
+	dr->type_time = 60 * g_settings_get_int (dr->settings, "type-time");
 	dr->warn_time = MIN (dr->type_time / 12, 60*3);
-
-	dr->break_time = 60 * gconf_client_get_int (
-		client, GCONF_PATH "/break_time", NULL);
-
-	dr->enabled = gconf_client_get_bool (
-		client,
-		GCONF_PATH "/enabled",
-		NULL);
-
-	g_object_unref (client);
+	dr->break_time = 60 * g_settings_get_int (dr->settings, "break-time");
+	dr->enabled = g_settings_get_boolean (dr->settings, "enabled");
 
 	if (debug) {
 		setup_debug_values (dr);

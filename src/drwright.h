@@ -21,7 +21,7 @@
 #ifndef __DR_WRIGHT_H__
 #define __DR_WRIGHT_H__
 
-#define GCONF_PATH "/desktop/gnome/typing_break"
+#define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.TypingBreak"
 
 typedef struct _DrWright DrWright;
 
