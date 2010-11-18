@@ -34,6 +34,7 @@ AC_PROG_CC
 AM_PROG_CC_C_O
 AC_HEADER_STDC
 AM_PROG_LIBTOOL
+PKG_PROG_PKG_CONFIG
 
 # ************
 # Requirements
@@ -44,6 +45,7 @@ GIO_REQUIRED=2.26.0
 GTK_REQUIRED=2.91.0
 LIBCANBERRA_REQUIRED=0
 GSD_REQUIRED=2.91.0
+GNOMECC_REQUIRED=2.91.0
 
 # ************
 # Typing Break
@@ -72,9 +74,9 @@ AC_CHECK_FUNC(XScreenSaverQueryInfo, [], [
   LIBS=$save_LIBS])
 AC_SUBST(SCREENSAVER_LIBS)
 
-# **********
-# GSD plugin
-# **********
+# **********************
+# Settings daemon plugin
+# **********************
 
 PKG_CHECK_MODULES([GSD_PLUGIN],[
   gnome-settings-daemon >= $GSD_REQUIRED
@@ -88,13 +90,26 @@ AC_SUBST([gsd_plugindir])
 GSD_INTLTOOL_PLUGIN_RULE='%.gnome-settings-plugin:   %.gnome-settings-plugin.in   $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)/po/.intltool-merge-cache $(top_srcdir)/po $< [$]@'
 AC_SUBST([GSD_INTLTOOL_PLUGIN_RULE])
 
-GSD_PLUGIN_LDFLAGS="-export_dynamic -module -avoid-version -no-undefined"
-case $host_os in
-  darwin*)
-    GSD_PLUGIN_LDFLAGS="${GSD_PLUGIN_LDFLAGS} -Wl,-bundle_loader,\$(top_builddir)/gnome-settings-daemon/gnome-settings-daemon"
-    ;;
-esac
+GSD_PLUGIN_LDFLAGS="-export_dynamic -module -avoid-version -no-undefined -export-symbols-regex '^register_gnome_settings_plugin'"
 AC_SUBST([GSD_PLUGIN_LDFLAGS])
+
+# ********************
+# Control centre panel
+# ********************
+
+PKG_CHECK_MODULES([CCPANEL],[
+  libgnome-control-center >= $GNOMECC_REQUIRED])
+
+ccpanelsdir=`$PKG_CONFIG --variable=extensiondir libgnome-control-center`
+AC_SUBST([ccpanelsdir])
+
+CCPANEL_LDFLAGS="-export_dynamic -avoid-version -module -no-undefined -export-symbols-regex '^g_io_module_(load|unload)'"
+AC_SUBST([CCPANEL_LDFLAGS])
+
+AC_PATH_PROG([GTK_BUILDER_CONVERT],[gtk-builder-convert-3.0],[false])
+if test "$GTK_BUILDER_CONVERT" = "false"; then
+  AC_MSG_ERROR([gtk-builder-convert-3.0 not found])
+fi
 
 # *********
 # GSettings
@@ -136,6 +151,7 @@ IT_PROG_INTLTOOL([0.35.0])
 AC_CONFIG_FILES([
 Makefile
 src/Makefile
+src/gnome-typing-break-panel.desktop.in:src/gnome-typing-break-panel.desktop.in.in
 po/Makefile.in
 ])
 

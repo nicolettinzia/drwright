@@ -595,11 +595,12 @@ popup_preferences_cb (GtkAction *action, DrWright *dr)
 	GdkScreen *screen;
 	GError    *error = NULL;
 	GtkWidget *menu;
+        char *argv[] = { BINDIR"/gnome-control-center", "typing-break", NULL };
 
 	menu = gtk_ui_manager_get_widget (dr->ui_manager, "/Pop");
 	screen = gtk_widget_get_screen (menu);
 
-	if (!gdk_spawn_command_line_on_screen (screen, "gnome-keyboard-properties --typing-break", &error)) {
+	if (!gdk_spawn_on_screen (screen, "/", argv, NULL, 0, NULL, NULL, NULL, &error)) {
 		GtkWidget *error_dialog;
 
 		error_dialog = gtk_message_dialog_new (NULL, 0,

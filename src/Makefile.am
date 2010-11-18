@@ -22,12 +22,15 @@ gnome_typing_monitor_SOURCES =			\
 gnome_typing_monitor_CPPFLAGS = \
 	-DGNOMELOCALEDIR="\"$(datadir)/locale\""	\
 	-DIMAGEDIR=\"$(pkgdatadir)/pixmaps\"		\
+	-DBINDIR="\"$(bindir)\""			\
 	$(AM_CPPFLAGS)
 gnome_typing_monitor_CFLAGS = \
 	$(TYPING_CFLAGS)	\
 	$(AM_CFLAGS)
-
-gnome_typing_monitor_LDADD = $(TYPING_LIBS) $(SCREENSAVER_LIBS)
+gnome_typing_monitor_LDADD = \
+	$(TYPING_LIBS)		\
+	$(SCREENSAVER_LIBS)	\
+	$(INTLLIBS)
 
 if HAVE_APP_INDICATOR
   gnome_typing_monitor_CFLAGS += -DHAVE_APP_INDICATOR $(APP_INDICATOR_CFLAGS)
@@ -53,7 +56,6 @@ update-icon-cache:
 		echo "*** Icon cache not updated.  After (un)install, run this:"; \
 		echo "***   $(gtk_update_icon_cache)"; \
 	fi
-
 
 # GSD plugin
 
@@ -84,7 +86,7 @@ libtyping_break_la_LDFLAGS = 		\
 
 libtyping_break_la_LIBADD  = 		\
 	$(GSD_PLUGIN_LIBS)	\
-	$(NULL)
+	$(INTLLIBS)
 
 gsd_plugin_in_files = 		\
 	typing-break.gnome-settings-plugin.in	\
@@ -93,6 +95,41 @@ gsd_plugin_in_files = 		\
 gsd_plugin_DATA = $(gsd_plugin_in_files:.gnome-settings-plugin.in=.gnome-settings-plugin)
 
 @GSD_INTLTOOL_PLUGIN_RULE@
+
+# Control Centre panel
+
+ccpanels_LTLIBRARIES = libdrwrightccp.la
+
+libdrwrightccp_la_SOURCES = \
+	drw-cc-module.c	\
+	drw-cc-panel.c	\
+	drw-cc-panel.h	\
+	$(NULL)
+libdrwrightccp_la_CPPFLAGS = \
+        -DLOCALEDIR="\"$(datadir)/locale\""	\
+	-DBUILDERDIR="\"$(builderdir)\""	\
+	$(AM_CPPFLAGS)
+libdrwrightccp_la_CFLAGS = \
+	$(CCPANEL_CFLAGS)	\
+	$(AM_CFLAGS)
+libdrwrightccp_la_LIBADD = \
+	$(CCPANEL_LIBS)	\
+	$(INTLLIBS)
+libdrwrightccp_la_LDFLAGS = \
+	$(CCPANEL_LDFLAGS)
+
+builderdir = $(pkgdatadir)
+builder_in_files = drwright-panel.glade
+builder_DATA = $(builder_in_files:.glade=.ui)
+
+desktopdir = $(datadir)/applications
+desktop_in_files = gnome-typing-break-panel.desktop.in
+desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
+
+%.ui: %.glade
+	$(AM_V_GEN) $(GTK_BUILDER_CONVERT) $< $@ >/dev/null
+
+@INTLTOOL_DESKTOP_RULE@
 
 # GSettings
 
@@ -108,19 +145,24 @@ dist_gsettings_convert_DATA = drwright.convert
 # Clean
 
 EXTRA_DIST = 			\
+	$(builder_in_files)	\
 	$(gsd_plugin_in_files)	\
 	$(gsettings_schemas_in_files) 	\
 	$(NULL)
 
 CLEANFILES = 			\
-	$(gsd_plugin_DATA)	\
+	$(builder_DATA)		\
+	$(desktop_DATA)		\
 	$(gsettings_SCHEMAS)	\
+	$(gsd_plugin_DATA)	\
 	$(NULL)
 
 DISTCLEANFILES =		\
+	$(builder_DATA)		\
+	$(desktop_DATA)		\
 	$(gsd_plugin_DATA)	\
 	$(NULL)
 
 # includes
- 
+
 -include $(top_srcdir)/git.mk
