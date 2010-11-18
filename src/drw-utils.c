@@ -20,6 +20,7 @@
 
 #include <config.h>
 #include <gdk/gdk.h>
+#include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gtk/gtk.h>
 #include "drw-utils.h"
 
@@ -89,41 +90,83 @@ create_tile_pixbuf (GdkPixbuf    *dest_pixbuf,
 	return dest_pixbuf;
 }
 
-void
-drw_setup_background (GtkWidget *window)
+static gboolean
+window_draw_event (GtkWidget      *widget,
+		   cairo_t        *context,
+		   gpointer        data)
+{
+	cairo_t         *cr;
+	cairo_surface_t *surface;
+	int              width;
+	int              height;
+
+	cairo_set_operator (context, CAIRO_OPERATOR_SOURCE);
+	gtk_window_get_size (GTK_WINDOW (widget), &width, &height);
+
+	surface = cairo_surface_create_similar (cairo_get_target (context),
+						CAIRO_CONTENT_COLOR_ALPHA,
+						width,
+						height);
+
+	if (cairo_surface_status (surface) != CAIRO_STATUS_SUCCESS) {
+		goto done;
+	}
+
+	cr = cairo_create (surface);
+	if (cairo_status (cr) != CAIRO_STATUS_SUCCESS) {
+		goto done;
+	}
+	cairo_set_source_rgba (cr, 1.0, 1.0, 1.0, 0.0);
+	cairo_set_operator (cr, CAIRO_OPERATOR_OVER);
+	cairo_paint (cr);
+
+	/* draw a box */
+	cairo_rectangle (cr, 0, 0, width, height);
+	cairo_set_source_rgba (cr, 0.2, 0.2, 0.2, 0.5);
+	cairo_fill (cr);
+
+	cairo_destroy (cr);
+
+	cairo_set_source_surface (context, surface, 0, 0);
+	cairo_paint (context);
+
+ done:
+	if (surface != NULL) {
+		cairo_surface_destroy (surface);
+	}
+
+	return FALSE;
+}
+
+static void
+set_surface_background (GtkWidget *window)
 {
 	GdkScreen    *screen;
-	GdkPixbuf    *tmp_pixbuf, *pixbuf, *tile_pixbuf;
-	GdkPixmap    *pixmap;
+	GdkPixbuf    *pixbuf, *tile_pixbuf;
+	cairo_surface_t *surface;
+	cairo_pattern_t *pattern;
 	GdkRectangle  rect;
 	GdkColor      color;
 	gint          width, height;
+        cairo_t      *cr;
+
+	gtk_widget_realize (window);
 
 	screen = gtk_widget_get_screen (window);
-
 	width = gdk_screen_get_width (screen);
 	height = gdk_screen_get_height (screen);
-	
-	tmp_pixbuf = gdk_pixbuf_get_from_drawable (NULL,
-						   gdk_screen_get_root_window (screen),
-						   gdk_screen_get_system_colormap (screen),
-						   0,
-						   0,
-						   0,
-						   0,
-						   width, height);
-	
+
 	pixbuf = gdk_pixbuf_new_from_file (IMAGEDIR "/ocean-stripes.png", NULL);
 
 	rect.x = 0;
 	rect.y = 0;
 	rect.width = width;
 	rect.height = height;
-	
+
 	color.red = 0;
 	color.blue = 0;
 	color.green = 0;
-	
+
 	tile_pixbuf = create_tile_pixbuf (NULL,
 					  pixbuf,
 					  &rect,
@@ -132,42 +175,50 @@ drw_setup_background (GtkWidget *window)
 
 	g_object_unref (pixbuf);
 
-	gdk_pixbuf_composite (tile_pixbuf,
-			      tmp_pixbuf,
-			      0,
-			      0,
-			      width,
-			      height,
-			      0,
-			      0,
-			      1,
-			      1,
-			      GDK_INTERP_NEAREST,
-			      225);
+	cr = gdk_cairo_create (gtk_widget_get_window (window));
+	surface = cairo_surface_create_similar (cairo_get_target (cr),
+						CAIRO_CONTENT_COLOR_ALPHA,
+						width,
+						height);
+	cairo_destroy (cr);
 
+        cr = cairo_create (surface);
+        gdk_cairo_set_source_pixbuf (cr, tile_pixbuf, 0, 0);
+        cairo_paint (cr);
+        cairo_destroy (cr);
 	g_object_unref (tile_pixbuf);
 
-	pixmap = gdk_pixmap_new (GTK_WIDGET (window)->window,
-				 width,
-				 height,
-				 -1);
+	pattern = cairo_pattern_create_for_surface (surface);
+	cairo_surface_destroy (surface);
 
-	gdk_pixbuf_render_to_drawable_alpha (tmp_pixbuf,
-					     pixmap,
-					     0,
-					     0,
-					     0,
-					     0,
-					     width,
-					     height,
-					     GDK_PIXBUF_ALPHA_BILEVEL,
-					     0,
-					     GDK_RGB_DITHER_NONE,
-					     0,
-					     0);
-	g_object_unref (tmp_pixbuf);
+	gdk_window_set_background_pattern (gtk_widget_get_window (window), pattern);
+	cairo_pattern_destroy (pattern);
+}
 
-	gdk_window_set_back_pixmap (window->window, pixmap, FALSE);
-	g_object_unref (pixmap);
+void
+drw_setup_background (GtkWidget *window)
+{
+	GdkScreen    *screen;
+	GdkVisual    *visual;
+	gboolean      is_composited;
+
+	screen = gtk_widget_get_screen (window);
+	visual = gdk_screen_get_rgba_visual (screen);
+	if (visual == NULL) {
+                visual = gdk_screen_get_system_visual (screen);
+	}
+
+	if (visual != NULL && gdk_screen_is_composited (screen)) {
+		gtk_widget_set_visual (GTK_WIDGET (window), visual);
+		is_composited = TRUE;
+	} else {
+		is_composited = FALSE;
+	}
+
+	if (is_composited) {
+		g_signal_connect (window, "draw", G_CALLBACK (window_draw_event), window);
+	} else {
+		set_surface_background (window);
+	}
 }
 

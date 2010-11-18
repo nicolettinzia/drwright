@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * Copyright (C) 2002-2004 Richard Hult <richard@imendio.com>
  * Copyright (C) 2002 CodeFactory AB
+ * Copyright (C) 2002 Richard Hult <richard@imendio.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -22,7 +22,15 @@
 #include <config.h>
 #include <gdk/gdk.h>
 #include <gdk/gdkx.h>
+#include <gtk/gtk.h>
 #include <math.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <X11/Xlib.h>
 #include <X11/extensions/scrnsaver.h>
 #include "drw-monitor.h"
@@ -134,19 +142,21 @@ static gboolean
 drw_monitor_timeout (DrwMonitor *monitor)
 {
 	DrwMonitorPriv *priv;
-	time_t          now;
+ 	time_t          now;
 
 	priv = monitor->priv;
-
-	if (XScreenSaverQueryInfo (GDK_DISPLAY (), DefaultRootWindow (GDK_DISPLAY ()), priv->ss_info) != 0) {
+	
+	if (XScreenSaverQueryInfo (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()),
+	                           DefaultRootWindow (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ())),
+	                           priv->ss_info) != 0) {
 		if (priv->ss_info->idle < priv->last_idle) {
-			now = time (NULL);
-
-			if (now - priv->last_activity < 25) {
-				g_signal_emit (monitor, signals[ACTIVITY], 0, NULL);
-			}
-			
-			priv->last_activity = now;
+ 			now = time (NULL);
+ 
+ 			if (now - priv->last_activity < 25) {
+ 				g_signal_emit (monitor, signals[ACTIVITY], 0, NULL);
+ 			}
+ 			
+ 			priv->last_activity = now;
 		}
 
 		priv->last_idle = priv->ss_info->idle;
@@ -164,7 +174,8 @@ drw_monitor_setup (DrwMonitor *monitor)
 
 	priv = monitor->priv;
 
-	if (!XScreenSaverQueryExtension (GDK_DISPLAY (), &event_base, &error_base)) {
+	if (!XScreenSaverQueryExtension (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()),
+	                                 &event_base, &error_base)) {
 		return FALSE;
 	}
 
@@ -172,7 +183,7 @@ drw_monitor_setup (DrwMonitor *monitor)
 
 	priv->last_activity = time (NULL);
 	
-	priv->timeout_id = g_timeout_add (3000, (GSourceFunc) drw_monitor_timeout, monitor);
+	priv->timeout_id = g_timeout_add_seconds (3, (GSourceFunc) drw_monitor_timeout, monitor);
 	
 	return TRUE;
 }

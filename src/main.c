@@ -21,53 +21,21 @@
 
 #include <config.h>
 #include <string.h>
+#include <stdlib.h>
+#include <glib/gi18n.h>
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
-#include <gconf/gconf.h>
-#include <gconf/gconf-client.h>
-#include <libgnomeui/libgnomeui.h>
-#include <libgnome/gnome-i18n.h>
+
 #include "drw-selection.h"
 #include "drwright.h"
 
 gboolean debug = FALSE;
 
-static gboolean
-session_die (GnomeClient *client, gpointer client_data)
-{
-	gtk_main_quit ();
-
-	return TRUE;
-}
-
-static gboolean
-session_save (GnomeClient        *client,
-	      gint                phase,
-	      GnomeRestartStyle   rstyle,
-	      gint                shutdown,
-	      GnomeInteractStyle  istyle,
-	      gint                fast,
-	      gpointer            user_data)
-{
-	gchar *argv[2];
-	
-	/* Only with glib 2.2:
-	 * argv[0] = g_get_application_name ();
-	 */
-	
-	argv[0] = user_data;
-	argv[1] = "-n";
-	   
-	gnome_client_set_clone_command (client, 2, argv);
-        gnome_client_set_restart_command (client, 2, argv);
-
-	return TRUE;
-}
-
+#ifndef HAVE_APP_INDICATOR
 static gboolean
 have_tray (void)
 {
-	Screen *xscreen = DefaultScreenOfDisplay (gdk_display);
+	Screen *xscreen = DefaultScreenOfDisplay (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()));
 	Atom    selection_atom;
 	char   *selection_atom_name;
 	
@@ -82,92 +50,73 @@ have_tray (void)
 		return FALSE;
 	}
 }
+#endif /* HAVE_APP_INDICATOR */
 
 int
 main (int argc, char *argv[])
 {
-	gint          i;
 	DrWright     *drwright;
 	DrwSelection *selection;
-	GnomeClient  *client;
 	gboolean      no_check = FALSE;
+        const GOptionEntry options[] = {
+          { "debug", 'd', 0, G_OPTION_ARG_NONE, &debug,
+            N_("Enable debugging code"), NULL },
+          { "no-check", 'n', 0, G_OPTION_ARG_NONE, &no_check,
+            N_("Don't check whether the notification area exists"), NULL },
+	  { NULL }
+        };
+        GOptionContext *option_context;
+        GError *error = NULL;
+        gboolean retval;
 
-	bindtextdomain (GETTEXT_PACKAGE, DRWRIGHT_LOCALEDIR);  
+	bindtextdomain (GETTEXT_PACKAGE, GNOMELOCALEDIR);  
         bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 	textdomain (GETTEXT_PACKAGE);
-	
-	i = 1;
-	while (i < argc) {
-		const gchar *arg = argv[i];
-      
-		if (strcmp (arg, "--debug") == 0 ||
-		    strcmp (arg, "-d") == 0) {
-			debug = TRUE;
-		}
-		else if (strcmp (arg, "-n") == 0) {
-			no_check = TRUE;
-		}
-		else if (strcmp (arg, "-?") == 0) {
-			g_printerr ("Usage: %s [--debug]\n", argv[0]);
-			return 0;
-		}
-      
-		++i;
-	}
 
-	gnome_program_init (PACKAGE, VERSION, LIBGNOMEUI_MODULE, 
-			    argc, argv, NULL);
+        option_context = g_option_context_new (NULL);
+#if GLIB_CHECK_VERSION (2, 12, 0)
+        g_option_context_set_translation_domain (option_context, GETTEXT_PACKAGE);
+#endif
+        g_option_context_add_main_entries (option_context, options, GETTEXT_PACKAGE);
+        g_option_context_add_group (option_context, gtk_get_option_group (TRUE));
+ 
+        retval = g_option_context_parse (option_context, &argc, &argv, &error);
+        g_option_context_free (option_context);
+        if (!retval) {
+                g_print ("%s\n", error->message);
+                g_error_free (error);
+                exit (1);
+        }
+
+	g_set_application_name (_("Typing Monitor"));
+	gtk_window_set_default_icon_name ("typing-monitor");
 
 	selection = drw_selection_start ();
 	if (!drw_selection_is_master (selection)) {
-		GtkWidget *dialog;
-
-		dialog = gtk_message_dialog_new (NULL, 0,
-						 GTK_MESSAGE_INFO,
-						 GTK_BUTTONS_CLOSE,
-						 _("DrWright is already running."));
-
-		gtk_dialog_run (GTK_DIALOG (dialog));
-
+		g_message ("The typing monitor is already running, exiting.");
 		return 0;
 	}
 
+#ifndef HAVE_APP_INDICATOR
 	if (!no_check && !have_tray ()) {
 		GtkWidget *dialog;
 
-		dialog = gtk_message_dialog_new (NULL, 0,
-						 GTK_MESSAGE_INFO,
-						 GTK_BUTTONS_CLOSE,
-						 _("DrWright uses the notification area to display "
-						   "information. You don't seem to have a notification area "
-						   "on your panel. You can add it by right-clicking on your "
-						   "panel and choose 'Add to panel -> Utilities -> Notification area'."));
-
+		dialog = gtk_message_dialog_new (
+			NULL, 0,
+			GTK_MESSAGE_INFO,
+			GTK_BUTTONS_CLOSE,
+			_("The typing monitor uses the notification area to display "
+			  "information. You don't seem to have a notification area "
+			  "on your panel. You can add it by right-clicking on your "
+			  "panel and choosing 'Add to panel', selecting 'Notification "
+			  "area' and clicking 'Add'."));
+		
 		gtk_dialog_run (GTK_DIALOG (dialog));
 
 		gtk_widget_destroy (dialog);
 	}
+#endif /* HAVE_APP_INDICATOR */
 	
-	client = gnome_master_client ();
-
-	gnome_client_set_priority (client, 70);
-	if (!debug) {
-		gnome_client_set_restart_style (client, GNOME_RESTART_IMMEDIATELY);
-	} else {
-		/* Don't respawn in debug mode. */
-		gnome_client_set_restart_style (client, GNOME_RESTART_IF_RUNNING);
-	}
-	
-	g_signal_connect (client,
-			  "save_yourself",
-			  G_CALLBACK (session_save),
-			  argv[0]);
-
-	g_signal_connect (client,
-			  "die",
-			  G_CALLBACK (session_die),
-			  NULL);
-
 	drwright = drwright_new ();
 
 	gtk_main ();

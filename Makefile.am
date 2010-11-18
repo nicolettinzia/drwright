@@ -1,11 +1,8 @@
-SUBDIRS = src po data
+SUBDIRS = src po
 
-desktop_in_files=drwright.desktop.in
-desktop_files=$(desktop_in_files:.desktop.in=.desktop)
-@INTLTOOL_DESKTOP_RULE@
+ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS}
 
-Applicationsdir = $(datadir)/applications
-Applications_DATA = $(desktop_files)
+DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install
 
 INTLTOOL = 				\
 	intltool-extract.in 		\
@@ -15,9 +12,6 @@ INTLTOOL = 				\
 EXTRA_DIST = 				\
 	AUTHORS 			\
 	ChangeLog			\
-	README				\
-	drwright.spec			\
-	drwright.spec.in		\
 	$(INTLTOOL)			\
 	$(desktop_in_files)		\
 	$(desktop_files)		\
@@ -30,4 +24,33 @@ DISTCLEANFILES = 		\
 	intltool-update		\
 	$(desktop_files)
 
-DISTCHECK_CONFIGURE_FLAGS = --enable-dbus=no
+MAINTAINERCLEANFILES = \
+	$(srcdir)/INSTALL \
+	$(srcdir)/aclocal.m4 \
+	$(srcdir)/autoscan.log \
+	$(srcdir)/compile \
+	$(srcdir)/config.guess \
+	$(srcdir)/config.h.in \
+	$(srcdir)/config.sub \
+	$(srcdir)/configure.scan \
+	$(srcdir)/depcomp \
+	$(srcdir)/install-sh \
+	$(srcdir)/ltmain.sh \
+	$(srcdir)/missing \
+	$(srcdir)/mkinstalldirs \
+	$(srcdir)/omf.make \
+	$(srcdir)/xmldocs.make \
+	$(srcdir)/gnome-doc-utils.make  \
+	`find "$(srcdir)" -type f -name Makefile.in -print` \
+	$(NULL)
+
+# Build ChangeLog from GIT  history
+ChangeLog:
+	$(AM_V_GEN) if test -d $(top_srcdir)/.git; then \
+		GIT_DIR="$(top_srcdir)/.git" git log --stat > $@; \
+	fi
+
+dist: ChangeLog
+
+.PHONY: ChangeLog
+-include $(top_srcdir)/git.mk

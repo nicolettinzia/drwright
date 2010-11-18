@@ -1,6 +1,6 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * Copyright (C) 2002 Richard Hult <richard@imendio.com>
+ * Copyright (C) 2009 Nathaniel Smith <njs@pobox.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -18,11 +18,25 @@
  * Boston, MA 02111-1307, USA.
  */
 
-#ifndef __DRW_PREFERENCES_H__
-#define __DRW_PREFERENCES_H__
+#ifndef __DRW_TIMER_H__
+#define __DRW_TIMER_H__
 
-typedef struct _DrwPreferences DrwPreferences;
+/*
+ * This file defines a timer interface similar to GTimer, but defined in real
+ * wall-clock time. A GTimer may stop counting while the computer is suspended
+ * or the process is stopped:
+ *   https://bugzilla.gnome.org/show_bug.cgi?id=552994
+ * but a DrwTimer keeps counting regardless.
+ *
+ * Currently this only provides second resolution as compared to GTimer's
+ * microsecond resolution, but a typing break program doesn't really need
+ * microsecond resolution anyway.
+ */
 
-DrwPreferences * drw_preferences_new (void);
+typedef struct _DrwTimer DrwTimer;
+DrwTimer * drw_timer_new (void);
+void drw_timer_start (DrwTimer *timer);
+double drw_timer_elapsed (DrwTimer *timer);
+void drw_timer_destroy (DrwTimer *timer);
 
-#endif /* __DRW_PREFERENCES_H__ */
+#endif /* __DRW_TIMER_H__ */

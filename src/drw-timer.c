@@ -1,6 +1,6 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * Copyright (C) 2003 Richard Hult <richard@imendio.com>
+ * Copyright (C) 2009 Nathaniel Smith <njs@pobox.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -9,7 +9,7 @@
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	 See the GNU
  * General Public License for more details.
  *
  * You should have received a copy of the GNU General Public
@@ -18,12 +18,35 @@
  * Boston, MA 02111-1307, USA.
  */
 
-#ifndef __DRW_UTILS_H__
-#define __DRW_UTILS_H__
+#include <glib.h>
+#include "drw-timer.h"
 
-#include <gtk/gtk.h>
+struct _DrwTimer
+{
+	GTimeVal start_time;
+};
 
-void drw_setup_background (GtkWidget *window);
+DrwTimer * drw_timer_new (void)
+{
+	DrwTimer * timer = g_new0 (DrwTimer, 1);
+	drw_timer_start (timer);
+	return timer;
+}
 
+void drw_timer_start (DrwTimer *timer)
+{
+	g_get_current_time (&timer->start_time);
+}
 
-#endif /* __DRW_UTILS_H__ */
+double drw_timer_elapsed (DrwTimer *timer)
+{
+	GTimeVal now;
+	g_get_current_time (&now);
+	return now.tv_sec - timer->start_time.tv_sec;
+}
+
+void drw_timer_destroy (DrwTimer *timer)
+{
+	g_free (timer);
+}
+

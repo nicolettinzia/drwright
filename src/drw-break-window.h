@@ -22,7 +22,9 @@
 #ifndef __DRW_BREAK_WINDOW_H__
 #define __DRW_BREAK_WINDOW_H__
 
-#include <gtk/gtkwindow.h>
+#include <gtk/gtk.h>
+
+G_BEGIN_DECLS
 
 #define DRW_TYPE_BREAK_WINDOW         (drw_break_window_get_type ())
 #define DRW_BREAK_WINDOW(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), DRW_TYPE_BREAK_WINDOW, DrwBreakWindow))
@@ -31,14 +33,14 @@
 #define DRW_IS_BREAK_WINDOW_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k), DRW_TYPE_BREAK_WINDOW))
 #define DRW_BREAK_WINDOW_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o), DRW_TYPE_BREAK_WINDOW, DrwBreakWindowClass))
 
-typedef struct _DrwBreakWindow      DrwBreakWindow;
-typedef struct _DrwBreakWindowClass DrwBreakWindowClass;
-typedef struct _DrwBreakWindowPriv  DrwBreakWindowPriv;
+typedef struct _DrwBreakWindow         DrwBreakWindow;
+typedef struct _DrwBreakWindowClass    DrwBreakWindowClass;
+typedef struct _DrwBreakWindowPrivate  DrwBreakWindowPrivate;
 
 struct _DrwBreakWindow {
-        GtkWindow           parent;
+        GtkWindow              parent;
 
-        DrwBreakWindowPriv *priv;
+        DrwBreakWindowPrivate *priv;
 };
 
 struct _DrwBreakWindowClass {
@@ -48,5 +50,6 @@ struct _DrwBreakWindowClass {
 GType       drw_break_window_get_type (void) G_GNUC_CONST;
 GtkWidget * drw_break_window_new      (void);
 
+G_END_DECLS
 
 #endif /* __DRW_BREAK_WINDOW_H__ */

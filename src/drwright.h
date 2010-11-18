@@ -21,7 +21,7 @@
 #ifndef __DR_WRIGHT_H__
 #define __DR_WRIGHT_H__
 
-#define GCONF_PATH "/apps/drwright"
+#define GCONF_PATH "/desktop/gnome/typing_break"
 
 typedef struct _DrWright DrWright;
 
