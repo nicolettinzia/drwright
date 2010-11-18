@@ -27,10 +27,7 @@
 #include <gio/gio.h>
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
-
-#ifdef HAVE_CANBERRA_GTK
 #include <canberra-gtk.h>
-#endif
 
 #include "drwright.h"
 #include "drw-utils.h"
@@ -275,9 +272,7 @@ drw_break_window_init (DrwBreakWindow *window)
 	priv->clock_timeout_id = g_timeout_add (1000,
 						(GSourceFunc) clock_timeout_cb,
 						window);
-#ifdef HAVE_CANBERRA_GTK
 	ca_context_play (ca_gtk_context_get (), 0, CA_PROP_EVENT_ID, "desktop-screen-lock", NULL);
-#endif
 }
 
 static void
@@ -389,9 +384,7 @@ clock_timeout_cb (DrwBreakWindow *window)
 		 */
 		priv->clock_timeout_id = 0;
 
-#ifdef HAVE_CANBERRA_GTK
 		ca_context_play (ca_gtk_context_get (), 0, CA_PROP_EVENT_ID, "alarm-clock-elapsed", NULL);
-#endif
 		g_signal_emit (window, signals[DONE], 0, NULL);
 
 		return FALSE;
