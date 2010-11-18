@@ -106,7 +106,7 @@ setup_typing_break (GsdTypingBreakManager *manager,
 
         if (manager->priv->typing_monitor_pid == 0) {
                 GError  *error;
-                char    *argv[] = { "gnome-typing-monitor", "-n", NULL };
+                char    *argv[] = { PKGLIBDIR"/gnome-typing-monitor", "-n", NULL };
                 gboolean res;
 
                 error = NULL;
@@ -115,7 +115,6 @@ setup_typing_break (GsdTypingBreakManager *manager,
                                      NULL,
                                      G_SPAWN_STDOUT_TO_DEV_NULL
                                      | G_SPAWN_STDERR_TO_DEV_NULL
-                                     | G_SPAWN_SEARCH_PATH
                                      | G_SPAWN_DO_NOT_REAP_CHILD,
                                      NULL,
                                      NULL,

@@ -2,7 +2,7 @@ NULL =
 
 # Typing break
 
-bin_PROGRAMS = gnome-typing-monitor
+pkglib_PROGRAMS = gnome-typing-monitor
 
 gnome_typing_monitor_SOURCES =			\
 	main.c					\
@@ -71,6 +71,7 @@ libtyping_break_la_SOURCES = 		\
 
 libtyping_break_la_CPPFLAGS = \
 	-DGNOME_SETTINGS_LOCALEDIR=\""$(datadir)/locale"\" \
+	-DPKGLIBDIR=\""$(pkglibdir)"\"	\
 	$(AM_CPPFLAGS)
 
 libtyping_break_la_CFLAGS = \
