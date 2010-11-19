@@ -133,7 +133,7 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 # GSettings
 
-gsettings_schemas_in_files = org.gnome-settings-daemon.plugins.TypingBreak.gschema.xml.in
+gsettings_schemas_in_files = org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in
 gsettings_SCHEMAS = $(gsettings_schemas_in_files:.gschema.xml.in=.gschema.xml)
 
 gsettings_convertdir = $(datadir)/GConf/gsettings

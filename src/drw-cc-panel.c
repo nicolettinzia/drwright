@@ -24,7 +24,7 @@
 
 #include "drw-cc-panel.h"
 
-#define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.TypingBreak"
+#define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.typing-break"
 
 G_DEFINE_DYNAMIC_TYPE (DrwCcPanel, drw_cc_panel, CC_TYPE_PANEL)
 

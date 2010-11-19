@@ -40,7 +40,7 @@
 #include "gnome-settings-profile.h"
 #include "gsd-typing-break-manager.h"
 
-#define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.TypingBreak"
+#define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.typing-break"
 #define I_(string) (g_intern_static_string (string))
 
 #define GSD_TYPING_BREAK_MANAGER_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), GSD_TYPE_TYPING_BREAK_MANAGER, GsdTypingBreakManagerPrivate))
