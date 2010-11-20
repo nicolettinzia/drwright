@@ -72,12 +72,6 @@ static gboolean     postpone_sensitize_cb          (DrwBreakWindow      *window)
 static gboolean     clock_timeout_cb               (DrwBreakWindow      *window);
 static void         postpone_clicked_cb            (GtkWidget           *button,
 						    GtkWidget           *window);
-static gboolean     label_draw_event_cb            (GtkLabel            *label,
-						    cairo_t             *cr,
-						    gpointer             user_data);
-static void         label_size_request_cb          (GtkLabel            *label,
-						    GtkRequisition      *requisition,
-						    gpointer             user_data);
 
 G_DEFINE_TYPE (DrwBreakWindow, drw_break_window, GTK_TYPE_WINDOW)
 
@@ -229,16 +223,6 @@ drw_break_window_init (DrwBreakWindow *window)
 	priv->break_label = gtk_label_new (NULL);
 	gtk_widget_show (priv->break_label);
 
-	g_signal_connect (priv->break_label,
-			  "draw",
-			  G_CALLBACK (label_draw_event_cb),
-			  NULL);
-
-	g_signal_connect_after (priv->break_label,
-				"size_request",
-				G_CALLBACK (label_size_request_cb),
-				NULL);
-
 	str = g_strdup_printf ("<span size=\"xx-large\" foreground=\"white\"><b>%s</b></span>",
 			       _("Take a break!"));
 	gtk_label_set_markup (GTK_LABEL (priv->break_label), str);
@@ -251,16 +235,6 @@ drw_break_window_init (DrwBreakWindow *window)
 	gtk_misc_set_alignment (GTK_MISC (priv->clock_label), 0.5, 0.5);
 	gtk_widget_show (priv->clock_label);
 	gtk_box_pack_start (GTK_BOX (vbox), priv->clock_label, TRUE, TRUE, 8);
-
-	g_signal_connect (priv->clock_label,
-			  "draw",
-			  G_CALLBACK (label_draw_event_cb),
-			  NULL);
-
-	g_signal_connect_after (priv->clock_label,
-				"size_request",
-				G_CALLBACK (label_size_request_cb),
-				NULL);
 
 	gtk_window_stick (GTK_WINDOW (window));
 
@@ -521,48 +495,4 @@ postpone_clicked_cb (GtkWidget *button,
 			  "key_press_event",
 			  G_CALLBACK (postpone_entry_key_press_event_cb),
 			  bw);
-}
-
-static gboolean
-label_draw_event_cb (GtkLabel       *label,
-		     cairo_t        *cr,
-		     gpointer        user_data)
-{
-	gint             x, y;
-	GtkWidget       *widget;
-	GdkWindow       *window;
-
-        gtk_label_get_layout_offsets (label, &x, &y);
-
-	widget = GTK_WIDGET (label);
-	window = gtk_widget_get_window (widget);
-
-        cairo_set_source_rgb (cr, 0, 0, 0);
-
-        /* Can't use pango_cairo_show_layout() here as we need to override
-         * the layout's colors with our shadow color.
-         */
-        cairo_move_to (cr, x + 1, y + 1);
-        pango_cairo_layout_path (cr, gtk_label_get_layout (label));
-        cairo_fill (cr);
-
-	gtk_paint_layout (gtk_widget_get_style (widget),
-			  cr,
-			  gtk_widget_get_state (widget),
-			  FALSE,
-			  widget,
-			  "label",
-			  x, y,
-			  gtk_label_get_layout (label));
-
-	return TRUE;
-}
-
-static void
-label_size_request_cb (GtkLabel       *label,
-		       GtkRequisition *requisition,
-		       gpointer        user_data)
-{
-	requisition->width += 1;
-	requisition->height += 1;
 }
