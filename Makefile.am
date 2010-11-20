@@ -20,7 +20,9 @@ EXTRA_DIST = 				\
 	drwright.spec.in		\
 	$(INTLTOOL)			\
 	$(desktop_in_files)		\
-	$(desktop_files)
+	$(desktop_files)		\
+	autogen.sh			\
+	drwright.doap
 
 DISTCLEANFILES = 		\
 	intltool-extract	\
