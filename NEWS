@@ -1,4 +1,14 @@
-Typing Break 2.33.0
+Typing Break 2.91.0
 ===================
 
-Ressurrected!
+The Typing Break code has been removed from gnome-settings-daemon
+and gnome-control-centre and is being ressurrected here as a
+stand-alone module.
+
+It consists of:
+* the typing monitor itself
+* a Gnome settings daemon plugin, to activate the typing monitor when enabled
+* a Gnome control centre panel, to configure the typing monitor options
+
+An attempt has been made to reuse the existing translations from g-s-d and g-c-c.
+
