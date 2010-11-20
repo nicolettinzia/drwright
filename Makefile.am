@@ -20,6 +20,7 @@ DISTCLEANFILES = 		\
 	$(desktop_files)
 
 MAINTAINERCLEANFILES = \
+	$(srcdir)/ChangeLog \
 	$(srcdir)/INSTALL \
 	$(srcdir)/aclocal.m4 \
 	$(srcdir)/autoscan.log \
