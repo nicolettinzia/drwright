@@ -45,6 +45,8 @@
 #define BLINK_TIMEOUT_FACTOR 100
 #endif /* HAVE_APP_INDICATOR */
 
+#define WARN_TIME_MAX        (3 * 60 /* s */)
+
 #define POPUP_ITEM_ENABLED 1
 #define POPUP_ITEM_BREAK   2
 
@@ -552,27 +554,27 @@ activity_detected_cb (DrwMonitor *monitor,
 }
 
 static void
-settings_change_cb (GSettings *settings,
+settings_change_cb (GSettings  *settings,
                     const char *key,
-                    DrWright  *dr)
+                    DrWright   *dr)
 {
-	GtkWidget *item;
+        dr->state = STATE_START;
 
-        if (key == I_("type-time")) {
-                dr->type_time = 60 * g_settings_get_int (settings, key);
-                dr->warn_time = MIN (dr->type_time / 10, 5*60);
+        if (!key || key == I_("type-time")) {
+                dr->type_time = 60 * g_settings_get_int (settings, "type-time");
+                dr->warn_time = MIN (dr->type_time / 10, WARN_TIME_MAX);
+	}
+	if (!key || key == I_("break-time")) {
+                dr->break_time = 60 * g_settings_get_int (settings, "break-time");
+	}
+	if (!key || key == I_("enabled")) {
+                GtkAction *action;
 
-                dr->state = STATE_START;
-	} else if (key == I_("break-time")) {
-                dr->break_time = 60 * g_settings_get_int (settings, key);
-                dr->state = STATE_START;
-	} else if (key == I_("enabled")) {
-                dr->enabled = g_settings_get_boolean (settings, key);
-                dr->state = STATE_START;
+                dr->enabled = g_settings_get_boolean (settings, "enabled");
 
-                item = gtk_ui_manager_get_widget (dr->ui_manager,
-                                                  "/Pop/TakeABreak");
-                gtk_widget_set_sensitive (item, dr->enabled);
+                action = gtk_ui_manager_get_action (dr->ui_manager,
+                                                    "/Pop/TakeABreak");
+                gtk_action_set_sensitive (action, dr->enabled);
 
                 update_status (dr);
 	}
@@ -820,15 +822,6 @@ drwright_new (void)
 
         dr = g_new0 (DrWright, 1);
 
-        dr->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
-        g_signal_connect (dr->settings, "changed",
-                          G_CALLBACK (settings_change_cb), dr);
-
-	dr->type_time = 60 * g_settings_get_int (dr->settings, "type-time");
-	dr->warn_time = MIN (dr->type_time / 12, 60*3);
-	dr->break_time = 60 * g_settings_get_int (dr->settings, "break-time");
-	dr->enabled = g_settings_get_boolean (dr->settings, "enabled");
-
 	if (debug) {
 		setup_debug_values (dr);
 	}
@@ -840,9 +833,6 @@ drwright_new (void)
 	gtk_action_group_add_actions (action_group, actions, G_N_ELEMENTS (actions), dr);
 	gtk_ui_manager_insert_action_group (dr->ui_manager, action_group, 0);
 	gtk_ui_manager_add_ui_from_string (dr->ui_manager, ui_description, -1, NULL);
-
-	item = gtk_ui_manager_get_widget (dr->ui_manager, "/Pop/TakeABreak");
-	gtk_widget_set_sensitive (item, dr->enabled);
 
 	dr->timer = drw_timer_new ();
 	dr->idle_timer = drw_timer_new ();
@@ -874,6 +864,12 @@ drwright_new (void)
 	g_timeout_add_seconds (1,
 			       (GSourceFunc) maybe_change_state,
 			       dr);
+
+
+        dr->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
+        settings_change_cb (dr->settings, NULL, dr);
+        g_signal_connect (dr->settings, "changed",
+                          G_CALLBACK (settings_change_cb), dr);
 
 	return dr;
 }
