@@ -1,175 +1,3700 @@
+# #-#-#-#-#  tr.po (drwright)  #-#-#-#-#
 # Turkish translation of drwright.
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2003 drwright's copyright holder
 # Arman Aksoy <armish@linux-sevenler.de>, 2003
 # Rıdvan CAN <ridvan@linuxdeneyimi.com>, 2003
 #
+# #-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#
+# Turkish translation of gnome-control-center.
+# Copyright (C) 2000-2003, 2004, 2005, 2008 Free Software Foundation, Inc.
+#
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+# Fatih Demir <kabalak@gtranslator.org>, 2000.
+# Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
+# #-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#
+# Turkish translation of gnome-control-center.
+# Copyright (C) 2000-2003, 2004, 2005, 2008 Free Software Foundation, Inc.
+#
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+# Fatih Demir <kabalak@gtranslator.org>, 2000.
+# Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright\n"
+"Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 21:35+0000\n"
-"PO-Revision-Date: 2003-09-13 04:27+0300\n"
-"Last-Translator: Rıdvan CAN <ridvan@linuxdeneyimi.com>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2009-08-30 07:20+0300\n"
+"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+"#-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
+"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
+#: ../src/main.c:63
+msgid "Enable debugging code"
+msgstr "Hata ayıklama kodunu etkinleştir"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "Uyarı alanının mevcut olup olmadığını kontrol etme"
 
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Ara verme</b>"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "Yazım Gözetleyicisi"
 
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Çalışma</b>"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Yazım gözetleyicisi bilgileri göstermek için uyarı alanını kullanır. "
+"Panelinizde uyarı alanı yok gibi görülüyor. Panele sağ tıklayıp 'Panele "
+"ekle', 'Uyarı alanı' ve 'Ekle'yi tıklayarak alanı ekleyebilirsiniz."
 
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "İzin verilirse denetim aralarını ertele"
+#: ../src/drwright.c:142
+msgid "_Take a Break"
+msgstr "_Mola ver"
 
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "DrWright Tercihleri"
+#: ../src/drwright.c:504
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+"Kapalı\n"
+"#-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Devre Dışı\n"
+"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+"Kapalı"
 
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Yazım kapalı olduğunda aranın süresi"
+#: ../src/drwright.c:513
+#, c-format
+msgid "Take a break now (next in %dm)"
+msgstr ""
 
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Bir araya başlamadan önce gösterilecek uyarının süresi"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "Sonraki molaya kadar %d dakika kaldı"
 
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Bir ara verilmeden önceki işin sürekliliği"
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr ""
 
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Arayı erteleyerek kullanmak için seçmeli deyim"
+#: ../src/drwright.c:523
+#, fuzzy, c-format
+msgid "Less than one minute until the next break"
+msgstr ""
+"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+"Sonraki araya kadar bir dakikadan daha az\n"
+"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+"Sonraki molaya bir dakikadan az bir zaman kaldı"
 
-#: data/glade/drw-preferences.glade.h:11
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Bu hata yüzünde yazım molası özellikleri penceresi yukarı getirilemiyor: %s"
+
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Richard Hult <richard@imendio.com> tarafından yazıldı"
+
+#: ../src/drwright.c:629
+#, fuzzy
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+"Göz şekeri Anders Carlsson tarafından eklenmiştir\n"
+"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+"Görsel güzellikler, Anders Carlsson tarafından eklendi"
+
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+"Bilgisayar arası vermek için hatırlatıcı.\n"
+"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+"Bilgisayar molası hatırlatıcısı."
+
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr "Barış Çiçek <baris@teamforce.name.tr>"
+
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "_Molayı Ertele"
+
+#: ../src/drw-break-window.c:227
+#, fuzzy
+msgid "Take a break!"
+msgstr ""
+"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+"Ara ver!\n"
+"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+"Mola verin!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Ekran okuyucusunun açık olması."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Ekran okuyucusunun açık olması."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Yazım Molası"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
 msgstr "_Araların ertelenmesine izin veriniz"
 
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "_Ara verme süresi"
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "_Mola aralıkları sonlanması:"
 
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "Uyarı z_amanı"
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "_Yazım molasını mecbur kılmak için ekranı kilitle"
 
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "A_ralığı süren iş"
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "_Çalışma aralıkları sonlanması:"
 
-#: data/glade/drw-preferences.glade.h:15
+#: ../src/drwright-panel.glade.h:5
 msgid "minutes"
 msgstr "dakika"
 
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright zaten çalışıyor."
+#~ msgid "    "
+#~ msgstr "    "
 
-#: src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
-msgstr ""
-"DrWright bilgi göstermek için bilgilendirme alanını kullanır. Panelinizde "
-"bir bilgilendirme alanı bulunamadı. Panelinize sağ tıklayarak, 'Panele Ekle  "
-">  Araçlar  >  Bilgilendirme alanı' ile bu bölgeyi kullanabilirsiniz."
+#~ msgid "*"
+#~ msgstr "*"
 
-#: src/drwright.c:134
-msgid "/_Enabled"
-msgstr "/_Açık"
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Ara verme</b>"
 
-#: src/drwright.c:135
-msgid "/_Take a Break"
-msgstr "/_Ara Ver"
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Çalışma</b>"
 
-#: src/drwright.c:137
-msgid "/_Preferences"
-msgstr "/Ter_cihler"
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+#~ "İzin verilirse denetim aralarını ertele\n"
+#~ "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Molaların ertelenmesine izin verilip verilmediğini kontrol eder"
 
-#: src/drwright.c:138
-msgid "/_About"
-msgstr "/_Hakkında"
+#~ msgid "DrWright Preferences"
+#~ msgstr "DrWright Tercihleri"
 
-#: src/drwright.c:140
-msgid "/_Remove Icon"
-msgstr "/_Simge Çıkar"
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+#~ "Yazım kapalı olduğunda aranın süresi\n"
+#~ "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Yazmaya izin verilmediğinde molanın süresi"
 
-#: src/drwright.c:443
-msgid "Disabled"
-msgstr "Kapalı"
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Bir araya başlamadan önce gösterilecek uyarının süresi"
 
-#: src/drwright.c:461
-#, c-format
-msgid "%d minutes until the next break"
-msgstr "Bir sonraki araya %d dakika var"
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+#~ "Bir ara verilmeden önceki işin sürekliliği\n"
+#~ "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Molaya zorlanmadan önceki süre"
 
-#: src/drwright.c:464
-msgid "One minute until the next break"
-msgstr "Bir sonraki araya bir dakika var"
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Arayı erteleyerek kullanmak için seçmeli deyim"
 
-#: src/drwright.c:466
-msgid "Less than one minute until the next break"
-msgstr "Sonraki araya kadar bir dakikadan daha az"
+#~ msgid "_Break interval lasts"
+#~ msgstr "_Ara verme süresi"
 
-#: src/drwright.c:577
-msgid "Quit DrWright?"
-msgstr "DrWright'tan çıkmak istiyor musun?"
+#~ msgid "_Warning time is"
+#~ msgstr "Uyarı z_amanı"
 
-#: src/drwright.c:578
-msgid "Don't forget to take regular breaks."
-msgstr "Düzenli ara vermeyi unutmayın."
+#~ msgid "_Work interval lasts"
+#~ msgstr "A_ralığı süren iş"
 
-#: src/drwright.c:589
-msgid "Don't Quit"
-msgstr "Çıkmayınız"
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright zaten çalışıyor."
 
-#: src/drwright.c:593
-msgid "Quit"
-msgstr "Çık"
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright bilgi göstermek için bilgilendirme alanını kullanır. Panelinizde "
+#~ "bir bilgilendirme alanı bulunamadı. Panelinize sağ tıklayarak, 'Panele "
+#~ "Ekle  >  Araçlar  >  Bilgilendirme alanı' ile bu bölgeyi "
+#~ "kullanabilirsiniz."
 
-#: src/drwright.c:642
-msgid "About DrWright"
-msgstr "DrWright Hakkında"
+#~ msgid "/_Enabled"
+#~ msgstr "/_Açık"
 
-#: src/drwright.c:667
-msgid "A computer break reminder."
-msgstr "Bilgisayar arası vermek için hatırlatıcı."
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Ara Ver"
 
-#: src/drwright.c:668
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Richard Hult &lt;richard@imendo.com&gt; tarafından yazılmıştır"
+#~ msgid "/_Preferences"
+#~ msgstr "/Ter_cihler"
 
-#: src/drwright.c:669
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Göz şekeri Anders Carlsson tarafından eklenmiştir"
+#~ msgid "/_About"
+#~ msgstr "/_Hakkında"
 
-#: src/drwright.c:828
-msgid "Break reminder"
-msgstr "Ara hatırlatıcısı"
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Simge Çıkar"
 
-#: src/drw-break-window.c:259
-msgid "Postpone break"
-msgstr "Arayı erteleyiniz"
+#~ msgid "%d minutes until the next break"
+#~ msgstr "Bir sonraki araya %d dakika var"
 
-#: src/drw-break-window.c:297
-msgid "Take a break!"
-msgstr "Ara ver!"
+#~ msgid "One minute until the next break"
+#~ msgstr "Bir sonraki araya bir dakika var"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright'tan çıkmak istiyor musun?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Düzenli ara vermeyi unutmayın."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Çıkmayınız"
+
+#~ msgid "Quit"
+#~ msgstr "Çık"
+
+#~ msgid "About DrWright"
+#~ msgstr "DrWright Hakkında"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Richard Hult &lt;richard@imendo.com&gt; tarafından yazılmıştır"
+
+#~ msgid "Break reminder"
+#~ msgstr "Ara hatırlatıcısı"
+
+#~ msgid "Postpone break"
+#~ msgstr "Arayı erteleyiniz"
+
+#~ msgid "Accessibility"
+#~ msgstr "Erişilebilirlik"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Boş yüzdesi bildirme eşiği"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Boş alan bildirim eşiği"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Tekrarlanan uyarılar için azami süre"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Yok sayılacak bağlama yolları"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown"
+#~ msgstr ""
+#~ "İlk düşük disk alanı uyarısı boş alan yüzdesi eşiği. Eğer boş alan "
+#~ "aşağıdaki yüzdeden daha aşağıya düşerse, bir uyarı gösterilir"
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Boş alanı düşük olduğunda gözardı edilecek bağlama yollarının listesini "
+#~ "belirtin."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Dakika olarak bir süre belirleyin. Bir birim için birbirini izleyen "
+#~ "uyarılar bu dönemden daha sık gösterilmeyecek."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown"
+#~ msgstr ""
+#~ "Miktarı GB olarak belirtin. Eğer boş alan bu miktardan daha fazla ise, "
+#~ "hiçbir uyarı gösterilmeyecek"
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning"
+#~ msgstr ""
+#~ "Bir sonraki uyarı öncesi boş alanın azaltılması gereken yüzdeyi belirtin"
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Ard arda boş yüzdesi bildirim eşiği"
+
+#~ msgid "Binding to eject an optical disk."
+#~ msgstr "Bir optik diskin çıkartılması için bağ."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Hesap makinesinin başlatılması için bağ."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "E-posta istemcisi başlatmak için bağ."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Yardım tarayıcısı başlatmak için bağ."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Ortam yürütücüsü başlatmak için bağ."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Arama aracını başlatmak için bağ."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Web tarayıcı başlatmak için bağ."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Ekranı kilitlemek için bağ."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Çıkış için bağ."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Sistem sesini azaltmak için bağ."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Sistem sesini kesmek için bağ."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Başlangıç klasörünü açmak için bağ."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Ses çalmayı duraklatmak için bağ."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Sistem sesini arttırmak için bağ."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Sonraki parçaya geçmek için bağ."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Önceki parçaya geçmek için bağ."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr "Çaldırmayı başlatmak için bağ (ya da çaldırma/duraklatma geçisi)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Çaldırmayı durdurmak için bağ."
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Bilgisayarı beklemeye almak için bağ."
+
+#~ msgid "Eject"
+#~ msgstr "Çıkart"
+
+#~ msgid "Home folder"
+#~ msgstr "Başlangıç klasörü"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Hesap makinesini başlat"
+
+#~ msgid "Launch email client"
+#~ msgstr "E-posta istemcisini başlat"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Yardım tarayıcı aç"
+
+#~ msgid "Launch media player"
+#~ msgstr "Ortam yürütücüsünü başlat"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Web tarayıcı aç"
+
+#~ msgid "Lock screen"
+#~ msgstr "Ekranı kilitle"
+
+#~ msgid "Log out"
+#~ msgstr "Çıkış"
+
+#~ msgid "Next track"
+#~ msgstr "Diğer parça"
+
+#~ msgid "Pause playback"
+#~ msgstr "Çaldırmayı duraklat"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Çal (veya çal/duraklat)"
+
+#~ msgid "Previous track"
+#~ msgstr "Önceki parça"
+
+#~ msgid "Search"
+#~ msgstr "Arama"
+
+#~ msgid "Stop playback"
+#~ msgstr "Çaldırmayı durdur"
+
+#~ msgid "Suspend"
+#~ msgstr "Bekleme"
+
+#~ msgid "Volume down"
+#~ msgstr "Sesi azalt"
+
+#~ msgid "Volume mute"
+#~ msgstr "Sesi kes"
+
+#~ msgid "Volume step"
+#~ msgstr "Ses basamağı"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Yüzde olarak ses basamağı."
+
+#~ msgid "Volume up"
+#~ msgstr "Sesi arttır"
+
+#~ msgid ""
+#~ "If a notification icon with display related things should be shown in the "
+#~ "panel."
+#~ msgstr ""
+#~ "Ekran ile ilgili şeyler için bir uyarı simgesinin panelde gösterilmesi."
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Uyarı Alanında Ekranlar Göster"
+
+#~ msgid "Antialiasing"
+#~ msgstr "Yumuşatma"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Düzeltme"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA sırası"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "LCD ekranında kullanılacak alt piksel öğelerinin sırası; sadece yumuşatma "
+#~ "\"rgba\" olarak atandığında kullanılır. Geçerli değerler: \"rgb\" - "
+#~ "kırmızı solda (en yaygın), \"bgr\" - mavi solda. \"vrgb\"- kırmızı "
+#~ "yukarıda. \"vbgr\" - kırmızı aşağıda."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Yazıtipi boyutlarını piksel boyutlarına çevirmek için kullanılan "
+#~ "çözünürlük, inç başına nokta olarak."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Yazıtipleri taranırken kullanılacak yumuşatma türü. Geçerli değerler: "
+#~ "\"none\" - yumuşatma yok. \"grayscale\" - standart gri ölçek yumuşatma ve "
+#~ "\"rgba\"  - alt piksel yumuşatma (sadece LCD ekranlar)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Yazıtiplerinde kullanılacak düzeltme türü. Geçerli değerler \"none\" - "
+#~ "düzeltme yok, \"slight\", \"medium\", ve \"full\" - mümkün olduğunca çok "
+#~ "düzeltme (harf biçimlerinde bozulmalara sebep olabilir)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "İzin verilen tuşlar"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Eğer boş değilse, kendi GConf  dizini listede olmadığı sürece tuş bağı "
+#~ "yok sayılır. Bu kilitleme için kullanışlıdır."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Yazarken touchpad'i devre dışı bırak"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Yatay kaydırmayı etkinleştir"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Touchpad ile fare tıklamasını etkinleştir"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Touchpad kaydırma yönetimini seçin"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~ "- edge scrolling, 2 - two-finger scrolling"
+#~ msgstr ""
+#~ "Touchpad kaydırma yöntemini seçin. Desteklenen değerler: 0 - kapalı, 1 - "
+#~ "kenar kaydırması, 2 - iki parmak kaydırması"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Eğer yazarken touchpad'e dokunma sorunu yaşıyorsanız bunu doğru olarak "
+#~ "atayın."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Eğer scroll_method anahtarında seçili yöntemle aynı şekilde yatay "
+#~ "kaydırma istiyorsanız bunu doğru olarak atayın."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Touchpad üzerine vurarak fare tıklamaları göndermek istiyorsanız bunu "
+#~ "doğru olarak atayın."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "GNOME Ayarlar Servisi"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Büyütece geçiş yapmak için bağ."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Ekran klavyesine geçiş yapmak için bağ"
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Ekran okuyucuya geçiş yapmak için bağ."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Sıçrama tuşları"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Büyüteci açmak veya kapatmak için kullanılan komut."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Ekran klavyesini açmak veya kapatmak için kullanılan komut."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Ekran okuyucu açmak veya kapatmak için kullanılan komut."
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Erişilebilirlik klavyesi eklentisini etkinleştir"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Arkaplan eklentisini etkinleştir"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Pano eklentisini etkinleştir"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Yazıtipi eklentisini etkinleştir"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Ev bakımı eklentisini etkinleştir"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Tuş bağları eklentisini etkinleştir"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Klavye eklentisini etkinleştir"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Ortam tuşları eklentisini etkinleştir"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Fare eklentisini etkinleştir"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Ses eklentisini etkinleştir"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Yazım molası eklentisini etkinleştir"
+
+#~ msgid "Enable xrandr plugin"
+#~ msgstr "Xrandr eklentisini etkinleştir"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Xrdb eklentisini etkinleştir"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Xsettings eklentisini etkinleştir"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Fare tuşları"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Ekran klavyesi"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Ekran büyüteci"
+
+#~ msgid "Screen reader"
+#~ msgstr "Ekran okuyucu"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Ev bakımı eklentisini etkinleştirmek, geçici dosya önbelleği budamak için "
+#~ "True şekilde ayarlayın."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Pano ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru olarak "
+#~ "atayın."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Arkaplan ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru "
+#~ "olarak atayın."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Yazıtipi ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru "
+#~ "olarak atayın."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Klavye ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru "
+#~ "olarak atayın."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "Fare ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru olarak "
+#~ "atayın."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Çokluortam tuşları ayarlarını yönetmek için eklentiyi etkinleştirmek için "
+#~ "doğru olarak atayın."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Ses örnek önbellekleri yönetmek için eklentiyi etkinleştirmek için True "
+#~ "şekilde ayarlayın."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Klavye erişebilirlik ayarlarını yönetmek için eklentiyi etkinleştirmek "
+#~ "için doğru olarak atayın."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Tuşbağlarını yönetmek için eklentiyi etkinleştirmek için doğru olarak "
+#~ "atayın."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Yazım molalarını yönetmek için eklentiyi etkinleştirmek için doğru olarak "
+#~ "atayın."
+
+#~ msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgstr ""
+#~ "Xrandr ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru "
+#~ "olarak atayın."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Xrdb ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru olarak "
+#~ "atayın."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Xsettings ayarlarını yönetmek için eklentiyi etkinleştirmek için doğru "
+#~ "olarak atayın."
+
+#~ msgid "Slow keys"
+#~ msgstr "Yavaş tuşlar"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Yapışkan tuşlar"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Büyütece geçiş yapmak için klavye kısayolunun adı"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "Ekran klavyesine geçiş yapmak için klavye kısayolunun adı"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "Ekran okuyucusuna geçiş yapmak için klavye kısayolunun adı"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Bu büyütece geçiş yapmak için klavye kısayolunun adıdır. Bu isim, klavye "
+#~ "kısayol tercihleri penceresinde gösterilir."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Bu ekran klavyesine geçiş yapmak için klavye kısayolunun adıdır. Bu isim, "
+#~ "klavye kısayol tercihleri penceresinde gösterilir."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Bu ekran okuyucuya geçiş yapmak için klavye kısayolunun adıdır. Bu isim, "
+#~ "klavye kısayol tercihleri penceresinde gösterilir."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Büyüteci seç"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Ekran klavyesini seç"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Ekran okuyucusunu seç"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr "Sıçrama tuşları klavye erişilebilirlik özelliğinin açık olması."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "Fare tuşları klavye erişilebilirlik özelliğinin açık olması."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Ekran klavyesinin açık olması."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Ekran büyütecinin açık olması."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Yavaş tuşların klavye erişilebilirlik özelliğinin açık olması."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Yapışkan tuşların klavye erişilebilirlik özelliğinin açık olması."
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Bir servis olma"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "Eklenti ayarları yüklemek için GConf öneki"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Erişilebilirlik Klavyesi"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Erişilebilirlik klavyesi eklentisi"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Yardım dosyasının görüntülenmesinde bir hata oluştu: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Tuş Yavaşlatmasını aktif hale getirmek istiyor musunuz?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Tuş Yavaşlatmasını kapatmak istiyor musunuz?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Sadece Shift tuşunu 8 saniye basılı tutun.  Bu klavyenizin çalışma "
+#~ "biçimini etkileyecek Tuş Yavaşlatması özelliği için bir kısayoldur."
+
+#~ msgid "Don't activate"
+#~ msgstr "Etkinleştirme"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Devre dışı bırakma"
+
+#~ msgid "Activate"
+#~ msgstr "Etkinleştir"
+
+#~ msgid "Deactivate"
+#~ msgstr "Devre dışı bırak"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_Etkinleştirme"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Etki_sizleştirme"
+
+#~ msgid "_Activate"
+#~ msgstr "_Etkinleştir"
+
+#~ msgid "_Deactivate"
+#~ msgstr "E_tkisizleştir"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Tuş Yavaşlatması Uyarısı"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Yapışkan Tuşlar özelliğini aktif hale getirmek istiyor musunuz?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Yapışkan Tuşları kapatmak istiyor musunuz?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Sadece Shift tuşuna 5 kere ard arda basın.  Bu klavyenizin çalışma "
+#~ "biçimini etkileyecek Yapışkan Tuşlar özelliği için bir kısayoldur."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Aynı anda iki tuşa bastınız veya Shift tuşuna ard arda 5 kere bastınız.  "
+#~ "Bu klavyenizin çalışma biçimini etkileyecek Yapışkan Tuşlar özelliğini "
+#~ "kapatır."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Yapışkan Tuş Uyarısı"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Evrensel Erişim Tercihleri"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Renklerde _kontrastı arttır"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "_Metni daha büyük ve daha kolay okunur yap"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Tuşları _kabul etmek için basılı tutun (Yavaş Tuşlar)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Ekran _klavyesini kullan"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Ekran _büyütecini kullan"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Ekran _okuyucuyu kullan"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Yinelenen tuşları yok say (Sıçrama Tuşları)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "_Klavye kısayollarına bir kerede bir tuşa bas (Yapışken Tuşlar)"
+
+#~ msgid "Background"
+#~ msgstr "Arkaplan"
+
+#~ msgid "Background plugin"
+#~ msgstr "Arkaplan eklentisi"
+
+#~ msgid "Clipboard"
+#~ msgstr "Pano"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Pano eklentisi"
+
+#~ msgid "Dummy"
+#~ msgstr "Aptal"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Aptal eklentisi"
+
+#~ msgid "Font"
+#~ msgstr "Yazıtipi"
+
+#~ msgid "Font plugin"
+#~ msgstr "Yazıtipi eklentisi"
+
+#~ msgid "Don't show any warnings again for this filesystem"
+#~ msgstr "Bu dosya sistemi için hiçbir uyarı gösterme"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "_Bir daha hiçbir uyarı gösterme"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Birim \"%s\" üzerinde sadece %s disk alanı kaldı."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Bu bilgisayarda sadece %s disk alanı kaldı."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Çöp'ü boşaltarak, kullanmadığınız programları ya da dosyaları silerek ya "
+#~ "da dosyaları başka bir diske veya bölümlemeye taşıyarak disk boş "
+#~ "alanınızı arttırabilirsiniz."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Kullanmadığınız programları ya da dosyaları silerek ya da dosyaları başka "
+#~ "bir diske veya bölümlemeye taşıyarak disk boş alanınızı arttırabilirsiniz."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Çöp'ü boşaltarak, kullanmadığınız programları ya da dosyaları silerek ya "
+#~ "da dosyaları başka bir harici diske taşıyarak disk boş alanınızı "
+#~ "arttırabilirsiniz."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Kullanmadığınız programları ya da dosyaları silerek ya da dosyaları başka "
+#~ "bir harici diske taşıyarak disk boş alanınızı arttırabilirsiniz."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Düşük Disk Alanı"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Çöpü Boşalt"
+
+#~ msgid "Examine..."
+#~ msgstr "İncele..."
+
+#~ msgid "Ignore"
+#~ msgstr "Yoksay"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Silinen öğe %lu / %lu"
+
+#~ msgid "<i>Removing: %s</i>"
+#~ msgstr "<i>Siliniyor: %s</i>"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Çöp boşaltılıyor"
+
+#~ msgid "Preparing to empty trash..."
+#~ msgstr "Çöp boşaltmaya hazırlanıyor..."
+
+#~ msgid "From: "
+#~ msgstr "Kaynak:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Çöpten tüm öğeler boşaltılsın mı?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Eğer çöpü boşaltmayı seçerseniz, içindeki tüm öğeler kalıcı olarak "
+#~ "silinecek. Lütfen onları ayrı ayrı da silebileceğinizi unutmayın."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Çöpü _Boşalt"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Tuş bağı (%s) geçersiz"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Tuş bağı (%s) eksik"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "(%s) çalıştırırken hata\n"
+#~ "(%s) tuşu ile bağlı"
+
+#~ msgid "Keybindings"
+#~ msgstr "Tuş bağları"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Tuş bağları eklentisi"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klavye"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Klavye eklentisi"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "_Geçerli dosyalar:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Modmap dosyalarını yükle"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Modmap dosyalarını yüklemek ister misiniz?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Bu mesajı bir daha gösterme"
+
+#~ msgid "_Load"
+#~ msgstr "_Yükle"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Yüklenen dosyalar:"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Öntanımlı uçbirim alınamadı. Öntanımlı uçbirim komutunuzun atandığını ve "
+#~ "geçerli bir uygulamayı işaret ettiğini kontrol edin."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Komut çalıştırılamadı: %s\n"
+#~ "Bu komutun geçerli olup olmadığını kontrol edin."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Makine uyku kipine konulamadı.\n"
+#~ "Makinenin doğru ayarlanıp ayarlanmadığını kontrol edin."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u Çıkış"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u Giriş"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sistem Sesleri"
+
+#~ msgid "Media keys"
+#~ msgstr "Ortam tuşları"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Ortam tuşları eklentisi"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Klavye erişilebilirlik özelliklerini etkinleştirilemedi"
+
+#~ msgid ""
+#~ "Mouse accessibility requires mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Fare erişilebilirliği mousetweaks'in sisteminizde yüklü olmasını "
+#~ "gerektirir."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Fare Tercihleri"
+
+#~ msgid "Mouse"
+#~ msgstr "Fare"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Fare eklentisi"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Yazım molası eklentisi"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Ekran boyutu ve döndürme çevirimi ayarlarını ata"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Ekran yapılandırması geri yüklenemedi"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "Ekran yapılandırması bir yedekten geri yüklenemedi"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "Ekran bir önceki yapılandırmasına %d saniye içinde sıfırlanacak"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Ekran görünümü tamam mı?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "Önceki _Yapılandırmaya Geri Dön"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "Bu _Yapılandırmayı Tut"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Ekranlar için seçilen yapılandırma uygulanamadı"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Ekran bilgilerini yenilenemedi: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Gene de ekran yapılandırmasına geçmeye çalışılıyor."
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Ekran yapılandırması değiştirilemedi"
+
+#~ msgid "<i>Rotation not supported</i>"
+#~ msgstr "<i>Devir desteklenmiyor</i>"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Ekran yapılandırması kaydedilemedi"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Left"
+#~ msgstr "Sol"
+
+#~ msgid "Right"
+#~ msgstr "Sağ"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Yukarıdan Aşağı\n"
+#~ "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Baş Aşağı"
+
+#~ msgid "_Configure Display Settings ..."
+#~ msgstr "_Ekran Ayarları Yapılandır..."
+
+#~ msgid "Configure display settings"
+#~ msgstr "Ekran ayarlarını yapılandır"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Ekranlar için kayıtlı yapılandırma uygulanamadı"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Kullanıcı'nın ana dizini belirlenemedi"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "X kaynak veritabanını yönet"
+
+#~ msgid "X Resource Database"
+#~ msgstr "X Kaynak Veritabanı"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "GConf anahtarı %s, %s türüne ayarlanmış, fakat olması gereken tür %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "X Ayarlarını Yönet"
+
+#~ msgid "X Settings"
+#~ msgstr "X Ayarları"
+
+#~ msgid "Current network location"
+#~ msgstr "Mevcut ağ konumu"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Daha fazla arkaplan URL'si"
+
+#~ msgid "More themes URL"
+#~ msgstr "Daha fazla tema URL'si"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Bunu mevcut konum adınıza ayarlayın. Bu uygun ağ vekil yapılandırmasını "
+#~ "belirlemek için kullanılır."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "Daha fazla masaüstü arka planı almak için URL. Eğer boş bir dizgi ise bağ "
+#~ "gösterilmez."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "Daha fazla masaüstü teması almak için URL. Eğer boş bir dizgi ise bağ "
+#~ "olarak görünmez."
+
+#~ msgid "Image/label border"
+#~ msgstr "Resim/etiket kenarlığı"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr ""
+#~ "Uyarı penceresindeki resmin ve etiketin çevresindeki kenarlığın genişliği"
+
+#~ msgid "Alert Type"
+#~ msgstr "Uyarı Türü"
+
+#~ msgid "The type of alert"
+#~ msgstr "Uyarının türü"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Uyarı Düğmeleri"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Uyarı penceresinde gösterilen düğmeler"
+
+#~ msgid "Show more _details"
+#~ msgstr "Daha fazla _ayrıntı göster"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Sol baş parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Sol baş parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Sol işaret parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Sol işaret parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Sol orta parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Sol orta parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Sol yüzük parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Sol yüzük parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Sol serçe parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Sol serçe parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Sağ baş parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Sağ başparmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Sağ işaret parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Sağ işaret parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Sağ orta parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Sağ orta parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Sağ yüzük parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Sağ yüzük parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Sağ serçe parmağınızı %s üzerine koyun"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Sağ serçe parmağınızı %s üzerinden geçirin"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Parmağınızı okuyucuya tekrar koyun"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Parmağınızı okuyucudan tekrar geçirin"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Kaydırma çok kısaydı, tekrar deneyin"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Parmağınız ortalanmış değildi, parmağınızı tekrar geçirmeyi deneyin"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Parmağınızı kaldırın ve tekrar geçirmeyi deneyin"
+
+#~ msgid "Select Image"
+#~ msgstr "Resim Seç"
+
+#~ msgid "No Image"
+#~ msgstr "Resim Yok"
+
+#~ msgid "Images"
+#~ msgstr "Resimler"
+
+#~ msgid "All Files"
+#~ msgstr "Tüm Dosyalar"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Adres defteri bilgileri alınmaya çalışılırken bir hata oluştu\n"
+#~ "Evolution Veri Sunucusu bu protokolü işleyemiyor"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Adres defteri açılamadı"
+
+#~ msgid "About %s"
+#~ msgstr "%s Hakkında"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "_Adres:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "_Yardımcı:"
+
+#~ msgid "About Me"
+#~ msgstr "Benim Hakkımda"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "C_ity:"
+#~ msgstr "Ş_ehir:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "Şi_rket:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "_Takvim:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Parola _Değiştir..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Ş_ehir:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "Ü_lke:"
+
+#~ msgid "Contact"
+#~ msgstr "Bağlantı"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Ül_ke:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "_Parmak İzi Girişini Kapat..."
+
+#~ msgid "Email"
+#~ msgstr "E-posta"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "_Parmak İzi Girişini Etkinleştir..."
+
+#~ msgid "Full Name"
+#~ msgstr "Tam İsim"
+
+#~ msgid "Hom_e:"
+#~ msgstr "_Ev:"
+
+#~ msgid "Home"
+#~ msgstr "Ev"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Anında Mesajlaşma"
+
+#~ msgid "Job"
+#~ msgstr "İş"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Posta _kutusu:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P_osta kutusu:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Kişisel Bilgi"
+
+#~ msgid "Select your photo"
+#~ msgstr "Fotoğrafınızı seçin"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Eyalet/_Mahalle:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefon"
+
+#~ msgid "User name:"
+#~ msgstr "_Kullanıcı adı:"
+
+#~ msgid "Web"
+#~ msgstr "Web"
+
+#~ msgid "Web _log:"
+#~ msgstr "Web _günlüğü:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_İş:"
+
+#~ msgid "Work"
+#~ msgstr "İş"
+
+#~ msgid "Work _fax:"
+#~ msgstr "İş _faks:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "_Posta kodu:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adres:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Bölüm:"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Başlangıç sayfası:"
+
+#~ msgid "_Home:"
+#~ msgstr "_İş:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Yönetici:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Mobil:"
+
+#~ msgid "_Profession:"
+#~ msgstr "Uzmanlık a_lanı:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Eyalet/Mahalle:"
+
+#~ msgid "_Title:"
+#~ msgstr "Ü_nvan:"
+
+#~ msgid "_Work:"
+#~ msgstr "_İş:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "_Posta kodu:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Kişisel bilgilerinizi ayarlayın"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Aygıta erişiminize izin verilmedi. Sistem yöneticinizle bağlantıya geçin."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Aygıt zaten kullanımda."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Dahili hata oluştu"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Kayıtlı parmak izleri silinsin mi?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Parmak İzlerini Sil"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Kayıtlı parmak izlerini silerek parmak izi girişini kapatmak ister "
+#~ "misiniz?"
+
+#~ msgid "Done!"
+#~ msgstr "Tamamlandı!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "'%s' aygıtına erişilemedi"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "'%s' aygıtı üzerinde parmak yakalama başlatılamadı"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Hiçbir parmak izi okuyucusuna erişilemedi"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Lütfen yardım için sistem yöneticinizle bağlantıya geçin."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Parmak İzi Girişi Etkinleştir"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Parmak izi girişin etkinleşebilmesi için parmak izlerinizden bir tanesini "
+#~ "'%s' aygıtını kullanarak kaydetmelisiniz."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Parmağınızı okuyucu üzerinden geçirin"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Parmağınızı okuyucuya koyun"
+
+#~ msgid "Left index finger"
+#~ msgstr "Sol işaret parmağı"
+
+#~ msgid "Left little finger"
+#~ msgstr "Sol serçe parmağı"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Sol orta parmak"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Sol yüzük parmağı"
+
+#~ msgid "Left thumb"
+#~ msgstr "Sol başparmak"
+
+#~ msgid "Other finger: "
+#~ msgstr "Diğer parmak:"
+
+#~ msgid "Right index finger"
+#~ msgstr "Sağ işaret parmağı"
+
+#~ msgid "Right little finger"
+#~ msgstr "Sağ serçe parmağı"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Sağ orta parmağı"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Sağ yüzük parmağı"
+
+#~ msgid "Right thumb"
+#~ msgstr "Sağ başparmak"
+
+#~ msgid "Select finger"
+#~ msgstr "Parmak seç"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Parmak iziniz başarıyla kaydedildi. Artık parmak izi okuyucusunu "
+#~ "kullanarak giriş yapabilirsiniz."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Alt beklenmeyen biçimde çıktı"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "backend_stdin IO kanalı kapatılamadı: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "backend_stdout IO kanalı kapatılamadı: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Kimlik doğrulandı!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Parolanız daha önce kimlik doğrulaması yaptığınız için değiştirildi! "
+#~ "Lütfen tekrar kimlik doğrulaması yapın."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Bu parol yanlış."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Parolanız değişti."
+
+#~ msgid "System error: %s."
+#~ msgstr "Sistem hatası: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Parola çok kısa."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Parola çok basit."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Eski ve yeni parolalar birbirine çok benziyor."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Yeni parola rakam ya da özel karakterler içermeli."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Eski ve yeni parolalar birbirinin aynısı."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "%s çalıştırılamadı: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Araç çalıştırılamadı"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Sistem hatası oluştu"
+
+#~ msgid "Checking password..."
+#~ msgstr "Parola kontrol ediliyor..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "Parolayı değiştirmek için <b>Parola değiştir</b>'in üzerine tıklayın."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Lütfen parolanızı <b>Yeni parola</b> alanına yazın."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Lütfen parolanızı <b>Yeni parolanızı tekrar yazın</b> alanına tekrar "
+#~ "yazın."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "İki parola aynı değil."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Parola _değiştir"
+
+#~ msgid "Change password"
+#~ msgstr "Parola değiştir"
+
+#~ msgid "Change your password"
+#~ msgstr "Parolanızı değiştirin"
+
+#~ msgid "Current _password:"
+#~ msgstr "Mevcut p_arola:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Parolanızı değiştirmek için, mevcut parolanızı aşağıdaki alana yazın ve "
+#~ "<b>Kimlik Doğrula</b>'ya tıklayın.\n"
+#~ "Kimliğinizi doğruladıktan sonra, yeni parolanızı girin, onay için tekrar "
+#~ "girin ve <b>Parola değiştir</b>'e tıklayın."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Kimlik Doğrula"
+
+#~ msgid "_New password:"
+#~ msgstr "Yeni p_arola:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_Yeni parolayı tekrar yazın:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Erişilebilir _Giriş"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Yardımcı Teknolojiler"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Yardımcı Teknoloji Tercihleri"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Yardımcı teknolojilerin etkinleştirilmesindeki değişiklikler bir dahaki "
+#~ "girişinize kadar etkin olmayacak."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Kapat ve Çı_k"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Tercih Edilen Uygulamalar penceresine geç"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Erişilebilir Giriş penceresine geç"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Klavye Erişilebilirliği penceresine geç"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Fare Erişilebilirliği penceresine geç"
+
+#~ msgid "Preferences"
+#~ msgstr "Tercihler"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Yardımcı teknolojileri etkinleştir"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "_Klavye Erişilebilirliği"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "_Fare Erişilebilirliği"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "_Tercih Edilen Uygulamalar"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Giriş yaptığınızda hangi erişilebilirlik özelliklerinin "
+#~ "etkinleştirileceğini seçin"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Duvar Kağıdı Ekle"
+
+#~ msgid "All files"
+#~ msgstr "Tüm dosyalar"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Yazıtipi çok büyük olabilir"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Seçtiğiniz yazıtipi %d nokta büyüklüğünde, bu bilgisayarınızı etkili "
+#~ "kullanmanızı zorlaştırabilir.  %d büyüklüğünden daha küçük bir boyut "
+#~ "seçmenizi tavsiye ediyoruz."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Seçtiğiniz yazıtipi %d nokta büyüklüğünde, bu bilgisayarınızı etkili "
+#~ "kullanmanızı zorlaştırabilir.  Daha küçük boyutta yazıtipi seçmenizi "
+#~ "tavsiye ediyoruz."
+
+#~ msgid "Use previous font"
+#~ msgstr "Önceki yazıtipini kullan"
+
+#~ msgid "Use selected font"
+#~ msgstr "Seçili yazıtipini kullan"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Kullanıcı arayüz dosyası yüklenemedi: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Yüklemek için bir temanın dosya ismini belirtin"
+
+#~ msgid "filename"
+#~ msgstr "dosya ismi"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "(theme|background|fonts|interface) göstermek için sayfanın ismini belirtin"
+
+#~ msgid "page"
+#~ msgstr "sayfa"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[DUVAR KAĞIDI...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Öntanımlı Belirteç"
+
+#~ msgid "Install"
+#~ msgstr "Kur"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "But tema istenildiği gibi görünmeyebilir çünkü gerekli GTK+ tema aygıtı "
+#~ "'%s' yüklü değil."
+
+#~ msgid "Apply Background"
+#~ msgstr "Arkaplanı Uygula"
+
+#~ msgid "Apply Font"
+#~ msgstr "Yazıtipini Uygula"
+
+#~ msgid "Revert Font"
+#~ msgstr "Yazıtipini Geri Çevir"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Mevcut tema bir arkaplan ve bir yazıtipi tavsiye ediyor. Ayrıca son "
+#~ "uygulanan yazıtipi tavsiyesi geriye çevirilebilir."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Mevcut tema bir arkaplan tavsiye ediyor. Ayrıca son uygulanan yazıtipi "
+#~ "tavsiyesi geri alınabilir."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Bu tema bir arkaplan ve yazıtipi öneriyor."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Mevcut tema bir yazıtipi tavsiye ediyor. Ayrıca, sonra uygulanan yazıtipi "
+#~ "tavsiyesi geriye çevirilebilir."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Bu tema bir arkaplan öneriyor."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Son uygulanan yazıtipi tavsiyesi geriye çevrilebilir."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Bu tema bir yazıtipi öneriyor."
+
+#~ msgid "Custom"
+#~ msgstr "Özel"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Görünüm Tercihleri"
+
+#~ msgid "Best _shapes"
+#~ msgstr "_En iyi şekiller"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "E_n iyi koyuluk"
+
+#~ msgid "C_olors:"
+#~ msgstr "_Renkler:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "Ö_zelleştir..."
+
+#~ msgid "Centered"
+#~ msgstr "Ortalanmış"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "İmleç temanızın değiştirilmesi bir sonraki girişinizde etkin olur."
+
+#~ msgid "Colors"
+#~ msgstr "Renkler"
+
+#~ msgid "Controls"
+#~ msgstr "Denetimler"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Temayı Özelleştir"
+
+#~ msgid "D_etails..."
+#~ msgstr "_Ayrıntılar..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "_Masaüstü yazıtipi:"
+
+#~ msgid "Edit"
+#~ msgstr "Düzenle"
+
+#~ msgid "Fill screen"
+#~ msgstr "Ekranları doldur"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Yazıtipi Tarama Ayrıntıları"
+
+#~ msgid "Fonts"
+#~ msgstr "Yazıtipleri"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Daha fazla arkaplanı çevirim içi alın"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Daha fazla temayı çevirim içi alın"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "_Griölçek"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Yatay geçiş"
+
+#~ msgid "Icons"
+#~ msgstr "Simgeler"
+
+#~ msgid "Icons only"
+#~ msgstr "Sadece simge"
+
+#~ msgid "Interface"
+#~ msgstr "Arayüz"
+
+#~ msgid "Large"
+#~ msgstr "Büyük"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "Menüler ve Araç Çubukları"
+
+#~ msgid "N_one"
+#~ msgstr "_Hiçbiri"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Bir renk belirtmek için pencere aç"
+
+#~ msgid "Pointer"
+#~ msgstr "Belirteç"
+
+#~ msgid "Preview"
+#~ msgstr "Önizleme"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Çözünürlük:"
+
+#~ msgid "Rendering"
+#~ msgstr "Tarama"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Temayı Farklı Kaydet..."
+
+#~ msgid "Save _As..."
+#~ msgstr "_Farklı Kaydet..."
+
+#~ msgid "Save _background image"
+#~ msgstr "_Arkaplan resmini kaydet"
+
+#~ msgid "Scaled"
+#~ msgstr "Ölçekli"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Menülerde _simge göster"
+
+#~ msgid "Small"
+#~ msgstr "Küçük"
+
+#~ msgid "Smoothing"
+#~ msgstr "Yumuşatma"
+
+#~ msgid "Solid color"
+#~ msgstr "Düz renk"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Alt _piksel (LCD ekranlar)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Alt _piksel yumuşatma (LCD ekranlar)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Alt Piksel Sırası"
+
+#~ msgid "Text"
+#~ msgstr "Metin"
+
+#~ msgid "Text below items"
+#~ msgstr "Metin öğelerin altında"
+
+#~ msgid "Text beside items"
+#~ msgstr "Metin öğelerin yanında"
+
+#~ msgid "Text only"
+#~ msgstr "Sadece metin"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Mevcut kontroller teması renk şemasını desteklemiyor."
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Tiled"
+#~ msgstr "Döşenmiş"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Araç çubuğu _düğme etiketleri:"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Dik geçiş"
+
+#~ msgid "Window Border"
+#~ msgstr "Pencere Kenarı"
+
+#~ msgid "Zoom"
+#~ msgstr "Odaklama"
+
+#~ msgid "_Add..."
+#~ msgstr "_Ekle..."
+
+#~ msgid "_Application font:"
+#~ msgstr "_Uygulama yazıtipi:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Açıklama:"
+
+#~ msgid "_Document font:"
+#~ msgstr "_Belge yazıtipi:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "_Düzenlenebilir menü kısayol tuşları"
+
+#~ msgid "_File"
+#~ msgstr "_Dosya"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "_Sabit genişlikli yazıtipi:"
+
+#~ msgid "_Full"
+#~ msgstr "_Tam"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "_Giriş kutuları:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Kur..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Orta"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Siyah-beyaz"
+
+#~ msgid "_Name:"
+#~ msgstr "İ_sim:"
+
+#~ msgid "_None"
+#~ msgstr "_Hiçbiri"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "Öntanımlılara _Sıfırla"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Seçili öğeler:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Boyut:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Hafif"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stil:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Baloncuklar:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_Pencere başlık yazıtipi:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Pencereler:"
+
+#~ msgid "dots per inch"
+#~ msgstr "inç başına nokta"
+
+#~ msgid "Appearance"
+#~ msgstr "Görünüm"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Masaüstü görünümünü özelleştir"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Masaüstünün farklı noktaları için tema yükler"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Tema Yükleyici"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome Tema Paketi"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Masaüstü Arkaplanı Yok"
+
+#~ msgid "Slide Show"
+#~ msgstr "Slayt Gösterisi"
+
+#~ msgid "Image"
+#~ msgstr "Resim"
+
+#~ msgid "multiple sizes"
+#~ msgstr "birden fazla boyut"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "piksel"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Klasör: %s"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Tema yüklenemiyor"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "%s aracı kurulu değil."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Tema açılırken bir problem oluştu."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Seçili dosya yüklenirken bir hata oluştu"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "\"%s\" geçerli bir tema gibi gözükmüyor."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "\"%s\" geçerli bir tema gibi gözükmüyor. O derlemeniz gereken bir tema "
+#~ "aracı olabilir."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "\"%s\" teması kurulumu başarısız oldu."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Tema \"%s\" başarıyla kuruldu."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr ""
+#~ "Temayı şimdi mi uygulamak istersiniz, yoksa mevcut temayı mı tutmak "
+#~ "istersiniz?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Mevcut Temayı Tut"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Yeni Temayı Uygula"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME Teması %s başarıyla kuruldu"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Geçici dizin yaratılma başarısız oldu"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Yeni temalar başarıyla kuruldu."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Yüklemek için bir tema dosyası belirtilmedi"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Temayı aşağıdaki konuma kurmak için yetersiz izin:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Tema Seç"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Tema Paketleri"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Bir tema adı bulunmalıdır"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Tema zaten mevcut. Onun yerin koymak ister misinz?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "Ü_zerine Yaz"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Bu temayı silmek ister misiniz?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Tema silinemiyor"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Tema aygıtı kurulamadı"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "'gnome-settings-daemon' ayarlar yöneticisi başlatılamadı.\n"
+#~ "GNOME ayarlar yöneticisi çalışmadığında, bazı ayarlar kaydedilemez. Bu "
+#~ "durum DBus, ya da GNOME harici (örneğin KDE) ayar sisteminin etkin "
+#~ "olduğunu ve GNOME ayar yöneticisiyle çakıştığını gösterebilir."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Depo simgesi '%s' yüklenemiyor\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Dosya kopyalanıyor: %u / %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' kopyalanıyor"
+
+#~ msgid "Copying files"
+#~ msgstr "Dosyalar kopyalanıyor"
+
+#~ msgid "Parent Window"
+#~ msgstr "Üst Pencere"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Pencerenin üst penceresi"
+
+#~ msgid "From URI"
+#~ msgstr "Kaynak URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI buradan aktarıyor"
+
+#~ msgid "To URI"
+#~ msgstr "Hedef URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI halen buraya aktarıyor"
+
+#~ msgid "Fraction completed"
+#~ msgstr "İşlem tamamlandı"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Transfer işlemi şu anda tamamlandı"
+
+#~ msgid "Current URI index"
+#~ msgstr "Güncel URI dizini"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Güncel URI dizini - 1'den başlar"
+
+#~ msgid "Total URIs"
+#~ msgstr "Toplam URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Toplam URI sayısı"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Dosya '%s' zaten mevcut. Onun üzerine yazmak ister misinz?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Atla"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Ü_zerine Yaz"
+
+#~ msgid "Key"
+#~ msgstr "Anahtar"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Bu özellik düzenleyicisinin bağlı olduğu GConf tuşu"
+
+#~ msgid "Callback"
+#~ msgstr "Geriçağır"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Bu geriçağırımı anahtar ile alakalı değer değiştiği zaman kullanın"
+
+#~ msgid "Change set"
+#~ msgstr "Değiştirme takımı"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf değiştirme takımı gconf istemcisine uygulandığında yönlendirilecek "
+#~ "verileri içerir"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Parça geriçağırımına dönüşüm"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "Veri GConf'dan parçacığa dönüştüğünde uygulanacak geriçağırım"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Parçadan dönüşüm geriçağırımı"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "Veri parçadan GConf'a dönüştüğünde uygulanacak geriçağırım"
+
+#~ msgid "UI Control"
+#~ msgstr "Arayüz Kontrolü"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Bir özelliği kontrol eden nesne (genellikle bir parçacık)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Özellik düzenleyici nesne verisi"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Belli özellik düzenleyicileri için gerekli tercihsel veri"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Özellik düzenleyici veri boşaltma geriçağırımı"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Özellik düzenleyici nesne verisi boşaltılacağında kullanılacak geriçağırım"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "'%s' dosyası bulunamadı.\n"
+#~ "\n"
+#~ "Lütfen dosyanın bulunduğundan emin olun ve tekrar deneyin, ya da farklı "
+#~ "bir arkaplan resmi kullanın."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "'%s' dosyası açılamıyor.\n"
+#~ "Bu resim, henüz desteklenmiyor olabilir.\n"
+#~ "\n"
+#~ "Lütfen bunun yerine başka bir resim seçin."
+
+#~ msgid "Please select an image."
+#~ msgstr "Lütfen bir resim seçin."
+
+#~ msgid "_Select"
+#~ msgstr "_Seç"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Öntanımlı Belirteç - Şimdiki"
+
+#~ msgid "White Pointer"
+#~ msgstr "Beyaz Belirteç"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Beyaz Belirteç - Şimdiki"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Büyük Belirteç"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Büyük Belirteç - Şimdiki"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Büyük Beyaz Belirteç - Şimdiki"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Büyük Beyaz Belirteç"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Bu tema istenildiği gibi görünmeyecek çünkü gerekli GTK+ teması '%s' "
+#~ "kurulu değil."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Bu tema istenildiği gibi görünmeyecek çünkü pencere yöneticisi teması "
+#~ "'%s' kurulu değil."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Bu tema istenildiği gibi görünmeyecek çünkü gerekli simge teması '%s' "
+#~ "kurulu değil."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Tercih Edilen Uygulamalar"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Öntanımlı uygulamalarınızı seçin"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Tercih edilen görsel yardımcı teknolojiyi başlat"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Görsel Yardım"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Yapılandırma kaydedilirken hata: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Ana arayüz yüklenemedi"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Lütfen bu uygulamacığın doğru yüklendiğinden emin olun"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "(internet|multimedia|system|a11y) göstermek için sayfanın ismini belirtin"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- GNOME Öntanımlı Uygulamaları"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Tüm %s belirimleri asıl bağ ile değiştirilecek"
+
+#~ msgid "C_ommand:"
+#~ msgstr "Kom_ut:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Kom_ut:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Ç_alıştırma imi:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Resim Görüntüleyici"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Anında Mesajlaşma"
+
+#~ msgid "Internet"
+#~ msgstr "İnternet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Posta Okuyucu"
+
+#~ msgid "Mobility"
+#~ msgstr "Taşınabilirlik"
+
+#~ msgid "Multimedia"
+#~ msgstr "Çoklu Ortam"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Çoklu Ortam Oynatıcı"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Bağı yeni _sekmede aç"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Bağı yeni _pencerede aç"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Bağı ö_ntanımlı web tarayıcısı ile aç"
+
+#~ msgid "Run at st_art"
+#~ msgstr "_Başlangıçta çalıştır"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "_Uçbirimde çalıştır"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Uçbirim Emülatörü"
+
+#~ msgid "Text Editor"
+#~ msgstr "Metin Düzenleyici"
+
+#~ msgid "Video Player"
+#~ msgstr "Video Oynatıcı"
+
+#~ msgid "Visual"
+#~ msgstr "Görsel"
+
+#~ msgid "Web Browser"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "_Run at start"
+#~ msgstr "_Başlangıçta çalıştır"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee Müzik Çalar"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian Duyarlı Tarayıcı"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian Uçbirim Uygulaması"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany Web Tarayıcısı"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution E-posta Okuyucu"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Ekran Okuyucu olmadan GNOME Büyüteci"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME Ekran Klavyesi"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME Uçbirim"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Büyüteçli Gnopernicus"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Ekran Okuyucu olmadan KDE Büyüteci"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux Ekran Okuyucu"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Büyüteçli Linux Ekran Okuyucu"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine Müzik Çalar"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Büyüteçli Orca"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox Müzik Çalar"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Standart X Uçbirimi"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem Film Oynatıcı"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Görüntü Tercihleri"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "Ekranları yerlerini belirlemek için taşıyın"
+
+#~ msgid "Include _panel"
+#~ msgstr "_Paneli dahil et"
+
+#~ msgid "Monitor"
+#~ msgstr "Ekran"
+
+#~ msgid "Off"
+#~ msgstr "Kapalı"
+
+#~ msgid "On"
+#~ msgstr "Açık"
+
+#~ msgid "Panel icon"
+#~ msgstr "Panel simgesi"
+
+#~ msgid "R_otation:"
+#~ msgstr "Ç_evirme:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "_Tazeleme hızı:"
+
+#~ msgid "Upside-down"
+#~ msgstr "Baş Aşağı"
+
+#~ msgid "_Detect Monitors"
+#~ msgstr "_Ekranları Tespit Et"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "E_kranları yansıt"
+
+#~ msgid "_Resolution:"
+#~ msgstr "Çö_zünürlük:"
+
+#~ msgid "_Show displays in panel"
+#~ msgstr "_Ekranları panelde göster"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Ekran çözünürlüğünü değiştir"
+
+#~ msgid "Display"
+#~ msgstr "Görünüm"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Ekran: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Ekranları Yansıt"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Ekran yapılandırması kaydedilemedi"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "Görüntü yapılandırması uygulanırken oturum veriyolu alınamadı"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Ekranlar tespit edilemedi"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Ekran bilgisi alınamadı"
+
+#~ msgid "Sound"
+#~ msgstr "Ses"
+
+#~ msgid "Desktop"
+#~ msgstr "Masaüstü"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Yeni kısayol..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Hızlandırma tuşu"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Hızlandırma düzenleyicileri"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Hızlandırma tuşkodu"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Hızlandırma Kipi"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Hızlandırıcı türü."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Bilinmeyen Eylem>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Özel Kısayollar"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Yeni kısa yol kaydedilirken hata"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Kısayol tuşu \"%s\" kullanılamıyor çünkü kullanımı halinde bu tuş "
+#~ "kullanılarak yazmak mümkün olmayacak.\n"
+#~ "Lütfen Control, Alt ya da Shift gibi tuşlar ile aynı anda deneyin."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "\"%s\" kısayolu bu işlem için kullanılıyor:\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Eğer kısayolu \"%s\" olarak tekrar atarsanız, \"%s\" kısayolu "
+#~ "etkinsizleştirilecek."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Tekrar ata"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "Hızlandırıcıyı yapılandırma veritabanından silerken hata oluştu: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Çok fazla özel kısayol"
+
+#~ msgid "Action"
+#~ msgstr "Eylem"
+
+#~ msgid "Shortcut"
+#~ msgstr "Kısayol"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Özel Kısayol"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Klavye Kısayolları"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Bir kısayol tuşunu düzenlemek için, ilgili satıra tıklayın ve yeni bir "
+#~ "tuş kombinasyonu tuşlayın, ya da temizlemek için Backspace tuşuna basın."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Komutlara kısayol ata"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Sadece ayarları uygula ve çık (uyumluluk için; artık servis tarafından "
+#~ "yapılır)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Yazım molası ayarlarını göstererek sayfayı başlat"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Sayfayı erişilebilirlik ayarları göstererek başlat"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- GNOME Klavye Tercihleri"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Erişilebilirlik özellikleri kapatıldığında ya da _açıldığında biple"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "_Değiştirici tuş basıldığında biple"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "_Seçim tuşu basıldığında biple"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "_Bir tuş basıldığında biple"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Tuş _kabul edilmediğinde biple"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Tuş kabul _edildiğinde biple"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Tuş _kabul edilmediğinde biple"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Sıçrama Tuşları"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Pencere _başlık çubuğunu flaşla"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Tüm _ekranı flaşla"
+
+#~ msgid "General"
+#~ msgstr "Genel"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Klavye Erişilebilirliği Ses Geri Beslemesi"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Uyarı sesleri için _görsel geri beslemeleri göster"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Yavaş Tuşlar"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Yapışkan Tuşlar"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Sesler için görsel ipuçları"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "_Hızlanma:"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "_Molaların ertelenmesine izin ver"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Ses _Geri Beslemesi..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "İmleç Yanıp Sönmesi"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "_Metin alanlarında imlecin yanıp sönmesi"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "İmleç yanıp sönme hızı"
+
+#~ msgid "D_elay:"
+#~ msgstr "_Gecikme:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "Eğer iki tuşa _birlikte basılırsa yapışkan tuşları etkisizleştir"
+
+#~ msgid "Fast"
+#~ msgstr "Hızlı"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Tuş _basılı bırakıldığında klavye tekrar etsin"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Klavye Tercihleri"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Klavye _modeli:"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "Düzen _Seçenekleri..."
+
+#~ msgid "Layouts"
+#~ msgstr "Düzenler"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Sürekli klavye kullanmaktan doğan rahatsızlıkları engellemek için ekranı "
+#~ "belirli bir süre kilitle"
+
+#~ msgid "Long"
+#~ msgstr "Uzun"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Fare Tuşları"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Tekrarlama Tuşları"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Terkrar tuş hızı"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Öntanımlılara _Sıfırla"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Hız:"
+
+#~ msgid "Separate _layout for each window"
+#~ msgstr "Her pencere için düzeni _ayır"
+
+#~ msgid "Short"
+#~ msgstr "Kısa"
+
+#~ msgid "Slow"
+#~ msgstr "Yavaş"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "_Erişilebilirlik özellikleri klavye kısayolları ile açılabilir ya da "
+#~ "kapatılabilir"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Gecikme:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Hızlı çoklu tuş basmalarını yoksay"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Sadece uzun tuş basımlarını kabul et"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "_Belirteç klavye ile kontrol edilebilir"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Seçili düzenler:"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Ardarda tuş basımlarını varmış gibi yap"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Hız:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Ayarları kontrol etmek için deneyin:"
+
+#~ msgid "By _country"
+#~ msgstr "Ü_lke ile"
+
+#~ msgid "By _language"
+#~ msgstr "_Dil ile"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Bir Düzen Seçin"
+
+#~ msgid "Preview:"
+#~ msgstr "Önizleme:"
+
+#~ msgid "_Country:"
+#~ msgstr "Ü_lke:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Dil:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Türevler:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Bir Klavye Modeli Seçin"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modeller:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "Ü_reticiler:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Klavye Düzen Seçenekleri"
+
+#~ msgid "Unknown"
+#~ msgstr "Bilinmeyen"
+
+#~ msgid "Default"
+#~ msgstr "Öntanımlı"
+
+#~ msgid "Layout"
+#~ msgstr "Düzen"
+
+#~ msgid "Vendors"
+#~ msgstr "Üreticiler"
+
+#~ msgid "Models"
+#~ msgstr "Modeller"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Klavye tercihlerini yapın"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Sola taşı"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Sağa taşı"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Yukarı taşı"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Aşağı taşı"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Kapalı"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "(general|accesibility) göstermek için sayfanın ismini belirtin"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- GNOME Fare Tercihleri"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Tıklama türümü ö_nceden seç"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Tıklama türümü fare _hareketleri ile seç"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "Çi_ft tıklama:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "_Taşıma tıklaması:"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Çift Tıklama Zaman Aşımı"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Sürükle Bırak"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Durağan Tıklama"
+
+#~ msgid "Enable _horizontal scrolling"
+#~ msgstr "_Yatay kaydırmayı etkinleştir"
+
+#~ msgid "Enable mouse _clicks with touchpad"
+#~ msgstr "Touchpad ile fare tıklamalarını etkinleştir"
+
+#~ msgid "High"
+#~ msgstr "Yüksek"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Belirteç Konumlandır"
+
+#~ msgid "Low"
+#~ msgstr "Düşük"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Fare Yönelimi"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Belirteç Hızı"
+
+#~ msgid "Scrolling"
+#~ msgstr "Kaydırma"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "İ_kinci tıklama:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Kontrol tuşuna basıldığında belitecin _konumunu göster"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Tılama türü _penceresini göster"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "İkinci Tıklama Sayılması"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Eşik:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Çift tıklama ayarlarınızı sınamak için, ampülün üzerine çift tıklamayı "
+#~ "deneyin."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "İki _parmak kaydırma"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Tıklama türünü seçmek için aynı zamanda Durağan Tıklama panel "
+#~ "uygulamacığını kullanabilirsiniz."
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Hızlanma:"
+
+#~ msgid "_Disable touchpad while typing"
+#~ msgstr "Yazma esnasında _touchpad'i kapat"
+
+#~ msgid "_Disabled"
+#~ msgstr "_Kapalı"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Kenar kaydırma"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "Belirteç hareketi durdurulduğunda tıklamayı _başlat"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Solak"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "_Hareket eşiği:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Sağlak"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Duyarlılık:"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Tek tık:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Zaman aşımı:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_İlk düğmeye basılı tutulduğunda ikincil tıklamayı tetikle"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Fare tercihlerini yapın"
+
+#~ msgid "New Location..."
+#~ msgstr "Yeni Konum..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Konum zaten mevcut"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Ağ Vekili"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Ağ vekil tercihlerini ayarlayın"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Doğrudan _internet bağlantısı</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Otomatik vekil ayarları</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Elle _vekil ayarı</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>Kimlik _doğrulama kullan</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_Otomatik yapılandırma URL'si:"
+
+#~ msgid "C_reate"
+#~ msgstr "_Oluştur"
+
+#~ msgid "Create New Location"
+#~ msgstr "Yeni Konum Oluştur"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP Vekil Ayrıntıları"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "_HTTP vekili:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Makine Listesini Yok Say"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Yok Sayılan Makineler"
+
+#~ msgid "Location:"
+#~ msgstr "Konum:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Ağ Vekil Tercihleri"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Vekil Yapılandırması"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks makinesi:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Konum zaten mevcut."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Kullanıcı adı:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Konumu Sil"
+
+#~ msgid "_Details"
+#~ msgstr "_Ayrıntılar"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP vekili:"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Konum ismi:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Parola:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Güvenli HTTP vekili:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Tüm protokoller için aynı vekili kullan"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "Pencere yöneticiniz için tercihler uygulaması çalıştırılamıyor"
+
+#~ msgid "C_ontrol"
+#~ msgstr "_Kontrol"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "_Hiper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "_Süper (ya da \"Windows logosu\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Hareket Tuşu"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Başlık Çubuğu Eylemi"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Bir pencereyi taşımak için, bu tuşa basılı tutarak pencereyi sürükleyin:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Pencere Tercihleri"
+
+#~ msgid "Window Selection"
+#~ msgstr "Pencere Seçimi"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Bu işlemi gerçekleştirmek için başlık çubuğuna çift tıklayın:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Yükseltmeden önceki gecikme:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Belirli bir süre sonra seçilen pencereleri yükselt"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Fare bir pencerenin üzerine geldiğinde onu yükselt"
+
+#~ msgid "seconds"
+#~ msgstr "saniye"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Pencere özelliklerinizi ayarlayın"
+
+#~ msgid "Windows"
+#~ msgstr "Pencereler"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "Pencere yöneticisi \"%s\" bir yapılandırma aygıtına kayıtlı değil\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Büyült"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Dikey Büyült"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Yatay Büyült"
+
+#~ msgid "Minimize"
+#~ msgstr "Küçült"
+
+#~ msgid "Roll up"
+#~ msgstr "Yukarı sar"
+
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "anahtar bulunamadı [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Başlangıçta gizle (kabuğu önyükleme için yararlı)"
+
+#~ msgid "Filter"
+#~ msgstr "Filtre"
+
+#~ msgid "Groups"
+#~ msgstr "Gruplar"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Sık Kullanılan Görevler"
+
+#~ msgid "Control Center"
+#~ msgstr "Kontrol Merkezi"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Bir görev etkinleştirildiğinde control-center'ı kapat"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Bir ekleme ya da çıkartma eylemi gerçekleştiğinde kabuktan çık"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Yardım eylemi gerçekleştiğinde kabuktan çık"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Başlatma eylemi gerçekleştiğinde kabuktan çık"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "Güncelle ya da kaldır eylemi gerçekleştiğinde kabuktan çık"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "Yardım eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr ""
+#~ "Başlatma eylemi gerçekleştirildiğinde kabuğun kapatılmasını belirtir."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Ekleme ya da çıkartma eylemi gerçekleştirildiğinde kabuğun kapatılmasını "
+#~ "belirtir."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Güncelleme ya da kaldırma eylemi gerçekleştirildiğinde kabuğun "
+#~ "kapatılmasını belirtir."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Görev isimleri ve ilişkili .desktop dosyaları"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "control-center'da gösterilecek görev ismini takip eden \";\" ayıracından "
+#~ "sonra başlatmak için bu görevle ilişkili .desktop dosyasının dosya ismi."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Tema Değiştir;gtk-theme-selector.desktop,Tercih Edilen Uygulamaları Ata;"
+#~ "default-applications.desktop,Yazıcı Ekle;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "Eğer seçiliyse, control-center bir \"Sık Kullanılan Görev\" "
+#~ "etkinleştirildiğinde kapatılacak."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME yapılandırma aracı"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "Eğer doğruya ayarlı ise, OpenType yazıtipleri örneklendirilecek."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Eğer doğru'ya ayarlı ise, PCF yazıtipleri örneklendirilecek."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "Eğer doğru'ya ayarlı ise, TrueType yazıtipleri örneklendirilecek."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Eğer doğru'ya ayarlı ise, Type1 yazıtipleri örneklendirilecek."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Bu anahtarı OpenType yazıtipleri için örnek oluşturacak komuta ayarlayın."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Bu anahtarı PCF yazıtipleri için örnek oluşturacak komuta ayarlayın."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Bu anahtarı TrueType yazıtipleri için örnek oluşturacak komuta ayarlayın."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Bu anahtarı Type1 yazıtipleri için örnek oluşturacak komuta ayarlayın."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "OpenType yazıtipleri için örnekleme komutu"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "PCF yazıtipleri için örnekleme komutu"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "TrueType yazıtipleri için örnekleme komutu"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Type1 yazıtipleri için örnekleme komutu"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "OpenType yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "PCF yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "TrueType yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Type1 yazıtiplerinin örneklendirilip yada örneklendirilmeyeceği"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "Muş sefahat pasajı önündeki borçlu yorgun bir ağızla cevapladı. 0123456789"
+
+#~ msgid "Name:"
+#~ msgstr "İsim:"
+
+#~ msgid "Style:"
+#~ msgstr "Stil:"
+
+#~ msgid "Type:"
+#~ msgstr "Tür:"
+
+#~ msgid "Size:"
+#~ msgstr "Boyut:"
+
+#~ msgid "Version:"
+#~ msgstr "Sürüm:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Telif:"
+
+#~ msgid "Description:"
+#~ msgstr "Açıklama:"
+
+#~ msgid "Installed"
+#~ msgstr "Kurulu"
+
+#~ msgid "Install Failed"
+#~ msgstr "Kurulum Başarısız"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "kullanım: %s yazıtipi-dosyası\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Yazıtipi _Yükle"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Yazıtipi Görüntüleyici"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Yazıtiplerinin önizlemesi"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Örneklendirilecek metin (öntanımlı: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "METİN"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Yazıtipi boyutu (öntanımlı: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "BOYUT"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "YAZITİPİ-DOSYASI ÇIKTI-DOSYASI"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Parametreler ayrıştırılırken hata: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Filtreniz \"%s\" hiçbir öğe ile eşleşmedi."
+
+#~ msgid "No matches found."
+#~ msgstr "Hiçbir eşleşme bulunamadı."
+
+#~ msgid "Other"
+#~ msgstr "Diğer"
+
+#~ msgid "Start %s"
+#~ msgstr "%s Başlat"
+
+#~ msgid "Help"
+#~ msgstr "Yardım"
+
+#~ msgid "Upgrade"
+#~ msgstr "Yükselt"
+
+#~ msgid "Uninstall"
+#~ msgstr "Kaldır"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Sık Kullanılanlardan Çıkart"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Sık Kullanılanlara Ekle"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Başlangıç Programlarından Çıkart"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Başlangıç Programlarına Ekle"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Yeni Çizelge"
+
+#~ msgid "New Document"
+#~ msgstr "Yeni Belge"
+
+#~ msgid "Documents"
+#~ msgstr "Belgeler"
+
+#~ msgid "File System"
+#~ msgstr "Dosya Sistemi"
+
+#~ msgid "Network Servers"
+#~ msgstr "Ağ Sunucuları"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Aç</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Yeniden Adlandır..."
+
+#~ msgid "Send To..."
+#~ msgstr "Gönder..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Çöpe Taşı"
+
+#~ msgid "Delete"
+#~ msgstr "Sil"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Kalıcı olarak \"%s\" öğesini silmek istediğinizden emin misiniz?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Eğer bir öğeyi silerseniz, o tamamen kaybolacak."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "\"%s\" ile Aç"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Öntanımlı Uygulama ile Aç"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Dosya Yöneticisinde Aç"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Bugün %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Dün %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Şimdi Bul"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s Aç</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Sistem Öğelerinden Kaldır"
 
 #~ msgid "<b>Warning _method:</b>"
 #~ msgstr "<b>Uyarı _biçimi:</b>"

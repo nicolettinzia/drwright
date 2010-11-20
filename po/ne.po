@@ -1,3 +1,4 @@
+# #-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#
 # translation of drwright.HEAD.ne.po to Nepali
 # translation of drwright.HEAD.po to Nepali
 # This file is distributed under the same license as the PACKAGE package.
@@ -7,171 +8,5188 @@
 # Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
 #
+# #-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#
+# Nepali Translation projectE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-control-center package.
+# Pawan Chitrakar   <pawan@nplinux.org>, 2004.
+#
+# #-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#
+# translation of gnome-control-center.gnome-2-20.ne.po to Nepali
+# Nepali Translation projectE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Pawan Chitrakar   <pawan@nplinux.org>, 2004.
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright.HEAD.ne\n"
+"Project-Id-Version: gnome-control-center.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 04:04+0000\n"
-"PO-Revision-Date: 2006-06-05 11:08+0545\n"
-"Last-Translator: Mahesh subedi <submanesh@hotmail.com>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2007-12-21 11:45+0545\n"
+"Last-Translator: Narayan Kumar Magar <narayan@mpp.org.np>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 
-#: ../data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
+#: ../src/main.c:63
+msgid "Enable debugging code"
+msgstr "त्रुटि सच्याउने सङ्केत सक्षम पार्नुहोस्"
 
-#: ../data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "सूचना क्षेत्र अवस्थित छ या छैन जाँच नगर्नुहोस्"
 
-#: ../data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>विश्राम</b>"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "टाइपिङ मनिटर"
 
-#: ../data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>काम</b>"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"यो टाइपिङ मनिटरले सूचना प्रदर्शन गर्न सूचना क्षेत्र प्रयोग गर्दछ । तपाईँसँग प्यानलमा सूचना "
+"क्षेत्र भएको देखिँदैन । तपाईँले यसलाई 'सूचना क्षेत्र' चयन गरेर र 'थप्नुहोस्' क्लिक गरेर तपाईँको "
+"प्यानलमा दायाँ-क्लिक गरेर र 'प्यानलमा थप्नुहोस्' रोजेर तपाईँको प्यानलमा थप्न सक्नुहुन्छ ।"
 
-#: ../data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "विश्रामहरू स्थगन गर्न स्वीकृत गरिन्छ कि भनेर जाँच गर्नुहोस्"
+#: ../src/drwright.c:142
+#, fuzzy
+msgid "_Take a Break"
+msgstr ""
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+"/विश्राम लिनुहोस्\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"/_विश्राम लिनुहोस्\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"विश्राम लिनुहोस्"
 
-#: ../data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "ड्रराइट प्राथमिकताहरू"
+#: ../src/drwright.c:504
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+"अक्षम पारिएको\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"असक्षम पारिएको छ\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"असक्षम पारिएको छ"
 
-#: ../data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "टाइप गर्न अस्वीकृत गर्दा विश्रामको अवधि"
+#: ../src/drwright.c:513
+#, c-format
+msgid "Take a break now (next in %dm)"
+msgstr ""
 
-#: ../data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "विश्राम सुरु गर्नु अगाडि चेतावनीको समय"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "पछिल्लो विश्राम नभएसम्म %d मिनेट"
+msgstr[1] "पछिल्लो विश्राम नभएसम्म %d मिनेट"
 
-#: ../data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "विश्रामका लागि बल प्रयोग गर्नु अगाडी कामको अवधि"
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr ""
 
-#: ../data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "विश्राम पछि सार्नका लागि वैकल्पिक फ्रेज प्रयोग गर्न"
+#: ../src/drwright.c:523
+#, fuzzy, c-format
+msgid "Less than one minute until the next break"
+msgstr ""
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+"आगामी विश्राम सम्म एक मिनेटभन्दा कम\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"आगामी विश्राम सम्म एक मिनेटभन्दा कम\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"पछिल्लो विश्राम नभएसम्म एक मिनेटभन्दा कम"
 
-#: ../data/glade/drw-preferences.glade.h:11
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr "निम्न त्रुटिसँग टाइपिङ बिच्छेद गुण संवाद ल्याउन असक्षम: %s"
+
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "रिचार्ड हल्ट <richard@imendio.com> द्वारा लेखिएको"
+
+#: ../src/drwright.c:629
+#, fuzzy
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+"आई क्यान्डि यान्डर्स कार्ल्ससनद्वारा थपिएको हो\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"आई क्यान्डि यान्डर्स कार्ल्ससनद्वारा थपिएको हो\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"एन्डर्स कार्ल्ससनद्वारा थपिएको आई क्यान्डि"
+
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+"एउटा कमप्युटर विश्राम सम्झ्याउने\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"एउटा कमप्युटर विश्राम संझोटो\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"एउटा कमप्युटर विच्छेदन रिमाइन्डर ।"
+
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr "Narayan Kumar Magar<narayan@mpp.org.np>"
+
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "विच्छेदन स्थगन गर्नुहोस्"
+
+#: ../src/drw-break-window.c:227
+#, fuzzy
+msgid "Take a break!"
+msgstr ""
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+"विश्राम लिनुहोस् !\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"विश्राम लिनुहोस्!\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"विश्राम लिनुहोस्!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "विषयको प्राथमिकताहरु"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
 msgstr "विश्रामहरू पछि सार्नलाई अनुमति दिनुहोस्"
 
-#: ../data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "विश्राम अवधि अन्तिमहरू"
-
-#: ../data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "चेतावनी समय"
-
-#: ../data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "अन्तिम कार्य अवधि"
-
-#: ../data/glade/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "मिनेट"
-
-#: ../src/main.c:128
-msgid "DrWright is already running."
-msgstr "ड्रराइट पहिले नै चालु भइसक्यो"
-
-#: ../src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+#: ../src/drwright-panel.glade.h:2
+#, fuzzy
+msgid "_Break interval lasts:"
 msgstr ""
-"ड्रराइटले सूचना क्षेत्र सूचना प्रदर्शन गर्न प्रयोग गरेको छ। तपाईँको फलकमा सूचना क्षेत्र छैन "
-"जस्तो छ। तपाईँ यसलाई फलकमा दायाँ-क्लिक गरेर 'फलकमा जोड्नुहोस् -> युटिलिटिहरू > सूचना "
-"क्षेत्र' छानेर थप गर्न सक्नुहुन्छ।"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"विश्राम अन्तराल रहिरहन्छ:\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"विच्छेदन अन्तराल अन्त्य हुन्छ:"
 
-#: ../src/drwright.c:138
-msgid "/_Enabled"
-msgstr "/सक्षम पारियो"
+#: ../src/drwright-panel.glade.h:3
+#, fuzzy
+msgid "_Lock screen to enforce typing break"
+msgstr "<b>टाइप विच्छेद लागू गर्न पर्दा ताल्चा लगाउनुहोस्</b>"
 
-#: ../src/drwright.c:139
-msgid "/_Take a Break"
-msgstr "/विश्राम लिनुहोस्"
+#: ../src/drwright-panel.glade.h:4
+#, fuzzy
+msgid "_Work interval lasts:"
+msgstr ""
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"कामको अन्तराल रहिरहन्छ:\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"कामको अन्तराल अन्त्य हुन्छ:"
 
-#: ../src/drwright.c:141
-msgid "/_Preferences"
-msgstr "/प्राथमिकताहरू"
+#: ../src/drwright-panel.glade.h:5
+#, fuzzy
+msgid "minutes"
+msgstr ""
+"#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+"मिनेट\n"
+"#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+"मिनेटहरु\n"
+"#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+"मिनट"
 
-#: ../src/drwright.c:142
-msgid "/_About"
-msgstr "/बारेमा"
+#~ msgid "    "
+#~ msgstr "    "
 
-#: ../src/drwright.c:144
-msgid "/_Remove Icon"
-msgstr "/प्रतिमा हटाउनुहोस्"
+#~ msgid "*"
+#~ msgstr "*"
 
-#: ../src/drwright.c:475
-msgid "Disabled"
-msgstr "अक्षम पारिएको"
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>विश्राम</b>"
 
-#: ../src/drwright.c:493
-#, c-format
-msgid "%d minutes until the next break"
-msgstr "अर्को विश्रामसम्म %d मिनेट"
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "<b>काम</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>कार्य</b>"
 
-#: ../src/drwright.c:496
-msgid "One minute until the next break"
-msgstr "अर्को बिच्छेदसम्म एक मिनेट"
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "विश्रामहरू स्थगन गर्न स्वीकृत गरिन्छ कि भनेर जाँच गर्नुहोस्\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विश्रामहरु स्थगन गर्न स्वीकृत गरिन्छ कि भनेर जाँच गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि विच्छेदहरू स्थगन गर्न अनुमति दिइन्छ भने जाँच गर्नुहोस्"
 
-#: ../src/drwright.c:498
-msgid "Less than one minute until the next break"
-msgstr "आगामी विश्राम सम्म एक मिनेटभन्दा कम"
+#~ msgid "DrWright Preferences"
+#~ msgstr "ड्रराइट प्राथमिकताहरू"
 
-#: ../src/drwright.c:609
-msgid "Quit DrWright?"
-msgstr "ड्रराइट बन्द गर्न चाहनुहुन्छ ?"
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "टाइप गर्न अस्वीकृत गर्दा विश्रामको अवधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "टाइप गर्न अस्वीकृत गर्दा विश्रामको अवधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "टाइप गर्न अनुमति अस्वीकार गर्दा विश्रामको अवधि"
 
-#: ../src/drwright.c:610
-msgid "Don't forget to take regular breaks."
-msgstr "नियमित बिच्छेदहरू लिनलाई नबिर्सनुहोस्।"
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "विश्राम सुरु गर्नु अगाडि चेतावनीको समय"
 
-#: ../src/drwright.c:621
-msgid "Don't Quit"
-msgstr "अन्त्य नगर्नुहोस्"
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "विश्रामका लागि बल प्रयोग गर्नु अगाडी कामको अवधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विश्रामको निम्ति बल प्रयोग गर्नु अगाडी कामको अवधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विच्छेदको लागि बल प्रयोग गर्नु अगाडी कामको अवधि"
 
-#: ../src/drwright.c:625
-msgid "Quit"
-msgstr "अन्त्य गर्नुहोस्"
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "विश्राम पछि सार्नका लागि वैकल्पिक फ्रेज प्रयोग गर्न"
 
-#: ../src/drwright.c:674
-msgid "About DrWright"
-msgstr "ड्रराइटका बारेमा"
+#~ msgid "_Break interval lasts"
+#~ msgstr "विश्राम अवधि अन्तिमहरू"
 
-#: ../src/drwright.c:699
-msgid "A computer break reminder."
-msgstr "एउटा कमप्युटर विश्राम सम्झ्याउने"
+#~ msgid "_Warning time is"
+#~ msgstr "चेतावनी समय"
 
-#: ../src/drwright.c:700
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Richard Hult &lt द्वारा लेखिएको;richard@imendio.com&gt;"
+#~ msgid "_Work interval lasts"
+#~ msgstr "अन्तिम कार्य अवधि"
 
-#: ../src/drwright.c:701
-msgid "Eye candy added by Anders Carlsson"
-msgstr "आई क्यान्डि यान्डर्स कार्ल्ससनद्वारा थपिएको हो"
+#~ msgid "DrWright is already running."
+#~ msgstr "ड्रराइट पहिले नै चालु भइसक्यो"
 
-#: ../src/drwright.c:868
-msgid "Break reminder"
-msgstr "विश्राम सम्झ्याउने"
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "ड्रराइटले सूचना क्षेत्र सूचना प्रदर्शन गर्न प्रयोग गरेको छ। तपाईँको फलकमा सूचना क्षेत्र छैन "
+#~ "जस्तो छ। तपाईँ यसलाई फलकमा दायाँ-क्लिक गरेर 'फलकमा जोड्नुहोस् -> युटिलिटिहरू > सूचना "
+#~ "क्षेत्र' छानेर थप गर्न सक्नुहुन्छ।"
 
-#: ../src/drw-break-window.c:208
-msgid "_Postpone break"
-msgstr "विश्राम पछि सार्नुहोस्"
+#~ msgid "/_Enabled"
+#~ msgstr "/सक्षम पारियो"
 
-#: ../src/drw-break-window.c:251
-msgid "Take a break!"
-msgstr "विश्राम लिनुहोस् !"
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "/प्राथमिकताहरू\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "/_प्राथमिकताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्राथमिकताहरू"
+
+#, fuzzy
+#~ msgid "/_About"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "/बारेमा\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "/_बारेमा\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "बारेमा"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/प्रतिमा हटाउनुहोस्"
+
+#~ msgid "%d minutes until the next break"
+#~ msgstr "अर्को विश्रामसम्म %d मिनेट"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "अर्को बिच्छेदसम्म एक मिनेट"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "ड्रराइट बन्द गर्न चाहनुहुन्छ ?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "नियमित बिच्छेदहरू लिनलाई नबिर्सनुहोस्।"
+
+#~ msgid "Don't Quit"
+#~ msgstr "अन्त्य नगर्नुहोस्"
+
+#~ msgid "Quit"
+#~ msgstr "अन्त्य गर्नुहोस्"
+
+#~ msgid "About DrWright"
+#~ msgstr "ड्रराइटका बारेमा"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Richard Hult &lt द्वारा लेखिएको;richard@imendio.com&gt;"
+
+#, fuzzy
+#~ msgid "Break reminder"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "विश्राम सम्झ्याउने\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विश्राम तालिका "
+
+#, fuzzy
+#~ msgid "_Postpone break"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (drwright.HEAD.ne)  #-#-#-#-#\n"
+#~ "विश्राम पछि सार्नुहोस्\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विश्राम पछि सार"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "text/plain and text/* ह्याण्डलर समक्रमण गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "मद्दत ब्राउजर प्रारम्भ गर"
+
+#, fuzzy
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "सञ्जाल ब्राउजर प्रारम्भ गर"
+
+#, fuzzy
+#~ msgid "Eject"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "निकाल\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "निकाल्नुहोस्"
+
+#~ msgid "Home folder"
+#~ msgstr "गृह फोल्डर"
+
+#, fuzzy
+#~ msgid "Launch help browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "मद्दत ब्राउजर प्रारम्भ गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मद्दत ब्राउजर सुरुआत गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Launch web browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सञ्जाल ब्राउजर प्रारम्भ गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "वेब ब्राउजर सुरुआत गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Lock screen"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पर्दा ताला लगाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पर्दा ताल्चा लगाउनुहोस्"
+
+#, fuzzy
+#~ msgid "Log out"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "बाहिर निस्क\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "लग आउट गर्नुहोस्"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "बजाउनुहोस् (वा बजाउनुहोस्/पज गर्नुहोस्)"
+
+#, fuzzy
+#~ msgid "Previous track"
+#~ msgstr "अघिल्लो ट्रयाक किको सरलविधि"
+
+#, fuzzy
+#~ msgid "Search"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_खोज\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "खोजी गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Stop playback"
+#~ msgstr "बजाउन बन्द गर्ने कि"
+
+#, fuzzy
+#~ msgid "Suspend"
+#~ msgstr "ध्वनि"
+
+#, fuzzy
+#~ msgid "Volume down"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आवाज तल गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "भोल्युम घटाउनुहोस्"
+
+#, fuzzy
+#~ msgid "Volume mute"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आवाज मौन गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "भोल्युम मौन गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आवाज तह \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "भोल्युम तह"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "भोल्युमको प्रतिशतको रूपमा भोल्युम तह ।"
+
+#, fuzzy
+#~ msgid "Volume up"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आवाज माथि गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "भोल्युम बढाउनुहोस्"
+
+#, fuzzy
+#~ msgid "Show startup errors"
+#~ msgstr "प्रारम्भिक त्रुटिहरु देखाउ"
+
+#~ msgid "Start screensaver"
+#~ msgstr "स्क्रिनसेभर सुरु गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr "<b>इशारा गरिदै छ</b>:"
+
+#, fuzzy
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "किबोर्ड accessibility गुणहरु सक्षम गर"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "एक्स-पर्दारक्षक शुरु गर"
+
+#, fuzzy
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "पहुच"
+
+#, fuzzy
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "पहुच"
+
+#, fuzzy
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ " मद्दत देखाउदा त्रुटि भेटियो: %s \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मद्दत प्रदर्शन गर्दा त्यहाँ एउटा त्रुटि थियो: %s"
+
+#, fuzzy
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "के तपाई सुस्त किहरु सक्रिय बनाउन चहानुहुन्छ?\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँ सुस्त कुञ्जीहरू सक्रिय बनाउन चहानुहुन्छ?"
+
+#, fuzzy
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "के तपाई सुस्त किहरु असक्रिय बनाउन चहानुहुन्छ?\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँ सुस्त कुञ्जीहरू निष्क्रिय बनाउन चहानुहुन्छ?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "तपाईँले शिफ्ट कुञ्जी ८ सेकेण्डका लागि लिनुभएको छ । यो सुस्त कुञ्जी विशेषताका लागि सर्टकट "
+#~ "हो, जसले तपाईँको कुञ्जीपाटीको काम गर्ने तरिकालाई प्रभाव पार्दछ ।"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "सक्रिय नबनाउनुहोस्"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "निष्क्रिय नबनाउनुहोस्"
+
+#~ msgid "_Activate"
+#~ msgstr "सक्रिय बनाउनुहोस्"
+
+#~ msgid "_Deactivate"
+#~ msgstr "निष्क्रिय बनाउनुहोस्"
+
+#, fuzzy
+#~ msgid "Slow Keys Alert"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सुस्त किहरुको़़ चेतावनी\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सुस्त कुञ्जी सावधानी"
+
+#, fuzzy
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "के तपाई टाँसिन्ने किहरु असक्रिय बनाउन चहानुहुन्छ?\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँ टाँसिन्ने कुञ्जीहरू सक्रिय बनाउन चहानुहुन्छ?"
+
+#, fuzzy
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "के तपाई टाँसिन्ने किहरु असक्रिय बनाउन चहानुहुन्छ?\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँ टाँसिन्ने कुञ्जीहरू निष्क्रिय बनाउन चहानुहुन्छ?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "तपाईँले भर्खरै एउटा पङ्क्तिमा ५ पटक शिफ्ट कुञ्जी थिच्नुभयो ।  यो टाँसिने कुञ्जी विशेषताका "
+#~ "लागि सर्टकट हो, जसले तपाईँको कुञ्जीले काम गर्ने तरिकालाई असर गर्दछ ।"
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "तपाईँले भर्खरै एकै पटक दुईवटा कुञ्जीहरू थिच्नुभयो, वा एउटा पङ्क्तिमा शिफ्ट कुञ्जी ५ पटक "
+#~ "थिच्नुभयो ।  यसले टाँसिने कुञ्जी विशेषतालाई बन्द गर्दछ, जसले तपाईँको कुञ्जीपाटीले काम "
+#~ "गर्ने तरिकालाई असर गर्दछ ।"
+
+#, fuzzy
+#~ msgid "Sticky Keys Alert"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "टाँसिन्ने किहरुको चेतावनी\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "टाँसिन्ने कुञ्जीहरू सावधान"
+
+#~ msgid "Background"
+#~ msgstr "पृष्ठभूमि"
+
+#~ msgid "Font"
+#~ msgstr "लिपी"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "\"%s\" डाइरेक्टरी सिर्जना गर्न सकिँदैन ।\n"
+#~ "माउस सङ्केतक विषयवस्तुलाई परिवर्तन गर्न अनुमति दिन यो आवश्यक पर्दछ ।"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "\"%s\" डाइरेक्टरी सिर्जना गर्न सकिँदैन ।\n"
+#~ "माउस कर्सरहरूलाई परिवर्तन गर्न अनुमति दिन यो आवश्यक पर्दछ ।"
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "कुञ्जी बन्धन (%s) सँग धेरै पटक परिभाषित यसका कार्यहरू छन्\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "कुञ्जी बन्धन (%s) सँग धेरै पटक परिभाषित यसका बन्धनहरू छन्\n"
+
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "कुञ्जी बन्धन (%s) अपूर्ण छ\n"
+
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "कुञ्जी बन्धन (%s) अवैध छ\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "अर्को अनुप्रयोग '%u' कुञ्जीमा पहिल्यै पहुँच भएको देखिन्छ ।"
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "कुञ्जी बन्धन (%s) पहिल्यै प्रयोगमा छ\n"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "(%s) चलाउन प्रयास गर्दा त्रुटि\n"
+#~ "जुन (%s) कुञ्जीमा लिङ्क गरिएको छ"
+
+#, fuzzy
+#~ msgid "Keyboard"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कीबोर्ड\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीपाटी"
+
+#, fuzzy
+#~ msgid "Keyboard plugin"
+#~ msgstr "कि-बोर्ड सरलविधिहरु"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "उपलब्ध फाइलहरू:"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "यो चेतावनी फेरि नदेखाउनुहोस् ।"
+
+#~ msgid "Load modmap files"
+#~ msgstr "मोडम्याप फाइलहरू लोड गर्नुहोस्"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "मोडम्याप फाइल(हरू) लोड गर्न चाहनुहुन्छ?"
+
+#~ msgid "_Load"
+#~ msgstr "लोड गर्नुहोस्"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "लोड गरिएका फाइलहरू:"
+
+#, fuzzy
+#~ msgid "Volume"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आवाज\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "भोल्युम"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "पूर्वनिर्धारित टर्मिनल प्राप्त गर्न सकेन । तपाईँको पूर्वनिर्धारित आदेश सेट भएको र वैध "
+#~ "अनुप्रयोगमा देखाउँदछ भन्ने रूजु गर्नुहोस् ।"
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "आदेश कार्यान्वयन गर्न सकिएन: %s\n"
+#~ "यो एउटा वैध आदेश हो भन्ने रूजु गर्नुहोस् ।"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "निष्क्रिय पार्नका लागि मेशिन राख्न सकिएन ।\n"
+#~ "मेशिन सही तरिकाले कन्फिगर गरिएको छ भन्ने रूजु गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Media keys"
+#~ msgstr "माउस किहरु"
+
+#, fuzzy
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "किबोर्ड accessibility गुणहरु सक्षम गर"
+
+#, fuzzy
+#~ msgid "Mouse Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "माउस प्राथमिकताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "माउस प्राथमिकताहरू"
+
+#~ msgid "Mouse"
+#~ msgstr "माउस"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "स्क्रिनसेभर सुरुआत गर्दा त्यहाँ एउटा त्रुटि थियो:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "स्क्रिनसेभर प्रकार्यत्मकताले यो सत्रमा कार्य गर्ने छैन ।"
+
+#, fuzzy
+#~ msgid "_Do not show this message again"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यो संदेश पुन; नदेखाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यो सन्देश फेरि नदेखाउनुहोस्"
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "एक्स-पर्दारक्षक शुरु गर"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "पर्दा रेजलुश्‍न"
+
+#, fuzzy
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "%sफाईल %s नमूना जस्तै लोड गर्न सकिएन\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "%s ध्वनि फाइललाई %s नमूनाको रूपमा लोड गर्न सकिएन"
+
+#~ msgid "Login"
+#~ msgstr "लग इन गर्नुहोस्"
+
+#~ msgid "Logout"
+#~ msgstr "लग आउट गर्नुहोस्"
+
+#~ msgid "Boing"
+#~ msgstr "बोइङ"
+
+#~ msgid "Siren"
+#~ msgstr "सिरेन"
+
+#~ msgid "Clink"
+#~ msgstr "क्लिङ्क"
+
+#~ msgid "Beep"
+#~ msgstr "बीप"
+
+#~ msgid "No sound"
+#~ msgstr "ध्वनि छैन"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "यो घटनाका ध्वनि सेट गरिएको छैन"
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "यो घटनाका लागि ध्वनि पाइल अवस्थित छैन ।\n"
+#~ "तपाईँ पूर्वननिर्धारित ध्वनिहरूको सेटका लागि जीनोम-अडियो प्याकेज स्थापना गर्न सक्नुहुन्छ ।"
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "यो घटनाका लागि ध्वनि फाइल अवस्थित छैन ।"
+
+#, fuzzy
+#~ msgid "Select Sound File"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "ध्वनि फाईल छान्नुहोस्\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "ध्वनि फाइल चयन गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "%s फाईल एउटा मान्य वेभ फाईल होइन\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "%s फाइल एउटा वैध वेभ फाईल होइन"
+
+#~ msgid "Select sound file..."
+#~ msgstr "ध्वनि फाइल चयन गर्नुहोस्..."
+
+#~ msgid "System Sounds"
+#~ msgstr "प्रणाली ध्वनिहरू"
+
+#~ msgid "Sound"
+#~ msgstr "ध्वनि"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "ध्वनि फाईल"
+
+#, fuzzy
+#~ msgid "Typing Break"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "टाइप गर्दाको विश्राम\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "टाइप गर्दाको विच्छेद"
+
+#, fuzzy
+#~ msgid "Typing break plugin"
+#~ msgstr "टाइप गर्दाको विश्राम"
+
+#, fuzzy
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "प्रयोगकर्ताको गृह डैरेक्टरी निर्धारण गर्न सकिएन\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रयोगकर्ताको गृह डाइरेक्टरी निर्धारण गर्न सकिँदैन"
+
+#, fuzzy
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "%s जिकन्फ कि %s प्रकारमा निर्धारण गरियो तर यसको अपेक्षित प्रकार %s थियो\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "जीकन्फ कुञ्जी %s सेट %s प्रकारमा तर यसको अपेक्षित प्रकार %s थियो\n"
+
+#, fuzzy
+#~ msgid "Manage X Settings"
+#~ msgstr "यक्स निरधारणहरु प्रयोग गर"
+
+#, fuzzy
+#~ msgid "X Settings"
+#~ msgstr "यक्स निरधारणहरु प्रयोग गर"
+
+#~ msgid "Alert Type"
+#~ msgstr "सावधान प्रकार"
+
+#~ msgid "The type of alert"
+#~ msgstr "सावधानको प्रकार"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "सावधान बटनहरू"
+
+#~ msgid "Show more _details"
+#~ msgstr "अरू विस्तृत विवरणहरू देखाउनुहोस्"
+
+#~ msgid "About Me"
+#~ msgstr "मेरो बारेमा"
+
+#~ msgid "Set your personal information"
+#~ msgstr "तपाईँको व्यक्तिगत जानकारी सेट गर्नुहोस्"
+
+#~ msgid "Select Image"
+#~ msgstr "छवि चयन गर्नुहोस्"
+
+#~ msgid "No Image"
+#~ msgstr "छवि छैन"
+
+#~ msgid "About %s"
+#~ msgstr "%s बारेमा"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>इमेल</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>गृह</b>"
+
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>शिघ्र सन्देश पठाउँदै</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>काम</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>टेलिफोन</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>वेब</b>"
+
+#~ msgid "C_ity:"
+#~ msgstr "शहर:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "कम्पनी:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "पात्रो:"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "शहर:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "देश:"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "देश:"
+
+#~ msgid "User name:"
+#~ msgstr "प्रयोगकर्ताको नाम:"
+
+#~ msgid "_Address:"
+#~ msgstr "ठेगाना:"
+
+#~ msgid "_Home page:"
+#~ msgstr "गृह पृष्ठ:"
+
+#~ msgid "_Home:"
+#~ msgstr "गृह:"
+
+#~ msgid "_Manager:"
+#~ msgstr "प्रबन्धक:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "मोबाइल:"
+
+#~ msgid "_New password:"
+#~ msgstr "नयाँ पासवर्ड:"
+
+#~ msgid "_Profession:"
+#~ msgstr "पेशा:"
+
+#~ msgid "_Title:"
+#~ msgstr "शिर्षक:"
+
+#, fuzzy
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सहयोगी प्रविधि प्राथमिक्ताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रलम्बित प्रविधि प्राथमिक्ताहरू"
+
+#, fuzzy
+#~ msgid "Close and _Log Out"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "बन्द गर र बाहिर निस्क\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "बन्द गर्नुहोस् र लग आउट गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Enable assistive technologies"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सहयोगि प्रविधिहरु सक्षम गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रलम्बित प्रविधिहरू सक्षम पार्नुहोस्"
+
+#, fuzzy
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "लगइनमा जिनोम सहयोगी प्रविद्धिहरुका निम्ति समर्थन सक्षम गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "लग इनमा जीनोम प्रलम्बित प्रविधिहरूका लागि समर्थन सक्षम पार्नुहोस्"
+
+#, fuzzy
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "माउस प्रथमिक्ता डायलग प्रारम्भ गर्दा एउटा त्रुटि भटियो:%s\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "माउस प्राथमिकता संवाद सुरुआत गर्दा त्यहाँ एउटा त्रुटि थियो: %s"
+
+#, fuzzy
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ " '%s'फाईलबाट यक्सेसयक्स निरधारणहरु आयात गर्न असमर्थ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "'%s' फाइलबाट AccessX सेटिङहरू आयात गर्न असक्षम"
+
+#, fuzzy
+#~ msgid "Import Feature Settings File"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "गुणहरु सेटिङ्ग फाईल आयात गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विशेषता सेटिङ फाइल आयात गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Import"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आयात\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "आयात गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "तपाईको किबोर्ड accessibility प्राथमिक्ताहरु मिलाउनु होस्\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँको कुञ्जीपाटी पहुँचता प्राथमिक्ताहरू सेट गर्नुहोस्"
+
+#, fuzzy
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यस प्रणललीमा यक्सकेबि विस्तार छैन जस्तो देखिन्छ। किबोर्ड accessibility गुणहरु यो "
+#~ "बिना सञ्चालन हुन सक्ने छैनन्।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यो प्रणललीसँग XKB विस्तार भएको देखिँदैन ।  कुञ्जीपाटी पहुँचता विशेषताहरू यो बिना "
+#~ "सञ्चालन हुने छैनन् ।"
+
+#, fuzzy
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>बाउस किहरु सक्षम गर</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>फर्कने कुञ्जीहरू सक्षम पार्नुहोस्</b>"
+
+#, fuzzy
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>ढिला किहरु सक्षम गर</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>ढिला कुञ्जीहरू सक्षम पार्नुहोस्</b>"
+
+#, fuzzy
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>माउस किहरु सक्षम गर</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>माउस कुञ्जीहरू सक्षम पार्नुहोस्</b>"
+
+#, fuzzy
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>दोहोरिने किहरु सक्षम गर</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>दोहोरिने कुञ्जीहरू सक्षम पार्नुहोस्</b>"
+
+#, fuzzy
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>टाँसिने किहरु सक्षम गर</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>टाँसिने कुञ्जीहरू सक्षम पार्नुहोस्</b>"
+
+#, fuzzy
+#~ msgid "<b>Features</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>गुणहरु</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>विशेषताहरू</b>"
+
+#, fuzzy
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>टगल किहरु</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>टगल कुञ्जीहरू</b>"
+
+#~ msgid "Basic"
+#~ msgstr "आधारभूत"
+
+#, fuzzy
+#~ msgid "Beep if key is re_jected"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कि अस्वीकृत भएमा बीप आवाज गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि कुञ्जी अस्वीकृत हुन्छ भने बिप गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "किबोर्डबाट गुणहरु खोल्दा वा बन्द गर्दा बीप आवाज गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीपाटीबाट विशेषताहरू खोल्दा वा बन्द गर्दा बीप गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "संशोधकलाई दबाउँदा बीप आवाज गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "परिमार्जक थिचिँदा बिप गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "एउटा LED बाल्दा बीप आवाज गर र निभाउदा दुई पटक बीप आवाज गर।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "एउटा LED खोल्दा बीप र बन्द गर्दा दुई पटक बीप गर्दछ ।"
+
+#, fuzzy
+#~ msgid "Beep when key is:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "बीप आवाज गर जब कि :\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जी भएको बेला बीप गर्नुहोस्:"
+
+#, fuzzy
+#~ msgid "Del_ay:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "अन्तराल:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विलम्ब गर्नुहोस्:"
+
+#, fuzzy
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कि थिच्ने र प्वाइन्टरको चाल बीचको अंतराल:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीथिचाइ र सङ्केतक चाल बीच विलम्ब गर्नुहोस्:"
+
+#, fuzzy
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "दुईवटा किहरु एकैसाथ थिचिएमा असक्षम गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि दुईवाट कुञ्जीहरू एकैसाथ थिचिएमा असक्षम पार्नुहोस्"
+
+#, fuzzy
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "टगल किहरु सक्षम गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "टगल कुञ्जीहरू सक्षम पार्नुहोस्"
+
+#, fuzzy
+#~ msgid "Filters"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "फिल्टरहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फिल्टरहरू"
+
+#, fuzzy
+#~ msgid "I_gnore duplicate keypresses within:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "...भित्र नक्कल किथिचाइहरुलाई बेवास्ता गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यसभित्र नक्कल कुञ्जी थिचाइहरूलाई उपेक्षा गर्नुहोस्:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यदि प्रयोगकर्ताले छानेको समयावधिभित्र समान कि थिचिएमा समान किको सबै उपरान्त "
+#~ "थिचाइहरुलाई उपेक्षा गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि प्रयोगकर्ता चयनयोग्य समयावधिभित्र एउटै कुञ्जी थिचिएमा उक्त कुञ्जीको पछिल्ला डबै "
+#~ "थिचाइहरू उपेक्षा गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "किबोर्ड accessibility प्राथमिक्ताहरु(यक्सेसयक्स)\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीपाटी पहुँचता प्राथमिक्ताहरू (AccessX)"
+
+#, fuzzy
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "प्वाइन्टरको अधिक्तम गति:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "अधिक्तम सङ्केतक गति:"
+
+#, fuzzy
+#~ msgid "Mouse _Preferences..."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "माउस प्राथमिकताहरु...\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "माउस प्राथमिकताहरू..."
+
+#, fuzzy
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "थिचिएका र प्रयोगकर्ताले मिलाएको समय अवधिसम्म थिचिराखेका किहरु मात्र स्वीकार गर \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीहरू थिचिए पछि र प्रयोगकर्ता समायोजनयोग्य समयको मात्रका लागि लिए पछि मात्र "
+#~ "स्वीकार गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सुधारक किहरु क्रमबद्धरुपमा थिचेर एकैसाथका बहुमुखि कि ??????????\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "अनुक्रममा परिमार्जक कुञ्जीहरू थिचेर वहुविध समकालिन कुञ्जी थिचाइ सञ्चालनहरू कार्यसम्पादन "
+#~ "गर्नुहोस् ।"
+
+#~ msgid "S_peed:"
+#~ msgstr "गति:"
+
+#, fuzzy
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "अधिक्तम गतिमा गतिवर्धन गर्न समय\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "अधिक्तम गतिमा गतिवर्धन गर्नका लागि समय:"
+
+#, fuzzy
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सङ्खायतमक किप्याडलाई माउस नियन्त्रण प्याडमा परिवर्तन गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सङ्ख्यात्मक किप्याडलाई माउस नियन्त्रण प्याडमा परिवर्तन गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "_Disable if unused for:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "...सम्म प्रयोग नभएमा असक्षम गर:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि यसका लागि प्रयोग नभएमा असक्षम पार्नुहोस्:"
+
+#, fuzzy
+#~ msgid "_Import Feature Settings..."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "...गुण निर्धारणहरु आयात गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विशेषता सेटिङहरू आयात गर्नुहोस्..."
+
+#, fuzzy
+#~ msgid "_Only accept keys held for:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सम्म थिचिएका किहरु मात्र स्वीकार गर:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यसका लागि लिइएका कुञ्जीहरू मात्र स्वीकार गर्नुहोस्:"
+
+#~ msgid "_accepted"
+#~ msgstr "स्वीकार गरिएको"
+
+#~ msgid "_pressed"
+#~ msgstr "थिचिएको"
+
+#~ msgid "_rejected"
+#~ msgstr "अस्वीकार गरिएको"
+
+#, fuzzy
+#~ msgid "characters/second"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "वर्णहरु/सेकेन्ड\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "क्यारेक्टरहरू/सेकेन्ड"
+
+#, fuzzy
+#~ msgid "milliseconds"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "मिलिसेकेन्डहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मिलिसेकेन्ड"
+
+#, fuzzy
+#~ msgid "pixels/second"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पिक्सल/सेकेन्ड\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पिक्सेल/सेकेन्ड"
+
+#, fuzzy
+#~ msgid "_Style:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_शैलि:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "शैली:"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "वालपेपर थप्नुहोस्"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "वालपेपर छैन"
+
+#, fuzzy
+#~ msgid "Just apply settings and quit"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "निर्धारणहरु लागु गर र बाहिर निस्क\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "केवल सेटिङहरू लागू गर्नुहोस् र अन्त्य गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "हस्तानतरित निरधारणहरुलाई प्राप्त गर र संचय गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "हस्तान्तरित सेटिङहरू पुन: प्राप्त गर्नुहोस् र भण्डारण गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "From URI"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "युआरआइबाट\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "URI बाट"
+
+#, fuzzy
+#~ msgid "URI currently transferring from"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "युआरआइ हाललाई ...बाट स्थानातरण हुदैछ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यसबा URI हालै स्तानान्तरण गर्दै"
+
+#, fuzzy
+#~ msgid "To URI"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यूआरआईलाई\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "URI लाई"
+
+#, fuzzy
+#~ msgid "URI currently transferring to"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "युआरआइ हाललाई ...मा स्थानातरण हुदैछ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यसमा URI हालै स्थानान्तरण गर्दै"
+
+#, fuzzy
+#~ msgid "Fraction completed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "खण्ड सकियो\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "भिन्न पूरा भयो"
+
+#, fuzzy
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "हाललाई आंशिक स्थानातर समाप्त भयो\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "स्थानातरणको भिन्न हालै पूरा भयो"
+
+#, fuzzy
+#~ msgid "Current URI index"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "हालको युआरआइ सूची\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "हालको URI अनुक्रमाणिका"
+
+#, fuzzy
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "हालको युआरआइ सूची- १ बाट शुरु हुन्छ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "हालको अनुक्रमाणिका सूची - १ बाट सुरु हुन्छ"
+
+#, fuzzy
+#~ msgid "Total URIs"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सम्पुर्ण युआरआइहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "जम्मा URIs"
+
+#, fuzzy
+#~ msgid "Total number of URIs"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "युआरआइहरुका जम्मा सङ्ख्या\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "URIs को जम्मा सङ्ख्या"
+
+#, fuzzy
+#~ msgid "Connecting..."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सम्पर्क गरिदै...\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "जडान गर्दैछ..."
+
+#, fuzzy
+#~ msgid "Key"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जी"
+
+#, fuzzy
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "जिकन्फ कि जसमा यो विशेषण सम्पादक जोडिएको छ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "जिकन्फ कुञ्जी जसमा यो गुण सम्पादक सम्पादन गरिएको छ"
+
+#, fuzzy
+#~ msgid "Change set"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सेट परिवर्तन गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सेट परिवर्तन गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "UI Control"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "युआइ नियन्त्रण\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "UI नियन्त्रण"
+
+#, fuzzy
+#~ msgid "Property editor object data"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विशेषण सम्पादक वस्तुको डाटा\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "गुण सम्पादक वस्तु डेटा"
+
+#, fuzzy
+#~ msgid "Property editor data freeing callback"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विशेषण सम्पादक डाटा?????\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "गुण सम्पादक डेटा स्वतन्त्र कलब्याक"
+
+#, fuzzy
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "'%s' फाईल भेटाउन सकिएन।\n"
+#~ "\n"
+#~ "कृपया यो अस्थित्वमा छ भनेर पक्का गर्नुहोस् र फेरि कोशिश गर्नुहोस्, वा एउटा भिन्नै "
+#~ "पृष्ठभूमि चित्र रोज्नुहोस्।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "'%s' फाइल फेला पार्न सकिएन ।\n"
+#~ "\n"
+#~ "कृपया यो अवस्थित छ भनेर निश्चित गर्नुहोस् र फेरि प्रयास गर्नुहोस्, वा एउटा फरक पृष्ठभूमि "
+#~ "तस्वीर रोज्नुहोस् ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "'%s'यो फाईल कसरी खोल्ने मलाई थाहा छैन।\n"
+#~ "सायद यो चित्र यस प्रकारको होला जुन अहिलेसम्म समर्थन गरिएको छैन।\n"
+#~ "\n"
+#~ "कृपया यसको बदलामा अरु चित्र रोज्नुहोस्।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "'%s' फाइल कसरी खोल्ने मलाई थाहा छैन ।\n"
+#~ "सायद यो एक प्रकारको तस्वीर हो जुन अझैसम्म समर्थित छैन ।\n"
+#~ "\n"
+#~ "कृपया यसको सट्टामा एउटा फरक तस्वीर चयन गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Please select an image."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कृपया एउटा चित्र छान्नुहोस्।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कृपया एउटा छवि चयन गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "_Select"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "छान\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "चयन गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Preferred Applications"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "रुचाइएका कार्यक्रमहरु \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "रूचाइएका अनुप्रयोगहरू"
+
+#, fuzzy
+#~ msgid "Select your default applications"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "तपाईको अनुपस्थित कार्यक्रमहरु छान्नुहोस्\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँको पूर्वनिर्धारित अनुप्रयोगहरू चयन गर्नुहोस्"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "डेबियन समझदार ब्राउजर"
+
+#~ msgid "Galeon"
+#~ msgstr "गेलियन"
+
+#~ msgid "Encompass"
+#~ msgstr "घेर्नु"
+
+#, fuzzy
+#~ msgid "Firebird"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "फाएरबर्ड\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फायरबर्ड"
+
+#, fuzzy
+#~ msgid "Firefox"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "फाएरफक्स\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फायरफक्स"
+
+#~ msgid "Mozilla"
+#~ msgstr "मोजिल्ला"
+
+#, fuzzy
+#~ msgid "Netscape Communicator"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "नेटस्केप संचारकर्ता\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "नेटस्केप सञ्चारकर्मी"
+
+#, fuzzy
+#~ msgid "Konqueror"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कनक्वेर्र\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कन्क्वेरर"
+
+#, fuzzy
+#~ msgid "W3M Text Browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "डब्यु३यम पाठ ब्राउजर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "W3M पाठ ब्राउजर"
+
+#, fuzzy
+#~ msgid "Lynx Text Browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "लिंक्स पाठ ब्राउजर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "लिनक्स पाठ ब्राउजर"
+
+#, fuzzy
+#~ msgid "Links Text Browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "(संलग्न) पाठ ब्राउजर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पाठ ब्राउजरलाई लिङ्क गर्दछ"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विकासक्रम चिठ्ठी वाचक\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "इभोल्युसन मेल पाठक"
+
+#~ msgid "Balsa"
+#~ msgstr "बाल्सा"
+
+#, fuzzy
+#~ msgid "KMail"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "केचिठ्ठी\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "केडीई मेल"
+
+#~ msgid "Thunderbird"
+#~ msgstr "थन्डरबर्ड"
+
+#, fuzzy
+#~ msgid "Mozilla Mail"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "मोजिल्ला चिठ्‍ठी\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मोजिल्ला मेल"
+
+#~ msgid "Mutt"
+#~ msgstr "मट"
+
+#, fuzzy
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "डेबियन टर्मिनल emulator\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "डेबियन टर्मिनल इमुलेटर"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "जिनोम टर्मिनल"
+
+#, fuzzy
+#~ msgid "Standard XTerminal"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "स्तरीय यक्सटि टर्मिनल\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मानक X टर्मिनल"
+
+#, fuzzy
+#~ msgid "RXVT"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आरयक्सभिटि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "RXVT"
+
+#, fuzzy
+#~ msgid "Co_mmand:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आ_देश:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "आदेश:"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "मेट\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मेट्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Name:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_नाम:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "नाम:"
+
+#, fuzzy
+#~ msgid "Change screen resolution"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पर्दाको रेजुलुसन परिवर्तन गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पर्दा रिज्योलुसन परिवर्तन गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "%d Hz"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "%d हर्ज\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "%d Hz"
+
+#, fuzzy
+#~ msgid "_Resolution:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "रेजुलुसन:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "रिज्योलुसन:"
+
+#, fuzzy
+#~ msgid "Re_fresh rate:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "नविकरण दर:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "ताजा पार्ने दर:"
+
+#, fuzzy
+#~ msgid "Default Settings"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पुर्वनिर्धारिणहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पुर्वनिर्धारित सेटिङहरू"
+
+#, fuzzy
+#~ msgid "Screen %d Settings\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "%d पर्दा निर्धारणहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पर्दा %d सेटिङहरू\n"
+
+#, fuzzy
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पर्दा रेजुलुसन प्राथमिक्ताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पर्दा रिजोल्युसन प्राथमिक्ताहरू"
+
+#, fuzzy
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यो कम्प्युटर(%s)को निम्ति मात्र अनुपस्थिति बनाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यस कम्प्युटर(%s)को लागि मात्र पूर्वनिर्धारित बनाउनुहोस्"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विकल्पहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विकल्पहरू"
+
+#, fuzzy
+#~ msgid "Keep Resolution"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "रेजलुश्‍न राख\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "रिजोल्युसन राख्नुहोस्"
+
+#, fuzzy
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "के तपाई यो रेजलुश्‍न राख्न चहानु हुन्छ?\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँ यो रिजोल्युसन राख्न चहानु हुन्छ?"
+
+#, fuzzy
+#~ msgid "Use _previous resolution"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पहिलेको रेजुलुसन प्रयोग गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "अघिल्लो रिजोल्युसन प्रयोग गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Keep resolution"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "रेजलुश्‍न राख\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "रिजोल्युसन राख्नुहोस्"
+
+#, fuzzy
+#~ msgid ""
+#~ "The X Server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यक्सआर र आर विस्तारलाई यक्स सेवाप्रदायकले समर्थन गर्दैन। प्रदर्शन आकारमा  हुने सञ्चालन "
+#~ "समयको रेजलुश्‍न परिवर्तनहरु उपलब्ध छैन।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "X सर्भरले XRandR विस्तारलाई समर्थन गर्दैन ।  प्रदर्शन साइजमा चालुसमय रिजोल्युसन "
+#~ "परिवर्तनहरू उपलब्ध छैनन् ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यो कार्यक्रमकसंग यक्सआर र आर विस्तारको यो संकरण अनउपयुक्त छ। प्रदर्शन आकारमा हुने "
+#~ "सञ्चालन समयको परिवर्तनहरु उपलब्ध छैन।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "XRandR विस्तारको यो संस्करण यो कार्यक्रमसँग अमिल्दो छ । प्रदर्शन साइजमा चालुसमयको "
+#~ "परिवर्तनहरू उपलब्ध छैनन् ।"
+
+#, fuzzy
+#~ msgid "Best _shapes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सर्वोत्तम _आकारहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सर्वोत्तम आकारहरू"
+
+#, fuzzy
+#~ msgid "D_etails..."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विवरणहरु...\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विस्तृत विवरणहरू..."
+
+#, fuzzy
+#~ msgid "N_one"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "केही छैन\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुनै पनि होइन"
+
+#, fuzzy
+#~ msgid "R_esolution:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "रेजलुसन\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "रेज्योलुसन:"
+
+#, fuzzy
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "उप-पिक्सल(यलसिडिहरु)\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "उप-पिक्सेल (LCDs)"
+
+#, fuzzy
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "उप-पिक्सल नरमिकरण(यलसिडिहरु)\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "उप-पिक्सल महिन (LCDs)"
+
+#, fuzzy
+#~ msgid "VB_GR"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "भिबिजिआर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "VB_GR"
+
+#, fuzzy
+#~ msgid "_Application font:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कार्यक्रम लिपि:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "अनुप्रयोग फन्ट:"
+
+#, fuzzy
+#~ msgid "_BGR"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "बिजिआर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "BGR"
+
+#, fuzzy
+#~ msgid "_Full"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_पुरा\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पूरा"
+
+#~ msgid "_Medium"
+#~ msgstr "मध्यम"
+
+#, fuzzy
+#~ msgid "_Monochrome"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "एकरङ्ग\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मोनोक्रोम"
+
+#, fuzzy
+#~ msgid "_None"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "केही छैन\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुनै पनि होइन"
+
+#, fuzzy
+#~ msgid "_RGB"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आर जि बि \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "RGB"
+
+#~ msgid "_Slight"
+#~ msgstr "अपर्याप्त"
+
+#, fuzzy
+#~ msgid "_VRGB"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "भिआरजिबि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "VRGB"
+
+#, fuzzy
+#~ msgid "_Window title font:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विन्डोको शीर्षक वर्ण:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्झ्याल शिर्षक फन्ट:"
+
+#, fuzzy
+#~ msgid "dots per inch"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विन्दुहरु प्रति इन्च\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रति इन्च थोप्लाहरू"
+
+#, fuzzy
+#~ msgid "Font may be too large"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "वर्ण सायद धेरै ठूलो छ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फन्ट धेरै ठूलो हुन सक्दछ"
+
+#, fuzzy
+#~ msgid "New accelerator..."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "नयाँ द्रूतचालक \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "नयाँ गतिवर्धक..."
+
+#, fuzzy
+#~ msgid "Accelerator key"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "द्रूतचालक कि \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "गतिवर्धक कुञ्जी"
+
+#, fuzzy
+#~ msgid "Accelerator modifiers"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "द्रूतचालक सुधारकहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "गतिवर्धक परिमार्जकहरू"
+
+#, fuzzy
+#~ msgid "Accelerator keycode"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "द्रूतचालक किसंकेत\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "गतिवर्धक कुञ्जीसङ्केत"
+
+#, fuzzy
+#~ msgid "Accel Mode"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "द्रुतचाल शैलि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "एक्सेल मोड"
+
+#, fuzzy
+#~ msgid "The type of accelerator."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "द्रूतचालकको प्रकार।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "गतिवर्धकका प्रकार ।"
+
+#, fuzzy
+#~ msgid "<Unknown Action>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<अज्ञात कार्य>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<Unknown Action>"
+
+#~ msgid "Desktop"
+#~ msgstr "डेस्कटप"
+
+#, fuzzy
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यसका लागि \"%s\" सर्टकट पहिल्यै प्रयोग गरिएको छ:\n"
+#~ " \"%s\"\n"
+
+#, fuzzy
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "समायोजना डाटावेसमा नयाँ द्रुतचालक मिलाउदा त्रुटि:%s\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कन्फिगरेसन डाटाबेशमा नयाँ गतिवर्धक सेट गर्दा त्रुटि:%s\n"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s\n"
+#~ msgstr "कन्फिगरेसन डाटाबेसमा गतिवर्धक सेटबाट हटाउँदा त्रुटि: %s\n"
+
+#~ msgid "Action"
+#~ msgstr "कार्य"
+
+#, fuzzy
+#~ msgid "Shortcut"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सरलविधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सर्टकट"
+
+#, fuzzy
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कि-बोर्ड सरलविधिहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीपाटी सर्टकट"
+
+#, fuzzy
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आदेशहरुमा छोटोविधि किहरु निर्दिष्ट गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "आदेशहरूमा सर्टकट कुञ्जीहरू मानाङ्कन गर्नुहोस्"
+
+#~ msgid "Unknown"
+#~ msgstr "अज्ञात"
+
+#~ msgid "Layout"
+#~ msgstr "सजावट"
+
+#~ msgid "Default"
+#~ msgstr "पूर्वनिर्धारित"
+
+#, fuzzy
+#~ msgid "Models"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "नमूनाहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "नमूनाहरू"
+
+#, fuzzy
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "मात्र निरधार्णहरु लागु गर र बाहिर निस्क( मिल्दोपन मात्र; अब डिमनले जिम्मा लिन्छ)\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "केवल सेटिङहरू लागू गर्नुहोस् र अन्त्य गर्नुहोस् (अमिल्दो मात्र; अहिले डेइमोनद्वारा ह्याण्डल "
+#~ "गरिएको)"
+
+#, fuzzy
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>कर्सर पिलपिल भइरहेको छ</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>झिम्किरहेको कर्सर</b>"
+
+#, fuzzy
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>किहरु दोहोर्‍याउनु होस्</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>कुञ्जीहरू दोहोर्याउनुहोस्</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>छिटो</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>लामो</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>छोटो</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>सुस्त</i></small>"
+
+#, fuzzy
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विश्रामहरुको स्थगन स्वीकार गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विच्छेदहरूको स्थगन गर्न अनुमति दिनुहोस्"
+
+#, fuzzy
+#~ msgid "Cursor _blinks in text boxes and fields"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पाठ बाकसहरु र क्षेत्रहरुमा कर्सर झिम्किन्छ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पाठ बाकसहरु र फाँटहरूमा कर्सर झिम्किन्छ"
+
+#, fuzzy
+#~ msgid "Keyboard Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "किबोर्ड प्राथमिकताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीपाटी प्राथमिकताहरू"
+
+#, fuzzy
+#~ msgid "Keyboard _model:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "किबोर्ड नमूना:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "कुञ्जीपाटी नमूना:"
+
+#, fuzzy
+#~ msgid "Layout Options"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "संस्थापन विकल्पहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सजावट विकल्पहरू"
+
+#, fuzzy
+#~ msgid "Layouts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "संस्थापनहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सजावटहरू"
+
+#, fuzzy
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "माइक्रोसफ्ट प्राकृतिक किबोर्ड\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "माइक्रोसफ्ट प्राकृतिक कुञ्जीपाटी"
+
+#~ msgid "Preview:"
+#~ msgstr "पूर्वावोलकन:"
+
+#, fuzzy
+#~ msgid "_Accessibility..."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पहुच\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पहुँचता..."
+
+#~ msgid "_Add..."
+#~ msgstr "थप्नुहोस्..."
+
+#, fuzzy
+#~ msgid "_Delay:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "ढिल्याइ:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विलम्ब गर्नुहोस्:"
+
+#~ msgid "_Models:"
+#~ msgstr "नमूनाहरू:"
+
+#, fuzzy
+#~ msgid "_Selected layouts:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "छानिएका  संपर्क सूत्र\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "चयन गरिएको सजावटहरू:"
+
+#~ msgid "_Speed:"
+#~ msgstr "गति:"
+
+#, fuzzy
+#~ msgid "Set your keyboard preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "तपाईको किबोर्ड प्राथमिक्ताहरु मिलाउनु होस्\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँको कुञ्जीपाटी प्राथमिक्ताहरू सेट गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "<b>Double-Click Timeout </b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<i>दोहोरो क्लिक समयावधी</i>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>डवल-क्लिक टायमआउट </b>"
+
+#, fuzzy
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<i>तान र झार</i>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>तान्नुहोस् र छोड्नुहोस्</b>"
+
+#, fuzzy
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<i>माउसको orientation</i>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>माउस अभिमुखिकरण</b>"
+
+#, fuzzy
+#~ msgid "<b>Speed</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<i>गति</i>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>गति</b>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>चाँडो</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>उच्च</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>ठूलो</i>"
+
+#, fuzzy
+#~ msgid "<i>Low</i>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<i>कम</i>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<i>न्यून</i>"
+
+#, fuzzy
+#~ msgid "<i>Slow</i>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<i>शुस्त</i>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<i>सुस्त</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>सानो</i>"
+
+#, fuzzy
+#~ msgid "Buttons"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "बटनहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "बटनहरू"
+
+#~ msgid "Large"
+#~ msgstr "ठूलो"
+
+#~ msgid "Motion"
+#~ msgstr "चाल"
+
+#~ msgid "Small"
+#~ msgstr "सानो"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "गतिवर्धन:"
+
+#, fuzzy
+#~ msgid "_Left-handed mouse"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "वाया हाते माउस\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "वायाँ-हाते माउस"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "शीघ्रचेतनता:"
+
+#, fuzzy
+#~ msgid "_Threshold:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "दैलो:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "थ्रेसहोल्ड:"
+
+#, fuzzy
+#~ msgid "_Timeout:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "समयावधी:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "टायमआउट:"
+
+#, fuzzy
+#~ msgid "Set your mouse preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "तपाईको माउस प्राथमिक्ताहरु मिलाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँको माउस प्राथमिक्ताहरू सेट गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Network Proxy"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सनजाल प्र\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्जाल प्रोक्सी"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "तपाईँको सञ्जाल प्रोक्सी प्राथमिक्ताहरू सेट गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "      "
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ " \n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "      "
+
+#, fuzzy
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>_सव्चालित प्रोक्सी समायोजना</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>स्वाचालित प्रोक्सी कन्फिगरेसन</b>"
+
+#, fuzzy
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>_हस्त प्रोक्सी समायोजना</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>म्यानुअल प्रोक्सी कन्फिगरेसन</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>प्रमाणीकरण प्रयोग गर्नुहोस्</b>"
+
+#~ msgid "Advanced Configuration"
+#~ msgstr "उन्नत कन्फिगरेसन"
+
+#, fuzzy
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सोसमायोजना युआरयल:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "स्वत: कन्फिगरेसन URL:"
+
+#, fuzzy
+#~ msgid "HTTP Proxy Details"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "HTTP प्रोक्सी विवरणहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "HTTP प्रोक्सी विवरणहरू"
+
+#, fuzzy
+#~ msgid "H_TTP proxy:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "H_TTP प्रोक्सी:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "HTTP प्रोक्सी:"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सनजाल प्रोक्सी प्राथमिक्ताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्जाल प्रोक्सी प्राथमिक्ताहरू"
+
+#~ msgid "Port:"
+#~ msgstr "पोर्ट:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "प्रोक्सी कन्फिगरेसन"
+
+#, fuzzy
+#~ msgid "S_ocks host:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सक्स मालिक\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सक्स होस्ट:"
+
+#~ msgid "U_sername:"
+#~ msgstr "प्रयोगकर्ताको नाम:"
+
+#, fuzzy
+#~ msgid "_Details"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विवरणहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विस्तृत विवरणहरू"
+
+#, fuzzy
+#~ msgid "_FTP proxy:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "एफटिपि प्रोक्सी:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "FTP प्रोक्सी:"
+
+#, fuzzy
+#~ msgid "_Password:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "संकेतशब्द:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पासवर्ड:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr " HTTP प्रोक्सीलाई सुरक्षित गर्नुहोस्:"
+
+#, fuzzy
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "घटनाहरुसंग ध्वनि र संलग्न ध्वनिहरु सक्षम गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "ध्वनि र घटनाहरूसँग सम्बन्धित ध्वनिहरू सक्षम पार्नुहोस्"
+
+#, fuzzy
+#~ msgid "Sound Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "ध्वनि प्राथमिकताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "ध्वनि प्राथमिकताहरू"
+
+#, fuzzy
+#~ msgid "Flash _entire screen"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सम्यूर्ण पर्दा झल्काउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पूरा पर्दा फ्ल्यास गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Flash _window titlebar"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विन्डो शीर्षकपट्टि झल्काउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्झ्याल शीर्षकपट्टी फ्ल्यास गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "This theme is not in a supported format."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यो ढाँचा समर्थित प्रारुपमा छैन।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यो विषयवस्तु समर्थित ढाँचामा छैन ।"
+
+#~ msgid "Installation Failed"
+#~ msgstr "स्थापना असफल भयो"
+
+#~ msgid "The file format is invalid"
+#~ msgstr "फाइल ढाँचा अवैध छ"
+
+#, fuzzy
+#~ msgid "No theme file location specified to install"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ ":\n"
+#~ "%s\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "स्थापना गर्न विषयवस्तु फाइल स्थान निर्दिष्ट गरिएको छैन"
+
+#, fuzzy
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "...मा ढाँचा स्थापना गर्न अपुग अनुमति:\n"
+#~ "%s\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यसमा विषयवस्तु स्थापना गर्न अपर्याप्त अनुमतिहरू:\n"
+#~ "%s"
+
+#~ msgid "The file format is invalid."
+#~ msgstr "फाइल ढाँचा अवैध छ ।"
+
+#, fuzzy
+#~ msgid "Theme name must be present"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विषय नाम उपस्थित हुनै पर्छ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तु नाम उपस्थित हुनै पर्दछ"
+
+#, fuzzy
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विषय पहिले देखि नै छ। यसलाई बदल्न चहानु हुन्छ?\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तु पहिल्यै अवस्थित छ । यसलाई प्रतिस्थापन गर्नुहुन्छ?"
+
+#, fuzzy
+#~ msgid "Theme"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विषय\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तु"
+
+#, fuzzy
+#~ msgid "Controls"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "नियन्त्रणहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "नियन्त्रण गर्दछ"
+
+#, fuzzy
+#~ msgid "Icons"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "चिन्हहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रतिमाहरू"
+
+#, fuzzy
+#~ msgid "Window Border"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विन्डो सीमाना\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्झ्याल किनारा"
+
+#, fuzzy
+#~ msgid "<b>Preview</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>पूर्वदृष्य</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>पूर्वावलोकन</b>"
+
+#, fuzzy
+#~ msgid "C_ut"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "काट\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "काट्नुहोस्"
+
+#, fuzzy
+#~ msgid "New File"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "नयाँ फाईल\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "नयाँ फाइल"
+
+#, fuzzy
+#~ msgid "Open File"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "फाईल खोल\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फाइल खोल्नुहोस्"
+
+#, fuzzy
+#~ msgid "Save File"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "फाईल संचय गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फाइल बचत गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Show _icons in menus"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "मेनूहरुमा चिन्हहरु देखाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मेनूहरूमा प्रतिमाहरू देखाउनुहोस्"
+
+#, fuzzy
+#~ msgid "_Copy"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_नक्कल गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रतिलिपि गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "_File"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_फाईल\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फाइल"
+
+#, fuzzy
+#~ msgid "_New"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_नयाँ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "नयाँ"
+
+#, fuzzy
+#~ msgid "_Open"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_खोल\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "खोल्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Paste"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_टाँस\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "टाँस्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Print"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_छाप\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मुद्रण गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Quit"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_अन्त्य गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "अन्त्य गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "_Save"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "_संचय\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "बचत गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>चाल कि</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>चाल कुञ्जी</b>"
+
+#, fuzzy
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>शीर्षकपट्टि कार्य</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>शीर्षकपट्टी कार्य</b>"
+
+#, fuzzy
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<b>विन्डो छनौट</b>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<b>सञ्झ्याल चयन</b>"
+
+#, fuzzy
+#~ msgid "Window Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विन्डोको प्राथमिकताहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्झ्याल प्राथमिकताहरू"
+
+#, fuzzy
+#~ msgid "_Interval before raising:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "उठाउन अगाडिको अन्तराल:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "बढाउन अगाडिको अन्तराल:"
+
+#, fuzzy
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "एउटा अन्तराल पछि छानिएका विन्डोहरु उठाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "एउटा अन्तराल पछि चयन गरिएको सञ्झ्यालहरू बढाउनुहोस्"
+
+#~ msgid "Set your window properties"
+#~ msgstr "तपाईँको सञ्झ्यालको गुणहरू सेट गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Windows"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विन्डोहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्झ्यालहरू"
+
+#, fuzzy
+#~ msgid "The GNOME configuration tool"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "जिनोम समायोजना यन्त्र\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "जिनोम कन्फिगरेसन उपकरण"
+
+#~ msgid "Do _not show this warning again"
+#~ msgstr "यो चेतावनी फेरि नदेखाउनुहोस्"
+
+#, fuzzy
+#~ msgid "Error creating signal pipe."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सांकेतिक पाइप बनाउदा त्रुटि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "साङ्केतिक पाइप सिर्जना गर्दा त्रुटि ।"
+
+#~ msgid "Type"
+#~ msgstr "प्रकार"
+
+#, fuzzy
+#~ msgid "Preview Width"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "चौडाईको पूर्वदृष्य देखान\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पूर्वावलोकन चौडाइ"
+
+#, fuzzy
+#~ msgid "Preview Height"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "उचाईको पूर्वदृष्य देखान\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पूर्वावलोकन उच्चाइ"
+
+#, fuzzy
+#~ msgid "Maximize"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "ठूलो बनाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "ठूलो पार्नुहोस्"
+
+#, fuzzy
+#~ msgid "Roll up"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "माथि जाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "माथि जानुहोस्"
+
+#, fuzzy
+#~ msgid "E-mail"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "वि-पत्र\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "इमेल"
+
+#, fuzzy
+#~ msgid "E-mail's shortcut."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "वि-पत्रको छोटोविधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "इमेलको सर्टकट"
+
+#, fuzzy
+#~ msgid "Eject's shortcut."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "निकालको छोटोविधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "इजेक्टको सर्टकट"
+
+#, fuzzy
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "मद्दत शुरु गर, ब्राउजरको सरलविधि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "मद्दत ब्राउजरको सर्टकट सुरुआत गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सञ्जाल ब्राउजरको छोटोविधि प्रारम्भ गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "वेब ब्राउजरको सर्टकट सुरुआत गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Pause"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "रोक\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पज गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Search's shortcut."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "निष्क्रियको छोटोविधि।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "खोजीको सर्टकट ।"
+
+#, fuzzy
+#~ msgid "Sleep's shortcut."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "निष्क्रियको छोटोविधि।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "निष्क्रियको सर्टकट ।"
+
+#, fuzzy
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "फुर्तिलो खैरो फ्याउरो अल्छी कुकुरकोमाथि बाट उफ्रिन्छ।०१२३४५६७८९\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फुर्तिलो खैरो फ्याउरो अल्छी कुकुरमाथि उफ्रिन्छ ।०१२३४५६७८९"
+
+#~ msgid "Name:"
+#~ msgstr "नाम:"
+
+#, fuzzy
+#~ msgid "Style:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "शैलि:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "शैली:"
+
+#~ msgid "Type:"
+#~ msgstr "प्रकार:"
+
+#, fuzzy
+#~ msgid "Size:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "आकार:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "साइज:"
+
+#~ msgid "Version:"
+#~ msgstr "संस्करण:"
+
+#, fuzzy
+#~ msgid "Copyright:"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सर्वाधिकार:\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रतिलिपि अधिकार:"
+
+#~ msgid "Description:"
+#~ msgstr "वर्णन:"
+
+#, fuzzy
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "उपयोगिता: %s वर्णफाईल\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रयोग: %s फन्टफाइल\n"
+
+#, fuzzy
+#~ msgid "Set as Application Font"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "कार्यक्रम वर्ण जस्तै मिलाउ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "अनुप्रयोग फन्टको रूपमा सेट गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Sets the default application font"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "अनुपस्थिति कार्यक्रम वर्ण मिलाउछ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पूर्वनिर्धारित अनुप्रयोग फन्ट सेट गर्दछ"
+
+#, fuzzy
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, खुल्ला प्रकारका वर्णहरुलाई थम्बनेल गरिनेछ।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, खुला प्रकारका फन्टहरूलाई थम्बनेल गरिनेछ ।"
+
+#, fuzzy
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, पिसियफ वर्णहरुलाई थम्बनेल गरिनेछ।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, PCF फन्टहरूलाई थम्बनेल गरिनेछ ।"
+
+#, fuzzy
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, सहि प्रकारका वर्णहरुलाई थम्बनेल गरिनेछ।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, सहि प्रकारका फन्टहरूलाई थम्बनेल गरिनेछ ।"
+
+#, fuzzy
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, प्रकार १का वर्णहरुलाई थम्बनेल गरिनेछ।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, प्रकार १ का फन्टहरूलाई थम्बनेल गरिनेछ ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "खुल्ला प्रकारका वर्णहरु बनाउन प्रयोग गरिने आदेशसंग यो किलाई स्थापना गर।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "खुला प्रकारका फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई "
+#~ "सेट गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पिसियफ वर्णहरु बनाउन प्रयोग गरिने आदेशसंग यो किलाई स्थापना गर।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "PCF फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई सेट गर्नुहोस् "
+#~ "।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सहि प्रकारका वर्णहरु बनाउन प्रयोग गरिने आदेशसंग यो किलाई स्थापना गर।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सही प्रकारका फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई "
+#~ "सेट गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "प्रकार १का वर्णहरु बनाउन प्रयोग गरिने आदेशसंग यो किलाई स्थापना गर।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रकार १ फन्टहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई सेट "
+#~ "गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "खुल्ला प्रकारका वर्णहरुको निम्ति थम्बनेल आदेश\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "खुला प्रकारका फन्टहरूका लागि थम्बनेल आदेश"
+
+#, fuzzy
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पिसियफ वर्णहरुको निम्ति थम्बनेल आदेश\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "PCF फन्टहरूका लागि थम्बनेल आदेश"
+
+#, fuzzy
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सहि प्रकारका वर्णहरुको निम्ति थम्बनेल आदेश\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सहि प्रकारका फन्टहरूका लागि थम्बनेल आदेश"
+
+#, fuzzy
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "प्रकारका १ वर्णहरुको निम्ति थम्बनेल आदेश\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रकारका १ फन्टहरूका लागि थम्बनेल आदेश"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "खुल्ला प्रकारका वर्णहरु थम्बनेल गर्नु हुन्छ कि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "खुला प्रकारका फन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "पिसियफ वर्णहरुलाई थम्बनेल गर्नु हुन्छ कि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "PCFफन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "सहि प्रकारका वर्णहरुलाई थम्बनेल गर्नु हुन्छ कि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सहि प्रकारका फन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "प्रकार १का वर्णहरुलाई थम्बनेल गर्नु हुन्छ कि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रकार १ फन्टहरूलाई थम्बनेल गर्नु पर्दछ या पर्दैन"
+
+#, fuzzy
+#~ msgid "GNOME Font Viewer"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "जिनोम वर्ण दृष्टा\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "जिनोम फन्ट दर्शक"
+
+#, fuzzy
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "<span weight=\"bold\" size=\"larger\">नयाँ वर्ण लागु गर्नु हुन्छ?</span>\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "<span weight=\"bold\" size=\"larger\">नयाँ फन्ट लागू गर्नुहुन्छ?</span>"
+
+#, fuzzy
+#~ msgid "Do _not apply font"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "वर्ण लागु नगर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फन्ट लागू नगर्नुहोस्"
+
+#, fuzzy
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "तपाईले छान्नु भएको ढाँचाले एउटा नयाँ वर्णको सुझाव दिन्छ। यस वर्णको पूर्वदृष्य तल "
+#~ "देखाइएको छ।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "तपाईँले चयन गर्नुभएको विषयवस्तुले एउटा नयाँ फन्टको सुझाव दिन्छ । फन्टको एउटा "
+#~ "पूर्वावलोकन तल देखाइन्छ ।"
+
+#, fuzzy
+#~ msgid "_Apply font"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "वर्ण लागु गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "फन्ट लागू गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विषयहरु\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तुहरू"
+
+#~ msgid "Description"
+#~ msgstr "वर्णन"
+
+#, fuzzy
+#~ msgid "Control theme"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "नियनत्रण विषय\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तु नियन्त्रण गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Window border theme"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विन्डो सिमाना ढाँचा\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "सञ्झ्याल किनारा विषयवस्तु"
+
+#, fuzzy
+#~ msgid "Icon theme"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "चित्रसङ्केतको विषय\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "प्रतिमा विषयवस्तु"
+
+#, fuzzy
+#~ msgid "ABCDEFG"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "एबिसिडिईयफजि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "ABCDEFG"
+
+#, fuzzy
+#~ msgid "Apply theme"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "विषय लागु गर\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तु लागू गर्नुहोस्"
+
+#, fuzzy
+#~ msgid "Sets the default theme"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "अनुपस्थित विषय मिलाउछ\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "पूर्वनिर्धारित विषयवस्तु सेट गर्दछ"
+
+#, fuzzy
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, स्थापित ढाँचाहरुलाई थम्बनेल गरिनेछ।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, स्थापित विषयवस्तुहरूलाई थम्बनेल गरिनेछ ।"
+
+#, fuzzy
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, ढाँचाहरुलाई थम्बनेल गरिनेछ।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "यदि सेट सहि भएमा, विषयवस्तुहरूलाई थम्बनेल गरिनेछ ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "स्थापित ढाँचाहरुका निम्ति थम्बनेलहरु बनाउन प्रयोग गरिने आदेशसंग यो किलाई स्थापना गर।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "स्थापन गरिएको विषयवस्तुहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो "
+#~ "कुञ्जीलाई सेट गर्नुहोस् ।"
+
+#, fuzzy
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "ढाँचाहरुका निम्ति थम्बनेलहरु बनाउन प्रयोग गरिने आदेशसंग यो किलाई स्थापना गर।\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तुहरूका लागि थम्बनेलहरू सिर्जना गर्न प्रयोग गरिने आदेशमा यो कुञ्जीलाई सेट गर्नुहोस् "
+#~ "।"
+
+#, fuzzy
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "स्थापित ढाँचाहरुका निम्ति थम्बनेल आदेश\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "स्थापित विषयवस्तुहरूका लागि थम्बनेल आदेश"
+
+#, fuzzy
+#~ msgid "Thumbnail command for themes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "ढाँचाहरुका निम्ति थम्बनेल आदेश\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तुहरूका लागि थम्बनेल आदेश"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "स्थापित ढाँचाहरुलाई थम्बनेल गर्नु हुन्छ कि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "स्थापित विषयवस्तुहरुलाई थम्बनेल गर्नु पर्दछ या पर्दैन"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ne.po (gnome-control-center.HEAD.ne.po)  #-#-#-#-#\n"
+#~ "ढाँचाहरुलाई थम्बनेल गर्नु हुन्छ कि\n"
+#~ "#-#-#-#-#  ne.po (gnome-control-center.gnome-2-20.ne)  #-#-#-#-#\n"
+#~ "विषयवस्तुहरुलाई थम्बनेल गर्नु पर्दछ या पर्दैन"
+
+#~ msgid "Image/label border"
+#~ msgstr "छवि/लेबुल किनारा"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "सावधान संवादमा लेबुल र छवि वरिपरि किनाराको चौडाइ"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "सावधानी संवादमा देखाइएको बटनहरू"
+
+#~ msgid "Images"
+#~ msgstr "छविहरू"
+
+#~ msgid "All Files"
+#~ msgstr "सबै फाइलहरू"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "ठेगानपुस्तिका सूचना प्राप्त गर्ने प्रयास गर्दा त्यहाँ एउटा त्रुटि थियो\n"
+#~ "इभोल्युसन डेटा सर्भरले प्रोटोकल ह्याण्डल गर्न सक्दैन"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "ठेगान पुस्तक खोल्न असक्षम"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr "अज्ञात लग इन आईडी, प्रयोगकर्ता डाटावेश दुषित गरिएको हुन सक्दछ"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">तपाईँको पासवर्ड परिवर्तन गर्नुहोस्</span>"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "ठेगान:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "सहायक:"
+
+#~ msgid "Address"
+#~ msgstr "ठगाना"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "पासवर्ड परिवर्तन गर्नुहोस्..."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "पासवर्ड परिवर्तन गर्नुहोस्"
+
+#~ msgid "Change password"
+#~ msgstr "पासवर्ड परिवर्तन गर्नुहोस्"
+
+#~ msgid "Contact"
+#~ msgstr "सम्पर्क गर्नुहोस्"
+
+#~ msgid "Current _password:"
+#~ msgstr "हालको पासवर्ड:"
+
+#~ msgid "Full Name"
+#~ msgstr "पूरा नाम"
+
+#~ msgid "Hom_e:"
+#~ msgstr "गृह:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "ICQ:"
+
+#~ msgid "M_SN:"
+#~ msgstr "MSN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "पो.ओ. बाकस:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "पो.ओ. बाकस:"
+
+#~ msgid "Personal Info"
+#~ msgstr "व्यक्तिगत सूचना"
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "कृपया <b>नयाँ पासवर्ड रिटाइप गर्नुहोस्</b> फाँटमा फेरि तपाईँको पासवर्ड टाइप गर्नुहोस् ।"
+
+#~ msgid "Select your photo"
+#~ msgstr "तपाईँको फोटो चयन गर्नुहोस्"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "राज्य/क्षेत्र:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "तपाईँको पासवर्ड परिवर्तन गर्न, तलका फाँटमा हालको पसावर्ड प्रविष्टि गर्नुहोस् र "
+#~ "<b>प्रमाणीकरण गर्नुहोस्</b> क्लिक गर्नुहोस् ।\n"
+#~ "तपाईँले प्रमाणीकरण गरिसके पछि, तपाईँको नयाँ पासवर्ड प्रविष्टि गर्नुहोस्, प्रमाणीकरणका "
+#~ "लागि यसलाई पुन: टाइप गर्नुहोस् र <b>पासवर्ड परिवर्तन गर्नुहोस्</b> क्लिक गर्नुहोस् ।"
+
+#~ msgid "Web _log:"
+#~ msgstr "वेब लग:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "कार्य:"
+
+#~ msgid "Work _fax:"
+#~ msgstr "कार्य फ्याक्स:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "जिप/ हुलाक सङ्केत:"
+
+#~ msgid "_Authenticate"
+#~ msgstr "प्रमाणीकरण गर्नुहोस्"
+
+#~ msgid "_Department:"
+#~ msgstr "विभाग:"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "समूहगत:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "ज्याबर:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "नयाँ पासवर्ड पुन: टाइप गर्नुहोस्:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "राज्य/क्षेत्र:"
+
+#~ msgid "_Work:"
+#~ msgstr "कार्य:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "याहू:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "जिप/हुलाक सङ्केत:"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "शाखा अनपेक्षित रूपमा अन्त्य भयो"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "backend_stdin IO च्यानल बन्द गर्न सकेन: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "backend_stdout IO च्यानल बन्द गर्न सकेन: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "प्रमाणीकरण गरिएको!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "तपाईँले सुरुमा प्रमाणीकरण गरे पछि तपाईँको पासवर्ड परिवर्तन गरिएको छ! कृपया पुन: "
+#~ "प्रमाणीकरण गर्नुहोस् ।"
+
+#~ msgid "That password was incorrect."
+#~ msgstr "त्यो पासवर्ड गलत थियो ।"
+
+#~ msgid "Your password has been changed."
+#~ msgstr "तपाईँको पासवर्ड परिवर्तन गरिएको छ ।"
+
+#~ msgid "System error: %s."
+#~ msgstr "प्रणाली त्रुटि: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "पासवर्ड धेरै छोटो छ ।"
+
+#~ msgid "The password is too simple."
+#~ msgstr "पासवर्ड धेरै सरल छ ।"
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "पुरानो र नयाँ पासवर्डहरू धेरै उस्तै छन् ।"
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "नयाँ पासवर्डले सङ्ख्यात्मक वा विशेष क्यारेक्टर(हरू) समाविष्ट गर्नुपर्दछ ।"
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "पुरानो र नयाँ पासवर्डहरू एउटै छन् ।"
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "%s सुरुआत गर्न अक्षम: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "ब्याकइन्ड सुरुआत गर्न अक्षम"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "एउटा प्रणाली त्रुटि देखा पर्यो"
+
+#~ msgid "Checking password..."
+#~ msgstr "पासवर्ड जाँच गर्दैछ..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "तपाईँको पासवर्ड परिवर्तन गर्न <b>पासवर्ड परिवर्तन गर्नुहोस्</b> क्लिक गर्नुहोस् ।"
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "कृपया तपाईँको पासवर्ड <b>नयाँ पासवर्ड</b> फाँटमा टाइप गर्नुहोस् ।"
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "दुईवटा पासवर्डहरू बराबर छैनन् ।"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>प्रलम्बित प्रविधिहरू</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>प्राथमिकताहरू</b>"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "पहुँचयोग्य लग इन"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "प्रलम्बित प्रविधिहरू सक्षम पार्न गरिएका परिवर्तनहरूले तपाईँको पछिल्लो लग इन नगरे सम्म "
+#~ "प्रभाव लिने छैन ।"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "रूचाइएको अनुप्रयोग संवादमा जानुहोस्"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "पहुँचयोग्य लग इन संवादमा जानुहोस्"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "कुञ्जीपाटी पहुँचता संवादमा जानुहोस्"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "कुञ्जीपाटी पहुँचता"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "रूचाइएका अनुप्रयोगहरू"
+
+#~ msgid "Keyboard Accessibility"
+#~ msgstr "कुञ्जीपाटी पहुँचता"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "माउस कुञ्जीहरू"
+
+#~ msgid "_Enable keyboard accessibility features"
+#~ msgstr "कुञ्जीपाटी पहुँचता विशेषताहरू सक्षम पार्नुहोस्"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "सेटिङहरू परिक्षण गर्न टाइप गर्नुहोस्:"
+
+#~ msgid "seconds"
+#~ msgstr "सेकेन्ड"
+
+#~ msgid "All files"
+#~ msgstr "सबै फाइलहरू"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "चयन गरिएको फन्ट %d बिन्दु ठूलो छ, र कम्प्युटर प्रभावकारि रूपले प्रयोग गर्न यसलाई कठिन "
+#~ "बनाउन सक्दछ ।  तपाईँलाई %d भन्दा सानो साइज चयन गर्न सिफारिस गरन्छ ।"
+#~ msgstr[1] ""
+#~ "चयन गरिएको फन्ट %d बिन्दु ठूलो छ, र कम्प्युटर प्रभावकारि रूपले प्रयोग गर्न यसलाई कठिन "
+#~ "बनाउन सक्दछ ।  तपाईँलाई %d भन्दा सानो साइज चयन गर्न सिफारिस गरन्छ ।"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "चयन गरिएको फन्ट %d बिन्दु ठूलो छ, र कम्प्युटर प्रभावकारी रूपले प्रयोग गर्न यसलाई कठिन "
+#~ "बनाउन सक्दछ ।  तपाईँलाई सानो साइजको फन्ट चयन गर्न सिफारिस गरन्छ ।"
+#~ msgstr[1] ""
+#~ "चयन गरिएको फन्ट %d बिन्दु ठूलो छ, र कम्प्युटर प्रभावकारी रूपले प्रयोग गर्न यसलाई कठिन "
+#~ "बनाउन सक्दछ ।  तपाईँलाई सानो साइजको फन्ट चयन गर्न सिफारिस गरन्छ ।"
+
+#~ msgid "Use previous font"
+#~ msgstr "अघिल्लो फन्ट प्रयोग गर्नुहोस्"
+
+#~ msgid "Use selected font"
+#~ msgstr "चयन गरिएको फन्ट प्रयोग गर्नुहोस्"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "स्थापना गर्नलाई विषयवस्तुको फाइलनाम निर्दिष्ट गर्नुहोस्"
+
+#~ msgid "filename"
+#~ msgstr "फाइलनाम"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr "theme|background|fonts|interface) देखाउन पृष्ठको नाम निर्दिष्ट गर्नुहोस्"
+
+#~ msgid "page"
+#~ msgstr "पृष्ठ"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[WALLPAPER...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "पूर्वनिर्धारित सङ्केतक"
+
+#~ msgid "Apply Background"
+#~ msgstr "पृष्ठभूमि लागू गर्नुहोस्"
+
+#~ msgid "Apply Font"
+#~ msgstr "फन्ट लागू गर्नुहोस्"
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "हालको विषयवस्तुले पृष्ठभूमि र फन्ट बारेमा सुझाब दिन्छ ।"
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "हालको विषयवस्तुले एउटा पृष्ठभूमिको सुझाव दिन्छ ।"
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "हालको विषयवस्तुले एउटा फन्ट सुझाव दिन्छ ।"
+
+#~ msgid "Custom"
+#~ msgstr "अनुकुलन"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>रङ्गहरू</b>"
+
+#~ msgid "<b>Hinting</b>"
+#~ msgstr "<b>सङ्केत गर्दै</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>मेनुहरू र उपकरणपट्टीहरू</b>"
+
+#~ msgid "<b>Rendering</b>"
+#~ msgstr "<b>रेन्डर गर्दै</b>"
+
+#~ msgid "<b>Smoothing</b>"
+#~ msgstr "<b>नरम गर्दै</b>"
+
+#~ msgid "<b>Subpixel Order</b>"
+#~ msgstr "<b>उपपिक्सेल क्रम</b>"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>वालपेपर</b>"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "देखावट प्राथमिकताहरू"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "सर्वित्तम व्यतिरेक"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "अनुकुलन गर्नुहोस्..."
+
+#~ msgid ""
+#~ "Centered\n"
+#~ "Fill screen\n"
+#~ "Scaled\n"
+#~ "Zoom\n"
+#~ "Tiled"
+#~ msgstr ""
+#~ "केन्द्रिकृत\n"
+#~ "पर्दा भर्नुहोस्\n"
+#~ "मापन गरिएको\n"
+#~ "जुम\n"
+#~ "टायल गरिएको"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "तपाईँको कर्सर विषयवस्तु परिवर्तन गर्नाले तपाईँले पछि लग इन गर्दा प्रभाव गर्नेछ ।"
+
+#~ msgid "Colors"
+#~ msgstr "रङ्गहरू"
+
+#~ msgid "Customize Theme"
+#~ msgstr "विषयवस्तु अनुकुलन गर्नुहोस्"
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "डेस्कटप फन्ट:"
+
+#~ msgid "Edit"
+#~ msgstr "सम्पादन गर्नुहोस्"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "फन्ट रेन्डरिङ विवरणहरू"
+
+#~ msgid "Fonts"
+#~ msgstr "फन्टहरू"
+
+#~ msgid "Go _to Fonts Folder"
+#~ msgstr "फन्ट फोल्डरमा जानुहोस्"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "ग्रेस्केल"
+
+#~ msgid "Interface"
+#~ msgstr "इन्टरफेस"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "रङ्ग निर्दिष्ट गर्न संवाद खोल्नुहोस्"
+
+#~ msgid "Pointer"
+#~ msgstr "सङ्केतक"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "यस रूपमा विषयवस्तु बचत गर्नुहोस्..."
+
+#~ msgid "Save _As..."
+#~ msgstr "यस रूपमा बचत गर्नुहोस्..."
+
+#~ msgid "Save _background image"
+#~ msgstr "पृष्ठभूमि छवि बचत गर्नुहोस्"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "ठोस रङ्ग\n"
+#~ "तेर्सो ग्रेडियन्ट\n"
+#~ "ठाडो ग्रेडियन्ट"
+
+#~ msgid "Text"
+#~ msgstr "पाठ"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "वस्तुहरू तल पाठ\n"
+#~ "वस्तुहरू बाहेक कपाठ\n"
+#~ "प्रतिमाहरू मात्र\n"
+#~ "पाठ मात्र"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "हालको नियन्त्रण विषयवस्तुले रङ्ग स्किमाहरूलाई समर्थन गर्दैन ।"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "उपकरणपट्टी बटन लेबुलहरू:"
+
+#~ msgid "_Description:"
+#~ msgstr "वर्णन:"
+
+#~ msgid "_Document font:"
+#~ msgstr "कागजात फन्ट:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "सम्पादनयोग्य मेनु छोटकरी कुञ्जीहरू"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "स्थिर चौडाइ फन्ट:"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "आगत बाकसहरू:"
+
+#~ msgid "_Install..."
+#~ msgstr "स्थापना गर्नुहोस्..."
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "पूर्वनिर्धारितहरूमा पुन: सेट गर्नुहोस्"
+
+#~ msgid "_Selected items:"
+#~ msgstr "वस्तुहरू चयन गर्नुहोस्:"
+
+#~ msgid "_Size:"
+#~ msgstr "साइज:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "टूलटिप:"
+
+#~ msgid "_Windows:"
+#~ msgstr "सञ्झ्यालहरू:"
+
+#~ msgid "Appearance"
+#~ msgstr "देखावट"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "डेक्सटपको हेराइ अनुकुलन गर्नुहोस्"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "डेक्सटपको विभिन्न भागहरुका लागि विषयवस्तु प्याकेजहरू स्थापना गर्दछ"
+
+#~ msgid "Theme Installer"
+#~ msgstr "विषयवस्तु स्थापक"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "जीनोम विषयवस्तु प्याकेज"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s by %d %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s द्वारा %d %s\n"
+#~ "फोल्डर: %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "पिक्सेल"
+#~ msgstr[1] "पिक्सेलस्"
+
+#~ msgid ""
+#~ "Cannot install theme.\n"
+#~ "The %s utility is not installed."
+#~ msgstr ""
+#~ "विषयवस्तु स्थापना गर्न सकिँदैन ।\n"
+#~ "%s उपयोगिता स्थापना गरिएको छैन ।"
+
+#~ msgid ""
+#~ "Cannot install theme.\n"
+#~ "There was a problem while extracting the theme."
+#~ msgstr ""
+#~ "विषयवस्तु स्थापना गर्न सकिँदैन ।\n"
+#~ "विषयवस्तु ल्याउँदा त्यहाँ एउटा समस्या थियो ।"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "जीनोम विषयवस्तु %s सही रूपले स्थापना गरियो"
+
+#~ msgid "The theme is an engine. You need to compile it."
+#~ msgstr "विषयवस्तु एउटा इन्जिन हो । तपाईँले यो पूरा गर्न आवश्यक छ ।"
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "\"%s\" विषयवस्तु स्थापना भएको छ ।"
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "तपाईँ यसलाई अहिले लागू गर्नुहुन्छ, वा हालको विषयवस्तु नै राख्नुहुन्छ?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "हालको विषयवस्तु राख्नुहोस्"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "नयाँ विषयवस्तु लागु गर्नुहोस्"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "अस्थायी डाइरेक्टरी सिर्जना गर्न असफल भयो"
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s मार्ग हो जहाँ विषयवस्तु फाइल स्थापना गरिनेछ । यसलाई स्रोत स्थानको रूपमा चयन गर्न "
+#~ "सकिँदैन"
+
+#~ msgid "Select Theme"
+#~ msgstr "विषयवस्तु चयन गर्नुहोस्"
+
+#~ msgid "Theme Packages"
+#~ msgstr "विषयवस्तु प्याकेज"
+
+#~ msgid "_Overwrite"
+#~ msgstr "अधिलेखन गर्नुहोस्"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "तपाईँ यो नाम मेट्न चाहनुहुन्छ?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "विषयवस्तु मेट्न सकिँदैन"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "सेटिङ प्रबन्धक 'जीनोम-सेटिङ-डेइमोन' सरुआत गर्न अस्क्षम ।\n"
+#~ "जीनोम सेटिङ प्रबन्धक चालु बिना, केही प्राथमिकताहरूले प्रभाव गर्नेछैन । यसले Bonobo सँग "
+#~ "समस्या भएको इङ्गित गर्न सक्दछ, वा एउटा जीनोमबिहिन(जस्तै केडीई) सेटिङ प्रबन्धक पहिल्यै "
+#~ "सक्रिय पारिएको हुन सक्दछ र जीनोम सेटिङ प्रबन्धकसँग द्वन्द्व भैरहेको हुन सक्दछ ।"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "'%s' भण्डार प्रतिमा लोड गर्न असफल भयो\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "फाइल प्रतिलिपि गर्दै: %u को %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' प्रतिलिपि गर्दै"
+
+#~ msgid "Copying files"
+#~ msgstr "फाइलहरू प्रतिलिपि गर्दै"
+
+#~ msgid "Parent Window"
+#~ msgstr "प्रमूल सञ्झ्याल"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "संवादको प्रमूल सञ्झ्याल"
+
+#~ msgid "Callback"
+#~ msgstr "कलब्याक गर्नुहोस्"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "कुञ्जीसँग सम्बन्धित मान परिवर्तन हुँदा यो कलब्याक जारी गर्नुहोस्"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "लागूमा जीकन्फ क्लाइन्टलाई फरवार्ड गरिनका लागि डेटा समाविष्ट गर्ने जीकन्फ परिवर्तन सेट"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "विड्जेट कलब्याकमा रूपान्तरण"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "जीकन्फबाट विजेटमा डेटा रूपान्तरण हुँदा जारी गरिनका लागि कलब्याक"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "विजेट कलब्याकबाट रूपान्तरण"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "विजेटबाट जीकन्फमा डेटा रूपान्तरण हुँदा जाी गरिनका लागि कलब्याक"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "वस्तु जसले गुण नियन्त्रण गर्दछ (सामान्यतया विजेट)"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "निर्दिष्ट गुण सम्पादकद्वारा आवश्यक अनुकुलन डेटा"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr "गुण सम्पादक वस्तु डेटा खाली गरिँदा जारी गरिनुपर्ने कलब्याक"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "पूर्वनिर्धारित सङ्केतक - हाल"
+
+#~ msgid "White Pointer"
+#~ msgstr "सेतो सङ्केतक"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "सेतो सङ्केतक - हाल"
+
+#~ msgid "Large Pointer"
+#~ msgstr "ठूलो सङ्केतक"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "ठूलो सङ्केतक - हाल"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "ठूलो सेतो सङ्केतक - हाल"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "सेतो ठूलो सङ्केतक"
+
+#~ msgid "Autostart the preferred AT"
+#~ msgstr "यसमा रूचाइएको सवत: सुरु गर्नुहोस्"
+
+#~ msgid "Visual"
+#~ msgstr "दृष्टिगत"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "कन्फिगरेसन बचत गर्दा त्रुटि: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "मुख्य इन्टरफेस लोड गर्न सकेन"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "कृपया एप्लेट राम्रोसँग स्थापना गरिएको निश्चित गर्नुहोस्"
+
+#~ msgid "<b>Image Viewer</b>"
+#~ msgstr "<b>छवि दर्शक</b>"
+
+#~ msgid "<b>Instant Messenger</b>"
+#~ msgstr "<b>द्रुट मेसेन्जर</b>"
+
+#~ msgid "<b>Mail Reader</b>"
+#~ msgstr "<b>पत्र पाठक</b>"
+
+#~ msgid "<b>Mobility</b>"
+#~ msgstr "<b>गतिशीलता</b>"
+
+#~ msgid "<b>Multimedia Player</b>"
+#~ msgstr "<b>मल्टिमिडिया प्लेयर</b>"
+
+#~ msgid "<b>Terminal Emulator</b>"
+#~ msgstr "<b>टर्मिनल इमुलेटर</b>"
+
+#~ msgid "<b>Text Editor</b>"
+#~ msgstr "<b>पाठ सम्पादक</b>"
+
+#~ msgid "<b>Video Player</b>"
+#~ msgstr "<b>भिडियो प्लेयर</b>"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>दृष्टिगत</b>"
+
+#~ msgid "<b>Web Browser</b>"
+#~ msgstr "<b>वेब ब्राउजर</b>"
+
+#~ msgid "Accessibility"
+#~ msgstr "पहुँचता"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "सबै %s घटनाहरू वास्तविक लिङ्कले प्रतिस्थापित हुनेछन्"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "कार्यान्वयन झण्डा:"
+
+#~ msgid "Internet"
+#~ msgstr "इन्टरनेट"
+
+#~ msgid "Multimedia"
+#~ msgstr "मल्टिमिडिया"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "नयाँ ट्याबमा लिङ्क खोल्नुहोस्"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "नयाँ सञ्झ्यालमा लिङ्क खोल्नुहोस्"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "पूर्वनिर्धारित वेब ब्राउजरसँग लिङ्क खोल्नुहोस्"
+
+#~ msgid "Run at st_art"
+#~ msgstr "सुरुआतमा चलाउनुहोस्"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "टर्मिनलमा चलाउनुहोस्"
+
+#~ msgid "System"
+#~ msgstr "प्रणाली"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "बान्शी संगित प्लेयर"
+
+#~ msgid "Claws Mail"
+#~ msgstr "क्लज् मेल"
+
+#~ msgid "Dasher"
+#~ msgstr "ड्याशर"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "एपिफनी वेब ब्राउजर"
+
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "इभोल्युसन मेल पाठक १.४"
+
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "इभोल्युसन मेल पाठक १.५"
+
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "इभोल्युसन मेल पाठक १.६"
+
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "इभोल्युसन मेल पाठक २.०"
+
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "इभोल्युसन मेल पाठक २.२"
+
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "इभोल्युसन मेल पाठक २.४"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "पर्दा पाठक बिनाको जीनोम म्याग्नीफायर"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "पर्दा कुञ्जीपाटीमा जीनोम"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "जीनोपेर्निकस"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "म्याग्नीफायरसँग जीनोपेर्निकस"
+
+#~ msgid "Iceape"
+#~ msgstr "आइसएप"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "आइसएप मेल"
+
+#~ msgid "Icedove"
+#~ msgstr "आइसडोभ"
+
+#~ msgid "Iceweasel"
+#~ msgstr "आइसविसेल"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "पर्दा पाठकबिना केडीई म्याग्नीफायर"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "लिनक्स पर्दा पाठक"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "म्याग्नीफायरसँग लिनक्स पर्दा पाठक"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "मोजिल्ला १.६"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "मोजिल्ला थन्डरबर्ड"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "मुइन संगीत प्लेयर"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Opera"
+#~ msgstr "ओपेरा"
+
+#~ msgid "Orca"
+#~ msgstr "ओर्का"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "म्याग्नीफायरसँग ओर्का"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "रिदमबाकस संगीत प्लेयर"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "सी मङ्की"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "सि मङ्की मेल"
+
+#~ msgid "Simple OnScreen Keyboard"
+#~ msgstr "पर्दा कुञ्जीपाटीमा सरल"
+
+#~ msgid "Sylpheed"
+#~ msgstr "सिल्फीड"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "सिल्फीड-क्लज्"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "टोटेम चलचित्र प्लेयर"
+
+#~ msgid "aterm"
+#~ msgstr "अटर्म"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "पर्दा रिज्योलुसन"
+
+#~ msgid "Normal"
+#~ msgstr "सामान्य"
+
+#~ msgid "Left"
+#~ msgstr "बायाँ"
+
+#~ msgid "Inverted"
+#~ msgstr "व्युतक्रमित"
+
+#~ msgid "Right"
+#~ msgstr "दायाँ"
+
+#~ msgid "R_otation:"
+#~ msgstr "परिक्रमण:"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "नयाँ सेटिङहरू परिक्षण गर्दै । यदि तपाईँले %d सेकेण्ड भित्र प्रतिउत्तर नगरेमा अघिल्लो "
+#~ "सेटिङहरू पुर्वावस्थामा ल्याइनेछ ।"
+#~ msgstr[1] ""
+#~ "नयाँ सेटिङहरू परिक्षण गर्दै । यदि तपाईँले %d सेकेण्ड भित्र प्रतिउत्तर नगरेमा अघिल्लो "
+#~ "सेटिङहरू पुर्वावस्थामा ल्याइनेछ ।"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time.\n"
+#~ msgstr ""
+#~ "\"%s\" सर्टकट प्रयोग गर्न सकिँदैन किनभने यो कुञ्जी प्रयोग गरेर टाइप गर्न असम्भव हुनेछ "
+#~ "।\n"
+#~ "कृपया एकै समयामा Control, Alt or Shift जस्तायस्ता कुञ्जीले प्रयास गर्नुयामा ।\n"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new "
+#~ "accelerator, or press backspace to clear."
+#~ msgstr ""
+#~ "सर्टकट कुञ्जी सम्पादन गर्न, संगती पङ्क्तिमा क्लिक गर्नुहोस् र एउटा नयाँ गतिवर्धक टाइप "
+#~ "गर्नुहोस्, वा खाली गर्न ब्याकस्पेस थिच्नुहोस् ।"
+
+#~ msgid "There was an error launching the keyboard tool: %s"
+#~ msgstr "कुञ्जीपाटी उपकरण सुरुआत गर्दा त्यहाँ एउटा त्रुटि थियो: %s"
+
+#~ msgid "_Accessibility"
+#~ msgstr "पहुँचता"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "टाइप विच्छेद सेटिङ देखाएर पृष्ठ सुरुआत गर्नुहोस्"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "जीनोम कुञ्जीपाटी प्राथमिकताहरू"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "एउटा कुञ्जीपाटी नमूना रोज्नुहोस्"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "सजावट रोज्नुहोस्"
+
+#~ msgid "Choose..."
+#~ msgstr "रोज्नुहोस्..."
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "कर्सर झिम्काई गति"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "कुञ्जी तल झर्दा कुञ्जी थिचाइहरू दोहोरिन्छन्"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "पुनरावृतिक कुञ्जीपाटी प्रयोग क्षतिलाई रोक्नलाई मद्दत गर्नका लागि निश्चित समयावधि "
+#~ "पछि पर्दा ताल्चा लगाउनुहोस्"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "कुञ्जी गति दोहोर्याउनुहोस्"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "पूर्वनिर्धारितहरू रिसेट गर्नुहोस्"
+
+#~ msgid "Separate _layout for each window"
+#~ msgstr "प्रत्येक सञ्झ्यालका लागि छुट्टाछुट्टै सजावट"
+
+#~ msgid "_Layouts:"
+#~ msgstr "सजावटहरू:"
+
+#~ msgid "_Variants:"
+#~ msgstr "चलहरू:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "विक्रेताहरू:"
+
+#~ msgid "Vendors"
+#~ msgstr "विक्रेताहरू"
+
+#~ msgid "%d millisecond"
+#~ msgid_plural "%d milliseconds"
+#~ msgstr[0] "%d मिलिसेकेन्ड"
+#~ msgstr[1] "%d मिलिसेकेन्डहरू"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>प्रत्यक्ष इन्टरनेट जडान</b>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>होस्ट सूची उपेक्षा गर्नुहोस्</b>"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "सबै प्रोटोकलहरूका लागि एउटै प्रोक्सी प्रयोग गर्नुहोस्"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "अज्ञात भोल्युम नियन्त्रण %d"
+
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "'%s' का लागि परिक्षण पाइपलाइन रचना गर्न असफल भयो"
+
+#~ msgid "Not connected"
+#~ msgstr "जडान भएको छैन"
+
+#~ msgid "Autodetect"
+#~ msgstr "स्वत: पत्ता लगाउनुहोस्"
+
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - उन्नत लिनक्स ध्वनी बनावट"
+
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART ध्वनी डेइमोन"
+
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - स्पष्ट गरिएको ध्वनी डेइमोन"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - खुला ध्वनी प्रणाली"
+
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "पल्सअडियो ध्वनी सर्भर"
+
+#~ msgid "Test Sound"
+#~ msgstr "परिक्षण ध्वनि"
+
+#~ msgid "Silence"
+#~ msgstr "मौन"
+
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr "जीनोम ध्वनि प्राथमिकताहरू"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>अडियो वार्तालाप</b>"
+
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>पूर्वनिर्धारित मिश्रित ट्रयाकहरू</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>संगीत र चलचित्र</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>ध्वनि घटनाहरू</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">परिक्षण गर्दैछ...</span>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "समाप्त गर्न 'ठीक छ' बटन क्लिक गर्नुहोस् ।"
+
+#~ msgid "Devices"
+#~ msgstr "यन्त्रहरू"
+
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "सफ्टवेयर ध्वनि मिश्रण (ESD) सक्षम पार्नुहोस्"
+
+#~ msgid "S_ound playback:"
+#~ msgstr "ध्वनि प्लेब्याक:"
+
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "कुञ्जीपाटीसँग नियन्त्रण गर्न यन्त्र र ट्रयाकहरू चयन गर्नुहोस् । यदि आवश्यक परेमा वहुविध "
+#~ "ट्रयाकहरू चयन गर्न शिफ्ट र नियन्त्रण कुञ्जीहरू प्रयोग गर्नुहोस् ।"
+
+#~ msgid "So_und playback:"
+#~ msgstr "ध्वनि प्लेब्याक:"
+
+#~ msgid "Sou_nd capture:"
+#~ msgstr "ध्वनि ग्रहण:"
+
+#~ msgid "Sounds"
+#~ msgstr "ध्वनि"
+
+#~ msgid "System Beep"
+#~ msgstr "प्रणाली बिप"
+
+#~ msgid "Test"
+#~ msgstr "परिक्षण गर्नुहोस्"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "पाइपलाइन परिक्षण गर्दै"
+
+#~ msgid "_Device:"
+#~ msgstr "यन्त्र:"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "प्रणाली बिप सक्षम पार्नुहोस्"
+
+#~ msgid "_Play system sounds"
+#~ msgstr "प्रणाली ध्वनि बजाउनुहोस्"
+
+#~ msgid "_Sound playback:"
+#~ msgstr "ध्वनि प्लेब्याक:"
+
+#~ msgid "_Visual system beep"
+#~ msgstr "दृष्टिगत प्रणाली बीप"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "तपाईँको सञ्झ्याल प्रबन्धकका लागि प्राथमिकता अनुप्रयोग सुरुआत गर्न सकिँदैन"
+
+#~ msgid "C_ontrol"
+#~ msgstr "नियन्त्रण गर्नुहोस्"
+
+#~ msgid "_Alt"
+#~ msgstr "Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "अति"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "सर्वोत्तम(वा\"सञ्झ्याल लोगो\")"
+
+#~ msgid "_Meta"
+#~ msgstr "मेटा"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr "सञ्झ्याल सार्न, यो कुञ्जी थिच्नुहोस्-र-राख्नुहोस् त्यसपछि सञ्झ्याल लिनुहोस्:"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "यो कार्य कार्यसम्पादन गर्न शिर्षकपट्टी डबल-क्लिक गर्नुहोस्:"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "माउस सञ्झ्यालहरू माथि हुँदा तिनीहरूलाई चयन गर्नुहोस्"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "XKB कन्फिगरेसन सक्रिय पार्दा त्रुटि ।\n"
+#~ "यो बिभिन्न परिस्थितिहरूमा हुन सक्दछ:\n"
+#~ "- libxklavier लाइब्रेरीमा एउटा बग\n"
+#~ "- X सर्भरमा (xkbcomp, xmodmap utilities) एउटा बग\n"
+#~ "- अमिल्दो libxkbfile कार्यान्वयनसँग X सर्भर\n"
+#~ "\n"
+#~ "X सर्भर संस्करण डेटा:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "यदि तपाईँले यस हवस्थालाई बगको रूपमा प्रतिवेदन गर्नुभएमा, कृपया निम्ग समावेश गर्नुहोस्:\n"
+#~ "- <b>%s</b> को परिणाम\n"
+#~ "- <b>%s</b> को परिणाम"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "तपाईँले XFree ४.३.०. प्रयोग गरिरहनुभएको छ\n"
+#~ "त्यहाँ जटिल XKB कन्फीगरेसनसँग ज्ञात समस्याहरू छन् ।\n"
+#~ "सरल  कन्फिगरेसन प्रयोग गरेर वा XFree को ताजा संस्करण लिएर प्रयास गर्नुहोस् ।"
+
+#~ msgid ""
+#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.</b>\n"
+#~ "\n"
+#~ "Expected was %s, but the the following settings were found: %s.\n"
+#~ "\n"
+#~ "Which set would you like to use?"
+#~ msgstr ""
+#~ "<b>X प्रणाली कुञ्जीपाटी सेटिङहरू तपाईँको हालको जीनोम कुञ्जीपाटी सेटिङहरूबाट भिन्न "
+#~ "हुन्छन् ।</b>\n"
+#~ "\n"
+#~ "अपेक्षा गरिएको %s थियो, तर निम्न सेटिङहरू फेला परे: %s.\n"
+#~ "\n"
+#~ "जुन सेट तपाईँ प्रयोग गर्न चाहनुहुन्छ?"
+
+#~ msgid "Use X settings"
+#~ msgstr "X सेटिङहरू प्रयोग गर्नुहोस्"
+
+#~ msgid "Keep GNOME settings"
+#~ msgstr "जिनोम सेटिङहरू राख्नुहोस्"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "bg_applier को प्रकार: मूल सञ्झ्यालका लागि BG_APPLIER_ROOT वा पूर्वावलोकनका लागि "
+#~ "BG_APPLIER_PREVIEW"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "यदि एप्लायर पूर्वावलोकन हुन्छ भने चौडा गर्नुहोस्: ६४ मा पूर्वनिर्धारित ।"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "यदि पूर्वावलोकन हुन्छ भने उच्च गर्नुहोस्: ४८ मा पूर्वानिर्धारित ।"
+
+#~ msgid "Screen"
+#~ msgstr "पर्दा"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "पर्दा जहाँ BGApplier कोर्नुपर्दछ"
+
+#~ msgid "<b>Start %s</b>"
+#~ msgstr "<b>%s सुरु गर्नुहोस्</b>"
+
+#~ msgid "Help"
+#~ msgstr "मद्दत"
+
+#~ msgid "Upgrade"
+#~ msgstr "स्तरवृधि"
+
+#~ msgid "Uninstall"
+#~ msgstr "स्थापना नगर्नुहोस्"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "मनपर्नेहरूबाट हटाउनुहोस्"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "मनपर्नेहरूमा थप्नुहोस्"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "सुरुआत कार्यक्रमहरूबाट हटाउनुहोस्"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "सुरुआत कार्यक्रमहरूलाई थप्नुहोस्"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>मिल्दो फेला परेन ।</b> </span><span>\n"
+#~ "\n"
+#~ " तपाईँको फिल्टरले \"<b>%s</b>\" कुनै पनि वस्तुहरूलाई मिलाउँदैन ।</span>"
+
+#~ msgid "Other"
+#~ msgstr "अन्य"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "नयाँ स्प्रिडशीट"
+
+#~ msgid "New Document"
+#~ msgstr "नयाँ कागजात"
+
+#~ msgid "Home"
+#~ msgstr "गृह"
+
+#~ msgid "File System"
+#~ msgstr "फाइल प्रणाली"
+
+#~ msgid "Network Servers"
+#~ msgstr "सञ्जाल सेवाहरू"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>खोल्नुहोस्</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "पुन: नामाकरण गर्दैछ..."
+
+#~ msgid "Send To..."
+#~ msgstr "पठाउनुहोस्..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "रद्दीटोकरीमा सार्नुहोस्"
+
+#~ msgid "Edited %m/%d/%Y"
+#~ msgstr "सम्पादित %m/%d/%Y"
+
+#~ msgid "<b>Open with \"%s\"</b>"
+#~ msgstr "<b>\"%s\" सँग खोल्नुहोस्</b>"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "पूर्वनिर्धारित अनुप्रयोगसँग खोल्नुहोस्"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "फाइल प्रबन्धक खोल्नुहोस्"
+
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "'%s' तत्वका लागि अनपेक्षित '%s' विशेषता"
+
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "'%s' तत्वको '%s' विशेषता फेला परेन"
+
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "अनपेक्षित '%s' ट्याग, '%s' ट्याग अपेक्षा गरियो"
+
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "'%s' भित्र अनपेक्षित '%s' ट्याग"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "डेटा डाइरेक्टरी भित्र वैध पुस्तकचिनो फाइल फेला परेन"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "'%s' URI का लागि एउटा पुस्तकचिनो पहिल्यै अवस्तित छ"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "'%s' URI का लागि पुस्तकचिनो फेला परेन"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "'%s' URI का लागि पुस्तकचिनो भित्र माइम प्रकार परिभाषित छैन"
+
+#~ msgid "No private flag has been defined in bookmark for URI '%s'"
+#~ msgstr "'%s' URI का लागि पुस्तकचिनो भित्र प्राइभेट झण्डा परिभाषा गरिएको छैन"
+
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "'%s' URI का लागि पुस्तकचिनो भित्र समूहहरू सेट गरिएको छैन"
+
+#~ msgid "No application with name '%s' registered a bookmark for '%s'"
+#~ msgstr "'%s' नामको अनुप्रयोगले '%s' का लागि पुस्तकचिनो दर्ता गरेन"
+
+#~ msgid "Find Now"
+#~ msgstr "नयाँ फेला पार्नुहोस्"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s खोल्नुहोस्</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "प्रणालीबाट वस्तुहरू हटाउनुहोस्"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "\"%s\" सञ्झ्याल प्रबन्धकले कन्फिगरेसन उपकरण दर्ता गरेको छैन\n"
+
+#~ msgid "Minimize"
+#~ msgstr "सानो पार्नुहोस्"
+
+#~ msgid "None"
+#~ msgstr "कुनै पनि होइन"
+
+#~ msgid ""
+#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr ""
+#~ "यदि ठीक छ भने, माइम ह्याण्डलर text/plain and text/* का लागि समक्रमाणमा राखिनेछ"
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "गृह फोल्डरको सर्टकट"
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "पर्दाको सर्टकट ताल्चा लगाउनुहोस् ।"
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "लगआउटको सर्टकट ।"
+
+#~ msgid "Media player"
+#~ msgstr "मिडिया प्लेयर"
+
+#~ msgid "Media player key's shortcut."
+#~ msgstr "मिडिया प्लेयर कुञ्जीको सर्टकट ।"
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "पछिल्लो ट्रयाक कुञ्जीको सर्टकट ।"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "पज कुञ्जीको सर्टकट ।"
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "बजाउनुहोस् (वा बजाउनुहोस्/पज गर्नुहोस्) कुञ्जीको सर्टकट ।"
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "अघिल्लो ट्रयाक कुञ्जीको सर्टकट ।"
+
+#~ msgid "Skip to next track"
+#~ msgstr "पछिल्लो ट्रयाकमा फड्काउनुहोस्"
+
+#~ msgid "Skip to previous track"
+#~ msgstr "अघिल्लो ट्रयाकमा फड्काउनुहोस्"
+
+#~ msgid "Sleep"
+#~ msgstr "निष्क्रिय पार्नुहोस्"
+
+#~ msgid "Stop playback key"
+#~ msgstr "प्लेब्याक कुञ्जी रोक्नुहोस्"
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "प्लेब्याकको सर्टकट रोक्नुहोस् ।"
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "भोल्युम घटाइको सर्टकट ।"
+
+#~ msgid "Volume mute's shortcut."
+#~ msgstr "भोल्युम मौनको सर्टकट ।"
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "भोल्युम बढाउनुहोस्‌को सर्टकट ।"
+
+#~ msgid "Display a dialog when there are errors running the screensaver"
+#~ msgstr "स्क्रिनसेभर चलाउँदा त्रुटि हुँदा एउटा संवाद प्रदर्शन गर्नुहोस्"
+
+#~ msgid "Run screensaver at login"
+#~ msgstr "लग इनमा स्क्रिनसेभर चलाउनुहोस्"
+
+#~ msgid "Show Startup Errors"
+#~ msgstr "प्रारम्भिक त्रुटिहरू देखाउनुहोस्"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "कुञ्जीले [%s] फेला पारेन\n"
+
+#~ msgid "Filter"
+#~ msgstr "फिल्टर"
+
+#~ msgid "Groups"
+#~ msgstr "समूहहरू"
+
+#~ msgid "Common Tasks"
+#~ msgstr "साझा कार्यहरू"
+
+#~ msgid "Control Center"
+#~ msgstr "नियन्त्रण केन्द्र"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "कार्य सक्रिय गरिएको बेला नियन्त्रण-केन्द्र बन्द गर्नुहोस्"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "'थप्नुहोस्' वा 'हटाउनुहोस्‌' कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "'मद्दत' कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "'सुरुआत गर्नुहोस्' कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "'स्तरवृधि गर्नुहोस्' वा 'स्थापना नगर्नुहोस्' कार्य कार्यसम्पादन गर्दा शेल अन्त्य गर्नुहोस्"
+
+#~ msgid "Indicates whether to close the shell when a help action is performed"
+#~ msgstr "'मद्दत' कार्य कार्यसम्पादन गरिँदा शेल बन्द गर्नु पर्दछ या पर्दैन इङ्गित गर्दछ"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed"
+#~ msgstr ""
+#~ "'सुरुआत गर्नुहोस्' कार्य कार्यसम्पादन गरिँदा शेल बन्द गर्नु पर्दछ या पर्दैन इङ्गित गर्दछ"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed"
+#~ msgstr ""
+#~ "एउटा 'थप्नुहोस्' वा 'हटाउनुहोस्' कार्य कार्यसम्पादन गरिँदा शेल बन्द गर्नु पर्दछ या पर्दैन "
+#~ "इङ्गित गर्दछ"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed"
+#~ msgstr ""
+#~ "एउटा 'स्तरवृधि' वा 'स्थापना नगर्नुहोस्' कार्य कार्यसम्पादन गरिँदा शेल बन्द गर्नु पर्दछ "
+#~ "या पर्दैन इङ्गित गर्दछ"
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "कार्य नामहरू र सम्बन्धितहरू । डेस्कटप फाइलहरू"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center (thus needing to be "
+#~ "translated) followed by a \";\" separator then the filename of an "
+#~ "associated .desktop file to launch for that task."
+#~ msgstr ""
+#~ "\";\" विभाजक र त्यसपछि सम्बन्धित फाइलनामद्वारा अनुशरण गरिने नियन्त्रण-केन्द्रमा "
+#~ "प्रदर्शन गरिनुपर्ने कार्यनाम (यसैले अनुवाद गर्नु आवश्यक छ) \";\" विभाजकद्वारा अनुशरण "
+#~ "गरिने र त्यसपछि सम्बन्धित फाइलनाम । उक्त कार्यको लागि सुरुआत गर्नुपर्ने डेस्कटप फाइल ।"
+
+#~ msgid ""
+#~ "[Change Desktop Background;background.desktop,Change Theme;gtk-theme-"
+#~ "selector.desktop,Set Preferred Applications;default-applications.desktop,"
+#~ "Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[डेस्कटप पृष्ठभूमि; पष्ठभूमि.डेस्कटप,विषुवस्तु परिवर्तन गर्नुहोस्;gtk-theme-चयनकर्ता.डेस्कटप,"
+#~ "रूचाइएको अनुप्रयोगहरू सेट;पूर्वनिर्धारित-अनुप्रयोगहरू.डेस्कटप,मिद्रक थप्नुहोस्;जीनोम-कप्स-"
+#~ "प्रबन्धक.डेस्कटप परिवर्तन गर्नुहोस्]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is activated"
+#~ msgstr "यदि ठीज छ भने, \"साझा कार्य\" सक्रिय हुँदा नियन्त्रण-केन्द्र बन्द हुनेछ"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "थम्बनेलमा पाठ (पूर्वनिर्धारित: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "पाठ"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "फन्ट साइज (पूर्वनिर्धारित: ६४)"
+
+#~ msgid "SIZE"
+#~ msgstr "साइज"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FONT-FILE OUTPUT-FILE"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "तर्कहरू पदवर्णन गर्दा त्रुटि: %s\n"
+
+#~ msgid "[FILE]"
+#~ msgstr "[FILE]"
+
+#, fuzzy
+#~ msgid "Change Password"
+#~ msgstr "सेट परिवर्तन गर"
+
+#, fuzzy
+#~ msgid "Old pa_ssword:"
+#~ msgstr "संकेतशब्द:"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>कार्यक्रमहरु</b>"
+
+#~ msgid "<b>Support</b>"
+#~ msgstr "<b>समर्थन</b>"
+
+#~ msgid ""
+#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
+#~ "you next log in.</i></small>"
+#~ msgstr ""
+#~ "<small><i><b>लेखोट:</b>तपाईले अर्को लगइन नगरेसम्म यस निरधारणमा गरिएका "
+#~ "परिवर्तनहरुको प्रभाव हुने छैन।</i></small>"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "प्रत्यक समय तपाईले लगइन गर्दा, यि सहयोगी प्रविधिहरु शुरु गर:"
+
+#~ msgid "_On-screen keyboard"
+#~ msgstr "पर्दामा भएको किबोर्ड"
+
+#~ msgid "_Screenreader"
+#~ msgstr "पर्दा वाचक"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "सहयोगी प्रविधि समर्थन "
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "डेक्सटप पृष्ठभूमि निरधारणहरुलाई परिवर्तन गर"
+
+#~ msgid "Desktop Background"
+#~ msgstr "डेक्सटप पृष्टभूमि"
+
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "<b>डेक्सटप_वालपेपर</b>"
+
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "<b>_डेक्सटप रङ्गहरु</b>"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "डेक्सटपको पृष्टभूमि प्राथमिक्ताहरु"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "वालपेपर थप्नुहोस्"
+
+#~ msgid "Centered"
+#~ msgstr "बीचमा राखिएको"
+
+#~ msgid "Fill Screen"
+#~ msgstr "पर्दा भर"
+
+#~ msgid "Scaled"
+#~ msgstr "नापिएको"
+
+#~ msgid "Tiled"
+#~ msgstr "छापिएको"
+
+#~ msgid "Solid Color"
+#~ msgstr "ठोस रङ्ग"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "तेर्सो "
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "ठाडो "
+
+#~ msgid "Unable to load capplet stock icon '%s'\n"
+#~ msgstr "एप्लेट संग्रह चित्र लोड गर्न असफल '%s'\n"
+
+#, fuzzy
+#~ msgid "From:"
+#~ msgstr "बाट:%s"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "लाई:%s"
+
+#~ msgid "Please specify a name and a command for this editor."
+#~ msgstr "कृपया यस सम्पादकको निम्ति एउटा नाम र एउटा आदेश निर्दिष्ट गर।"
+
+#~ msgid "Add..."
+#~ msgstr "_थप..."
+
+#~ msgid "C_ustom"
+#~ msgstr "व्यक्तिगत ईच्छा"
+
+#~ msgid "C_ustom:"
+#~ msgstr "व्यक्तिगत ईच्छा:"
+
+#~ msgid "Can open _URIs"
+#~ msgstr "युआरयलहरु खोल्न सक्छ"
+
+#~ msgid "Can open multiple _files"
+#~ msgstr "बहुमुखि फाईलहरु खोल्न सक्षम"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "???सम्पादक गुणहरु "
+
+#~ msgid "Default Mail Reader"
+#~ msgstr "अनुपस्थित चिठ्ठी वाचक"
+
+#~ msgid "Default Terminal"
+#~ msgstr "अनुपस्थिति टर्मिनल"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "अनुपस्थित पाठ सम्पादक"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "अनुपस्थित संजाल ब्राउजऱ"
+
+#~ msgid "Default Window Manager"
+#~ msgstr "अनुपस्थिति विन्डो प्रबन्धक"
+
+#~ msgid "E_xec Flag:"
+#~ msgstr "संचालन झण्डा:"
+
+#~ msgid "Edit..."
+#~ msgstr "-सम्पादन गर"
+
+#~ msgid "Mail Reader"
+#~ msgstr "चिठ्ठी वाचक"
+
+#~ msgid "Run in a _terminal"
+#~ msgstr "एउटा टर्मिनलमा सञ्चालन गर"
+
+#~ msgid "Run in a t_erminal"
+#~ msgstr "एउटा टर्मिनलमा सञ्चालन गर"
+
+#~ msgid "Terminal"
+#~ msgstr "टर्मिनल"
+
+#~ msgid "Text Editor"
+#~ msgstr "पाठ संपादक"
+
+#~ msgid "Understands _Netscape Remote Control"
+#~ msgstr "नेटस्केप दुर नियन्त्रण बझ्छ"
+
+#~ msgid "Use this _editor to open text files in the file manager"
+#~ msgstr "फाईल व्यवस्थापकमा भएका फाईलहरु खोल्न यो सम्पादकको प्रयोग गर्नुहोस्"
+
+#~ msgid "Web Browser"
+#~ msgstr "वेब ब्राउजर"
+
+#~ msgid "Window Manager"
+#~ msgstr "विन्डो प्रबन्धक"
+
+#~ msgid "_Command:"
+#~ msgstr "आदेश:"
+
+#~ msgid "_Properties..."
+#~ msgstr "विशेषताहरू..."
+
+#~ msgid "_Select:"
+#~ msgstr "छान:"
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "डेक्सटपको निम्ति वर्णहरु छान"
+
+#~ msgid "<b>Font Rendering</b>"
+#~ msgstr "<b>वर्ण</b>:"
+
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<b>नरम गरिदै छ:</b>"
+
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<b>उपपिक्सल क्रम</b>:"
+
+#~ msgid "Font Preferences"
+#~ msgstr "वर्ण प्राथमिकताहरु"
+
+#~ msgid "Go _to font folder"
+#~ msgstr "वर्ण फोल्डरमा जाऊ"
+
+#~ msgid "_Desktop font:"
+#~ msgstr "डेस्कटप लिपि:"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "टर्मिनल लिपी:"
+
+#~ msgid "Window Management"
+#~ msgstr "विन्डो प्रबन्ध"
+
+#~ msgid "There was an error launching the keyboard capplet : %s"
+#~ msgstr "कि बोर्ड क्यापलेट प्रारम्भ गर्दा एउटा त्रुटि भेटियो: %s"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "उपलब्ध संस्थापनाहरु:"
+
+#, fuzzy
+#~ msgid "Choose A Keyboard Model"
+#~ msgstr "एउटा किबोर्ड नमूना छान"
+
+#, fuzzy
+#~ msgid "Choose A Layout"
+#~ msgstr "बन्द गर र बाहिर निस्क"
+
+#, fuzzy
+#~ msgid "Reset To De_faults"
+#~ msgstr "अनुपस्थितिहरुसंग पुन: मिलाउ"
+
+#~ msgid "Unknown Cursor"
+#~ msgstr "अज्ञात कर्सर"
+
+#~ msgid "Default Cursor"
+#~ msgstr "अनउपस्थिति कर्सर"
+
+#~ msgid "Default Cursor - Current"
+#~ msgstr "अनुपस्थित कर्सर- अहिलेको"
+
+#~ msgid "The default cursor that ships with X"
+#~ msgstr "यक्ससंग आएको अनुपस्थित कर्सर"
+
+#~ msgid "White Cursor"
+#~ msgstr "सेतो कर्सर"
+
+#~ msgid "White Cursor - Current"
+#~ msgstr "सेतो कर्सर- अहिलेको"
+
+#~ msgid "The default cursor inverted"
+#~ msgstr "अनुपस्थित कर्सर उल्टाइएको"
+
+#~ msgid "Large Cursor"
+#~ msgstr "ठूलो कर्सर"
+
+#~ msgid "Large Cursor - Current"
+#~ msgstr "ठूलो कर्सर- अहिलेको"
+
+#~ msgid "Large version of normal cursor"
+#~ msgstr "साधारण कर्सरको ठूलो संस्करण"
+
+#~ msgid "Large White Cursor - Current"
+#~ msgstr "ठूलो सेतो कर्सर‍- अहिलेको"
+
+#~ msgid "Large White Cursor"
+#~ msgstr "सेतो ठूलो कर्सर"
+
+#~ msgid "Large version of white cursor"
+#~ msgstr "सेतो कर्सरको ठूलो संस्करण"
+
+#~ msgid "Cursor Theme"
+#~ msgstr "कर्सरको ढाँचा"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<i>प्वाइन्टरको स्थान पत्ता लगाउ</i>"
+
+#, fuzzy
+#~ msgid "Cursor Size:"
+#~ msgstr "कर्सरको आकार"
+
+#~ msgid "Cursors"
+#~ msgstr "कर्सरहरु"
+
+#, fuzzy
+#~ msgid "Medium"
+#~ msgstr "मध्यम"
+
+#, fuzzy
+#~ msgid "<b>D_irect internet connection</b>"
+#~ msgstr "<b>प्रमाणीकरण प्रयोग गर्नुहोस्</b>"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "ध्वनि सेवा प्रदायकको शुरुआतलाई सक्षम बनाउनुहोस्"
+
+#~ msgid "General"
+#~ msgstr "साधारण"
+
+#~ msgid "Sound Events"
+#~ msgstr "ध्वनि घटनाहरु "
+
+#~ msgid "System Bell"
+#~ msgstr "प्रणाली घण्टी"
+
+#~ msgid "_Sound an audible bell"
+#~ msgstr "एउटा सुन्निनलायक घण्टी बजाउ"
+
+#~ msgid "_Visual feedback:"
+#~ msgstr "दृष्य प्रत्यावर्त्तन: "
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "स्थापना गर्न तोकिएको ढाँचा फाईलको स्थान अमान्य छ"
+
+#~ msgid "Custom theme"
+#~ msgstr "विषय आफै म"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "तपाईले 'ढाँचा संचय' बटन थिचेर यो ढाँचा संचय गर्न सक्नु हुन्छ।"
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "डेक्सटपको विभिन्न भागहरुका निम्ति विषय छान्नुहोस्"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">एउटा ढाँचा स्थापना गर</span>"
+
+#~ msgid "Theme Installation"
+#~ msgstr "विषय प्रतिस्थापना गर"
+
+#~ msgid "_Install"
+#~ msgstr "स्थापना गर"
+
+#~ msgid "_Location:"
+#~ msgstr "_स्थान:"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Save Theme to Disk</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">डिक्समा ढाँचा संचय गर</span>"
+
+#~ msgid "Apply _Font"
+#~ msgstr "वर्ण लागु गर"
+
+#~ msgid "Save Theme"
+#~ msgstr "विषय संचय गर"
+
+#~ msgid "Select theme for the desktop"
+#~ msgstr "डेक्सटपको निम्ति विषय छान्नुहोस्"
+
+#~ msgid "Short _description:"
+#~ msgstr "छोटो_ वर्णन:"
+
+#~ msgid "Theme Details"
+#~ msgstr "विषयको विवरणहरु"
+
+#~ msgid "Theme _Details"
+#~ msgstr "विषयको विवरणहरु"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "यो ढाँचाले कुनै खास वर्ण वा पृष्ठभूमिको सुझाव दिदैन।"
+
+#~ msgid "This theme suggests a background:"
+#~ msgstr "यो ढाँचाले एउटा पृष्ठभूमिको सुझाव दिन्छ:"
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "यो ढाँचाले एउटा वर्ण वा पृष्ठभूमिको सुझाव दिन्छ:"
+
+#~ msgid "This theme suggests a font:"
+#~ msgstr "यो ढाँचाले एउटा वर्णको सुझाव दिन्छ:"
+
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "_विषय फोडरमा जाउ"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_.. विषय प्रतिस्थापना गर"
+
+#~ msgid "_Revert"
+#~ msgstr "_पुरानो स्थितिमा लग "
+
+#~ msgid "_Save Theme..."
+#~ msgstr "_... विषय संचय गर"
+
+#~ msgid "_Theme name:"
+#~ msgstr "_विषयको नाम:"
+
+#~ msgid "theme selection tree"
+#~ msgstr "ढाँचा छनौट ट्रि"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "मेनूहरु र औजारबारहरु"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>व्यवहार र उदभव</b>"
+
+#~ msgid "Icons only"
+#~ msgstr "चिन्हहरु मात्र "
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "मेनू र यन्त्रपट्टि प्राथमिक्ताहरु"
+
+#~ msgid "Text below icons"
+#~ msgstr "चिन्हहरु मुनिको पाठ"
+
+#~ msgid "Text beside icons"
+#~ msgstr "चिन्हहरु पछाडिको पाठ "
+
+#~ msgid "Text only"
+#~ msgstr "पाठ मात्र"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "छुटाउनलायक औजारबारहरु"
+
+#~ msgid "_Edit"
+#~ msgstr "_सम्पादन गर"
+
+#~ msgid "Control"
+#~ msgstr "नियन्त्रण"
+
+#~ msgid "Alt"
+#~ msgstr "अल्टर(विकल्प)"
+
+#~ msgid "Hyper"
+#~ msgstr "अति"
+
+#~ msgid "Super (or \"Windows logo\")"
+#~ msgstr "सर्वोत्तम(वा\" विन्डोको संकेत\")"
+
+#~ msgid "Meta"
+#~ msgstr "पारि"
+
+#~ msgid "Others"
+#~ msgstr "अन्य"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "डेक्सटपको प्राथमिकताहरु"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "जिनोम नियन्त्रण केन्द्र"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "बोनोबोको सुरूआत गर्न सकिएन"
+
+#~ msgid "Use GNOME settings"
+#~ msgstr "जिनोम निर्धारणहरु प्रयोग गर"
+
+#, fuzzy
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr " मद्दत देखाउदा त्रुटि भेटियो: %s "
+
+#~ msgid "Event"
+#~ msgstr "घटना"
+
+#~ msgid "_Sounds:"
+#~ msgstr "ध्वनिहरु:"
+
+#~ msgid "Sound _file:"
+#~ msgstr "ध्वनि-फाईल:"
+
+#~ msgid "_Play"
+#~ msgstr "बजाउ"
+
+#~ msgid "_Remove"
+#~ msgstr "हटाउ"
+
+#, fuzzy
+#~ msgid "Brightness down"
+#~ msgstr "तल जानुहोस्"
+
+#~ msgid "Brightness up"
+#~ msgstr "उज्यालोपन"
+
+#~ msgid "Volume mute's shortcut"
+#~ msgstr "ध्वनि मौनको सरलविधि"
+
+#, fuzzy
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "किबोर्ड नमूना:"
+
+#, fuzzy
+#~ msgid "Keyboard layout"
+#~ msgstr "किबोर्ड अभिन्यास पूर्वदृष्य"
+
+#, fuzzy
+#~ msgid "Keyboard model"
+#~ msgstr "किबोर्ड नमूना:"
+
+#, fuzzy
+#~ msgid "keyboard layout"
+#~ msgstr "किबोर्ड अभिन्यास पूर्वदृष्य"
+
+#, fuzzy
+#~ msgid "keyboard model"
+#~ msgstr "यक्सकेबि किबोर्ड नमूना"

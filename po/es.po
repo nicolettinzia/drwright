@@ -1,3 +1,4 @@
+# #-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#
 # translation of drwright.HEAD.po to Spanish
 # translation of drwright.HEAD.es.po to Spanish
 # This file is distributed under the same license as the rest of DrWright.
@@ -6,171 +7,4995 @@
 #
 # Jorge González <jorgegonz@svn.gnome.org>, 2008.
 # Jorge González <jorgegonz@svn.gnome.org>, 2008.
+# #-#-#-#-#  es.po (gnome-settings-daemon.HEAD)  #-#-#-#-#
+# translation of gnome-settings-daemon.HEAD.po to Español
+# Copyright © 1999-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998-2001.
+# Carlos Perelló Marín <carlos@gnome-db.org>, 2001.
+# Héctor García Álvarez <hector@scouts-es.org>, 2001.
+# Germán Poo Caamaño <gpoo@ubiobio.cl>, 2002 (Revisor).
+# Lucas Di Pentima <lucas@lunix.com.ar>, 2002.
+# Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002,2003.
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
+# Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010.
+#
+# #-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#
+# translation of gnome-control-center.HEAD.po to Español
+# Copyright © 1999-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998-2001.
+# Carlos Perelló Marín <carlos@gnome-db.org>, 2001.
+# Héctor García Álvarez <hector@scouts-es.org>, 2001.
+# Germán Poo Caamaño <gpoo@ubiobio.cl>, 2002 (Revisor).
+# Lucas Di Pentima <lucas@lunix.com.ar>, 2002.
+# Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002,2003.
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
+# Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright.HEAD\n"
+"Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 04:04+0000\n"
-"PO-Revision-Date: 2008-08-29 15:35+0200\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2010-07-18 12:35+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type:  text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.0.2\n"
+"#-#-#-#-#  es.po (gnome-settings-daemon.HEAD)  #-#-#-#-#\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
+#: ../src/main.c:63
+msgid "Enable debugging code"
+msgstr "Activar el código de depuración"
 
-#: ../data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "No comprobar si existe el área de notificación"
 
-#: ../data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Descansar</b>"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "Monitor de tecleo"
 
-#: ../data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Trabajar</b>"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"El monitor de tecleo utiliza el área de notificación para mostrar "
+"información. Parece que usted no tiene el área de notificación en su panel. "
+"Puede añadirla pulsando con el botón derecho sobre el panel y seleccionando "
+"«Añadir al panel», seleccionando «Área de notificación» y pulsando en "
+"«Añadir»."
 
-#: ../data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Marcar si quiere permitir posponer descansos"
+#: ../src/drwright.c:142
+msgid "_Take a Break"
+msgstr "_Tomar un descanso"
 
-#: ../data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "Preferencias de DrWright"
+#: ../src/drwright.c:504
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+"Deshabilitado\n"
+"#-#-#-#-#  es.po (gnome-settings-daemon.HEAD)  #-#-#-#-#\n"
+"Desactivado\n"
+"#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+"Desactivado"
 
-#: ../data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Duración del descanso en el que no se permite teclear"
+#: ../src/drwright.c:513
+#, c-format
+msgid "Take a break now (next in %dm)"
+msgstr "Descansar ahora (el siguiente en %dm)"
 
-#: ../data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Duración de la advertencia antes de comenzar un descanso"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minuto hasta su siguiente descanso"
+msgstr[1] "%d minutos hasta su siguiente descanso"
 
-#: ../data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Duración del período de trabajo antes de forzar un descanso"
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr "Descansar ahora (el siguiente en menos de un minuto)"
 
-#: ../data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Frase opcional a usar al posponer un descanso"
+#: ../src/drwright.c:523
+#, fuzzy, c-format
+msgid "Less than one minute until the next break"
+msgstr ""
+"#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+"Menos de un minuto hasta el siguiente descanso\n"
+"#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+"Menos de un minuto hasta su siguiente descanso"
 
-#: ../data/glade/drw-preferences.glade.h:11
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"No se puede mostrar el diálogo de las propiedades del descanso de escritura "
+"por el siguiente error: %s"
+
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Escrito por Richard Hult <richard@imendio.com>"
+
+#: ../src/drwright.c:629
+#, fuzzy
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+"#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+"Interfaz más agradable añadida por Anders Carlsson\n"
+"#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+"Vistosidad agregada por Anders Carlsson"
+
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+"Un recordatorio para tomar descansos.\n"
+"#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+"Un recordatorio para los descansos frente a la computadora."
+
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+"Jorge González <jorgegonz@svn.gnome.org>, 2007, 2010\n"
+"Traductores anteriores:\n"
+"Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007\n"
+"Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, "
+"2006\n"
+"Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998-2001\n"
+"Carlos Perelló Marín <carlos@gnome-db.org>, 2001\n"
+"Héctor García Álvarez <hector@scouts-es.org>, 2001\n"
+"QA: Germán Poo Caamaño <gpoo@ubiobio.cl>, 2002\n"
+"Lucas Di Pentima <lucas@lunix.com.ar>, 2002\n"
+"Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002, 2003"
+
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "_Posponer el descanso"
+
+#: ../src/drw-break-window.c:227
+msgid "Take a break!"
+msgstr "¡Tómese un descanso!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Indica si el lector de pantalla está activado."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Indica si el lector de pantalla está activado."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Descanso de escritura"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+#, fuzzy
+msgid "Typing Break preferences panel"
+msgstr "Preferencias del panel de ejemplo"
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
 msgstr "_Permitir posponer descansos"
 
-#: ../data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "_Duración del intervalo de descanso"
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "D_uración del intervalo de descanso:"
 
-#: ../data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "El tiempo de _advertencia es"
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "B_loquear la pantalla para forzar un descanso de escritura"
 
-#: ../data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "Duración del intervalo de _trabajo"
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "D_uración del intervalo de trabajo:"
 
-#: ../data/glade/drw-preferences.glade.h:15
+#: ../src/drwright-panel.glade.h:5
 msgid "minutes"
 msgstr "minutos"
 
-#: ../src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright ya está ejecutándose.."
+#~ msgid "    "
+#~ msgstr "    "
 
-#: ../src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
-msgstr ""
-"DrWright usa el área de notificación para mostrar información. No parece "
-"tener un área de notificación en su panel. Puede añadir una pulsando con el "
-"botón derecho del ratón sobre su panel y eligiendo: «Añadir al panel -"
-">Utilidades -> Área de notificación»."
+#~ msgid "*"
+#~ msgstr "*"
 
-#: ../src/drwright.c:138
-msgid "/_Enabled"
-msgstr "/_Activado"
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Descansar</b>"
 
-#: ../src/drwright.c:139
-msgid "/_Take a Break"
-msgstr "/_Descansar ahora"
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+#~ "<b>Trabajar</b>\n"
+#~ "#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+#~ "<b>Trabajo</b>"
 
-#: ../src/drwright.c:141
-msgid "/_Preferences"
-msgstr "/_Preferencias"
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+#~ "Marcar si quiere permitir posponer descansos\n"
+#~ "#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+#~ "Comprobar si se permite posponer los descansos"
 
-#: ../src/drwright.c:142
-msgid "/_About"
-msgstr "/Acerca _de"
+#~ msgid "DrWright Preferences"
+#~ msgstr "Preferencias de DrWright"
 
-#: ../src/drwright.c:144
-msgid "/_Remove Icon"
-msgstr "/_Quitar icono"
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+#~ "Duración del descanso en el que no se permite teclear\n"
+#~ "#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+#~ "Duración del descanso cuando la escritura no está permitida"
 
-#: ../src/drwright.c:475
-msgid "Disabled"
-msgstr "Deshabilitado"
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Duración de la advertencia antes de comenzar un descanso"
 
-#: ../src/drwright.c:493
-#, c-format
-msgid "%d minutes until the next break"
-msgstr "%d minutos hasta el próximo descanso"
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
+#~ "Duración del período de trabajo antes de forzar un descanso\n"
+#~ "#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+#~ "Duración del trabajo antes de forzar un descanso"
 
-#: ../src/drwright.c:496
-msgid "One minute until the next break"
-msgstr "Un minuto hasta el próximo descanso"
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Frase opcional a usar al posponer un descanso"
 
-#: ../src/drwright.c:498
-msgid "Less than one minute until the next break"
-msgstr "Menos de un minuto hasta el siguiente descanso"
+#~ msgid "_Break interval lasts"
+#~ msgstr "_Duración del intervalo de descanso"
 
-#: ../src/drwright.c:609
-msgid "Quit DrWright?"
-msgstr "¿Finalizar DrWright?"
+#~ msgid "_Warning time is"
+#~ msgstr "El tiempo de _advertencia es"
 
-#: ../src/drwright.c:610
-msgid "Don't forget to take regular breaks."
-msgstr "No olvide descansar regularmente."
+#~ msgid "_Work interval lasts"
+#~ msgstr "Duración del intervalo de _trabajo"
 
-#: ../src/drwright.c:621
-msgid "Don't Quit"
-msgstr "No salir"
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright ya está ejecutándose.."
 
-#: ../src/drwright.c:625
-msgid "Quit"
-msgstr "Salir"
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright usa el área de notificación para mostrar información. No parece "
+#~ "tener un área de notificación en su panel. Puede añadir una pulsando con "
+#~ "el botón derecho del ratón sobre su panel y eligiendo: «Añadir al panel -"
+#~ ">Utilidades -> Área de notificación»."
 
-#: ../src/drwright.c:674
-msgid "About DrWright"
-msgstr "Acerca de DrWright"
+#~ msgid "/_Enabled"
+#~ msgstr "/_Activado"
 
-#: ../src/drwright.c:699
-msgid "A computer break reminder."
-msgstr "Un recordatorio para tomar descansos."
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Descansar ahora"
 
-#: ../src/drwright.c:700
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Escrito por Richard Hult &lt;richard@imendo.com&gt;"
+#~ msgid "/_Preferences"
+#~ msgstr "/_Preferencias"
 
-#: ../src/drwright.c:701
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Interfaz más agradable añadida por Anders Carlsson"
+#~ msgid "/_About"
+#~ msgstr "/Acerca _de"
 
-#: ../src/drwright.c:868
-msgid "Break reminder"
-msgstr "Recordador de descansos"
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Quitar icono"
 
-#: ../src/drw-break-window.c:208
-msgid "_Postpone break"
-msgstr "_Posponer descanso"
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d minutos hasta el próximo descanso"
 
-#: ../src/drw-break-window.c:251
-msgid "Take a break!"
-msgstr "¡Tómese un descanso!"
+#~ msgid "One minute until the next break"
+#~ msgstr "Un minuto hasta el próximo descanso"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "¿Finalizar DrWright?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "No olvide descansar regularmente."
+
+#~ msgid "Don't Quit"
+#~ msgstr "No salir"
+
+#~ msgid "Quit"
+#~ msgstr "Salir"
+
+#~ msgid "About DrWright"
+#~ msgstr "Acerca de DrWright"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Escrito por Richard Hult &lt;richard@imendo.com&gt;"
+
+#~ msgid "Break reminder"
+#~ msgstr "Recordador de descansos"
+
+#~ msgid "_Postpone break"
+#~ msgstr "_Posponer descanso"
+
+#~ msgid "Accessibility"
+#~ msgstr "Accesibilidad"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Umbral de notificación para el espacio libre"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Umbral de notificación para no notificar el espacio libre"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Periodo mínimo de notificación para advertencias repetidas"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Puntos de montaje para ignorar"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Porcentaje de umbral de espacio libre para la advertencia inicial de "
+#~ "espacio bajo. Si el porcentaje de espacio es inferior al porcentaje se "
+#~ "mostrará una advertencia."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Especificar una lista de puntos de montaje para ignorar cuando están "
+#~ "bajos de espacio."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Especificar tiempo en minutos. Las subsecuentes advertencias para un "
+#~ "volumen no aparecerán más a menudo que este periodo."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Especificar el tamaño en GiB. Si el espacio libre es mayor que esto, no "
+#~ "se mostrará ninguna advertencia."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Especificar el porcentaje de disco libre que debe reducirse antes de "
+#~ "mostrar una advertencia subsecuente."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Umbrales de notificación de espacio libre subsecuentes"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Vínculo para expulsar un disco óptico."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Vínculo para activar o desactivar el touchpad."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Vínculo para lanzar la calculadora."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Vínculo para lanzar el cliente de correo-e."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Vínculo para lanzar el visor de ayuda."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Vínculo para lanzar el reproductor multimedia."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Vínculo para lanzar la herramienta de búsqueda."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Vínculo para lanzar el navegador web."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Vínculo para bloquear la pantalla."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Vínculo para salir de la sesión."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Vínculo para bajar el volumen del sistema."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Vínculo para silenciar el volumen del sistema."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Vínculo para abrir la carpeta personal."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Vínculo para pausar la reproducción."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Vínculo para subir el volumen del sistema."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Vínculo para saltar a la siguiente pista."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Vínculo para saltar a la pista anterior."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Vínculo para iniciar la reproducción (o conmutar entre reproducción/"
+#~ "pausa)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Vínculo para parar la reproducción."
+
+#~ msgid "Eject"
+#~ msgstr "Expulsar"
+
+#~ msgid "Home folder"
+#~ msgstr "Carpeta personal"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Lanzar la calculadora"
+
+#~ msgid "Launch email client"
+#~ msgstr "Lanzar el cliente de correo-e"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Lanzar el visor de ayuda"
+
+#~ msgid "Launch media player"
+#~ msgstr "Lanzar el reproductor multimedia"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Lanzar navegador web"
+
+#~ msgid "Lock screen"
+#~ msgstr "Bloquear la pantalla"
+
+#~ msgid "Log out"
+#~ msgstr "Salir de la sesión"
+
+#~ msgid "Next track"
+#~ msgstr "Siguiente pista"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pausar la resproducción"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Reproducir (o reproducir/pausar)"
+
+#~ msgid "Previous track"
+#~ msgstr "Pista anterior"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "Stop playback"
+#~ msgstr "Detener la reproducción"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Conmutar el touchpad"
+
+#~ msgid "Volume down"
+#~ msgstr "Bajar volumen"
+
+#~ msgid "Volume mute"
+#~ msgstr "Silenciar"
+
+#~ msgid "Volume step"
+#~ msgstr "Paso del volumen"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Paso del volumen como porcentaje del volumen."
+
+#~ msgid "Volume up"
+#~ msgstr "Subir volumen"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Archivo para la configuración predeterminada de RandR"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Mostrar las pantallas en el área de notificación"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "El complemento XRandR buscará para esta clave una configuración "
+#~ "predeterminada en el archivo especificado. Es similar a ~/.config/"
+#~ "monitors.xml que por lo general se almacena en las carpetas personales de "
+#~ "los usuarios. Si un usuario no tiene tal archivo o tiene uno que no "
+#~ "coincide con la configuración de monitores del usuario, entonces se usa "
+#~ "en su lugar el archivo especificado por esta clave."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Encender el monitor externo después de arrancar el sistema"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Encender el monitor externo después de arrancar el sistema si el usuario "
+#~ "conectó el monitor externo al arrancar el sistema."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Encender el monitor del portátil después de arrancar el sistema"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Encender el monitor del portátil después de arrancar el sistema si el "
+#~ "usuario conectó el monitor externo al arrancar el sistema."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Indica si se debería mostrar en el panel un icono de notificación con "
+#~ "sucesos relacionados con la pantalla."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Antialias"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Contorno"
+
+#~ msgid "RGBA order"
+#~ msgstr "Orden RGBA"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "El orden de los elementos subpíxel en una pantalla LCD; sólo se usa "
+#~ "cuando el antialias está configurado en \"rgba\". Los valores posibles "
+#~ "son \"rgb\" para rojo a la izquierda (el más común), \"bgr\" para azul a "
+#~ "la izquierda, \"vrgb\" para rojo arriba y \"vbgr\" para rojo abajo."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Resolución que usar para convertir tamaños de tipografías a tamaños de "
+#~ "píxel, en puntos por pulgada."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "El tipo de antialias que usar cuando se renderizen las tipografías. Los "
+#~ "valores posibles son: \"none\" sin antialias, \"grayscale\" para escala "
+#~ "de grises antialias estándar, \"rgba\" para antialias de subpíxel (sólo "
+#~ "para pantallas LCD)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "El tipo de contorno que usar cuando se renderizen las tipografías. Los "
+#~ "valores posibles son: \"none\" sin contorno, \"slight\" para un contorno "
+#~ "básico, \"medium\" para un contorno moderado y \"full\" para un contorno "
+#~ "máximo (puede distorsionar las formas de las letras)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Teclas permitidas"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Si no está vació, se ignorarán las combinaciones de teclas a menos que su "
+#~ "directorio GConf esté en la lista. Ésto es útil para bloqueos."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Desactivar el touchpad al escribir"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Activar desplazamiento horizontal"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Activar pulsaciones del ratón con el touchpad"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Activar el touchpad"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Seleccionar el método de desplazamiento del touchpad"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Seleccionar el método de desplazamiento del touchpad. Los valores "
+#~ "soportados son: 0 desactivado, 1 desplazamiento en el borde y 2 "
+#~ "desplazamiento con dos dedos."
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Establecer esto a verdadero si tiene problemas tocando accidentalmente el "
+#~ "touchpad al escribir."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Establecer esto a verdadero para permitir desplazamiento horizontal con "
+#~ "el mismo método seleccionado en la clave scroll_method."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Establecer esto a verdadero para poder enviar pulsaciones del ratón "
+#~ "pulsando sobre el touchpad."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Establecer esto a verdadero para activar todos los touchpad."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Administrador de preferencias de GNOME"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Vínculo para abrir conmutar el magnificador."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Vínculo para conmutar el teclado en pantalla."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Vínculo para conmutar el lector de pantalla."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Rechazo de teclas"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr ""
+#~ "Comando usado para conmutar el magnificador entre activado o desactivado."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr ""
+#~ "Comando usado para conmutar el teclado en pantalla entre activado o "
+#~ "desactivado."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr ""
+#~ "Comando usado para conmutar el lector de pantalla entre activado o "
+#~ "desactivado."
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Activar el complemento de XRandR"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Activar el complemento de accesibilidad del teclado"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Activar el complemento de fondo de pantalla"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Activar el complemento del portapapeles"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Activar el complemento de tipografía"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Activar el complemento de limpieza"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Activar el complemento de combinaciones de teclas"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Activar el complemento de teclado"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Activar el complemento de teclas multimedia"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Activar el complemento del ratón"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Activar el complemento de tarjeta inteligente"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Activar el complemento de sonido"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Activar el complemento de descanso de escritura"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Activar el complemento de xrdb"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Activar el complemento de xsettings"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Teclas del ratón"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Teclado en pantalla"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Magnificador de pantalla"
+
+#~ msgid "Screen reader"
+#~ msgstr "Lector de pantalla"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento de limpieza, para reducir "
+#~ "la caché de archivos temporales."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "XRandR."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "del portapapeles."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "del fondo."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "de las tipografías."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "del teclado."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento para gestionar el bloqueo "
+#~ "de pantalla al quitar la tarjeta inteligente."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "del ratón."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "de las teclas multimedia."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona las caché de "
+#~ "muestras de sonido."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "de accesibilidad del teclado."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona las "
+#~ "combinaciones de teclas."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona el descanso "
+#~ "de escritura."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona los ajustes "
+#~ "xrdb."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Establecer a cierta para activar el complemento que gestiona xsettings."
+
+#~ msgid "Slow keys"
+#~ msgstr "Teclas lentas"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Teclas persistentes"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "El nombre de la combinación de teclas para cambiar al magnificador"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr ""
+#~ "El nombre de la combinación de teclas para cambiar al teclado en pantalla"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr ""
+#~ "El nombre de la combinación de teclas para cambiar al lector de pantalla"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Este es el nombre de la combinación de teclas para cambiar al "
+#~ "magnificador. Este nombre se mostrará en el diálogo preferencias de las "
+#~ "combinaciones de teclas."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Este es el nombre de la combinación de teclas para cambiar al teclado en "
+#~ "pantalla. Este nombre se mostrará en el diálogo de preferencias de las "
+#~ "combinaciones de teclas."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Este es el nombre de la combinación de teclas para cambiar al lector de "
+#~ "pantalla. Este nombre se mostrará en el diálogo preferencias de las "
+#~ "combinaciones de teclas."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Conmutar el magnificador"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Conmutar el teclado en pantalla"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Conmutar el lector de pantalla"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Indica si la característica de accesibilidad del teclado rechazo de "
+#~ "teclas está activada."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Indica si la característica de accesibilidad del teclado teclas del ratón "
+#~ "está activada."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Indica si el teclado en pantalla está activado."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Indica si el magnificador de pantalla está activado."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Indica si la característica de accesibilidad del teclado de teclas lentas "
+#~ "está activada."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Indica si la característica de accesibilidad del teclado de teclas "
+#~ "persistentes está activada."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Establecer esto a una de las siguientes: «none» (ninguna), "
+#~ "«lock_screen» (bloquear la pantalla) o «force_logout» (forzar la salida). "
+#~ "La acción se realizará cuando se quite la tarjeta inteligente usada para "
+#~ "iniciar sesión."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Acción al quitar la tarjeta inteligente"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "No convertir en demonio"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "El prefijo de GConf desde el que cargar los ajustes del complemento"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Salir después de un tiempo (para depuración)"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Accesibilidad del teclado"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Complemento de accesibilidad del teclado"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Hubo un error al mostrar la ayuda: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "¿Desea activar las «Teclas lentas»?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "¿Desea desactivar las «Teclas lentas»?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Acaba de pulsar la tecla «Mayúsculas» durante 8 segundos. Ésta es la "
+#~ "combinación de teclas para la característica «Teclas lentas», que afecta "
+#~ "la forma en que funciona el teclado."
+
+#~ msgid "Don't activate"
+#~ msgstr "No activar"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "No desactivar"
+
+#~ msgid "Activate"
+#~ msgstr "Activar"
+
+#~ msgid "Deactivate"
+#~ msgstr "Desactivar"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_No activar"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "_No desactivar"
+
+#~ msgid "_Activate"
+#~ msgstr "_Activar"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Desactivar"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Alerta de teclas lentas"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "¿Quiere activar las «Teclas persistentes»?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "¿Desea desactivar las «Teclas persistentes»?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Acaba de pulsar la tecla «Mayúsculas» 5 veces. Este es el acceso rápido "
+#~ "para la característica «Teclas persistentes», que afecta la manera en que "
+#~ "funciona el teclado."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Acaba de pulsar dos teclas a la vez, o ha pulsado la tecla «Mayúsculas» 5 "
+#~ "veces seguidas. Esto desactiva la característica de «Teclas "
+#~ "persistentes», lo cual afecta a la forma en que funciona su teclado."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Alerta de teclas persistentes"
+
+#, fuzzy
+#~ msgid "Universal Access Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  es.po (gnome-settings-daemon.HEAD)  #-#-#-#-#\n"
+#~ "Preferencias de acceso universal\n"
+#~ "#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+#~ "Preferencias del acceso universal"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Realzar _contraste en los colores"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "Hacer el _texto más grande y fácil de leer"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Pulsar y _mantener las teclas para aceptarlas (teclas lentas)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Usar teclado en pan_talla"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Usar _magnificador de pantalla"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Usar _lector de pantalla"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Ignorar las pulsaciones de (teclas repetidas)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "_Pulsar los atajos de teclado uno cada vez (teclas persistentes)"
+
+#, fuzzy
+#~ msgid "Background"
+#~ msgstr ""
+#~ "#-#-#-#-#  es.po (gnome-settings-daemon.HEAD)  #-#-#-#-#\n"
+#~ "Fondo de pantalla\n"
+#~ "#-#-#-#-#  es.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
+#~ "Fondo"
+
+#~ msgid "Background plugin"
+#~ msgstr "Complemento de fondo de pantalla"
+
+#~ msgid "Clipboard"
+#~ msgstr "Portapapeles"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Complemento del portapapeles"
+
+#~ msgid "Dummy"
+#~ msgstr "De prueba"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Complemento de prueba"
+
+#~ msgid "Font"
+#~ msgstr "Tipografía"
+
+#~ msgid "Font plugin"
+#~ msgstr "Complemento de tipografía"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr ""
+#~ "No mostrar ninguna advertencia de nuevo para este sistema de archivos"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "No mostrar ninguna advertencia de nuevo."
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "El volumen «%s» sólo tiene %s de espacio en disco libre."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Este equipo sólo tiene %s de espacio en disco libre."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Puede liberar espacio vaciando la papelera, eliminando programas o "
+#~ "archivos sin usar o moviendo archivos a otro disco o partición."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Puede liberar espacio eliminando programas o archivos sin usar o moviendo "
+#~ "archivos a otro disco o partición."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Puede liberar espacio vaciando la papelera, eliminando programas usados o "
+#~ "moviendo archivos a un disco externo."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Puede liberar espacio eliminando programas o archivos sin usar o moviendo "
+#~ "archivos a un disco externo."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Espacio de disco bajo"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Vacía la papelera"
+
+#~ msgid "Examine…"
+#~ msgstr "Examinar…"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorar"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Eliminando el elemento %lu de %lu"
+
+#~ msgid "Removing: %s"
+#~ msgstr "Eliminando: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Vaciando la papelera"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Preparándose para vaciar la papelera…"
+
+#~ msgid "From: "
+#~ msgstr "Desde:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "¿Vaciar todos los elementos de la papelera?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Si elige vaciar la papelera se borrarán permanentemente todos los "
+#~ "elementos en ella. Note que también puede borrarlos separadamente."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Vaciar papelera"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "La combinación de teclas (%s) no es válida"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "La combinación de teclas (%s) está incompleta"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Se ha producido un error al intentar ejecutar (%s)\n"
+#~ "que está asociado a la tecla (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Combinaciones de teclas"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Complemento de combinaciones de teclas"
+
+#~ msgid "Keyboard"
+#~ msgstr "Teclado"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Complemento de teclado"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Error al activar la configuración de XKB.\n"
+#~ "Puede suceder bajo ciertas circunstancias:\n"
+#~ " • un error en la biblioteca libxklavier\n"
+#~ " • un error en el servidor X (xkbcomp, utilidades xmodmap)\n"
+#~ " • un servidor X con implementación incompatible de libxlbfile\n"
+#~ "\n"
+#~ "Versión de los datos del servidor X:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Si informa de esta situación como un error incluya:\n"
+#~ " • El resultado de <b>%s</b>\n"
+#~ " • El resultado de <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Está usando XFree 4.3.0\n"
+#~ "Existen problemas conocidos con configuraciones complejas de XKB.\n"
+#~ "Intente usar una configuración más simple o usar una versión más moderna "
+#~ "del software de XFree."
+
+#~ msgid "_Layouts"
+#~ msgstr "_Distribuciones"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Prefere_ncias del teclado"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Mostrar distribución _actual"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Archivos _disponibles:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Cargar archivos modmap"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "¿Quiere cargar los archivos modmap?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_No mostrar este mensaje otra vez"
+
+#~ msgid "_Load"
+#~ msgstr "_Cargar"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "Archivos _cargados:"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "No se pudo obtener el terminal predeterminado. Compruebe que el comando "
+#~ "predeterminado del terminal está configurado y apunta a una aplicación "
+#~ "válida."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "No se pudo ejecutar el comando: %s\n"
+#~ "Compruebe que es un comando válido."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u salida"
+#~ msgstr[1] "%u salidas"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u entrada"
+#~ msgstr[1] "%u entradas"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sonidos del sistema"
+
+#~ msgid "Media keys"
+#~ msgstr "Teclas multimedia"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Complemento de teclas multimedia"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr ""
+#~ "No se pudieron activar las características de accesibilidad del ratón"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "La accesibilidad del ratón requiere que los ajustes finos del ratón estén "
+#~ "instalados en su sistema."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Preferencias del ratón"
+
+#~ msgid "Mouse"
+#~ msgstr "Ratón"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Complemento del ratón"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Complemento de descanso de escritura"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Establecer los ajustes de tamaño y rotación de la pantalla"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "No se pudo cambiar la configuración del monitor"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "No se pudo restaurar la configuración del monitor"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "No se pudo restaurar la configuración del monitor desde un respaldo"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] ""
+#~ "La pantalla se reiniciará a su configuración anterior en %d segundo"
+#~ msgstr[1] ""
+#~ "La pantalla se reiniciará a su configuración anterior en %d segundos"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "¿Se ve bien la pantalla?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Restaurar la configuración anterior"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Mantener esta configuración"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "No se pudo aplicar la configuración seleccionada para las pantallas"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "No se pudo refrescar la información de la pantalla: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Intentando cambiar la configuración del monitor de todas formas."
+
+#~ msgid "Rotation not supported"
+#~ msgstr "La rotación no está soportada"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "No se pudo guardar la configuración del monitor"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Left"
+#~ msgstr "Izquierda"
+
+#~ msgid "Right"
+#~ msgstr "Derecha"
+
+#~ msgid "Upside Down"
+#~ msgstr "Hacia abajo"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Configurar ajustes de pantalla…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Configurar los ajustes de la pantalla"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "No se pudo aplicar la configuración almacenada para los monitores"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "No se puede determinar el directorio personal del usuario"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Gestionar la base de datos de recursos de las X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Base de datos de recursos de las X"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "La clave %s de gconf se definió como tipo %s pero se espera que su tipo "
+#~ "sea %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Gestionar los ajustes de las X"
+
+#~ msgid "X Settings"
+#~ msgstr "Ajustes de las X"
+
+#~ msgid "Module Path"
+#~ msgstr "Ruta del módulo"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "ruta al controlador de tarjetas inteligentes PKCS #11"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "se recibió un error o un cuelgue desde el origen de eventos"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "No se pudo inicializar el sistema de seguridad NSS"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "no se pudo encontrar un controlador de tarjeta inteligente adecuado"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "no se pudo cargar el controlador de tarjeta inteligente «%s»"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "no se pudo vigilar los eventos entrantes de la tarjeta: %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr ""
+#~ "se encontró un error inesperado al esperar los eventos de la tarjeta "
+#~ "inteligente"
+
+#~ msgid "Slot ID"
+#~ msgstr "ID de la ranura"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "La ranura en la que está la tarjeta"
+
+#~ msgid "Slot Series"
+#~ msgstr "Serie de la ranura"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "Identificador de tarjetas por ranura"
+
+#~ msgid "name"
+#~ msgstr "nombre"
+
+#~ msgid "Module"
+#~ msgstr "Módulo"
+
+#~ msgid "smartcard driver"
+#~ msgstr "controlador de tarjeta inteligente"
+
+#~ msgid "Change system time"
+#~ msgstr "Cambiar la hora del sistema"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Cambiar la zona horaria del sistema"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Configurar el reloj hardware"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr "Se requieren privilegios para cambiar la zona horaria del sistema."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "Se requieren privilegios para cambiar la hora del sistema."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr "Se requieren privilegios para cambiar el reloj hardware."
+
+#~ msgid "Unknown"
+#~ msgstr "Desconocido"
+
+#~ msgid "Sound"
+#~ msgstr "Sonido"
+
+#~ msgid "Current network location"
+#~ msgstr "Ubicación de red actual"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "URL para más fondos"
+
+#~ msgid "More themes URL"
+#~ msgstr "URL para más temas"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Establézcalo al nombre de su ubicación actual. Se usa para determinar la "
+#~ "configuración apropiada del proxy de red."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL donde obtener más fondos para el escritorio. Si se establece a una "
+#~ "cadena vacía el enlace no aparecerá."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL donde obtener más temas para el escritorio. Si se establece a una "
+#~ "cadena vacía el enlace no aparecerá."
+
+#~ msgid "Key"
+#~ msgstr "Clave"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Clave de gconf a la que está asociado este editor de propiedades"
+
+#~ msgid "Callback"
+#~ msgstr "Retorno de llamada"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Emitir este retorno de llamada cuando cambie el valor asociado con la "
+#~ "clave"
+
+#~ msgid "Change set"
+#~ msgstr "Conjunto de cambios"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Conjunto de cambios de gconf que contiene datos que deben remitirse al "
+#~ "cliente de gconf cuando se apliquen"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Conversión a retorno de llamada del widget"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Retorno de llamada que se debe emitir cuando se vayan a convertir datos "
+#~ "de gconf al widget"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Conversión desde el retorno de llamada del widget"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Retorno de llamada que se debe emitir cuando se vayan a convertir datos "
+#~ "del widget a gconf"
+
+#~ msgid "UI Control"
+#~ msgstr "Control de IU"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objeto que controla la propiedad (generalmente, un widget)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Datos de objeto del editor de propiedades"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr ""
+#~ "Datos personalizados requeridos por el editor de propiedades específico"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Retorno de llamada de liberación de datos del editor de propiedades"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Retorno de llamada que se debe emitir cuando se vayan a liberar datos de "
+#~ "objeto del editor de propiedades"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "No se ha podido encontrar el archivo «%s».\n"
+#~ "\n"
+#~ "Compruebe si existe y vuelva a intentarlo o elija una imagen de fondo "
+#~ "distinta."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "No es posible  abrir el archivo «%s».\n"
+#~ "Puede que se trate de un tipo de imagen que aún no se admite.\n"
+#~ "\n"
+#~ "Seleccione una imagen distinta."
+
+#~ msgid "Please select an image."
+#~ msgstr "Por favor seleccione una imagen."
+
+#~ msgid "_Select"
+#~ msgstr "_Seleccionar"
+
+#~ msgid "Date And Time"
+#~ msgstr "Fecha y hora"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "Panel de preferencias de la fecha y hora"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Aplicaciones preferidas"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Seleccione sus aplicaciones predeterminadas"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Iniciar la tecnología de asistencia visual preferida"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Asistencia visual"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Error al guardar la configuración: %s"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizado"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "No es posible cargar el interfaz principal"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Asegúrese de que la miniaplicación está instalada correctamente"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Todas las apariciones de %s se reemplazarán por el enlace actual"
+
+#~ msgid "C_ommand:"
+#~ msgstr "C_omando:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Co_mando:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Opción de e_jecución:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Visor de imágenes"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Mensajería instantánea"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Lector de correo"
+
+#~ msgid "Mobility"
+#~ msgstr "Movilidad"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Reproductor multimedia"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Abrir enlace en una _solapa nueva"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Abrir enlace en una _ventana nueva"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Abrir enlace con el navegador web _predeterminado"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Ejecutar al _inicio"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Ejecutar en un t_erminal"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Emulador de terminal"
+
+#~ msgid "Text Editor"
+#~ msgstr "Editor de textos"
+
+#~ msgid "Video Player"
+#~ msgstr "Reproductor de vídeo"
+
+#~ msgid "Visual"
+#~ msgstr "Visual"
+
+#~ msgid "Web Browser"
+#~ msgstr "Navegador web"
+
+#~ msgid "_Run at start"
+#~ msgstr "Ejecutar al _inicio"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Reproductor de música Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Navegador sensible de Debian"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Emulador de terminal de Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Navegador web Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Lector de correo Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Magnificador de GNOME sin lector de pantalla"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Teclado en pantalla de GNOME"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminal de GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus con magnificador"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Correo Iceape"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Magnificador de KDE sin lector de pantalla"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Lector de pantalla de Linux"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Lector de pantalla de Linux con magnificador"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Reproductor de música Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca con magnificador"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Reproductor de música Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "Correo SeaMonkey"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Terminal X estándar"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Reproductor de películas Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "Incluir pa_nel"
+
+#~ msgid "Make Default"
+#~ msgstr "Hacer predeterminado"
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Off"
+#~ msgstr "Apagado"
+
+#~ msgid "On"
+#~ msgstr "Encendido"
+
+#~ msgid "Panel icon"
+#~ msgstr "Icono del panel"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_otación:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Tasa de re_fresco:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "La _misma imagen en todos los monitores"
+
+#~ msgid "Upside-down"
+#~ msgstr "Hacia abajo"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Detectar monitores"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Resolución:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Mostrar pantallas en el panel"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Cambiar la resolución y posición de los monitores"
+
+#~ msgid "Monitors"
+#~ msgstr "Monitores"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Uso: %s ARCHIVO_ORIGEN NOMBRE_DESTINO\n"
+#~ "\n"
+#~ "Este programa instala un perfil RANDR para configuraciones multimonitor\n"
+#~ "en todo el sistema. El perfil resultante se usará cuando el complemento\n"
+#~ "RANRD se ejecute en gnome-settings.daemon.\n"
+#~ "\n"
+#~ "ARCHIVO_ORIGEN: una ruta completa, generalmente /home/username/.config/"
+#~ "monitors.xml\n"
+#~ "\n"
+#~ "NOMBRE_DESTINO: nombre relativo para el archivo instalado. Esto\n"
+#~ "                pondrá las configuraciones RANDR en el directorio del "
+#~ "sistema\n"
+#~ "                de tal forma que el resultado generalmente será %s/"
+#~ "NOMBRE_DESTINO\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Sólo el usuario «root» puede usar este programa"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "El origen del nombre del archivo debe ser absoluto"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "No se pudo abrir %s: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "No se pudo obtener la información para %s: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s debe ser un archivo regular\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Este programa sólo se debe ejecutar a través de pkexec(1)"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "Se debe establecer PKEXEC_UID a un valor entero"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "Debe ser el propietario de %s\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s no debe tener ningún componente de directorio\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s debe ser un directorio\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "No se pudo abrir %s/%s: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "No se pudo renombrar %s a %s: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Se requiere autenticación para instalar la configuración multimonitor "
+#~ "para todos los usuarios"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Instalar la configuración multimonitor para todo el sistema"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Espejar pantallas"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Monitor: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Seleccionar un monitor para cambiar sus propiedades; arrastrarlo lo "
+#~ "reubica."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "No se pudo guardar la configuración del monitor"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "No se pudo obtener la sesión del bus al aplicar la configuración de la "
+#~ "pantalla"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "No se pudieron detectar las pantallas"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Se guardó la configuración del monitor"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr ""
+#~ "La próxima vez que alguien inicie sesión se usará esta configuración"
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr ""
+#~ "No se pudo establecer la configuración predeterminada para los monitores"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "No se pudo obtener la información de la pantalla"
+
+#~ msgid "Desktop"
+#~ msgstr "Escritorio"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Combinación nueva..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tecla de la combinación"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modificadores de la combinación"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Código de tecla de la combinación"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Modo de la combinación"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "El tipo de combinación."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Acción desconocida>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Combinación personalizada"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Error al guardar la combinación nueva"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "No se puede usar la combinación de teclas «%s» porque se haría imposible "
+#~ "escribir usando esta tecla.\n"
+#~ "Por favor, inténtelo con una tecla como Control, Alt o Mayús. al mismo "
+#~ "tiempo."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "La combinación «%s» ya se está usando para\n"
+#~ "«%s»"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Si reasigna la combinación a «%s» se desactivará la combinación «%s»."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Reasignar"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Error al borrar una combinación de teclas en la base de datos de "
+#~ "configuración: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Demasiadas combinaciones personalizadas"
+
+#~ msgid "Action"
+#~ msgstr "Acción"
+
+#~ msgid "Shortcut"
+#~ msgstr "Combinación"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Combinación personalizada"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Combinaciones de teclas"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Para editar una combinación nueva pulse en la fila correspondiente y "
+#~ "teclee una combinación de teclas nueva, o pulse Retroceso para borrarla."
+
+#~ msgid "_Name:"
+#~ msgstr "_Nombre:"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Asigne una combinación de teclas a comandos"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr ""
+#~ "Pitar cuando se activen o desactiven las características de _accesibilidad"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Pitar al pulsar un _modificador"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Pitar al pulsar una _tecla conmutable"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Pitar al pul_sar una tecla"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Pitar si se recha_za la tecla"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Pitar cuando la tecla se _acepte"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Pitar si se _rechaza la tecla"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Rechazo de teclas"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Destello de la barra de título de la _ventana"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Destello de la pantalla _completa"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Comentarios sobre los sonidos de accesibilidad del teclado"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Mostrar respuesta _visual para las alertas de sonido"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Teclas lentas"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Teclas persistentes"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Entradas visuales para sonidos"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Permitir p_osponer los descansos"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Co_mentarios sobre el sonido..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Parpadeo del cursor"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "El cursor pa_rpadea en los campos de texto"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Velocidad de parpadeo del cursor"
+
+#~ msgid "D_elay:"
+#~ msgstr "R_etardo:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "_Desactivar las teclas persistentes si se pulsan dos teclas a la vez"
+
+#~ msgid "Fast"
+#~ msgstr "Rápida"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr ""
+#~ "La pulsaciones de teclas se _repiten cuando la tecla se mantiene pulsada"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Preferencias del teclado"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Modelo del teclado:"
+
+#~ msgid "Layouts"
+#~ msgstr "Distribuciones"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Lista de distribuciones de teclado seleccionadas para su uso"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Bloquea la pantalla después de un cierto intervalo para ayudar a prevenir "
+#~ "las lesiones por el uso repetitivo del teclado"
+
+#~ msgid "Long"
+#~ msgstr "Largo"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Teclas del ratón"
+
+#~ msgid "Move _Down"
+#~ msgstr "_Bajar"
+
+#~ msgid "Move _Up"
+#~ msgstr "_Subir"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Mover abajo, en la lista, la distribución de teclado seleccionada"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Mover arriba, en la lista, la distribución de teclado seleccionada"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Las ventanas nuevas u_san la distribución de la ventana activa"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Imprimir un diagrama de las distribuciones de teclado seleccionadas"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Quitar de la lista la distribución de teclado seleccionada"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Repetición de teclas"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Velocidad de repetición de teclas"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Reemplazar los ajustes de distribución de teclado actual\n"
+#~ "con los ajustes predeterminados"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Restablecer valores _predeterminados"
+
+#~ msgid "S_peed:"
+#~ msgstr "Ve_locidad:"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Seleccionar una distribución de teclado para añadir a la lista"
+
+#~ msgid "Short"
+#~ msgstr "Corto"
+
+#~ msgid "Slow"
+#~ msgstr "Lenta"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Ver y editar las opciones de distribución de teclado"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Aceleración:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "Permitir conmutar las características de _accesibilidad desde "
+#~ "combinaciones de teclas"
+
+#~ msgid "_Add..."
+#~ msgstr "_Añadir…"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Retardo:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Ignorar pulsaciones duplicadas rápidas"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "S_ólo aceptar teclas pulsadas durante cierto tiempo"
+
+#~ msgid "_Options..."
+#~ msgstr "_Opciones…"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "Permitir controlar el _puntero usando el teclado numérico"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Separar la _distribución para cada ventana"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simular pulsaciones de múltiples teclas"
+
+#~ msgid "_Speed:"
+#~ msgstr "Ve_locidad:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Teclee para probar la configuración:"
+
+#~ msgid "By _country"
+#~ msgstr "Por _país"
+
+#~ msgid "By _language"
+#~ msgstr "Por _idioma"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Elija una distribución"
+
+#~ msgid "Preview:"
+#~ msgstr "Vista previa:"
+
+#~ msgid "_Country:"
+#~ msgstr "_País:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Idioma:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Variantes:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Elija un modelo de teclado"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modelos:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Fabricantes:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Opciones de distribución del teclado"
+
+#~ msgid "Layout"
+#~ msgstr "Distribución"
+
+#~ msgid "Vendors"
+#~ msgstr "Fabricantes"
+
+#~ msgid "Models"
+#~ msgstr "Modelos"
+
+#~ msgid "Default"
+#~ msgstr "Predeterminado"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Establezca sus preferencias del teclado"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "No se puede cargar el icono de fábrica «%s»\n"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Mover a la izquierda"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Mover a la derecha"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Mover arriba"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Mover abajo"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Desactivado"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Elegir el tipo de pulsación de an_temano"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Elegir el tipo de pulsación con gestos del rató_n"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "Pulsación d_oble:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Pulsación de _arrastre:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Desactivar el _touchpad al escribir"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Tiempo de espera de la pulsación doble"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Arrastrar y soltar"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Pulsación al posarse"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Activar pul_saciones del ratón con el touchpad"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Activar desplazamiento _horizontal"
+
+#~ msgid "High"
+#~ msgstr "Alta"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Localizar puntero"
+
+#~ msgid "Low"
+#~ msgstr "Baja"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Orientación del ratón"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Velocidad del puntero"
+
+#~ msgid "Scrolling"
+#~ msgstr "Desplazamiento"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Pulsación sec_undaria:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "M_ostrar la posición del puntero al pulsar la tecla Control"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Mostrar la _ventana del tipo de pulsación"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Pulsación secundaria simulada"
+
+#~ msgid "Small"
+#~ msgstr "Pequeño"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "U_mbral:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Para probar sus ajustes de pulsación doble, pruebe a pulsar dos veces "
+#~ "sobre la bombilla."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Despla_zamiento con dos dedos"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "También puede usar el panel de la miniaplicación Pulsación al posarse "
+#~ "para elegir el tipo de pulsación."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Desactivado"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "Desplazamiento en el _borde"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Iniciar la pulsación cuando se pare el movimiento del puntero"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Zurdo"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "Umbral de _movimiento:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Diestro"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Sensibilidad:"
+
+#~ msgid "_Single click:"
+#~ msgstr "Pulsación _simple:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Tiempo de espera:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "_Disparar la pulsación secundaria al mantener pulsado el botón primario"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Establezca sus preferencias del ratón"
+
+#~ msgid "New Location..."
+#~ msgstr "Lugar nuevo..."
+
+#~ msgid "Location already exists"
+#~ msgstr "El lugar ya existe"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Proxy de la red"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Establezca sus preferencias del proxy de la red"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Conexión _directa a Internet</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Configuración _automática del proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Configuración _manual del proxy</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Usar autenticación</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL de configuración automática:"
+
+#~ msgid "C_reate"
+#~ msgstr "C_rear"
+
+#~ msgid "Create New Location"
+#~ msgstr "Crear una ubicación nueva"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detalles del proxy HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Proxy para H_TTP:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Lista de anfitriones ignorados"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Anfitriones ignorados"
+
+#~ msgid "Location:"
+#~ msgstr "Lugar:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Preferencias del proxy de la red"
+
+#~ msgid "Port:"
+#~ msgstr "Puerto:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Configuración del proxy"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Anfitrión s_ocks:"
+
+#~ msgid "The location already exists."
+#~ msgstr "El lugar ya existe."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Usuario:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Borrar lugar"
+
+#~ msgid "_Details"
+#~ msgstr "_Detalles"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Proxy para _FTP:"
+
+#~ msgid "_Location name:"
+#~ msgstr "Nombre del _lugar:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Contraseña:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Proxy para HTTP _seguro:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Usar el mismo proxy para todos los protocolos"
+
+#~ msgid "Universal Access"
+#~ msgstr "Acceso universal"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr "<span size=\"x-large\">Alto/invertido</span>"
+
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr "<span size=\"x-large\">Alto</span>"
+
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr "<span size=\"x-large\">Bajo</span>"
+
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr "<span size=\"x-large\">Normal</span>"
+
+#~ msgid "Acceptance delay:"
+#~ msgstr "Retardo de aceptación:"
+
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr ""
+#~ "Las características de accesibilidad se pueden activar y desactivar con "
+#~ "combinaciones de teclas"
+
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Pitar al usar Bloq. Num. y Bloq. Mayús."
+
+#~ msgid "Beep when a key is"
+#~ msgstr "Pitar cuando la tecla es"
+
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "Pitar al rechazar una tecla"
+
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "Pitar al pulsar una tecla modificadora"
+
+#~ msgid "Caribou"
+#~ msgstr "Caribou"
+
+#~ msgid "Change constrast:"
+#~ msgstr "Cambiar contraste:"
+
+#~ msgid "Contrast:"
+#~ msgstr "Contraste:"
+
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "Controlar el puntero usando el teclado numérico."
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "Controlar el puntero usando la cámara de vídeo."
+
+#~ msgid "Ctrl+Alt+-"
+#~ msgstr "Ctrl+Alt+-"
+
+#~ msgid "Ctrl+Alt+0"
+#~ msgstr "Ctrl+Alt+0"
+
+#~ msgid "Ctrl+Alt+4"
+#~ msgstr "Ctrl+Alt+4"
+
+#~ msgid "Ctrl+Alt+8"
+#~ msgstr "Ctrl+Alt+8"
+
+#~ msgid "Ctrl+Alt+="
+#~ msgstr "Ctrl+Alt+="
+
+#~ msgid "Decrease size:"
+#~ msgstr "Reducir tamaño:"
+
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "Desactivar si se pulsan dos teclas a la vez"
+
+#~ msgid "Display"
+#~ msgstr "Pantalla"
+
+#~ msgid "Display a textual description of speech and sounds."
+#~ msgstr "Mostrar una descripción textual de la voz y los sonidos."
+
+#~ msgid "Flash the entire screen"
+#~ msgstr "Destello de la pantalla completa"
+
+#~ msgid "Flash the window title"
+#~ msgstr "Destello de la barra de título de la ventana"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#~ msgid "Hearing"
+#~ msgstr "Audición"
+
+#~ msgid "High/Inverse"
+#~ msgstr "Alto/invertido"
+
+#~ msgid "HighContrast"
+#~ msgstr "AltoContraste"
+
+#~ msgid "HighContrastInverse"
+#~ msgstr "AltoContrasteInvertido"
+
+#~ msgid "I need assistance with:"
+#~ msgstr "Necesito asistencia con:"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ignorar pulsaciones duplicadas rápidas"
+
+#~ msgid "Increase size:"
+#~ msgstr "Aumentar tamaño:"
+
+#~ msgid "Keyboard Settings..."
+#~ msgstr "Ajustes de teclado…"
+
+#~ msgid "Larger"
+#~ msgstr "Más grande"
+
+#~ msgid "LowContrast"
+#~ msgstr "ContrasteBajo"
+
+#~ msgid "Mouse Settings..."
+#~ msgstr "Ajustes del ratón…"
+
+#~ msgid "Nomon"
+#~ msgstr "Nomon"
+
+#~ msgid "None"
+#~ msgstr "Ninguna"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "Teclado en pantalla"
+
+#~ msgid "OnBoard"
+#~ msgstr "EnPantalla"
+
+#~ msgid "Options..."
+#~ msgstr "Opciones…"
+
+#~ msgid "Pointing and Clicking"
+#~ msgstr "Apuntar y pulsar"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted."
+#~ msgstr "Introduce un retardo al pulsar una tecla y cuando esta se acepta."
+
+#~ msgid "Screen Reader"
+#~ msgstr "Lector de pantalla"
+
+#~ msgid "Seeing"
+#~ msgstr "Visión"
+
+#~ msgid "Shift+Ctrl+Alt+-"
+#~ msgstr "Shift+Ctrl+Alt+-"
+
+#~ msgid "Shift+Ctrl+Alt+="
+#~ msgstr "Shift+Ctrl+Alt+="
+
+#~ msgid "Show Universal Access status"
+#~ msgstr "Mostrar el estado del acceso universal"
+
+#~ msgid "Sound Settings..."
+#~ msgstr "Ajustes de sonido…"
+
+#~ msgid "Test flash"
+#~ msgstr "Probar destellos"
+
+#~ msgid "Test:"
+#~ msgstr "Probar:"
+
+#~ msgid "Text size:"
+#~ msgstr "Tamaño del texto:"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination."
+#~ msgstr ""
+#~ "Trata una secuencia de teclas modificadoras como una combinación de "
+#~ "teclas."
+
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "Iniciar una pulsación al posicionar el puntero."
+
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr ""
+#~ "Disparar una pulsación secundaria al mantener pulsado el botón primario."
+
+#~ msgid "Turn on or off:"
+#~ msgstr "Activar o desactivar:"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "Teclear aquí para probar la configuración"
+
+#~ msgid "Typing"
+#~ msgstr "Escritura"
+
+#~ msgid "Typing Assistant"
+#~ msgstr "Asistente de tecleado"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Usar una indicación visual cuando ocurra una alerta de sonido."
+
+#~ msgid "Use an alternative form of text input"
+#~ msgstr "Usar una forma alternativa de entrada de texto"
+
+#~ msgid "Video Mouse"
+#~ msgstr "Ratón de vídeo"
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Alertas visuales"
+
+#~ msgid "Zoom"
+#~ msgstr "Ampliación"
+
+#~ msgid "Zoom in:"
+#~ msgstr "Ampliar:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "Reducir:"
+
+#~ msgid "accepted"
+#~ msgstr "aceptada"
+
+#~ msgid "pressed"
+#~ msgstr "pulsada"
+
+#~ msgid "rejected"
+#~ msgstr "rechazada"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Cierra el centro de control cuando se activa una tarea"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr ""
+#~ "Abandona la consola cuando se ha realizado una acción de añadido o "
+#~ "eliminación"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Abandona la consola cuando se ha realizado una acción de ayuda"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Abandona la consola cuando se ha realizado una acción de inicio"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "Abandona la consola cuando se ha realizado una acción de actualización o "
+#~ "desinstalación"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr ""
+#~ "Indica si debe cerrarse la consola cuando se ha ejecutado una acción de "
+#~ "ayuda."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr ""
+#~ "Indica si debe cerrarse la consola cuando se ha ejecutado una acción de "
+#~ "inicio."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Indica si debe cerrarse la consola cuando se ha ejecutado una acción de "
+#~ "añadido o eliminación."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Indica si debe cerrarse la consola cuando se ha ejecutado una acción de "
+#~ "actualización o desinstalación."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Nombres de tareas y archivos .desktop asociados"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "El nombre de la tarea que desplegar en el centro de control seguido por "
+#~ "un separador «;» y luego el nombre de un archivo .desktop asociado que "
+#~ "lanzar para esa tarea."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Cambiar el tema;gtk-theme-selector.desktop,Establecer las aplicaciones "
+#~ "preferidas;default-applications.desktop,Añadir impresora;gnome-cups-"
+#~ "manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "Si es verdadero, el centro de control se cerrará cuando se active una "
+#~ "«Tarea común»."
+
+#~ msgid "Control Center"
+#~ msgstr "Centro de control"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "La herramienta de configuración de GNOME"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías OpenType se "
+#~ "miniaturizarán."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías PFC se "
+#~ "miniaturizarán."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías TrueType se "
+#~ "miniaturizarán."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías Type1 se "
+#~ "miniaturizarán."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Comando para miniaturizar las tipografías OpenType"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Comando para miniaturizar las tipografías PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Comando para miniaturizar las tipografías TrueType"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Comando para miniaturizar las tipografías Type1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías Type1"
+
+#~ msgid "Name:"
+#~ msgstr "Nombre:"
+
+#~ msgid "Style:"
+#~ msgstr "Estilo:"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"
+
+#~ msgid "Size:"
+#~ msgstr "Tamaño:"
+
+#~ msgid "Version:"
+#~ msgstr "Versión:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Copyright:"
+
+#~ msgid "Description:"
+#~ msgstr "Descripción:"
+
+#~ msgid "Installed"
+#~ msgstr "Instalado"
+
+#~ msgid "Install Failed"
+#~ msgstr "Falló la instalación"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "uso: %s archivo de tipografías\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "I_nstalar tipografía"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Visor de tipografías"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Vista previa de las tipografías"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Texto a miniaturizar (predeterminado: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXTO"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Tamaño de la tipografía (predeterminado: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "TAMAÑO"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ARCHIVO-DE-TIPOGRAFÍA ARCHIVO-DE-SALIDA"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Error al analizar los argumentos: %s\n"
+
+#~ msgid "Example Panel"
+#~ msgstr "Panel de ejemplo"
+
+#~ msgid "System Settings"
+#~ msgstr "Configuración del sistema"
+
+#~ msgid "_All Settings"
+#~ msgstr "_Todos los ajustes"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Distribución del teclado «%s»"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Distribución del teclado"
+
+#~ msgid "_Groups"
+#~ msgstr "_Grupos"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "No es posible poner la máquina en bajo consumo\n"
+#~ "Verifique que la máquina esté configurada correctamente."
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Vínculo para suspender el equipo."
+
+#~ msgid "Suspend"
+#~ msgstr "Suspender"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "Control de volumen de GNOME"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% del espacio de disco en «%s» está en uso"
+
+#~ msgid "Analyze"
+#~ msgstr "Analizar"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Establézcala a «true» para mostrar un diálogo cuando haya errores al "
+#~ "ejecutar el salvapantallas."
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr ""
+#~ "Establézcala a «true» para ejecutar el salvapantallas al iniciar sesión."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Mostrar errores de arranque"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Iniciar el salvapantallas"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Activar el complemento de salvapantallas"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Hubo un error al iniciar el salvapantallas:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "El salvapantallas no funcionará en esta sesión."
+
+#~ msgid "Screensaver"
+#~ msgstr "Salvapantallas"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "Complemento de salvapantallas"
+
+#~ msgid "Toggle screenreader"
+#~ msgstr "Conmutar el lector de pantalla"
+
+#~ msgid "Sound Sample Cache plugin"
+#~ msgstr "Complemento de caché de muestras de sonido"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "No es posible crear el directorio «%s».\n"
+#~ "Esto es necesario para permitir cambiar el tema del puntero."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "No es posible crear el directorio «%s».\n"
+#~ "Esto es necesario para permitir cambiar los cursores."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "No es posible cargar el archivo de sonido %s como muestra %s"
+
+#~ msgid "Login"
+#~ msgstr "Entrada"
+
+#~ msgid "Logout"
+#~ msgstr "Salida"
+
+#~ msgid "Boing"
+#~ msgstr "Boing"
+
+#~ msgid "Siren"
+#~ msgstr "Sirena"
+
+#~ msgid "Clink"
+#~ msgstr "Clink"
+
+#~ msgid "Beep"
+#~ msgstr "Bip"
+
+#~ msgid "No sound"
+#~ msgstr "Sin sonido"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "No hay un sonido para este evento."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "No existe el archivo de sonido para este evento.\n"
+#~ "Quizá quiera instalar el paquete gnome-audio para tener\n"
+#~ "un conjunto de sonidos predeterminados."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "No existe el archivo de sonido correspondiente a este evento."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Seleccione un archivo de sonido"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "El archivo %s no es un archivo wav válido"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Seleccione un archivo de sonido…"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Ocurrió un error al configurar la pantalla"
+
+#~ msgid "Image/label border"
+#~ msgstr "Imagen/borde de la etiqueta"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr ""
+#~ "Anchura del borde alrededor de la etiqueta y la imagen en el diálogo de "
+#~ "alerta"
+
+#~ msgid "Alert Type"
+#~ msgstr "Tipo de alerta"
+
+#~ msgid "The type of alert"
+#~ msgstr "El tipo de alerta"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Botones de alerta"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Los botones mostrados en el diálogo de alerta"
+
+#~ msgid "Show more _details"
+#~ msgstr "Mostrar más _detalles"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Ponga su pulgar izquierdo en %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Pase su pulgar izquierdo sobre %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Ponga su dedo índice izquierdo en %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Pase su dedo índice izquierdo sobre %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Ponga su dedo corazón izquierdo en %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Pase su dedo corazón izquierdo sobre %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Ponga su dedo anular izquierdo en %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Pase su dedo anular izquierdo sobre %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Ponga su dedo meñique izquierdo en %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Pase su dedo meñique izquierdo sobre %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Ponga su pulgar derecho en %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Pase su pulgar derecho sobre %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Ponga su dedo índice derecho en %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Pase su dedo índice derecho sobre %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Ponga su dedo corazón derecho en %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Pase su dedo corazón derecho sobre %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Ponga su dedo anular derecho en %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Pase su dedo anular derecho sobre %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Ponga su dedo meñique derecho en %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Pase su dedo meñique derecho sobre %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Ponga de nuevo su dedo en el lector"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Pase su dedo de nuevo"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "La pasada fue demasiado corta, inténtelo de nuevo"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Su dedo no estaba centrado, intente pasar su dedo de nuevo"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Quite su dedo e intente pasar su dedo de nuevo"
+
+#~ msgid "Select Image"
+#~ msgstr "Seleccionar imagen"
+
+#~ msgid "No Image"
+#~ msgstr "Sin imagen"
+
+#~ msgid "Images"
+#~ msgstr "Imágenes"
+
+#~ msgid "All Files"
+#~ msgstr "Todos los archivos"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Hubo un error al intentar obtener la información de la libreta de "
+#~ "direcciones\n"
+#~ "Evolution Data Server no puede manipular el protocolo"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Imposible abrir la libreta de direcciones"
+
+#~ msgid "About %s"
+#~ msgstr "Acerca de %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "_Dirección:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "_Secretario/a:"
+
+#~ msgid "About Me"
+#~ msgstr "Acerca de mí"
+
+#~ msgid "Address"
+#~ msgstr "Dirección"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Ciudad:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "C_ompañía:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Cale_ndario:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Cambiar _contraseña…"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "_Ciudad:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_País:"
+
+#~ msgid "Contact"
+#~ msgstr "Contacto"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "_País:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Desactivar el inicio de sesión con _huella..."
+
+#~ msgid "Email"
+#~ msgstr "Correo-e"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Activar el inicio de sesión con _huella..."
+
+#~ msgid "Full Name"
+#~ msgstr "Nombre completo"
+
+#~ msgid "Hom_e:"
+#~ msgstr "_Domicilio:"
+
+#~ msgid "Home"
+#~ msgstr "Domicilio"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Mensajería instantánea"
+
+#~ msgid "Job"
+#~ msgstr "Tarea"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "A_pdo. de correos:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "_Apdo. de correos:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Datos personales"
+
+#~ msgid "Select your photo"
+#~ msgstr "Seleccione su fotografía"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Estado/Pro_vincia:"
+
+#~ msgid "Telephone"
+#~ msgstr "Teléfono"
+
+#~ msgid "User name:"
+#~ msgstr "Usuario:"
+
+#~ msgid "Web"
+#~ msgstr "Web"
+
+#~ msgid "Web _log:"
+#~ msgstr "_Diario web:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Trabajo:"
+
+#~ msgid "Work"
+#~ msgstr "Trabajo"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Fax del trabajo:"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "ZIP/_Código postal:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Dirección:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Departamento:"
+
+#~ msgid "_GroupWise:"
+#~ msgstr "_GroupWise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "Página _personal:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Domicilio:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Jefe:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Móvil:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Profesión:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "E_stado/Provincia:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Título:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Trabajo:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_ZIP/Código postal:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Escriba su información personal"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "No le está permitido acceder al dispositivo. Contacte con el "
+#~ "administrador de su sistema."
+
+#~ msgid "The device is already in use."
+#~ msgstr "El dispositivo ya está en uso"
+
+#~ msgid "An internal error occured"
+#~ msgstr "Ocurrió un error interno"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "¿Borrar las huellas registradas?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Borrar huellas"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "¿Quiere borrar sus huellas registradas y así desactivar el inicio de "
+#~ "sesión con huella?"
+
+#~ msgid "Done!"
+#~ msgstr "Hecho"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "No se pudo acceder al dispositivo «%s»"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "No se pudo iniciar la captura de dedo en el dispositivo «%s»"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "No se pudo acceder a ninguna lectura de huellas"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Contacte con el administrador de su sistema para obtener ayuda."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Activar el inicio de sesión con huella"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Para activar el inicio de sesión con huella debe guardar una de sus "
+#~ "huellas usando el dispositivo «%s»."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Pase el dedo sobre el lector"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Ponga el dedo en el lector"
+
+#~ msgid "Left index finger"
+#~ msgstr "Dedo índice izquierdo"
+
+#~ msgid "Left little finger"
+#~ msgstr "Dedo meñique izquierdo"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Dedo corazón izquierdo"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Dedo anular izquierdo"
+
+#~ msgid "Left thumb"
+#~ msgstr "Pulgar izquierdo"
+
+#~ msgid "Other finger: "
+#~ msgstr "Otro dedo: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Dedo índice derecho"
+
+#~ msgid "Right little finger"
+#~ msgstr "Dedo meñique derecho"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Dedo corazón derecho"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Dedo anular derecho"
+
+#~ msgid "Right thumb"
+#~ msgstr "Pulgar derecho"
+
+#~ msgid "Select finger"
+#~ msgstr "Seleccionar dedo"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Su huella dactilar se guardó correctamente. Ahora debería poder iniciar "
+#~ "sesión usando su lector de huellas dactilares."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "El hijo salió inesperadamente"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "No es posible apagar el canal de E/S backend_stdin: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "No es posible apagar el canal de E/S backend_stdout: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Autenticado"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Su contraseña ha sido cambiada desde que se autenticó por primera vez. "
+#~ "Por favor vuelva a autenticarse."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Esa contraseña fue incorrecta."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Su contraseña se ha cambiado."
+
+#~ msgid "System error: %s."
+#~ msgstr "Error del sistema: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "La contraseña es demasiado corta."
+
+#~ msgid "The password is too simple."
+#~ msgstr "La contraseña es demasiado simple."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "La contraseña antigua y la nueva son demasiado similares."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr ""
+#~ "La contraseña nueva debe contener caracteres numéricos o especiales."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "La contraseña nueva y la antigua son la misma."
+
+#~ msgid "The new password has already been used recently."
+#~ msgstr "La contraseña nueva ya se ha usado recientemente."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "No se puede lanzar %s: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Imposible lanzar el backend"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Ha ocurrido un error del sistema"
+
+#~ msgid "Checking password..."
+#~ msgstr "Comprobando contraseña…"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Pulse en <b>Cambiar contraseña</b> para cambiar su contraseña."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Teclee su contraseña en el campo <b>Contraseña nueva</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Por favor, teclee la contraseña de nuevo en el campo <b>Teclee la "
+#~ "contraseña nueva otra vez</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Las dos contraseñas no son iguales."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Cambiar _contraseña"
+
+#~ msgid "Change password"
+#~ msgstr "Cambiar contraseña"
+
+#~ msgid "Change your password"
+#~ msgstr "Cambiar su contraseña"
+
+#~ msgid "Current _password:"
+#~ msgstr "Contraseña _actual:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Para cambiar su contraseña, introduzca su contraseña actual en el campo "
+#~ "de abajo y pulse <b>Autenticar</b>.\n"
+#~ "Después de haberse autenticado, introduzca su contraseña nueva, "
+#~ "reescríbala para verificación y pulse <b>Cambiar contraseña</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Autenticar"
+
+#~ msgid "_New password:"
+#~ msgstr "Contraseña _nueva:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_Vuelva a teclear la contraseña nueva:"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Añadir fondo"
+
+#~ msgid "All files"
+#~ msgstr "Todos los archivos"
+
+#~ msgid "Font may be too large"
+#~ msgstr "La tipografía quizá sea demasiado grande"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "La tipografía seleccionada es %d punto de grande, y puede hacer difícil "
+#~ "usar el equipo. Se recomienda que seleccione un tamaño menor de %d."
+#~ msgstr[1] ""
+#~ "La tipografía seleccionada es %d puntos de grande, y puede hacer difícil "
+#~ "usar el equipo. Se recomienda que seleccione un tamaño menor de %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "La tipografía seleccionada es %d punto de grande, y puede hacer difícil "
+#~ "usar el equipo. Se recomienda que seleccione una tipografía de tamaño "
+#~ "menor."
+#~ msgstr[1] ""
+#~ "La tipografía seleccionada es %d puntos de grande, y puede hacer difícil "
+#~ "usar el equipo. Se recomienda que seleccione una tipografía de tamaño "
+#~ "menor."
+
+#~ msgid "Use previous font"
+#~ msgstr "Usar la tipografía anterior"
+
+#~ msgid "Use selected font"
+#~ msgstr "Usar la tipografía seleccionada"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "No se pudo cargar el archivo de interfaz de usuario: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Especifique el nombre de archivo del tema a instalar"
+
+#~ msgid "filename"
+#~ msgstr "nombre de archivo"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Especifique el nombre de la página para mostrar (theme|background|fonts|"
+#~ "interface)"
+
+#~ msgid "page"
+#~ msgstr "página"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[Fondo…]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Puntero predeterminado"
+
+#~ msgid "Install"
+#~ msgstr "Instalar"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Este tema no se mostrará como se pretende porque el motor de temas GTK+ "
+#~ "necesario «%s» no está instalado."
+
+#~ msgid "Apply Background"
+#~ msgstr "Aplicar fondo"
+
+#~ msgid "Apply Font"
+#~ msgstr "Aplicar tipografía"
+
+#~ msgid "Revert Font"
+#~ msgstr "Revertir la tipografía"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual sugiere un fondo y una tipografía. Además, se puede "
+#~ "revertir la última sugerencia de tipografía aplicada."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual sugiere un fondo. Además, se puede revertir la última "
+#~ "sugerencia de tipografía aplicada."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "El tema actual sugiere un fondo y una tipografía."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "El tema actual sugiere una tipografía. Además, se puede revertir la "
+#~ "última sugerencia de tipografía aplicada."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "El tema actual sugiere un fondo."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Se puede revertir la última sugerencia de tipografía aplicada."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "El tema actual sugiere una tipografía."
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Preferencias de la apariencia"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Mejores _formas"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Mejor co_ntraste"
+
+#~ msgid "C_olors:"
+#~ msgstr "C_olores:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "_Personalizar…"
+
+#~ msgid "Center"
+#~ msgstr "Centrar"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "El cambio del tema de cursor no tendrá efecto hasta que salga e inicie "
+#~ "sesión nuevamente."
+
+#~ msgid "Colors"
+#~ msgstr "Colores"
+
+#~ msgid "Controls"
+#~ msgstr "Controles"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Personalizar tema"
+
+#~ msgid "D_etails..."
+#~ msgstr "_Detalles…"
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Tipografía para el _escritorio:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detalles del renderizado de la tipografía"
+
+#~ msgid "Fonts"
+#~ msgstr "Tipografías"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Obtener más fondos en línea"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Obtener más temas en línea"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Escala de g_rises"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Gradiente horizontal"
+
+#~ msgid "Icons"
+#~ msgstr "Iconos"
+
+#~ msgid "Icons only"
+#~ msgstr "Sólo iconos"
+
+#~ msgid "N_one"
+#~ msgstr "Ningun_o"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Abre un diálogo para especificar el color"
+
+#~ msgid "Pointer"
+#~ msgstr "Puntero"
+
+#~ msgid "R_esolution:"
+#~ msgstr "R_esolución:"
+
+#~ msgid "Rendering"
+#~ msgstr "Renderizado"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Guardar tema como…"
+
+#~ msgid "Save _As..."
+#~ msgstr "Guardar _como…"
+
+#~ msgid "Save _background image"
+#~ msgstr "Guardar imagen de _fondo"
+
+#~ msgid "Scale"
+#~ msgstr "Escalar"
+
+#~ msgid "Smoothing"
+#~ msgstr "Suavizado"
+
+#~ msgid "Solid color"
+#~ msgstr "Color sólido"
+
+#~ msgid "Span"
+#~ msgstr "Expandir"
+
+#~ msgid "Stretch"
+#~ msgstr "Estirar"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_píxel (LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Suavizado de sub_píxel (LCD)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Orden del subpíxel"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Text below items"
+#~ msgstr "Texto debajo de los iconos"
+
+#~ msgid "Text beside items"
+#~ msgstr "Texto junto a los iconos"
+
+#~ msgid "Text only"
+#~ msgstr "Sólo texto"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "El tema actual de controles no soporta esquemas de colores."
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Tile"
+#~ msgstr "Mosaico"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Gradiente vertical"
+
+#~ msgid "Window Border"
+#~ msgstr "Borde de la ventana"
+
+#~ msgid "_Application font:"
+#~ msgstr "Tipografía para la _aplicación:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Descripción:"
+
+#~ msgid "_Document font:"
+#~ msgstr "Tipografía para los _documentos:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Tipografía de ancho _fijo:"
+
+#~ msgid "_Full"
+#~ msgstr "C_ompleto"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "Cajas de _entrada:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Instalar…"
+
+#~ msgid "_Medium"
+#~ msgstr "_Medio"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monocromo"
+
+#~ msgid "_None"
+#~ msgstr "_Ninguno"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_Restablecer valores predeterminados"
+
+#~ msgid "_Selected items:"
+#~ msgstr "Elementos _seleccionados:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Tamaño:"
+
+#~ msgid "_Slight"
+#~ msgstr "Le_ve"
+
+#~ msgid "_Style:"
+#~ msgstr "E_stilo:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Consejos:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Tipografía del título de la _ventana:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Ventanas:"
+
+#~ msgid "dots per inch"
+#~ msgstr "puntos por pulgada"
+
+#~ msgid "Appearance"
+#~ msgstr "Apariencia"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Personalice la apariencia del escritorio"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Instala paquetes de temas para varias partes del escritorio"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Instalador de temas"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Paquete de tema GNOME"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Sin fondo de escritorio"
+
+#~ msgid "Slide Show"
+#~ msgstr "Mostrar diapositivas"
+
+#~ msgid "Image"
+#~ msgstr "Imagen"
+
+#~ msgid "multiple sizes"
+#~ msgstr "tamaños múltiples"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s por %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "píxel"
+#~ msgstr[1] "píxeles"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Carpeta: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Carpeta: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Falta una imagen"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "No se puede instalar el tema"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "La utilidad %s no está instalada."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Hubo un problema al extraer el tema."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Hubo un error al instalar el archivo seleccionado"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "«%s» no parece ser un tema válido."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "«%s» no parece ser un tema válido. Puede ser un motor de temas que debe "
+#~ "compilar."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "La instalación del tema «%s» falló."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Se ha instalado el tema «%s»."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "¿Desea aplicarlo ahora, o mantener su tema actual?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Mantener el tema actual"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Aplicar el nuevo tema"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "El tema de GNOME %s se instaló correctamente"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Falló al crear la carpeta temporal"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Los nuevos temas se han instalado con éxito."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr ""
+#~ "No se ha especificado ninguna ubicación del archivo del tema para instalar"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Permisos insuficientes para instalar el tema en:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Seleccionar un tema"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Paquetes de temas"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "El nombre del tema debe estar presente"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "El tema ya existe. ¿Quiere reemplazarlo?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Sobreescribir"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "¿Quiere eliminar este tema?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "No se puede borrar el tema"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "No se pudo instalar el motor del tema"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "No se puede iniciar el gestor de configuración «gnome-settings-daemon».\n"
+#~ "Si el gestor de configuración de GNOME no se está ejecutando, es posible "
+#~ "que algunas de las preferencias no surtan efecto. Esto puede ser el "
+#~ "síntoma de un problema con DBus o que un gestor de configuración que no "
+#~ "es de GNOME (por ejemplo KDE) ya esté activo y en conflicto con el gestor "
+#~ "de configuración de GNOME."
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Copiando archivo: %u de %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Copiando «%s»"
+
+#~ msgid "Copying files"
+#~ msgstr "Copiando archivos"
+
+#~ msgid "Parent Window"
+#~ msgstr "Ventana raíz"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Ventana raíz del diálogo"
+
+#~ msgid "From URI"
+#~ msgstr "Desde la URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "Transfiriendo desde la URI"
+
+#~ msgid "To URI"
+#~ msgstr "A la URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "Transfiriendo a la URI"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Fracción completada"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Fracción de la transferencia actualmente completada"
+
+#~ msgid "Current URI index"
+#~ msgstr "Índice URI actual"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Índice URI actual - comienza desde 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Total de URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Número total de URI"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "El archivo «%s» ya existe. ¿Quiere sobreescribirlo?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Saltar"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Sobreescribir _todo"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Puntero predeterminado - Actual"
+
+#~ msgid "White Pointer"
+#~ msgstr "Puntero blanco"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Puntero blanco - Actual"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Puntero grande"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Puntero grande - Actual"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Puntero blanco grande - Actual"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Puntero blanco grande"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Este tema no se mostrará como se pretende porque el el tema GTK+ "
+#~ "necesario «%s» no está instalado."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Este tema no se mostrará como se pretende porque el tema del gestor de "
+#~ "ventanas necesario «%s» no está instalado."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Este tema no se mostrará como se pretende porque el tema de iconos "
+#~ "necesario «%s» no está instalado."
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "El gestor de ventanas «%s» no ha registrado una herramienta de "
+#~ "configuración\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maximizar"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Maximizar verticalmente"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Maximizar horizontalmente"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimizar"
+
+#~ msgid "Roll up"
+#~ msgstr "Enrollar"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "_Inicio de sesión accesible"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Tecnologías de asistencia"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Preferencias de las tecnologías de asistencia"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Los cambios para activar las tecnologías de asistencia no tendrán efecto "
+#~ "hasta que salga e inicie sesión nuevamente."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Cerrar y de_sconectarse"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Saltar al diálogo de Aplicaciones preferidas"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Saltar al diálogo de Inicio de sesión accesible"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Saltar al diálogo de Accesibilidad del teclado"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Saltar al diálogo de Accesibilidad del ratón"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencias"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Activar las tecnologías de asistencia"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Accesibilidad del _teclado"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Accesibilidad del _ratón"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "Aplicaciones _preferidas"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Elija qué características de accesibilidad activar al iniciar sesión"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Preferencias del monitor"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Especifique el nombre de la página para mostrar (internet|multimedia|"
+#~ "system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- Aplicaciones predeterminadas de GNOME"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Tan sólo aplicar la configuración y salir (sólo por compatibilidad; "
+#~ "manipulado ahora por un demonio)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr ""
+#~ "Iniciar la página mostrando la configuración del descanso de escritura"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Iniciar la página mostrando la configuración de accesibilidad"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Preferencias del teclado de GNOME"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr ""
+#~ "Especifique el nombre de la página para mostrar (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Preferencias del ratón de GNOME"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "No se puede iniciar la aplicación de preferencias para su gestor de "
+#~ "ventanas"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "_Hiper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "_Super (o «Logo de Windows»)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Tecla de movimiento"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Acción de la barra de título"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Para mover una ventana, mantenga pulsada esta tecla y luego arrastre la "
+#~ "ventana:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Preferencias de ventanas"
+
+#~ msgid "Window Selection"
+#~ msgstr "Selección de ventana"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr ""
+#~ "Pulse _dos veces sobre la barra del título de la ventana para realizar "
+#~ "esta acción:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Intervalo antes de elevar:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Elevar las ventanas seleccionadas tras un intervalo"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Seleccionar las ventanas cuando el ratón se mueve sobre ellas"
+
+#~ msgid "seconds"
+#~ msgstr "segundos"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Establezca sus propiedades de ventana"
+
+#~ msgid "Windows"
+#~ msgstr "Ventanas"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "tecla no encontrada [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Ocultar al inicio (útil para precargar la consola)"
+
+#~ msgid "Filter"
+#~ msgstr "Filtro"
+
+#~ msgid "Groups"
+#~ msgstr "Grupos"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Tareas comunes"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Su filtro «%s» no coincide con ningún elemento."
+
+#~ msgid "No matches found."
+#~ msgstr "No se encontró ninguna coincidencia."
+
+#~ msgid "Other"
+#~ msgstr "Otras"
+
+#~ msgid "Start %s"
+#~ msgstr "Iniciar %s"
+
+#~ msgid "Help"
+#~ msgstr "Ayuda"
+
+#~ msgid "Upgrade"
+#~ msgstr "Actualizar"
+
+#~ msgid "Uninstall"
+#~ msgstr "Desinstalar"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Quitar de favoritos"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Añadir a favoritos"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Quitar de los programas de inicio"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Añadir a los programas de inicio"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Hoja de cálculo nueva"
+
+#~ msgid "New Document"
+#~ msgstr "Documento nuevo"
+
+#~ msgid "Documents"
+#~ msgstr "Documentos"
+
+#~ msgid "File System"
+#~ msgstr "Sistema de archivos"
+
+#~ msgid "Network Servers"
+#~ msgstr "Servidores de red"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Abrir</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Renombrar…"
+
+#~ msgid "Send To..."
+#~ msgstr "Enviar a…"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Mover a la papelera"
+
+#~ msgid "Delete"
+#~ msgstr "Borrar"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "¿Está seguro de que quiere borrar permanentemente «%s»?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Si borra un elemento se pierde para siempre."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Abrir con «%s»"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Abrir con la aplicación predeterminada"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Abrir en el gestor de archivos"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Hoy %H:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Ayer %H:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %H:%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d %b %H:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Buscar ahora"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Abrir %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Quitar de los elementos del sistema"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Cambie la resolución de la pantalla"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Preferencias de la pantalla"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "Arrastre los monitores para ajustar su ubicación"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "_Espejar pantallas"
+
+#~ msgid "C_ontrol"
+#~ msgstr "_Ctrl"
+
+#~ msgid "Fill screen"
+#~ msgstr "Rellenar pantalla"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "A_celeración:"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba "
+#~ "el saxofón detrás del palenque de paja. 0123456789"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Interface"
+#~ msgstr "Interfaz"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "Menús y barras de herramientas"
+
+#~ msgid "Preview"
+#~ msgstr "Vista previa"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Mostrar _iconos en los menús"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Etiquetas de los _botones de la barra de herramientas:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "Aceleradores de menú _editables"
+
+#~ msgid "_File"
+#~ msgstr "_Archivo"
+
+#~ msgid "New windows get layout \"foobar\""
+#~ msgstr "Las nuevas ventanas obtienen la distribución «foobar»"
+
+#~ msgid "Selected _layouts:"
+#~ msgstr "Distribuciones _seleccionadas:"
+
+#~ msgid "_Desktop Background"
+#~ msgstr "_Fondo del escritorio"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>No se encontraron coincidencias.</b></"
+#~ "span><span>\n"
+#~ "\n"
+#~ " Su filtro «<b>%s</b>» no coincide con ningún elemento.</span>"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "ID de inicio desconocido, la base de datos de usuarios quizá esté corrupta"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>Correo-e</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Domicilio</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Cargo</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Web</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Cambie su contraseña</span>"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Tecnologías de asistencia</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Preferencias</b>"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>C_olores</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Vista previa</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>_Fondo del escritorio</b>"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Visual</b>"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>Rechazo de teclas</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>General</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Rápida</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Largo</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Corto</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Lenta</i></small>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Localizar el puntero</b>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>Alta</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>Grande</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>Baja</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>Pequeño</i></small>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Lista de anfitriones ignorados</b>"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "Pulgar izquierdo\n"
+#~ "Dedo corazón izquierdo\n"
+#~ "Dedo anular izquierdo\n"
+#~ "Dedo meñique izquierdo\n"
+#~ "Pulgar derecho\n"
+#~ "Dedo corazón derecho\n"
+#~ "Dedo anular derecho\n"
+#~ "Dedo meñique derecho"
+
+#~ msgid "C_ut"
+#~ msgstr "Co_rtar"
+
+#~ msgid "New File"
+#~ msgstr "Archivo nuevo"
+
+#~ msgid "Open File"
+#~ msgstr "Abrir archivo"
+
+#~ msgid "Save File"
+#~ msgstr "Guardar archivo"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "Color sólido\n"
+#~ "Degradado horizontal\n"
+#~ "Degradado vertical"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "Texto debajo de los iconos\n"
+#~ "Texto junto a los iconos\n"
+#~ "Sólo iconos\n"
+#~ "Sólo texto"
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "Mosaico\n"
+#~ "Ampliación\n"
+#~ "Centrado\n"
+#~ "Escalado\n"
+#~ "Rellenar la pantalla"
+
+#~ msgid "_Copy"
+#~ msgstr "_Copiar"
+
+#~ msgid "_New"
+#~ msgstr "_Nuevo"
+
+#~ msgid "_Open"
+#~ msgstr "_Abrir"
+
+#~ msgid "_Print"
+#~ msgstr "Im_primir"
+
+#~ msgid "_Quit"
+#~ msgstr "_Salir"
+
+#~ msgid "_Save"
+#~ msgstr "_Guardar"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "Normal\n"
+#~ "Izquierda\n"
+#~ "Derecha\n"
+#~ "Hacia abajo\n"
+
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "No se pudo aplicar la configuración seleccionada"
+
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "No se pudo obtener org.gnome.SettingsDaemin.XRANDR"
+
+#~ msgid "_Command:"
+#~ msgstr "_Comando:"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Resolución de la pantalla"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>_Tapiz</b>"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Sin tapiz"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Bloquear la pantalla"
+
+#~ msgid "Shutdown"
+#~ msgstr "Apagar"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Active el sonido y asocie sonidos con eventos"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "Control de volumen desconocido %d"
+
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "Ha fallado la construcción de la tubería de prueba para «%s»"
+
+#~ msgid "Not connected"
+#~ msgstr "No conectado"
+
+#~ msgid "Autodetect"
+#~ msgstr "Autodetectar"
+
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - Advanced Linux Sound Architecture"
+
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART Sound Daemon"
+
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - Enlightened Sound Daemon"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - Open Sound System"
+
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "PulseAudio Sound Server"
+
+#~ msgid "Silence"
+#~ msgstr "Silencio"
+
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr "- Preferencias de sonido de GNOME"
+
+#~ msgid "<b>Alerts and Sound Effects</b>"
+#~ msgstr "<b>Alertas y efectos de sonido</b>"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>Conferencia de sonido</b>"
+
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>Pistas predeterminadas del mezclador</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>Música y películas</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>Eventos de sonido</b>"
+
+#~ msgid "<b>Sound Theme</b>"
+#~ msgstr "<b>Tema de sonido</b>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "Pulse «Aceptar» para terminar."
+
+#~ msgid "Devices"
+#~ msgstr "Dispositivos"
+
+#~ msgid "Play _alert sound"
+#~ msgstr "Reproducir sonido de _alerta"
+
+#~ msgid "Play _sound effects when buttons are clicked"
+#~ msgstr "Reproducir efectos de _sonido al pulsar botones"
+
+#~ msgid "S_ound playback:"
+#~ msgstr "Repr_oducción de sonido:"
+
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "Seleccione el dispositivo y las pistas a controlar con el teclado. Use "
+#~ "las teclas Mayús. y Control para seleccionar múltiples pistas si es "
+#~ "necesario."
+
+#~ msgid "So_und playback:"
+#~ msgstr "Reprod_ucción de sonido:"
+
+#~ msgid "Sou_nd capture:"
+#~ msgstr "Captura de so_nido:"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Preferencias de sonido"
+
+#~ msgid "Sounds"
+#~ msgstr "Sonidos"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "Probar pipeline"
+
+#~ msgid "_Device:"
+#~ msgstr "_Dispositivo:"
+
+#~ msgid "_Play alerts and sound effects"
+#~ msgstr "_Reproducir alertas y efectos de sonido"
+
+#~ msgid "_Sound playback:"
+#~ msgstr "Reproducción de _sonido:"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alert sound"
+#~ msgstr "Sonido de alarma"
+
+#~ msgctxt "Sound event"
+#~ msgid "Windows and Buttons"
+#~ msgstr "Ventanas y botones"
+
+#~ msgctxt "Sound event"
+#~ msgid "Button clicked"
+#~ msgstr "Botón pulsado"
+
+#~ msgctxt "Sound event"
+#~ msgid "Toggle button clicked"
+#~ msgstr "Botón conmutador pulsado"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window maximized"
+#~ msgstr "Ventana maximizada"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window unmaximized"
+#~ msgstr "Ventana desmaximizada"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window minimised"
+#~ msgstr "Ventana minimizada"
+
+#~ msgctxt "Sound event"
+#~ msgid "Desktop"
+#~ msgstr "Escritorio"
+
+#~ msgctxt "Sound event"
+#~ msgid "Logout"
+#~ msgstr "Salida"
+
+#~ msgctxt "Sound event"
+#~ msgid "New e-mail"
+#~ msgstr "Correo-e nuevo"
+
+#~ msgctxt "Sound event"
+#~ msgid "Empty trash"
+#~ msgstr "Vaciado de la papelera"
+
+#~ msgctxt "Sound event"
+#~ msgid "Long action completed (download, CD burning, etc.)"
+#~ msgstr "Acción larga completada (descarga, grabación de CD, etc.)"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alerts"
+#~ msgstr "Alarmas"
+
+#~ msgctxt "Sound event"
+#~ msgid "Information or question"
+#~ msgstr "Información o pregunta"
+
+#~ msgctxt "Sound event"
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgctxt "Sound event"
+#~ msgid "Battery warning"
+#~ msgstr "Advertencia de batería"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Comprobando el sonido de evento"
+
+#~ msgid "Sound files"
+#~ msgstr "Archivos de sonido"
+
+#~ msgid "Custom..."
+#~ msgstr "Personalizado…"
+
+#~ msgid "Monitor Resolution Settings"
+#~ msgstr "Ajustes de resolución del monitor"
+
+#~ msgid ""
+#~ "The X server does not support the XRANDR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "El servidor X no soporta la extensión XRANDR. Los cambios inmediatos "
+#~ "sobre el tamaño de la pantalla no están disponibles."
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Obtener y almacenar configuración heredada"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr ""
+#~ "Active el soporte para las tecnologías de asistencia de GNOME durante el "
+#~ "inicio"
+
+#~ msgid "Cloned Output"
+#~ msgstr "Salida clonada"
+
+#~ msgid "New accelerator..."
+#~ msgstr "Combinación nueva…"
+
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "Atributo «%s» inesperado para el elemento «%s»"
+
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "No se encontró el atributo «%s» del elemento «%s»"
+
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "Etiqueta «%s» inesperada, se esperaba la etiqueta «%s»"
+
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "Etiqueta «%s» inesperada dentro de «%s»"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr ""
+#~ "No se encontró un archivo de marcadores válido en los directorios de datos"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "Ya existe un marcador para la URI «%s»"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "No se encontró un marcador para la URI «%s»"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "No hay un tipo MIME definido en el marcador para la URI «%s»"
+
+#~ msgid "No private flag has been defined in bookmark for URI '%s'"
+#~ msgstr ""
+#~ "No se ha definido una bandera privada en el marcador para la URI «%s»"
+
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "No hay establecido ningún grupo para el URI «%s»"
+
+#~ msgid "No application with name '%s' registered a bookmark for '%s'"
+#~ msgstr ""
+#~ "Ninguna aplicación con el nombre «%s» registró un marcador para «%s»"

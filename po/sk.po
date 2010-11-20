@@ -1,171 +1,5331 @@
+# #-#-#-#-#  sk.po (drwright)  #-#-#-#-#
 # DrWright
 # Copyright (C) 2003
 # This file is distributed under the same license as the DrWright package.
 # Pavel Kanzelsberger <kanzels@boxnetwork.sk>, 2003.
-
+# #-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#
+# Slovak translation for gnome-settings-daemon.
+# Copyright (C) 2000-2005, 2007-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000-2004.
+# Marcel Telka <marcel@telka.sk>, 2005.
+# Peter Tuharsky <tuharsky@misbb.sk>, 2007.
+# Pavol Šimo <palo.simo@gmail.com>, 2008, 2009, 2010.
+#
+# #-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#
+# GNOME control-center Slovak translation
+# Copyright (C) 2000-2009 Free Software Foundation, Inc.
+# Stanislav Višňovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000,2001,2002,2003, 2004.
+# Stanislav Višňovský <visnovsky@kde.org>, 2003.
+# Stanislav Višňovský <visnov@suse.cz>, 2003.
+# Marcel Telka <marcel@telka.sk>, 2005.
+# Peter Tuhársky <tuharsky@misbb.sk>, 2007.
+# Pavol Šimo <palo.simo@gmail.com>, 2007, 2008, 2009.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright\n"
+"Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-09-29 19:30+0200\n"
-"PO-Revision-Date: 2003-09-29 22:10+0100\n"
-"Last-Translator: Pavel Kanzelsberger <kanzels@boxnetwork.sk>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2009-03-22 11:06+0100\n"
+"Last-Translator: Pavol Šimo <palo.simo@gmail.com>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+"#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural= (n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
+#: ../src/main.c:63
+msgid "Enable debugging code"
+msgstr "Povoliť ladiaci kód"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "Neoverovať, či oblasť upozornení existuje"
 
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Prestávka</b>"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "Sledovanie písania"
 
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Práca</b>"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Sledovač písania používa oblasť upozornení pre zobrazovanie informácií. Zdá "
+"sa, že váš panel túto oblasť neobsahuje. Môžete ju pridať kliknutím pravým "
+"tlačidlom na vašom paneli a vybratím 'Pridať do panelu', zvolením 'Oblasť "
+"upozornení' a kliknutím na 'Pridať'."
 
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Skontrolovať či je dovolené odkladať prestávky"
+#: ../src/drwright.c:142
+#, fuzzy
+msgid "_Take a Break"
+msgstr "/_Urobiť prestávku"
 
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "DrWright Nastavenia"
+#: ../src/drwright.c:504
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+"Zakázaný\n"
+"#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Zakázané\n"
+"#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+"Zakázané"
 
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Dĺžka prestávky ked nie je dovolené písanie"
+#: ../src/drwright.c:513
+#, c-format
+msgid "Take a break now (next in %dm)"
+msgstr ""
 
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Dĺžka upozornenia pred začatím prestávky"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minút do ďalšej prestávky"
+msgstr[1] "%d minúta do ďalšej prestávky"
+msgstr[2] "%d minúty do ďalšej prestávky"
 
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Dĺžka práce pred vynútením prestávky"
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr ""
 
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Voľba vety, ktorá sa použije pre odloženie prestávky"
+#: ../src/drwright.c:523
+#, fuzzy, c-format
+msgid "Less than one minute until the next break"
+msgstr ""
+"#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+"Menej ako minúta do najbližšej prestávky\n"
+"#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+"Menej ako jedna minúta do ďalšej prestávky"
 
-#: data/glade/drw-preferences.glade.h:11
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Nepodarilo sa zobraziť dialóg pre nastavenie monitoru písania kvôli tejto "
+"chybe: %s"
+
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Napísal Richard Hult <richard@imendio.com>"
+
+#: ../src/drwright.c:629
+#, fuzzy
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+"#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+"Grafické spracovanie Anders Carlsson, Preklad Pavel Kanzelsberger\n"
+"#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+"Ozdoby Anders Carlsson"
+
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+"Nástroj upozorňujúci na prestávky pri práci s počítačom.\n"
+"#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+"Upozornenie na to, že si máte urobiť prestávku."
+
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+"Marcel Telka <marcel@telka.sk>\n"
+"Peter Tuhársky <tuharsky@misbb.sk>\n"
+"Pavol Šimo <palo.simo@gmail.com>"
+
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "_Odložiť prestávku"
+
+#: ../src/drw-break-window.c:227
+msgid "Take a break!"
+msgstr "Urobte si prestávku!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Či je čítač obrazovky zapnutý."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Či je čítač obrazovky zapnutý."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Prestávka v písaní"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
 msgstr "_Povoliť odklad prestávok"
 
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "_Dĺžka trvania prestávky"
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "Interval pre_stávky trvá:"
 
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "_Čas na upozornenie"
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "U_zamknúť obrazovku a vynútiť tak prestávku v písaní"
 
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "_Dĺžka práce"
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "Pr_acovný interval trvá:"
 
-#: data/glade/drw-preferences.glade.h:15
+#: ../src/drwright-panel.glade.h:5
+#, fuzzy
 msgid "minutes"
-msgstr "minúty"
-
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright je už spustený."
-
-#: src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
 msgstr ""
-"DrWright používa notifikačný priestor na zobrazenie informácií. Pravdepodobne "
-"nemáte notifikačný priestor na vašom paneli. Môžete si ho tam pridať kliknutím "
-"pravým tlačidlom na panel a vyberte 'Pridať do panelu -> Pomôcky -> Notifikácia'."
+"#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+"minúty\n"
+"#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+"minút"
 
-#: src/drwright.c:134
-msgid "/_Enabled"
-msgstr "/_Zapnutý"
+#~ msgid "    "
+#~ msgstr "    "
 
-#: src/drwright.c:135
-msgid "/_Take a Break"
-msgstr "/_Urobiť prestávku"
+#~ msgid "*"
+#~ msgstr "*"
 
-#: src/drwright.c:137
-msgid "/_Preferences"
-msgstr "/_Nastavenia"
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Prestávka</b>"
 
-#: src/drwright.c:138
-msgid "/_About"
-msgstr "/_O Programe"
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Práca</b>"
 
-#: src/drwright.c:140
-msgid "/_Remove Icon"
-msgstr "/_Odstrániť ikonku"
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+#~ "Skontrolovať či je dovolené odkladať prestávky\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Určuje, či je možné odložiť prestávky"
 
-#: src/drwright.c:443
-msgid "Disabled"
-msgstr "Zakázaný"
+#~ msgid "DrWright Preferences"
+#~ msgstr "DrWright Nastavenia"
 
-#: src/drwright.c:461
-#, c-format
-msgid "%d minutes until the next break"
-msgstr "%d minút do najbližšej prestávky"
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+#~ "Dĺžka prestávky ked nie je dovolené písanie\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Doba prestávky, kedy je zakázané písanie"
 
-#: src/drwright.c:464
-msgid "One minute until the next break"
-msgstr "Jedna minúta do najbližšej prestávky"
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Dĺžka upozornenia pred začatím prestávky"
 
-#: src/drwright.c:466
-msgid "Less than one minute until the next break"
-msgstr "Menej ako minúta do najbližšej prestávky"
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+#~ "Dĺžka práce pred vynútením prestávky\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Doba práce pred vynútením prestávky"
 
-#: src/drwright.c:577
-msgid "Quit DrWright?"
-msgstr "Ukončiť DrWright?"
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Voľba vety, ktorá sa použije pre odloženie prestávky"
 
-#: src/drwright.c:578
-msgid "Don't forget to take regular breaks."
-msgstr "Nezabúdajte na pravidelné prestávky."
+#~ msgid "_Break interval lasts"
+#~ msgstr "_Dĺžka trvania prestávky"
 
-#: src/drwright.c:589
-msgid "Don't Quit"
-msgstr "Neskončiť"
+#~ msgid "_Warning time is"
+#~ msgstr "_Čas na upozornenie"
 
-#: src/drwright.c:593
-msgid "Quit"
-msgstr "Skončiť"
+#~ msgid "_Work interval lasts"
+#~ msgstr "_Dĺžka práce"
 
-#: src/drwright.c:642
-msgid "About DrWright"
-msgstr "O Programe DrWright"
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright je už spustený."
 
-#: src/drwright.c:667
-msgid "A computer break reminder."
-msgstr "Nástroj upozorňujúci na prestávky pri práci s počítačom."
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright používa notifikačný priestor na zobrazenie informácií. "
+#~ "Pravdepodobne nemáte notifikačný priestor na vašom paneli. Môžete si ho "
+#~ "tam pridať kliknutím pravým tlačidlom na panel a vyberte 'Pridať do "
+#~ "panelu -> Pomôcky -> Notifikácia'."
 
-#: src/drwright.c:668
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Autor Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgid "/_Enabled"
+#~ msgstr "/_Zapnutý"
 
-#: src/drwright.c:669
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Grafické spracovanie Anders Carlsson, Preklad Pavel Kanzelsberger"
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+#~ "/_Nastavenia\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "/Nas_tavenie"
 
-#: src/drwright.c:828
-msgid "Break reminder"
-msgstr "Upozornenie na prestávku"
+#, fuzzy
+#~ msgid "/_About"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+#~ "/_O Programe\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "/_O programe"
 
-#: src/drw-break-window.c:259
-msgid "Postpone break"
-msgstr "Odložiť prestávku"
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Odstrániť ikonku"
 
-#: src/drw-break-window.c:297
-msgid "Take a break!"
-msgstr "Urobte si prestávku!"
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d minút do najbližšej prestávky"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Jedna minúta do najbližšej prestávky"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "Ukončiť DrWright?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Nezabúdajte na pravidelné prestávky."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Neskončiť"
+
+#~ msgid "Quit"
+#~ msgstr "Skončiť"
+
+#~ msgid "About DrWright"
+#~ msgstr "O Programe DrWright"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Autor Richard Hult &lt;richard@imendio.com&gt;"
+
+#, fuzzy
+#~ msgid "Break reminder"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (drwright)  #-#-#-#-#\n"
+#~ "Upozornenie na prestávku\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Upozornenie na prestávky"
+
+#~ msgid "Postpone break"
+#~ msgstr "Odložiť prestávku"
+
+#~ msgid "Accessibility"
+#~ msgstr "Prístupnosť"
+
+# * https://bugzilla.gnome.org/show_bug.cgi?id=611940
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Prah oznamovania percent voľného miesta"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Prah neoznamovania voľného miesta"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Minimálna perióda oznamovania opakovaných upozornení"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Ignorované cesty pripojenia"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown"
+#~ msgstr ""
+#~ "Prah pre percento voľného miesta prvého upozornenia na nedostatok "
+#~ "diskového priestoru. Ak percento voľného miesta klesne pod túto hodnotu, "
+#~ "zobrazí sa upozornenie"
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Zadajte zoznam ciest prípojných bodov, na ktorých bude ignorovaný "
+#~ "nedostatok voľného miesta."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Zadajte čas v minútach. Nasledujúce upozornenia pre zväzok sa nezobrazia "
+#~ "častejšie ako s touto periódou."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown"
+#~ msgstr ""
+#~ "Zadajte množstvo v GB. Ak je množstvo voľného miesta väčšia než táto "
+#~ "hodnota, nebude zobrazené žiadne upozornenie"
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning"
+#~ msgstr ""
+#~ "Zadajte percento, o ktoré sa musí zmenšiť veľkosť voľného miesta pred "
+#~ "zobrazením nasledujúceho upozornenia"
+
+# * https://bugzilla.gnome.org/show_bug.cgi?id=611940
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Prah nasledujúceho oznamovania percent voľného miesta"
+
+#~ msgid "Binding to eject an optical disk."
+#~ msgstr "Klávesová skratka na vysunutie média."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Klávesová skratka na zapnutie alebo vypnutie touchpadu."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Klávesová skratka na spustenie kalkulačky."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Klávesová skratka na spustenie emailového klienta."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Klávesová skratka na spustenie prehliadača pomocníka."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Klávesová skratka na spustenie prehrávača médií."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Klávesová skratka na spustenie vyhľadávacieho nástroja."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Klávesová skratka na spustenie WWW prehliadača."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Klávesová skratka na uzamknutie obrazovky."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Klávesová skratka na odhlásenie."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Klávesová skratka na zníženie hlasitosti."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Klávesová skratka na umlčanie zvuku."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Klávesová skratka na otvorenie domovského priečinka."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Klávesová skratka na pozastavenie prehrávania."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Klávesová skratka na zvýšenie hlasitosti."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Klávesová skratka na preskočenie na nasledujúcu stopu."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Klávesová skratka na preskočenie na predchádzajúcu stopu."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr "Klávesová skratka na začatie prehrávania (alebo hrať/pozastaviť)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Klávesová skratka na zastavenie prehrávania."
+
+#~ msgid "Eject"
+#~ msgstr "Vysunúť"
+
+#~ msgid "Home folder"
+#~ msgstr "Domovský priečinok"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Spustiť kalkulačku"
+
+#~ msgid "Launch email client"
+#~ msgstr "Spustiť emailového klienta"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Spustiť prehliadač pomocníka"
+
+#~ msgid "Launch media player"
+#~ msgstr "Prehrávač hudby/videa"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Spustiť WWW prehliadač"
+
+#~ msgid "Lock screen"
+#~ msgstr "Uzamknúť obrazovku"
+
+#~ msgid "Log out"
+#~ msgstr "Odhlásiť"
+
+#~ msgid "Next track"
+#~ msgstr "Nasledujúca stopa"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pozastaviť prehrávanie"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Hrať (alebo hrať/pozastaviť)"
+
+#~ msgid "Previous track"
+#~ msgstr "Predchádzajúca stopa"
+
+#~ msgid "Search"
+#~ msgstr "Nájsť"
+
+#~ msgid "Stop playback"
+#~ msgstr "Zastaviť prehrávanie"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Prepnúť touchpad"
+
+#, fuzzy
+#~ msgid "Volume down"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Znížiť hlasitosť\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Zníženie hlasitosti"
+
+#, fuzzy
+#~ msgid "Volume mute"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Umlčať zvuk\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Potichu"
+
+#~ msgid "Volume step"
+#~ msgstr "Krok zmeny hlasitosti"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Krok zmeny hlasitosti v percentách."
+
+#~ msgid "Volume up"
+#~ msgstr "Zvýšiť hlasitosť"
+
+#~ msgid "File for default configuration for RANDR"
+#~ msgstr "Súbor predvolenej konfigurácie pre RANDR"
+
+#~ msgid ""
+#~ "If a notification icon with display related things should be shown in the "
+#~ "panel."
+#~ msgstr ""
+#~ "Či má byť v paneli zobrazená ikona s vecmi súvisiacimi s obrazovkou."
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Zobraziť obrazovky v oblasti upozornení"
+
+#~ msgid ""
+#~ "The XRANDR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Zásuvnú modul XRANDR bude hľadať predvolenú konfiguráciu v súbore určenom "
+#~ "týmto kľúčom. Je to podobné ako ~/.config/monitors.xml, ktorý sa ukladá v "
+#~ "domovských adresároch používateľov. Ak používateľ takýto súbor nemá, "
+#~ "alebo má nejaký, ktorý sa nezhoduje s používateľovými nastaveniami "
+#~ "monitorov,  potom sa namiesto toho použije súbor určený týmto kľúčom."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Zapnúť externý monitor po štarte systému"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugin external "
+#~ "monitor when system boot."
+#~ msgstr ""
+#~ "Zapnúť externý monitor po štarte systému, ak používateľ pripojil externý "
+#~ "monitor počas štartu systému."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Zapnúť monitor prenosného počítača po štarte systému"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugin external monitor "
+#~ "when system boot."
+#~ msgstr ""
+#~ "Zapnúť monitor prenosného počítača po štarte systému, ak používateľ "
+#~ "pripojil externý monitor počas štartu systému."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Vyhladzovanie"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Úprava rozostupov písmen"
+
+#~ msgid "RGBA order"
+#~ msgstr "Poradie RGBA"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Poradie sub-pixelových elementov na obrazovke LCD; použije sa len ak je "
+#~ "vyhladzovanie nastavené na \"rgba\". Možné hodnoty sú: \"rgb\" pre "
+#~ "červenú vľavo (najbežnejšie), \"bgr\" pre modrú vľavo, \"vrgb\" pre "
+#~ "červenú hore a \"vbgr\" pre červenú dole."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Rozlíšenie použité na konverziu veľkostí písiem na veľkosť pixelov, v "
+#~ "bodoch na palec."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Typ vyhladzovania použitý pri vykresľovaní písma. Možné hodnoty sú: \"none"
+#~ "\" pre žiadne vyhladzovanie, \"grayscale\" pre štandardné vyhladzovanie "
+#~ "odtieňmi sivej a \"rgba\" pre sub-pixelové vyhladzovanie (pre obrazovky "
+#~ "LCD)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Typ úpravy rozostupov písmen použitej pri vykresľovaní písma. Možné "
+#~ "hodnoty sú: \"none\" pre žiadnu úpravu, \"slight\" pre jemnú (základnú), "
+#~ "\"medium\" na strednú a \"full\" pre úplnú úpravu (môže spôsobiť "
+#~ "skreslenie tvarov písmen)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Povolené klávesy"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Ak je neprázdne, klávesové skratky budú ignorované, pokiaľ ich GConf "
+#~ "adresár nebude v zozname. Je to použiteľné pre uzamknutie."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Zakázať touchpad počas písania"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Povoliť horizontálne rolovanie"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Povoliť kliknutia myšou pomocou touchpadu"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Povoliť touchpad"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Zvoľte si spôsob rolovania touchpadom"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~ "- edge scrolling, 2 - two-finger scrolling"
+#~ msgstr ""
+#~ "Zvoľte si spôsob rolovania touchpadom. Podporované hodnoty sú: 0 - "
+#~ "zakázané, 1 - skrolovanie pri okraji, 2 - skrolovanie dvoma prstami"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Nastavte na TRUE, ak máte problémy s náhodnými stlačeniami touchpadu "
+#~ "počas písania."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Nastavte na TRUE na povolenie horizontálneho rolovania rovnakým spôsobom "
+#~ "zvoleným v kľúči scroll_method."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Nastavte na TRUE, aby ste mohli posielať kliknutia myšou pomocou ťuknutia "
+#~ "na touchpad."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Nastavte na TRUE na povolenie všetkých touchpadov."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Démon nastavení GNOME"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Klávesová skratka na prepnutie lupy."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Klávesová skratka na prepnutie klávesnice na obrazovke."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Klávesová skratka na prepnutie čítača obrazovky."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Poskakujúce klávesy"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Príkaz použitý na zapnutie alebo vypnutie lupy."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Príkaz použitý na zapnutie alebo vypnutie klávesnice na obrazovke."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Príkaz použitý na zapnutie alebo vypnutie čítača obrazovky."
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Povoliť modul sprístupnenia klávesnice"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Povoliť modul pozadia plochy"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Povoliť modul schránky"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Povoliť modul písiem"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Povoliť \"upratovací\" modul"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Povoliť modul klávesových skratiek"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Povoliť modul klávesnice"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Povoliť modul multimediálnych kláves"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Povoliť modul myši"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Povoliť modul zvuku"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Povoliť modul prestávok v písaní"
+
+#~ msgid "Enable xrandr plugin"
+#~ msgstr "Povoliť modul xrandr"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Povoliť modul xrdb"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Povoliť modul xsettings"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Myš klávesami"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Klávesnica na obrazovke"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Lupa obrazovky"
+
+#~ msgid "Screen reader"
+#~ msgstr "Čítač obrazovky"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Pre povolenie \"upratovacieho\" modulu (vyčistenie dočasných súborových "
+#~ "keší) nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr "Pre povolenie modulu správy nastavení schránky nastavte na true."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Pre povolenie modulu správy nastavení pozadia plochy nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "Pre povolenie modulu správy nastavení písiem nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr "Pre povolenie modulu správy nastavení klávesnice nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Pre povolenie modulu správy nastavení myši nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Pre povolenie modulu správy nastavení multimediálnych kláves nastavte na "
+#~ "true."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr "Pre povolenie modulu správy zvukových medzipamätí nastavte na true."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Pre povolenie modulu správy nastavení prístupnosti klávesnice nastavte na "
+#~ "true."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Pre povolenie modulu správy nastavení klávesových skratiek nastavte na "
+#~ "true."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Pre povolenie modulu správy nastavení prestávok v písaní nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgstr "Pre povolenie modulu správy nastavení xrandr nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "Pre povolenie modulu správy nastavení xrdb nastavte na true."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "Pre povolenie modulu správy nastavení xsettings nastavte na true."
+
+#~ msgid "Slow keys"
+#~ msgstr "Pomalé klávesy"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Lepkavé klávesy"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Názov klávesovej skratky na prepnutie lupy"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "Názov klávesovej skratky na prepnutie klávesnice na obrazovke"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "Názov klávesovej skratky na prepnutie čítača obrazovky"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Toto je názov klávesovej skratky na prepnutie lupy. Tento názov bude "
+#~ "zobrazený v dialógovom okne nastavenia klávesových skratiek."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Toto je názov klávesovej skratky na prepnutie klávesnice na obrazovke. "
+#~ "Tento názov bude zobrazený v dialógovom okne nastavenia klávesových "
+#~ "skratiek."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Toto je názov klávesovej skratky na prepnutie čítača obrazovky. Tento "
+#~ "názov bude zobrazený v dialógovom okne nastavenia klávesových skratiek."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Prepnúť lupu"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Prepnúť klávesnicu na obrazovke"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Prepnúť čítač obrazovky"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Či je funkcia sprístupnenia klávesnice \"poskakujúce klávesy\" zapnutá."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "Či je funkcia sprístupnenia klávesnice klávesy myšou zapnutá."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Či je klávesnica na obrazovke zapnutá."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Či je lupa obrazovky zapnutá."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Či je vlastnosť sprístupnenia klávesnice pomalé klávesy zapnutá."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Či je vlastnosť sprístupnenia klávesnice lepkavé klávesy zapnutá."
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Nestať sa démonom"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "GConf prefix, z ktorého sa majú načítať nastavenia modulu"
+
+#~ msgid "Exit after a time - for debugging"
+#~ msgstr "Ukončiť po určitom čase - pre ladenie"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Prístupnosť klávesnice"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Modul prístupnosti klávesnice"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Pri pokuse o zobrazenie Pomocníka nastala chyba: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Chcete použiť Pomalé klávesy?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Chcete zrušiť používanie Pomalých kláves?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Práve ste stlačili kláves Shift 8 sekúnd. To je skratka pre funkciu "
+#~ "Pomalé klávesy, ktorá ovplyvňuje fungovanie vašej klávesnice."
+
+#~ msgid "Don't activate"
+#~ msgstr "Neaktivovať"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Nedeaktivovať"
+
+#~ msgid "Activate"
+#~ msgstr "Aktivovať"
+
+#~ msgid "Deactivate"
+#~ msgstr "Deaktivovať"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_Neaktivovať"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "_Nedeaktivovať"
+
+#~ msgid "_Activate"
+#~ msgstr "_Aktivovať"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Deaktivovať"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Upozornenie na pomalé klávesy"
+
+#, fuzzy
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Chcete použiť Lepkavé klávesy?\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Chcete použiť Lepivé klávesy?"
+
+#, fuzzy
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Chcete zrušiť používanie Lepkavých kláves?\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Chcete zrušiť používanie Lepivých kláves?"
+
+#, fuzzy
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Práve ste stlačili kláves Shift 5-krát za sebou. To je skratka pre "
+#~ "funkciu Lepkavé klávesy, ktorá ovplyvňuje fungovanie vašej klávesnice.\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Práve ste stlačili kláves Shift 5-krát za sebou. To je skratka pre "
+#~ "funkciu Lepivé klávesy, ktorá ovplyvňuje fungovanie vašej klávesnice."
+
+#, fuzzy
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Práve ste stlačili dve klávesy naraz, alebo kláves Shift 5-krát za sebou. "
+#~ "To vypína funkciu Lepkavé klávesy, ktorá ovplyvňuje fungovanie vašej "
+#~ "klávesnice.\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Práve ste stlačili dve klávesy naraz, alebo kláves Shift 5-krát za sebou. "
+#~ "To vypne funkciu Lepivé klávesy, ktorá ovplyvňuje fungovanie vašej "
+#~ "klávesnice."
+
+#, fuzzy
+#~ msgid "Sticky Keys Alert"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Upozornenie na Lepkavé klávesy\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Upozornenie na Lepivé klávesy"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Nastavenie všeobecného prístupu"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Zvýšiť kontrast vo _farbách"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "Zväčšiť _text pre lepšiu čitateľnosť"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Stlačiť a po_držať klávesy pre ich prijatie (pomalé klávesy)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Použiť _klávesnicu na obrazovke"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Použiť l_upu obrazovky"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Použiť čítač _obrazovky"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Ignorovať opakované klávesy (poskakujúce klávesy)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "_Stláčať klávesové skratky po jednom klávese (lepkavé klávesy)"
+
+#~ msgid "Background"
+#~ msgstr "Pozadie"
+
+#~ msgid "Background plugin"
+#~ msgstr "Modul pozadia"
+
+#~ msgid "Clipboard"
+#~ msgstr "Schránka"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Modul schránky"
+
+#~ msgid "Dummy"
+#~ msgstr "Atrapa"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Modul atrapy"
+
+#~ msgid "Font"
+#~ msgstr "Písma"
+
+#~ msgid "Font plugin"
+#~ msgstr "Modul písiem"
+
+#~ msgid "Don't show any warnings again for this filesystem"
+#~ msgstr "Nezobrazovať znova žiadne upozornenia pre tento súborový systém"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Nezobrazovať znova žiadne upozornenia"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Na zväzku \"%s\" zostáva už len %s diskového priestoru."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Na tomto počítači zostáva už len %s diskového priestoru."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Uvoľniť diskový priestor môžete vyprázdnením Koša, odstránením "
+#~ "nepoužívaných programov alebo súborov, alebo presunutím súborov na iný "
+#~ "disk alebo oddiel."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Uvoľniť diskový priestor môžete odstránením nepoužívaných programov alebo "
+#~ "súborov, alebo presunutím súborov na iný disk alebo oddiel."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Uvoľniť diskový priestor môžete vyprázdnením Koša, odstránením "
+#~ "nepoužívaných programov alebo súborov, alebo presunutím súborov na "
+#~ "externý disk."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Uvoľniť diskový priestor môžete odstránením nepoužívaných programov alebo "
+#~ "súborov, alebo presunutím súborov na externý disk."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Nedostatok diskového priestoru"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Vyprázdniť Kôš"
+
+#~ msgid "Examine..."
+#~ msgstr "Preskúmať..."
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorovať"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Odstraňuje sa položka %lu z %lu"
+
+#~ msgid "<i>Removing: %s</i>"
+#~ msgstr "<i>Odstraňuje sa: %s</i>"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Kôš sa vyprázdňuje"
+
+#~ msgid "Preparing to empty trash..."
+#~ msgstr "Pripravuje sa vyprázdnenie koša..."
+
+#~ msgid "From: "
+#~ msgstr "Z: "
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Vyprázdniť všetky položky z koša?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Ak si zvolíte vyprázdnenie koša, všetky položky sa z neho nenávratne "
+#~ "stratia. Poznmámka: môžete ich taktiež odstrániť každú zvlášť."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Vyprázdniť Kôš"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Klávesová skratka (%s) je neplatná"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Klávesová skratka (%s) je neúplná"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Chyba pri pokuse o spustenie (%s),\n"
+#~ "ktorý je spojený s klávesom (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Klávesové skratky"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Modul klávesových skratiek"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klávesnica"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Modul klávesnice"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Chyba pri aktivovaní nastavenia XKB.\n"
+#~ "Toto sa môže stať za rôznych okolností:\n"
+#~ "- chyba v knižnici libxklavier\n"
+#~ "- chyba v X serveri (nástroje xkbcomp, xmodmap)\n"
+#~ "- X server s nekompatibilnou implementáciou libxkbfile\n"
+#~ "\n"
+#~ "Údaje o verzii X servera:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Ak túto situáciu hlásite ako chybu, pripojte, prosím:\n"
+#~ "- Výsledok <b>%s</b>\n"
+#~ "- Výsledok <b>%s</b>\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Chyba pri aktivácii konfigurácie XKB.\n"
+#~ "Môže vzniknúť za rôznych okolností:\n"
+#~ "- chyba v knižnici libxklavier\n"
+#~ "- chyba v X serveri (nástroje xkbcomp, xmodmap)\n"
+#~ "- X server s nekompatibilnou implementáciou libxkbfile\n"
+#~ "\n"
+#~ "Údaje o verzii X servera:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Ak túto situáciu oznámite ako chybu, pridajte, prosím:\n"
+#~ "- Výsledok <b>%s</b>\n"
+#~ "- Výsledok <b>%s</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Používate XFree 4.3.0.\n"
+#~ "Nachádzajú sa v ňom známe problémy so zložitými nastaveniami XKB.\n"
+#~ "Skúste použiť jednoduchšie nastavenia alebo prevziať novšiu verziu "
+#~ "softvéru XFree.\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Používate XFree 4.3.0.\n"
+#~ "Sú známe problémy so zložitými nastaveniami XKB.\n"
+#~ "Skúste použiť jednoduchšiu konfiguráciu alebo použite novšiu verziu XFree "
+#~ "softvéru."
+
+# #-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#
+# * https://bugzilla.gnome.org/show_bug.cgi?id=616444
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Neznáme\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Neznámy"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Rozloženie klávesnice \"%s\""
+
+#~ msgid "_Layouts"
+#~ msgstr "_Rozloženia"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Nas_tavenia klávesnice"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Zobraziť aktuálne _rozloženie"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "_Dostupné súbory:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Načítať súbory modmap"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Chceli by ste načítať súbor(y) modmap?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Túto správu už nezobrazovať"
+
+#~ msgid "_Load"
+#~ msgstr "_Načítať"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Načítané súbory:"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Rozloženie klávesnice"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Nepodarilo sa získať predvolený terminál. Overte si, či máte nastavený "
+#~ "príkaz pre terminál, a či je to platná aplikácia."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Nepodarilo sa spustiť príkaz: %s\n"
+#~ "Skontrolujte, či je to platný príkaz."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u výstupov"
+#~ msgstr[1] "%u výstup"
+#~ msgstr[2] "%u výstupy"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u vstupov"
+#~ msgstr[1] "%u vstup"
+#~ msgstr[2] "%u vstupy"
+
+#~ msgid "System Sounds"
+#~ msgstr "Systémové zvuky"
+
+#~ msgid "Media keys"
+#~ msgstr "Multimediálne klávesy"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Modul multimediálnych kláves"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Nepodarilo sa povoliť sprístupnenie myši"
+
+#~ msgid ""
+#~ "Mouse accessibility requires mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Sprístupnenie myši vyžaduje na vašom systéme nainštalované mousetweaks."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Nastavenie myši"
+
+#~ msgid "Mouse"
+#~ msgstr "Myš"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Modul myši"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Modul prestávky v písaní"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Nastavenie veľkosti a rotácie obrazovky"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Nepodarilo sa prepnúť nastavenia monitora"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Nepodarilo sa obnoviť nastavenia monitora"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "Nepodarilo sa obnoviť nastavenia monitora zo zálohy"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] ""
+#~ "Nastavenia monitora budú obnovené do predchádzajúceho stavu o %d sekúnd"
+#~ msgstr[1] ""
+#~ "Nastavenia monitora budú obnovené do predchádzajúceho stavu o %d sekúnd"
+#~ msgstr[2] ""
+#~ "Nastavenia monitora budú obnovené do predchádzajúceho stavu o %d sekúnd"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Je zobrazenie na monitore v poriadku?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "Obnoviť _predchádzajúce nastavenia"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "Ponechať _tieto nastavenia"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Zvolené nastavenia pre monitory nemôžu byť použité"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Nepodarilo sa obnoviť informácie o obrazovke: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Aj napriek tomu sa pokúsiť prepnúť nastavenia monitora."
+
+#~ msgid "<i>Rotation not supported</i>"
+#~ msgstr "<i>Rotácia nie je podporovaná</i>"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Nepodarilo sa uložiť nastavenia monitora"
+
+#, fuzzy
+#~ msgid "Normal"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Normálna\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Normálne"
+
+#~ msgid "Left"
+#~ msgstr "Vľavo"
+
+#~ msgid "Right"
+#~ msgstr "Vpravo"
+
+#~ msgid "Upside Down"
+#~ msgstr "Dolu hlavou"
+
+#~ msgid "_Configure Display Settings ..."
+#~ msgstr "_Konfigurovať nastavenia obrazovky..."
+
+#~ msgid "Configure display settings"
+#~ msgstr "Konfigurovať nastavenia obrazovky"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Nie je možné použiť uložené nastavenia pre monitory"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Nepodarilo sa určiť domovský priečinok používateľa"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Spravovanie databázy zdrojov X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Databáza zdrojov X"
+
+#, fuzzy
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Kľúč GConf %s je nastavený na typ %s, ale očakáva sa typ %s\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Kľúč GConf %s nastavený na typ %s, ale očakáva sa typ %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Spravovanie nastavenia X"
+
+#~ msgid "X Settings"
+#~ msgstr "Nastavenia X"
+
+#~ msgid "Sound"
+#~ msgstr "Zvuk"
+
+#~ msgid "Image/label border"
+#~ msgstr "Okraj obrázka/popisu"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Šírka okraja okolo popisu a obrázka v dialógovom okne výstrahy"
+
+#~ msgid "Alert Type"
+#~ msgstr "Typ výstrahy"
+
+#~ msgid "The type of alert"
+#~ msgstr "Typ výstrahy"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Tlačidlá výstrahy"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Tlačidlá zobrazené v dialógovom okne výstrahy"
+
+#~ msgid "Show more _details"
+#~ msgstr "Zobraziť viac _podrobností"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Položte ľavý palec na %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Prejdite ľavým palcom po %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Položte ľavý ukazovák na %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Prejdite ľavým ukazovákom po %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Položte ľavý prostredník na %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Prejdite ľavým prostredníkom po %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Položte ľavý prstenník na %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Prejdite ľavým prstenníkom po %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Položte ľavý malíček na %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Prejdite ľavým malíčkom po %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Položte pravý palec na %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Prejdite pravým palcom po %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Položte pravý ukazovák na %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Prejdite pravým ukazovákom po %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Položte pravý prostredník na %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Prejdite pravým prostredníkom po %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Položte pravý prstenník na %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Prejdite pravým prstenníkom po %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Položte pravý malíček na %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Prejdite pravým malíčkom po %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Znovu položte prst na čítačku"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Znovu prejdite prstom"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Priloženie bolo príliš krátke, skúste znova"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Váš prst nebol v strede, skúste prejsť prstom znova"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Zdvihnite svoj prst a skúste ním prejsť znova"
+
+#~ msgid "Select Image"
+#~ msgstr "Zvoliť obrázok"
+
+#~ msgid "No Image"
+#~ msgstr "Bez obrázka"
+
+#~ msgid "Images"
+#~ msgstr "Obrázky"
+
+#~ msgid "All Files"
+#~ msgstr "Všetky súbory"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Pri pokuse o získanie informácií z adresára sa vyskytla chyba\n"
+#~ "Evolution Data Server nemôže obslúžiť tento protokol"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Nepodarilo sa otvoriť adresár"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr "Neznáme prihlasovacie ID, databáza používateľov je možno poškodená"
+
+#~ msgid "About %s"
+#~ msgstr "O %s"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Povoliť prihlásenie _odtlačkom prsta..."
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Zakázať prihlásenie _odtlačkom prsta..."
+
+#~ msgid "About Me"
+#~ msgstr "O mne"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Nastaviť vaše osobné informácie"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Nemáte povolený prístup k zariadeniu. Kontaktujte vášho správcu systému."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Zariadenie sa už používa."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Vyskytla sa interná chyba"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Vymazať zaregistrované odtlačky prstov?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "Vy_mazať odtlačky prstov"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Chcete vymazať vaše zaregistrované odtlačky prstov, takže bude "
+#~ "prihlásenie odtlačkom prsta zakázané?"
+
+#~ msgid "Done!"
+#~ msgstr "Hotovo!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Nepodaril sa prístup k zariadeniu '%s'"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Nepodarilo sa naštartovať čítanie odtlačku na zariadení '%s'"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Nepodaril sa prístup k žiadnej čítačke odtlačkov prstov"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Pre pomoc, prosím, kontaktujte správcu vášho systému."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Povoliť prihlásenie odtlačkom prsta"
+
+#~ msgid "Select finger"
+#~ msgstr "Zvoľte prst"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Pre povolenie prihlásenia odtlačkom prsta musíte uložiť jeden z vašich "
+#~ "odtlačkov prstov, pomocou zariadenia '%s'."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Prejdite prstom po čítačke"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Dajte prst na čítačku"
+
+#~ msgid "Left index finger"
+#~ msgstr "Ľavý ukazovák"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "Ľavý palec\n"
+#~ "Ľavý prostredník\n"
+#~ "Ľavý prstenník\n"
+#~ "Ľavý malíček\n"
+#~ "Pravý palec\n"
+#~ "Pravý prostredník\n"
+#~ "Pravý prstenník\n"
+#~ "Pravý malíček"
+
+#~ msgid "Other finger: "
+#~ msgstr "Iný prst: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Pravý ukazovák"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Odtlačok vášho prsta bol úspešne uložený. Teraz by sa vám už malo podariť "
+#~ "prihlásiť sa pomocou čítačky odtlačkov prstov."
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>Elektronická pošta</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Domov</b>"
+
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>Priama komunikácia</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Zamestnanie</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Telefón</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>WWW</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Zmeniť heslo</span>"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dresa:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "_Asistent:"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "C_ity:"
+#~ msgstr "M_esto:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Spoločnosť:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "_Kalendár:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Zmeniť _heslo..."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Zmeniť _heslo"
+
+#~ msgid "Change password"
+#~ msgstr "Zmeniť heslo"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Mes_to:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Krajina:"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Kraji_na:"
+
+#~ msgid "Current _password:"
+#~ msgstr "_Aktuálne heslo:"
+
+#~ msgid "Full Name"
+#~ msgstr "Celé meno"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Dom_ov:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "P.O. _Box:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P._O. Box:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Osobné informácie"
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "Prosím, zadajte heslo znova do poľa <b>Znova zadať nové heslo</b>."
+
+#~ msgid "Select your photo"
+#~ msgstr "Zvoľte si fotku"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Štát/provin_cia:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Pre zmenu vášho hesla vložte do políčka nižšie vaše aktuálne heslo a "
+#~ "kliknite na <b>Overiť</b>.\n"
+#~ "Po vašom overení vložte vaše nové heslo, zadajte ho pre verifikáciu znova "
+#~ "a kliknite na <b>Zmeniť heslo</b>."
+
+#~ msgid "User name:"
+#~ msgstr "Meno používateľa:"
+
+#~ msgid "Web _log:"
+#~ msgstr "WWW _záznam:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Práca:"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Fax do práce:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "_PSČ:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adresa:"
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Overiť"
+
+#~ msgid "_Department:"
+#~ msgstr "_Oddelenie:"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_GroupWise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Domovská stránka:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Domov:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Manažér:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Mobil:"
+
+#~ msgid "_New password:"
+#~ msgstr "_Nové heslo:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Profesia:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_Znova zadať nové heslo:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "Štát/p_rovincia:"
+
+#~ msgid "_Title:"
+#~ msgstr "Pozí_cia:"
+
+#~ msgid "_Work:"
+#~ msgstr "P_ráca:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "P_SČ:"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Potomok neočakávane skončil"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Nepodarilo sa vypnúť backend_stdin V/V kanál: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Nepodarilo sa vypnúť backend_stdout V/V kanál: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Overené!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Vaše heslo sa zmenilo medzitým, ako ste sa pôvodne overili! Overte sa "
+#~ "znova, prosím."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "To heslo nebolo správne."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Vaše heslo bolo zmenené."
+
+#~ msgid "System error: %s."
+#~ msgstr "Systémová chyba: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Heslo je príliš krátke."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Heslo je príliš jednoduché."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Staré a nové heslo sú si príliš podobné."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Musí obsahovať číselný alebo špeciálny znak (znaky)."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Staré a nové heslo sú rovnaké."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Nepodarilo sa spustiť %s: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Nepodarilo sa spustiť backend"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Vyskytla sa systémová chyba"
+
+#~ msgid "Checking password..."
+#~ msgstr "Overovanie hesla..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Pre zmenu hesla kliknite na <b>Zmeniť heslo</b>."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Prosím, zadajte vaše heslo do políčka <b>Nové heslo</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Zadané heslá sa nezhodujú."
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Asistenčné technológie</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Nastavenie</b>"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Prístupné pri_hlásenie"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Nastavenie asistenčných technológií"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr "Zmeny tohto nastavenia sa prejavia až po opätovnom prihlásení."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Zavrieť a _odhlásiť"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Otvoriť dialógové okno nastavenia predvolených aplikácií"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Otvoriť dialógové okno nastavenia sprístupnenia prihlásenia"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Otvoriť dialógové okno nastavenia sprístupnenia klávesnice"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Otvoriť dialógové okno nastavenia sprístupnenia myši"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "Povoliť _asistenčné technológie"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Sprístupnenie _klávesnice"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Sprístupnenie _myši"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "P_redvolené aplikácie"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Asistenčné technológie"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Zvoľte si, ktoré druhy sprístupnenia majú byť aktivované po prihlásení"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Pridať tapetu"
+
+#~ msgid "All files"
+#~ msgstr "Všetky súbory"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Písmo môže byť príliš veľké"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Zvolené písmo má veľkosť %d bodov a môže spôsobiť ťažkosti pri používaní "
+#~ "počítača. Doporučujeme zvoliť veľkosť menšiu ako %d."
+#~ msgstr[1] ""
+#~ "Zvolené písmo má veľkosť %d bod a môže spôsobiť ťažkosti pri používaní "
+#~ "počítača. Doporučujeme zvoliť veľkosť menšiu ako %d."
+#~ msgstr[2] ""
+#~ "Zvolené písmo má veľkosť %d body a môže spôsobiť ťažkosti pri používaní "
+#~ "počítača. Doporučujeme zvoliť veľkosť menšiu ako %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Zvolené písmo má veľkosť %d bodov a môže spôsobiť ťažkosti pri používaní "
+#~ "počítača. Doporučujeme zvoliť menšie písmo."
+#~ msgstr[1] ""
+#~ "Zvolené písmo má veľkosť %d bod a môže spôsobiť ťažkosti pri používaní "
+#~ "počítača. Doporučujeme zvoliť menšie písmo."
+#~ msgstr[2] ""
+#~ "Zvolené písmo má veľkosť %d body a môže spôsobiť ťažkosti pri používaní "
+#~ "počítača. Doporučujeme zvoliť menšie písmo."
+
+#~ msgid "Use previous font"
+#~ msgstr "Použiť pôvodné písmo"
+
+#~ msgid "Use selected font"
+#~ msgstr "Použiť zvolené písmo"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Určuje názov súboru témy pre nainštalovanie"
+
+#~ msgid "filename"
+#~ msgstr "súbor"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Určuje názov záložky pre zobrazenie (theme|background|fonts|interface)"
+
+#~ msgid "page"
+#~ msgstr "záložka"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[TAPETA...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Predvolený kurzor"
+
+#~ msgid "Install"
+#~ msgstr "Inštalovať"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Táto téma nebude vyzerať ako bolo plánované, lebo chýba požadovaný "
+#~ "\"témový stroj\" '%s'"
+
+#~ msgid "Apply Background"
+#~ msgstr "Použiť pozadie"
+
+#~ msgid "Apply Font"
+#~ msgstr "Použiť písmo"
+
+#~ msgid "Revert Font"
+#~ msgstr "Obnoviť písmo"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Aktuálna téma ovplyvňuje pozadie a písmo. Okrem toho môže byť naposledy "
+#~ "aplikovaný návrh písma navrátený späť."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Aktuálna téma ovplyvňuje pozadie. Okrem toho môže byť naposledy "
+#~ "aplikovaný návrh písma navrátený späť."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Aktuálna téma ovplyvňuje pozadie a písmo."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Aktuálna téma ovplyvňuje písmo. Okrem toho môže byť naposledy aplikovaný "
+#~ "návrh písma navrátený späť."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Aktuálna téma ovplyvňuje pozadie."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Naposledy aplikovaný návrh písma môže byť navrátený späť."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Aktuálna téma ovplyvňuje písmo."
+
+#~ msgid "Custom"
+#~ msgstr "Vlastná"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>_Farby</b>"
+
+#~ msgid "<b>Hinting</b>"
+#~ msgstr "<b>Úprava rozostupov písmen</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Ponuky a panely nástrojov</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Náhľad</b>"
+
+#~ msgid "<b>Rendering</b>"
+#~ msgstr "<b>Zobrazenie písiem</b>"
+
+#~ msgid "<b>Smoothing</b>"
+#~ msgstr "<b>Vyhladzovanie</b>"
+
+#~ msgid "<b>Subpixel Order</b>"
+#~ msgstr "<b>Poradie sub-pixelov</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>Poza_die plochy</b>"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Nastavenie vzhľadu"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Najlepšie _tvary"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Najlepší _kontrast"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "P_rispôsobiť..."
+
+#~ msgid "C_ut"
+#~ msgstr "Vys_trihnúť"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "Zmena kurzorovej témy sa prejaví až po opätovnom prihlásení"
+
+#~ msgid "Colors"
+#~ msgstr "Farby"
+
+#~ msgid "Controls"
+#~ msgstr "Ovládacie prvky"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Prispôsobenie témy"
+
+#~ msgid "D_etails..."
+#~ msgstr "Pod_robnosti..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Písmo p_lochy:"
+
+#~ msgid "Edit"
+#~ msgstr "_Upraviť"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detaily zobrazenia písiem"
+
+#~ msgid "Fonts"
+#~ msgstr "Písma"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Od_tiene sivej"
+
+#~ msgid "Icons"
+#~ msgstr "Ikony"
+
+#~ msgid "Interface"
+#~ msgstr "Prostredie"
+
+#~ msgid "Large"
+#~ msgstr "Veľká"
+
+#~ msgid "N_one"
+#~ msgstr "Žia_dna"
+
+#~ msgid "New File"
+#~ msgstr "Nový súbor"
+
+#~ msgid "Open File"
+#~ msgstr "Otvoriť súbor"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Otvoriť dialógové okno pre zadanie farby"
+
+#~ msgid "Pointer"
+#~ msgstr "Kurzor"
+
+#~ msgid "R_esolution:"
+#~ msgstr "R_ozlíšenie:"
+
+#~ msgid "Save File"
+#~ msgstr "Uložiť súbor"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Uložiť tému ako..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Uložiť _ako..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Uložiť _tapetu plochy"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Zobraziť _ikony v menu"
+
+#~ msgid "Small"
+#~ msgstr "Malá"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "Jednoliata farba\n"
+#~ "Vodorovný prechod\n"
+#~ "Zvislý prechod"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub-pi_xely (LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Sub-pi_xelové vyhladzovanie (LCD)"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "Text pod ikonami\n"
+#~ "Text vedľa ikon\n"
+#~ "Iba ikony\n"
+#~ "Iba text"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Aktuálna téma ovládacích prvkov nepodporuje farebné schémy"
+
+#~ msgid "Theme"
+#~ msgstr "Téma"
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "Dlaždice\n"
+#~ "Zväčšiť\n"
+#~ "Vystrediť\n"
+#~ "Zachovať pomer\n"
+#~ "Vyplniť obrazovku"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Popisy _tlačidiel lišty nástrojov:"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Window Border"
+#~ msgstr "Okraj okna"
+
+#~ msgid "_Add..."
+#~ msgstr "P_ridať..."
+
+#~ msgid "_Application font:"
+#~ msgstr "Písmo _aplikácií:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopírovať"
+
+#~ msgid "_Description:"
+#~ msgstr "_Popis:"
+
+#~ msgid "_Document font:"
+#~ msgstr "Písmo _dokumentov:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "_Upraviteľné akcelerátory ponuky"
+
+#~ msgid "_File"
+#~ msgstr "_Súbor"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Písmo s pevno_u šírkou:"
+
+#~ msgid "_Full"
+#~ msgstr "Úpl_ná"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "Vs_tupné polia:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Inštalovať..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Stredná"
+
+#~ msgid "_Monochrome"
+#~ msgstr "Čierno_bielo"
+
+#~ msgid "_Name:"
+#~ msgstr "_Názov:"
+
+#~ msgid "_New"
+#~ msgstr "_Nový"
+
+#~ msgid "_None"
+#~ msgstr "Žiadn_e"
+
+#~ msgid "_Open"
+#~ msgstr "_Otvoriť"
+
+#~ msgid "_Paste"
+#~ msgstr "V_ložiť"
+
+#~ msgid "_Print"
+#~ msgstr "_Tlačiť"
+
+#~ msgid "_Quit"
+#~ msgstr "_Koniec"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "Obnoviť p_redvolené"
+
+#~ msgid "_Save"
+#~ msgstr "_Uložiť"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Vybrané položky:"
+
+#~ msgid "_Size:"
+#~ msgstr "V_eľkosť:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Jemná"
+
+#~ msgid "_Style:"
+#~ msgstr "Štý_l:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Rady:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Písmo titulku _okna:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Okná:"
+
+#~ msgid "dots per inch"
+#~ msgstr "bodov na palec"
+
+#~ msgid "Appearance"
+#~ msgstr "Vzhľad"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Prispôsobiť vzhľad pracovného prostredia"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Inštaluje balíčky tém pre rôzne časti prostredia"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Inštalátor tém"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Balíček témy pre GNOME"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Bez pozadia plochy"
+
+#~ msgid "Slide Show"
+#~ msgstr "Prezentácia"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s by %d %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s na %d %s\n"
+#~ "Priečinok: %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "bodov"
+#~ msgstr[1] "bod"
+#~ msgstr[2] "body"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Nepodarilo sa nainštalovať tému"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Nástroj %s nie je nainštalovaný."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Vyskytol sa problém pri rozbaľovaní témy."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Pri inštalácií zvoleného súboru nastala chyba"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "\"%s\" sa nezdá byť platnou témou."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "\"%s\" sa nezdá byť platnou témou. Môže to byť \"témový stroj\", ktorý "
+#~ "musíte skompilovať."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Inštalácia témy \"%s\" zlyhala."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Téma %s bola nainštalovaná."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Chceli by ste ju teraz aplikovať, alebo ponechať aktuálnu tému?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Ponechať aktuálnu"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Použiť novú"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "Téma pre GNOME %s nainštalovaná správne"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Vytváranie dočasného priečinka zlyhalo"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Nové témy boli úspešne nainštalované."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Nezadané umiestnenie súboru, ktorý sa má nainštalovať"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nedostatočné práva na inštaláciu témy do:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Zvoliť tému"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Balíčky tém"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Musíte zadať názov témy"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Téma už existuje. Chcete ju nahradiť?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "P_repísať"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Chceli by ste odstrániť túto tému?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Tému nie je možné odstrániť"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Nepodarilo sa nainštalovať \"témový stroj\""
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Nepodarilo sa spustiť správcu nastavenia 'gnome2-settings-daemon'.\n"
+#~ "Bez jeho behu sa niektoré nastavenia nemusia prejaviť. Asi je problém so "
+#~ "systémom Bonobo alebo už je aktívny iný správca nastavenia nie pre GNOME, "
+#~ "(napr. KDE) a je v konflikte so správcom nastavenia GNOME."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Nepodarilo sa načítať štandardnú ikonu '%s'\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Kopírovanie súboru: %u z %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Kopírovanie '%s'"
+
+#~ msgid "Copying files"
+#~ msgstr "Kopírovanie súborov"
+
+#~ msgid "Parent Window"
+#~ msgstr "Rodičovské okno"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Rodičovské okno dialógu"
+
+#~ msgid "From URI"
+#~ msgstr "Z URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI, z ktorého sa momentálne prenáša"
+
+#~ msgid "To URI"
+#~ msgstr "URI do"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI, kam sa momentálne prenáša"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Dokončená časť"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Momentálne dokončená časť prenosu"
+
+#~ msgid "Current URI index"
+#~ msgstr "Index aktuálneho URI"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Index aktuálneho URI - začína od 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Celkom URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Celkový počet URI"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Súbor '%s' už existuje. Chcete ho nahradiť?"
+
+#~ msgid "_Skip"
+#~ msgstr "Pre_skočiť"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "N_ahradiť všetky"
+
+#~ msgid "Key"
+#~ msgstr "Kľúč"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Kľúč GConf, ku ktorému je pripojený tento editor vlastnosti"
+
+#~ msgid "Callback"
+#~ msgstr "Spätné volanie"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Uskutočniť toto spätné volanie pri zmene hodnoty asociovanej s týmto "
+#~ "kľúčom"
+
+#~ msgid "Change set"
+#~ msgstr "Skupina zmien"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Skupina zmien GConf obsahujúca dáta predávané klientovi gconf pri použití"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Spätné volanie pre prevod do prvku"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Spätné volanie vykonané tesne pred skonvertovaním dát z GConf do "
+#~ "ovládacieho prvku"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Callback pre prevod z prvku"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Spätné volanie vykonané tesne pred skonvertovaním dát z ovládacieho prvku "
+#~ "do GConf"
+
+#~ msgid "UI Control"
+#~ msgstr "Ovládanie rozhrania"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objekt, ktorý ovláda vlastnosť (obyčajne prvok)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Údaje objektu editora vlastností"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Dáta požadované daným editorom vlastností"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Spätné volanie pri uvoľnení dát objektu editora vlastností"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Spätné volanie vykonané tesne pred uvoľnením dát objektu editora "
+#~ "vlastností"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Nepodarilo sa nájsť súbor '%s'.\n"
+#~ "\n"
+#~ "Overte, prosím, že existuje a skúste to znovu. Alebo zvoľte iný obrázok "
+#~ "pozadia."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Neviem, ako otvoriť súbor '%s'.\n"
+#~ "Asi je to nepodporovaný formát obrázkov.\n"
+#~ "\n"
+#~ "Prosím, zvoľte iný obrázok."
+
+#~ msgid "Please select an image."
+#~ msgstr "Prosím, zvoľte obrázok."
+
+#~ msgid "_Select"
+#~ msgstr "_Zvoliť"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Predvolený kurzor - aktuálny"
+
+#~ msgid "White Pointer"
+#~ msgstr "Biely kurzor"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Biely kurzor - aktuálny"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Veľký kurzor"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Veľký kurzor - aktuálny"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Veľký biely kurzor - aktuálny"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Veľký biely kurzor"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Táto téma nebude vyzerať ako bolo plánované, lebo chýba požadovaná GTK+ "
+#~ "téma '%s'"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Táto téma nebude vyzerať ako bolo plánované, lebo chýba požadovaná téma "
+#~ "správcu okien '%s'"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Táto téma nebude vyzerať ako bolo plánované, lebo chýba požadovaná téma "
+#~ "ikon '%s'"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Predvolené aplikácie"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Nastaviť vlastné preferované aplikácie"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Spustiť predvolenú vizuálnu asistenčnú technológiu"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Vizuálna asistencia"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Chyba pri ukladaní nastavení: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Nepodarilo sa načítať hlavné rozhranie"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Uistite sa, prosím, že je tento aplet správne nainštalovaný"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Určuje názov záložky pre zobrazenie (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- Predvolené aplikácie GNOME"
+
+#~ msgid "<b>Image Viewer</b>"
+#~ msgstr "<b>Prehliadač obrázkov</b>"
+
+#~ msgid "<b>Instant Messenger</b>"
+#~ msgstr "<b>Priama komunikácia</b>"
+
+#~ msgid "<b>Mail Reader</b>"
+#~ msgstr "<b>Poštový klient</b>"
+
+#~ msgid "<b>Mobility</b>"
+#~ msgstr "<b>Pohybová</b>"
+
+#~ msgid "<b>Multimedia Player</b>"
+#~ msgstr "<b>Prehrávač multimédií</b>"
+
+#~ msgid "<b>Terminal Emulator</b>"
+#~ msgstr "<b>Emulátor terminálu</b>"
+
+#~ msgid "<b>Text Editor</b>"
+#~ msgstr "<b>Textový editor</b>"
+
+#~ msgid "<b>Video Player</b>"
+#~ msgstr "<b>Prehrávač videa</b>"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Zraková</b>"
+
+#~ msgid "<b>Web Browser</b>"
+#~ msgstr "<b>WWW prehliadač</b>"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Všetky výskyty %s sa nahradia aktuálnym odkazom"
+
+#~ msgid "C_ommand:"
+#~ msgstr "P_ríkaz:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Príka_z:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Voľba pre _spustenie:"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimédiá"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Otvoriť odkaz na novej _karte"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Otvoriť odkaz v novom _okne"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Spôsob otvorenia _určuje WWW prehliadač"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Spustiť pri štart_e"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Spustiť v _termináli"
+
+#~ msgid "System"
+#~ msgstr "Systém"
+
+#~ msgid "_Run at start"
+#~ msgstr "Spustiť pri št_arte"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Hudobný prehrávač Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Inteligentný prehliadač Debian"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Emulátor terminálu Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "WWW prehliadač Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Poštový klient Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "GNOME Lupa bez čítania obrazovky"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME Klávesnica na obrazovke"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME terminál"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus s lupou"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE Lupa bez čítania obrazovky"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linuxové Čítanie obrazovky"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linuxové Čítanie obrazovky s lupou"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Hudobný prehrávač Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca s lupou"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Hudobný prehrávač Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Štandardný XTerminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Prehrávač filmov Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "<b>Monitor</b>"
+#~ msgstr "<b>Monitor</b>"
+
+#~ msgid "<b>Panel icon</b>"
+#~ msgstr "<b>Ikona na paneli</b>"
+
+#~ msgid "<i>Drag the monitors to set their place</i>"
+#~ msgstr "<i>Umiestnenie monitorov nastavte ťahaním</i>"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Nastavenia monitora"
+
+#~ msgid "Include _panel"
+#~ msgstr "Vrátane _panela"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "Normálne\n"
+#~ "Vľavo\n"
+#~ "Vpravo\n"
+#~ "Dolu hlavou\n"
+
+#~ msgid "Off"
+#~ msgstr "Vypnutý"
+
+#~ msgid "On"
+#~ msgstr "Zapnutý"
+
+#~ msgid "R_otation:"
+#~ msgstr "_Otočenie:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Obnovovacia _frekvencia:"
+
+#~ msgid "_Detect Monitors"
+#~ msgstr "Rozpoznať _monitory"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "_Zrkadlové obrazovky"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Rozlíšenie:"
+
+#~ msgid "_Show displays in panel"
+#~ msgstr "_Ukázať monitory na paneli"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Zmeniť rozlíšenie obrazovky"
+
+#~ msgid "Display"
+#~ msgstr "Monitor"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "<b>Monitor: %s</b>"
+#~ msgstr "<b>Monitor: %s</b>"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Zrkadlové obrazovky"
+
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "Nepodarilo sa aplikovať zvolené nastavenie"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Nepodarilo sa uložiť nastavenie monitora"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Nepodarilo sa získať zbernicu relácie pri aplikovaní nastavenia obrazovky"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Nepodarilo sa rozpoznať monitory"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Nepodarilo sa získať informácie o obrazovke"
+
+#~ msgid "Desktop"
+#~ msgstr "Prostredie"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Nová klávesová skratka..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Kláves akcelerátora"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modifikátory akcelerátora"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Kód klávesu akcelerátora"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Režim skratky"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Typ akcelerátora."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Neznáma akcia>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Vlastné klávesové skratky"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Chyba pri ukladaní novej klávesovej skratky"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Skratka \"%s\" sa nedá použiť, pretože by potom nebolo možné normálne "
+#~ "písať týmto klávesom.\n"
+#~ "Prosím, skúste to súčasne s klávesami ako Ctrl, Alt alebo Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Klávesová skratka \"%s\" sa už používa pre\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Ak pridelíte klávesovú skratku pre \"%s\", skratka pre \"%s\" bude "
+#~ "zakázaná."
+
+#~ msgid "_Reassign"
+#~ msgstr "P_rideliť"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Chyba pri rušení nastavenia akcelerátora z konfiguračnej databázy: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Priveľa vlastných klávesových skratiek"
+
+#~ msgid "Action"
+#~ msgstr "Akcia"
+
+#~ msgid "Shortcut"
+#~ msgstr "Klávesová skratka"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Vlastná klávesová skratka"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Klávesové skratky"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Klávesovú skratku môžete upraviť tak, že kliknete na príslušný riadok a "
+#~ "stlačíte novú skratku, alebo ju vyčistíte stlačením backspace."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Priradiť klávesové skratky príkazom"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Použiť nastavenia a skončiť (iba pre kompatibilitu, teraz spracováva "
+#~ "démon)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Spustiť so zobrazením záložky nastavenia prestávky v písaní"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Spustiť so zobrazením záložky nastavenia prístupnosti"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Nastavenie klávesnice GNOME"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>Odmietnuté klávesy</b>"
+
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "<b>Blikanie kurzora</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Všeobecné</b>"
+
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "<b>Opakovanie kláves</b>"
+
+#~ msgid "<b>Slow Keys</b>"
+#~ msgstr "<b>Pomalé klávesy</b>"
+
+#~ msgid "<b>Sticky Keys</b>"
+#~ msgstr "<b>Lepkavé klávesy</b>"
+
+#~ msgid "<b>Visual cues for sounds</b>"
+#~ msgstr "<b>Vizuálne pomôcky pre zvuky</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Rýchlo</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Dlho</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Krátko</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Pomaly</i></small>"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "_Zrýchlenie:"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Povoliť _odloženie prestávky"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "_Zvuková spätná väzba..."
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Pípnuť pri prepnutí _funkcií prístupnosti"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Pípnuť pri stlačení _modifikátora"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Pípnuť pri stlačení p_repínacej klávesy"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Pípnuť pri _stlačení klávesu"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Pípnuť, ak je kláves o_dmietnutý"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Pípnuť, ak je kláves _akceptovaný"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Pípnuť, ak je kláves _odmietnutý"
+
+#~ msgid "By _country"
+#~ msgstr "Podľa _krajiny"
+
+#~ msgid "By _language"
+#~ msgstr "Podľa _jazyka"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Zvoľte model klávesnice"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Zvoľte rozloženie"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Kurzor v textových poliach _bliká"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Rýchlosť blikania kurzora"
+
+#~ msgid "D_elay:"
+#~ msgstr "Pau_za:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "Za_kázať lepkavé klávesy, ak sú stlačené dva klávesy naraz"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Bliknúť _titulkom okna"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Bliknúť _celou obrazovkou"
+
+#~ msgid "General"
+#~ msgstr "Všeobecné"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Kláves sa _opakuje pri držaní"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Zvuková spätná väzba sprístupnenia klávesnice"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Možnosti rozloženia klávesnice"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Nastavenie klávesnice"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Model klávesnice:"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "Možno_sti rozloženia..."
+
+#~ msgid "Layouts"
+#~ msgstr "Rozloženia"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Uzamknúť obrazovu po zadanej dobe pre zabránenie zdravotným problémom s "
+#~ "používaním klávesnice"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Myš klávesami"
+
+#~ msgid "Preview:"
+#~ msgstr "Náhľad:"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Rýchlosť opakovania kláves"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "_Obnoviť predvolené"
+
+#~ msgid "S_peed:"
+#~ msgstr "Rýchlo_sť:"
+
+#~ msgid "Separate _layout for each window"
+#~ msgstr "Oddeliť skupinu pre _každé okno"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Vizuálne zo_brazovať zvuk výstrahy"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "_Asistenčné funkcie môžu byť prepínané klávesovými skratkami"
+
+#~ msgid "_Country:"
+#~ msgstr "_Krajina:"
+
+#~ msgid "_Delay:"
+#~ msgstr "P_auza:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Ignorovať rýchlo opakované stlačenie kláves"
+
+#~ msgid "_Language:"
+#~ msgstr "_Jazyk:"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modely:"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "Akceptovať iba _dlhé stlačenie kláves"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "Kurzor myši môže byť _ovládaný pomocou kláves"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Zvolené rozloženia:"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simulovať súčasné stlačenia kláves"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Rýchlosť:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Test nastavenia:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Varianty:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Výrobcovia:"
+
+#~ msgid "Default"
+#~ msgstr "Predvolené"
+
+#~ msgid "Layout"
+#~ msgstr "Rozloženie"
+
+#~ msgid "Vendors"
+#~ msgstr "Výrobcovia"
+
+#~ msgid "Models"
+#~ msgstr "Modely"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Nastaviť vlastnosti klávesnice"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Pohyb vľavo"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Pohyb vpravo"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Pohyb nahor"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Pohyb nadol"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Zakázané"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Určuje názov záložky pre zobrazenie (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Nastavenie myši pre GNOME"
+
+#~ msgid "<b>Double-Click Timeout</b>"
+#~ msgstr "<b>Čakanie pre dvojité kliknutie</b>"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Ťahaj a pusť</b>"
+
+#~ msgid "<b>Dwell Click</b>"
+#~ msgstr "<b>Kliknutie zotrvaním</b>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Nájsť kurzor</b>"
+
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr "<b>Orientácia myši</b>"
+
+#~ msgid "<b>Pointer Speed</b>"
+#~ msgstr "<b>Rýchlosť kurzora</b>"
+
+#~ msgid "<b>Simulated Secondary Click</b>"
+#~ msgstr "<b>Simulované sekundárne kliknutie</b>"
+
+#~ msgid ""
+#~ "<i>To test your double-click settings, try to double-click on the light "
+#~ "bulb.</i>"
+#~ msgstr ""
+#~ "<i>Pre odskúšanie nastavenia dvojitého kliknutia sa pokúste dvojito "
+#~ "klinúť na žiarovku</i>"
+
+#~ msgid ""
+#~ "<i>You can also use the Dwell Click panel applet to choose the click type."
+#~ "</i>"
+#~ msgstr ""
+#~ "<i>Pre voľbu typu kliknutia môžete použiť aj aplet panelu Dwell Click</i>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>Vysoká</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>Veľký</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>Nízka</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>Malý</i></small>"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Voľba typu kliknutia v_opred"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Voľba typu kliknutia gestami _myši"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "_Dvojité kliknutie:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Ťa_h kliknutím:"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "_Sekundárne kliknutie:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "_Ukázať pozíciu kurzora pri stlačení klávesu Control"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Zo_braziť okno typu kliknutia"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "Pra_h:"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Zrýchlenie:"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "Vyvolať _kliknutie keď sa kurzor zastaví"
+
+#~ msgid "_Left-handed"
+#~ msgstr "Pre ľ_avákov"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "P_rah pohybu:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "Pre p_ravákov"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Citlivosť:"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Jednoduché kliknutie:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "Ča_kanie:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "Spustiť sekundárne kliknutie podržaním primárneho _tlačidla"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Nastaviť vlastnosti myši"
+
+#~ msgid "New Location..."
+#~ msgstr "Nové umiestnenie..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Umiestnenie už existuje"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Sieťové proxy"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Nastaviť predvoľby vášho sieťového proxy"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Pr_iame pripojenie na internet</b>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Zoznam ignorovaných hostiteľov</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Automatické nastavenie proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Ručné nastavenie proxy</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>Po_užiť prihlásenie</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL pre automatické nastavenie:"
+
+#~ msgid "C_reate"
+#~ msgstr "Vytvo_riť"
+
+#~ msgid "Create New Location"
+#~ msgstr "Vytvoriť nové umiestnenie"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detaily HTTP proxy"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "_HTTP proxy:"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Ignorovaní hostitelia"
+
+#~ msgid "Location:"
+#~ msgstr "Umiestnenie:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Nastavenie sieťového proxy"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Konfigurácia proxy"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Hostiteľ S_ocks:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Umiestnenie už existuje."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Meno používateľa:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "Ods_trániť umiestnenie"
+
+#~ msgid "_Details"
+#~ msgstr "_Detaily"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP proxy:"
+
+#~ msgid "_Location name:"
+#~ msgstr "Názov _umiestnenia:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Heslo:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Proxy _zabezpečeného HTTP:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Použiť rovnaké _nastavenie pre všetky protokoly"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "Nie je možné spustiť aplikáciu nastavenia vášho správcu okien"
+
+#~ msgid "C_ontrol"
+#~ msgstr "C_ontrol"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (alebo \"logo Okná\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "<b>Kláves premiestnenia</b>"
+
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>Akcia titulkovej lišty</b>"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Výber okna</b>"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr "Pre presun okna stlačte a držte tento kláves, potom ťahajte:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Nastavenie okien"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Dvojité kliknutie na titulku vyvolá akciu:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "Do_ba pred presunom dopredu:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "P_resunúť vybrané okno dopredu po danej dobe"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "Vybrať okno pod _kurzorom myši"
+
+#~ msgid "seconds"
+#~ msgstr "sekúnd"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Nastaviť vaše vlastnosti okna"
+
+#~ msgid "Windows"
+#~ msgstr "Okná"
+
+#~ msgid "<b>Start %s</b>"
+#~ msgstr "<b>Spustiť %s</b>"
+
+#~ msgid "Help"
+#~ msgstr "Pomocník"
+
+#~ msgid "Upgrade"
+#~ msgstr "Aktualizovať"
+
+#~ msgid "Uninstall"
+#~ msgstr "Odinštalovať"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Odstrániť z Obľúbených"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Pridať k Obľúbeným"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Odstrániť z Programov pri štarte"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Pridať k Programom pri štarte"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Nenájdené žiadne zhody.</b> </span><span>\n"
+#~ "\n"
+#~ " Váš filter \"<b>%s</b>\" sa nezhoduje so žiadnymi položkami.</span>"
+
+#~ msgid "Other"
+#~ msgstr "Ostatné"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Nový zošit s tabuľkou"
+
+#~ msgid "New Document"
+#~ msgstr "Nový dokument"
+
+#~ msgid "Home"
+#~ msgstr "Domov"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumenty"
+
+#~ msgid "File System"
+#~ msgstr "Súborový systém"
+
+#~ msgid "Network Servers"
+#~ msgstr "Sieťové servery"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Otvoriť</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Premenovať..."
+
+#~ msgid "Send To..."
+#~ msgstr "Odoslať do..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Presunúť do Koša"
+
+#~ msgid "Delete"
+#~ msgstr "Odstrániť"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Ste si istý, že chcete natrvalo odstrániť \"%s\"?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Ak odstránite položku, bude úplne stratená."
+
+#~ msgid "<b>Open with \"%s\"</b>"
+#~ msgstr "<b>Otvoriť s \"%s\"</b>"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Otvoriť s predvolenou aplikáciou"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Otvoriť v Správcovi súborov"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Dnes %H:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Včera %H:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %H:%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d. %b %H:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d. %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Nájsť teraz"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Otvoriť %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Odstrániť zo systémových položiek"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "Správca okien \"%s\" nemá zaregistrovaný nástroj pre nastavenie\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maximalizovať"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Maximalizovať zvislo"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Maximalizovať vodorovne"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimalizovať"
+
+#~ msgid "Roll up"
+#~ msgstr "Zabaliť"
+
+#~ msgid "None"
+#~ msgstr "Nič"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "kľúč nenájdený [%s]\n"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Groups"
+#~ msgstr "Skupiny"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Bežné úlohy"
+
+#~ msgid "Control Center"
+#~ msgstr "Ovládacie centrum"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Zatvoriť ovládacie centrum keď je aktivovaná úloha"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Ukončiť shell pri vykonaní akcie pridania alebo odstránenia"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Ukončiť shell pri vykonaní akcie pomocníka"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Ukončiť shell pri vykonaní akcie spustenia"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "Ukončiť shell pri vykonaní akcie aktualizácie alebo odinštalovania"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "Určuje, či sa má zatvoriť shell keď sa vykoná akcia pomocníka"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "Určuje, či sa má shell zavrieť keď sa vykoná akcia spustenia"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Určuje, či sa má shell zavrieť keď sa vykoná akcia pridania alebo "
+#~ "odstránenia"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Určuje, či sa má shell zavrieť keď sa vykoná akcia aktualizácie alebo "
+#~ "odinštalovania"
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Názvy úloh a súvisiacich .desktop súborov"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Názov úlohy, ktorá sa má zobraziť v ovládacom centre, nasledovaná "
+#~ "oddeľovačom \";\" a názvom súvisiaceho .desktop súboru, ktorý sa má "
+#~ "zavolať pre túto úlohu."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Zmeniť tému;gtk-theme-selector.desktop,Nastaviť predvolené aplikácie;"
+#~ "default-applications.desktop,Pridať tlačiareň;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "Ak je true, ovládacie centrum sa zavrie pri aktivácii \"Bežnej úlohy\"."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Nástroj pre nastavenie GNOME"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "Ak je toto true, pre písma OpenType budú vytvorené náhľady."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Ak je toto true, pre písma PCF budú vytvorené náhľady."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "Ak je toto true, pre písma TrueType budú vytvorené náhľady."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Ak je toto true, pre písma Type1 budú vytvorené náhľady."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem "
+#~ "OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem "
+#~ "TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Týmto kľúčom nastavte príkaz používaný pre vytvorenie náhľadov písiem "
+#~ "Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Príkaz pre náhľady písiem OpenType"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Príkaz pre náhľady písiem PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Príkaz pre náhľady písiem TrueType"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Príkaz pre náhľady písiem Type1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Či vytvárať náhľady písiem OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Či vytvárať náhľady písiem PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Či vytvárať náhľady písiem TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Či vytvárať náhľady písiem Type1"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "Kŕdeľ šťastných ďatľov učí pri ústí Váhu mĺkveho koňa obhrýzať kôru a "
+#~ "žrať čerstvé mäso. 0123456789"
+
+#~ msgid "Name:"
+#~ msgstr "Názov:"
+
+#~ msgid "Style:"
+#~ msgstr "Štýl:"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "Size:"
+#~ msgstr "Veľkosť:"
+
+#~ msgid "Version:"
+#~ msgstr "Verzia:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Copyright:"
+
+#~ msgid "Description:"
+#~ msgstr "Popis:"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "použitie: %s súborpísma\n"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Zobrazovač písem"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Zobraziť náhľad písma"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Text pre náhľad (predvolené: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Veľkosť písma (predvolené: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "VEĽKOSŤ"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "SÚBOR-PÍSMA VÝSTUPNÝ-SÚBOR"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Chyba pri spracovaní parametrov: %s\n"
+
+#~ msgid "_Groups"
+#~ msgstr "_Skupiny"
+
+#, fuzzy
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Nepodarilo sa uspať počítač.\n"
+#~ "Overte si, či máte počítač správne nastavený.\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Nepodarilo sa uspať počítač.\n"
+#~ "Overte, že máte počítač správne nastavený."
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Klávesová skratka na uspatie počítača."
+
+#~ msgid "Suspend"
+#~ msgstr "Uspať"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Ak je True, zobrazí sa dialógové okno, ak sa pri behu šetriča obrazovky "
+#~ "vyskytli chyby."
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Ak je true, pri prihlásení sa spustí šetrič obrazovky"
+
+#~ msgid "Show startup errors"
+#~ msgstr "Zobraziť chyby pri štarte"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Spustiť šetrič obrazovky"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Povoliť modul šetriča obrazovky"
+
+#~ msgid "Set to True to enable the plugin to manage screensaver settings."
+#~ msgstr ""
+#~ "Pre povolenie modulu správy nastavení šetriča obrazovky nastavte na true."
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d %% diskového priestoru na `%s' sa používa"
+
+#~ msgid "Analyze"
+#~ msgstr "Analyzovať"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "GNOME Ovládanie hlasitosti"
+
+#, fuzzy
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Pri spúšťaní šetriča obrazovky nastala chyba:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Počas tejto relácie nebude šetrič obrazovky fungovať.\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pri spúšťaní šetriča obrazovky nastala chyba:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Počas tohto sedenia nebude šetrič obrazovky fungovať."
+
+#~ msgid "Screensaver"
+#~ msgstr "Šetrič obrazovky"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "Modul šetriča obrazovky"
+
+#~ msgid "Toggle screenreader"
+#~ msgstr "Prepnúť čítač obrazovky"
+
+#~ msgid "Sound Sample Cache plugin"
+#~ msgstr "Modul ukladania zvukových samplov"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Nepodarilo sa vytvoriť priečinok \"%s\".\n"
+#~ "Je to potrebné na zmenu témy kurzora myši."
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "#-#-#-#-#  sk.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Nepodarilo sa vytvoriť priečinok \"%s\".\n"
+#~ "Je to potrebné na zmenu kurzorov.\n"
+#~ "#-#-#-#-#  sk.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Nepodarilo sa vytvoriť priečinok \"%s\".\n"
+#~ "To je nutné pre zmenu kurzorov."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Nepodarilo sa načítať zvukový súbor %s ako zvuk %s"
+
+#~ msgid "Login"
+#~ msgstr "Prihlásenie"
+
+#~ msgid "Logout"
+#~ msgstr "Odhlásenie"
+
+#~ msgid "Boing"
+#~ msgstr "Beng"
+
+#~ msgid "Siren"
+#~ msgstr "Siréna"
+
+#~ msgid "Clink"
+#~ msgstr "Cink"
+
+#~ msgid "Beep"
+#~ msgstr "Zvonček"
+
+#~ msgid "No sound"
+#~ msgstr "Žiaden zvuk"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Pre túto udalosť nie je nastavený zvuk."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Zvukový súbor pre túto udalosť neexistuje.\n"
+#~ "Môžno budete chcieť nainštalovať balíček gnome-audio, ktorý obsahuje sadu "
+#~ "predvolených zvukov."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Zvukový súbor pre túto udalosť neexistuje."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Vybrať súbor so zvukom"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Súbor %s nie je platný súbor wav"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Vybrať zvukový súbor..."
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Pri nastavovaní obrazovky nastala chyba"
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Klávesová skratka (%s) má viackrát definovanú akciu.\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Klávesová skratka (%s) je viackrát definovaná.\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "Vyzerá to, že kláves '%u' už používa iná aplikácia."
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Klávesová skratka (%s) sa už používa.\n"
+
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "Nepodarilo sa získať org.gnome.SettingsDaemon.XRANDR"
+
+#~ msgid "_Command:"
+#~ msgstr "_Príkaz:"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Rozlíšenie obrazovky"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>T_apeta plochy</b>"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Bez tapety"
+
+#~ msgid "Monitor Resolution Settings"
+#~ msgstr "Nastavenie rozlíšenia obrazovky"
+
+#, fuzzy
+#~ msgid ""
+#~ "The X server does not support the XRANDR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "Tento X server nepodporuje rozšírenie XRandR. Okamžité zmeny rozlíšenia "
+#~ "obrazovky nie sú dostupné."
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Získať a uložiť predchádzajúce nastavenie"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Povoliť zvuky a asociovať ich s udalosťami"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "Neznáme ovládanie hlasitosti %d"
+
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "Vytvorenie testovacej pipeline zlyhalo pre '%s'"
+
+#~ msgid "Not connected"
+#~ msgstr "Nepripojené"
+
+#~ msgid "Autodetect"
+#~ msgstr "Zistiť automaticky"
+
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - Moderná architektúra zvuku pre Linux"
+
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART Zvukový démon"
+
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - Osvietený zvukový démon"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - Otvorený zvukový systém"
+
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "Zvukový server PulseAudio"
+
+#~ msgid "Test Sound"
+#~ msgstr "Testovací zvuk"
+
+#~ msgid "Silence"
+#~ msgstr "Ticho"
+
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr " - Nastavenie zvuku pre GNOME"
+
+#~ msgid "<b>Alerts and Sound Effects</b>"
+#~ msgstr "<b>Varovania a zvukové efekty</b>"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>Hlasové konferencie</b>"
+
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>Predvolené stopy zmiešavača</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>Hudba a filmy</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>Zvukové udalosti</b>"
+
+#~ msgid "<b>Sound Theme</b>"
+#~ msgstr "<b>Zvuková téma</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Testovanie...</span>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "Pre ukončenie stlačte Ok."
+
+#~ msgid "Devices"
+#~ msgstr "Zariadenia"
+
+#~ msgid "Play _alert sound"
+#~ msgstr "Prehrávať v_arovné zvuky"
+
+#~ msgid "Play _sound effects when buttons are clicked"
+#~ msgstr "Prehrávať _zvukové efekty pri stlačení tlačidiel"
+
+#~ msgid "S_ound playback:"
+#~ msgstr "Pre_hrávanie zvuku:"
+
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "Zvoľte zariadenie a stopy, ktoré chcete ovládať klávesnicou. Pomocou "
+#~ "kláves Shift a Control môžete zvoliť viacero stôp."
+
+#~ msgid "So_und playback:"
+#~ msgstr "P_rehrávanie zvuku:"
+
+#~ msgid "Sou_nd capture:"
+#~ msgstr "_Nahrávanie zvuku:"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Nastavenie zvuku"
+
+#~ msgid "Sounds"
+#~ msgstr "Zvuky"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "Testovanie zvuku"
+
+#~ msgid "_Device:"
+#~ msgstr "Z_ariadenie:"
+
+#~ msgid "_Play alerts and sound effects"
+#~ msgstr "Pre_hrávať varovania a zvukové efekty"
+
+#~ msgid "_Sound playback:"
+#~ msgstr "Prehrávanie _zvuku:"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Test zvuku udalosti"
+
+#~ msgid "Sound files"
+#~ msgstr "Zvukové súbory"
+
+#~ msgid "Custom..."
+#~ msgstr "Vlastné..."
+
+#~ msgid "Lock Screen"
+#~ msgstr "Uzamknutie obrazovky"
+
+#~ msgid "Shutdown"
+#~ msgstr "Vypnutie"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alert sound"
+#~ msgstr "Zvuk výstrahy"
+
+#~ msgctxt "Sound event"
+#~ msgid "Visual alert"
+#~ msgstr "Vizuálna výstraha"
+
+#~ msgctxt "Sound event"
+#~ msgid "Windows and Buttons"
+#~ msgstr "Okná a tlačidlá"
+
+#~ msgctxt "Sound event"
+#~ msgid "Button clicked"
+#~ msgstr "Stlačenie tlačidla"
+
+#~ msgctxt "Sound event"
+#~ msgid "Toggle button clicked"
+#~ msgstr "Prepnutie tlačidla"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window maximized"
+#~ msgstr "Maximalizovanie okna"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window unmaximized"
+#~ msgstr "Zrušenie maximalizácie okna"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window minimised"
+#~ msgstr "Minimalizovanie okna"
+
+#~ msgctxt "Sound event"
+#~ msgid "Desktop"
+#~ msgstr "Prostredie"
+
+#~ msgctxt "Sound event"
+#~ msgid "Login"
+#~ msgstr "Prihlásenie"
+
+#~ msgctxt "Sound event"
+#~ msgid "Logout"
+#~ msgstr "Odhlásenie"
+
+#~ msgctxt "Sound event"
+#~ msgid "New e-mail"
+#~ msgstr "Nový e-mail"
+
+#~ msgctxt "Sound event"
+#~ msgid "Empty trash"
+#~ msgstr "Vysypanie koša"
+
+#~ msgctxt "Sound event"
+#~ msgid "Long action completed (download, CD burning, etc.)"
+#~ msgstr "Skončenie dlhotrvajúcej akcie (napaľovanie CD, atď.)"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alerts"
+#~ msgstr "Výstrahy"
+
+#~ msgctxt "Sound event"
+#~ msgid "Information or question"
+#~ msgstr "Informácia alebo otázka"
+
+#~ msgctxt "Sound event"
+#~ msgid "Warning"
+#~ msgstr "Varovanie"
+
+#~ msgctxt "Sound event"
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgctxt "Sound event"
+#~ msgid "Battery warning"
+#~ msgstr "Varovanie batérie"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr "Povoliť podporu asistenčných technológií pri prihlásení"
+
+#~ msgid ""
+#~ "Centered\n"
+#~ "Fill screen\n"
+#~ "Scaled\n"
+#~ "Zoom\n"
+#~ "Tiled"
+#~ msgstr ""
+#~ "V strede\n"
+#~ "Roztiahnuť\n"
+#~ "Zachovať pomer\n"
+#~ "Zväčšiť\n"
+#~ "Dlaždice"
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s je cesta, kam sa nainštalujú súbory témy. Nemôžete ju použiť ako "
+#~ "zdrojové umiestnenie"
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Iba použiť nastavenie a skončiť"
+
+#~ msgid "Connecting..."
+#~ msgstr "Pripájanie..."
+
+#~ msgid "Inverted"
+#~ msgstr "Prevrátené"
+
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Nastavenie obrazovky %d\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Nastavenie rozlíšenia obrazovky"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "Predvolené iba pre _tento počítač (%s)"
+
+#~ msgid "Options"
+#~ msgstr "Možnosti"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Skúška nového nastavenia. Ak nezareagujete do %d sekúnd, obnoví sa "
+#~ "pôvodné nastavenie."
+#~ msgstr[1] ""
+#~ "Skúška nového nastavenia. Ak nezareagujete do %d sekundy, obnoví sa "
+#~ "pôvodné nastavenie."
+#~ msgstr[2] ""
+#~ "Skúška nového nastavenia. Ak nezareagujete do %d sekúnd, obnoví sa "
+#~ "pôvodné nastavenie."
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Zachovať rozlíšenie"
+
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr "Chcete použiť toto rozlíšenie?"
+
+#~ msgid "Use _Previous Resolution"
+#~ msgstr "_Vrátiť pôvodné rozlíšenie"
+
+#~ msgid "_Keep Resolution"
+#~ msgstr "_Použiť rozlíšenie"
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Verzia rozšírenia XRandR nie je kompatibilná s týmto programom. Okamžité "
+#~ "zmeny rozlíšenia obrazovky nie sú dostupné."
+
+#~ msgid "New accelerator..."
+#~ msgstr "Nový akcelerátor..."
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr ""
+#~ "Chyba pri nastavovaní nového akcelerátora do konfiguračnej databázy: %s\n"
+
+#~ msgid "Keyboard Accessibility Notifications"
+#~ msgstr "Upozornenia sprístupnenia klávesnice"
+
+#~ msgid "_Layouts:"
+#~ msgstr "_Rozloženia:"
+
+#~ msgid "Advanced Configuration"
+#~ msgstr "Pokročilá konfigurácia"
+
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "Povoliť softvérové _zmiešavanie zvuku (ESD)"
+
+#~ msgid "System Beep"
+#~ msgstr "Systémový zvonček"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "Povoliť systémový _zvonček"
+
+#~ msgid "_Visual system beep"
+#~ msgstr "Viz_uálny systémový zvonček"
+
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "Neočakávaný atribút '%s' pre prvok '%s'"
+
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "Atribút '%s' prvku '%s' sa nenašiel"
+
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "Neočakávaná značka '%s', očakávaná bola '%s'"
+
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "Neočakávaná značka '%s' vo vnútri '%s'"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "V dátových priečinkoch sa nenašiel platný súbor záložiek"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "Záložka pre URI '%s' už existuje"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "Nenašla sa žiadna záložka pre URI '%s'"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "V záložke pre URI '%s' nebol definovaný žiaden MIME typ"
+
+#~ msgid "No private flag has been defined in bookmark for URI '%s'"
+#~ msgstr "V záložke pre URI '%s' nebol definovaný žiaden súkromný príznak"
+
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "V záložke pre URI '%s' neboli nastavené žiadne skupiny"
+
+#~ msgid "No application with name '%s' registered a bookmark for '%s'"
+#~ msgstr "Žiadna aplikácia s názvom '%s' nezaregistrovala záložku pre '%s'"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "Použiť ako písmo aplikácií"
+
+#~ msgid "Sets the default application font"
+#~ msgstr "Nastaví predvolené písmo aplikácií"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Použiť nové písmo?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "_Nepoužiť písmo"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "Zvolená téma odporúča nové písmo. Dole je zobrazený náhľad tohto písma."
+
+#~ msgid "_Apply font"
+#~ msgstr "Použiť pí_smo"
+
+#~ msgid "Themes"
+#~ msgstr "Témy"
+
+#~ msgid "Description"
+#~ msgstr "Popis"
+
+#~ msgid "Control theme"
+#~ msgstr "Téma ovládacích prvkov"
+
+#~ msgid "Window border theme"
+#~ msgstr "Téma okrajov okien"
+
+#~ msgid "Icon theme"
+#~ msgstr "Ikonová téma"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr "Ak je true, pre nainštalované témy sa budú vytvárať náhľady."
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "Ak je true, pre témy sa budú vytvárať náhľady."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Týmto kľúčom nastavíte príkaz, ktorý vytvára náhľady pre nainštalované "
+#~ "témy."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr "Týmto kľúčom nastavíte príkaz, ktorý vytvára náhľady pre témy."
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "Príkaz pre vytvorenie náhľadu nainštalovaných tém"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "Príkaz pre vytvorenie náhľadu tém"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Či vytvárať náhľady nainštalovaných tém"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Či vytvárať náhľady tém"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "AÁÄBCČDĎEÉĽŠŤŽŇ"
+
+#~ msgid "[FILE]"
+#~ msgstr "[SÚBOR]"
+
+#~ msgid "Apply theme"
+#~ msgstr "Použiť tému"
+
+#~ msgid "Sets the default theme"
+#~ msgstr "Nastaví predvolenú tému"
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "Pri pokuse o spustenie nastavenia myši nastala chyba: %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "Nepodarilo sa importovať nastavenie AccessX zo súboru '%s'"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Importovať nastavenie funkcií zo súboru"
+
+#~ msgid "_Import"
+#~ msgstr "_Importovať"
+
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "Nastavenie sprístupnenia klávesnice"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Tento systém asi nemá rozšírenie XKB. Funkcie pre sprístupnenie "
+#~ "klávesnice nebudú fungovať."
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Povoliť _odrazové klávesy</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Povoliť _pomalé klávesy</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Povoliť klávesy _myši</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Povoliť _opakovanie kláves</b>"
+
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Povoliť _lepkavé klávesy</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Funkcie</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Prepínacie klávesy</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Základné"
+
+#~ msgid "Beep if key is re_jected"
+#~ msgstr "Pípnuť, ak je kláves _odmietnutý"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr "Pípnuť pri _prepnutí funkcie z klávesnice"
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "Pípnuť pri stlačení _modifikátora"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr "Pípne pri zapnutí indikátoru LED a pípne dvakrát pri jeho vypnutí."
+
+#~ msgid "Beep when key is:"
+#~ msgstr "Pípnuť, ak je kláves:"
+
+#~ msgid "Del_ay:"
+#~ msgstr "_Pauza:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Pauza medzi stlačením klávesu a p_resunom kurzoru:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "_Zakázať ak sú stlačené dva klávesy naraz"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "Povoliť _prepínanie kláves"
+
+#~ msgid "Filters"
+#~ msgstr "Filtre"
+
+#~ msgid "I_gnore duplicate keypresses within:"
+#~ msgstr "_Ignorovať duplikované stlačenie kláves po dobu:"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Ignoruje všetky následné stlačenia ROVNAKÉHO klávesu ak sa opakuje v "
+#~ "nastavenej dobe."
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Nastavenie sprístupnenia klávesnice (AccessX)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Ma_ximálna rýchlosť kurzoru:"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "Nastavenie _myši..."
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr "Akceptovať klávesy iba po stlačení a držaní danú dobu."
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Vykonať operácie používajúce viac naraz stlačených kláves pri postupnom "
+#~ "stlačení modifikátorov."
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Čas pre _zrýchlenie na maximum:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Simulovať myš pomocou číselnej časti klávesnice."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "Zakázať ak _nepoužívané po:"
+
+#~ msgid "_Enable keyboard accessibility features"
+#~ msgstr "_Povoliť sprístupnenie klávesnice"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "_Importovať nastavenie funkcií..."
+
+#~ msgid "_Only accept keys held for:"
+#~ msgstr "_Akceptovať stlačenie klávesu iba po:"
+
+#~ msgid "_accepted"
+#~ msgstr "_akceptovaný"
+
+#~ msgid "_pressed"
+#~ msgstr "_stlačený"
+
+#~ msgid "characters/second"
+#~ msgstr "znakov/sekundu"
+
+#~ msgid "milliseconds"
+#~ msgstr "milisekúnd"
+
+#~ msgid "pixels/second"
+#~ msgstr "bodov/sekundu"
+
+#~ msgid "Go _to Fonts Folder"
+#~ msgstr "Prejsť do priečinku písie_m"
+
+#, fuzzy
+#~ msgid "Set your language and location preferences"
+#~ msgstr "Nastavenie myši"
+
+#, fuzzy
+#~ msgid ""
+#~ "<i>Region and language changes take effect the next time you log in.</i>"
+#~ msgstr "Zmena témy kurzora sa uplatní až pri ďalšom prihlásení."
+
+#, fuzzy
+#~ msgid "Localization Preferences"
+#~ msgstr "Nastavenie písma"
+
+#, fuzzy
+#~ msgid "Region:"
+#~ msgstr "Verzia:"
+
+#, fuzzy
+#~ msgid "Selected languages:"
+#~ msgstr "_Vybrané rozloženia:"
+
+#~ msgid "%d millisecond"
+#~ msgid_plural "%d milliseconds"
+#~ msgstr[0] "%d milisekúnd"
+#~ msgstr[1] "%d milisekunda"
+#~ msgstr[2] "%d milisekundy"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Rýchlo</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Vysoké</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Veľké</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Nízke</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Pomalé</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Malé</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Tlačidlá"
+
+#~ msgid "Motion"
+#~ msgstr "Pohyb"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#~ msgid "Volume"
+#~ msgstr "Hlasitosť"
+
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Klávesová skratka (%s) je neúplná\n"
+
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Klávesová skratka (%s) je neplatná\n"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "Toto upozornenie už _nezobrazovať."
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "Chyba pri vytváraní signálnej rúry."
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Typ bg_applier: BG_APPLIER_ROOT pre koreňové okno alebo "
+#~ "BG_APPLIER_PREVIEW pre náhľad."
+
+#~ msgid "Preview Width"
+#~ msgstr "Šírka náhľadu"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Šírka pre náhľad: Štandardne 64."
+
+#~ msgid "Preview Height"
+#~ msgstr "Výška náhľadu"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Výška pre náhľad: Štandardne 48."
+
+#~ msgid "Screen"
+#~ msgstr "Obrazovka"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Obrazovka, na ktorú má BGApplier kresliť"
+
+#~ msgid ""
+#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr ""
+#~ "Ak je zapnuté, programy pre MIME typy text/plain a text/* budú nastavené "
+#~ "rovnako"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Synchronizovať programy pre text/plain a text/*"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Klávesová skratka pre E-mail."
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Klávesová skratka pre domovský priečinok."
+
+#, fuzzy
+#~ msgid "Launch calculator's shortcut"
+#~ msgstr "Spustit skratku prehliadača pomocníka."
+
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Spustit skratku prehliadača pomocníka."
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Klávesová skratka pre spustenie WWW prehliadača."
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Klávesová skratka pre uzamknutie obrazovky."
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Klávesová skratka pre odhlásenie."
+
+#, fuzzy
+#~ msgid "Media player key's shortcut."
+#~ msgstr "Klávesová skratka pre zastavenie prehrávania."
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Klávesová skratka pre Prejsť na nasledujúcu stopu."
+
+#~ msgid "Pause"
+#~ msgstr "Pozastaviť"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Klávesová skratka pre pozastavenie."
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Klávesová skratka pre prehrávanie (alebo hrať/pozastaviť)."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Klávesová skratka pre Prejsť na predchádzajúcu stopu."
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Klávesová skratka pre Nájsť."
+
+#~ msgid "Skip to next track"
+#~ msgstr "Preskočiť na nasledujúcu stopu"
+
+#~ msgid "Skip to previous track"
+#~ msgstr "Preskočiť na predchádzajúcu stopu"
+
+#~ msgid "Sleep"
+#~ msgstr "Uspať"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Klávesová skratka pre uspanie."
+
+#~ msgid "Stop playback key"
+#~ msgstr "Klávesa pre zastavenie prehrávania"
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Klávesová skratka pre zastavenie prehrávania."
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Klávesová skratka pre zníženie hlasitosti."
+
+#, fuzzy
+#~ msgid "Volume mute's shortcut."
+#~ msgstr "Klávesová skratka pre Potichu"
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "Klávesová skratka pre zvýšenie hlasitosti."
+
+#~ msgid "Display a dialog when there are errors running the screensaver"
+#~ msgstr ""
+#~ "Zobraziť dialógové okno, ak sa pri behu šetriča obrazovky vyskytli chyby"
+
+#~ msgid "Run screensaver at login"
+#~ msgstr "Spustiť šetrič obrazovky pri prihlásení"
+
+#~ msgid "Show Startup Errors"
+#~ msgstr "Zobraziť chyby pri štarte"
+
+#~ msgid " "
+#~ msgstr " "
+
+#, fuzzy
+#~ msgid "The theme is an engine. You need to compile it."
+#~ msgstr "Téma je prostriedok. Potrebujete tému skompilovať."
+
+#~ msgid "The file format is invalid"
+#~ msgstr "Formát súboru je neplatný"
+
+#~ msgid "This theme is not in a supported format."
+#~ msgstr "Táto téma nie je v podporovanom formáte."
+
+#~ msgid "The file format is invalid."
+#~ msgstr "Formát súboru je neplatný."
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "Evolution Mail Reader"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "Evolution Mail Reader"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "Evolution Mail Reader"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "Evolution Mail Reader"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "Evolution Mail Reader"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "Evolution Mail Reader"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Links textový prehliadač"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Lynx textový prehliadač"
+
+#, fuzzy
+#~ msgid "Simple OnScreen Keyboard"
+#~ msgstr "K_lávesnica na obrazovke"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "Textový prehliadač W3M"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "_Použiť rozlíšenie"
+
+#, fuzzy
+#~ msgid "There was an error launching the keyboard tool: %s"
+#~ msgstr "Pri pokuse o spustenie modulu pre klávesnicu nastala chyba: %s"
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Naturálna klávesnica Microsoft"
+
+#~ msgid "_Accessibility..."
+#~ msgstr "_Prístupnosť..."
+
+#~ msgid "Do _not show this warning again"
+#~ msgstr "Toto upozornenie už _nezobrazovať"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.</b>\n"
+#~ "\n"
+#~ "Expected was %s, but the the following settings were found: %s.\n"
+#~ "\n"
+#~ "Which set would you like to use?"
+#~ msgstr ""
+#~ "Nastavenia klávesnice X systému sú iné ako nastavenia aktuálnej GNOME "
+#~ "klávesnica. Ktoré nastavenie chcete použiť?"
+
+#~ msgid "Use X settings"
+#~ msgstr "Použiť nastavenia X"
+
+#, fuzzy
+#~ msgid "Keep GNOME settings"
+#~ msgstr "Použiť nastavenia GNOME"
+
+#~ msgid "Beep 2 (NAMEME)"
+#~ msgstr "Zvonček 2 (POMENUJ)"
+
+#~ msgid "Beep 3 (NAMEME)"
+#~ msgstr "Zvonček 3 (POMENUJ)"
+
+#~ msgid "Warning beep (NAMEME)"
+#~ msgstr "Varovný zvonček (POMENUJ)"
+
+#~ msgid "Ping (NAMEME)"
+#~ msgstr "Ping (POMENOVAŤ)"
+
+#~ msgid "Old password is incorrect, please retype it"
+#~ msgstr "Staré heslo je nesprávne, prosím, zadajte ho znova"
+
+#~ msgid "Could not run /usr/bin/passwd"
+#~ msgstr "Nepodarilo sa spustiť /usr/bin/passwd"
+
+#~ msgid "Unexpected error has occurred"
+#~ msgstr "Vyskytla sa neočakávaná chyba"
+
+#~ msgid "Please type the passwords."
+#~ msgstr "Prosím, zadajte heslá."
+
+#~ msgid "Old pa_ssword:"
+#~ msgstr "Staré he_slo:"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>Aplikácie</b>"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Spustiť pri každom prihlásení tieto techniky sprístupnenia:"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "Podpora pomocných technológií"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'gnopernicus' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Na vašom systéme nie sú k dispozícii žiadne pomocné technológie. Aby ste "
+#~ "získali podporu klávesnice na obrazovke, potrebujete balík 'gok', pre "
+#~ "čítanie obrazovky a lupu potrebujete 'gnopernicus'."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gok' package must be installed in order to get on-screen keyboard "
+#~ "support."
+#~ msgstr ""
+#~ "Na vašom systéme nie sú k dispozícii všetky pomocné technológie. Aby ste "
+#~ "získali podporu klávesnice na obrazovke, potrebujete balík 'gok'."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gnopernicus' package must be installed for screenreading and "
+#~ "magnifying capabilities."
+#~ msgstr ""
+#~ "Na vašom systéme nie sú k dispozícii všetky pomocné technológie. Aby ste "
+#~ "získali podporu pre čítanie obrazovky a lupu potrebujete 'gnopernicus'."
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Nastavenie pozadia plochy"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Nastavenie pozadia plochy"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Pridať tapetu"
+
+#~ msgid "Scaled"
+#~ msgstr "Škálované"
+
+#~ msgid "Tiled"
+#~ msgstr "Dlaždice"
+
+#~ msgid "Solid Color"
+#~ msgstr "Plná farba"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Horizontálny prechod"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "Vertikálny prechod"
+
+#~ msgid "From:"
+#~ msgstr "Z:"
+
+#~ msgid "To:"
+#~ msgstr "Do:"
+
+#~ msgid "Epiphany"
+#~ msgstr "Zjavenie"
+
+#~ msgid "Please specify a name and a command for this editor."
+#~ msgstr "Prosím, zadajte meno a príkaz pre tento editor."
+
+#~ msgid "Add..."
+#~ msgstr "Pridať..."
+
+#~ msgid "C_ustom:"
+#~ msgstr "Vl_astný:"
+
+#~ msgid "Can open _URIs"
+#~ msgstr "Môže otvoriť _URI"
+
+#~ msgid "Can open multiple _files"
+#~ msgstr "Môže otvoriť viac _súborov"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Vlastné vlastnosti editora"
+
+#~ msgid "Default Mail Reader"
+#~ msgstr "Predvolený poštový klient"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Predvolený terminál"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Predvolený textový editor"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "Predvolený prehliadač WWW"
+
+#~ msgid "Edit..."
+#~ msgstr "Upraviť..."
+
+#~ msgid "Run in a _terminal"
+#~ msgstr "Spustiť v _termináli"
+
+#~ msgid ""
+#~ "Select the window manager you want.  You will need to hit apply, wave the "
+#~ "magic wand, and do a magic dance for it to work."
+#~ msgstr ""
+#~ "Vyberte správcu okien, ktorého chcete používať. Aby to fungovalo, musíte "
+#~ "stlačiť Použiť, zamávať čarovnou paličkou a zatancovať čarovný tanec."
+
+#~ msgid "Understands _Netscape Remote Control"
+#~ msgstr "Podporuje _Netscape Remote Control"
+
+#~ msgid "Use this _editor to open text files in the file manager"
+#~ msgstr ""
+#~ "Použiť tento _editor pre otvorenie textových súborov v správcovi súborov"
+
+#~ msgid "Window Manager"
+#~ msgstr "Správca okien"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Vlastnosti..."
+
+#~ msgid "_Select:"
+#~ msgstr "_Vybrať:"
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Vyberte písma pre prostredie"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "Písmo _terminálu:"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "Rozloženia _k dispozícii:"
+
+#~ msgid "Unknown Cursor"
+#~ msgstr "Neznámy kurzor"
+
+#~ msgid "The default cursor that ships with X"
+#~ msgstr "Štandardný kurzor dodávaný s X"
+
+#~ msgid "The default cursor inverted"
+#~ msgstr "Invertovaný štandardný kurzor"
+
+#~ msgid "Large Cursor"
+#~ msgstr "Veľký kurzor"
+
+#~ msgid "Large version of normal cursor"
+#~ msgstr "Veľká verzia normálneho kurzoru"
+
+#~ msgid "Large version of white cursor"
+#~ msgstr "Veľká verzia bieleho kurzoru"
+
+#~ msgid "Cursor Size:"
+#~ msgstr "Veľkosť kurzora:"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Zvýrazniť _kurzor pri stlačení Ctrl"
+
+#~ msgid "Medium"
+#~ msgstr "Stredné"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "_Povoliť spustenie zvukového serveru"
+
+#~ msgid "_Sound an audible bell"
+#~ msgstr "_Zvuk počuteľného zvončeka"
+
+#~ msgid "_Visual feedback:"
+#~ msgstr "_Viditeľná reakcia:"
+
+#~ msgid "Theme deleted succesfully. Please select another theme."
+#~ msgstr "Téma bola odstránená úspešne. Prosím, vyberte inú tému."
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Na vašom systéme neboli nájdené žiadne témy. To asi znamená, že nemáte "
+#~ "správne nainštalované \"Nastavenie tém\" alebo nemáte nainštalovaný balík "
+#~ "\"gnome-themes\"."
+
+#~ msgid ""
+#~ "Can not install themes. \n"
+#~ "The gzip utility is not installed."
+#~ msgstr ""
+#~ "Nepodarilo sa nainštalovať tému. \n"
+#~ "Nástroj gzip nie je nainštalovaný."
+
+#~ msgid ""
+#~ "Icon Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Téma ikon %s nainštalovaná správne.\n"
+#~ "Môžete si ju zvoliť v podrobnostiach témy."
+
+#~ msgid ""
+#~ "Windows Border Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Téma okrajov okien %s nainštalovaná správne.\n"
+#~ "Môžete si ju zvoliť v podrobnostiach témy."
+
+#~ msgid ""
+#~ "Controls Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Téma ovládacích prvkov %s nainštalovaná správne.\n"
+#~ "Môžete si ju zvoliť v podrobnostiach témy."
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "Umiestnenie súboru s témou nie je platné"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "Pomocou tlačidla Uložiť tému ju môžete uložiť."
+
+#~ msgid ""
+#~ "The default theme schemas could not be found on your system.  This means "
+#~ "that you probably don't have metacity installed, or that your gconf is "
+#~ "configured incorrectly."
+#~ msgstr ""
+#~ "Na vašom systéme sa nepodarilo nájsť štandardnú tému. To znamená, že asi "
+#~ "nemáte nainštalovaný balík metacity alebo máte nesprávne nastavený gconf."
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Inštalovať tému</span>"
+
+#~ msgid "New themes can also be installed by dragging them into the window."
+#~ msgstr "Nové témy je možné nainštalovať aj ťahaním myšou do tohto okna."
+
+#~ msgid "Save Theme"
+#~ msgstr "Uložiť tému"
+
+#~ msgid "Short _description:"
+#~ msgstr "_Krátky popis:"
+
+#~ msgid "Theme Details"
+#~ msgstr "Detaily témy"
+
+#~ msgid "Theme _Details"
+#~ msgstr "_Detaily témy"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Táto téma nenavrhuje žiadne písmo ani pozadie."
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Táto téma navrhuje písmo a pozadie:"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Inštalovať tému..."
+
+#~ msgid "_Remove"
+#~ msgstr "_Odstrániť"
+
+#~ msgid "_Theme name:"
+#~ msgstr "Meno _témy:"
+
+#~ msgid "theme selection tree"
+#~ msgstr "strom výberu témy"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr "Prispôsobenie vzhľadu panelov nástrojov a menu v aplikáciách"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Chovanie</b>"
+
+#~ msgid "Icons only"
+#~ msgstr "Iba ikony"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Nastavenie panelov nástrojov a menu"
+
+#~ msgid "Text below icons"
+#~ msgstr "Text pod ikonami"
+
+#~ msgid "Text beside icons"
+#~ msgstr "Text vedľa ikon"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "_Oddeliteľné panely nástrojov"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Nepodarilo sa inicializovať Bonobo"
+
+#~ msgid "Permissions on the file %s are broken\n"
+#~ msgstr "Práva pre súbor %s sú nesprávne.\n"
+
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr "Nastala chyba pri načítavaní obrázka: %s"
+
+#~ msgid "Event"
+#~ msgstr "Udalosť"
+
+#~ msgid "Sound File"
+#~ msgstr "Zvukový súbor"
+
+#~ msgid "_Sounds:"
+#~ msgstr "_Zvuky:"
+
+#~ msgid "_Play"
+#~ msgstr "_Zahrať"
+
+#~ msgid "Brightness down"
+#~ msgstr "Znížiť jas"
+
+#~ msgid "Brightness down's shortcut."
+#~ msgstr "Klávesová skratka pre zníženie jasu."
+
+#~ msgid "Brightness up"
+#~ msgstr "Zvýšiť jas."
+
+#~ msgid "Brightness up's shortcut."
+#~ msgstr "Klávesová skratka pre zvýšenie jasu."
+
+#~ msgid ""
+#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
+#~ "Useful for re-applying xmodmap based adjustments"
+#~ msgstr ""
+#~ "Kolekcia skriptov, ktoré sa spustia vždy, keď sa opätovne načíta stav "
+#~ "klávesnice. Použiteľné pre opätovné aplikovanie úprav založených na "
+#~ "xmodmap"
+
+#~ msgid "A list of modmap files available in the $HOME directory."
+#~ msgstr "Zoznam modmap súborov dostupných v priečinku $HOME."
+
+#~ msgid "Default group, assigned on window creation"
+#~ msgstr "Predvolená skupina, priradená pri vytváraní okna"
+
+#~ msgid "Keep and manage separate group per window"
+#~ msgstr "Podržať a spravovať oddelené skupiny pre každé okno"
+
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Zariadenia aktualizácie klávesnice"
+
+#~ msgid "Keyboard layout"
+#~ msgstr "Rozloženie klávesnice"
+
+#~ msgid "Keyboard model"
+#~ msgstr "Model klávesnice"
+
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr ""
+#~ "Nastavenia klávesnice v gconf budú prekryté okamžite podľa systému "
+#~ "(zastaralé)"
+
+#~ msgid "Save/restore indicators together with layout groups"
+#~ msgstr "Uložiť/obnoviť indikátory spolu so skupinami rozloženia"
+
+#~ msgid "Show layout names instead of group names"
+#~ msgstr "Zobraziť názvy roložení namiesto názvov skupín"
+
+#~ msgid ""
+#~ "Show layout names instead of group names (only for versions of XFree "
+#~ "supporting multiple layouts)"
+#~ msgstr ""
+#~ "Zobraziť názvy rozložení namiesto názvov skupín (len pre verzie XFree, "
+#~ "ktoré podporujú viacnásobné rozloženia)"
+
+#~ msgid "Suppress the \"X sysconfig changed\" warning message"
+#~ msgstr "Potlačiť upozorňovaciu správu \"systémová konfigurácia X zmenená\""
+
+#~ msgid ""
+#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
+#~ "configuration) This key has been deprecated since GNOME 2.12, please "
+#~ "unset the model, layouts and options keys to get the default system "
+#~ "configuration."
+#~ msgstr ""
+#~ "Nastavenia klávesnice v gconf budú veľmi skoro prekryté (zo systémovej "
+#~ "konfigurácie). Tento je zastaralý od GNOME 2.12. Prosím odnastavte model, "
+#~ "rozloženia klávesnice a voliteľné klávesy, aby ste získali štandardnú "
+#~ "systémovú konfiguráciu."
+
+#~ msgid "keyboard layout"
+#~ msgstr "rozloženie klávesnice"
+
+#~ msgid "keyboard model"
+#~ msgstr "model klávesnice"
+
+#~ msgid "modmap file list"
+#~ msgstr "zoznam súborov modmap"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientácia"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Orientácia zásobníka."
+
+#~ msgid "The typing monitor is already running."
+#~ msgstr "Monitor písania už beží."

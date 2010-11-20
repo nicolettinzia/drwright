@@ -1,174 +1,5210 @@
+# #-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#
 # translation of drwright to Albanian
 # This file is distributed under the same license as the drwright package.
 # Laurent Dhima <laurenti@alblinux.net>, 2004.
 #
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# Përkthimi i mesazheve të gnome-control-center në shqip
+# This file is distributed under the same license as the gnome-control-center package.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+#
+#
+# Elian Myftiu <elian@alblinux.net>, 2003, 2004, 2005, 2006.
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# Përkthimi i gnome-control-center në shqip.
+# Copyright (C) 2003-2006, 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Elian Myftiu <elian@alblinux.net>, 2003-2006.
+# Laurent Dhima <laurenti@alblinux.net>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright.HEAD.sq\n"
+"Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-08-19 11:08+0200\n"
-"PO-Revision-Date: 2004-02-16 19:33+0100\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2008-09-20 11:58+0200\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
-"Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
+"Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.3\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
+#: ../src/main.c:63
+msgid "Enable debugging code"
+msgstr "Aktivizoo kodin e debug"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "Mos kontrollo praninë e zonës së njoftimeve"
 
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Pushim</b>"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "Kontrolli i shkrimit"
 
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Punë</b>"
-
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Kontrollo nëse lejohet shtyrja më vonë e pauzave"
-
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "Preferimet e DrWright"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Kohëzgjatja e pauzës gjatë së cilës nuk lejohet shkrimi "
-
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Kohëzgjatja e paralajmërimit para se të fillohet pushimi"
-
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Kohëzgjatja e punës para se të detyrohet një ndërprerje"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Fraza opcionale që duhet përdorur për të shtyrë një pushim"
-
-#: data/glade/drw-preferences.glade.h:11
-msgid "_Allow postponing of breaks"
-msgstr "_Lejo shtyrjen e pushimeve"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "Kohëzgjatja e intervalit të _pauzës"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "Koha e _paralajmërimeve është"
-
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "Kohëzgjatja e intervalit të _punës"
-
-#: data/glade/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minuta"
-
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright është duke u ekzekutuar rregullisht."
-
-#: src/main.c:141
+#: ../src/main.c:108
+#, fuzzy
 msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
 msgstr ""
-"DrWright shfrytëzon zonën e njftimeve për të shfaqur informacionet. Ju nuk "
-"keni një zonë të tillë në panel. Mund t'a shtoni me një klik të djathtë mbi "
-"panelin tuaj dhe duke zgjedhur 'Shtoji panelit -> Ndihmues -> Zona e "
-"njoftimit'."
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Programi për kontrollin e shkrimit përdor zonën e njoftimeve për të shfaqur "
+"informacionet. Mesa duket ju nuk keni asnjë zonë njoftimi tek paneli juaj. "
+"Mund t'a shtoni me një klikim të djathtë tek paneli juaj dhe duke zgjedhur "
+"'Shto tek paneli' , gjeni 'Zona e njoftimit' e klikoni mbi pulsantin "
+"'Shto'.\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Programi për kontrollin e shkrimit përdor zonën e njoftimeve për të shfaqur "
+"informacionet. Mesa duket ju nuk keni asnjë zonë njoftimi tek paneli juaj. "
+"Mund ta shtoni me një klikim të djathtë tek paneli juaj e duke zgjedhur "
+"\"Shto në panel\" , gjeni \"Zona e njoftimit\" e klikoni mbi pulsantin "
+"«Shto»."
 
-#: src/drwright.c:138
-msgid "/_Enabled"
-msgstr "/_Aktiv"
-
-#: src/drwright.c:139
-msgid "/_Take a Break"
+#: ../src/drwright.c:142
+#, fuzzy
+msgid "_Take a Break"
 msgstr "/_Pusho pak"
 
-#: src/drwright.c:141
-msgid "/_Preferences"
-msgstr "/_Preferimet"
-
-#: src/drwright.c:142
-msgid "/_About"
-msgstr "/_Informacione"
-
-#: src/drwright.c:144
-msgid "/_Remove Icon"
-msgstr "/_Hiq ikonën"
-
-#: src/drwright.c:475
+#: ../src/drwright.c:504
+#, fuzzy
 msgid "Disabled"
-msgstr "Jo aktiv"
+msgstr ""
+"#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+"Jo aktiv\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Jo aktiv\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Çaktivizuar"
 
-#: src/drwright.c:493
+#: ../src/drwright.c:513
 #, c-format
-msgid "%d minutes until the next break"
-msgstr "%d minuta para pauzës së ardhëshme"
+msgid "Take a break now (next in %dm)"
+msgstr ""
 
-#: src/drwright.c:496
-msgid "One minute until the next break"
-msgstr "Një minutë para pauzës në vazhdim"
+#: ../src/drwright.c:515
+#, fuzzy, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] ""
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"%d minutë deri në pushimin tjetër\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Mungon %d minutë deri në pushimin tjetër"
+msgstr[1] ""
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"%d minuta deri në pushimin tjetër\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Mungojnë %d minuta deri në pushimin tjetër"
 
-#: src/drwright.c:498
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr ""
+
+#: ../src/drwright.c:523
+#, fuzzy, c-format
 msgid "Less than one minute until the next break"
-msgstr "Më pak se një minutë deri në pushimin tjetër"
+msgstr ""
+"#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+"Më pak se një minutë deri në pushimin tjetër\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Më pak se një minutë deri në pushimin tjetër\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Mungon më pak se një minutë deri në pushimin tjetër"
 
-#: src/drwright.c:609
-msgid "Quit DrWright?"
-msgstr "Përfundon DrWright?"
+#: ../src/drwright.c:611
+#, fuzzy, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"E pamundur hapja e dritares së dialogut të karakteristikave të pushimit për "
+"shkak të gabimit në vazhdim: %s\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"E pamundur hapja e dritares së dialogut të pronësive të pushimit për shkak "
+"të gabimit në vijim: %s"
 
-#: src/drwright.c:610
-msgid "Don't forget to take regular breaks."
-msgstr "Mos harro të kryesh rregullisht pauza."
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Shkruar nga Richard Hult <richard@imendio.com>"
 
-#: src/drwright.c:621
-msgid "Don't Quit"
-msgstr "Mos dil"
-
-#. GRUT modified this item
-#: src/drwright.c:625
-msgid "Quit"
-msgstr "Dalja"
-
-#: src/drwright.c:674
-msgid "About DrWright"
-msgstr "Informacione në lidhje me DrWright"
-
-#: src/drwright.c:699
-msgid "A computer break reminder."
-msgstr "Një kujtues i pushimit për kompjuter."
-
-#: src/drwright.c:700
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Shkruar nga Richard Hult &lt;richard@imendio.com&gt;"
-
-#: src/drwright.c:701
+#: ../src/drwright.c:629
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Eye candy shtuar nga Anders Carlsson"
 
-#: src/drwright.c:868
-msgid "Break reminder"
-msgstr "Kujtuesi i pushimit"
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+"Një kujtues i pushimit për kompjuter.\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Një program për kontrollin e pushimeve në kompjuter.\n"
+"#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Një program për t'ju kujtuar për të pushuar gjatë punës në kompjuter."
 
-#: src/drw-break-window.c:208
-msgid "_Postpone break"
-msgstr "_Shtyje pushimin"
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+"Elian Myftiu <elian@alblinux.net>, 2003-2006\n"
+"Laurent Dhima <laurenti@alblinux.net>, 2008"
 
-#: src/drw-break-window.c:251
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "_Shty për më vonë pushimin"
+
+#: ../src/drw-break-window.c:227
 msgid "Take a break!"
 msgstr "Pusho pak!"
 
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Preferimet e temës"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr "_Lejo shtyrjen e pushimeve"
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "Kohëzgjatja e _pushimit:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "B_lloko ekranin për të detyruar kryrjen e një pushimi"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "Intervali i _punës:"
+
+#: ../src/drwright-panel.glade.h:5
+msgid "minutes"
+msgstr "minuta"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pushim</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Punë</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+#~ "Kontrollo nëse lejohet shtyrja më vonë e pauzave\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kontrollo nëse lejohet shtyrja e pushimeve\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kontrollon nëse lejohet shtyrja e pushimeve"
+
+#~ msgid "DrWright Preferences"
+#~ msgstr "Preferimet e DrWright"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+#~ "Kohëzgjatja e pauzës gjatë së cilës nuk lejohet shkrimi \n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kohëzgjatja e pushimit gjatë së cilës nuk lejohet shkrimi\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kohëzgjatja e pushimit gjatë së cilës ndalohet shkrimi"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Kohëzgjatja e paralajmërimit para se të fillohet pushimi"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+#~ "Kohëzgjatja e punës para se të detyrohet një ndërprerje\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kohëzgjatja e punës para se të detyrohet një pushim\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kohëzgjatja e punës para se të detyrohet kryerja e një pushimi"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Fraza opcionale që duhet përdorur për të shtyrë një pushim"
+
+#~ msgid "_Break interval lasts"
+#~ msgstr "Kohëzgjatja e intervalit të _pauzës"
+
+#~ msgid "_Warning time is"
+#~ msgstr "Koha e _paralajmërimeve është"
+
+#~ msgid "_Work interval lasts"
+#~ msgstr "Kohëzgjatja e intervalit të _punës"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright është duke u ekzekutuar rregullisht."
+
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright shfrytëzon zonën e njftimeve për të shfaqur informacionet. Ju "
+#~ "nuk keni një zonë të tillë në panel. Mund t'a shtoni me një klik të "
+#~ "djathtë mbi panelin tuaj dhe duke zgjedhur 'Shtoji panelit -> Ndihmues -> "
+#~ "Zona e njoftimit'."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiv"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+#~ "/_Preferimet\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "/_Preferimet\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "/_Preferime"
+
+#~ msgid "/_About"
+#~ msgstr "/_Informacione"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Hiq ikonën"
+
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d minuta para pauzës së ardhëshme"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Një minutë para pauzës në vazhdim"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "Përfundon DrWright?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Mos harro të kryesh rregullisht pauza."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Mos dil"
+
+#~ msgid "Quit"
+#~ msgstr "Dalja"
+
+#~ msgid "About DrWright"
+#~ msgstr "Informacione në lidhje me DrWright"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Shkruar nga Richard Hult &lt;richard@imendio.com&gt;"
+
+#~ msgid "Break reminder"
+#~ msgstr "Kujtuesi i pushimit"
+
+#, fuzzy
+#~ msgid "_Postpone break"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (drwright.HEAD.sq)  #-#-#-#-#\n"
+#~ "_Shtyje pushimin\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Shty për më vonë pushimin"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Nëse e vërtetë, trajtuesit mime për text/plain dhe text/* do mbahen në "
+#~ "sinkronizim"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Sinkronizo trajtuesit e text/plain dhe text/*"
+
+#, fuzzy
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Lësho shfletuesin e ndihmës"
+
+#, fuzzy
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Lësho shfletuesin web"
+
+#, fuzzy
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Kalo tek pista pasardhëse"
+
+#, fuzzy
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Kalo tek pista paraardhëse"
+
+#~ msgid "Eject"
+#~ msgstr "Nxirr jashtë"
+
+#~ msgid "Home folder"
+#~ msgstr "Kartela personale"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Lësho shfletuesin e ndihmës"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Lësho shfletuesin web"
+
+#~ msgid "Lock screen"
+#~ msgstr "Blloko ekranin"
+
+#~ msgid "Log out"
+#~ msgstr "Përfundo seancën"
+
+#, fuzzy
+#~ msgid "Next track"
+#~ msgstr "Kalo tek pista pasardhëse"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Luaj (ose luaj/pusho)"
+
+#, fuzzy
+#~ msgid "Previous track"
+#~ msgstr "Kalo tek pista paraardhëse"
+
+#~ msgid "Search"
+#~ msgstr "Kërko"
+
+#, fuzzy
+#~ msgid "Stop playback"
+#~ msgstr "Tasti ndalo riprodhimin"
+
+#, fuzzy
+#~ msgid "Suspend"
+#~ msgstr "Zëri"
+
+#~ msgid "Volume down"
+#~ msgstr "Ul zërin"
+
+#~ msgid "Volume mute"
+#~ msgstr "Pa zë"
+
+#~ msgid "Volume step"
+#~ msgstr "Shkalla për ndryshimin e volumit"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Hapi për ndryshimin e zërit si përqindje e volumit."
+
+#~ msgid "Volume up"
+#~ msgstr "Ngre zërin"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Shfaq një dritare dialogu nëse ndeshen gabime në ekzekutimin e ruajtësit "
+#~ "të ekranit"
+
+#, fuzzy
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Ekzekuto ruajtësin e ekranit në hyrje"
+
+#, fuzzy
+#~ msgid "Show startup errors"
+#~ msgstr "Shfaq gabimet që ndeshen gjatë nisjes"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Fillo ruajtësin e ekranit"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr "<b>Ngjyrosja</b>:"
+
+#, fuzzy
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "_Aktivizo karakteristikat e açesibilitetit të tastierës"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Ekzekuto ruajtësin e ekranit në hyrje"
+
+#, fuzzy
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "_Açesibiliteti"
+
+#, fuzzy
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "_Açesibiliteti"
+
+#, fuzzy
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "U verifikua një gabim gjatë shfaqjes së ndihmës: %s\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gabim gjatë shfaqjes së ndihmës: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Aktivizon ngadalsimin e tasteve?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Çaktivon ngadalsimin e tasteve?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Është mbajtur i shtypur për 8 sekonda tasti Shift.  Ky veprim është "
+#~ "shtegu për funksionin e ngadalsimit të tasteve, që ndryshon funksionimin "
+#~ "aktual të tastierës."
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Mo_s aktivizo"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Mo_s çaktivizo"
+
+#~ msgid "_Activate"
+#~ msgstr "_Aktivo"
+
+#~ msgid "_Deactivate"
+#~ msgstr "Ç_aktivo"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Paralajmërim ngadalsimi i tasteve"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Aktivon qendrimin e tasteve?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Çaktivon qendrimin e tasteve?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Është shtypur 5 herë rresht tasti Shift.  Ky veprim është shtegu për "
+#~ "funksionin e qendrimit të tasteve, që ndryshon funksionimin aktual të "
+#~ "tastierës."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Janë shtypur njëkohësisht dy taste, apo është shtypur tasti·Shift·5·herë· "
+#~ "rradhazi.··Kjo·çaktivon funksionin e qendrimit të tasteve, që ndryshon "
+#~ "funksionimin aktual të tastierës."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Paralajmërim qendrimi i tasteve"
+
+#~ msgid "Background"
+#~ msgstr "Sfondi"
+
+#~ msgid "Font"
+#~ msgstr "Gërmat"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "I pamundur krijimi kartelës \"%s\".\n"
+#~ "Nevoitet për të mundësuar ndryshimin e temës së kursorit."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "I pamundur krijimi kartelës \"%s\".\n"
+#~ "Nevoitet për të mundësuar ndryshimin e kursorëve."
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Veprimi i shtegut (%s) është përdorur njëherë\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Kombinimi i tasteve të shtegut (%s) është përdorur njëherë\n"
+
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Shtegu (%s) është i paplotë\n"
+
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Shtegu (%s) është i pavlefshëm\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "Mesa duket një program tjetër përdor rregullisht tastin '%u'."
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Shtegu (%s) është rregullisht në përdorim\n"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Gabim në përpjekjen për të ekzekutuar (%s)\n"
+#~ "që shoqërohet me tastin (%s)"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastiera"
+
+#, fuzzy
+#~ msgid "Keyboard plugin"
+#~ msgstr "Opsionet e tastierës"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "File në d_ispozicion:"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_Mos e shfaq më këtë paralajmërim."
+
+#~ msgid "Load modmap files"
+#~ msgstr "Ngarko file-t modmap"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Dëshiron të ngarkosh file(t) modmap?"
+
+#~ msgid "_Load"
+#~ msgstr "_Ngarko"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "File-t e nga_rkuar:"
+
+#~ msgid "Volume"
+#~ msgstr "Volumi"
+
+#, fuzzy
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "I pamundur ekzekutimi i komandës: %s\n"
+#~ "Verifiko që kjo komandë ekziston."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "E pamundur vënja e kompjuterit në gjumë.\n"
+#~ "Kontrollo që makina të jetë konfiguruar me saktësi."
+
+#, fuzzy
+#~ msgid "Media keys"
+#~ msgstr "Pulsantet e Miut"
+
+#, fuzzy
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "_Aktivizo karakteristikat e açesibilitetit të tastierës"
+
+#, fuzzy
+#~ msgid "Mouse Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Preferimet e miut\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Preferimet e mouse"
+
+#, fuzzy
+#~ msgid "Mouse"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Miu\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mouse"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "U ndesh një gabim në nisjen e ruajtësit të ekranit:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Funksioni i ruajtes së ekranit nuk do punojë për këtë seancë."
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Mos shfaq më këtë mesazh"
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "Fillo ruajtësin e ekranit"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "Ekzekuto ruajtësin e ekranit në hyrje"
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "I pamundur ngarkimi i tingullit %s si shembull %s"
+
+#~ msgid "Login"
+#~ msgstr "Fillimi i seancës"
+
+#~ msgid "Logout"
+#~ msgstr "Përfundimi i seancës"
+
+#~ msgid "Boing"
+#~ msgstr "Boing"
+
+#~ msgid "Siren"
+#~ msgstr "Sirenë"
+
+#~ msgid "Clink"
+#~ msgstr "Clink"
+
+#~ msgid "Beep"
+#~ msgstr "Bip"
+
+#~ msgid "No sound"
+#~ msgstr "Asnjë tingull"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Asnjë tingull i caktuar për këtë ndodhi."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Tingulli për këtë veprim nuk ekziston.\n"
+#~ "Duhet të instaloni paketin gnome-audio për një sërë tingujsh të zakonshëm."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Tingulli për këtë veprim nuk ekziston."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Zgjidh file e tingullit"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "File %s nuk është një file i vlefshëm wav"
+
+#, fuzzy
+#~ msgid "Select sound file..."
+#~ msgstr "Zgjidh file e tingullit"
+
+#~ msgid "System Sounds"
+#~ msgstr "Tingujt e sistemit"
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# #-#-#-#-#  gnome-icon-theme.HEAD.sq.po (gnome-icon-theme.HEAD)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# #-#-#-#-#  gnome-icon-theme.gnome-2-22.sq.po (gnome-icon-theme.HEAD)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#~ msgid "Sound"
+#~ msgstr "Zëri"
+
+#~ msgid "Typing Break"
+#~ msgstr "Pushim gjatë shkrimit"
+
+#, fuzzy
+#~ msgid "Typing break plugin"
+#~ msgstr "Pushim gjatë shkrimit"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "I pamundur përcaktimi i directory shtëpi të përdoruesit"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr "Çelësi GConf %s është caktuar si lloj %s por duhet të jetë %s\n"
+
+#, fuzzy
+#~ msgid "Manage X Settings"
+#~ msgstr "Përdor rregullimet e X"
+
+#, fuzzy
+#~ msgid "X Settings"
+#~ msgstr "Përdor rregullimet e X"
+
+#, fuzzy
+#~ msgid "Image/label border"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Buza e figurës/etiketës\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Bordi i figurës/etiketës"
+
+#, fuzzy
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gjerësia e buzës rreth etiketës dhe pamjes në dialogun e alarmit\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gjerësia e kornizës rreth etiketës dhe figurës në dialogun e "
+#~ "paralajmërimit"
+
+#, fuzzy
+#~ msgid "Alert Type"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lloji i Alarmit\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lloji i paralajmërimit"
+
+#, fuzzy
+#~ msgid "The type of alert"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lloji i alarmit\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lloji i paralajmërimit"
+
+#, fuzzy
+#~ msgid "Alert Buttons"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Butonat e Alarmit\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Butonët e paralajmërimit"
+
+#, fuzzy
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Butonat e shfaqura në dialogun e alarmit\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Butonët e shfaqur në dialogun e paralajmërimit"
+
+#, fuzzy
+#~ msgid "Show more _details"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shfaq më tepër _detaje\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shfaq më shumë _detaje"
+
+#, fuzzy
+#~ msgid "About Me"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Rreth Meje\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Informacione përdoruesi"
+
+#, fuzzy
+#~ msgid "Set your personal information"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Cakto të dhënat e tua personale\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përcakton të dhënat vetiake personale"
+
+#, fuzzy
+#~ msgid "Select Image"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjidh foton\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjidh figurën"
+
+#, fuzzy
+#~ msgid "No Image"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pa figurë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Asnjë figurë"
+
+#, fuzzy
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ndodhi një gabim ndërsa u përpoq të merreshin të dhënat e librit të "
+#~ "adresave\n"
+#~ "Serveri i të Dhënave Evolution nuk mund të punojë me protokollin\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "U ndesh një gabim gjatë përpjekjes për marrje informacione mbi rubrikën\n"
+#~ "Evolution Data Server nuk mund të trajtojë protokollin"
+
+#, fuzzy
+#~ msgid "Unable to open address book"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E pamundur hapja e librit të adresave\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E pamundur hapja e rubrikës"
+
+#, fuzzy
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "ID hyrës i panjohur, databaza e përdoruesit mund të jetë korruptuar\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "ID i panjohur hyrje, baza me të dhënat e përdoruesve mund të jetë "
+#~ "korruptuar"
+
+#, fuzzy
+#~ msgid "About %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Rreth %s\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Informacione mbi %s"
+
+#, fuzzy
+#~ msgid "Unable to launch backend"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I pamundur lëshimi i programit ekzekutues\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E pamundur nisja e backend"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>Email</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Shtëpi</b>"
+
+#, fuzzy
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Mesazhimi i Çastit</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Mesazhe të menjëhershëm</b>"
+
+#, fuzzy
+#~ msgid "<b>Job</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Puna</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Punë</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Telefoni</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Web</b>"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dresa:"
+
+#, fuzzy
+#~ msgid "A_ssistant:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ndihmë_s:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "A_sistenti:"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "C_ity:"
+#~ msgstr "Qytet_i:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "K_ompania:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kale_ndari:"
+
+#, fuzzy
+#~ msgid "Change Passwo_rd..."
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Nd_rysho Fjalëkalimin...\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ndrysho fjalëka_limin..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Qy_teti:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "Sh_teti:"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakti"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Shte_ti:"
+
+#, fuzzy
+#~ msgid "Full Name"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Emri i Plotë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Emri dhe mbiemri"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Shtë_pi:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#, fuzzy
+#~ msgid "P.O. _box:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kutia Po_stare:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kutia e po_stës:"
+
+#, fuzzy
+#~ msgid "P._O. box:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "K_utia Postare:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kutia e p_ostës:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Të dhëna personale"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Shteti/Rre_thi:"
+
+#~ msgid "User name:"
+#~ msgstr "Emri i përdoruesit:"
+
+#, fuzzy
+#~ msgid "Web _log:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Di_tari web:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Di_tari në web:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "Pun_a:"
+
+#, fuzzy
+#~ msgid "Work _fax:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Fax pune:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Fax në punë:"
+
+#, fuzzy
+#~ msgid "Zip/_Postal code:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zip/Kodi _Postar:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zip/Kodi i _postës:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adresa:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Dipartimenti:"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_Groupwise:"
+
+#, fuzzy
+#~ msgid "_Home page:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Faqja në rrjet:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Faqja në w_eb:"
+
+#, fuzzy
+#~ msgid "_Home:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Shtëpi:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Shtëpia:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#, fuzzy
+#~ msgid "_Manager:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Manager\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Manageri:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Celulari:"
+
+#~ msgid "_New password:"
+#~ msgstr "Fjalëkalimi i _ri:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Profesioni:"
+
+#, fuzzy
+#~ msgid "_Retype new password:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Rishtyp fjalëkalimin e ri:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Rishkruaj fjalëkalimin e ri:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Shteti/Rrethi:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Titulli:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Puna:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#, fuzzy
+#~ msgid "_Zip/Postal code:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Zip/Kodi postar:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Zip/Kodi i postës:"
+
+#, fuzzy
+#~ msgid "Close and _Log Out"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mbylle dhe _Dil Jashtë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mbyll dhe di_l jashtë"
+
+#, fuzzy
+#~ msgid "_Enable assistive technologies"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Aktivo teknologjitë asistuese\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Aktivizo teknologjitë asistuese"
+
+#~ msgid "S_peed:"
+#~ msgstr "Sh_pejtësia:"
+
+#, fuzzy
+#~ msgid "_Type to test settings:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Shkruaj për të provuar rregullimet:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Shkruaj këtu për të verifikuar rregullimet:"
+
+#~ msgid "seconds"
+#~ msgstr "sekonda"
+
+#, fuzzy
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap një dritare dialogu për të përcaktuar ngjyrën\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap një dialog për të përcaktuar ngjyrën"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stili:"
+
+#, fuzzy
+#~ msgid "Add Wallpaper"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shto figurë sfondi\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shto sfond ekrani"
+
+#~ msgid "Images"
+#~ msgstr "Figura"
+
+#~ msgid "All Files"
+#~ msgstr "Të gjithë file"
+
+#, fuzzy
+#~ msgid "No Wallpaper"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pa figurë sfondi\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Asnjë sfond ekrani"
+
+#, fuzzy
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "pikë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "pixel"
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "pika\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "pixel"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E pamundur nisja e përgjegjsit ë rregullimeve 'gnome-settings-daemon'.\n"
+#~ "Pa përgjegjsin e rregullimeve të GNOME në ekzekutim, disa preferime mund "
+#~ "të mos kenë efekt. Kjo mund të krijojë probleme me Bonobo, ose një "
+#~ "konfigurues jo-GNOME (p.sh. KDE) mund të jetë aktiv dhe në konflikt me "
+#~ "atë të GNOME-s.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E pamundur nisja e menazhuesit të rregullimeve 'gnome-settings-daemon'.\n"
+#~ "Nëse menazhuesi i rregullimeve të GNOME nuk është duke punuar, disa nga "
+#~ "zgjedhjet mund të mos kenë efekt. Kjo situatë tregon një problem të "
+#~ "mundshëm Bonobo, ose që një menazhues rregullimesh tjetër jo i GNOME (p."
+#~ "sh. i KDE) është në ekzekutim duke krijuar konflikte me menazhuesin e "
+#~ "rregullimeve të GNOME."
+
+#, fuzzy
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I pamundur ngarkimi i ikonës së vjetër '%s'\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I pamundur ngarkimi i ikonës së stock «%s»\n"
+
+#, fuzzy
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Merr dhe rivendos rregullimet para ekzistuese\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Rikuperon dhe rivendos rregullimet legacy"
+
+#, fuzzy
+#~ msgid "Copying file: %u of %u"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Duke kopjuar file: %u nga %u\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kopjimi i file: %u në %u"
+
+#, fuzzy
+#~ msgid "Copying '%s'"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Duke kopjuar '%s'\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kopjimi i «%s»"
+
+#, fuzzy
+#~ msgid "From URI"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Prej URl\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Nga URI"
+
+#, fuzzy
+#~ msgid "URI currently transferring from"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "URl nga ku është duke u kryer transferimi\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "URI nga ku po transferohet aktualisht"
+
+#, fuzzy
+#~ msgid "To URI"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tek URl\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tek URI"
+
+#, fuzzy
+#~ msgid "URI currently transferring to"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "URl tek ku është duke u kryer transferimi\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "URI drejt së cilës po transferohet aktualisht"
+
+#, fuzzy
+#~ msgid "Fraction completed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pjesë e plotësurar\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përqindja e plotësuar"
+
+#, fuzzy
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pjesa aktualisht e plotësuar e transferimit\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përqindja e transferimit plotësuar për momentin"
+
+#, fuzzy
+#~ msgid "Current URI index"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Indeksi i URl të tanishëm\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Indeksi i URI të tanishëm"
+
+#, fuzzy
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Indeksi i URl të tanishëm - fillon nga 1\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Indeksi i URI të tanishëm - fillon nga 1"
+
+#, fuzzy
+#~ msgid "Total URIs"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gjithsej URl\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "URI gjithsej"
+
+#, fuzzy
+#~ msgid "Total number of URIs"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Numri i përgjithshëm i URlve\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Numri i përgjithshëm i URI"
+
+#, fuzzy
+#~ msgid "Copying files"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Duke kopjuar files\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kopjimi i file"
+
+#~ msgid "Key"
+#~ msgstr "Kyçi"
+
+#, fuzzy
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kyçi GConf tek i cili është bashkëngjitur editori i preferimeve\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kyçi GConf me të cilin ky editor pronësish është i lidhur"
+
+#, fuzzy
+#~ msgid "Callback"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Thirrje\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback"
+
+#, fuzzy
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lësho këtë callback kur vlera e lidhur me kyçin ndryshon\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kryen këtë callback kur vlera e shoqëruar me kyçin ndryshohet"
+
+#, fuzzy
+#~ msgid "Change set"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ndrysho rregullimet\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Bashkësi ndryshimesh"
+
+#, fuzzy
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Rregullimet e GConf që përmbajnë të dhëna për t'ju çuar klientit gconf "
+#~ "kur aplikohen\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Bashkësi e ndryshimeve të GConf me të dhënat për t'ju dërguar klientit "
+#~ "gconf kur aplikohen ndryshimet"
+
+#, fuzzy
+#~ msgid "Conversion to widget callback"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shndërrimi tek thirrja e widget\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback konvertimi drejt widget"
+
+#, fuzzy
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback për t'u lëshuar kur të dhënat duhen shndërruar nga GConf tek "
+#~ "widget\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback për tu kryer kur nevoitet konvertimi i të dhënave nga GConf tek "
+#~ "widget"
+
+#, fuzzy
+#~ msgid "Conversion from widget callback"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shndërrim nga thirrja e widget\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback konvertimi nga widget"
+
+#, fuzzy
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback për t'u lëshuar kur të dhënat duhen shndërruar në GConf nga "
+#~ "widget\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback për tu kryer kur nevoitet konvertimi i të dhënave nga widget në "
+#~ "GConf"
+
+#~ msgid "UI Control"
+#~ msgstr "Kontrolli UI"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objekt që kontrollon pronësinë (zakonisht një widget)"
+
+#, fuzzy
+#~ msgid "Property editor object data"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Të dhëna objektesh të edituesit të pronësisë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Të dhënat e objektit për editorin e pronësive"
+
+#, fuzzy
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E dhëna specifike e kërkuar nga editori specifik i pronësisë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Të dhëna specifike të kërkuara nga editori specifik i pronësive"
+
+#, fuzzy
+#~ msgid "Property editor data freeing callback"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback i lirimit të të dhënave të editorit të pronësisë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback i lëshimit të së dhënave për editorin e pronësive"
+
+#, fuzzy
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback për t'u lëshuar kur e dhëna e editorit të pronësisë duhet "
+#~ "liruar\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback e kryer kur duhet liruar kujtesa e të dhënave të objektit editor "
+#~ "i pronësive"
+
+#, fuzzy
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Nuk arrij të gjejë file '%s'.\n"
+#~ "\n"
+#~ "Të lutem sigurohu që ekziston dhe provo përsëri, ose zgjidh një figurë "
+#~ "tjetër si sfond.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E pamundur gjetja e file '%s'.\n"
+#~ "\n"
+#~ "Sigurohu që ekziston dhe provo përsëri, ose zgjidh një figurë tjetër "
+#~ "sfondi."
+
+#, fuzzy
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Nuk di si hapet file '%s'.\n"
+#~ "Ndoshta është një lloj figure akoma i pasuportuar.\n"
+#~ "\n"
+#~ "Të lutem zgjidh një figurë tjetër.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E pamundur njohja e formatit të file '%s'.\n"
+#~ "Ndoshta është një lloj figure akoma i pasuportuar.\n"
+#~ "\n"
+#~ "Zgjidh një figurë tjetër."
+
+#, fuzzy
+#~ msgid "Please select an image."
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Të lutem zgjidh një figurë.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjidh një figurë."
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# #-#-#-#-#  glade3.HEAD.sq.po (glade3 HEAD)  #-#-#-#-#
+# (pofilter) accelerators: accelerator _ is missing from translation
+# #-#-#-#-#  glade3.gnome-2-22.sq.po (glade3 gnome-2-22)  #-#-#-#-#
+# (pofilter) accelerators: accelerator _ is missing from translation
+#~ msgid "_Select"
+#~ msgstr "_Zgjidh"
+
+#, fuzzy
+#~ msgid "Preferred Applications"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Programet e preferuar\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Aplikativë të preferuar"
+
+#, fuzzy
+#~ msgid "Select your default applications"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjidh programet e zakonshëm\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjidh apliaktivët e paracaktuar"
+
+#, fuzzy
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Sigurohu që applet është instaluar në mënyrë të rregullt.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Sigurohu që mini-aplikativi të jetë instaluar sikurse duhet"
+
+#, fuzzy
+#~ msgid "Error saving configuration: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gabim në ruajtjen e konfigurimit: %s\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gabim gjatë ruajtjes së konfigurimit: %s"
+
+#, fuzzy
+#~ msgid "Custom"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Personalizuar\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E personalizuar"
+
+#, fuzzy
+#~ msgid "Could not load the main interface"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I pamundur ngarkimi i ndërfaqes kryesore\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I pamundur ngarkimi i interfaqes kryesore"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#, fuzzy
+#~ msgid "Debian Sensible Browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shfletuesi Kryesor Debian\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shfletues i përshtatshëm për Debian"
+
+#, fuzzy
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Emulator i Terminalit Debian\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Emulator terminali Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# Hiqet web browser pasi rezulton
+# në listën e web browser
+#, fuzzy
+#~ msgid "Epiphany Web Browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shfletuesi Web Epiphany\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Epiphany"
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# Hiqet mail reader pasi rezulton
+# në listën e klientëve mail
+#, fuzzy
+#~ msgid "Evolution Mail Reader"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lexuesi i email Evolution\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#, fuzzy
+#~ msgid "GNOME Terminal"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Terminali GNOME\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Terminali i GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#, fuzzy
+#~ msgid "Standard XTerminal"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "XTerminal standart\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Terminal X standard"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#, fuzzy
+#~ msgid "<b>Image Viewer</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Shikues figurash</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Shfaqës figurash</b>"
+
+#, fuzzy
+#~ msgid "<b>Instant Messenger</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Mesazhim Çasti</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Mesazhe të menjëhershëm</b>"
+
+#, fuzzy
+#~ msgid "<b>Mail Reader</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Lexues poste</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Klient i postës elektronike</b>"
+
+#, fuzzy
+#~ msgid "<b>Terminal Emulator</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Emulator i Terminalit</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Emulator terminali</b>"
+
+#, fuzzy
+#~ msgid "<b>Text Editor</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Ndryshues teksti</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Editor teksti</b>"
+
+#, fuzzy
+#~ msgid "<b>Video Player</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Shikues videosh</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Riprodhues video</b>"
+
+#~ msgid "<b>Web Browser</b>"
+#~ msgstr "<b>Shfletues web</b>"
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# Thjesht sensi.
+#, fuzzy
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Të gjithë korrispondimet e %s do zëvendësohen me lidhjen aktuale\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Vlera %s zëvendësohet me lidhjen"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ko_manda:"
+
+#, fuzzy
+#~ msgid "E_xecute flag:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Treguesi i e_kzekutimit:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Flag i e_kzekutimit:"
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# #-#-#-#-#  gnome-menus.HEAD.sq.po (gnome-menus gnome-2-22)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  gnome-menus.gnome-2-22.sq.po (gnome-menus gnome-2-22)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# #-#-#-#-#  gnome-icon-theme.HEAD.sq.po (gnome-icon-theme.HEAD)  #-#-#-#-#
+# 48x48/emblems/emblem-multimedia.icon.in.h:1
+# 48x48/emblems/emblem-multimedia.icon.in.h:1
+# 48x48/emblems/emblem-multimedia.icon.in.h:1
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  gnome-icon-theme.gnome-2-22.sq.po (gnome-icon-theme.HEAD)  #-#-#-#-#
+# 48x48/emblems/emblem-multimedia.icon.in.h:1
+# 48x48/emblems/emblem-multimedia.icon.in.h:1
+# 48x48/emblems/emblem-multimedia.icon.in.h:1
+# (pofilter) unchanged: please translate
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#, fuzzy
+#~ msgid "Open link in new _tab"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap lidhjen në skedë _të re\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap lidhjet në një skedë _të re"
+
+#, fuzzy
+#~ msgid "Open link in new _window"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap lidhjen në _dritare të re\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap lidhjet në një _dritare të re"
+
+#, fuzzy
+#~ msgid "Open link with web browser _default"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap li_dhjen me shfletuesin e përcaktuar web\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hap lidhjet sipas _rregullimeve të shfletuesit web"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Ekzekuto në t_erminal"
+
+#~ msgid "System"
+#~ msgstr "Sistemi"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Ndrysho përmasat e ekranit"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Përmasat e ekranit"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#, fuzzy
+#~ msgid "Best _shapes"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Optimizo _format\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Optimizo _formën"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Optimizo ko_ntrastin"
+
+#, fuzzy
+#~ msgid "D_etails..."
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "D_etajet...\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "D_etaje..."
+
+#, fuzzy
+#~ msgid "Des_ktop font:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërmat e H_apësirës së Punës:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërmat për h_apësirën e punës:"
+
+#, fuzzy
+#~ msgid "Font Rendering Details"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Hollësitë e vizatimit të shkronjave\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Detaje në lidhje me shfaqjen e shkronjave"
+
+#, fuzzy
+#~ msgid "Gra_yscale"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shkalla e gri_ve\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shkallë e ngjyrës _gri"
+
+#, fuzzy
+#~ msgid "N_one"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "A_snjë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "M_os përdor"
+
+#, fuzzy
+#~ msgid "R_esolution:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Përmasa:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "D_allueshmëria:"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_pixel (LCD)"
+
+#, fuzzy
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Sub_pixel të lëmuar (LCD)\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lëmim i sub_pixel (LCD)"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "_Application font:"
+#~ msgstr "Gërmat për _aplikativët:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Document font:"
+#~ msgstr "Gërmat për _dokumentet:"
+
+#, fuzzy
+#~ msgid "_Fixed width font:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma me gjërësi të _fiksuar:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma me gjerësi _fikse:"
+
+#~ msgid "_Full"
+#~ msgstr "I _plotë"
+
+#~ msgid "_Medium"
+#~ msgstr "_Mesatar"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monokromatik"
+
+#, fuzzy
+#~ msgid "_None"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Asnjë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mos pë_rdor"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#, fuzzy
+#~ msgid "_Slight"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Lehtë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I _lehtë"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#, fuzzy
+#~ msgid "_Window title font:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Shkronjat e titullit të dritares:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shkronjat për titullin e _dritareve:"
+
+#~ msgid "dots per inch"
+#~ msgstr "pika për inç"
+
+#, fuzzy
+#~ msgid "Font may be too large"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma mund të jetë tepër e madhe\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shkronja mund të jetë tepër e madhe"
+
+#, fuzzy
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e një madhësie prej %d pikë dhe mund të "
+#~ "vështirësojë përdorimin efikas të kompjuterit.  Këshillohet zgjedhja e "
+#~ "një madhësie më të vogël se %d.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e gjërë %d pikë dhe mund të bëjë të vështirë "
+#~ "përdorimin efikas të kompjuterit. Këshillohet zgjedhja e një madhësie më "
+#~ "të vogël se %d."
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e një madhësie prej %d pikë dhe mund të "
+#~ "vështirësojë përdorimin efikas të kompjuterit. Këshillohet zgjedhja e një "
+#~ "madhësie më të vogël se %d.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e gjërë %d pikë dhe mund të bëjë të vështirë "
+#~ "përdorimin efikas të kompjuterit. Këshillohet zgjedhja e një madhësie më "
+#~ "të vogël se %d."
+
+#, fuzzy
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e një madhësie prej %d pikë dhe mund të "
+#~ "vështirësojë përdorimin efikas të kompjuterit. Këshillohet zgjedhja e një "
+#~ "madhësie më të të vogël.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e gjërë %d pikë dhe mund të bëjë të vështirë "
+#~ "përdorimin efikas të kompjuterit. Këshillohet zgjedhja e një gërme me "
+#~ "madhësi më të vogël."
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e një madhësie prej %d pikë dhe mund të "
+#~ "vështirësojë përdorimin efikas të kompjuterit. Këshillohet zgjedhja e një "
+#~ "madhësie më të vogël.\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Gërma e zgjedhur është e gjërë %d pikë dhe mund të bëjë të vështirë "
+#~ "përdorimin efikas të kompjuterit. Këshillohet zgjedhja e një gërme me "
+#~ "madhësi më të vogël."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Pulsant përshpejtues"
+
+#, fuzzy
+#~ msgid "Accelerator modifiers"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ndryshues të përshpejtuesit\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ndryshues të përshpejtuesëve"
+
+#, fuzzy
+#~ msgid "Accelerator keycode"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kodi i Tastit të Shpejtë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kodi pulsantit përshpejtues"
+
+#, fuzzy
+#~ msgid "Accel Mode"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mënyra e Shpejtë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mënyra përshpejt"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Lloji i përshpejtuesit."
+
+#, fuzzy
+#~ msgid "<Unknown Action>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<Veprim i panjohur>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<Aksion i panjohur>"
+
+#~ msgid "Desktop"
+#~ msgstr "Hapësira e punës"
+
+#~ msgid "Action"
+#~ msgstr "Veprimi"
+
+#~ msgid "Shortcut"
+#~ msgstr "Kombinimi përshpejtues"
+
+#, fuzzy
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kombinacione Përshpejtuese nga Tastiera\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kombinime përshpejtuese nga tastiera"
+
+#, fuzzy
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Cakto taste shpejtues komandave\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Cakton pulsante përshpejtues komandave"
+
+#~ msgid "Unknown"
+#~ msgstr "Nuk njihet"
+
+#~ msgid "Layout"
+#~ msgstr "Planimetria"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Prezgjedhur\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E paracaktuar"
+
+#, fuzzy
+#~ msgid "Models"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Modelët\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Modele"
+
+#, fuzzy
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Aplikon rregullimet dhe del (vetëm përpuethshmëria; tashmë kontrollohet "
+#~ "nga daemon)\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Aplikon rregullimet dhe del (vetëm kompatibilitet; tashmë kontrollohet "
+#~ "nga demon)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr ""
+#~ "Nis duke shfaqur faqen e pronësive të rregullimeve për pushimet gjatë "
+#~ "shkrimit"
+
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "<b>Pulsimi i kursorit</b>"
+
+#, fuzzy
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Përsëritja e tasteve</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Përsëritja e pulsantëve</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Shpejt</i></small>"
+
+#, fuzzy
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<small><i>Gjatë</i></small>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<small><i>E gjatë</i></small>"
+
+#, fuzzy
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<small><i>Shkurtër</i></small>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<small><i>E shkurtër</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Ngadalë</i></small>"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Lej_o shtyrjen e pushimeve"
+
+#, fuzzy
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjidh një model tastiere\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjedhja e një modeli tastiere"
+
+#, fuzzy
+#~ msgid "Choose a Layout"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjidh një planimetri\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Zgjedhja e një planimetrie"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Shpejtësia e pulsimit të kursorit"
+
+#, fuzzy
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pë_rsërit gërmën derisa mbahet i shtypur tasti\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pë_rsërit gërmën përderisa pulsanti mbahet i shtypur"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Preferimet e tastierës"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Modeli i tastierës:"
+
+#~ msgid "Layouts"
+#~ msgstr "Planimetritë"
+
+#, fuzzy
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mbas një intervali te caktuar kohe blloko monitorin për të parandaluar "
+#~ "dëmet e shkaktuara nga përdorimi i gjatë i tastierës\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mbas një intervali te caktuar kohe blloko ekranin për të parandaluar "
+#~ "dëmet e shkaktuara nga përdorimi i gjatë i tastierës"
+
+#~ msgid "Preview:"
+#~ msgstr "Pamja e parë:"
+
+#, fuzzy
+#~ msgid "Repeat keys speed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shpejtësia e përsëritjes së tasteve\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Shpejtësia e përsëritjes së pulsantëve"
+
+#~ msgid "_Add..."
+#~ msgstr "_Shto..."
+
+#~ msgid "_Delay:"
+#~ msgstr "_Vonesa:"
+
+#, fuzzy
+#~ msgid "_Models:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Modelët:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Modele:"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "Planimetritë e _zgjedhura:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Shpejtësia:"
+
+#, fuzzy
+#~ msgid "Set your keyboard preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përcakto preferimet e tastierës\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përcakton preferimet e tastierës"
+
+#, fuzzy
+#~ msgid "Default Pointer"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kursori i parazgjedhur\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kursori i paracaktuar"
+
+#, fuzzy
+#~ msgid "Default Pointer - Current"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kursori i parazgjedhur - në përdorim\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kursori i paracaktuar - në përdorim"
+
+#~ msgid "White Pointer"
+#~ msgstr "Kursor i bardhë"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Kursor i bardhë - në përdorim"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Kursor i madh"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Kursor i madh - në përdorim"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Kursor i bardhë i madh - në përdorim"
+
+#, fuzzy
+#~ msgid "Large White Pointer"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kursor i madh i bardhë\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kursor i bardhë i madh"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Zvarritja</b>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Gjetja e kursorit</b>"
+
+#, fuzzy
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Orientimi i miut</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Orientimi i mouse</b>"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I madh\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E madhe"
+
+#, fuzzy
+#~ msgid "Small"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I vogël\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "E vogël"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Përshpejtimi:"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Ndjeshmëria:"
+
+#, fuzzy
+#~ msgid "_Timeout:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Kohëzgjatja:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Koha në dispozicion:"
+
+#, fuzzy
+#~ msgid "Set your mouse preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përcakto preferimet e miut\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përcakton preferimet e mouse"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Proxy i rrjetit"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Cakto preferimet e proxy të rrjetit tuaj\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përcakton preferimet e proxy të rrjetit"
+
+#, fuzzy
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Lidhje e d_rejpërdrejtë me internetin</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Lidhje di_rekte në internet</b>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Lista me host për tu shpërfillur</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Konfigurim automaktik i proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Konfigurim manual i proxy</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Përdor autentikim</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL e autokonfigurimit:"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detaje Proxy HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Proxy H_TTP:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Preferimet e proxy të rrjetit"
+
+#~ msgid "Port:"
+#~ msgstr "Porta:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Konfigurimi i proxy"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Host S_ocks:"
+
+#~ msgid "U_sername:"
+#~ msgstr "Përdorue_si:"
+
+#~ msgid "_Details"
+#~ msgstr "_Detaje"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Proxy _FTP:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Fjalëkalimi:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Proxy HTTP i _Sigurtë:"
+
+#, fuzzy
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Aktivo tingujt dhe shoqëro tinguj me ndodhi\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Aktivizoo tingujt dhe shoqëro me tinguj eventet"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Preferimet e zërit"
+
+#, fuzzy
+#~ msgid "Sounds"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tinguj\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tingujt"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Krijimi i kartelës së përkohshme dështoi"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Nuk është dhënë pozicioni i file të temës për tu instaluar"
+
+#, fuzzy
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Të drejta të pamjaftueshme për instalimin e temës në:\n"
+#~ "%s\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Të drejta të pamjaftueshme për të instaluar temën në:\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Theme name must be present"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Emri i temës duhet të jetë i pranishëm\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Duhet të jepet emri i temës"
+
+#, fuzzy
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tema ekziston. Dëshironi t'a zëvendësoni?\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tema ekziston rregullisht. Vazhdon me zëvendësimin?"
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Controls"
+#~ msgstr "Kontrollet"
+
+#~ msgid "Icons"
+#~ msgstr "Ikonat"
+
+#~ msgid "Window Border"
+#~ msgstr "Bordi i dritares"
+
+#, fuzzy
+#~ msgid "<b>Preview</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Shikoje</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Pamja e parë</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "P_reje"
+
+#~ msgid "New File"
+#~ msgstr "File i ri"
+
+#~ msgid "Open File"
+#~ msgstr "Hap file"
+
+#~ msgid "Save File"
+#~ msgstr "Ruaj file"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Shfaq _ikonat në menu"
+
+#, fuzzy
+#~ msgid "Toolbar _button labels:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Etiketat e _butonave të kutizës së veglave:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Etiketat e _butonëve të panelit të instrumentëve:"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopjo"
+
+# #-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#
+# #-#-#-#-#  dia.HEAD.sq.po (dia HEAD)  #-#-#-#-#
+#
+# #-#-#-#-#  libbonoboui.HEAD.sq.po (libbonoboui HEAD)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  libgnomeui.HEAD.sq.po (libgnomeui HEAD)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  dasher.HEAD.sq.po (dasher HEAD)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  gucharmap.HEAD.sq.po (gucharmap gnome-2-22)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  gnome-terminal.HEAD.sq.po (gnome-terminal.gnome-2-22)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  ekiga.gnome-2-22.sq.po (ekiga gnome-2-22)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  gucharmap.gnome-2-22.sq.po (gucharmap gnome-2-22)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  libgnomeui.gnome-2-22.sq.po (libgnomeui HEAD)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  dasher.gnome-2-22.sq.po (dasher.HEAD)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+# #-#-#-#-#  gnome-terminal.gnome-2-22.sq.po (gnome-terminal.gnome-2-22)  #-#-#-#-#
+# (pofilter) unchanged: please translate
+#~ msgid "_File"
+#~ msgstr "_File"
+
+#, fuzzy
+#~ msgid "_New"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_I ri\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "I _ri"
+
+#~ msgid "_Open"
+#~ msgstr "_Hap"
+
+#~ msgid "_Paste"
+#~ msgstr "_Ngjit"
+
+#~ msgid "_Print"
+#~ msgstr "_Printo"
+
+#~ msgid "_Quit"
+#~ msgstr "_Dalja"
+
+#~ msgid "_Save"
+#~ msgstr "_Ruaj"
+
+#, fuzzy
+#~ msgid "C_ontrol"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "K_ontrolli\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "C_ontrol"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#, fuzzy
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "S_uper (ose \"Stema Windows\")\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "S_uper (ose «Stema e Windows»)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#, fuzzy
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Tasti i lëvizjes</b>\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "<b>Pulsanti i lëvizjes</b>"
+
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>Veprimi për shtyllën e titullit</b>"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Zgjedhja e dritares</b>"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Për të lëvizur një dritare, shtyp-dhe-mbaj këtë tast pastaj kap dritaren:"
+
+#, fuzzy
+#~ msgid "Window Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Preferimet e dritares\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Preferimet e dritareve"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Dopjo-klikim mbi titullin për të kryer këtë veprim:"
+
+#, fuzzy
+#~ msgid "_Interval before raising:"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Intervali përpara shpënies në plan të parë:\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Intervali përpara ngritjes në plan të parë:"
+
+#, fuzzy
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Sjellja në plan të parë e dritareve të zgjedhura mbas një intervali\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Sill në plan të parë dritaret e zgjedhura mbas një intervali"
+
+#, fuzzy
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Zgjidh dritaret kur miu kalon sipër tyre\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Zgjidh dritaret kur mouse kalon sipër tyre"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Cakto pronësitë e dritareve\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përcakton pronësitë e dritareve"
+
+#~ msgid "Windows"
+#~ msgstr "Dritaret"
+
+#, fuzzy
+#~ msgid "The GNOME configuration tool"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Instrumenti i konfigurimit për GNOME\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Instrument konfigurimi për GNOME"
+
+#, fuzzy
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Përgjegjësi i dritareve \"%s\" nuk ka një instrument konfigurimi të "
+#~ "regjistruar\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Menazhuesi i dritareve «%s» nuk ka një instrument konfigurimi të "
+#~ "regjistruar\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maksimizo"
+
+#, fuzzy
+#~ msgid "Roll up"
+#~ msgstr ""
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mblidh\n"
+#~ "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Palos"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Ndryshimi i fjalëkalimit personal</"
+#~ "span>"
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Ndrysho f_jalëkalimin"
+
+#~ msgid "Change password"
+#~ msgstr "Ndrysho fjalëkalimin"
+
+#~ msgid "Current _password:"
+#~ msgstr "_Fjalëkalimi aktual:"
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Rishkruaj fjalëkalimin në fushën e <b>Rishkruaj fjalëkalimin e ri</b>."
+
+#~ msgid "Select your photo"
+#~ msgstr "Zgjidh fotografinë"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Për të ndryshuar fjalëkalimin, shkruaj fjalëkalimin aktual në fushën e "
+#~ "mëposhtme dhe kliko tek <b>Autentikimi</b>.\n"
+#~ "Mbas autentikimit, shkruaj fjalëkalimin e ri, rishkruaje për verifikim "
+#~ "dhe kliko tek <b>Ndrysho fjalëkalimin</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Autentikimi"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Biri doli në menyrë të papritur"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "I pamundur ndalimi i kanalit të IO backend_stdin: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "I pamundur ndalimi i kanalit të IO backend_stdout: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Autentikuar!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Fjalëkalimi është ndryshuar që nga autentikimi fillestar. Kryej përsëri "
+#~ "autentikimin."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Fjalëkalimi nuk ishte i vlefshëm."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Fjalëkalimi juaj është ndryshuar."
+
+#~ msgid "System error: %s."
+#~ msgstr "Gabim sistemi: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Fjalëkalimi është tepër i shkurtër."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Fjalëkalimi është tepër i thjeshtë."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Fjalëkalimi i ri është tepër i ngjashëm me të vjetrin."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Fjalëkalimi i ri mund të përmbajë simbole numerikë ose specialë."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Fjalëkalimi i ri është njësoj me fjalëkalimin e vjetër."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "E pamundur nisja e %s: %s"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "U ndesh një gabim sistemi"
+
+#~ msgid "Checking password..."
+#~ msgstr "Kontrolli i fjalëkalimit..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "Kliko tek <b>Ndrysho fjalëkalimin</b> për të ndryshuar fjalëkalimin."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Shkruaj fjalëkalimin tek fusha e <b>Fjalëkalimi i ri</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Dy fjalëkalimet nuk përputhen."
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Teknollogjitë asistuese</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Preferimet</b>"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Hy_rje e përshtatshme"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Preferimet e teknollogjive asistuese"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Nryshimet për aktivizimin e teknollogjive asistuese nuk do të kenë efekt "
+#~ "deri në hyrjen e ardhshme."
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Shkon tek dialogu Aplikativët e preferuar"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Shkon tek dialogu Hyrje e përshtatshme"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Shkon tek dialogu Përshtatshmëria e tastierës"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Shkon tek dialogu Përshtatshmëria e mouse"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Përshtatshmëria e _tastierës"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Përshtatshmëria e _mouse"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "Aplikativë të _preferuar"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Teknollogjitë asistuese"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr "Zgjidh çfarë karakteristika përshtatshmërie të akivizohen në hyrje"
+
+#~ msgid "All files"
+#~ msgstr "Të gjithë file"
+
+#~ msgid "Use previous font"
+#~ msgstr "Përdor gërmën paraardhëse"
+
+#~ msgid "Use selected font"
+#~ msgstr "Përdor gërmën e zgjedhur"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Specifiko emrin e file të një teme për tu instaluar"
+
+#~ msgid "filename"
+#~ msgstr "EMRI_FILE"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Specifiko emrin e faqes për tu shfaqur (theme|background|fonts|interface)"
+
+#~ msgid "page"
+#~ msgstr "faqe"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[SFOND EKRANI...]"
+
+#~ msgid "Install"
+#~ msgstr "Instalo"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Tema nuk do të shfaqet sikurse parashikuar pasi nuk është instaluar "
+#~ "motori i nevojshëm GTK+ i temës '%s'."
+
+#~ msgid "Apply Background"
+#~ msgstr "Apliko sfondin"
+
+#~ msgid "Apply Font"
+#~ msgstr "Apliko gërmën"
+
+#~ msgid "Revert Font"
+#~ msgstr "Rikthe gërmën"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Tema e tanishme propozon një sfond dhe një lloj gërmash. Është gjithashtu "
+#~ "i mundur rikthimi i llojit të fundit të gërmave të propozuar të aplikuar."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Tema e tanishme propozon një sfond. Është gjithashtu i mundur rikthimi i "
+#~ "llojit të fundit të gërmave të propozuar të aplikuar."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Tema aktuale propozon një sfond dhe një lloj gërme."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Tema e tanishme propozon një lloj gërmash. Është gjithashtu i mundur "
+#~ "rikthimi i llojit të fundit të gërmave të propozuar të aplikuar."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Tema aktuale propozon një sfond."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Aplikimi i llojit të fundit të gërmës së propozuar mund të anullohet."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Tema aktuale propozon një lloj gërme."
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>N_gjyrat</b>"
+
+# Nuk e di sa është i përshtatshëm, por tani për tani
+# nuk arrij të gjej asgjë më të saktë... provojmë.
+#~ msgid "<b>Hinting</b>"
+#~ msgstr "<b>Theksimi (hinting)</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Panelët e menuve dhe instrumentëve</b>"
+
+#~ msgid "<b>Rendering</b>"
+#~ msgstr "<b>Paraqitja në ekran</b>"
+
+# Nuk është aspak termi më i përshtatshëm...
+#~ msgid "<b>Smoothing</b>"
+#~ msgstr "<b>Lëmimi (smoothing)</b>"
+
+#~ msgid "<b>Subpixel Order</b>"
+#~ msgstr "<b>Renditja subpixel</b>"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>_Sfondi i ekranit</b>"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Preferimet e paraqitjes"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "P_ersonalizo..."
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "Ndryshimet në temën tuaj të kursorit do të kenë efekt në hyrjen e "
+#~ "ardhshme."
+
+#~ msgid "Colors"
+#~ msgstr "Ngjyrat"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Personalizo temën"
+
+#~ msgid "Edit"
+#~ msgstr "Ndrysho"
+
+#~ msgid "Fonts"
+#~ msgstr "Llojet e gërmave"
+
+#~ msgid "Interface"
+#~ msgstr "Interfaqja"
+
+#~ msgid "Pointer"
+#~ msgstr "Kursori"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Ruaj temën si..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Ru_aj si..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Ruaj figurën e s_fondit"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "Ngjyrë e njëtrajtshme\n"
+#~ "Gradient horizontal\n"
+#~ "Gradient vertikal"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "Teksti poshtë elementëve\n"
+#~ "Teksti anash elementëve\n"
+#~ "Vetëm ikonat\n"
+#~ "Vetëm teksti"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Tema aktuale e kontrolleve nuk suporton skemat e ngjyrave."
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "Figurë e përsëritur\n"
+#~ "E zmadhuar\n"
+#~ "Në qendër\n"
+#~ "E shkallëzuar\n"
+#~ "Përshtatur sipas ekranit"
+
+#~ msgid "_Description:"
+#~ msgstr "_Përshkrimi:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "Kombinimi i tasteve për menutë e ndryshu_eshme"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "Kutitë e _input:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Instalo..."
+
+#~ msgid "_Name:"
+#~ msgstr "_Emri:"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_Rikthe vlerat e paracaktuara"
+
+#~ msgid "_Selected items:"
+#~ msgstr "Elementët e _zgjedhur:"
+
+#~ msgid "_Size:"
+#~ msgstr "Madhë_sia:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Propozime:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Dritaret:"
+
+#~ msgid "Appearance"
+#~ msgstr "Paraqitja"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Personalizon paraqitjen e ambjentit grafik"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Instalon paketat e temave për pjesë të ndryshme të «desktop»"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Instaluesi i temave"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Paketa «Tema e Gnome»"
+
+#~ msgid "Slide Show"
+#~ msgstr "Diapozitivë"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s by %d %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s nga %d %s\n"
+#~ "Kartela: %s"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "I pamundur instalimi i temës"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Programi ndihmues %s nuk është i instaluar."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Është ndeshur një problem gjatë nxjerrjes së temës."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "U ndesh një gabim gjatë instalimit të file të zgjedhur"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "Mesa duket «%s» nuk është një temë e vlefshme."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "Mesa duket «%s» nuk është një temë e vlefshme. Mund të jetë një motor "
+#~ "teme që duhet kompiluar paraprakisht."
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "Tema «%s» për GNOME u instalua korrektësisht"
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Instalimi i temës «%s» dështoi."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Tema «%s» u instalua."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Mbahet tema aktuale apo aplikohet tema e sapo instaluar?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Mbaj temën aktuale"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Apliko temën e re"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Temat e reja u instaluan me sukses."
+
+#~ msgid "Select Theme"
+#~ msgstr "Zgjidh temën"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Paketa teme"
+
+#~ msgid "_Overwrite"
+#~ msgstr "M_bishkruaj"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Eleminon këtë temë?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Eleminimi i temës nuk është i mundur"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "I pamundur instalimi i motorit të temës"
+
+#~ msgid "Parent Window"
+#~ msgstr "Dritarja prind"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Dritarja prind e dritares së dialogut"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "File «%s» ekziston rregullisht. Vazhdon me mbishkrimin e tij?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Kapërce"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Mbishkruaj gjithçk_a"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Tema nuk do të shfaqet sikurse parashikuar pasi tema e kërkuar GTK+ '%s' "
+#~ "nuk është instaluar."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Tema nuk do të shfaqet sikurse parashikuar pasi tema e kërkuar e "
+#~ "menazhuesit të dritareve '%s' nuk është instaluar."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Tema nuk do të shfaqet sikurse parashikuar pasi tema e kërkuar e ikonave "
+#~ "'%s' nuk është instaluar."
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Nis teknollogjinë asistuese të preferuar për shikimin"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Asistenca vizive"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Specifiko emrin e faqes për tu shfaqur (internet|multimedia|system|a11y)"
+
+#~ msgid "<b>Mobility</b>"
+#~ msgstr "<b>Lëvizshmëri</b>"
+
+#~ msgid "<b>Multimedia Player</b>"
+#~ msgstr "<b>Riprodhues multimedial</b>"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Shikimi</b>"
+
+#~ msgid "Accessibility"
+#~ msgstr "Përdorshmëria"
+
+#~ msgid "C_ommand:"
+#~ msgstr "K_omanda:"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Ekzekuto në _nisje"
+
+#~ msgid "_Run at start"
+#~ msgstr "_Ekzekuto në nisje"
+
+# Hiqet Music Player pasi shfaqet
+# në listën e music player
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+# (pofilter) unchanged: please translate
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Zmadhuesi i GNOME pa lexues ekrani"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Tastierë në ekran e GNOME"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus me zmadhues"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Posta Iceape"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Zmadhuesi i KDE pa lexues ekrani"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+# Emri i vetë aplikativit
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux Screen Reader"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linux Screen Reader me zmadhues"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+# Hiqet music player
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca me zmadhues"
+
+# Hiqet music player
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "Posta SeaMonkey"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem"
+
+#~ msgid "Include _Panel"
+#~ msgstr "Përfshi _panelin"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Pasqyra e ekranit"
+
+# Përmasa???
+#~ msgid "Monitor Resolution Settings"
+#~ msgstr "Rregullimet e përmasave të ekranit"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "Normal\n"
+#~ "Majtas\n"
+#~ "Djathtas\n"
+#~ "Lart-poshtë\n"
+
+#~ msgid "R_otation"
+#~ msgstr "Rr_otullimi"
+
+#~ msgid "Re_fresh Rate:"
+#~ msgstr "Intervali i ri_freskimit:"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "_Zbulo ekranet"
+
+#~ msgid "_Resolution"
+#~ msgstr "_Përmasat"
+
+#~ msgid "_Show Displays in Panel"
+#~ msgstr "_Shfaq ekranet në panel"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Left"
+#~ msgstr "Majtas"
+
+#~ msgid "Right"
+#~ msgstr "Djathtas"
+
+#~ msgid "Upside Down"
+#~ msgstr "Sipër poshtë"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Off"
+#~ msgstr "Çaktivizuar"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Përshpejtim i ri..."
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Përshpejtime të personalizuara"
+
+#~ msgid "Error saving the new shortcut: %s"
+#~ msgstr "Gabim në ruajtjen e përshpejtuesit të ri: %s"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Është i pamundur përdorimi i «%s» si kombinim përshpejtues, pasi pengon "
+#~ "shkrimin normal.\n"
+#~ "Provo të përdorësh në kombinim njëkohësisht një pulsant si Ctrl, Alt apo "
+#~ "Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Përshpejtimi «%s» përdoret rregullisht për\n"
+#~ "«%s»"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Nëse i ricaktohet përshpejtimi «%s», përshpejtimi «%s» do të çaktivizohet."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Ricakto"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Gabim gjatë heqjes së përshpejtuesit në bazën e të dhënave të "
+#~ "konfigurimit: %s"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Për të ndryshuar një pulsant përshpejtimi, kliko në rreshtin përkatës dhe "
+#~ "shkruaj kombinimin e ri, ose shtyp «Backspace» për ta fshirë."
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr ""
+#~ "Nis duke shfaqur faqen e pronësive të rregullimeve të açesibilitetit"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Preferimet e tastierës së GNOME"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>Shtypja e përafërt e pulsantëve</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Të përgjithshme</b>"
+
+#~ msgid "<b>Slow Keys</b>"
+#~ msgstr "<b>Ngadalsimi i pulsantëve</b>"
+
+#~ msgid "<b>Sticky Keys</b>"
+#~ msgstr "<b>Qëndrimi i pulsantëve</b>"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "P_ërshpejtimi:"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "_Feedback audio..."
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr ""
+#~ "Sinjal akustik kur aktivizohen apo çaktivizohen funksionet e "
+#~ "_açesibilitetit"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Sinjal akustik kur shtypet një _ndryshues"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Sinjal akustik kur shtypet një pulsant _shkëmbyes"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Sinjal akustik kur shtyp_et një pulsant"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Sinjal akustik kur refu_zohet një pulsant"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Sinjal akustik kur pr_anohet një pulsant"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Sinjal akustik kur pulsanti _refuzohet"
+
+#~ msgid "By _country"
+#~ msgstr "Sipas sh_tetit"
+
+#~ msgid "By _language"
+#~ msgstr "Sipas _gjuhës"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Kursor pulsues në fushat me tekst"
+
+#~ msgid "D_elay:"
+#~ msgstr "Von_esa:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "Çaktivizo qëndrimin e pulsantëve nëse shtypen dy pulsantë së bashku"
+
+#~ msgid "General"
+#~ msgstr "Të përgjithshme"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Feedback audio i açesibilitetit të tastierës"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Opsionet e planimetrisë së tastierës"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "_Opsionet e planimetrisë..."
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Mouse nga tastiera"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Rivendos vlerat e para_caktuara"
+
+#~ msgid "Separate _layout for each window"
+#~ msgstr "P_lanimetri e veçantë për çdo dritare"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "Funksionet e _açesibilitetit mund të aktivizohen/çaktivizohen me "
+#~ "kombinime përshpejtuese nga tastiera"
+
+#~ msgid "_Country:"
+#~ msgstr "_Shteti:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "Shpërf_ill shtypje të shpejta të njëpasnjëshme pulsantësh"
+
+#~ msgid "_Language:"
+#~ msgstr "_Gjuha:"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "Prano ve_tëm shtypje pulsanti me kohëzgjatje të gjatë"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "_Kursori mund të kontrollohet duke përdorur tastierën"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simulo shtypje të njëkohshme pulsantësh"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Variante:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Prodhues:"
+
+#~ msgid "Vendors"
+#~ msgstr "Prodhues"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Lëviz në të majtë"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Lëviz në të djathtë"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Lëviz sipër"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Lëviz poshtë"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Çaktivizuar"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Specifiko emrin e faqes për tu shfaqur (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Preferimet e mouse për GNOME"
+
+#~ msgid "<b>Double-Click Timeout</b>"
+#~ msgstr "<b>Koha në dispozicion për dopio klik</b>"
+
+#~ msgid "<b>Dwell Click</b>"
+#~ msgstr "<b>Klikim automatik</b>"
+
+#~ msgid "<b>Pointer Speed</b>"
+#~ msgstr "<b>Shpejtësia e kursorit</b>"
+
+#~ msgid "<b>Simulated Secondary Click</b>"
+#~ msgstr "<b>Klik dytësor i simuluar</b>"
+
+#~ msgid ""
+#~ "<i>To test your double-click settings, try to double-click on the light "
+#~ "bulb.</i>"
+#~ msgstr ""
+#~ "<i>Për të kontrolluar rregullimet personale të klikimit dopio, provo të "
+#~ "bësh dopio klik tek llampa.</i>"
+
+#~ msgid ""
+#~ "<i>You can also use the Dwell Click panel applet to choose the click type."
+#~ "</i>"
+#~ msgstr ""
+#~ "<i>Mund gjithashtu të përdoret applet i panelit «Klikim automatik» për të "
+#~ "zgjedhur llojin e klikimit.</i>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>E lartë</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>I madh</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>E ulët</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>I vogël</i></small>"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Zgjidh llojin e klikimit të _parakohshëm"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Zgjidh llojin e klik me gjeste të mo_use"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "D_opio klik:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Klik zva_rritje:"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Klik dytësor:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Sh_faq pozicionin e kursorit kur shtypet pulsanti Control"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Shfaq _dritaren për llojin e klikimit"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "Kuf_iri:"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "F_illo klikimin kur ndalon lëvizja e kursorit"
+
+#~ msgid "_Left-handed"
+#~ msgstr "Për dorën e _majtë"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "Kufiri i lë_vizjes:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "Për dorën e _djathtë"
+
+#~ msgid "_Single click:"
+#~ msgstr "Klik i ve_tëm:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_Nis klikimin dytësor duke mbajtur shtypur pulsantin kryesor"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Host-et e shpërfillur"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Përdor të njëjtin host për të gjithë protokollet"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "Kontroll volumi %d i panjohur"
+
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "Dështoi ndërtimi i pipeline i provës për «%s»"
+
+#~ msgid "Not connected"
+#~ msgstr "I palidhur"
+
+#~ msgid "Autodetect"
+#~ msgstr "Zbulim automatik"
+
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - Advanced Linux Sound Architecture"
+
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART Sound Daemon"
+
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - Enlightened Sound Daemon"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - Open Sound System"
+
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "Server audio PulseAudio"
+
+#~ msgid "Test Sound"
+#~ msgstr "Tingull prove"
+
+#~ msgid "Silence"
+#~ msgstr "Heshtje"
+
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr "- Preferimet audo të GNOME"
+
+#~ msgid "<b>Alerts and Sound Effects</b>"
+#~ msgstr "<b>Alarme dhe efekte sonorë</b>"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>Konferenca audio</b>"
+
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>Pistat e paracaktuara të mixer</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>Muzikë dhe filma</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>Evente sonorë</b>"
+
+#~ msgid "<b>Sound Theme</b>"
+#~ msgstr "<b>Tema sonore</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Verifikimi...</span>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "Kliko OK për të mbaruar."
+
+#~ msgid "Devices"
+#~ msgstr "Dispozitivët"
+
+#~ msgid "Play _alert sound"
+#~ msgstr "Riprodho tinguj p_aralajmërues"
+
+#~ msgid "Play _sound effects when buttons are clicked"
+#~ msgstr "Riprodho efekte _sonorë kur klikohen butonët"
+
+#~ msgid "S_ound playback:"
+#~ msgstr "Riprodhimi i zë_rit:"
+
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "Zgjidh dispozitivin dhe kanalet për tu kontrolluar nga tastiera. Përdor "
+#~ "pulsantët «Shift» dhe «Control» nëse duhen zgjedhur disa pista."
+
+#~ msgid "So_und playback:"
+#~ msgstr "Riprodhimi i zë_rit:"
+
+#~ msgid "Sou_nd capture:"
+#~ msgstr "Regjistrimi i zër_it:"
+
+#~ msgid "Test"
+#~ msgstr "Provë"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "Verifikimi i pipeline"
+
+#~ msgid "_Device:"
+#~ msgstr "_Dispozitivi:"
+
+#~ msgid "_Play alerts and sound effects"
+#~ msgstr "Ri_prodho paralajmërime dhe efekte sonorë"
+
+#~ msgid "_Sound playback:"
+#~ msgstr "Riprodhimi i _zërit:"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alert sound"
+#~ msgstr "Paralajmërim sonor"
+
+#~ msgctxt "Sound event"
+#~ msgid "Visual alert"
+#~ msgstr "Paralajmërim vizual"
+
+#~ msgctxt "Sound event"
+#~ msgid "Windows and Buttons"
+#~ msgstr "Dritaret dhe butonët"
+
+#~ msgctxt "Sound event"
+#~ msgid "Button clicked"
+#~ msgstr "Buton i klikuar"
+
+#~ msgctxt "Sound event"
+#~ msgid "Toggle button clicked"
+#~ msgstr "Buton me dy gjëndje i klikuar"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window maximized"
+#~ msgstr "Dritarja në maksimum"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window unmaximized"
+#~ msgstr "Dritarja çmaksimizuar"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window minimised"
+#~ msgstr "Dritarja në minimum"
+
+#~ msgctxt "Sound event"
+#~ msgid "Desktop"
+#~ msgstr "Hapësira e punës"
+
+#~ msgctxt "Sound event"
+#~ msgid "Login"
+#~ msgstr "Hyrja"
+
+#~ msgctxt "Sound event"
+#~ msgid "Logout"
+#~ msgstr "Përfundimi i seancës"
+
+#~ msgctxt "Sound event"
+#~ msgid "New e-mail"
+#~ msgstr "Mesazh i ri poste"
+
+#~ msgctxt "Sound event"
+#~ msgid "Empty trash"
+#~ msgstr "Zbrazje koshi"
+
+#~ msgctxt "Sound event"
+#~ msgid "Long action completed (download, CD burning, etc.)"
+#~ msgstr "Përfundimi një veprimi të gjatë (shkarkime, masterizim CD, etj.)"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alerts"
+#~ msgstr "Sinjalizime"
+
+#~ msgctxt "Sound event"
+#~ msgid "Information or question"
+#~ msgstr "Informacione ose pyetje"
+
+#~ msgctxt "Sound event"
+#~ msgid "Warning"
+#~ msgstr "Kujdes"
+
+#~ msgctxt "Sound event"
+#~ msgid "Error"
+#~ msgstr "Gabim"
+
+#~ msgctxt "Sound event"
+#~ msgid "Battery warning"
+#~ msgstr "Paralajmërim nga bateria"
+
+#~ msgid "Flash screen"
+#~ msgstr "Ndriço të gjithë ekranin"
+
+#~ msgid "Flash window"
+#~ msgstr "Ndriço dritaren"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Tingulli verifikues i eventeve"
+
+#~ msgid "Sound files"
+#~ msgstr "File audio"
+
+#~ msgid "Custom..."
+#~ msgstr "Personalizimi..."
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "E pamundur nisja e aplikativit për preferimet e menazhuesit të dritareve"
+
+#~ msgid "<b>Start %s</b>"
+#~ msgstr "<b>Nis %s</b>"
+
+#~ msgid "Help"
+#~ msgstr "Ndihmë"
+
+#~ msgid "Upgrade"
+#~ msgstr "Përditësimi"
+
+#~ msgid "Uninstall"
+#~ msgstr "Çinstalimi"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Hiq nga të preferuarit"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Shto tek të preferuarit"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Hiq nga programet në nisje"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Shto tek programet në nisje"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Nuk u gjet asnjë korrespondues.</b> </"
+#~ "span><span>\n"
+#~ "\n"
+#~ " Filtri \"<b>%s</b>\" nuk zgjedh asnjë element.</span>"
+
+#~ msgid "Other"
+#~ msgstr "Të tjerë"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Blloko ekranin"
+
+#~ msgid "Shutdown"
+#~ msgstr "Shuaj"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Fletë e re llogaritje"
+
+#~ msgid "New Document"
+#~ msgstr "Dokument i ri"
+
+#~ msgid "Home"
+#~ msgstr "Shtëpia"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumente"
+
+#~ msgid "File System"
+#~ msgstr "File i sistemit"
+
+#~ msgid "Network Servers"
+#~ msgstr "Server rrjeti"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Hap</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Riemërto..."
+
+#~ msgid "Send To..."
+#~ msgstr "Dërgo tek..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Lëviz në kosh"
+
+#~ msgid "Delete"
+#~ msgstr "Elemino"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Eleminon përgjithmonë «%s»?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Një element i eleminuar do të humbasë përgjithmonë."
+
+#~ msgid "<b>Open with \"%s\"</b>"
+#~ msgstr "<b>Hap me «%s»</b>"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Hap me aplikativin e paracaktuar"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Hap në «file manager»"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%k.%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Sot në orën %k.%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Dje në orën %k.%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a në orën %k.%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d %b në orën %k.%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Kërko tani"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Hap %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Hiq nga zërat e sistemit"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Maksimizo vertikalisht"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Maksimizo horizontalisht"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimizo"
+
+#~ msgid "None"
+#~ msgstr "Asgjë"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "pulsanti nuk u gjet [%s]\n"
+
+#~ msgid "Filter"
+#~ msgstr "Filtri"
+
+#~ msgid "Groups"
+#~ msgstr "Grupe"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Aktivitete të përbashkët"
+
+#~ msgid "Control Center"
+#~ msgstr "Qendra e kontrollit"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Mbyll qendrën e kontrollit kur aktivizohet një aktivitet"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Del nga terminali nëse kryhet një veprim shtimi apo heqje"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Del nga terminali nëse kryhet një veprim ndihme"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Del nga terminali nëse kryhet një veprim nisje"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "Del nga terminali nëse kryhet një veprim përditësimi apo çinstalimi"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "Tregon nëse duhet mbyllur terminali kur kryhet një veprim ndihme."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "Tregon nëse duhet mbyllur terminali kur kryhet një veprim nisje."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Tregon nëse duhet mbyllur terminali kur kryhet një veprim shtimi apo "
+#~ "heqje."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Tregon nëse duhet mbyllur terminali kur kryhet një veprim përditësimi apo "
+#~ "çinstalimi."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Emri i aktivitetit dhe file .desktop përkatës"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Emri i aktivitetit për tu shfaqur në qendrën e kontrollit ndjekur nga \";"
+#~ "\" si ndarës dhe nga emri i .desktop përkatës për nisjen e aktivitetit."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Ndrysho temën;gtk-theme-selector.desktop,Përcakto aplikativët e "
+#~ "preferuar;default-applications.desktop,Shto printues;gnome-cups-manager."
+#~ "desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "Nëse E VËRTETË, qendra e kontrollit do të mbyllet në aktivizimin e një "
+#~ "«aktiviteti të përbashkët»."
+
+#~ msgid "Old password is incorrect, please retype it"
+#~ msgstr "Fjalëkalimi i vjetër është i pasaktë, të lutem rishtype"
+
+#~ msgid "System error has occurred"
+#~ msgstr "Ndodhi gabim sistemi"
+
+#~ msgid "Could not run /usr/bin/passwd"
+#~ msgstr "Nuk u ekzekutua dot /usr/bin/passwd"
+
+#~ msgid "Unexpected error has occurred"
+#~ msgstr "Ndodhi një gabim i papritur"
+
+#~ msgid "Password is too short"
+#~ msgstr "Fjalëkalimi është tepër i shkurtër"
+
+#~ msgid "Password is too simple"
+#~ msgstr "Fjalëkalimi është tepër i thjeshtë"
+
+#~ msgid "Old and new passwords are too similar"
+#~ msgstr "Fjalëkalimi ri është tepër i ngjashëm me të vjetrin"
+
+#~ msgid "Must contain numeric or special character(s)"
+#~ msgstr "Duhet të përmbajë gërmë(a) numerike ose speciale"
+
+#~ msgid "Old and new password are the same"
+#~ msgstr "Fjalëkalimi i ri është i njëjtë me të vjetrin"
+
+#~ msgid "Please type the passwords."
+#~ msgstr "Të lutem shtyp fjalëkalimet."
+
+#~ msgid "Please type the password again, it is wrong."
+#~ msgstr "Të lutem shtyp sërish fjalëkalimin, është gabim."
+
+#~ msgid "Click on Change Password to change the password."
+#~ msgstr "Kliko Ndrysho Fjalëkalimin për të ndryshuar fjalëkalimin."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>Please type the passwords.</b>"
+#~ msgstr "<b>Të lutem shtyp fjalëkalimin.</b>"
+
+#~ msgid "Change Password"
+#~ msgstr "Ndrysho Fjalëkalimin"
+
+#~ msgid "Old pa_ssword:"
+#~ msgstr "Fj_alëkalimi i vjetër:"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>Programe</b>"
+
+#~ msgid "<b>Support</b>"
+#~ msgstr "<b>Ndihmë</b>"
+
+#~ msgid ""
+#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
+#~ "you next log in.</i></small>"
+#~ msgstr ""
+#~ "<small><i><b>Shënim:</b> Ndryshimet e kryera nuk do të kenë efekt deri në "
+#~ "hyrjen e ardhshme.</i></small>"
+
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Preferimet në lidhje me Teknologjinë Asistuese"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Fillo këto teknologji asistuese sa herë që të futeni:"
+
+#~ msgid "_Magnifier"
+#~ msgstr "_Zmadhues"
+
+#~ msgid "_On-screen keyboard"
+#~ msgstr "_Tastierë në monitor"
+
+#~ msgid "_Screenreader"
+#~ msgstr "_Lexuesi i ekranit"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "Suporti i teknologjisë asistuese"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr "Aktivo suportin për teknologjitë asistuese të GNOME kur futesh"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'gnopernicus' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Asnjë teknologji asistuese në dispozicion tek sistemi juaj.  Paketi 'gok' "
+#~ "duhet të jetë i instaluar që të keni suportin e tastierës në monitor, dhe "
+#~ "paketi 'gnopernius' duhet të jetë instaluar për të shfrytëzuar aftësinë "
+#~ "zmadhuese. "
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gok' package must be installed in order to get on-screen keyboard "
+#~ "support."
+#~ msgstr ""
+#~ "Jo të gjitha teknologjitë asistuese të afruara janë instaluar në sistemin "
+#~ "tuaj.  Paketi 'gok' duhet të jetë i instaluar që të keni suportin e "
+#~ "tastierës në monitor."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gnopernicus' package must be installed for screenreading and "
+#~ "magnifying capabilities."
+#~ msgstr ""
+#~ "Jo të gjitha teknologjitë asistuese të afruara janë instaluar në sistemin "
+#~ "tuaj.  paketi 'gnopernius' duhet të jetë instaluar për të shfrytëzuar "
+#~ "aftësinë zmadhuese."
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr ""
+#~ "Ndeshëm një gabim gjatë leshimit të dritares së dialogut të preferimeve "
+#~ "të miut: %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "I pamundur importimi i të dhënave AccessX nga file '%s'"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Importo file me rregullimet e karakteristive"
+
+#~ msgid "_Import"
+#~ msgstr "_Importo"
+
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "Rregullo preferimet e tastierës"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Sistemi nuk ka prapashtesën XKB.  Karakteristikat e tastierës nuk do "
+#~ "punojnë pa të."
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Aktivo Tastet Bo_unce</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Aktivo Tastet e Ngad_alshme</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Aktivo Tastet e _Miut</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Aktivo Tastet _Ripërsëritës</b>"
+
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Aktivo Tastet _Ngjitës</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Karakteristikat</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Tastet e Ndryshimit</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Bazë"
+
+#~ msgid "Beep if key is re_jected"
+#~ msgstr "Njofto nëse tasti refu_zohet"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr "Njofto kur _karakteristikat e tastierës janë të aktivizuara"
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "Njofto kur _shkëmbyesi është i shtypur"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr ""
+#~ "Njofto kur një LED është e ndezur, njofto dy herë kur është e shuajtur."
+
+#~ msgid "Beep when key is:"
+#~ msgstr "Njofto kur tasti është:"
+
+#~ msgid "Del_ay:"
+#~ msgstr "Von_esa:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Vonesa midis shtypjes së tastit dhe lëvizjes së shënjuesit:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "Çak_tivo nëse dy tasta shtypen njëkohësisht"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "A_ktivo Tastin çelës"
+
+#~ msgid "Filters"
+#~ msgstr "Filtrat"
+
+#~ msgid "I_gnore duplicate keypresses within:"
+#~ msgstr "I_njoro shtypjet e dyfishta të tastave brenda:"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Injoro shtypjet e njëpasnjëshme të të njëjtit tast nëse ndodhin në një "
+#~ "kohë të përcaktuar."
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Preferimet e açesibilitetit të tastierës (AccessX)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Shpejtësia maksimale e shënjuesit:"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "Preferimet e Miut..."
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "Prano tastat vetëm pasi të jenë mbajtur shtypur për një kohë të caktuar."
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Kryej operacione të njëkohshme duke shtypur tastat e vecantë njëri pas "
+#~ "tjetrit."
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Koha për të arri_tur shpejtësinë maksimale:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Kthe tastierën numerike në kontroll të miut."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "Ça_ktivizo nëse nuk përdoret për:"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "_Importo rregullimet e karakteristikave..."
+
+#~ msgid "_Only accept keys held for:"
+#~ msgstr "Prano tastet të shtypura _vetëm për:"
+
+#~ msgid "_accepted"
+#~ msgstr "pr_anuar"
+
+#~ msgid "_pressed"
+#~ msgstr "shty_pur"
+
+#~ msgid "_rejected"
+#~ msgstr "_refuzuar"
+
+#~ msgid "characters/second"
+#~ msgstr "shkronja/sekondë"
+
+#~ msgid "milliseconds"
+#~ msgstr "milisekonda"
+
+#~ msgid "pixels/second"
+#~ msgstr "pixel/sekondë"
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Ndrysho rregullimet e Sfondit të Hapësirës së Punës"
+
+#~ msgid "Desktop Background"
+#~ msgstr "Sfondi i Hapësirës së Punës"
+
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "<b>_Figura e sfondit</b>"
+
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "<b>Ngjyrat e _Hapësirës së Punës</b>"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Preferimet e Sfondit të Hapësirës së Punës"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Shto figurë sfondi"
+
+#~ msgid "_Finish"
+#~ msgstr "_Përfundo"
+
+#~ msgid "_Remove"
+#~ msgstr "_Hiq"
+
+#~ msgid "Centered"
+#~ msgstr "Në qendër"
+
+#~ msgid "Fill Screen"
+#~ msgstr "Përshtatja ekranit"
+
+#~ msgid "Scaled"
+#~ msgstr "Shkallëzuar"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Tiled"
+#~ msgstr "Mozaik"
+
+#~ msgid "Solid Color"
+#~ msgstr "Ngjyrë e ngurtë"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Gradienti horizontal"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "Gradienti vertikal"
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Thjesht apliko rregullimet dhe dil"
+
+#~ msgid "From:"
+#~ msgstr "Nga:"
+
+#~ msgid "To:"
+#~ msgstr "Tek:"
+
+#~ msgid "Connecting..."
+#~ msgstr "Duke u lidhur..."
+
+#~ msgid "Could not display help"
+#~ msgstr "E pamundur shfaqja e ndihmës"
+
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "Lexuesi i Postës Evolution 1.4"
+
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "Lexuesi i Postës Evolution 1.5"
+
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "Lexuesi i Postës Evolution 1.6"
+
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "Lexuesi i Postës Evolution 2.0"
+
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "Lexuesi i Postës Evolution 2.2"
+
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "Lexuesi i Postës Evolution 2.4"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Shfletuesi tekst-or Links"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Shfletuesi tekst-or Lynx"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "Shfletuesi tekst-or W3M"
+
+#~ msgid "<b>Audio Player</b>"
+#~ msgstr "<b>Dëgjues Audio</b>"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Përmasa:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Rregullsia e ri_freskimit:"
+
+#~ msgid "Default Settings"
+#~ msgstr "Rregullimet e prezgjedhura"
+
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Rregullimet e ekranit %d\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Preferimet mbi përmasat e ekranit"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "_Vendose si të prezgjedhur vetëm për këtë kompjuter (%s)"
+
+#~ msgid "Options"
+#~ msgstr "Opsione"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Duke provuar rregullimet e reja. Nëse nuk përgjigjesh brenda %d sekonde "
+#~ "do të rikthehen rregullimet e mëparshme."
+#~ msgstr[1] ""
+#~ "Duke provuar rregullimet e reja.Nëse nuk përgjigjesh brenda %d sekondash "
+#~ "do të rikthehen rregullimet e mëparshme."
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Ruaj përmasat"
+
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr "Dëshironi të mbani këtë vlerë?"
+
+#~ msgid "Use _previous resolution"
+#~ msgstr "Përdor vlerat e më_parshme"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "_Ruaj qartësinë"
+
+#~ msgid ""
+#~ "The X Server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "Xserver nuk suporton prapashtesën XRandR.  Ndryshimi i dallueshmërisë "
+#~ "gjatë punës së madhësisë së ekranit është i pamundur."
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Versioni i prapashtesës XRandR nuk është i përputhshëm me këtë program. "
+#~ "Ndryshimi i madhësisë së display në runtime është i pamundur."
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Zgjidh gërmat për hapësirën e punës"
+
+#~ msgid "<b>Font Rendering</b>"
+#~ msgstr "<b>Vizatimi i shkronjave</b>"
+
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<b>Lëmimi i shkronjave</b>:"
+
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<b>Rradhitja e subpixel</b>:"
+
+#~ msgid "Font Preferences"
+#~ msgstr "Preferimet e shkronjave"
+
+#~ msgid "Go _to font folder"
+#~ msgstr "Shko _tek kartela e gërmave"
+
+#~ msgid "New accelerator..."
+#~ msgstr "Përshpejtues i ri..."
+
+#~ msgid "Window Management"
+#~ msgstr "Organizimi i dritareve"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become unusable to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time.\n"
+#~ msgstr ""
+#~ "Shkurtesa \"%s\" nuk mund të përdoret pasi do të bëhet e papërdorshme për "
+#~ "të shtypur duke përdorur këtë tast.\n"
+#~ "Të lutem provo me një tast si Control, Alt apo Shift në të njëjtën kohë.\n"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ msgstr ""
+#~ "Shpejtuesi \"%s\" është përdorur për:\n"
+#~ " \"%s\"\n"
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr ""
+#~ "Gabim gjatë sistemimit të përshpejtuesit të ri në databazën e "
+#~ "konfigurimit: %s\n"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s\n"
+#~ msgstr "Gabim në heqjen e përshpejtuesit në databazën e konfigurimit: %s\n"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new "
+#~ "accelerator, or press backspace to clear."
+#~ msgstr ""
+#~ "Për të ndryshuar një kombinim tastesh, kliko tek rreshti korrispondues "
+#~ "dhe shkruaj një shpejtues të ri, ose shtyp backspace për t'a fshirë."
+
+#~ msgid "There was an error launching the keyboard tool: %s"
+#~ msgstr "Gabim gjatë lëshimit të konfiguruesit të tastierës: %s"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "<b>_Lock screen to enforce typing break</b>"
+#~ msgstr "<b>_Blloko ekranin për të detyruar një pushim në shkrim</b>"
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "Planimetritë në d_ispozicion:"
+
+#~ msgid "Cursor _blinks in text boxes and fields"
+#~ msgstr "Kursori _pulson në kutitë dhe fushat e tekstit"
+
+#~ msgid "Layout Options"
+#~ msgstr "Opsionet e planimetrisë"
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Microsoft Natural Keyboard"
+
+#~ msgid "Reset To De_faults"
+#~ msgstr "Rivendos pre_zgjedhjet"
+
+#~ msgid "Separate _group for each window"
+#~ msgstr "_Grup të veçantë për çdo dritare"
+
+#~ msgid "_Accessibility..."
+#~ msgstr "_Açesibilitetit..."
+
+#~ msgid "%d milliseconds"
+#~ msgid_plural "%d milliseconds"
+#~ msgstr[0] "%d milisekondë"
+#~ msgstr[1] "%d milisekonda"
+
+#~ msgid "Unknown Pointer"
+#~ msgstr "Kursor i panjohur"
+
+#~ msgid "The default pointer that ships with X"
+#~ msgstr "Kursori i parazgjedhur që vjen me X"
+
+#~ msgid "The default pointer inverted"
+#~ msgstr "Kursori i parazgjedhur i përmbysur"
+
+#~ msgid "Large version of normal pointer"
+#~ msgstr "Version i zmadhuar i kursorit normal"
+
+#~ msgid "Large version of white pointer"
+#~ msgstr "Version i zmadhuar i kursorit të bardhë"
+
+#~ msgid "Pointer Theme"
+#~ msgstr "Tema e kursorit"
+
+#~ msgid "<b>Double-Click Timeout </b>"
+#~ msgstr "<b>Kohëzgjatja maksimum e dopjo-klikimit</b>"
+
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<b>Shpejtësia</b>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Shpejt</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>E lartë</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>I madh</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>E ulët</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Ngadalë</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>I vogël</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Butonat"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Vër në dukje _kursorin kur shtyp Ctlr"
+
+#~ msgid "Medium"
+#~ msgstr "Mesatar"
+
+#~ msgid "Motion"
+#~ msgstr "Lëvizja"
+
+#~ msgid "Pointer Size:"
+#~ msgstr "Madhësia e kursorit:"
+
+#~ msgid "Pointers"
+#~ msgstr "Kursorët"
+
+#~ msgid "_Left-handed mouse"
+#~ msgstr "_Mi për majtoshët"
+
+#~ msgid "_Threshold:"
+#~ msgstr "_Kufiri:"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#~ msgid "Advanced Configuration"
+#~ msgstr "Konfigurimi i hollësishëm"
+
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "Ak_tivizo miksimin audio via software (ESD)"
+
+#~ msgid "Flash _entire screen"
+#~ msgstr "Ndriço kr_ejt ekranin"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Ndriço panelin e titullit të _dritares"
+
+#~ msgid "System Beep"
+#~ msgstr "Zilja e sistemit"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "_Aktivizo këmbanën e sistemit"
+
+#~ msgid "_Play system sounds"
+#~ msgstr "_Luaj tingujt e sistemit"
+
+#~ msgid "_Visual system beep"
+#~ msgstr "_Këmbanë vizive sistemi"
+
+#~ msgid "Would you like to remove this theme?"
+#~ msgstr "Dëshiron t'a heqësh këtë temë?"
+
+#~ msgid "Theme deleted succesfully. Please select another theme."
+#~ msgstr "Tema u hoq me sukses. Të lutem zgjidh një tjetër temë."
+
+#~ msgid "Theme can not be deleted"
+#~ msgstr "Tema nuk mund të eleminohet"
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Nuk u gjend asnjë temë në sistemin tuaj.  Kjo ndoshta do të thotë që "
+#~ "dialogu i \"Preferimeve të temës\" nuk është instaluar mirë, ose nuk keni "
+#~ "instaluar paketën \"gnome themes\"."
+
+#~ msgid "This theme is not in a supported format."
+#~ msgstr "Kjo temë nuk është e një formati të duhur."
+
+#~ msgid ""
+#~ "Can not install theme. \n"
+#~ "The bzip2 utility is not installed."
+#~ msgstr ""
+#~ "I pamundur instalimi i temës. \n"
+#~ "Programi bzip2 nuk është i instaluar."
+
+#~ msgid "Installation Failed"
+#~ msgstr "Instalimi dështoi"
+
+#~ msgid ""
+#~ "Can not install themes. \n"
+#~ "The gzip utility is not installed."
+#~ msgstr ""
+#~ "I pamundur instalimi i temës. \n"
+#~ "Programi gzip nuk është i instaluar."
+
+#~ msgid ""
+#~ "Icon Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema e Ikonave %s u instalua me sukses.\n"
+#~ "Mund t'a zgjedhësh në detajet e temës."
+
+#~ msgid "Gnome Theme %s correctly installed"
+#~ msgstr "Tema e Gnome %s u instalua me sukses"
+
+#~ msgid ""
+#~ "Windows Border Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema e dritareve %s u instalua me sukses.\n"
+#~ "Mund t'a zgjedhësh në detajet e temës."
+
+#~ msgid ""
+#~ "Controls Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema e elementëve të kontrolleve %s u instalua me sukses.\n"
+#~ "Mund t'a zgjedhësh në detajet e temës."
+
+#~ msgid "The theme is an engine. You need to compile the theme."
+#~ msgstr "Tema është një sistem/motor shfaqje. Duhet përpiluar."
+
+#~ msgid "The file format is invalid"
+#~ msgstr "Formati i file nuk është i vlefshëm"
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr ""
+#~ "Pozicioni i dhënë i file me temën që duhet instaluar nuk është i vlefshëm"
+
+#~ msgid "The file format is invalid."
+#~ msgstr "Formati i file nuk është i vlefshëm."
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s është pozicioni ku file-t e temës do instalohen. Ky pozicion nuk mund "
+#~ "të zgjidhet si burues"
+
+#~ msgid ""
+#~ "Cannot install theme.\n"
+#~ "The tar program is not installed on your system."
+#~ msgstr ""
+#~ "I pamundur instalimi i temës.\n"
+#~ "Programi tar nuk është instaluar në sistemin tënd."
+
+#~ msgid "Custom theme"
+#~ msgstr "Tema e personalizuar"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "Mund t'a ruash këtë temë duke shtypur butonin \"Ruaj Temën\"."
+
+#~ msgid ""
+#~ "The default theme schemas could not be found on your system.  This means "
+#~ "that you probably don't have metacity installed, or that your gconf is "
+#~ "configured incorrectly."
+#~ msgstr ""
+#~ "Skema e temës së prezgjedhur nuk u gjet tek sistemi juaj.  Kjo do të "
+#~ "thotë që ndoshta nuk keni të instaluar metacity, ose gconf nuk është "
+#~ "konfiguruar në rregull."
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "Zgjidh temat për pjesë të ndryshme të hapësirës së punës"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" ëeight=\"bold\">Instalo një temë</span>"
+
+#~ msgid "Theme Installation"
+#~ msgstr "Instalimi i temës"
+
+#~ msgid "_Install"
+#~ msgstr "_Instalo"
+
+#~ msgid "_Location:"
+#~ msgstr "_Pozicioni:"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Save Theme to Disk</span>"
+#~ msgstr "<span size=\"larger\" ëeight=\"bold\">Ruaj temën në disk</span>"
+
+#~ msgid "Apply _Font"
+#~ msgstr "Apliko _gërmat"
+
+#~ msgid "New themes can also be installed by dragging them into the window."
+#~ msgstr ""
+#~ "Temat e reja mund të instalohen gjithashtu duke i zvarritur në brendësi "
+#~ "të dritares."
+
+#~ msgid "Save Theme"
+#~ msgstr "Ruaj temën"
+
+#~ msgid "Select theme for the desktop"
+#~ msgstr "Zgjidh një temë për hapësirën e punës"
+
+#~ msgid "Short _description:"
+#~ msgstr "Përshkrimi _shkurt:"
+
+#~ msgid "Theme Details"
+#~ msgstr "Detajet e temës"
+
+#~ msgid "Theme _Details"
+#~ msgstr "_Detajet e temës"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Kjo temë nuk sugjeron asnjë shkronjë të veçantë apo sfond."
+
+#~ msgid "This theme suggests a background:"
+#~ msgstr "Kjo temë sugjeron një sfond:"
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Kjo temë sugjeron shkronjat dhe sfondin:"
+
+#~ msgid "This theme suggests a font:"
+#~ msgstr "Kjo temë sugjeron këto shkronja:"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Instalo temën..."
+
+#~ msgid "_Revert"
+#~ msgstr "_Kthe mbrapa"
+
+#~ msgid "_Save Theme..."
+#~ msgstr "_Ruaj temën..."
+
+#~ msgid "_Theme name:"
+#~ msgstr "_Emri i temës:"
+
+#~ msgid "theme selection tree"
+#~ msgstr "pema e zgjedhjes së temës"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr "Personalizo paraqitjen e veglave dhe menuve tek programet"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "Menutë & Veglat"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Sjellja dhe paraqitja</b>"
+
+#~ msgid "Icons only"
+#~ msgstr "Vetëm ikonat"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Preferimet e menusë dhe veglave"
+
+#~ msgid "Text below icons"
+#~ msgstr "Tekst poshtë ikonave"
+
+#~ msgid "Text beside icons"
+#~ msgstr "Tekst anash ikonave"
+
+#~ msgid "Text only"
+#~ msgstr "Vetëm tekst"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "_Kutiza të ndashme"
+
+#~ msgid "_Edit"
+#~ msgstr "_Ndrysho"
+
+#~ msgid "_Editable menu accelerators"
+#~ msgstr "Përshpejtues të _ndryshueshëm menuje"
+
+#~ msgid ""
+#~ "<b>Cannot start the preferences application for your window manager</b>\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "<b>I pamundur fillimi i programit të preferimeve për organizuesin tuaj të "
+#~ "dritareve</b>\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Others"
+#~ msgstr "Të tjerë"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "Preferimet e Hapësirës së Punës"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Qendra e kontrollit të GNOME"
+
+#~ msgid "No '/dev/pmu' device found"
+#~ msgstr "Nuk u gjet asnjë dispozitiv '/dev/pmu'"
+
+#~ msgid "Not a powerbook"
+#~ msgstr "Nuk është një powerbook"
+
+#~ msgid "Wrong permission for '/dev/pmu' device"
+#~ msgstr "Tò drejta të gabuara për dispozitivin '/dev/pmu'"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "E pamundur nisja e Bonobo"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Gabim gjatë aktivimit të konfigurimit të XKB.\n"
+#~ "Mund të ndodhë si pasojë e rrethanave të ndryshme:\n"
+#~ "- një gabim në librarinë libxklavier\n"
+#~ "- një difekt i serverit X (xkbcomp, veglat xmodmap)\n"
+#~ "- server X me zbatim të papajtueshëm libxkbfile\n"
+#~ "\n"
+#~ "Të dhëna mbi versionin e serverit X:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Nëse raporton këtë situatë si një difekt, të lutem përfshi:\n"
+#~ "- Rezultatin e <b>%s</b>\n"
+#~ "- Rezultatin e <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Je duke përdorur XFree 4.3.0.\n"
+#~ "Ka probleme të njohur me konfigurime të ndërlikuara të XKB-së.\n"
+#~ "Provo të përdorësh një konfigurim më të thjeshtë, apo të marrësh një "
+#~ "version më të ri të programit XFree."
+
+#~ msgid "Do _not show this warning again"
+#~ msgstr "Mos e shfaq _më këtë paralajmërim"
+
+#~ msgid ""
+#~ "The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.  Which set would you like to use?"
+#~ msgstr ""
+#~ "Rregullimet e tastierës së sistemit X ndryshojnë nga rregullimet aktuale "
+#~ "të GNOME.  Çfarë rregullimesh dëshiron të përdorësh?"
+
+#~ msgid "Use GNOME settings"
+#~ msgstr "Përdor rregullimet e GNOME"
+
+#~ msgid ""
+#~ "Couldn't load the Glade file.\n"
+#~ "Make sure that this daemon is properly installed."
+#~ msgstr ""
+#~ "I pamundur ngarkimi i file Glade.\n"
+#~ "Sigurohu që demoni i tij të jetë i instaluar në mënyrë të rregullt."
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "Gabim gjatë krijimit të një pipe sinjali."
+
+#~ msgid "Type"
+#~ msgstr "Lloji"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Lloji i bg_applier: BG_APPLIER_ROOT për dritaren root ose "
+#~ "BG_APPLIER_PREVIEW për pamjen e parë"
+
+#~ msgid "Preview Width"
+#~ msgstr "Gjerësia e pamjes së parë"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Gjerësia nëse është një pamje e parë: vlera e prezgjedhur, 64."
+
+#~ msgid "Preview Height"
+#~ msgstr "Gjatësia e pamjes së parë"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Gjatësia nëse është një pamje e parë: vlera e prezgjedhur, 48."
+
+#~ msgid "Screen"
+#~ msgstr "Ekrani"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Ekrani ku duhet të vizatojë BGApplier"
+
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr "U verifikua një gabim gjatë ngarkimit të një pamjeje: %s"
+
+#~ msgid "Brightness down"
+#~ msgstr "Zvogëlo ndriçimin"
+
+#~ msgid "Brightness down's shortcut."
+#~ msgstr "Shtegu për të ulur ndriçimin."
+
+#~ msgid "Brightness up"
+#~ msgstr "Rrit ndriçimin"
+
+#~ msgid "Brightness up's shortcut."
+#~ msgstr "Shtegu për të rritur ndriçimin."
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Shtegu për e-mail."
+
+#~ msgid "Eject's shortcut."
+#~ msgstr "Shtegu për nxjerrjen jashtë."
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Shtegu për kartelën personale"
+
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Shtegu për hapjen e shfletuesit të ndihmës."
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Shtegu për nisjen e shfletuesit web."
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Shtegu për kyçjen e ekranit."
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Shtegu për përfundimin e seancës."
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Shtegu i tastit \"pista pasardhëse\"."
+
+#~ msgid "Pause"
+#~ msgstr "Pushim"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Shtegu i tastit \"Pushim\"."
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Shtegu i tastit \"Luaj (ose luaj/pusho)\"."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Shtegu i tastit \"pista paraardhëse\"."
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Shtegu për \"Kërko\"."
+
+#~ msgid "Sleep"
+#~ msgstr "Gjumë"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Shtegu për modalitetin \"Gjumë\"."
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Shtegu për tastin e ndalimit të riprodhimit."
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Shtegu për uljen e zërit."
+
+#~ msgid "Volume mute's shortcut"
+#~ msgstr "Shtegu për uljen e volumit të zërit në zero"
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "Shtegu për ngritjen e zërit"
+
+#~ msgid ""
+#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
+#~ "Useful for re-applying xmodmap based adjustments"
+#~ msgstr ""
+#~ "Një grup programesh të shkurtër (script) për tu ekzekutuar sa herë që "
+#~ "gjendja e tastierës ringarkohet. E nevojshme për ri-aplikimin e "
+#~ "rregullimeve të bazuara në xmodmap"
+
+#~ msgid "A list of modmap files available in the $HOME directory."
+#~ msgstr "Një listë me file modmap në dispozicion tek kartela $HOME."
+
+#~ msgid "Default group, assigned on window creation"
+#~ msgstr "Grupi i parazgjedhur, i caktuar kur krijohet dritarja"
+
+#~ msgid "Keep and manage separate group per window"
+#~ msgstr "Mban dhe organizon një grup të veçantë për dritare"
+
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Trajtuesit e refreskimit të tastierës"
+
+#~ msgid "Keyboard layout"
+#~ msgstr "Planimetria e tastierës"
+
+#~ msgid "Keyboard model"
+#~ msgstr "Modeli i tastierës"
+
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr ""
+#~ "Rregullimet e tastierës në gconf do të mbishkruhen sa më shpejt nga "
+#~ "rregullimet e sistemit (nuk përdoret më)"
+
+#~ msgid "Save/restore indicators together with layout groups"
+#~ msgstr "Ruaj/rivendos treguesit së bashku me grupet e planimetrive"
+
+#~ msgid "Show layout names instead of group names"
+#~ msgstr "Shfaq emrat e planimetrive në vend të emrave të grupeve"
+
+#~ msgid ""
+#~ "Show layout names instead of group names (only for versions of XFree "
+#~ "supporting multiple layouts)"
+#~ msgstr ""
+#~ "Shfaq emrat e planimetrive në vend të emrave të grupeve (vetëm për "
+#~ "versionet e XFree që suportojnë planimetri shumëfishe)"
+
+#~ msgid "Suppress the \"X sysconfig changed\" warning message"
+#~ msgstr "Ndaluar mesazhi paralajmërues \"Konfigurimi i sistemit X ndryshoi\""
+
+#~ msgid ""
+#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
+#~ "configuration) This key has been deprecated since GNOME 2.12, please "
+#~ "unset the model, layouts and options keys to get the default system "
+#~ "configuration."
+#~ msgstr ""
+#~ "Shumë shpejt, rregullimet e tastierës në gconf do të mbishkruhen (nga "
+#~ "konfigurimi i sistemit). Ky çelës është lënë mënjanë që nga GNOME 2.12, "
+#~ "të lutem zbraz kyçet \"model\", \"layouts\" e \"options\"për të marrë "
+#~ "konfigurimin e parazgjedhur të sistemit."
+
+#~ msgid "keyboard layout"
+#~ msgstr "planimetria e tastierës"
+
+#~ msgid "keyboard model"
+#~ msgstr "modeli i tastierës"
+
+#~ msgid "modmap file list"
+#~ msgstr "lista me file modmap"
+
+#~ msgid "About GNOME Typing Monitor"
+#~ msgstr "Informacione mbi kontrollin e shkrimit të GNOME"
+
+#~ msgid "Orientation"
+#~ msgstr "Drejtimi"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Drejtimi i zonës së njoftimit."
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "Ai budalaala rrot nuk më le të shoh përpara. 0123456789"
+
+#~ msgid "Name:"
+#~ msgstr "Emri:"
+
+#~ msgid "Style:"
+#~ msgstr "Stili:"
+
+#~ msgid "Type:"
+#~ msgstr "Lloji:"
+
+#~ msgid "Size:"
+#~ msgstr "Madhësia:"
+
+#~ msgid "Version:"
+#~ msgstr "Versioni:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Copyright:"
+
+#~ msgid "Description:"
+#~ msgstr "Përshkrimi:"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "përdorimi: %s file_i_gërmave\n"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "Cakto si gërmat e prezgjedhura"
+
+#~ msgid "Sets the default application font"
+#~ msgstr "Cakto gërmat e parazgjedhura të programeve"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Nëse e vendosur në \"true\", shkronjat OpenType do të minjaturizohen."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Nëse e vendosur në \"true\", shkronjat PCF do të minjaturizohen."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Nëse e vendosur në \"true\", shkronjat TrueType do të minjaturizohen."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Nëse e vendosur në \"true\", shkronjat Type1 do të minjaturizohen."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Vendos vlerën e këtij tasti tek komanda e përdorur për të krijuar "
+#~ "minjaturizime për shkronjat OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Vendos vlerën e këtij tasti tek komanda e përdorur për të krijuar "
+#~ "minjaturizime për shkronjat PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Vendos vlerën e këtij tasti tek komanda e përdorur për të krijuar "
+#~ "minjaturizime për shkronjat TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Vendos vlerën e këtij tasti tek komanda e përdorur për të krijuar "
+#~ "minjaturizime për shkronjat Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Komanda e minjaturizimit për shkronjat OpenType"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Komanda e minjaturizimit për shkronjat PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Komanda e minjaturizimit për shkronjat TrueType"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Komanda e minjaturizimit për shkronjat Type1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Nëse duhen krijuar minjatura për gërmat OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Nëse duhen krijuar minjatura për gërmat PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Nëse duhen krijuar minjatura për gërmat TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Nëse duhen krijuar minjatura për gërmat Type1"
+
+#~ msgid "GNOME Font Viewer"
+#~ msgstr "Shikuesi i gërmave të GNOME"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr ""
+#~ "<span ëeight=\"bold\" size=\"larger\">Aplikon shkronjat e reja?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "Mos apliko shkro_njat"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "Tema që keni zgjedhur këshillon një lloj të ri gërme. Pamja e parë e "
+#~ "shkronjave shfaqet këtu poshtë."
+
+#~ msgid "_Apply font"
+#~ msgstr "_Apliko shkronjat"
+
+#~ msgid "Themes"
+#~ msgstr "Temat"
+
+#~ msgid "Description"
+#~ msgstr "Përshkrimi"
+
+#~ msgid "Control theme"
+#~ msgstr "Tema e kontrolleve"
+
+#~ msgid "Window border theme"
+#~ msgstr "Tema e bordit të dritares"
+
+#~ msgid "Icon theme"
+#~ msgstr "Tema e ikonave"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ëçàòùèéìËÇÈÒÀÙÉÌ"
+
+#~ msgid "Apply theme"
+#~ msgstr "Apliko temën"
+
+#~ msgid "Sets the default theme"
+#~ msgstr "Cakto temën e parazgjedhur"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr ""
+#~ "Nëse e vendosur në \"true\", do të shfaqen minjaturat e temave të "
+#~ "instaluara."
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "Nëse e vendosur në \"true\", temat do të minjaturizohen."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Vendos këtë kyç me komandën e përdorur për të krijuar minjaturizime për "
+#~ "temat e instaluara."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "Vendos këtë kyç me komandën e përdorur për të krijuar minjaturizime për "
+#~ "temat."
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "Komanda e minjaturizimit për temat e instaluara"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "Komanda e minjaturizimit për temat"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Tregon nëse duhen gjeneruar miniaturat e temave të instaluara"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Tregon nëse duhen gjeneruar miniaturat e temave"

@@ -1,175 +1,3827 @@
+# #-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#
 # DrWright
 # Copyright (C) 2002 Luc Roobrouck <luc.roobrouck(at)pandora.be>
 # This file is distributed under the same license as the DrWright package.
 # Luc Roobrouck <luc.roobrouck(at)pandora.be>
-# 
+#
+# #-#-#-#-#  nl.po (gnome-settings-daemon)  #-#-#-#-#
+# Dutch translation for Gnome Settings Daemon
+#
+# This file is distributed under the same license as the gnome-settings-daemon
+# package.
+#
+# Bas Wagter <B.J.Wagter@bk.tudelft.nl>
+# Linux-ondersteuning: Hein-Jan Leliveld <h.j.leliveld@student.tn.tudelft.nl>
+# Dennis Smit <synap@area101.penguin.nl>, 2000
+# Almer S. Tigelaar <almer@gnome.org>, 2001
+# Jan-Willem Harmanny <jwharmanny@hotmail.com>, 2002
+# Huib Kleinhout <huib@stack.nl>, 2002
+# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002
+# Reinout van Schouwen <reinouts@gnome.org>, 2002-2008
+# Tino Meinen <a.t.meinen@chello.nl>, 2004, 2006, 2007, 2008
+# Wouter Bolsterlee <wbolster@gnome.org>, 2006, 2008–2009
+# Rob van den Berg <linuxned@gmail.com>, 2010
+# Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>, 2010
+#
+# #-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#
+# Dutch translation for gnome-control-center
+#
+# This file is distributed under the same license as the gnome-control-center
+# package.
+#
+# Bas Wagter <B.J.Wagter@bk.tudelft.nl>
+# Hein-Jan Leliveld <h.j.leliveld@student.tn.tudelft.nl>
+# Dennis Smit <synap@area101.penguin.nl>, 2000
+# Almer S. Tigelaar <almer@gnome.org>, 2001
+# Jan-Willem Harmanny <jwharmanny@hotmail.com>, 2002
+# Huib Kleinhout <huib@stack.nl>, 2002
+# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002
+# Reinout van Schouwen <reinout@cs.vu.nl>, 2002–2008
+# Tino Meinen <tino.meinen@gmail.com>, 2004, 2006, 2007, 2009
+# Wouter Bolsterlee <wbolster@gnome.org>, 2006, 2008.
+#
+# Desktop - werkblad
+# Wallpaper - achtergrond
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DrWright 0.13\n"
+"Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-09 03:04+0200\n"
-"PO-Revision-Date: 2003-05-07 18:08+0100\n"
-"Last-Translator: Luc Roobrouck <luc.roobrouck(at)pandora.be>\n"
-"Language-Team: Dutch <nl@li.org>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2010-09-04 14:55+0100\n"
+"Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+"#-#-#-#-#  nl.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
-
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
-
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Pauze</b>"
-
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Werk</b>"
-
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Uitstellen toestaan"
-
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "DrWright Voorkeuren"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Tijdsduur van de pauze wanneer typen niet mogelijk is"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Tijdsduur van de waarschuwing voorafgaande aan een pauze"
-
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Tijdsduur om te werken vooraleer te pauzeren"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Optionele zin om te gebruiken bij het uitstellen van een pauze"
-
-#: data/glade/drw-preferences.glade.h:11
-msgid "_Allow postponing of breaks"
-msgstr "_Uitstellen van een pauze toestaan"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "_Pauze-interval duurt"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "W_aarschuwingstijd is</b>"
-
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "_Werk-interval duurt"
-
-#: data/glade/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "minuten"
-
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright is al actief."
-
-#: src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+#: ../src/main.c:63
+#, fuzzy
+msgid "Enable debugging code"
 msgstr ""
-"DrWright gebruikt het mededelingengebied om informatie weer te geven. U "
-"heeft blijkbaar het mededelingengebied niet ingeschakeld op uw paneel. U kan "
-"dit toevoegen door met de rechtermuisknop te klikken op het paneel en "
-"Toevoegen aan paneel -> Gereedschap -> Mededelingengebied te kiezen."
+"#-#-#-#-#  nl.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Debug-code inschakelen\n"
+"#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+"Debugging-code inschakelen"
 
-#: src/drwright.c:138
-msgid "/_Enabled"
-msgstr "/_Ingeschakeld"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "Niet nagaan of het mededelingengebied bestaat"
 
-#: src/drwright.c:139
-msgid "/_Take a Break"
-msgstr "/_Neem een pauze"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "Typ-observatie"
 
-#: src/drwright.c:141
-msgid "/_Preferences"
-msgstr "/_Voorkeuren"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"De type-observatie gebruikt het mededelingengebied om informatie weer te "
+"geven. U heeft schijnbaar geen mededelingengebied op uw paneel. U kunt dit "
+"toevoegen door met de rechtermuisknop te klikken op het paneel en 'Toevoegen "
+"aan paneel' te kiezen, 'Mededelingengebied' te selecteren en op 'Toevoegen' "
+"te klikken."
 
-#: src/drwright.c:142
-msgid "/_About"
-msgstr "/I_nfo"
+#: ../src/drwright.c:142
+msgid "_Take a Break"
+msgstr "_Pauze nemen"
 
-#: src/drwright.c:144
-msgid "/_Remove Icon"
-msgstr "/Pictogram ver_wijderen"
-
-#: src/drwright.c:475
+#: ../src/drwright.c:504
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
-#: src/drwright.c:493
+#: ../src/drwright.c:513
 #, c-format
-msgid "%d minutes until the next break"
-msgstr "%d minuten tot de volgende pauze"
+msgid "Take a break now (next in %dm)"
+msgstr ""
 
-#: src/drwright.c:496
-msgid "One minute until the next break"
-msgstr "Nog één minuut tot de volgende pauze"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minuut tot de volgende pauze"
+msgstr[1] "%d minuten tot de volgende pauze"
 
-#: src/drwright.c:498
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr ""
+
+#: ../src/drwright.c:523
+#, fuzzy, c-format
 msgid "Less than one minute until the next break"
-msgstr "Nog minder dan één minuut tot de volgende pauze"
+msgstr ""
+"#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+"Nog minder dan één minuut tot de volgende pauze\n"
+"#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+"Minder dan een minuut tot de volgende pauze"
 
-#: src/drwright.c:609
-msgid "Quit DrWright?"
-msgstr "DrWright Afsluiten?"
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Niet in staat het tikpauze-eigenschappenvenster te tonen, als gevolg van de "
+"volgende foutmelding: %s"
 
-#: src/drwright.c:610
-msgid "Don't forget to take regular breaks."
-msgstr "Vergeet niet om regelmatig te pauzeren."
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Geschreven door Richard Hult <richard@imendio.com>"
 
-#: src/drwright.c:621
-msgid "Don't Quit"
-msgstr "Niet Afsluiten"
-
-#: src/drwright.c:625
-msgid "Quit"
-msgstr "Afsluiten"
-
-#: src/drwright.c:674
-msgid "About DrWright"
-msgstr "Over DrWright"
-
-#: src/drwright.c:699
-msgid "A computer break reminder."
-msgstr "Een programma dat je eraan herinnert regelmatig een pauze te nemen."
-
-#: src/drwright.c:700
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Geschreven door Richard Hult &lt;richard@imendio.com&gt;"
-
-#: src/drwright.c:701
+#: ../src/drwright.c:629
+#, fuzzy
 msgid "Eye candy added by Anders Carlsson"
-msgstr "\"Eye candy\" toegevoegd door Anders Carlsson"
+msgstr ""
+"#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+"\"Eye candy\" toegevoegd door Anders Carlsson\n"
+"#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+"Tierelantijntjes toegevoegd door Anders Carlsson"
 
-#: src/drwright.c:868
-msgid "Break reminder"
-msgstr "Een programma dat je eraan herinnert regelmatig een pauze te nemen."
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+"Een programma dat je eraan herinnert regelmatig een pauze te nemen.\n"
+"#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+"Een programma dat u herinnert te pauzeren bij computergebruik"
 
-#: src/drw-break-window.c:208
-msgid "_Postpone break"
-msgstr "_Pauze uistellen"
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+"Tino Meinen\n"
+"Wouter Bolsterlee\n"
+"Reinout van Schouwen\n"
+"Ronald Hummelink\n"
+"Huib Kleinout\n"
+"Jan-Willem Harmanny\n"
+"Almer Tigelaar\n"
+"Dennis Smit\n"
+"\n"
+"Kijk voor meer informatie op http://nl.gnome.org/"
 
-#: src/drw-break-window.c:251
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "_Pauze uitstellen"
+
+#: ../src/drw-break-window.c:227
+#, fuzzy
 msgid "Take a break!"
-msgstr "Neem een pauze!"
+msgstr ""
+"#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+"Neem een pauze!\n"
+"#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+"Neem even pauze!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Of de schermlezer ingeschakeld is."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Of de schermlezer ingeschakeld is."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Tikpauze"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr "_Uitstellen van een pauze toestaan"
+
+# betere vertaling nodig?
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "_Pauzeduur:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "Scherm ve_rgrendelen om tikpauze af te dwingen"
+
+# betere vertaling nodig?
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "_Werkduur:"
+
+#: ../src/drwright-panel.glade.h:5
+msgid "minutes"
+msgstr "minuten"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pauze</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Werk</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+#~ "Uitstellen toestaan\n"
+#~ "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Nagaan of pauzes uitstellen is toegestaan"
+
+#~ msgid "DrWright Preferences"
+#~ msgstr "DrWright Voorkeuren"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+#~ "Tijdsduur van de pauze wanneer typen niet mogelijk is\n"
+#~ "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Tijdsduur van de pauze waarin typen niet is toegestaan"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Tijdsduur van de waarschuwing voorafgaande aan een pauze"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+#~ "Tijdsduur om te werken vooraleer te pauzeren\n"
+#~ "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Tijdsduur om te werken vóór een verplichte pauze"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Optionele zin om te gebruiken bij het uitstellen van een pauze"
+
+#~ msgid "_Break interval lasts"
+#~ msgstr "_Pauze-interval duurt"
+
+#~ msgid "_Warning time is"
+#~ msgstr "W_aarschuwingstijd is</b>"
+
+#~ msgid "_Work interval lasts"
+#~ msgstr "_Werk-interval duurt"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright is al actief."
+
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright gebruikt het mededelingengebied om informatie weer te geven. U "
+#~ "heeft blijkbaar het mededelingengebied niet ingeschakeld op uw paneel. U "
+#~ "kan dit toevoegen door met de rechtermuisknop te klikken op het paneel en "
+#~ "Toevoegen aan paneel -> Gereedschap -> Mededelingengebied te kiezen."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Ingeschakeld"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Neem een pauze"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Voorkeuren"
+
+#~ msgid "/_About"
+#~ msgstr "/I_nfo"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/Pictogram ver_wijderen"
+
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d minuten tot de volgende pauze"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Nog één minuut tot de volgende pauze"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright Afsluiten?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergeet niet om regelmatig te pauzeren."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Niet Afsluiten"
+
+#~ msgid "Quit"
+#~ msgstr "Afsluiten"
+
+#~ msgid "About DrWright"
+#~ msgstr "Over DrWright"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Geschreven door Richard Hult &lt;richard@imendio.com&gt;"
+
+#~ msgid "Break reminder"
+#~ msgstr "Een programma dat je eraan herinnert regelmatig een pauze te nemen."
+
+#~ msgid "_Postpone break"
+#~ msgstr "_Pauze uistellen"
+
+#, fuzzy
+#~ msgid "Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  nl.po (DrWright 0.13)  #-#-#-#-#\n"
+#~ "Instellingen\n"
+#~ "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Voorkeuren"
+
+#~ msgid "Accessibility"
+#~ msgstr "Toegankelijkheid"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Vrije ruimte percentagenotificatiedrempel"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Vrije ruimte geen notificatiedrempel"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Minimum notificatieperiode voor herhaalde waarschuwingen"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Te negeren aankoppelpaden"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown"
+#~ msgstr ""
+#~ "Vrije ruimte percentagedrempel voor eerste waarschuwing voor weinig "
+#~ "schijfruimte. Indien het percentage vrije ruimte hieronder zakt, zal er "
+#~ "een waarschuwing gegeven worden"
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Specificeer een lijst met te negeren aankoppelpaden bij weinig "
+#~ "schijfruimte."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Specificeer een tijd in minuten, zodat waarschuwingen voor een volume "
+#~ "niet vaker zullen verschijnen dan deze periode."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown"
+#~ msgstr ""
+#~ "Specificeer een hoeveelheid in GB. Indien de vrije ruimte groter is dan "
+#~ "dit, zal er geen waarschuwing getoond worden"
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning"
+#~ msgstr ""
+#~ "Specificeer het percentage dat de vrije schijfruimte af moet nemen "
+#~ "voordat er een volgende waarschuwing gegeven wordt"
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Volgende vrije ruimte percentagenotificatiedrempel"
+
+#~ msgid "Binding to eject an optical disk."
+#~ msgstr "Sneltoets voor het uitwerpen van een optische schijf."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Sneltoets om het touchpad in- of uit te schakelen."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Sneltoets om de rekenmachine te starten."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Sneltoets om het e-mailprogramma te starten."
+
+# openen/tonen
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Sneltoets om de hulp te openen."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Sneltoets om de mediaspeler te starten."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Sneltoets om het zoekprogramma te starten."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Sneltoets om de webbrowser te starten."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Sneltoets om het scherm te vergrendelen."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Sneltoets om af te melden."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Sneltoets om het geluid zachter te zetten."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Sneltoets om het geluid te dempen."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Sneltoets om de persoonlijke map te openen."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Sneltoets om afspelen te pauzeren."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Sneltoets om het geluid harder te zetten."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Sneltoets om naar het volgende nummer te gaan."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Sneltoets om naar het vorige nummer te gaan."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Sneltoets om af te spelen (of te schakelen tussen afspelen/pauzeren)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Sneltoets om afspelen te stoppen."
+
+#~ msgid "Eject"
+#~ msgstr "Uitwerpen"
+
+#~ msgid "Home folder"
+#~ msgstr "Persoonlijke map"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Rekenmachine starten"
+
+#~ msgid "Launch email client"
+#~ msgstr "E-mailprogramma starten"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Hulp openen"
+
+#~ msgid "Launch media player"
+#~ msgstr "Mediaspeler starten"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Webbrowser starten"
+
+#~ msgid "Lock screen"
+#~ msgstr "Scherm vergrendelen"
+
+#~ msgid "Log out"
+#~ msgstr "Afmelden"
+
+# naar volgende nummer/volgende nummer
+#~ msgid "Next track"
+#~ msgstr "Volgende nummer"
+
+# pauzeren/afspelen pauzeren
+#~ msgid "Pause playback"
+#~ msgstr "Afspelen pauzeren"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Afspelen (of afspelen/pauzeren)"
+
+#~ msgid "Previous track"
+#~ msgstr "Vorige nummer"
+
+#~ msgid "Search"
+#~ msgstr "Zoeken"
+
+# stoppen/afspelen stoppen
+#~ msgid "Stop playback"
+#~ msgstr "Afspelen stoppen"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Touchpad in- of uitchakelen"
+
+#~ msgid "Volume down"
+#~ msgstr "Geluid zachter"
+
+#~ msgid "Volume mute"
+#~ msgstr "Geluid dempen"
+
+# geluidstapjes/volumestapjes
+#~ msgid "Volume step"
+#~ msgstr "Geluid-stapgrootte"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Geluid-stapgrootte als percentage van volume."
+
+#~ msgid "Volume up"
+#~ msgstr "Geluid harder"
+
+#~ msgid ""
+#~ "If a notification icon with display related things should be shown in the "
+#~ "panel."
+#~ msgstr ""
+#~ "Of een mededelingspictogram met weergavegerelateerde zaken getoond moet "
+#~ "worden in het paneel."
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Schermen tonen in mededelingengebied"
+
+# gladmaken/wazig maken/afronden/rond maken/bijvijlen
+#~ msgid "Antialiasing"
+#~ msgstr "Gladmaken"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr ""
+#~ "#-#-#-#-#  nl.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Hinten\n"
+#~ "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Vormhints"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA-volgorde"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "De volgorde van subpixel-elementen op een LCD-scherm; wordt alleen "
+#~ "gebruikt wanneer gladmaken (antialiasing) ingesteld is op ‘rgba’. "
+#~ "Mogelijke waardes zijn: ‘rgb’ voor rood op links (meest voorkomend), "
+#~ "‘bgr’ voor blauw op links, ‘vrgb’ voor rood bovenop, ‘vbgr’ voor rood "
+#~ "onderop."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "De resolutie die gebruikt wordt voor het omrekenen van lettertypegroottes "
+#~ "naar beeldpuntgroottes, in punten per inch."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Het type gladmaken (antialiasing) dat gebruikt wordt bij het weergeven "
+#~ "van lettertekens. Mogelijke waardes zijn: ‘none’ voor niet gladmaken, "
+#~ "‘grayscale’ voor standaard gladmaken met grijswaarden, en ‘rgba’ voor "
+#~ "subpixel gladmaken (alleen bij LCD-schermen)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Het type hinten dat gebruikt wordt bij het renderen van lettertekens. "
+#~ "Mogelijke waarden zijn: ‘none’ voor niet hinten, ‘slight’ voor weinig, "
+#~ "‘medium’ voor gemiddeld, en ‘full’ voor maximaal hinten (kan vervorming "
+#~ "van letters veroorzaken)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Toegestane toetsen"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Indien niet leeg zullen sneltoetsen genegeerd worden, tenzij het GConf-"
+#~ "pad in de lijst voorkomt. Dit is handig voor het vergrendelen van "
+#~ "bepaalde functionaliteit."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Touchpad uitschakelen tijdens het typen"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Horizontaal schuiven inschakelen"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Muisklikken met touchpad inschakelen"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Touchpad inschakelen"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Selecteer de touchpad-scrollmethode"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~ "- edge scrolling, 2 - two-finger scrolling"
+#~ msgstr ""
+#~ "Selecteer de touchpad-scrollmethode. Keuzemogelijkheden: 0 - "
+#~ "uitgeschakeld, 1 - hoekscrollen, 2 - twee-vingerscrollen"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Schakel dit in wanneer u problemen heeft met het per ongeluk aanraken van "
+#~ "uw touchpad tijdens het typen."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Schakel dit in voor horizontaal scrollen met dezelfde methode die is "
+#~ "ingesteld bij de scroll_methodesleutel."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Schakel dit in voor de mogelijkheid om te klikken met uw muis door te "
+#~ "tikken op het touchpad."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Schakel dit in om alle touchpads te activeren."
+
+# behouden/gebruiken
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Gnome-instellingenvoorziening"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Sneltoets om het vergrootglas aan of uit te zetten."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr ""
+#~ "Sneltoets om het schermtoetsenbord op het scherm aan of uit te zetten."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Sneltoets om de schermlezer aan of uit te zetten."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Kaatstoetsen"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Gebruikte opdracht voor het aan- of uitzetten van het vergrootglas."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr ""
+#~ "Gebruikte opdracht voor het aan- of uitzetten van het schermtoetsenbord."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Gebruikte opdracht voor het aan- of uitzetten van de schermlezer."
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Toetsenbordtoegankelijkheidsplug-in activeren"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Achtergrondplug-in activeren"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Klembordplug-in activeren"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Lettertypeplug-in activeren"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Schoonmaakplug-in activeren"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Sneltoetsenplug-in activeren"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Toetsenbordplug-in activeren"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Mediatoetsenplug-in activeren"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Muisplug-in activeren"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Geluidplug-in activeren"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Tikpauzeplug-in activeren"
+
+#~ msgid "Enable xrandr plugin"
+#~ msgstr "Xrandr-plug-in activeren"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Xrdb-plug-in activeren"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Xsettings-plug-in activeren"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Muistoetsen"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Schermtoetsenbord"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Schermvergroter"
+
+#~ msgid "Screen reader"
+#~ msgstr "Schermlezer"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de schoonmaakplug-in voor het verwijderen van "
+#~ "tijdelijke bestanden geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plug-in voor het beheren van het klembord "
+#~ "geactiveerd."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plug-in voor het beheren van de "
+#~ "werkbladachtergrond geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plug-in voor het beheren van het lettertype "
+#~ "geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plug-in voor het beheren van het "
+#~ "toetsenbord geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plug-in voor het beheren van de muis "
+#~ "geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plug-in voor het beheren van de "
+#~ "multimediatoetsen geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plug-in voor het beheren van het "
+#~ "geluidsamples geactiveerd."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plugin voor het beheren van toetsenbord-"
+#~ "toegankelijkheid geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plugin voor het beheren van de sneltoetsen "
+#~ "geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plugin voor het beheren van tikpauzes "
+#~ "geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plugin voor het beheren van xrandr "
+#~ "geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plugin voor het beheren van xrdb "
+#~ "geactiveerd."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Indien ingeschakeld, wordt de plugin voor het beheren van xsettings "
+#~ "geactiveerd."
+
+#~ msgid "Slow keys"
+#~ msgstr "Trage Toetsen"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Plaktoetsen"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "De naam van de sneltoets om het vergrootglas aan of uit te zetten."
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr ""
+#~ "De naam van de sneltoets om het toetsenbord op het scherm aan of uit te "
+#~ "zetten."
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "De naam van de sneltoets om de schermlezer aan of uit te zetten."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Dit is de naam van de sneltoets om het vergrootglas aan of uit te zetten. "
+#~ "Deze naam wordt getoond in de het sneltoetsen-voorkeurenvenster."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "De naam van de sneltoets om het toetsenbord op het scherm aan of uit te "
+#~ "zetten.Deze naam wordt getoond in de het sneltoetsen-voorkeurenvenster."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "De naam van de sneltoets om de schermlezer aan of uit te zetten. Deze "
+#~ "naam wordt getoond in het dialoogvenster sneltoetsvoorkeuren."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Vergrootglas aan- of uitzetten"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Toetsen_bord-op-scherm aan- of uitzetten"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Schermle_zer aan- of uitzetten"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Of toegankelijkheidsondersteuning voor kaatstoetsen ingeschakeld is."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "Of toegankelijkheidsondersteuning voor muistoetsen ingeschakeld is."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Of het toetsenbord op het scherm ingeschakeld is"
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Of het schermvergrootglas ingeschakeld is."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Of toegankelijkheidsondersteuning voor trage toetsen ingeschakeld is."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Of toegankelijkheidsondersteuning voor plaktoetsen ingeschakeld is."
+
+# Vrij vertaald (Wouter Bolsterlee)
+#~ msgid "Don't become a daemon"
+#~ msgstr "Niet als daemon uitvoeren"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "GConf-prefix waarmee plugin-instellingen worden uitgevoerd"
+
+#~ msgid "Exit after a time - for debugging"
+#~ msgstr "Na enige tijd afsluiten - voor debuggen"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Toetsenbord-toegankelijkheid"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Toetsenbord-toegankelijkheid-plugin"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Er is een fout opgetreden bij de hulpweergave: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Wilt u Trage Toetsen activeren?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Wilt u Trage Toetsen deactiveren?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "U heeft zojuit de Shift toets gedurende 8 seconden ingedrukt gehouden.  "
+#~ "Dat is de sneltoets voor de langzame toetsen modus hetgeen invloed heeft "
+#~ "op de manier waarop het toetsenbord functioneert."
+
+#~ msgid "Don't activate"
+#~ msgstr "Niet activeren"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Niet deactiveren"
+
+#~ msgid "Activate"
+#~ msgstr "Activeren"
+
+# uitzetten
+#~ msgid "Deactivate"
+#~ msgstr "Deactiveren"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_Niet activeren"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "_Niet deactiveren"
+
+#~ msgid "_Activate"
+#~ msgstr "_Activeren"
+
+# uitzetten
+#~ msgid "_Deactivate"
+#~ msgstr "_Deactiveren"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Trage Toetsen-attendering"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Wilt u plaktoetsen activeren?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Wilt u plaktoetsen deactiveren?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "U heeft zojuist de Shift toets 5 keer op een rij ingedrukt.  Dat is de "
+#~ "sneltoets voor de plaktoetsen modus, hetgeen invloed heeft op de manier "
+#~ "waarop uw toetsenbord functioneert."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "U heeft zojuist de twee toetsen tegelijk ingedrukt of de Shift toets 5 "
+#~ "keer op een rij.  Dat zet de plaktoetsen-modus uit, hetgeen invloed heeft "
+#~ "op de manier waarop uw toetsenbord functioneert"
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Plaktoetsen-waarschuwing"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Universele toegang-voorkeuren"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Kleur_contrast verbeteren"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "_Tekst groter en makkelijker leesbaar maken"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr ""
+#~ "Toetsen in_drukken en vasthouden om ze te bevestigen (Trage Toetsen)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Toetsen_bord-op-scherm gebruiken"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Scher_mvergroter gebruiken"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Schermle_zer gebruiken"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "Dubbele toetsaanslagen ne_geren (kaatstoetsen)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "Sneltoetscombinaties één toets per keer indrukken (Plaktoetsen)"
+
+#~ msgid "Background"
+#~ msgstr "Achtergrond"
+
+#~ msgid "Background plugin"
+#~ msgstr "Achtergrondplug-in"
+
+#~ msgid "Clipboard"
+#~ msgstr "Klembord"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Klembord-plug-in"
+
+# dummy/simulatie/probeersel/test/leeg/
+#~ msgid "Dummy"
+#~ msgstr "Dummy"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Dummy-plug-in"
+
+#~ msgid "Font"
+#~ msgstr "Lettertype"
+
+#~ msgid "Font plugin"
+#~ msgstr "Lettertypeplug-in"
+
+#~ msgid "Don't show any warnings again for this filesystem"
+#~ msgstr "Geen waarschuwingen meer tonen voor dit bestandssysteem"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Geen waarschuwingen meer tonen"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Het volume ’%s’ heeft nog maar %s schijfruimte over."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Deze computer heeft nog maar %s schijfruimte over."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "U kunt schijfruimte vrijmaken door de prullenbak te legen, ongebruikte "
+#~ "bestanden of toepassingen te verwijderen of door bestanden naar een "
+#~ "andere schijf of partitie te verplaatsen."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "U kunt schijfruimte vrijmaken door ongebruikte bestanden of toepassingen "
+#~ "te verwijderen of door bestanden naar een andere schijf of partitie te "
+#~ "verplaatsen."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "U kunt schijfruimte vrijmaken door de prullenbak te legen, ongebruikte "
+#~ "bestanden of toepassingen te verwijderen of door bestanden naar een "
+#~ "externe schijf te verplaatsen."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "U kunt schijfruimte vrijmaken door ongebruikte bestanden of toepassingen "
+#~ "te verwijderen of door bestanden naar een externe schijf te verplaatsen."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Weinig schijfruimte"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Prullenbak legen"
+
+#~ msgid "Examine..."
+#~ msgstr "Onderzoeken…"
+
+#~ msgid "Ignore"
+#~ msgstr "Negeren"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Bezig met verwijderen van item %lu van %lu"
+
+#~ msgid "<i>Removing: %s</i>"
+#~ msgstr "<i>Verwijderen van: %s</i>"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Prullenbak wordt geleegd"
+
+#~ msgid "Preparing to empty trash..."
+#~ msgstr "Voorbereiden van het legen van de prullenbak…"
+
+#~ msgid "From: "
+#~ msgstr "Van:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Alle items uit de prullenbak verwijderen?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Als u ervoor kiest de prullenbak te legen, zullen alle items permanent "
+#~ "verloren gaan. U kunt de items ook afzonderlijk verwijderen."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Prullenbak legen"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Sneltoets (%s) is ongeldig"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Sneltoets (%s) is incompleet"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Er is een fout opgetreden het uitvoeren van (%s)\n"
+#~ "welke gekoppeld is aan de sleutel (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Sneltoetsen"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Sneltoetsen-plugin"
+
+#~ msgid "Keyboard"
+#~ msgstr "Toetsenbord"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Toetsenbord-plugin"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Er is een fout opgetreden bij het activeren van de XKB-configuratie.Dit "
+#~ "kan verschillende oorzaken hebben:- een fout in de libxklavier-"
+#~ "bibliotheek- een fout in de X-server (xkbcomp, xmodmap-hulpprogramma’s)- "
+#~ "X-server met incompatibele libxkbfile-implementatieX-server "
+#~ "versiegegevens:%s%d%sIndien u deze situatie als fout rapporteert, voegt u "
+#~ "dan alstublieft toe:- Het resultaat van <b>%s</b>- Het resultaat van <b>"
+#~ "%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "U gebruikt XFree 4.3.0.Er zijn bekende problemen met complexe XKB-"
+#~ "configuraties.Probeer een eenvoudiger configuratie of neem een nieuwere X-"
+#~ "serverversie."
+
+#~ msgid "Unknown"
+#~ msgstr "Onbekend"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Toetsenbordindeling ‘%s’"
+
+#~ msgid "_Groups"
+#~ msgstr "_Groepen"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Toetsenbord_voorkeuren"
+
+#~ msgid "Show Current _Layout"
+#~ msgstr "Huidige i_ndeling tonen"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "_Beschikbare bestanden:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Modmap-bestanden laden"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Wilt u de modmap-bestand(en) laden?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Dit bericht niet nogmaals weergeven"
+
+#~ msgid "_Load"
+#~ msgstr "_Laden"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Geladen bestanden:"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Toetsenbordindeling"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Kan de standaardterminal niet opvragen. Controleer of uw "
+#~ "standaardterminal-opdracht is ingesteld en naar een geldige toepassing "
+#~ "wijst."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Deze opdracht kon niet worden uitgevoerd: %s\n"
+#~ "Controleer of deze opdracht geldig is."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u audio-uitvoer"
+#~ msgstr[1] "%u audio-uitvoer"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u audio-invoer"
+#~ msgstr[1] "%u audio-invoer"
+
+#~ msgid "System Sounds"
+#~ msgstr "Systeemgeluiden"
+
+#~ msgid "Media keys"
+#~ msgstr "Mediatoetsen"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Mediatoetsen-plugin"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Kon functies voor muis-toegankelijkheid niet activeren"
+
+#~ msgid ""
+#~ "Mouse accessibility requires mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Muis-toegankelijkheid vereist dat ‘mousetweaks’ op uw systeem "
+#~ "geïnstalleerd is."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Muisvoorkeuren"
+
+#~ msgid "Mouse"
+#~ msgstr "Muis"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Muis-plugin"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Tikpauze-plugin"
+
+# draaistand/orientatie/ligging/rotatie
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Schermafmeting en draaistand instellen"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Kon de schermconfiguratie niet wisselen"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Kon schermconfiguratie niet herstellen"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "Kon de schermconfiguratie niet van een reservekopie herstellen"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] ""
+#~ "Het scherm zal ingesteld worden op de vorige instelling over %d seconde"
+#~ msgstr[1] ""
+#~ "Het scherm zal ingesteld worden op de vorige instelling over %d seconden"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Ziet het scherm er goed uit?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "De _vorige configuratie gebruiken"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "Deze configuration _houden"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "De geselecteerde schermconfiguratie kon niet worden toegepast"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Kon scherminformatie niet verversen: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Toch aan het proberen de monitorconfiguratie aan te passen."
+
+#~ msgid "<i>Rotation not supported</i>"
+#~ msgstr "<i>Rotatie niet ondersteund</i>"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Fout bij het opslaan van mointorconfiguratie"
+
+# algemeen/normaal
+#~ msgid "Normal"
+#~ msgstr "Normaal"
+
+#~ msgid "Left"
+#~ msgstr "Links"
+
+#~ msgid "Right"
+#~ msgstr "Rechts"
+
+#~ msgid "Upside Down"
+#~ msgstr "Ondersteboven"
+
+#~ msgid "_Configure Display Settings ..."
+#~ msgstr "_Scherminstellingen configureren…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Scherminstellingen configureren"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Kon de opgeslagen monitorconfiguratie niet toepassen"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Kan de persoonlijke map van gebruiker niet bepalen"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "De X-resource database beheren"
+
+#~ msgid "X Resource Database"
+#~ msgstr "X-resource database"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "GConf-sleutel %s ingesteld op type %s maar het verwachte type was %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "X-instellingen beheren"
+
+#~ msgid "X Settings"
+#~ msgstr "X-instellingen"
+
+#~ msgid "Current network location"
+#~ msgstr "Actuele netwerk-locatie"
+
+#, fuzzy
+#~ msgid "More backgrounds URL"
+#~ msgstr "_Achtergrondafbeelding opslaan"
+
+#~ msgid "Image/label border"
+#~ msgstr "Rand afbeelding/opschrift"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr ""
+#~ "Breedte van de rand om het opschrift en de afbeelding in het "
+#~ "waarschuwingsvenster"
+
+#~ msgid "Alert Type"
+#~ msgstr "Type waarschuwing"
+
+#~ msgid "The type of alert"
+#~ msgstr "Het type waarschuwingsvenster"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Waarschuwingsknoppen"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "De getoonde knoppen in het waarschuwingsvenster"
+
+#~ msgid "Show more _details"
+#~ msgstr "Meer _details tonen"
+
+#~ msgid "Select Image"
+#~ msgstr "Afbeelding selecteren"
+
+#~ msgid "No Image"
+#~ msgstr "Geen afbeelding"
+
+#~ msgid "Images"
+#~ msgstr "Afbeeldingen"
+
+#~ msgid "All Files"
+#~ msgstr "Alle bestanden"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Er is een fout opgetreden bij het ophalen van de adresboekinformatie.\n"
+#~ "Evolution Data Server kan niet omgaan met het protocol."
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Kan adresboek niet openen"
+
+#~ msgid "About %s"
+#~ msgstr "Over %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "_Adres:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "A_ssistent:"
+
+#~ msgid "About Me"
+#~ msgstr "Over mij"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "C_ity:"
+#~ msgstr "S_tad:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Bedrijf:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kale_nder:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Wachtw_oord wijzigen…"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "S_tad:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Land:"
+
+#~ msgid "Contact"
+#~ msgstr "Contactinformatie"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "_Land:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Aanmelden via _vingerafdruk uitzetten…"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Aanmelden via _vingerafdruk aanzetten…"
+
+#~ msgid "Full Name"
+#~ msgstr "Volledige naam"
+
+#~ msgid "Hom_e:"
+#~ msgstr "_Thuis:"
+
+#~ msgid "Home"
+#~ msgstr "Persoonlijke map"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Expresberichten"
+
+#~ msgid "M_SN:"
+#~ msgstr "_MSN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "_Postbus:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P_ostbus:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Persoonlijke gegevens"
+
+#~ msgid "Select your photo"
+#~ msgstr "Selecteer uw foto"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Staat/Pro_vincie:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefoon"
+
+#~ msgid "User name:"
+#~ msgstr "Gebruikersnaam:"
+
+#~ msgid "Web _log:"
+#~ msgstr "_Weblog:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Werk:"
+
+#~ msgid "Work"
+#~ msgstr "Werk"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Fax werk:"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "ZIP/_Postcode:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adres:"
+
+#~ msgid "_Department:"
+#~ msgstr "Af_deling:"
+
+#~ msgid "_GroupWise:"
+#~ msgstr "_GroupWise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "T_huispagina:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Thuis:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Manager:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Mobiel:"
+
+#~ msgid "_Profession:"
+#~ msgstr "B_eroep:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "Staat/Pro_vincie:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Titel:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Werk:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_ZIP/Postcode:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Persoonlijk informatie instellen"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "U heeft geen toegang tot het apparaat. Neem contact op met "
+#~ "systeembeheerder."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Het apparaat is al in gebruik."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Er is een interne fout opgetreden"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Geregistreerde vingerafdrukken verwijderen?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Vingerafdrukken verwijdern"
+
+# geregistreerde/opgeslagen
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Wilt u uw geregistreerde vingerafdruk verwijderen zodat "
+#~ "vingerafdrukaanmelding uitgeschakeld wordt?"
+
+#~ msgid "Done!"
+#~ msgstr "Voltooid!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Kon geen toegang krijgen tot het ‘%s’-apparaat"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Kon vingerafdruk nemen op het ‘%s’-apparaat niet starten"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Kon tot geen enkele vingerafdruklezer toegang krijgen"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Neem contact op met uw systeembeheerder voor hulp."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Vingerafdrukaanmelding aanzetten"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Om vingerafdrukaanmelding aan te zetten moet u een van uw vingerafdrukken "
+#~ "opslaan met het ‘%s’-apparaat."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Veeg de vinger over de lezer"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Plaats vinger op de lezer"
+
+#~ msgid "Left index finger"
+#~ msgstr "Linker wijsvinger"
+
+#, fuzzy
+#~ msgid "Left little finger"
+#~ msgstr "Linker wijsvinger"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Linker middelvinger"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Linker ringvinger"
+
+#~ msgid "Left thumb"
+#~ msgstr "Linker duim"
+
+#~ msgid "Other finger: "
+#~ msgstr "Andere vinger: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Rechter wijsvinger"
+
+#, fuzzy
+#~ msgid "Right little finger"
+#~ msgstr "Rechter wijsvinger"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Rechter middelvinger"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Rechter ringvinger"
+
+#~ msgid "Right thumb"
+#~ msgstr "Rechter duim"
+
+#~ msgid "Select finger"
+#~ msgstr "Vinger selecteren"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Uw vingerafdruk is opgeslagen. U kunt nu aanmelden via uw "
+#~ "vingerafdruklezer."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Dochterproces is onverwacht afgesloten"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Kon het IO-kanaal backend_stdin niet afsluiten: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Kon het IO-kanaal backend_stdout niet afsluiten: %s"
+
+# dit verschijnt onderaan het 'Change password' dialoog
+# wanneer het juiste huidige wachtwoord is ingetypt en
+# gecontroleerd. De vertaling mag ook wat langer zijn (tino)
+# Het huidige wachtwoord was juist/gecontroleerd/
+# U heeft het juiste wachtwoord ingevuld/Correct!/
+# Aanmeldingscontrole uitgevoerd/Controle voltooid/
+# Wachtwoordcontrole correct!/
+#~ msgid "Authenticated!"
+#~ msgstr "Wachtwoordcontrole voltooid!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Uw wachtwoord is gewijzigd sinds de vorige wachtwoordcontrole! Voer de "
+#~ "wachtwoordcontrole opnieuw uit."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Dat wachtwoord was onjuist."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Uw wachtwoord is gewijzigd."
+
+#~ msgid "System error: %s."
+#~ msgstr "Systeemfout: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "het wachtwoord is te kort."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Het wachtwoord is te eenvoudig."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Het oude en nieuwe wachtwoord lijken teveel op elkaar."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Het nieuwe wachtwoord moet numerieke of speciale tekens bevatten."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Het oude en nieuwe wachtwoord zijn hetzelfde."
+
+#, fuzzy
+#~ msgid "The new password has already been used recently."
+#~ msgstr "De twee wachtwoorden zijn niet gelijk."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Kan %s niet uitvoeren: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Kan back-end niet opstarten"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Er is een systeemfout opgetreden"
+
+#~ msgid "Checking password..."
+#~ msgstr "Wachtwoord controleren…"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Klik op <b>Wachtwoord wijzigen</b> om het wachtwoord te wijzigen."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Vul uw wachtwoord in bij het veld <b>Nieuw wachtwoord</b>."
+
+# intypen/invoeren
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Vul het wachtwoord opnieuw in bij het veld <b>Wachtwoord nogmaals "
+#~ "intypen</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "De twee wachtwoorden zijn niet gelijk."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "_Wachtwoord wijzigen"
+
+# venstertitel
+#~ msgid "Change password"
+#~ msgstr "Wachtwoord wijzigen"
+
+# venstertitel
+#~ msgid "Change your password"
+#~ msgstr "Uw wachtwoord wijzigen"
+
+#~ msgid "Current _password:"
+#~ msgstr "_Huidige wachtwoord:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Om uw wachtwoord te wijzigen voert u uw huidige wachtwoord in in het veld "
+#~ "hieronder en klikt u op <b>Controleren</b>.\n"
+#~ "Nadat het wachtwoord gecontroleerd is voert u uw nieuwe wachtwoord in, en "
+#~ "nog een tweede keer voor verificatie, en klikt u op <b>Wachtwoord "
+#~ "wijzigen</b>."
+
+# dit is de knop die naast het veld 'huidige wachtwoord' staat
+# als je je huidige wachtwoord hebt ingevuld en op 'Authenticate'
+# klikt (en het wachtwoord is juist) kun je je huidige wachtwoord
+# gaan wijzigen.
+# Dus letterlijke vertaling is 'Aanmeldingscontrole' maar in dit
+# geval houden we het kort en gebruiken we alleen 'Controle' (tino)
+#~ msgid "_Authenticate"
+#~ msgstr "_Controleren"
+
+#~ msgid "_New password:"
+#~ msgstr "_Nieuw wachtwoord:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Wachtwoord no_gmaals intypen:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Toe_gankelijk aanmelden"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Assisterende technologieën"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Assisterende technologie-voorkeuren"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Wijzigingen die assisterende technologie inschakelen hebben geen effect "
+#~ "totdat u zich opnieuw aanmeldt."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Sluiten en a_fmelden"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Naar Standaardtoepassingen-dialoogvenster"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Naar Toegankelijk aanmelden-dialoogvenster"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Naar dialoogvenster Toetsenbordtoegankelijkheid"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Naar dialoogvenster Muistoegankelijkheid"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "Assisterende _technologieën inschakelen"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Toetsen_bord-toegankelijkheid"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "_Muistoegankelijkheid"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "Standaard_toepassingen"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Welke toegankelijkheidsfunctionaliteit in te schakelen bij het aanmelden"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Achtergrond toevoegen"
+
+#~ msgid "All files"
+#~ msgstr "Alle bestanden"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Lettertype is mogelijk te groot"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Het geselecteerde lettertype heeft puntgrootte %d. Deze grootte kan het "
+#~ "effectief gebruik van de computer bemoeilijken. Het is aanbevolen dat u "
+#~ "afmetingen kiest die kleiner zijn dan %d."
+#~ msgstr[1] ""
+#~ "Het geselecteerde lettertype heeft puntgrootte %d. Deze grootte kan het "
+#~ "effectief gebruik van de computer bemoeilijken. Het is aanbevolen dat u "
+#~ "afmetingen kiest die kleiner zijn dan %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Het geselecteerde lettertype heeft puntgrootte %d. Deze grootte kan het "
+#~ "effectief gebruik van de computer bemoeilijken. Een kleiner lettertype "
+#~ "wordt aanbevolen."
+#~ msgstr[1] ""
+#~ "Het geselecteerde lettertype heeft puntgrootte %d. Deze grootte kan het "
+#~ "effectief gebruik van de computer bemoeilijken. Een kleiner lettertype "
+#~ "wordt aanbevolen."
+
+#~ msgid "Use previous font"
+#~ msgstr "Vorig lettertype gebruiken"
+
+#~ msgid "Use selected font"
+#~ msgstr "Geselecteerde lettertype gebruiken"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Niet mogelijk om hoofdinterface te laden: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Geef de bestandsnaam van een thema dat geïnstalleerd moet worden"
+
+#~ msgid "filename"
+#~ msgstr "bestandsnaam"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "De naam aangeven van de te tonen pagina (thema|achtergrond|lettertypen|"
+#~ "bedieningsoppervlak)"
+
+#~ msgid "page"
+#~ msgstr "pagina"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[WERKBLADACHTERGROND...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Standaard muisaanwijzer"
+
+#~ msgid "Install"
+#~ msgstr "Installeren"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Dit thema zal er niet uitzien zoals bedoeld omdat de vereiste GTK+-"
+#~ "themamodule ‘%s’ niet is geïnstalleerd."
+
+#~ msgid "Apply Background"
+#~ msgstr "Achtergrond toepassen"
+
+#~ msgid "Apply Font"
+#~ msgstr "Lettertype toepassen"
+
+#~ msgid "Revert Font"
+#~ msgstr "Lettertype terugzetten"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Het huidige thema adviseert een achtergrond en een lettertype. U kunt ook "
+#~ "het laatst toegepaste lettertype-advies terugzetten."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Het huidige thema adviseert een achtergrond en een lettertype. U kunt ook "
+#~ "het laatst toegepaste lettertype-advies terugzetten."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Het huidige thema adviseert een achtergrond en een lettertype."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Het huidige thema adviseert een lettertype. U kunt ook het laatst "
+#~ "toegepaste lettertype-advies terugzetten."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Het huidige thema adviseert een achtergrond."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "U kunt het laatst toegepaste lettertype-advies terugzetten."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Het huidige thema adviseert een lettertype."
+
+#~ msgid "Custom"
+#~ msgstr "Aangepast"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Uiterlijk-voorkeuren"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Beste v_ormen"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Beste co_ntrast"
+
+#~ msgid "C_olors:"
+#~ msgstr "_Kleuren:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "_Aanpassen…"
+
+#~ msgid "Center"
+#~ msgstr "Centreren"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "Het wijzigen van uw cursorthema heeft pas effect vanaf de volgende keer "
+#~ "dat u zich aanmeldt."
+
+#~ msgid "Colors"
+#~ msgstr "Kleuren"
+
+# Bedieningselementen
+#~ msgid "Controls"
+#~ msgstr "Elementen"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Thema aanpassen"
+
+#~ msgid "D_etails..."
+#~ msgstr "_Details…"
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "_Bureaubladlettertype:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Details van lettertypenweergave"
+
+#~ msgid "Fonts"
+#~ msgstr "Lettertypen"
+
+#, fuzzy
+#~ msgid "Get more backgrounds online"
+#~ msgstr "_Achtergrondafbeelding opslaan"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "G_rijswaarden"
+
+#~ msgid "Icons"
+#~ msgstr "Pictogrammen"
+
+#~ msgid "Icons only"
+#~ msgstr "Alleen pictogrammen"
+
+#~ msgid "Large"
+#~ msgstr "Groot"
+
+#~ msgid "N_one"
+#~ msgstr "_Geen"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Een kleurkeuzevenster openen"
+
+#~ msgid "Pointer"
+#~ msgstr "Muisaanwijzer"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Resolutie:"
+
+#~ msgid "Rendering"
+#~ msgstr "Weergave"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Thema opslaan als…"
+
+#~ msgid "Save _As..."
+#~ msgstr "Opslaan _als…"
+
+#~ msgid "Save _background image"
+#~ msgstr "_Achtergrondafbeelding opslaan"
+
+#~ msgid "Scale"
+#~ msgstr "Schalen"
+
+#~ msgid "Small"
+#~ msgstr "Klein"
+
+#~ msgid "Smoothing"
+#~ msgstr "Gladmaken"
+
+#~ msgid "Solid color"
+#~ msgstr "Vaste kleur"
+
+#~ msgid "Stretch"
+#~ msgstr "Uitrekken"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_pixel (lcd's)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Sub_pixels gladmaken (lcd's)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Subpixel-volgorde"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Text beside items"
+#~ msgstr "Tekst naast items"
+
+#~ msgid "Text only"
+#~ msgstr "Alleen tekst"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr ""
+#~ "Het huidige thema voor bedieningselementen ondersteunt geen "
+#~ "kleurenschema's."
+
+#~ msgid "Theme"
+#~ msgstr "Thema"
+
+#, fuzzy
+#~ msgid "Tile"
+#~ msgstr "_Titel:"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Window Border"
+#~ msgstr "Vensterkader"
+
+#~ msgid "_Add..."
+#~ msgstr "_Toevoegen…"
+
+#~ msgid "_Application font:"
+#~ msgstr "_Toepassingslettertype:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Omschrijving:"
+
+#~ msgid "_Document font:"
+#~ msgstr "_Documentenlettertype:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "_Vaste breedte-lettertype:"
+
+#~ msgid "_Full"
+#~ msgstr "Vo_lledig"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "I_nvoervelden:"
+
+#~ msgid "_Install..."
+#~ msgstr "I_nstalleren"
+
+#~ msgid "_Medium"
+#~ msgstr "_Medium"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monochroom"
+
+#~ msgid "_Name:"
+#~ msgstr "_Naam:"
+
+#~ msgid "_None"
+#~ msgstr "Gee_n"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "Teru_g naar standaardinstellingen"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Gekozen items:"
+
+#~ msgid "_Size:"
+#~ msgstr "Gr_ootte:"
+
+#~ msgid "_Slight"
+#~ msgstr "Li_cht"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stijl:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Zwevende tips:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Venstertitel-lettert_ype:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Vensters:"
+
+#~ msgid "dots per inch"
+#~ msgstr "dots per inch"
+
+#~ msgid "Appearance"
+#~ msgstr "Uiterlijk"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "De achtergrond van het bureaublad instellen"
+
+# gedeelten/onderdelen
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr ""
+#~ "Installeert themapakketten voor diverse gedeelten van de werkomgeving"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Thema-installatie"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome themapakket"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Geen werkbladachtergrond"
+
+#~ msgid "Slide Show"
+#~ msgstr "Diavoorstelling"
+
+#~ msgid "Image"
+#~ msgstr "Afbeelding"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s bij %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "beeldpunt"
+#~ msgstr[1] "beeldpunten"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s bij %d %s\n"
+#~ "Map: %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s bij %d %s\n"
+#~ "Map: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Afbeelding ontbreekt"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Kan thema niet installeren"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Het hulpprogramma %s is niet geïnstalleerd."
+
+# met extra punt aan het einde van de zin.
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Er trad een probleem op bij uitpakken van het thema."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr ""
+#~ "Er is een fout opgetreden bij het installeren van het geselecteerde "
+#~ "bestand"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "‘%s’ lijkt geen geldig thema te zijn."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "‘%s’ lijkt geen geldig thema te zijn. Het zou een thema-engine kunnen "
+#~ "zijn die u eerst dient te compileren."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Installatie voor thema ‘%s’ is mislukt."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Het thema ‘%s’ is geïnstalleerd."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Wilt u dit thema nu gebruiken of wilt u uw huidige thema behouden?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Huidige thema behouden"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Nieuwe thema toepassen"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "Gnome-thema %s correct geïnstalleerd"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Aanmaken tijdelijke map mislukt"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "De nieuwe thema's zijn met succes geïnstalleerd."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Geen locatie voor installatie themabestand opgegeven"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Rechten ontoereikend om het thema te installeren in:\n"
+#~ " %s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Thema selecteren"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Thema-pakketten"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Themanaam dient aanwezig te zijn"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Het thema bestaat reeds. Wilt u het vervangen?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Overschrijven"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Wilt u dit thema verwijderen?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Thema kan niet gewist worden"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Kan themamodule niet installeren"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Niet in staat het instellingenbeheer 'gnome-settings-daemon' te starten.\n"
+#~ "Wanneer het Gnome instellingenbeheer niet actief is, zouden sommige "
+#~ "voorkeuren geen invloed kunnen hebben. Dit kan wijzen op een probleem met "
+#~ "Bonobo, of een niet-Gnome (bijvoorbeeld KDE) instellingenbeheer zou reeds "
+#~ "actief kunnen zijn en conflicteren met het Gnome instellingenbeheer."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Niet in staat pictogram ‘%s’ uit inventaris te laden\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Kopiëren van bestand: %u van %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "‘%s’ kopiëren"
+
+#~ msgid "Copying files"
+#~ msgstr "Kopiëren van bestanden"
+
+#~ msgid "Parent Window"
+#~ msgstr "Moedervenster"
+
+# het dialoog/dialoogvenster
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Moedervenster van het dialoog"
+
+#~ msgid "From URI"
+#~ msgstr "Van URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI waarvandaan wordt overgedragen"
+
+#~ msgid "To URI"
+#~ msgstr "Naar URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI waarnaartoe wordt overgedragen"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Gedeelte gedaan"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Gedeelte van overdracht dat tot nu toe gedaan is"
+
+#~ msgid "Current URI index"
+#~ msgstr "Huidige URI-index"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Huidige URI-index- begint bij 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Totaal URI's"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Totaal aantal URI's"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Het bestand ‘%s’ bestaat reeds. Wilt u het vervangen?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Overslaan"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Alle over_schrijven"
+
+#~ msgid "Key"
+#~ msgstr "Sleutel"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "GConf sleutel waaraan deze eigenschappen bewerker is verbonden"
+
+#~ msgid "Callback"
+#~ msgstr "Terugzetten"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Deze sleutel terugzetten wanneer de eraan verbonden waarde verandert"
+
+#~ msgid "Change set"
+#~ msgstr "Wijzigingenset"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf wijzigingenset met gegevens die naar de gconf client worden "
+#~ "gestuurd bij toepassen"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Conversie naar widget callback"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Callback die wordt gestuurd wanneer gegevens moeten worden omgezet van "
+#~ "GConf naar de widget"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Conversie vanuit widget callback"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Callback die wordt gestuurd wanneer gegevens moeten worden omgezet naar "
+#~ "GConf vanuit de widget"
+
+#~ msgid "UI Control"
+#~ msgstr "UI Regelaar"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Object dat de eigenschap beheert (meestal een widget)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Objectgegevens van eigenschappen-editor"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr ""
+#~ "Aangepaste gegevens benodigd door de specifieke eigenschappen-editor"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Eigenschappen-editor callback voor vrijgeven gegevens"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Callback die wordt gestuurd wanneer de objectgegevens van de "
+#~ "eigenschappen-editor vrijgegeven moeten worden"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Kon het bestand ‘%s’ niet vinden.\n"
+#~ "\n"
+#~ "Zorgt u ervoor dat het bestaat en probeer het opnieuw, of kies een andere "
+#~ "achtergrondafbeelding."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Weet niet hoe het bestand ‘%s’ te openen.\n"
+#~ "Misschien is het een soort afbeelding die nog niet\n"
+#~ "ondersteund wordt.\n"
+#~ "\n"
+#~ "Gelieve een andere afbeelding te selecteren."
+
+#~ msgid "Please select an image."
+#~ msgstr "Selecteer een afbeelding."
+
+#~ msgid "_Select"
+#~ msgstr "_Selecteren"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Standaard muisaanwijzer - huidige"
+
+#~ msgid "White Pointer"
+#~ msgstr "Witte muisaanwijzer"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Witte muisaanwijzer - huidige"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Grote muisaanwijzer"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Grote muisaanwijzer - huidige"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Grote witte muisaanwijzer - huidige"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Grote witte muisaanwijzer"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Dit thema zal er niet uitzien zoals bedoeld omdat het vereiste GTK+-thema "
+#~ "‘%s’ niet is geïnstalleerd"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Dit thema zal er niet uitzien zoals bedoeld omdat het vereiste "
+#~ "windowmanager-thema ‘%s’ niet is geïnstalleerd."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Dit thema zal er niet uitzien zoals bedoeld omdat het vereiste "
+#~ "pictogramthema ‘%s’ niet is geïnstalleerd."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Standaardtoepassingen"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Uw standaardtoepassingen selecteren"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "De standaard visueel assisterende technologie opstarten"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Visuele assistentie"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Fout bij het opslaan van configuratie: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Niet mogelijk om hoofdinterface te laden"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Zorg ervoor dat het applet correct is geïnstalleerd"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Specificeer de naam van de te tonen pagina (internet|multimedia|system|"
+#~ "a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- Gnome standaardprogrammas"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr ""
+#~ "Alle voorkomens van %s worden vervangen door een daadwerkelijke verwijzing"
+
+#~ msgid "C_ommand:"
+#~ msgstr "O_pdracht:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "O_pdracht:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Uivoeren-vlag:"
+
+#, fuzzy
+#~ msgid "Image Viewer"
+#~ msgstr "<b>Afbeeldingsweergave</b>"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Expresberichten"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "E-mailprogramma"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobiliteit"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Multimediaspeler"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Verwijzing openen in nieuw _tabblad"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Verwijzing openen in _nieuw venster"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Verwijzing openen met standaard _webbrowser"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Activeren bij _aanmelden"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Uitvoeren in _terminalvenster"
+
+#~ msgid "System"
+#~ msgstr "Systeem"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Terminal-emulator"
+
+#~ msgid "Text Editor"
+#~ msgstr "Tekst-editor"
+
+#~ msgid "Video Player"
+#~ msgstr "Video-afspeelprogramma"
+
+#~ msgid "Visual"
+#~ msgstr "Visueel"
+
+#~ msgid "Web Browser"
+#~ msgstr "Webbrowser"
+
+#~ msgid "_Run at start"
+#~ msgstr "Active_ren bij start"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee muziekspeler"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian sensible browser"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian Terminal Emulator"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany webbrowser"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution e-mailprogramma"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Vergrootglas zonder schermlezer"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Toetsenbord op scherm"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Gnome-terminal"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus met schermvergrootglas"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE-schermvergrootglas zonder schermlezer"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux-schermlezer"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linux-schermlezer met vergrootglas"
+
+#~ msgid "Listen"
+#~ msgstr "Luisteren"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine muziekspeler"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca met schermvergrootglas"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox muziekspeler"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Standaard X-terminalvenster"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem mediaspeler"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+# Onduidelijk wat hier bedoeld wordt (RvS)
+#~ msgid "Include _panel"
+#~ msgstr "Inclusief _paneel"
+
+#~ msgid "Make Default"
+#~ msgstr "Standaard"
+
+#~ msgid "Monitor"
+#~ msgstr "Beeldscherm"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Schermvoorkeuren"
+
+#~ msgid "Off"
+#~ msgstr "Uit"
+
+#~ msgid "On"
+#~ msgstr "Aan"
+
+#~ msgid "Panel icon"
+#~ msgstr "Paneelpictogram"
+
+# draaiing/rotatie
+#~ msgid "R_otation:"
+#~ msgstr "R_otatie:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Verversings_frequentie:"
+
+#~ msgid "Upside-down"
+#~ msgstr "Ondersteboven"
+
+# 'display' hier ook maar als scherm vertaald (RvS)
+#~ msgid "_Detect monitors"
+#~ msgstr "Schermen _detecteren"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Resolutie:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Schermen tonen in paneel"
+
+# 'display' hier ook maar als scherm vertaald (RvS)
+#~ msgid "Monitors"
+#~ msgstr "Schermen"
+
+#, fuzzy
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Themanaam dient aanwezig te zijn"
+
+#, fuzzy
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Kon geen toegang krijgen tot het ‘%s’-apparaat"
+
+# beeldscherm
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Kon informatie over %s niet verkrijgen: %s\n"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "U moet de eigenaar van %s zijn\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s dient een map te zijn\n"
+
+#, fuzzy
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Kon geen toegang krijgen tot het ‘%s’-apparaat"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Gespiegelde schermen"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Beeldscherm: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Kon de schermconfiguratie niet opslaan"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Kon de sessiebus niet krijgen bij het toepassen van de schermconfiguratie"
+
+# 'display' hier ook maar als scherm vertaald (RvS)
+#~ msgid "Could not detect displays"
+#~ msgstr "Kon schermen niet detecteren"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "De schermconfiguratie is opgeslagen"
+
+#, fuzzy
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Kon de schermconfiguratie niet opslaan"
+
+# beeldscherm
+#~ msgid "Could not get screen information"
+#~ msgstr "Kon informatie over het scherm niet verkrijgen"
+
+#~ msgid "Sound"
+#~ msgstr "Geluid"
+
+#~ msgid "Desktop"
+#~ msgstr "Werkomgeving"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Nieuwe sneltoets…"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Sneltoets"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Sneltoets-optietoetsen"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Sneltoets-code"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Sneltoets-modus"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Het type sneltoets"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Onbekende actie>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Aangepaste sneltoets"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Fout bij het opslaan van de nieuwe sneltoets"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "De sneltoets ‘%s’ kan niet gebruikt worden, omdat het dan onmogelijk "
+#~ "wordt deze toets te gebruiken om te typen.\n"
+#~ "Probeer het eens met een toets als Control, Alt of Shift tegelijkertijd."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "De sneltoets ‘%s’ is reeds in gebruik voor:\n"
+#~ "‘%s’"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Als u de sneltoets opnieuw toewijst aan ‘%s’ dan zal de sneltoets ‘%s’ "
+#~ "uitgeschakeld zijn."
+
+# Geen aparte vertaling voor assign/reassign
+#~ msgid "_Reassign"
+#~ msgstr "_Toewijzen"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "Fout bij het uitzetten van sneltoets in configuratiedatabase: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Te veel aangepaste sneltoetsen"
+
+#~ msgid "Action"
+#~ msgstr "Actie"
+
+#~ msgid "Shortcut"
+#~ msgstr "Sneltoets"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Aangepaste sneltoets"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Sneltoetsen"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Om een sneltoets te bewerken, klikt u op de corresponderende rij en voert "
+#~ "u een nieuwe toetscombinatie in, of drukt u op Backspace om hem te wissen."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Sneltoetsen toewijzen aan opdrachten"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Instellingen toepassen en afsluiten (enkel voor compatibiliteit; wordt nu "
+#~ "door een automatische voorziening gedaan)"
+
+# What is this message about?
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "De pagina beginnen met de tikpauze-instellingen zichtbaar"
+
+# What is this message about?
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "De pagina beginnen met de toegankelijkheidsinstellingen zichtbaar"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Gnome Toetsenbordeigenschappen"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Piepen wanneer _toegankelijkheidsfuncties aan- of uitgezet worden"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "_Piepen wanneer optietoets wordt ingedrukt"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Piepen wanneer scha_keltoets wordt ingedrukt"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Piepen wanneer een t_oets wordt ingedrukt"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Piepen wanneer toets is ge_weigerd"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Piepen wanneer toets is _geaccepteerd"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Piepen wanneer toets is ge_weigerd"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Springende toetsen"
+
+# laten knipperen/oplichten
+#~ msgid "Flash _window titlebar"
+#~ msgstr "_Titelbalk laten knipperen"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Hele _scherm laten knipperen"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Audio-terugkoppeling voor toetsenbordtoegankelijkheid"
+
+# alarmgeluid/waarschuwingsgeluid
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "_Visuele feedback tonen bij het waarschuwingsgeluid"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Trage Toetsen"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "PlakToetsen"
+
+# feedback/hints
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Visuele hints voor geluiden"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Uit_stellen van pauzes toestaan"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Audioterug_koppeling…"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Knipperen van de cursor"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Cursor _knippert in tekstvelden"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Cursorknippersnelheid"
+
+#~ msgid "D_elay:"
+#~ msgstr "Vertra_ging:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "PlakToetsen uitschake_len wanneer twee toetsen tegelijkertijd worden "
+#~ "ingedrukt"
+
+#~ msgid "Fast"
+#~ msgstr "Snel"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Toetsaanslagen _herhalen zich wanneer de toets ingedrukt blijft"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Toetsenbordeigenschappen"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Toetsenbord_model:"
+
+#~ msgid "Layouts"
+#~ msgstr "Indelingen"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Schermbeveiliging activeren na een bepaalde periode om blessures als "
+#~ "gevolg van langdurig toetsenbordgebruik te voorkomen"
+
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "MuisToetsen"
+
+#~ msgid "Move _Down"
+#~ msgstr "Naar be_neden"
+
+#~ msgid "Move _Up"
+#~ msgstr "Naar _boven"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Een diagram van de gekozen toetsenbordindeling afdrukken"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Gekozen toetsenbordindeling uit de lijst verwijderen"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Herhaaltoetsen"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Toetsherhaalsnelheid"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Terug naar stan_daardinstellingen"
+
+#~ msgid "S_peed:"
+#~ msgstr "S_nelheid"
+
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgid "Slow"
+#~ msgstr "Traag"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Toetsenbordindelingsopties bekijken en aanpassen"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "Ver_snelling:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "_Toegankelijkheidsfunctionaliteit kan worden aan- en uitgezet met "
+#~ "sneltoetsen"
+
+#~ msgid "_Delay:"
+#~ msgstr "Ver_traging:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "Snel opeenvolgende dubbele toetsaanslagen ne_geren"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "Alleen la_nge toetsaanslagen accepteren"
+
+#~ msgid "_Options..."
+#~ msgstr "_Opties…"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "De _muisaanwijzer is bestuurbaar met het nummerblok"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Aparte _groep voor elk venster"
+
+#~ msgid "_Show..."
+#~ msgstr "_Tonen…"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Gelijktijdige toetsaanslagen simuleren"
+
+#~ msgid "_Speed:"
+#~ msgstr "Sn_elheid:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Tik iets in om de instellingen te testen:"
+
+#~ msgid "By _country"
+#~ msgstr "Op la_nd:"
+
+#~ msgid "By _language"
+#~ msgstr "Op _taal"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Kies een indeling"
+
+#~ msgid "Preview:"
+#~ msgstr "Voorbeeld:"
+
+#~ msgid "_Country:"
+#~ msgstr "_Land:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Taal:"
+
+#~ msgid "_Variants:"
+#~ msgstr "Va_rianten:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Kies een toetsenbordmodel"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modellen:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Fabrikanten:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Toetsenbordindelingsopties"
+
+#~ msgid "Layout"
+#~ msgstr "Indeling"
+
+#~ msgid "Vendors"
+#~ msgstr "Fabrikanten"
+
+#~ msgid "Models"
+#~ msgstr "Modellen"
+
+#~ msgid "Default"
+#~ msgstr "Standaard"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Uw toetsenbordvoorkeuren instellen"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Beweging naar links"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Beweging naar rechts"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Beweging omhoog"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Beweging omlaag"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Uitgeschakeld"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "De naam aangeven van de te tonen pagina (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Gnome muisvoorkeuren"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Vooraf een t_ype klik kiezen"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Type klik met _muisgebaren kiezen"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "_Dubbelklik:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Slee_pklik:"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Intervaltijd voor dubbelklik"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Slepen en Neerzetten"
+
+#~ msgid "Dwell Click"
+#~ msgstr "ZweefKlik"
+
+#~ msgid "High"
+#~ msgstr "Hoog"
+
+#, fuzzy
+#~ msgid "Locate Pointer"
+#~ msgstr "Grote muisaanwijzer"
+
+#~ msgid "Low"
+#~ msgstr "Laag"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Muis-oriëntatie"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Aanwijzersnelheid"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Secundaire klik:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "P_ositie van muisaanwijzer tonen wanneer de Ctrl-toets is ingedrukt"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Kliktype_venster tonen"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Gesimuleerde secundaire klik"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Drempelwaarde:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Probeer op het lampje te dubbelklikken om uw dubbelklikinstellingen te "
+#~ "testen."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Scrollen met twee _vingers"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "<i>U kunt ook het Zwevende klik-paneelapplet gebruiken om het kliktype te "
+#~ "kiezen.</i>"
+
+#~ msgid "_Disabled"
+#~ msgstr "_Uitgeschakeld"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Scrollen met de rand"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Klik beginnen bij stoppen van muisbeweging"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Linkshandig"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "Be_wegingsdrempel:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Rechtshandig"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Gevoeligheid:"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Enkele klik:"
+
+# Is dit intervaltijd uit de dubbelklik-pref of iets anders?
+#~ msgid "_Timeout:"
+#~ msgstr "In_tervaltijd:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "Se_cundaire klik activeren door de primaire knop ingedrukt te houden"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Uw muisvoorkeuren instellen"
+
+#~ msgid "New Location..."
+#~ msgstr "Nieuwe locatie…"
+
+#~ msgid "Location already exists"
+#~ msgstr "Locatie bestaat al"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Netwerkproxy"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Netwerkproxy-voorkeuren instellen"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Directe internetverbinding</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Automatische proxyconfiguratie</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Hand_matige proxyconfiguratie</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Verificatie gebruiken</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Autoconfiguratie-_URL:"
+
+#~ msgid "C_reate"
+#~ msgstr "Aan_maken"
+
+#~ msgid "Create New Location"
+#~ msgstr "Nieuwe locatie aanmaken"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Details HTTP-proxy"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "HTT_P-proxy:"
+
+#, fuzzy
+#~ msgid "Ignore Host List"
+#~ msgstr "Genegeerde hostcomputers"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Genegeerde hostcomputers"
+
+#~ msgid "Location:"
+#~ msgstr "Locatie:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Netwerkproxy-voorkeuren"
+
+#~ msgid "Port:"
+#~ msgstr "Poort:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Proxyconfiguratie"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks-hostnaam:"
+
+#~ msgid "The location already exists."
+#~ msgstr "De locatie bestaat al."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Gebruikersnaam:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "Locatie _verwijderen"
+
+#~ msgid "_Details"
+#~ msgstr "_Details"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP-proxy:"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Locatienaam:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Wachtwoord:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Beve_iligde HTTP proxy:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Dezelfde pro_xy gebruiken voor alle protocollen"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "Kan het voorkeurenvenster voor uw window manager niet starten"
+
+#~ msgid "_Alt"
+#~ msgstr "Al_t"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "Supe_r (of “Windows-logo”)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Verplaatstoets"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Titelbalkactie"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Om een venster te verplaatsen, houdt deze toets ingedrukt en grijp het "
+#~ "venster:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Venstervoorkeuren"
+
+#~ msgid "Window Selection"
+#~ msgstr "Vensterselectie"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "Op titelbalk _dubbelklikken voert deze actie uit:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "Tijds_interval vóór verhogen:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "Geselecteerde venste_rs verhogen na een tijdsinterval"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "Vensters _selecteren wanneer de muis eroverheen beweegt"
+
+#~ msgid "seconds"
+#~ msgstr "seconden"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Venstereigenschappen instellen"
+
+#~ msgid "Windows"
+#~ msgstr "Vensters"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Window manager ‘%s’ heeft geen configuratieprogramma geregistreerd\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maximaliseren"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Verticaal maximaliseren"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Horizontaal maximaliseren"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimaliseren"
+
+#~ msgid "Roll up"
+#~ msgstr "Oprollen"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "sleutel niet gevonden [%s]\n"
+
+#~ msgid "Filter"
+#~ msgstr "Filteren"
+
+#~ msgid "Groups"
+#~ msgstr "Groepen"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Algemene taken"
+
+#~ msgid "Control Center"
+#~ msgstr "Configuratiecentrum"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Het configuratiecentrum sluiten wanneer een taak wordt geactiveerd"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr ""
+#~ "Grafische schil verlaten als een toevoeg- of verwijderactie wordt "
+#~ "uitgevoerd"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Grafische schil verlaten als een hulpactie wordt uitgevoerd"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Grafische schil verlaten als een startactie wordt uitgevoerd"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "Grafische schil verlaten als een opwaardeer- of de-installatieactie wordt "
+#~ "uitgevoerd"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr ""
+#~ "Geeft aan of de grafische schil gesloten moet worden wanneer een "
+#~ "hulpactie wordt uitgevoerd."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr ""
+#~ "Geeft aan of de grafische schil gesloten moet worden wanneer een "
+#~ "startactie wordt uitgevoerd."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Geeft of de grafische schil gesloten moet worden wanneer een toevoeg- of "
+#~ "verwijderactie wordt uitgevoerd."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Geeft aan of de grafische schil gesloten moet worden wanneer een "
+#~ "opwaardeer- of de-installatieactie wordt uitgevoerd."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Taken en bijbehorende .desktop-bestanden"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "De weer te geven taaknaam in het configuratieprogramma gevolgd door een "
+#~ "“;”-scheidingsteken en de bestandsnaam van een geassocieerd .desktop-"
+#~ "bestand dat gestart moet worden voor de betreffende taak."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Werkbladachtergond wijzigen;gtk-theme-selector.desktop,"
+#~ "Standaardtoepassingen instellen;default-applications.desktop,Printer "
+#~ "toevoegen;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "als ingesteld op waar, dan zal het configuratieprogramma sluiten wanneer "
+#~ "een “algemene taak” wordt geactiveerd."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Het Gnome-configuratieprogramma"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Indien waar, wordt een OpenType-lettertype getoond in een miniatuur."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Indien waar, wordt een PCF-lettertype getoond in een miniatuur."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Indien waar, wordt een TrueType-lettertype getoond in een miniatuur."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Indien waar, wordt een Type1-lettertype getoond in een miniatuur."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Stel deze sleutel in op de opdracht waarmee miniaturen worden gemaakt van "
+#~ "OpenType-lettertypes."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Stel deze sleutel in op de opdracht waarmee miniaturen worden gemaakt van "
+#~ "PCF-lettertypes."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Stel deze sleutel in op de opdracht waarnee miniaturen worden gemaakt van "
+#~ "TrueType-lettertypes."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Stel deze sleutel in op de opdracht waarmee miniaturen worden gemaakt van "
+#~ "Type1-lettertypes."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Opdracht voor miniatuur voor OpenType-lettertypes"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Opdracht voor miniatuur voor PCF-lettertypes"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Opdracht voor miniatuur voor TrueType-lettertypes"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Opdracht voor miniatuur voor Type1-lettertypes"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Of OpenType-lettertypes een miniatuur moeten krijgen"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Of PCF-lettertypes een miniatuur moeten krijgen"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Of TrueType-lettertypes een miniatuur moeten krijgen"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Of Type1-lettertypes een miniatuur moeten krijgen"
+
+#~ msgid "Name:"
+#~ msgstr "Naam:"
+
+#~ msgid "Style:"
+#~ msgstr "Stijl:"
+
+#~ msgid "Type:"
+#~ msgstr "Type:"
+
+#~ msgid "Size:"
+#~ msgstr "Grootte:"
+
+#~ msgid "Version:"
+#~ msgstr "Versie:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Copyright:"
+
+#~ msgid "Description:"
+#~ msgstr "Beschrijving:"
+
+#~ msgid "Installed"
+#~ msgstr "Geïnstalleerd"
+
+#~ msgid "Install Failed"
+#~ msgstr "Installatie mislukt"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "gebruik: %s lettertypebestand\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Lettertype _installeren"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Lettertypeweergave"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Lettertypen-voorbeeld bekijken"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Tekst voor in de miniatuur (standaard: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKST"
+
+# lettergrootte/grootte lettertype
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Korpsgrootte (standaard: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "GROOTTE"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "LETTERTYPEBESTAND OUTVOERBESTAND"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Fout bij het ontleden van argumenten: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Uw filter `%s` past op geen van de items."
+
+# geen/zonder
+#, fuzzy
+#~ msgid "No matches found."
+#~ msgstr "Zonder geluid"
+
+#~ msgid "Other"
+#~ msgstr "Overige"
+
+#~ msgid "Start %s"
+#~ msgstr "%s opstarten"
+
+#~ msgid "Help"
+#~ msgstr "Hulp"
+
+#~ msgid "Upgrade"
+#~ msgstr "Upgraden"
+
+#~ msgid "Uninstall"
+#~ msgstr "Deïnstalleren"
+
+# bij een browser is dit bladwijzers, maar hier is
+# favorieten/favoriet beter (favoriete programma's) (tino)
+#~ msgid "Remove from Favorites"
+#~ msgstr "Verwijderen uit favorieten"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "toevoegen aan favorieten"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Verwijderen uit de opstartprogramma's"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Toevoegen aan opstartprogramma's"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Nieuw rekenblad"
+
+#~ msgid "New Document"
+#~ msgstr "Nieuw document"
+
+#~ msgctxt "Home folder"
+#~ msgid "Home"
+#~ msgstr "Persoonlijke map"
+
+#~ msgid "Documents"
+#~ msgstr "Documenten"
+
+#~ msgid "File System"
+#~ msgstr "Bestandssysteem"
+
+#~ msgid "Network Servers"
+#~ msgstr "Netwerkservers"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Openen</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Hernoemen…"
+
+# aan/naar
+#~ msgid "Send To..."
+#~ msgstr "Verzenden naar…"
+
+#~ msgid "Move to Trash"
+#~ msgstr "In prullenbak gooien"
+
+#~ msgid "Delete"
+#~ msgstr "Verwijderen"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Weet u zeker dat u ‘%s’ blijvend wilt verwijderen?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Als u een item verwijdert, is het voorgoed verloren."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Openen met ‘%s’"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Openen met standaardprogramma"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Openen in bestandsbeheer"
+
+# bij een browser is dit bladwijzers, maar hier is
+# favorieten/favoriet beter (favoriete programma's) (tino)
+#, fuzzy
+#~ msgid "Remove from recent menu"
+#~ msgstr "Verwijderen uit favorieten"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%k:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Vandaag %k:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Gisteren %k:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %k:%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d %b %k:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Nu zoeken"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s openen</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Uit Systeemitems verwijderen"
 
 #~ msgid "Break coming up!"
 #~ msgstr "Er is een pauze op komst"
@@ -218,8 +3870,118 @@ msgstr "Neem een pauze!"
 #~ msgid "<span size=\"25000\"><b>Done</b></span>"
 #~ msgstr "<span size=\"25000\"><b>Afgelopen</b></span>"
 
-#~ msgid "Preferences"
-#~ msgstr "Instellingen"
-
 #~ msgid "Time until next break: %i minutes"
 #~ msgstr "Tijd tot de volgende pauze: %i minuten"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Plaats uw linker duim op %s"
+
+# haal uw linker duim over/veeg uw linker duim over/beweeg uw linker duim over
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Veeg uw linker duim over %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Plaats uw linker wijsvinger op %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Veeg uw linker wijsvinger over %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Plaats uw linker middelvinger op %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Veeg uw linker middelvinger over %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Plaats uw linker ringvinger op %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Veeg uw linker ringvinger over %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Plaats uw linker pink op %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Veeg uw linker pink over %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Plaats uw rechter duim op %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Veeg uw rechter duim over %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Plaats uw rechter wijsvinger op %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Veeg uw rechter wijsvinger over %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Plaats uw rechter middelvinger op %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Veeg uw rechter middelvinger over %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Plaats uw rechter ringvinger op %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Veeg uw rechter ringvinger over %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Plaats uw rechter pink op %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Veeg uw rechter pink over %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Plaats uw vinger opnieuw op de lezer"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Veeg uw vinger opnieuw over het apparaat"
+
+# vrij vertaald, de veeg was te kort is lelijk
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Het ging te snel, probeer opnieuw"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr ""
+#~ "Uw vinger was niet gecentreerd, veeg uw vinger opnieuw over het apparaat"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Haal uw vinger weg en veeg uw vinger opnieuw over het apparaat"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "Onbekend aanmeldings-ID, de gebruikersdatabase is misschien beschadigd"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "Linker duim\n"
+#~ "Linker middelvinger\n"
+#~ "Linker ringvinger\n"
+#~ "Linker pink\n"
+#~ "Rechter duim\n"
+#~ "Rechter middelvinger\n"
+#~ "Rechter ringvinger\n"
+#~ "Rechter pink"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>E-mail</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Thuis</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Werk</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Web</b>"

@@ -1,173 +1,4892 @@
+# #-#-#-#-#  el.po (el)  #-#-#-#-#
 # translation of el.po to Greek
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Kostas Papadimas <pkst@gnome.org>, 2003.
 #
+# #-#-#-#-#  el.po (el)  #-#-#-#-#
+# translation of el.po to Greek
+# control-center Greek translations.
+# Copyright (C) 2000, 2001, 2002,2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+#
+# For screensaver, picked: profilaji o8onis -simos.
+#
+# spyros: initial translation, around 300 messages.
+# Nikos:   one more review 6Sep2003
+# kostas: 15 feb 2004, update
+# Nikos: 30May2004, some fixes.
+# Nikos: 31Jul2004, some fixes.
+# Nikos 17Sep2004, some fixes.
+#
+#
+# simos: 277 messages, 19Aug2000, (24 fuzzy, 40 untranslated).
+# simos: 358 messages, 05Dec2000, updated translation.
+#      :  64 messages, 01Aug2002, due to enhancements in application.
+# nikos: 266 messages, 05Aug2002, updated translation.
+# t_p_r: 266 messages, 05Aug2002, reviewed translation.
+# simos: 329 messages, 06Aug2002, updated translation.
+# kostas: 461 messages, 18Oct2002, updated and completed translation.
+# kostas: 535 messages, 10Dec2002, reviewed and updated translation for Gnome 2.1x.
+# kostas: 533 messages, 06Jan2003, one more update.
+# kostas: 537 messages, 26Jan2003, one more update.
+# kostas:  650 messages, 22Jul2003, one more update.
+# kostas:  655 messages, 27Jul2003, one more update.
+# kostas:  674 messages, 10Aug2003, one more update.
+# Nikos:   review, 29Aug03.
+# kostas: 678 messagew,12Nov2003, updates and fixes.
+# kostas: 786 messagew,22Jan2004, updates and fixes.
+# Simos: 723 messages, 20Dec2004, fixes/updates.
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Simos Xenitellis <simos@hellug.gr>, 2000, 2001, 2002.
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2002, 2003, 2004, 2005.
+# Τα πάντα ρει <ta_panta_rei@flashmail.com>, 2002.
+# Kostas Papadimas <pkst@gnome.org>, 2002,2003, 2004, 2005, 2006, 2007.
+# Simos Xenitellis <simos74@gmx.net>, 2004.
+# Simos Xenitellis <simos@gnome.org>, 2006.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Fotis Tsamis <ftsamis@gmail.com>, 2009.
+# #-#-#-#-#  el.po (el)  #-#-#-#-#
+# Greek translation of GNOME Control Center
+# Copyright (C) 2000 ~ 2010, Free Software Foundation, Inc.
+#
+# For screensaver, picked: profilaji o8onis -simos.
+#
+# spyros: initial translation, around 300 messages.
+# Nikos:   one more review 6Sep2003
+# kostas: 15 feb 2004, update
+# Nikos: 30May2004, some fixes.
+# Nikos: 31Jul2004, some fixes.
+# Nikos 17Sep2004, some fixes.
+#
+#
+# simos: 277 messages, 19Aug2000, (24 fuzzy, 40 untranslated).
+# simos: 358 messages, 05Dec2000, updated translation.
+#      :  64 messages, 01Aug2002, due to enhancements in application.
+# nikos: 266 messages, 05Aug2002, updated translation.
+# t_p_r: 266 messages, 05Aug2002, reviewed translation.
+# simos: 329 messages, 06Aug2002, updated translation.
+# kostas: 461 messages, 18Oct2002, updated and completed translation.
+# kostas: 535 messages, 10Dec2002, reviewed and updated translation for Gnome 2.1x.
+# kostas: 533 messages, 06Jan2003, one more update.
+# kostas: 537 messages, 26Jan2003, one more update.
+# kostas:  650 messages, 22Jul2003, one more update.
+# kostas:  655 messages, 27Jul2003, one more update.
+# kostas:  674 messages, 10Aug2003, one more update.
+# Nikos:   review, 29Aug03.
+# kostas: 678 messagew,12Nov2003, updates and fixes.
+# kostas: 786 messagew,22Jan2004, updates and fixes.
+# Simos: 723 messages, 20Dec2004, fixes/updates.
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Simos Xenitellis <simos@hellug.gr>, 2000, 2001, 2002.
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2002, 2003, 2004, 2005.
+# Τα πάντα ρει <ta_panta_rei@flashmail.com>, 2002.
+# Simos Xenitellis <simos74@gmx.net>, 2004.
+# Simos Xenitellis <simos@gnome.org>, 2006.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Kostas Papadimas <pkst@gnome.org>, 2002,2003, 2004, 2005, 2006, 2007, 2008, 2010.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-11-16 12:20+0200\n"
-"PO-Revision-Date: 2003-11-16 12:19+0200\n"
-"Last-Translator: Kostas Papadimas <pkst@gnome.org>\n"
-"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2010-08-25 13:08+0200\n"
+"Last-Translator: Michael Kotsarinis <mk73628@hotmail.com>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.0.2\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 0.2\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 0.2\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
+#: ../src/main.c:63
+msgid "Enable debugging code"
+msgstr "Ενεργοποίηση κώδικα εκσφαλμάτωσης"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "Να μην γίνεται έλεγχος αν θα υπάρχει η περιοχή ειδοποίησης"
 
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Διάλειμα</b>"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "Παρακολούθηση πληκτρολόγησης"
 
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Εργασία</b>"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Η παρακολούθηση πληκτρολόγησης χρησιμοποιεί την περιοχή ειδοποίησης για να "
+"προβάλλει πληροφορίες. Φαίνεται ότι δεν έχετε την περιοχή ειδοποίησης στον "
+"πίνακα εφαρμογών σας. Μπορείτε να την προσθέσετε κάνοντας δεξί κλικ στο "
+"πίνακα εφαρμογών και επιλέγοντας 'Προσθήκη στον πίνακα εφαρμογών', "
+"διαλέγοντας 'Περιοχή ειδοποίησης' και πατώντας 'Προσθήκη'."
 
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Ελέγξτε αν επιτρέπεται η αναβολή των διαλειμάτων"
+#: ../src/drwright.c:142
+msgid "_Take a Break"
+msgstr "_Κάντε ένα διάλειμμα"
 
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "Προτιμήσεις DrWright"
+#: ../src/drwright.c:504
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Απενεργοποιημένο\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Ανενεργό\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Ανενεργό"
 
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Διάρκεια του διαλείματος όταν αποτρέπεται η πληκτρολόγηση"
+#: ../src/drwright.c:513
+#, c-format
+msgid "Take a break now (next in %dm)"
+msgstr "Κάντε ένα διάλειμμα τώρα (επόμενο σε %dm)"
 
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Διάρκεια της προειδοποίησης πριν την έναρξη του διαλείματος"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d λεπτό μέχρι το επόμενο διάλειμμα"
+msgstr[1] "%d λεπτά μέχρι το επόμενο διάλειμμα"
 
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Διάρκεια εργασίας πριν την επιβολή διαλείματος"
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr "Κάντε ένα διάλειμα τώρα (επόμενο σε λιγότερο από ένα λεπτό)"
 
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Προαιρετική φράση για την αναβολή διαλείματος"
+#: ../src/drwright.c:523
+#, fuzzy, c-format
+msgid "Less than one minute until the next break"
+msgstr ""
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Λιγότερο από ένα λεπτό μέχρι το επόμενο διάλειμα\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Λιγότερο από ένα λεπτό μέχρι το επόμενο διάλειμμα"
 
-#: data/glade/drw-preferences.glade.h:11
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Αδυναμία ανάσυρσης του διαλόγου ιδιοτήτων του διαλείμματος πληκτρολόγησης με "
+"το ακόλουθο σφάλμα: %s"
+
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Γράφτηκε από τον Richard Hult <richard@imendio.com>"
+
+#: ../src/drwright.c:629
+#, fuzzy
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Γραφικά προστέθηκαν από τον  Anders Carlsson\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Γραφικά προστέθηκαν από τον Anders Carlsson"
+
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Μια υπενθύμιση διαλειμάτων από τον υπολογιστή.\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Μια υπενθύμιση για διάλειμμα από τον υπολογιστή."
+
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+" Spiros Papadimitriou <spapadim+@cs.cmu.edu>\n"
+" Simos Xenitellis <simos@hellug.gr>\n"
+" Nikos Charonitakis <nikosx@gmail.com>\n"
+" Τα πάντα ρει <ta_panta_rei@flashmail.com>\n"
+" Κώστας Παπαδήμας <pkst@gnome.org> \n"
+" Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
+"\n"
+"Για περισσότερες πληροφορίες, επισκεφθείτε την σελίδα http://www.gnome.gr/"
+
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "Αναβο_λή διαλείμματος"
+
+#: ../src/drw-break-window.c:227
+#, fuzzy
+msgid "Take a break!"
+msgstr ""
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Κάντε ένα διάλειμα!\n"
+"#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+"Κάντε διάλειμμα!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Αν θα είναι ενεργοποιημένος ο αναγνώστης οθόνης."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Αν θα είναι ενεργοποιημένος ο αναγνώστης οθόνης."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Διάλειμμα πληκτρολόγησης"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
 msgstr "Να επι_τρέπεται η αναβολή διαλειμάτων"
 
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "Διά_ρκεια διαλείματος"
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "Το διά_λειμμα διαρκεί:"
 
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "Ο _χρόνος προειδοποίησης είναι"
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "_Κλείδωμα οθόνης για την επιβολή διαλείμματος πληκτρολόγησης"
 
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "Διάρκεια ερ_γασίας"
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "Η ερ_γασία διαρκεί:"
 
-#: data/glade/drw-preferences.glade.h:15
+#: ../src/drwright-panel.glade.h:5
 msgid "minutes"
 msgstr "λεπτά"
 
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "Το DrWright εκτελείται ήδη."
+#~ msgid "    "
+#~ msgstr "    "
 
-#: src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
-msgstr ""
-"Το DrWright χρησιμοποιεί την περιοχή ειδοποίησης για την προβολή "
-"πληροφοριών. Δεν φαίνεται όμως να έχετε την περιοχή ειδοποίησης ενεργή στο "
-"ταμπλώ σας. Μπορείτε να την προσθέσετε με δεξί-κλικ στο ταμπλώ και να "
-"επιλέξετε 'Προσθήκη στο ταμπλώ -> Εργαλεία -> Περιοχή ειδοποίησης'."
+#~ msgid "*"
+#~ msgstr "*"
 
-#: src/drwright.c:134
-msgid "/_Enabled"
-msgstr "/_Ενεργοποιημένο"
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Διάλειμα</b>"
 
-#: src/drwright.c:135
-msgid "/_Take a Break"
-msgstr "/_Κάντε ένα διάλειμα"
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Εργασία</b>"
 
-#: src/drwright.c:137
-msgid "/_Preferences"
-msgstr "/_Προτιμήσεις"
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Ελέγξτε αν επιτρέπεται η αναβολή των διαλειμάτων\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Έλεγχος για τον αν θα επιτρέπεται η αναβολή διαλειμμάτων"
 
-#: src/drwright.c:138
-msgid "/_About"
-msgstr "/_Περί..."
+#~ msgid "DrWright Preferences"
+#~ msgstr "Προτιμήσεις DrWright"
 
-#: src/drwright.c:140
-msgid "/_Remove Icon"
-msgstr "/Απομάκ_ρυνση εικονιδίου"
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Διάρκεια του διαλείματος όταν αποτρέπεται η πληκτρολόγηση\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Διάρκεια του διαλείμματος όταν απαγορεύεται η πληκτρολόγηση"
 
-#: src/drwright.c:443
-msgid "Disabled"
-msgstr "Απενεργοποιημένο"
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Διάρκεια της προειδοποίησης πριν την έναρξη του διαλείματος"
 
-#: src/drwright.c:461
-#, c-format
-msgid "%d minutes until the next break"
-msgstr "%d λεπτά μέχρι το επόμενο διάλειμα"
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Διάρκεια εργασίας πριν την επιβολή διαλείματος\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Διάρκεια εργασίας πριν την επιβολή διαλείμματος"
 
-#: src/drwright.c:464
-msgid "One minute until the next break"
-msgstr "Ένα λεπτό μέχρι το επόμενο διάλειμα"
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Προαιρετική φράση για την αναβολή διαλείματος"
 
-#: src/drwright.c:466
-msgid "Less than one minute until the next break"
-msgstr "Λιγότερο από ένα λεπτό μέχρι το επόμενο διάλειμα"
+#~ msgid "_Break interval lasts"
+#~ msgstr "Διά_ρκεια διαλείματος"
 
-#: src/drwright.c:577
-msgid "Quit DrWright?"
-msgstr "Έξοδος από το DrWright?"
+#~ msgid "_Warning time is"
+#~ msgstr "Ο _χρόνος προειδοποίησης είναι"
 
-#: src/drwright.c:578
-msgid "Don't forget to take regular breaks."
-msgstr "Να μην ξεχνάτε να κάνετε συχνά διαλείματα."
+#~ msgid "_Work interval lasts"
+#~ msgstr "Διάρκεια ερ_γασίας"
 
-#: src/drwright.c:589
-msgid "Don't Quit"
-msgstr "Όχι έξοδος"
+#~ msgid "DrWright is already running."
+#~ msgstr "Το DrWright εκτελείται ήδη."
 
-#: src/drwright.c:593
-msgid "Quit"
-msgstr "Έξοδος"
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "Το DrWright χρησιμοποιεί την περιοχή ειδοποίησης για την προβολή "
+#~ "πληροφοριών. Δεν φαίνεται όμως να έχετε την περιοχή ειδοποίησης ενεργή "
+#~ "στο ταμπλώ σας. Μπορείτε να την προσθέσετε με δεξί-κλικ στο ταμπλώ και να "
+#~ "επιλέξετε 'Προσθήκη στο ταμπλώ -> Εργαλεία -> Περιοχή ειδοποίησης'."
 
-#: src/drwright.c:642
-msgid "About DrWright"
-msgstr "Περί DrWright"
+#~ msgid "/_Enabled"
+#~ msgstr "/_Ενεργοποιημένο"
 
-#: src/drwright.c:667
-msgid "A computer break reminder."
-msgstr "Μια υπενθύμιση διαλειμάτων από τον υπολογιστή."
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Κάντε ένα διάλειμα"
 
-#: src/drwright.c:668
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Γράφτηκε από τον Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgid "/_Preferences"
+#~ msgstr "/_Προτιμήσεις"
 
-#: src/drwright.c:669
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Γραφικά προστέθηκαν από τον  Anders Carlsson"
+#~ msgid "/_About"
+#~ msgstr "/_Περί..."
 
-#: src/drwright.c:828
-msgid "Break reminder"
-msgstr "Υπενθύμιση διαλείματος"
+#~ msgid "/_Remove Icon"
+#~ msgstr "/Απομάκ_ρυνση εικονιδίου"
 
-#: src/drw-break-window.c:259
-msgid "Postpone break"
-msgstr "Αναβολή διαλείματος"
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d λεπτά μέχρι το επόμενο διάλειμα"
 
-#: src/drw-break-window.c:297
-msgid "Take a break!"
-msgstr "Κάντε ένα διάλειμα!"
+#~ msgid "One minute until the next break"
+#~ msgstr "Ένα λεπτό μέχρι το επόμενο διάλειμα"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "Έξοδος από το DrWright?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Να μην ξεχνάτε να κάνετε συχνά διαλείματα."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Όχι έξοδος"
+
+#~ msgid "Quit"
+#~ msgstr "Έξοδος"
+
+#~ msgid "About DrWright"
+#~ msgstr "Περί DrWright"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Γράφτηκε από τον Richard Hult &lt;richard@imendio.com&gt;"
+
+#~ msgid "Break reminder"
+#~ msgstr "Υπενθύμιση διαλείματος"
+
+#~ msgid "Postpone break"
+#~ msgstr "Αναβολή διαλείματος"
+
+#~ msgid "Accessibility"
+#~ msgstr "Προσιτότητα"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Κατώφλι ενημέρωσης για ελεύθερο χώρο σε ποσοστό"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Κατώφλι μη ενημέρωσης για ελεύθερο χώρο"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr ""
+#~ "Η ελάχιστη περίοδος ενημέρωσης για τις επαναλαμβανόμενες προειδοποιήσεις"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Διαδρομές προσάρτησης για παράλειψη"
+
+#~| msgid ""
+#~| "Percentage free space threshold for initial warning of low disk space. "
+#~| "If the percentage free space drops below this, a warning will be shown"
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Το κατώτατο όριο του ποσοστού ελεύθερου χώρου στον δίσκο για την πρώτη "
+#~ "προειδοποίηση εξάντλησης του χώρου στον δίσκο. Εάν το ποσοστό του "
+#~ "ελεύθερου χώρου πέσει κάτω από αυτό, θα εμφανιστεί μια προειδοποίηση."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Ορίστε μια λίστα διαδρομών προσάρτησης για παράλειψη όταν λιγοστεύει ο "
+#~ "χώρος τους."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Καθορίστε τον χρόνο σε λεπτά. Οι επόμενες προειδοποιήσεις για έναν τόμο "
+#~ "δεν θα εμφανίζωνται συχνότερα από αυτήν την περίοδο."
+
+#~| msgid ""
+#~| "Specify an amount in GB. If the amount of free space is more than this, "
+#~| "no warning will be shown"
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Ορίστε ένα μέγεθος σε GB. Αν το μέγεθος του ελεύθερου χώρου είναι "
+#~ "μεγαλύτερο από αυτό, δεν θα εμφανιστεί καμία προειδοποίηση."
+
+#~| msgid ""
+#~| "Specify the percentage that the free disk space should reduce by before "
+#~| "issuing a subsequent warning"
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Καθορίστε το ποσοστό που ο ελεύθερος χώρος του δίσκου θα πρέπει να "
+#~ "μειωθεί πριν εκδοθεί η επόμενη προειδοποίηση."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Το επόμενο ελεύθερο όριο σε ποσοστό για ενημέρωση"
+
+#~| msgid "Binding to eject an optical disk."
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Συνδυασμός για αποβολή ενός οπτικού δίσκου."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr ""
+#~ "Συνδυασμός για την ενεργοποίηση ή την απενεργοποίηση της πινακίδας αφής"
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Συνδυασμός για εκκίνηση αριθμομηχανής"
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Συνδυασμός για την εκκίνηση της εφαρμογής ηλ.αλληλογραφίας"
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Συνδυασμός για εκκίνηση περιηγητή βοήθειας"
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Συνδυασμός για την εκκίνηση του media player."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Συνδυασμός για την εκκίνηση του εργαλείου αναζήτησης"
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Συνδυασμός για εκκίνηση περιηγητή ιστοσελίδων"
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Συνδυασμός για το κλείδωμα της οθόνης"
+
+#~ msgid "Binding to log out."
+#~ msgstr "Συνδυασμός για την αποσύνδεση χρήστη."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Συνδυασμός για την μείωση του ήχου συστήματος."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Συνδυασμός για την σίγαση του ήχου συστήματος."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Συνδυασμός για το άνοιγμα του Αρχικού καταλόγου"
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Συνδυασμός για την παύση αναπαραγωγής"
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Συνδυασμός για την αύξηση της έντασης του ήχου συστήματος"
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Συνδυασμός για παράκαμψη σε επόμενο κομμάτι"
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Συνδυασμός για παράκαμψη σε προηγούμενο κομμάτι"
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Συνδυασμός για την εκκίνηση της αναπαραγωγής (ή εναλλαγή ανάμεσα σε "
+#~ "αναπαραγωγή/παύση)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Συνδυασμός για την παύση της αναπαραγωγής "
+
+#~ msgid "Eject"
+#~ msgstr "Εξαγωγή"
+
+#~ msgid "Home folder"
+#~ msgstr "Αρχικός φάκελος"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Εκκίνηση αριθμομηχανής"
+
+#~ msgid "Launch email client"
+#~ msgstr "Εκκίνηση εφαρμογής ηλ.αλληλογραφίας"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Εκκίνηση περιηγητή βοήθειας"
+
+#~ msgid "Launch media player"
+#~ msgstr "Εκκίνηση Media player"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Εκκίνηση περιηγητή ιστοσελίδων"
+
+#~ msgid "Lock screen"
+#~ msgstr "Κλείδωμα οθόνης"
+
+#~ msgid "Log out"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Next track"
+#~ msgstr "Επόμενο κομμάτι"
+
+#~ msgid "Pause playback"
+#~ msgstr "Παύση αναπαραγωγής"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Αναπαραγωγή (ή αναπαραγωγή/παύση)"
+
+#~ msgid "Previous track"
+#~ msgstr "Προηγούμενο κομμάτι"
+
+#~ msgid "Search"
+#~ msgstr "Αναζήτηση"
+
+#~ msgid "Stop playback"
+#~ msgstr "Διακοπή αναπαραγωγής"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Εναλλαγή  της πινακίδας αφής"
+
+#~ msgid "Volume down"
+#~ msgstr "Μείωση έντασης"
+
+#~ msgid "Volume mute"
+#~ msgstr "Σίγαση ήχου"
+
+#~ msgid "Volume step"
+#~ msgstr "Βήμα ήχου"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Βήμα ήχου ως ποσοστό της έντασης."
+
+#~ msgid "Volume up"
+#~ msgstr "Αύξηση έντασης"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Αρχείο προεπιλεγμένης διαμόρφωσης του RandR"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Προβολή οθονών στην περιοχή ειδοποίησης"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Το πρόσθετο XRandR θα ψάξει για προεπιλεγμνη διαμόρφωση στο αρχείο που "
+#~ "καθορίζεται σε αυτό το κλειδί. Αυτό είναι παρόμοιο με το ~/.config/"
+#~ "monitors.xml που κανονικά είναι αποθηκευμένο στους προσωπικούς καταλόγους "
+#~ "του χρήστη. Αν κάποιος χρήστης δεν έχει τέτοιο αρχείο ή έχει ένα που δεν "
+#~ "ταιριάζει με τη διαμόρφωση των οθονών του, τότε θα χρησιμοποιηθεί το "
+#~ "αρχείο που καθορίζεται σε αυτό το κλειδί."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Ενεργοποίηση της εξωτερικής οθόνης μετά την εκκίνηση του συστήματος"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Ενεργοποίηση της εξωτερικής οθόνης μετά την εκκίνηση του συστήματος αν ο "
+#~ "χρήστης συνδέσει εξωτερική οθόνη κατά την εκκίνηση του συστήματος."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr ""
+#~ "Ενεργοποίηση της οθόνης του φορητού μετά την εκκίνηση του συστήματος"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Ενεργοποίηση της οθόνης του φορητού μετά την εκκίνηση του συστήματος αν ο "
+#~ "χρήστης συνδέσει εξωτερική οθόνη κατά την εκκίνηση του συστήματος."
+
+#~| msgid ""
+#~| "If a notification icon with display related things should be shown in "
+#~| "the panel."
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Αν ένα εικονίδιο ειδοποίησης με μηνύματα σχετικά με την οθόνη θα "
+#~ "εμφανίζεται στο πίνακα εφαρμογών."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Antialiasing"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Εξομάλυνση"
+
+#~ msgid "RGBA order"
+#~ msgstr "Σειρά RGBA"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Η σειρά των στοιχείων subpixel σε μια οθόνη LCD. Χρησιμοποιείται μόνο "
+#~ "όταν η το antialiasing έχει ορισθεί σε \"rgba\". Οι πιθανές τιμές είναι: "
+#~ "\"rgb\" για κόκκινο στα αριστερά (το πιο κοινό), \"bgr\" για μπλε στα "
+#~ "αριστερά, \"vrgb\" για κόκκινο στο άνω μέρος, \"vbgr\" για κόκκινο κάτω."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Η ανάλυση που χρησιμοποιείται για μετατροπή μεγεθών γραμματοσειράς σε "
+#~ "μέγεθος εικονοστοιχείων, σε κουκίδες ανά ίντσα."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Ο τύπος του antialiasing που χρησιμοποιείται για την εμφάνιση των "
+#~ "γραμματοσειρών. Οι πιθανές τιμές είναι: \"none\" για καθόλου "
+#~ "antialiasing, \"grayscale\" για κανονική κλίμακα του γκρι, και \"rgba\" "
+#~ "για subpixel antialiasing (μόνο για οθόνες LCD )."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Ο τύπος του hinting που χρησιμοποιείται για την εμφάνιση των "
+#~ "γραμματοσειρών. Οι πιθανές τιμές είναι: \"none\" για καθόλου hinting,  "
+#~ "\"slight\" για βασικό, \"medium\" για μέτριο, και \"full\" για μέγιστο "
+#~ "hinting (πιθανόν να προκαλέσει παραμόρφωση στις φόρμες των γραμμάτων)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Επιτρεπτά πλήκτρα"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Αν συμπληρωθεί, θα αγνοούνται οι συνδυασμοί πλήκτρων, εκτός εάν "
+#~ "περιέχεται στη λίστα ο δικός τους κατάλογος GConf. Χρησιμεύει στο "
+#~ "κλείδωμα."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Απενεργοποίηση πινακίδας αφής κατά την πληκτρολόγηση"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Ενεργοποίηση οριζόντιας κύλισης"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Ενεργοποίηση κλικ ποντικιού με την πινακίδα αφής"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Ενεργοποιήση πινακίδας αφής"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Επιλέξτε την μέθοδο κύλισης της πινακίδας αφής"
+
+#~| msgid ""
+#~| "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~| "- edge scrolling, 2 - two-finger scrolling"
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Επιλέξτε την μέθοδο κύλισης της πινακίδας αφής. Οι υποστηριζόμενες τιμές "
+#~ "είναι: 0 - απενεργοποιημένο, 1 - κύλιση στην άκρη, 2 - κύλιση με δύο "
+#~ "δάχτυλα"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Ενεργοποιήστε αυτήν την επιλογή αν πατάτε κατά λάθος το touchpad κατά την "
+#~ "πληκτρολόγηση."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της οριζόντιας κύλισης με την ίδια "
+#~ "μέθοδο που επιλέχθηκε στο κλειδί scroll_method"
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Ενεργοποιήστε αυτήν την επιλογή για να μπορείτε να κάνετε κλικ μέσω του "
+#~ "touchpad."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Ορίστε το σε ΑΛΗΘΗΣ για να ενεργοποιήσετε όλες της πινακίδες αφής"
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Δαίμονας ρυθμίσεων GNOME"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Συνδυασμός εναλλαγής μεταξύ της χρήσης ή όχι του μεγεθυντή."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr ""
+#~ "Συνδυασμός εναλλαγής μεταξύ της εμφάνισης ή όχι του πληκτρολογίου οθόνης."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Συνδυασμός εναλλαγής μεταξύ της χρήσης ή όχι του αναγνώστη οθόνης."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Πλήκτρα αναπήδησης"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Εντολή για την ενεργοποίηση/απενεργοποίηση του μεγεθυντή οθόνης."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr ""
+#~ "Εντολή για την ενεργοποίηση/απενεργοποίηση του πληκτρολογίου οθόνης."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Εντολή για την ενεργοποίηση/απενεργοποίηση του αναγνώστη οθόνης."
+
+#~| msgid "Enable xrandr plugin"
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Ενεργοποίηση του πρόσθετου XRandR "
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας προσιτότητας πληκτρολογίου"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας παρασκηνίου"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας προχείρου"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας γραμματοσειράς"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας housekeeping "
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας συνδυασμών πλήκτρων"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας πληκτρολογίου"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας πλήκτρων πολυμέσων"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας ποντικιού"
+
+#~| msgid "Enable xrandr plugin"
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Ενεργοποίηση του πρόσθετου έξυπνης κάρτας"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας ήχου"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας διαλείμματος πληκτρολόγησης"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας xrdb"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας xsettings"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Πλήκτρα ποντικιού"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Πληκτρολόγιο Οθόνης"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Μεγεθυντής οθόνης"
+
+#~ msgid "Screen reader"
+#~ msgstr "Αναγνώστης οθόνης"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας  "
+#~ "housekeeping  για την εκκαθάριση προσωρινής μνήμης αρχείων."
+
+#~| msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Ορισμός σε True για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων του XRandR."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων προχείρου"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων παρασκηνίου"
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων γραμματοσειράς."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων πληκτρολογίου."
+
+#~| msgid "Set to True to enable the plugin to manage screensaver settings."
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Ορισμός σε True για την ενεργοποίηση του πρόσθετου για τη διαχείριση του "
+#~ "κλειδώματος οθόνης κατά την αφαίρεση της έξυπνης κάρτας."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων ποντικιού."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων πλήκτρων πολυμέσων."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των αποθηκευμένων δειγμάτων ήχου."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων προσιτότητας πληκτρολογίου."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των συνδυασμών πλήκτρων."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των διαλειμμάτων πληκτρολόγησης."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των ρυθμίσεων xrdb."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Ορισμός σε true για την ενεργοποίηση της πρόσθετης λειτουργίας για την "
+#~ "διαχείριση των xsettings"
+
+#~ msgid "Slow keys"
+#~ msgstr "Αργά πλήκτρα"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Sticky πλήκτρα"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr ""
+#~ "Όνομα συντόμευσης πληκτρολογίου για την εναλλαγή μεταξύ της χρήσης ή όχι "
+#~ "του μεγεθυντή"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr ""
+#~ "Όνομα συντόμευσης πληκτρολογίου για την εναλλαγή μεταξύ της εμφάνισης ή "
+#~ "όχι του πληκτρολογίου οθόνης"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr ""
+#~ "Όνομα συντόμευσης πληκτρολογίου για την εναλλαγή μεταξύ της χρήσης ή όχι "
+#~ "του αναγνώστη οθόνης"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Αυτό είναι το όνομα της συντόμευσης πληκτρολογίου για την εναλλαγή μεταξύ "
+#~ "της χρήσης ή όχι του μεγεθυντή. Αυτό το όνομα θα εμφανίζεται στον διάλογο "
+#~ "προτιμήσεων συντομεύσεων πληκτρολογίου."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Αυτό είναι το όνομα της συντόμευσης πληκτρολογίου για την εναλλαγή μεταξύ "
+#~ "της εμφάνισης ή όχι του πληκτρολογίου οθόνης. Αυτό το όνομα θα "
+#~ "εμφανίζεται στον διάλογο προτιμήσεων συντομεύσεων πληκτρολογίου."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Αυτό είναι το όνομα της συντόμευσης πληκτρολογίου για την εναλλαγή μεταξύ "
+#~ "της χρήσης ή όχι του αναγνώστη οθόνης. Αυτό το όνομα θα εμφανίζεται στον "
+#~ "διάλογο προτιμήσεων συντομεύσεων πληκτρολογίου."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Εναλλαγή μεγεθυντή"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Εναλλαγή πληκτρολογίου οθόνης "
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Εναλλαγή αναγνώστη οθόνης"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Αν θα είναι ενεργοποιημένα τα πλήκτρα αναπήδησης (λειτουργία προσιτότητας "
+#~ "πληκτρολογίου)."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Αν θα είναι ενεργοποιημένα τα πλήκτρα ποντικιού (λειτουργία προσιτότητας "
+#~ "πληκτρολογίου)."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Αν θα είναι ενεργοποιημένο το πληκτρολόγιο οθόνης."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Αν θα είναι ενεργοποιημένος ο μεγεθυντής οθόνης."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Αν θα είναι ενεργοποιημένα τα αργά πλήκτρα (λειτουργία προσιτότητας "
+#~ "πληκτρολογίου)."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Αν θα είναι ενεργοποιημένα τα sticky πλήκτρα (λειτουργία προσιτότητας "
+#~ "πληκτρολογίου)."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Ορίστε αυτό σε  \"none\", \"lock_screen\", or \"force_logout\". Η "
+#~ "ενέργεια αυτή θα πραγματοποιηθεί όταν η κάρτα που χρησιμοποιήθηκε για τη "
+#~ "σύνδεση αφαιρεθεί."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Ενέργεια κατά την αφαίρεση της έξυπνης κάρτας (smartcard)"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Να μην γίνει daemon"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr ""
+#~ "Πρόθεμα Gconf από το οποίο φορτώνονται οι ρυθμίσεις πρόσθετης λειτουργίας."
+
+#~| msgid "Exit after a time - for debugging"
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Έξοδος μετά από ένα χρονικό διάστημα (για αποσφαλμάτωση)"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Προσιτότητα πληκτρολογίου"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Πρόσθετη λειτουργία προσιτότητας πληκτρολογίου"
+
+#, fuzzy
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Σφάλμα προβολής βοήθειας: %s \n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Σφάλμα προβολής βοήθειας: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Θέλετε να ενεργοποίησετε τα Αργά πλήκτρα;"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Θέλετε να απενεργοποιήσετε τα Αργά πλήκτρα;"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Πατήσατε το πλήκτρο Shift για 8 δευτερόλεπτα. Αυτή είναι η συντόμευση για "
+#~ "τη λειτουργία Αργά πλήκτρα, που επηρεάζει τον τρόπο λειτουργίας του "
+#~ "πληκτρολογίου σας."
+
+#~ msgid "Don't activate"
+#~ msgstr "Να μην γίνει ενεργοποίηση"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Να μην γίνει απενεργοποίηση"
+
+#~ msgid "Activate"
+#~ msgstr "Ενεργοποίηση"
+
+#~ msgid "Deactivate"
+#~ msgstr "Απενεργοποίηση"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Να _μην γίνει ενεργοποίηση"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Να _μην γίνει απενεργοποίηση"
+
+#~ msgid "_Activate"
+#~ msgstr "Ε_νεργοποίηση"
+
+#~ msgid "_Deactivate"
+#~ msgstr "Α_πενεργοποίηση"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Ειδοποίηση Αργών πλήκτρων"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Θέλετε να ενεργοποιήσετε τα Sticky Keys;"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Θέλετε να απενεργοποιήσετε τα Sticky Keys;"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Πατήσατε το πλήκτρο Shift 5 φορές στη σειρά. Αυτό είναι μια συντόμευση "
+#~ "για τη λειτουργία Sticky Keys, που επηρεάζει τον τρόπο λειτουργίας του "
+#~ "πληκτρολογίου σας."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Πατήσατε 2 πλήκτρα με μιάς, ή πατήσατε το πλήκτρο Shift 5 φορές στη "
+#~ "σειρά . Αυτό είναι μια συντόμευση για τη λειτουργία Sticky Keys, που "
+#~ "επηρεάζει τον τρόπο λειτουργίας του πληκτρολογίου σας."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Ειδοποίηση Sticky Keys"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Προτιμήσεις καθολικής πρόσβασης"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Αύξηση αντί_θεσης στα χρώματα"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "Μεγέθυνση _κειμένου για εύκολη ανάγνωση"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr ""
+#~ "Πατήστε και _κρατήστε τα πλήκτρα πατημένα για αποδοχή (Αργά πλήκτρα)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Χρήση _πληκτρολογίου οθόνης "
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Χρήση μεγε_θυντή οθόνης"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Χρήση _αναγνώστη οθόνης"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "Να α_γνοούνται τα διπλά πατήματα πλήκτρων:"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr ""
+#~ "_Πατήστε ένα πλήκτρο την φορά στις συντομεύσεις πληκτρολογίου (Κολλημένα "
+#~ "πλήκτρα)"
+
+#~ msgid "Background"
+#~ msgstr "Παρασκήνιο"
+
+#~ msgid "Background plugin"
+#~ msgstr "Πρόσθετη λειτουργία παρασκηνίου"
+
+#~ msgid "Clipboard"
+#~ msgstr "Πρόχειρο"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Πρόσθετη λειτουργία προχείρου"
+
+#~ msgid "Dummy"
+#~ msgstr "Ψεύτικη"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Ψεύτικη πρόσθετη λειτουργία"
+
+#~ msgid "Font"
+#~ msgstr "Γραμματοσειρά"
+
+#~ msgid "Font plugin"
+#~ msgstr "Πρόσθετη λειτουργία γραμματοσειράς"
+
+#~| msgid "Don't show any warnings again for this filesystem"
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "Να μην εμφανιστούν ξανά προειδοποιήσεις για αυτό το σύστημα αρχείων"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Να μην εμφανιστούν ξανά προειδοποιήσεις"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Ο τόμος \"%s\" έχει μόνο %s ελεύθερο χώρο."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Αυτός ο υπολογιστής έχει μόνο %s ελεύθερο χώρο στο δίσκο."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Μπορείτε να ελευθερώσετε χώρο στον δίσκο αδειάζοντας τα Απορρίμματα, "
+#~ "διαγράφοντας προγράμματα ή αρχεία που δεν χρησιμοποιείτε, ή μετακινώντας "
+#~ "αρχεία σε έναν άλλο δίσκο ή κατάτμηση."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Μπορείτε να ελευθερώσετε χώρο στον δίσκο διαγράφοντας προγράμματα ή "
+#~ "αρχεία που δεν χρησιμοποιείτε, ή μετακινώντας αρχεία σε έναν άλλο δίσκο ή "
+#~ "κατάτμηση."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Μπορείτε να ελευθερώσετε χώρο στον δίσκο αδειάζοντας τα Απορρίμματα, "
+#~ "διαγράφοντας προγράμματα ή αρχεία που δεν χρησιμοποιείτε, ή μετακινώντας "
+#~ "αρχεία σε έναν εξωτερικό δίσκο."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Μπορείτε να ελευθερώσετε χώρο στον δίσκο διαγράφοντας προγράμματα ή "
+#~ "αρχεία που δεν χρησιμοποιείτε, ή μετακινώντας αρχεία σε έναν εξωτερικό "
+#~ "δίσκο."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Λίγος χώρος στο δίσκο"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Άδειασμα απορριμάτων"
+
+#~| msgid "Examine…"
+#~ msgid "Examine…"
+#~ msgstr "Εξέταση…"
+
+#~ msgid "Ignore"
+#~ msgstr "Αγνόηση"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Διαγραφή αντικειμένου %lu από %lu"
+
+#~| msgid "<i>Removing: %s</i>"
+#~ msgid "Removing: %s"
+#~ msgstr "Διαγραφή: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Άδειασμα των απορριμμάτων"
+
+#~| msgid "Preparing to empty trash…"
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Προετοιμασία για άδειασμα απορριμμάτων…"
+
+#~ msgid "From: "
+#~ msgstr "Από: "
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Άδειασμα όλων των αντικειμένων από τα απορρίμματα;"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Αν επιλέξετε να αδειάσετε τα απορρίμματα, όλα τα αντικείμενα που "
+#~ "βρίσκονται στον κάδο θα χαθούν οριστικά. Παρακαλούμε σημειώστε πως "
+#~ "μπορείτε επίσης να τα διαγράψετε επιλεκτικά."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Άδ_ειασμα απορριμμάτων"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Ο συνδυασμός πλήκτρων (%s) δεν είναι έγκυρος"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Ο συνδυασμός πλήκτρων (%s) δεν είναι ολοκληρωμένος"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Σφάλμα κατα την προσπάθεια εκτέλεσης (%s)\n"
+#~ "που συνδέεται με το κλειδί (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Συνδυασμοί πλήκτρων"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Πρόσθετη λειτουργία συνδυασμού πλήκτρων"
+
+#~ msgid "Keyboard"
+#~ msgstr "Πληκτρολόγιο"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Πρόσθετη λειτουργία πληκτρολογίου"
+
+#~| msgid ""
+#~| "Error activating XKB configuration.\n"
+#~| "It can happen under various circumstances:\n"
+#~| "- a bug in libxklavier library\n"
+#~| "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~| "- X server with incompatible libxkbfile implementation\n"
+#~| "\n"
+#~| "X server version data:\n"
+#~| "%s\n"
+#~| "%d\n"
+#~| "%s\n"
+#~| "If you report this situation as a bug, please include:\n"
+#~| "- The result of <b>%s</b>\n"
+#~| "- The result of <b>%s</b>"
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Σφάλμα στην ενεργοποίηση των ρυθμίσεων του XKB.\n"
+#~ "Μπορεί να συμβεί κάτω από διάφορες περιστάσεις:\n"
+#~ "- κάποιο σφάλμα στη βιβλιοθήκη libxklavier\n"
+#~ "- κάποιο σφάλμα στον κώδικα διακομιστή X (xkbcomp, xmodmap utilities)\n"
+#~ "- διακομιστής X με ασύμβατη υλοποίηση του libxkbfile\n"
+#~ "\n"
+#~ "στοιχεία έκδοσης του διακομιστή X:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Εάν αναφέρεται αυτήν την κατάσταση ως σφάλμα κώδικα, παρακαλώ "
+#~ "συμπεριλάβετε και τα εξής:\n"
+#~ "- Το αποτέλεσμα του <b>%s</b>\n"
+#~ "- Το αποτέλεσμα του <b>%s</b>"
+
+#~| msgid ""
+#~| "You are using XFree 4.3.0.\n"
+#~| "There are known problems with complex XKB configurations.\n"
+#~| "Try using a simpler configuration or taking a fresher version of XFree "
+#~| "software."
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Χρησιμοποιείτε το XFree 4.3.0.\n"
+#~ "Υπάρχουν γνωστά προβλήματα με πολύπλοκες διαμορφώσεις του XKB.\n"
+#~ "Χρησιμοποιήστε μια απλούστερη διαμόρφωση ή χρησιμοποιήστε μια νεότερη "
+#~ "έκδοση λογισμικού του XFree."
+
+#~ msgid "_Layouts"
+#~ msgstr "_Διατάξεις"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Προτιμήσεις πληκτρολογίου"
+
+#~| msgid "Show Current _Layout"
+#~ msgid "Show _Current Layout"
+#~ msgstr "Προβολή _τρέχουσας διάταξης"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Δια_θέσιμα αρχεία:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Φόρτωση αρχείων modmap"
+
+#~| msgid "Would you like to load the modmap file(s)?"
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Θέλετε να φορτώσετε τα αρχεία modmap;"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Να μην εμφανιστεί ξανά αυτό το μήνυμα"
+
+#~ msgid "_Load"
+#~ msgstr "_Φόρτωση"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Φορτωμένα αρχεία:"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Αδυναμία λήψης προεπιλεγμένου τερματικού. Βεβαιωθείτε ότι έχει ορισθεί η "
+#~ "εντολή προεπιλεγμένου τερματικού και ότι δείχνει σε έγκυρη εφαρμογή."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Αδυναμία εκτέλεσης εντολής: %s\n"
+#~ "Βεβαιωθείτε ότι είναι μια έγκυρη εντολή."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "Έξοδος %u "
+#~ msgstr[1] "Έξοδοι %u "
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "Είσοδος %u "
+#~ msgstr[1] "Είσοδοι %u "
+
+#~ msgid "System Sounds"
+#~ msgstr "Ήχοι συστήματος"
+
+#~ msgid "Media keys"
+#~ msgstr "Πλήκτρα πολυμέσων"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Πρόσθετη λειτουργία πλήκτρων πολυμέσων"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Αδυναμία ενεργοποίησης χαρακτηριστικών προσιτότητας ποντικιού"
+
+#~| msgid ""
+#~| "Mouse accessibility requires mousetweaks to be installed on your system."
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Η προσιτότητα ποντικιού απαιτεί το mousetweaks να είναι εγκατεστημένο στο "
+#~ "σύστημα σας."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Προτιμήσεις ποντικιού"
+
+#~ msgid "Mouse"
+#~ msgstr "Ποντίκι"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Πρόσθετη λειτουργία ποντικιού"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Πρόσθετη λειτουργία διαλείμματος πληκτρολόγησης"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Ρύθμιση μεγέθους οθόνης και περιστροφής"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Αδυναμία αλλαγής των ρυθμίσεων της οθόνης"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Αδυναμία επαναφοράς των ρυθμίσεων της οθόνης"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr ""
+#~ "Αδυναμία επαναφοράς των ρυθμίσεων της οθόνης από αντίγραφο ασφαλείας"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] ""
+#~ "Οι προηγούμενες ρυθμίσεις της οθόνης θα επαναφερθούν σε %d δευτερόλεπτο"
+#~ msgstr[1] ""
+#~ "Οι προηγούμενες ρυθμίσεις της οθόνης θα επαναφερθούν σε %d δευτερόλεπτα"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Είναι ικανοποιητική η εμφάνιση της οθόνης;"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "Επαναφο_ρά προηγούμενων ρυθμίσεων"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Διατήρηση αυτών των ρυθμίσεων"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Αδυναμία εφαρμογής των επιλεγμένων ρυθμίσεων στις οθόνες"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Αδυναμία ανανέωσης των πληροφοριών οθόνης: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Γίνεται παρόλα αυτά προσπάθεια αλλαγής των ρυθμίσεων της οθόνης."
+
+#~| msgid "<i>Rotation not supported</i>"
+#~ msgid "Rotation not supported"
+#~ msgstr "Η περιστροφή δεν υποστηρίζεται"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Αδυναμία αποθήκευσης των ρυθμίσεων της οθόνης"
+
+#~ msgid "Normal"
+#~ msgstr "Κανονική"
+
+#~ msgid "Left"
+#~ msgstr "Αριστερά"
+
+#~ msgid "Right"
+#~ msgstr "Δεξιά"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Αντιστροφή\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Αναποδογύρισμα"
+
+#~| msgid "_Configure Display Settings …"
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Ρύθμιση οθόνης…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Ρύθμιση οθόνης"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Αδυναμία εφαρμογής των αποθηκευμένων ρυθμίσεων για τις οθόνες"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Δεν είναι δυνατός ο εντοπισμός του αρχικού καταλόγου χρήστη"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Διαχείριση της βάσης δεδομένων πόρων X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Βάση δεδομένων πόρων X"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "Το κλειδί GConf %s ορίστηκε σε τύπο %s ενώ ο αναμενόμενος τύπος ήταν %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Διαχείριση ρυθμίσεων X"
+
+#~ msgid "X Settings"
+#~ msgstr "Ρυθμίσεις X"
+
+#~ msgid "Module Path"
+#~ msgstr "Διαδρομή αρθρώματος"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "διαδρομή για τον οδηγό έξυπνης κάρτας PKCS #11"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "ελήφθη σφάλμα ή αποσύνδεση από την πηγή του γεγονότος"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Αδυναμία αρχικοποίησης του συστήματος ασφαλείας NSS"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "δεν βρέθηκε κατάλληλος οδηγός έξυπνης κάρτας"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "αδυναμία φόρτωσης του οδηγού έξυπνης κάρτας «%s»"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "αδυναμία παρακολούθησης εισερχομένων γεγονότων κάρτας - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr ""
+#~ "συνέβη μη αναμενόμενο σφάλμα κατά την αναμονή γεγονότων έξυπνης κάρτας"
+
+#~ msgid "Slot ID"
+#~ msgstr "ID υποδοχής κάρτας"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Η υποδοχή στην οποία βρίσκεται η κάρτα"
+
+#~| msgid "Slow keys"
+#~ msgid "Slot Series"
+#~ msgstr "Σειρά υποδοχής"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "ταυτοποιητής κάρτας ανά υποδοχή"
+
+#~| msgid "filename"
+#~ msgid "name"
+#~ msgstr "όνομα"
+
+#~| msgid "Mouse"
+#~ msgid "Module"
+#~ msgstr "Άρθρωμα"
+
+#~ msgid "smartcard driver"
+#~ msgstr "οδηγός έξυπνης κάρτας"
+
+#~ msgid "Change system time"
+#~ msgstr "Αλλαγή ώρας συστήματος"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Αλλαγή χρονικής ζώνης συστήματος"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Διαμόρφωση ρολογιού υπολογιστή"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr ""
+#~ "Απαιτούνται προνόμια διαχειριστή για να αλλάξει η χρονική ζώνη του "
+#~ "συστήματος."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr ""
+#~ "Απαιτούνται προνόμια διαχειριστή για αλλαγή της ώρας του συστήματος."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr ""
+#~ "Απαιτούνται προνόμια διαχειριστή για διαμόρφωση του ρολογιού του "
+#~ "υπολογιστή."
+
+#~ msgid "Unknown"
+#~ msgstr "Άγνωστο"
+
+#~ msgid "Sound"
+#~ msgstr "Ήχος"
+
+#~ msgid "S_peed:"
+#~ msgstr "Τα_χύτητα:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Πληκτρολογήστε για να δοκιμάσετε τις ρυθμίσεις:"
+
+#~ msgid "Custom"
+#~ msgstr "Προσαρμοσμένη"
+
+#~ msgid "Large"
+#~ msgstr "Μεγάλο"
+
+#~ msgid "Current network location"
+#~ msgstr "Τρέχουσα τοποθεσία δικτύου"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "URL για περισότερες εικόνες παρασκηνίου"
+
+#~ msgid "More themes URL"
+#~ msgstr "URL για περισσότερα θέματα"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Προσθέστε αυτό στο όνομα της τρέχουσας τοποθεσίας σας. Αυτό "
+#~ "χρησιμοποιείται για τον καθορισμό της ρύθμισης του διαμεσολαβητή δικτύου."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL για την λήψη περισσότερων παρασκηνίων επιφάνειας εργασίας. Αν ορισθεί "
+#~ "σε κενό τότε δεν θα εμφανίζεται κανένας δεσμός."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL για την λήψη περισσότερων θεμάτων επιφάνειας εργασίας. Αν ορισθεί σε "
+#~ "κενό τότε δεν θα εμφανίζεται κανένας δεσμός."
+
+#~ msgid "Key"
+#~ msgstr "Πλήκτρο"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr ""
+#~ "Κλειδί GConf στο οποίο αυτός ο επεξεργαστής ιδιοτήτων είναι συνδεδεμένος"
+
+#~ msgid "Callback"
+#~ msgstr "Επανάκληση"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Έκδοση αυτής της ανάκλησης όταν η τιμή που σχετίζεται με αυτό το πλήκτρο "
+#~ "αλλάζει"
+
+#~ msgid "Change set"
+#~ msgstr "Ορισμός αλλαγής"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Ομάδα αλλαγών GConf που περιέχει δεδομένα και θα προωθηθεί στον πελάτη "
+#~ "gconf κατά την εφαρμογή"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Μετατροπή σε επανάκληση γραφικού συστατικού"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Επανάκληση που θα εκδοθεί όταν μετατραπούν δεδομένα από το GConf στο "
+#~ "γραφικό συστατικό"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Μετατροπή από την επανάκληση γραφικού συστατικού"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Επανάκληση που θα εκδοθεί όταν μετατραπούν δεδομένα από το γραφικό "
+#~ "συστατικό στο GConf"
+
+#~ msgid "UI Control"
+#~ msgstr "Έλεγχος UI"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr ""
+#~ "Αντικείμενο που ελέγχει την ιδιότητα (κανονικά ένα γραφικό συστατικό)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Δεδομένα αντικειμένου επεξεργαστή ιδιότητας"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr ""
+#~ "Προσαρμοσμένα δεδομένα που απαιτούνται από το συγκεκριμένο επεξεργαστή "
+#~ "ιδιοτήτων"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Δεδομένα επεξεργαστή ιδιότητας που ελευθερώνει επανάκληση"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Επανάκληση που θα εκδοθεί όταν πρόκειται να ελευθερωθούν δεδομένα "
+#~ "αντικειμένου επεξεργαστή ιδιότητας"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Αδυναμία εύρεσης του αρχείου '%s'.\n"
+#~ "\n"
+#~ "Βεβαιωθείτε ότι υπάρχει και προσπαθήστε ξανά, ή επιλέξτε μια διαφορετική "
+#~ "εικόνα παρασκηνίου."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Αδυναμία ανοίγματος του αρχείου '%s'.\n"
+#~ "Ίσως να είναι ένας τύπος εικόνας που δεν υποστηρίζεται ακόμα.\n"
+#~ "\n"
+#~ "Επιλέξτε ένα διαφορετικό τύπο εικόνας."
+
+#~ msgid "Please select an image."
+#~ msgstr "Παρακαλώ επιλέξτε μια εικόνα."
+
+#~ msgid "_Select"
+#~ msgstr "Επιλο_γή"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Προτιμώμενες εφαρμογές"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Καθορισμός των προεπιλεγμένων εφαρμογών"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Έναρξη της προτιμώμενης βοηθητικής τεχνολογίας"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Οπτική βοήθεια"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Σφάλμα κατά την αποθήκευση ρύθμισης: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Αδυναμία φόρτωσης της κύριας επιφάνειας χρήστη"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Βεβαιωθείτε ότι η μικροεφαρμογή έχει εγκατασταθεί σωστά"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Όλες οι επαναλήψεις %s θα αντικατασταθούν με ένα πραγματικό δεσμό"
+
+#~ msgid "C_ommand:"
+#~ msgstr "Εν_τολή:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Εν_τολή:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "_Παράμετρος εκτέλεσης:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Εφαρμογή προβολής εικόνων"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Αποστολέας άμεσων μηνυμάτων"
+
+#~ msgid "Internet"
+#~ msgstr "Διαδίκτυο"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Εφαρμογή αλληλογραφίας"
+
+#~ msgid "Mobility"
+#~ msgstr "Φορητότητα"
+
+#~ msgid "Multimedia"
+#~ msgstr "Πολυμέσα"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Αναπαραγωγή πολυμέσων"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Άνοιγμα δεσμού σε νέα _καρτέλα"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Άνοιγμα δεσμού σε νέο _παράθυρο"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Άνοιγμα δεσμού με τις προεπι_λογές του περιηγητή"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Εκτέλεση στην ε_κκίνηση"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Εκτέλεση σε τ_ερματικό"
+
+#~ msgid "System"
+#~ msgstr "Σύστημα"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Προσομοίωση τερματικού"
+
+#~ msgid "Text Editor"
+#~ msgstr "Επεξεργαστής κειμένου"
+
+#~ msgid "Video Player"
+#~ msgstr "Αναπαραγωγή βίντεο"
+
+#~ msgid "Visual"
+#~ msgstr "Οπτική βοήθεια"
+
+#~ msgid "Web Browser"
+#~ msgstr "Περιηγητής ιστοσελίδων"
+
+#~ msgid "_Run at start"
+#~ msgstr "Εκτέλεση στην ε_κκίνηση"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Αναπαραγωγή μουσικής Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Φυλλομετρητής Sensible Debian"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Προσομοίωση Τερματικού Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Περιηγητής Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Εφαρμογή αλληλογραφίας Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Μεγεθυντής του GNOME χωρίς Αναγνώστη οθόνης"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Πληκτρολόγιο οθόνης του GNOME"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Τερματικό GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus με μεγεθυντή"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Μεγεθυντής του KDE χωρίς Αναγνώστη οθόνης"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Αναγνώστης οθόνης Linux"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Αναγνώστης οθόνης Linux με μεγεθυντή"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Αναπαραγωγή μουσικής Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca με μεγεθυντή"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Αναπαραγωγή μουσικής Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Standard XTerminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Αναπαραγωγή ταινιών Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "Να περιλαμβάνεται ο _πίνακας εφαρμογών"
+
+#~ msgid "Make Default"
+#~ msgstr "Να γίνει προεπιλογή"
+
+#~ msgid "Monitor"
+#~ msgstr "Οθόνη"
+
+#~ msgid "Off"
+#~ msgstr "Ανενεργή"
+
+#~ msgid "On"
+#~ msgstr "Ενεργή"
+
+#~ msgid "Panel icon"
+#~ msgstr "Εικονίδιο πίνακα εφαρμογών"
+
+#~ msgid "R_otation:"
+#~ msgstr "Πε_ριστροφή:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Ρυθμός ανα_νέωσης:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "Ί_δια εικόνα σε όλες τις οθόνες"
+
+#~ msgid "Upside-down"
+#~ msgstr "Αναποδογύρισμα"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "Εντοπισμός ο_θονών"
+
+#~ msgid "_Resolution:"
+#~ msgstr "Ανά_λυση:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Εμφάνιση οθονών στον πίνακα εφαρμογών"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Αλλαγή της αναλύσης και θέσης οθονών"
+
+#~ msgid "Monitors"
+#~ msgstr "Οθόνες"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Χρήση: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "Αυτό το πρόγραμμα εγκαθιστά ένα προφίλ RANDR για πολλαπλές οθόνες\n"
+#~ "σε μια τοποθεσία για όλο το σύστημα. Το προφίλ που προκύπτει "
+#~ "χρησιμοποιείται όταν\n"
+#~ "τρέχει το πρόσθετο RANDR στον gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - μια απόλυτη διαδρομή, συνήθως /home/username/.config/"
+#~ "monitors.xml\n"
+#~ "\n"
+#~ "DEST_NAME - όνομα του αρχείου που εγκαταστάθηκε. Αυτό θα τοποθετηθεί "
+#~ "στον\n"
+#~ "            φάκελο συτήματος για τις διαμορφώσεις RANDR,\n"
+#~ "            έτσι το αποτέλεσμα συνήθως θα είναι %s/DEST_NAME\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr ""
+#~ "Αυτό το πρόγραμμα μπορεί να χρησιμοποιηθεί μόνο από το διαχειριστή (root)"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Το όνομα αρχείου προέλευσης πρέπει να δίνεται με απόλυτη διαδρομή"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Αδυναμία ανοίγματος %s: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Αδυναμία λήψης πληροφοριών για %s: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "Το %s πρέπει να είναι κανονικό αρχείο\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Αυτό το πρόγραμμα μπορεί να εκτελεσθεί μέσω της pkexec(1)"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "Η τιμή PKEXEC_UID πρέπει να είναι ακέραιος αριθμός"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "Πρέπει να είστε ο ιδιοκτήτης του %s\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "Το %s δεν πρέπει να περιλαμβάνει φακέλους στο όνομα\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "Το %s πρέπει να είναι φακέλος\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Αδυναμία ανοίγματος %s/%s: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "Αδυναμία μετονομασίας του %s σε %s: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Απαιτείται πιστοποίηση για να εγκαταστήσετε ρυθμίσεις πολλαπλών οθονών "
+#~ "για όλους τους χρήστες"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Εγκατάσταση ρυθμίσεων πολλαπλών οθονών για όλο το σύστημα"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Καθρεπτισμός οθονών"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Οθόνη: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Επιλέξτε μια οθόνη για να αλλάξετε τις ιδιότητες της. Σύρετε την για να "
+#~ "αλλάξετε την θέση της."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Αδυναμία αποθήκευσης των ρυθμίσεων της οθόνης"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Αδυναμία λήψης του διαύλου της συνεδρίας κατά την εφαρμογή των ρυθμίσεων "
+#~ "της οθόνης"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Αδυναμία εντοπισμού οθονών"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Η διαμόρφωση οθόνης αποθηκεύτηκε"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr ""
+#~ "Αυτή η διαμόρφωση θα χρησιμοποιηθεί την επόμενη φορά που κάποιος συνδεθεί."
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Αδυναμία καθορισμού της προεπιλεγμένης διαμόρφωσης για τις οθόνες"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Αδυναμία λήψης πληροφοριών οθόνης"
+
+#~ msgid "Desktop"
+#~ msgstr "Επιφάνεια εργασίας"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Νέα συντόμευση…"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Πλήκτρο συντόμευσης"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modifiers συντόμευσης"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Κωδικός πλήκτρου συντόμευσης"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Accel Mode"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Το είδος της συντόμευσης."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Άγνωστη ενέργεια>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Προσαρμοσμένες συντομεύσεις"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Σφάλμα κατά την αποθήκευση της νέας συντόμευσης"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Η συντόμευση \"%s\" δεν θα χρησιμοποιηθεί γιατί θα επηρεάσει την "
+#~ "πληκτρολόγηση.\n"
+#~ "Χρησιμοποιήστε την σε συνδυασμό με πλήκτρα όπως το Control, Alt ή Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Η συντόμευση \"%s\" χρησιμοποιείται ήδη για:\n"
+#~ " \"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Αν αναθέσετε ξανά τη συντόμευση στο \"%s\", η συντόμευση \"%s\" θα "
+#~ "απενεργοποιηθεί."
+
+#~ msgid "_Reassign"
+#~ msgstr "Ανά_θεση ξανά"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Σφάλμα κατά τη κατάργηση ρύθμισης συντόμευσης στη βάση δεδομένων "
+#~ "ρυθμίσεων: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Υπερβολικά πολλές προσαρμοσμένες συντομεύσεις"
+
+#~ msgid "Action"
+#~ msgstr "Ενέργεια"
+
+#~ msgid "Shortcut"
+#~ msgstr "Συντόμευση"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Προσαρμοσμένη συντόμευση"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Συντομεύσεις πληκτρολογίου"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Για να επεξεργαστείτε μια νέα συντόμευση πατήστε στην αντίστοιχη σειρά ή "
+#~ "πατήστε backspace για εκκαθάριση."
+
+#~ msgid "_Name:"
+#~ msgstr "Ό_νομα:"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Ορισμός πλήκτρων συντόμευσης σε εντολές"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr ""
+#~ "Ήχος μπιπ κατά την ενεργοποίηση ή απενεργοποίηση _λειτουργιών προσιτότητας"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Ήχος μπιπ κατά το πάτημα _modifier"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Ήχος μπιπ κατά το πάτημα πλήκτρου _toggle"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Ήχος μπιπ κατά το _πάτημα πλήκτρου"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Ήχος μπιπ κατά την από_ρριψη πλήκτρου"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Ήχος μπιπ στην _αποδοχή πλήκτρου"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Ήχος μπιπ κατά την από_ρριψη πλήκτρου"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Πλήκτρα Bounce"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Αναβόσβημα _γραμμής τίτλου παραθύρου"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Αναβόσβημα _ολόκληρης της οθόνης"
+
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Ηχητική ανάδραση προσιτότητας πληκτρολογίου"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Εμφάνιση _οπτικών ενδείξεων για τους ήχους προειδοποίησης"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Αργά πλήκτρα"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Sticky πλήκτρα"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Οπτικές ενδείξεις ήχων"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Να επι_τρέπεται η αναβολή διαλειμμάτων"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Η_χητική ανάδραση…"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Δρομέας αναβοσβήνει"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "_Αναβοσβήνει σε πεδία και κουτιά κειμένου"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Ταχύτητα αναβοσβήματος δρομέα"
+
+#~ msgid "D_elay:"
+#~ msgstr "Καθυ_στέρηση:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "Απενερ_γοποίηση πλήκτρων sticky αν δύο πλήκτρα πατηθούν ταυτόχρονα"
+
+#~ msgid "Fast"
+#~ msgstr "Γρήγορα"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Επανάληψη _πληκτρολογίου κατά το κράτημα ενός πλήκτρου"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Προτιμήσεις πληκτρολογίου"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Μοντέλο πληκτρολογίου:"
+
+#~ msgid "Layouts"
+#~ msgstr "Διατάξεις"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Λίστα διατάξεων πληκτρολογίου επιλεγμένων για χρήση"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Κλείδωμα οθόνης μετά από μια συγκεκριμένη διάρκεια για την αποφυγή του "
+#~ "συνδρόμου του καρπιαίου σωλήνα"
+
+#~ msgid "Long"
+#~ msgstr "Μακρύ"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Πλήκτρα ποντικιού"
+
+#~ msgid "Move _Down"
+#~ msgstr "Μετακίνηση _κάτω"
+
+#~ msgid "Move _Up"
+#~ msgstr "Μετακίνηση ε_πάνω"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr ""
+#~ "Μετακίνηση της επιλεγμένης διάταξης πληκτρολογίου πιο κάτω στη λίστα"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr ""
+#~ "Μετακίνηση της επιλεγμένης διάταξης πληκτρολογίου πιο πάνω στη λίστα"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "_Τα νέα παράθυρα να χρησιμοποιούν την διάταξη του ενεργού παραθύρου"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Εκτύπωση διαγράμματος της επιλεγμένης διάταξης πληκτρολογίου"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Αφαίρεση της επιλεγμένης διάταξης πληκτρολογίου από τη λίστα"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Πλήκτρα επανάληψης"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Ταχύτητα επανάληψης πλήκτρων"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Αντικατάσταση των τρεχουσών ρυθμίσεων διάταξης πληκτρολογίου\n"
+#~ "με τις προεπιλεγμένες ρυθμίσεις"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Επανα_φορά στις προεπιλογές"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Επιλογή διάταξης πληκτρολογίου για προσθήκη στη λίστα"
+
+#~ msgid "Short"
+#~ msgstr "Σύντομο"
+
+#~ msgid "Slow"
+#~ msgstr "Αργό"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Προβολή και επεξεργασία επιλογών διάταξης πληκτρολογίου"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Επιτάχυνση:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "Να ε_πιτρέπεται η απενεργοποίηση των λειτουργιών προσιτότητας από το "
+#~ "πληκτρολόγιο"
+
+#~ msgid "_Add..."
+#~ msgstr "_Προσθήκη…"
+
+#~ msgid "_Delay:"
+#~ msgstr "Καθυ_στέρηση:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "Να α_γνοούνται τα γρήγορα διπλά πατήματα πλήκτρων"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr ""
+#~ "_Να γίνεται αποδοχή μόνο των πλήκτρων που πατήθηκαν για επαρκές χρονικό "
+#~ "διάστημα"
+
+#~ msgid "_Options..."
+#~ msgstr "_Επιλογές…"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "Να επιτρέπεται ο έλεγχος του _δείκτη με το πληκτρολόγιο"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "_Ξεχωριστή διάταξη για κάθε παράθυρο"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Εξομοίωση ταυτόχρονων πατημάτων πλήκτρων"
+
+#~ msgid "_Speed:"
+#~ msgstr "Τα_χύτητα:"
+
+#~ msgid "By _country"
+#~ msgstr "Κατά _χώρα"
+
+#~ msgid "By _language"
+#~ msgstr "Κατά _γλώσσα"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Επιλογή μιας διάταξης"
+
+#~ msgid "Preview:"
+#~ msgstr "Προεπισκόπηση:"
+
+#~ msgid "_Country:"
+#~ msgstr "_Χώρα:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Γλώσσα:"
+
+#~ msgid "_Variants:"
+#~ msgstr "Παραλλα_γές:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Επιλέξτε ένα μοντέλο πληκτρολογίου"
+
+#~ msgid "_Models:"
+#~ msgstr "_Μοντέλα:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "Κατασκευα_στές:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Επιλογές διάταξης πληκτρολογίου"
+
+#~ msgid "Layout"
+#~ msgstr "Διάταξη"
+
+#~ msgid "Vendors"
+#~ msgstr "Κατασκευαστές"
+
+#~ msgid "Models"
+#~ msgstr "Μοντέλα"
+
+#~ msgid "Default"
+#~ msgstr "Προεπιλεγμένη"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Καθορισμός των προτιμήσεων πληκτρολογίου"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Αδυναμία φόρτωσης εικονιδίου μικροεφαρμογής stock '%s'\n"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Μετακίνηση αριστερά"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Μετακίνηση δεξιά"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Μετακίνηση πάνω"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Μετακίνηση κάτω"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Ανενεργό"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Επιλέξτε τον τύπο κλικ από _νωρίτερα"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Επιλέξτε τύπο κλικ με mo_use gestures"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "_Διπλό κλικ:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Σύ_ρσιμο κλικ:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Απενεργοποίηση _touchpad κατά την πληκτρολόγηση"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Διάρκεια διπλού κλικ"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Μεταφορά και απόθεση"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Dwell κλικ"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Ενεργοποίηση _κλικ ποντικιού μέσω touchpad"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Ενεργοποίηση _οριζόντιας κύλισης"
+
+#~ msgid "High"
+#~ msgstr "Υψηλό"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Εντοπισμός δείκτη"
+
+#~ msgid "Low"
+#~ msgstr "Χαμηλό"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Προσανατολισμός ποντικιού"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Ταχύτητα δείκτη"
+
+#~ msgid "Scrolling"
+#~ msgstr "Κύλιση"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Δευτε_ρεύον κλικ:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Προ_βολή της θέσης του δρομέα όταν πατιέται το πλήκτρο Control"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Προβολή παραθύρου τύπου _κλικ"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Εξομοίωση δευτερεύοντος κλικ"
+
+#~ msgid "Small"
+#~ msgstr "Μικρό"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Κατώφλι:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Για να δοκιμάσετε τις ρυθμίσεις διπλού κλικ, κάντε διπλό κλικ στη λάμπα."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Κύλιση με δυο _δάκτυλα"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Μπορείτε ακόμα να χρησιμοποιήσετε το πίνακα κλικ Dwell για να επιλέξετε "
+#~ "τον τύπο κλικ."
+
+#~ msgid "_Disabled"
+#~ msgstr "Α_νενεργό"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "Κύλιση _γωνίας"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "Έ_ναρξη κλικ μετά την διακοπή της κίνησης του δρομέα"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Αριστερόχειρες"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "_Κατώφλι κίνησης:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Δεξιόχειρες"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Ευαισθησία:"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Μονό κλικ:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Διάρκεια:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "_Πάτημα δευτερεύοντος κλικ με το πάτημα και κράτημα του πρωτεύοντος "
+#~ "κουμπιού"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Καθορισμός προτιμήσεων ποντικιού"
+
+#~ msgid "New Location..."
+#~ msgstr "Νέα τοποθεσία…"
+
+#~ msgid "Location already exists"
+#~ msgstr "Η τοποθεσία υπάρχει ήδη"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Διαμεσολαβητής δικτύου"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Καθορισμός προτιμήσεων διαμεσολαβητή δικτύου"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Απευθείας σύνδεση στο διαδίκτυο</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Αυτόματη ρύθμιση διαμεσολαβητή</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Χειροκίνητη ρύθμιση διαμεσολαβητή</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Χρήση πιστοποίησης</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL αυτόματης ρύθμισης:"
+
+#~ msgid "C_reate"
+#~ msgstr "_Δημιουργία"
+
+#~ msgid "Create New Location"
+#~ msgstr "Δημιουργία νέας τοποθεσίας"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Λεπτομέρειες διαμεσολαβητή HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Διαμεσολαβητής _HTTP:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Αγνόηση λίστας κεντρικού συστήματος"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Αγνόηση λίστας κεντρικού συστήματος"
+
+#~ msgid "Location:"
+#~ msgstr "Τοποθεσία:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Προτιμήσεις διαμεσολαβητή δικτύου"
+
+#~ msgid "Port:"
+#~ msgstr "Θύρα:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Ρύθμιση διαμεσολαβητή"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Σύστημα S_ocks:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Η τοποθεσία υπάρχει ήδη."
+
+#~ msgid "U_sername:"
+#~ msgstr "Όν_ομα χρήστη:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Διαγραφή τοποθεσίας"
+
+#~ msgid "_Details"
+#~ msgstr "_Λεπτομέρειες"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Διαμεσολαβητής _FTP:"
+
+#~ msgid "_Location name:"
+#~ msgstr "Όνομα _τοποθεσίας:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Κωδικός:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Ασφαλής διαμεσολαβητής HTTP:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Χρήση του ίδιου proxy για όλα τα πρωτόκολλα"
+
+#, fuzzy
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr ""
+#~ "Να ε_πιτρέπεται η απενεργοποίηση των λειτουργιών προσιτότητας από το "
+#~ "πληκτρολόγιο"
+
+#, fuzzy
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Ήχος μπιπ κατά το _πάτημα πλήκτρου"
+
+#, fuzzy
+#~ msgid "Beep when a key is"
+#~ msgstr "Ήχος μπιπ κατά το _πάτημα πλήκτρου"
+
+#, fuzzy
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "Ήχος μπιπ κατά την από_ρριψη πλήκτρου"
+
+#, fuzzy
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "Ήχος μπιπ κατά το πάτημα _modifier"
+
+#, fuzzy
+#~ msgid "Change constrast:"
+#~ msgstr "Ορισμός αλλαγής"
+
+#, fuzzy
+#~ msgid "Contrast:"
+#~ msgstr "Επαφή"
+
+#, fuzzy
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "Να επιτρέπεται ο έλεγχος του _δείκτη με το πληκτρολόγιο"
+
+#, fuzzy
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "Απενερ_γοποίηση πλήκτρων sticky αν δύο πλήκτρα πατηθούν ταυτόχρονα"
+
+#, fuzzy
+#~ msgid "Flash the entire screen"
+#~ msgstr "Αναβόσβημα _ολόκληρης της οθόνης"
+
+#, fuzzy
+#~ msgid "Flash the window title"
+#~ msgstr "Αναβόσβημα _γραμμής τίτλου παραθύρου"
+
+#, fuzzy
+#~ msgid "Hearing"
+#~ msgstr "Εμφάνιση"
+
+#, fuzzy
+#~ msgid "HighContrast"
+#~ msgstr "Επαφή"
+
+#, fuzzy
+#~ msgid "Hover Click"
+#~ msgstr "Dwell κλικ"
+
+#, fuzzy
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Να α_γνοούνται τα γρήγορα διπλά πατήματα πλήκτρων"
+
+#, fuzzy
+#~ msgid "Keyboard Settings..."
+#~ msgstr "Συντομεύσεις πληκτρολογίου"
+
+#, fuzzy
+#~ msgid "Larger"
+#~ msgstr "Μεγάλο"
+
+#, fuzzy
+#~ msgid "LowContrast"
+#~ msgstr "Επαφή"
+
+#, fuzzy
+#~ msgid "Mouse Settings..."
+#~ msgstr "Προσανατολισμός ποντικιού"
+
+#, fuzzy
+#~ msgid "Nomon"
+#~ msgstr "Κανένα"
+
+#~ msgid "None"
+#~ msgstr "Κανένα"
+
+#, fuzzy
+#~ msgid "On screen keyboard"
+#~ msgstr "Πληκτρολόγιο οθόνης του GNOME"
+
+#, fuzzy
+#~ msgid "Options..."
+#~ msgstr "_Επιλογές…"
+
+#, fuzzy
+#~ msgid "Screen Reader"
+#~ msgstr "Αναγνώστης οθόνης Linux"
+
+#, fuzzy
+#~ msgid "Seeing"
+#~ msgstr "Εμφάνιση"
+
+#, fuzzy
+#~ msgid "Test:"
+#~ msgstr "Κείμενο"
+
+#, fuzzy
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "Έ_ναρξη κλικ μετά την διακοπή της κίνησης του δρομέα"
+
+#, fuzzy
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr ""
+#~ "_Πάτημα δευτερεύοντος κλικ με το πάτημα και κράτημα του πρωτεύοντος "
+#~ "κουμπιού"
+
+#, fuzzy
+#~ msgid "Type here to test settings"
+#~ msgstr "_Πληκτρολογήστε για να δοκιμάσετε τις ρυθμίσεις:"
+
+#, fuzzy
+#~ msgid "Typing"
+#~ msgstr "Διάλειμμα πληκτρολόγησης"
+
+#, fuzzy
+#~ msgid "Typing Assistant"
+#~ msgstr "Βοη_θός:"
+
+#, fuzzy
+#~ msgid "Video Mouse"
+#~ msgstr "Ποντίκι"
+
+#, fuzzy
+#~ msgid "Visual Alerts"
+#~ msgstr "Οπτική βοήθεια"
+
+#~ msgid "Zoom"
+#~ msgstr "Μεγέθυνση"
+
+#, fuzzy
+#~ msgid "Zoom in:"
+#~ msgstr "Μεγέθυνση"
+
+#, fuzzy
+#~ msgid "Zoom out:"
+#~ msgstr "Μεγέθυνση"
+
+#~ msgid "Control Center"
+#~ msgstr "Κέντρο ελέγχου"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Το εργαλείο ρύθμισης του GNOME"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών "
+#~ "OpenType."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών "
+#~ "PCF."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών "
+#~ "TrueType."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Αν οριστεί ως αληθές, θα δημιουργηθούν μικρογραφίες των γραμματοσειρών "
+#~ "Type1."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη "
+#~ "δημιουργία μικρογραφιών για τις γραμματοσειρές OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη "
+#~ "δημιουργία μικρογραφιών για τις γραμματοσειρές PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη "
+#~ "δημιουργία μικρογραφιών για τις γραμματοσειρές TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Στο κλειδί αυτό, ορίστε την εντολή που θα χρησιμοποιείται για τη "
+#~ "δημιουργία μικρογραφιών για τις γραμματοσειρές Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Εντολή μικρογραφιών γραμματοσειρών OpenType"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Εντολή μικρογραφιών γραμματοσειρών PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Εντολή μικρογραφιών γραμματοσειρών TrueType"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Εντολή μικρογραφιών γραμματοσειρών Type1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Αν θα δημιουργούνται μικρογραφίες των γραμματοσειρών Type1"
+
+#~ msgid "Name:"
+#~ msgstr "Όνομα:"
+
+#~ msgid "Style:"
+#~ msgstr "Στυλ:"
+
+#~ msgid "Type:"
+#~ msgstr "Τύπος:"
+
+#~ msgid "Size:"
+#~ msgstr "Μέγεθος:"
+
+#~ msgid "Version:"
+#~ msgstr "Έκδοση:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Πνευματικά δικαιώματα:"
+
+#~ msgid "Description:"
+#~ msgstr "Περιγραφή:"
+
+#~ msgid "Installed"
+#~ msgstr "Εγκατεστημένο"
+
+#~ msgid "Install Failed"
+#~ msgstr "Η εγκατάσταση απέτυχε"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "χρήση: %s αρχείογραμματοσειράς\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Ε_γκατάσταση γραμματοσειράς"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Εφαρμογή προβολής γραμματοσειρών"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Προεπισκόπηση γραμματοσειρών"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Κείμενο μικρογραφίας (προεπιλογή: Αα)"
+
+#~ msgid "TEXT"
+#~ msgstr "ΚΕΙΜΕΝΟ"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Μέγεθος γραμματοσειράς (προεπιλογή: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "ΜΕΓΕΘΟΣ"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ΑΡΧΕΙΟ-ΓΡΣΕΙΡΑΣ ΑΡΧΕΙΟ-ΕΞΟΔΟΥ"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Σφάλμα κατά την ανάλυση των ορισμάτων: %s\n"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Διάταξη πληκτρολογίου \"%s\""
+
+#~ msgid "_Groups"
+#~ msgstr "_Ομάδες"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Διάταξη πληκτρολογίου"
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Συνδυασμός για την αναστολή του υπολογιστή"
+
+#~ msgid "Suspend"
+#~ msgstr "Αναστολή"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Αδυναμία αδρανοποίησης συστήματος.\n"
+#~ "Βεβαιωθείτε ότι το σύστημα έχει ρυθμιστεί σωστά."
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "Έλεγχος έντασης ήχου GNOME"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Ορισμός σε true για προβολή διαλόγου όταν υπάρχουν σφάλματα κατά την "
+#~ "εκτέλεση του screenSaver"
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Ορισμός σε true για εκτέλεση screenSaver κατά την είσοδο"
+
+#~ msgid "Show startup errors"
+#~ msgstr "Εμφάνιση σφαλμάτων εκκίνησης"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Έναρξη screensaver"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Ενεργοποίηση πρόσθετης λειτουργίας screensaver"
+
+#~| msgid "Use screen _reader"
+#~ msgid "Toggle screenreader"
+#~ msgstr "Αναγνώστης οθόνης"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% του χώρου στο δίσκο `%s' χρησιμοποιείται"
+
+#~ msgid "Analyze"
+#~ msgstr "Ανάλυση"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Σφάλμα εκκίνησης του screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Η λειτουργικότητα του screensaver δε θα είναι διαθέσιμη για αυτήν τη "
+#~ "συνεδρία."
+
+#~ msgid "Screensaver"
+#~ msgstr "Screensaver"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "Πρόσθετη λειτουργία Screensaver"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Αδυναμία δημιουργίας του καταλόγου \"%s\".\n"
+#~ "Αυτό χρειάζεται για να επιτρέπεται η αλλαγή θέματος του δείκτη ποντικιού."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Αδυναμία δημιουργίας του καταλόγου \"%s\".\n"
+#~ "Αυτό χρειάζεται για να επιτρέπεται η αλλαγή δρομέων."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Αδυναμία φόρτωσης αρχείου ήχου %s ώς δείγμα %s"
+
+#~ msgid "Login"
+#~ msgstr "Σύνδεση"
+
+#~ msgid "Logout"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Boing"
+#~ msgstr "Αναπήδηση"
+
+#~ msgid "Siren"
+#~ msgstr "Σειρήνα"
+
+#~ msgid "Clink"
+#~ msgstr "Κουδούνισμα"
+
+#~ msgid "Beep"
+#~ msgstr "Μπιπ"
+
+#~ msgid "No sound"
+#~ msgstr "Χωρίς ήχο"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Δεν έχει ορισθεί ήχος για αυτό το γεγονός."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Το αρχείο ήχου για το παρόν γεγονός δεν υπάρχει.\n"
+#~ "Εάν επιθυμείτε, μπορείτε να εγκαταστήσετε το πακέτο gnome-audio, με μια  "
+#~ "συλλογή προεπιλεγμένων ήχων."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Το αρχείο ήχου για το παρόν γεγονός δεν υπάρχει."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Επιλογή Αρχείου Ήχου"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Το αρχείο %s δεν είναι ένα έγκυρο αρχείο wav"
+
+#~ msgid "Select sound file…"
+#~ msgstr "Επιλογή αρχείου ήχου…"
+
+#~ msgid "Sound plugin"
+#~ msgstr "Πρόσθετη λειτουργία ήχου"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Σφάλμα κατά την ρύθμιση της οθόνης"
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Στο Key Binding (%s)  έχει ορισθεί δράση πολλαπλές φορές\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Στο Key Binding (%s)  έχει ορισθεί binding πολλαπλές φορές\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "Φαίνεται ότι κάποια άλλη εφαρμογή έχει ήδη πρόσβαση στο πλήκτρο '%u'."
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Το Key Binding (%s) χρησιμοποιείται ήδη\n"
+
+#~ msgid "Volume"
+#~ msgstr "Ένταση ήχου"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Αν true, οι χειριστές mime για text/plain και text/* θα διατηρούνται "
+#~ "συγχρονισμένοι"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Συγχρονισμός χειριστών text/plain and text/*"
+
+#~ msgid "Image/label border"
+#~ msgstr "Περίγραμμα εικόνας/ετικέτας"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr ""
+#~ "Πλάτος του περιγράμματος γύρω από την ετικέτα και την εικόνα στο διάλογο "
+#~ "προειδοποίησης"
+
+#~ msgid "Alert Type"
+#~ msgstr "Τύπος προειδοποίησης"
+
+#~ msgid "The type of alert"
+#~ msgstr "Ο τύπος της προειδοποίησης"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Κουμπιά ειδοποίησης"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Τα κουμπιά που θα εμφανίζονται στον διάλογο προειδοποίησης"
+
+#, fuzzy
+#~ msgid "Show more _details"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Προβολή περισσότερων λεπτομερειών\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Προβολή περισσότερων _λεπτομερειών"
+
+#~ msgid "Select Image"
+#~ msgstr "Επιλογή εικόνας"
+
+#~ msgid "No Image"
+#~ msgstr "Χωρίς εικόνα"
+
+#~ msgid "Images"
+#~ msgstr "Εικόνες"
+
+#~ msgid "All Files"
+#~ msgstr "Όλα τα αρχεία"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Σφάλμα κατά τη λήψη πληροφοριών ευρετηρίου διευθύνσεων\n"
+#~ "Το Evolution Data Server δεν μπορεί να χειριστεί το πρωτόκολλο"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Αδυναμία ανοίγματος βιβλίου διευθύνσεων"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "Άγνωστο ID εισόδου, η βάση δεδομένων χρήστη μπορεί να είναι κατεστραμμένη"
+
+#~ msgid "About %s"
+#~ msgstr "Περί %s"
+
+#~ msgid "About Me"
+#~ msgstr "Προσωπικά"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Καθορισμός των προσωπικών σας στοιχείων"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>Email</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Οικία</b>"
+
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>Instant Messaging</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Δουλειά</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Τηλέφωνο</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Ιστός</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Αλλαγή του κωδικού σας</span>"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "Διεύ_θυνση:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "Βοη_θός:"
+
+#~ msgid "Address"
+#~ msgstr "Διεύθυνση"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Πόλη:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "Ε_ταιρία:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "_Ημερολόγιο:"
+
+#~ msgid "Change Passwo_rd…"
+#~ msgstr "Αλλαγή κω_δικού…"
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Αλλαγή κω_δικού"
+
+#~ msgid "Change password"
+#~ msgstr "Αλλαγή κωδικού"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "_Πόλη:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Χώρα:"
+
+#~ msgid "Contact"
+#~ msgstr "Επαφή"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Χώ_ρα:"
+
+#~ msgid "Current _password:"
+#~ msgstr "Τρέχων _κωδικός:"
+
+#~ msgid "Full Name"
+#~ msgstr "Ονοματεπώνυμο"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Οι_κία:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Ταχ. _Θυρίδα:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "Τα_χ. Θυρίδα:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Προσωπικές πληροφορίες"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Παρακαλώ πληκτρολογήστε το κωδικό ξανά στο πεδίο <b>Επαναπληκτρολόγηση "
+#~ "νέου κωδικού</b>\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Παρακαλώ πληκτρολογήστε το κωδικό ξανά στο πεδίο <b>Επαναπληκτρολόγηση "
+#~ "νέου κωδικού</b>."
+
+#~ msgid "Select your photo"
+#~ msgstr "Επιλέξτε τη φωτογραφία σας"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Πολιτεία/Ε_παρχία:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Για να αλλάξετε το κωδικό σας, εισάγετε τον τρέχοντα κωδικός σας στο "
+#~ "παρακάτω πεδίο και πατήστε <b>Πιστοποίηση</b>.\n"
+#~ "Μετά την πιστοποίηση σας, εισάγετε το νέο σας κωδικό, πληκτρολογήστε τον "
+#~ "ξανά για να τον επαληθεύσετε και κάντε κλικ στο <b>Αλλαγή κωδικού</b>."
+
+#~ msgid "User name:"
+#~ msgstr "Όνομα χρήστη:"
+
+#~ msgid "Web _log:"
+#~ msgstr "Ιστολό_γιο:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "Εργα_σία:"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Φαξ εργασίας:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "Τ._Κ.:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Διεύθυνση:"
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Πιστοποίηση"
+
+#~ msgid "_Department:"
+#~ msgstr "_Τμήμα:"
+
+#, fuzzy
+#~ msgid "_Home page:"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Αρ_χική σελίδα:\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Προ_σωπική σελίδα:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Οικία:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Διευθυντής:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Κινητό:"
+
+#~ msgid "_New password:"
+#~ msgstr "_Νέος κωδικός:"
+
+#~ msgid "_Profession:"
+#~ msgstr "Ε_πάγγελμα:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Ε_παναπληκτρολόγηση νέου κωδικού:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Πολιτεία/Επαρχία:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Τίτλος:"
+
+#~ msgid "_Work:"
+#~ msgstr "Ερ_γασία:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "_Τ.Κ.:"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Το θυγατρικό τερματίστηκε απρόσμενα"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Αδυναμία κλεισίματος backend_stdin IO channel: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Αδυναμία κλεισίματος backend_stdout IO channel: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Επιτυχής πιστοποίηση!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Ο κωδικός πρόσβασης σας έχει αλλάξει από την αρχική σας πιστοποίηση. "
+#~ "Παρακαλώ κάντε ξανά πιστοποίηση."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Αυτός ο κωδικός είναι εσφαλμένος."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Ο κωδικός σας έχει αλλάξει."
+
+#~ msgid "System error: %s."
+#~ msgstr "Σφάλμα συστήματος: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Ο κωδικός πρόσβασης είναι πολύ σύντομος."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Ο κωδικός πρόσβασης είναι πολύ απλός."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Ο παλιός και ο νέος κωδικός μοιάζουν πολύ."
+
+#, fuzzy
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Ο νέος κωδικός θα πρέπει να περιέχει αριθμητικούς ή ειδικούς χαρακτήρες.\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Ο νέος κωδικός θα πρέπει να περιέχει αριθμητικό ή ειδικό χαρακτήρα(ες)."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Ο παλιός και ο νέος κωδικός είναι οι ίδιοι."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Αδυναμία εκκίνησης %s: %s"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Δημιουργήθηκε σφάλμα συστήματος"
+
+#~ msgid "Checking password…"
+#~ msgstr "Έλεγχος κωδικού…"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "Πατήστε στο <b>Αλλαγή κωδικού</b> για να αλλάξετε το κωδικό πρόσβασης."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr ""
+#~ "Παρακαλώ πληκτρολογήστε το κωδικό σας στο πεδίο <b>Νέος κωδικός</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Οι δυο κωδικοί δεν είναι ίσοι."
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Βοηθητικές τεχνολογίες</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Προτιμήσεις</b>"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Είσοδος με _προσιτότητα"
+
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Προτιμήσεις Βοηθητικής Τεχνολογίας"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Οι αλλαγές σε αυτή τη ρύθμιση βοηθητικών τεχνολογιών θα πραγματοποιηθούν "
+#~ "στην επόμενη είσοδο σας."
+
+#, fuzzy
+#~ msgid "Close and _Log Out"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Κλείσιμο και Απο_σύνδεση\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Κλείσιμο και απο_σύνδεση"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Μετάβαση στο διάλογο Προτιμώμενων εφαρμογών"
+
+#, fuzzy
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Μετάβαση στο διάλογο εισόδου με προσιστότητα\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Μετάβαση στο διάλογο Εισόδου με προσιτότητα"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Μετάβαση στο διάλογο Προσιτότητας πληκτρολογίου"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Ενεργοποίηση βοηθητικών τεχνολογιών"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Προσιτότητα πλη_κτρολογίου"
+
+#, fuzzy
+#~ msgid "_Preferred Applications"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "_Προτιμώμενες Εφαρμογές\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "_Προτιμώμενες εφαρμογές"
+
+#~ msgid "Assistive Technology"
+#~ msgstr "Βοηθητική τεχνολογία"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr ""
+#~ "Ενεργοποίηση υποστήριξης για τις βοηθητικές τεχνολογίες του Gnome κατά "
+#~ "την είσοδο"
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "Σφάλμα εκκίνησης διαλόγου προτιμήσεων ποντικιού : %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "Αδυναμία εισαγωγής ρυθμίσεων  AccessX από το αρχείο  '%s'"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Εισαγωγή αρχείου ρυθμίσεων χαρακτηριστικών"
+
+#~ msgid "_Import"
+#~ msgstr "Ε_ισαγωγή"
+
+#~ msgid "Keyboard Accessibility"
+#~ msgstr "Προσιτότητα πληκτρολογίου"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Αυτό το σύστημα δε φαίνεται να έχει την επέκταση XKB. Οι λειτουργίες "
+#~ "προσιτότητας πληκτρολογίου δε θα λειτουργούν χωρίς αυτό."
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Ενεργοποίηση πλήκτρων ανα_πήδησης</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Ενεργοποίηση αρ_γών πλήκτρων</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Ενεργοποίηση π_λήκτρων ποντικιού</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Ενεργοποίηση πλήκτρων επα_νάληψης</b>"
+
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Ενεργοποίηση _κολλημένων πλήκτρων</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Χαρακτηριστικά</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Πλήκτρα Εναλλαγής</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Βασικό"
+
+#~ msgid "Beep if key is re_jected"
+#~ msgstr "Ήχος μπιπ κατά την από_ρριψη πλήκτρου"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr ""
+#~ "Ήχος μπιπ κατά την ενεργοποίηση ή απενεργοποίηση _λειτουργιών από το "
+#~ "πληκτρολόγιο"
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "Ήχος μπιπ κατά το πάτημα _modifier"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr ""
+#~ "Ήχος μπιπ όταν ένα  LED είναι ανοικτό και δύο μπιπ όταν είναι κλειστό."
+
+#~ msgid "Beep when key is:"
+#~ msgstr "Ήχος μπιπ όταν το πλήκτρο είναι:"
+
+#~ msgid "Del_ay:"
+#~ msgstr "Καθυ_στέρηση:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Καθυστέρηση μεταξύ πατήματος πλήκτρου και κίν_ησης δείκτη:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "Απενερ_γοποίηση αν δύο πλήκτρα πατηθούν ταυτόχρονα"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "Ε_νεργοποίηση Πλήκτρων Ενναλλαγής"
+
+#~ msgid "Filters"
+#~ msgstr "Φίλτρα"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Να αγνοούνται όλα τα μεταγενέστερα πατήματα του ΙΔΙΟΥ πλήκτρου αν συμβούν "
+#~ "μέσα σε μια καθορισμένη από το χρήστη περίοδο."
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Προτιμήσεις προσιτότητας πληκτρολογίου (AccessX)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Μέ_γιστη ταχύτητα δρομέα:"
+
+#~ msgid "Mouse _Preferences…"
+#~ msgstr "_Προτιμήσεις ποντικιού…"
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "Να γίνονται δεκτά μόνο τα πλήκτρα που έχουν πιεστεί για ένα καθορισμένο "
+#~ "από το χρήστη χρονικό διάστημα."
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Εκτέλεση πολλαπλών συγχρόνων ενεργειών πατήματος πλήκτρων με την πίεση "
+#~ "πλήκτρων modifier σε σειρά."
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Χρόνος για επιτά_χυνση στη μέγιστη ταχύτητα:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Αλλαγή του αριθμητικού πληκτρολογίου σε χειριστήριο ποντικιού."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "_Απενεργοποίηση αν δε χρησιμοποιηθεί για:"
+
+#~ msgid "_Import Feature Settings…"
+#~ msgstr "_Εισαγωγή ρυθμίσεων χαρακτηριστικών…"
+
+#~ msgid "_Only accept keys held for:"
+#~ msgstr "_Να γίνεται αποδοχή πλήκτρων που πατήθηκαν για:"
+
+#~ msgid "_accepted"
+#~ msgstr "_αποδεκτό"
+
+#~ msgid "_pressed"
+#~ msgstr "_πατιέται"
+
+#~ msgid "_rejected"
+#~ msgstr "_απορρίπτεται"
+
+#~ msgid "characters/second"
+#~ msgstr "χαρακτήρες/δευτερόλεπτο"
+
+#~ msgid "milliseconds"
+#~ msgstr "χιλιοστά δευτερολέπτου"
+
+#~ msgid "pixels/second"
+#~ msgstr "εικονοστοιχεία/δευτερόλεπτο"
+
+#~ msgid "seconds"
+#~ msgstr "δευτερόλεπτα"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Προσθήκη ταπετσαρίας"
+
+#~ msgid "All files"
+#~ msgstr "Όλα τα αρχεία"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Η γραμματοσειρά μπορεί να είναι πολύ μεγάλη"
+
+#, fuzzy
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Η επιλεγμένη γραμματοσειρά είναι %d σημείο μεγάλη και θα είναι δύσκολη η "
+#~ "αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να επιλέξετε "
+#~ "ένα μικρότερο μέγεθος από %d.\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Η επιλεγμένη γραμματοσειρά είναι %d σημείο σε μέγεθος και θα είναι "
+#~ "δύσκολη η αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να "
+#~ "επιλέξετε ένα μικρότερο μέγεθος από %d."
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Η επιλεγμένη γραμματοσειρά είναι %d σημεία μεγάλη και θα είναι δύσκολη η "
+#~ "αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να επιλέξετε "
+#~ "ένα μικρότερο μέγεθος από %d.\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Η επιλεγμένη γραμματοσειρά είναι %d σημεία σε μέγεθος και θα είναι "
+#~ "δύσκολη η αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να "
+#~ "επιλέξετε ένα μικρότερο μέγεθος από %d."
+
+#, fuzzy
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Η επιλεγμένη γραμματοσειρά είναι %d σημείο μεγάλη και θα είναι δύσκολη η "
+#~ "αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να επιλέξετε "
+#~ "ένα μικρότερο μέγεθος γραμματοσειράς.\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Η επιλεγμένη γραμματοσειρά είναι %d σημείο σε μέγεθος και θα είναι "
+#~ "δύσκολη η αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να "
+#~ "επιλέξετε ένα μικρότερο μέγεθος γραμματοσειράς."
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ ".Η επιλεγμένη γραμματοσειρά είναι %d σημεία μεγάλη και θα είναι δύσκολη η "
+#~ "αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να επιλέξετε "
+#~ "ένα μικρότερο μέγεθος γραμματοσειράς.\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Η επιλεγμένη γραμματοσειρά είναι %d σημεία σε μέγεθος και θα είναι "
+#~ "δύσκολη η αποτελεσματική χρήση της από τον υπολογιστή. Είναι καλύτερο να "
+#~ "επιλέξετε ένα μικρότερο μέγεθος γραμματοσειράς."
+
+#~ msgid "Use previous font"
+#~ msgstr "Χρήση προηγούμενης γραμματοσειράς"
+
+#~ msgid "Use selected font"
+#~ msgstr "Χρήση επιλεγμένης γραμματοσειράς"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Καθορίστε το όνομα αρχείου θέματος για εγκατάσταση"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Καθορίστε το όνομα της σελίδας για εμφάνιση (θέμα|παρασκήνιο|"
+#~ "γραμματοσειρές|διεπαφή)"
+
+#~ msgid "page"
+#~ msgstr "σελίδα"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[WALLPAPER...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Προεπιλεγμένος δείκτης"
+
+#~ msgid "Apply Background"
+#~ msgstr "Εφαρμογή παρασκηνίου"
+
+#~ msgid "Apply Font"
+#~ msgstr "Εφαρμογή γραμματοσειράς"
+
+#, fuzzy
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Αυτό το θέμα προτείνει ένα παρασκήνιο και μια γραμματοσειρά:\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Αυτό το θέμα προτείνει ένα παρασκήνιο και μια γραμματοσειρά."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Το τρέχον θέμα προτείνει ένα παρασκήνιο."
+
+#, fuzzy
+#~ msgid "The current theme suggests a font."
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Το τρέχον θέμα προτείνει μια γραμματοσειρά:\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Το τρέχον θέμα προτείνει μια γραμματοσειρά."
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>_Χρώματα</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Μενού και Εργαλειοθήκες</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Προεπισκόπηση</b>"
+
+#~ msgid "<b>Rendering</b>"
+#~ msgstr "<b>Εμφάνιση</b>"
+
+#~ msgid "<b>Smoothing</b>"
+#~ msgstr "<b>Εξομάλυνση</b>:"
+
+#~ msgid "<b>Subpixel Order</b>"
+#~ msgstr "<b>Σειρά Subpixel</b>"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>Τα_πετσαρία</b>"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Βέλτιστα _σχήματα"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Βέλτιστη αντί_θεση"
+
+#~ msgid "C_ustomize…"
+#~ msgstr "Προσαρμο_γή…"
+
+#~ msgid "C_ut"
+#~ msgstr "Αποκο_πή"
+
+#~ msgid ""
+#~ "Centered\n"
+#~ "Fill screen\n"
+#~ "Scaled\n"
+#~ "Zoom\n"
+#~ "Tiled"
+#~ msgstr ""
+#~ "Κεντραρισμένο\n"
+#~ "Γέμισμα οθόνης\n"
+#~ "Κλίμακα\n"
+#~ "Εστίαση\n"
+#~ "Πλακίδιο"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "Η αλλαγή του θέματος δρομέα θα πραγματοποιηθεί στην επόμενη σας είσοδο."
+
+#~ msgid "Colors"
+#~ msgstr "Χρώματα"
+
+#~ msgid "Controls"
+#~ msgstr "Έλεγχοι"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Προσαρμογή θέματος"
+
+#~ msgid "D_etails…"
+#~ msgstr "Λεπτο_μέρειες…"
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Γραμματοσειρά ε_πιφάνειας εργασίας:"
+
+#~ msgid "Edit"
+#~ msgstr "Επεξεργασία"
+
+#, fuzzy
+#~ msgid "Font Rendering Details"
+#~ msgstr ""
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Λεπτομέρειες Εμφάνισης Γραμματοσειράς\n"
+#~ "#-#-#-#-#  el.po (el)  #-#-#-#-#\n"
+#~ "Λεπτομέρειες εμφάνισης γραμματοσειράς"
+
+#~ msgid "Go _to Fonts Folder"
+#~ msgstr "Μετάβαση στο _φάκελο γραμματοσειρών"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Κλίμακα του _γκρι"
+
+#~ msgid "Icons"
+#~ msgstr "Εικονίδια"
+
+#~ msgid "Interface"
+#~ msgstr "Διεπαφή"
+
+#~ msgid "N_one"
+#~ msgstr "Κα_νένα"
+
+#~ msgid "New File"
+#~ msgstr "Νέο Αρχείο"
+
+#~ msgid "Open File"
+#~ msgstr "Άνοιγμα Αρχείου"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Άνοιγμα ενός διαλόγου για τον καθορισμό του χρώματος"
+
+#~ msgid "Pointer"
+#~ msgstr "Δείκτης"
+
+#~ msgid "R_esolution:"
+#~ msgstr "Ανά_λυση:"
+
+#~ msgid "Save File"
+#~ msgstr "Αποθήκευση Αρχείου"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Τοποθετήστε τον αριστερό σας αντίχειρα στο %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Περάστε τον αριστερό σας αντίχειρα από το %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Τοποθετήστε τον αριστερό σας δείκτη στο %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Περάστε τον αριστερό σας δείκτη από το %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Τοποθετήστε το αριστερό σας μεσαίο δάχτυλο στο %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Περάστε το αριστερό σας μεσαίο δάχτυλο από το %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Τοποθετήστε τον αριστερό σας παράμεσο στο %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Περάστε τον αριστερό σας παράμεσο από το %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Τοποθετήστε το αριστερό σας μικρό δάχτυλο στο %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Περάστε το αριστερό σας μικρό δάχτυλο από το %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Τοποθετήστε τον δεξιό σας αντίχειρα στο %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Περάστε τον δεξιό σας αντίχειρα από το %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Τοποθετήστε τον δεξιό σας δείκτη στο %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Περάστε τον δεξιό σας δείκτη από το %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Τοποθετήστε το δεξί σας μεσαίο δάχτυλο στο %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Περάστε το δεξί σας μεσαίο δάχτυλο από το %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Τοποθετήστε τον δεξιό σας παράμεσο στο %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Περάστε τον δεξιό σας παράμεσο από το %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Τοποθετήστε το δεξί σας μικρό δάχτυλο στο %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Περάστε το δεξί σας μικρό δάχτυλο από το %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Τοποθετήστε ξανά το δάχτυλό σας στη συσκευή ανάγνωσης"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Περάστε ξανά το δάχτυλό σας"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Το πέρασμα ήταν πολύ γρήγορο, προσπαθήστε ξανά"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Το δάχτυλό σας δεν ήταν στο κέντρο, προσπαθήστε να το περάσετε ξανά"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Απομακρύνετε το δάχτυλό σας και προσπαθήστε να το περάσετε ξανά"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Αλλαγή κω_δικού…"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Απενεργοποίηση εισόδου με απο_τύπωμα…"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Ενεργοποίηση εισόδου με απο_τύπωμα…"
+
+#~ msgid "Home"
+#~ msgstr "Οικία"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Άμεσα μηνύματα"
+
+#~ msgid "Job"
+#~ msgstr "Εργασία"
+
+#~ msgid "Telephone"
+#~ msgstr "Τηλέφωνο"
+
+#~ msgid "Web"
+#~ msgstr "Ιστός"
+
+#~ msgid "Work"
+#~ msgstr "Εργασία"
+
+#~| msgid "Zip/_Postal code:"
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "Τ._Κ.:"
+
+#, fuzzy
+#~| msgid "_Groupwise:"
+#~ msgid "_GroupWise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~| msgid "_Zip/Postal code:"
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_Τ.Κ.:"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Δεν σας επιτρέπεται η πρόσβαση στη συσκευή. Επικοινωνήστε με το "
+#~ "διαχειριστή του συστήματος."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Η συσκευή χρησιμοποιείται ήδη."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Συνέβη ένα εσωτερικό σφάλμα"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Διαγραφή των καταχωρημένων αποτυπωμάτων;"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Διαγραφή αποτυπωμάτων"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Επιθυμείτε να διαγράψετε τα καταχωρημένα αποτυπώματα για να "
+#~ "απενεργοποιηθεί η είσοδος με αποτύπωμα;"
+
+#~ msgid "Done!"
+#~ msgstr "Εντάξει!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Δεν ήταν δυνατή η πρόσβαση στη συσκευή '%s'"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Αδυναμία εκκίνησης της καταγραφής αποτυπωμάτων στη συσκευή '%s'"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Δεν είναι δυνατή η πρόσβαση σε καμία συσκευή ανάγνωσης αποτυπωμάτων"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr ""
+#~ "Παρακαλώ, επικοινωνήστε με το διαχειριστή του συστήματος για βοήθεια."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Ενεργοποίηση εισόδου με αποτύπωμα"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Για να ενεργοποιήσετε την είσοδο με αποτύπωμα, πρέπει να αποθηκεύσετε ένα "
+#~ "δακτυλικό σας αποτύπωμα χρησιμοποιώντας τη συσκευή '%s'."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Περάστε το δάχτυλό σας από τη συσκευή ανάγνωσης"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Τοποθετήστε το δάχτυλό σας στη συσκευή ανάγνωσης"
+
+#~ msgid "Left index finger"
+#~ msgstr "Αριστερός δείκτης"
+
+#~ msgid "Left little finger"
+#~ msgstr "Αριστερό μικρό δάκτυλο"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Αριστερό μεσαίο δάκτυλο"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Αριστερός δείκτης"
+
+#~ msgid "Left thumb"
+#~ msgstr "Αριστερός αντίχειρας"
+
+#~ msgid "Other finger: "
+#~ msgstr "Άλλο δάχτυλο: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Δεξιός δείκτης"
+
+#~ msgid "Right little finger"
+#~ msgstr "Δεξιό μικρό δάκτυλο"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Δεξιό μεσαίο δάκτυλο"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Δεξιός δείκτης"
+
+#~ msgid "Right thumb"
+#~ msgstr "Δεξιός αντίχειρας"
+
+#~ msgid "Select finger"
+#~ msgstr "Επιλογή δαχτύλου"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Το αποτύπωμά σας αποθηκεύτηκε επιτυχώς. Θα μπορείτε πλέον να "
+#~ "χρησιμοποιείτε τη συσκευή ανάγνωσης αποτυπωμάτων για είσοδο."
+
+#~| msgid "The two passwords are not equal."
+#~ msgid "The new password has already been used recently."
+#~ msgstr "Ο νέος κωδικός έχει χρησιμοποιηθεί πρόσφατα."
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Αδυναμία εκκίνησης backend"
+
+#~ msgid "Checking password..."
+#~ msgstr "Έλεγχος κωδικού…"
+
+#~ msgid "Change your password"
+#~ msgstr "Αλλαγή κωδικού"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Βοηθητικές τεχνολογίες"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Προτιμήσεις βοηθητικής τεχνολογίας"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Μετάβαση στο διάλογο Προσιτότητας ποντικιού"
+
+#~ msgid "Preferences"
+#~ msgstr "Προτιμήσεις"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Προσιτότητα _ποντικιού"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Επιλέξτε ποιες λειτουργίες προσιτότητας θα είναι ενεργές όταν συνδέεστε "
+#~ "στο σύστημα"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Αδυναμία φόρτωσης του αρχείου επιφάνειας χρήσης: %s"
+
+#~ msgid "filename"
+#~ msgstr "όνομα αρχείου"
+
+#~ msgid "Install"
+#~ msgstr "Εγκατάσταση"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Αυτό το θέμα δεν θα εμφανίζεται σωστά επειδή δεν είναι εγκατεστημένη η "
+#~ "απαιτούμενη μηχανή θεμάτων GTK+ '%s'."
+
+#~ msgid "Revert Font"
+#~ msgstr "Επαναφορά γραμματοσειράς"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Αυτό το θέμα προτείνει ένα παρασκήνιο και μια γραμματοσειρά. Ακόμα "
+#~ "υπάρχει η δυνατότητα επιστροφής στην προηγούμενη πρόταση γραμματοσειράς."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Αυτό το θέμα προτείνει ένα παρασκήνιο και μια γραμματοσειρά. Ακόμα "
+#~ "υπάρχει η δυνατότητα επιστροφής στην προηγούμενη πρόταση γραμματοσειράς."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Το τρέχον θέμα προτείνει μια γραμματοσειρά. Ακόμα, υπάρχει η δυνατότητα "
+#~ "επαναφοράς της τελευταίας προτεινόμενης γραμματοσειράς."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Υπάρχει η δυνατότητα επαναφοράς της τελευταίας προτεινόμενης "
+#~ "γραμματοσειράς."
+
+#~ msgid "C_olors:"
+#~ msgstr "Χ_ρώματα:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "Προσαρμο_γή…"
+
+#~ msgid "Center"
+#~ msgstr "Κέντρο"
+
+#~ msgid "D_etails..."
+#~ msgstr "Λεπτο_μέρειες…"
+
+#~ msgid "Fonts"
+#~ msgstr "Γραμματοσειρές"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Λήψη περισσότερων εικόνων παρασκηνίου"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Λήψη περισσότερων θεμάτων"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Οριζόντια διαβάθμιση"
+
+#~ msgid "Icons only"
+#~ msgstr "Μόνο εικονίδια"
+
+# For lack of a better term...?  Anaklimakwsh ???
+#~ msgid "Save Theme As..."
+#~ msgstr "Αποθήκευση Θέματος ως…"
+
+# For lack of a better term...?  Anaklimakwsh ???
+#~ msgid "Save _As..."
+#~ msgstr "Αποθήκευση _ως…"
+
+#~ msgid "Save _background image"
+#~ msgstr "Αποθήκευση εικόνας _παρασκηνίου"
+
+#~ msgid "Scale"
+#~ msgstr "Κλίμακα"
+
+#~ msgid "Smoothing"
+#~ msgstr "Εξομάλυνση"
+
+#~ msgid "Solid color"
+#~ msgstr "Συμπαγές χρώμα"
+
+#~ msgid "Span"
+#~ msgstr "Γεφύρωμα"
+
+#~ msgid "Stretch"
+#~ msgstr "Τέντωμα"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_pixel (LCDs)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Εξομάλυνση Sub_pixel (LCDs)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Σειρά Subpixel"
+
+#~ msgid "Text below items"
+#~ msgstr "Κείμενο κάτω από αντικείμενα"
+
+#~ msgid "Text beside items"
+#~ msgstr "Κείμενο δίπλα από αντικείμενα"
+
+#~ msgid "Text only"
+#~ msgstr "Μόνο κείμενο"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Οι τρέχοντες έλεγχοι θέματος δεν υποστηρίζουν σχήματα χρωμάτων."
+
+#~ msgid "Theme"
+#~ msgstr "Θέμα"
+
+#~ msgid "Tile"
+#~ msgstr "Επαναλαμβανόμενο"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Κάθετη διαβάθμιση"
+
+#~ msgid "Window Border"
+#~ msgstr "Περίγραμμα παραθύρου"
+
+#~ msgid "_Application font:"
+#~ msgstr "Γραμματοσειρά εφαρμο_γής:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "Περιγρα_φή:"
+
+#~ msgid "_Document font:"
+#~ msgstr "Γραμματοσειρά εγγρά_φου:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Γραμματοσειρά στα_θερού πλάτους:"
+
+#~ msgid "_Full"
+#~ msgstr "_Πλήρες"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "Πλαίσια ει_σόδου:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Εγκατάσταση…"
+
+#~ msgid "_Medium"
+#~ msgstr "_Μέτριο"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Μονόχρωμο"
+
+#~ msgid "_None"
+#~ msgstr "_Κανένα"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "Επανα_φορά στις προεπιλογές"
+
+#~ msgid "_Selected items:"
+#~ msgstr "Ε_πιλεγμένα αντικείμενα:"
+
+#~ msgid "_Size:"
+#~ msgstr "Μέ_γεθος:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Ελαφρύ"
+
+#~ msgid "_Style:"
+#~ msgstr "_Στυλ:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "Συ_μβουλές οθόνης:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Γραμματοσειρά τίτλου _παραθύρου:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Παράθυρα:"
+
+#~ msgid "dots per inch"
+#~ msgstr "κουκίδες ανά ίντσα"
+
+#~ msgid "Appearance"
+#~ msgstr "Εμφάνιση"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Προσαρμόστε την εμφάνιση της επιφάνειας εργασίας σας"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr ""
+#~ "Εγκαθιστά πακέτα θεμάτων για διάφορα κομμάτια της επιφάνειας εργασίας"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Εγκαταστάτης θέματος"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Πακέτο θέματος Gnome"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Χωρίς παρασκήνιο επιφάνειας εργασίας"
+
+#~ msgid "Slide Show"
+#~ msgstr "Παρουσίαση οθόνης"
+
+#~ msgid "Image"
+#~ msgstr "Εικόνα"
+
+#~ msgid "multiple sizes"
+#~ msgstr "πολλαπλά μεγέθη"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s επί %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "εικονοστοιχείο"
+#~ msgstr[1] "εικονοστοιχεία"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Φάκελος: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Φάκελος: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Λείπει εικόνα"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Αδυναμία εγκατάστασης θέματος"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Δεν είναι εγκατεστημένη η εφαρμογή %s."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Υπήρξε ένα πρόβλημα κατά την αποσυμπίεση του θέματος."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Υπήρξε ένα σφάλμα εγκατάστασης του επιλεγμένου αρχείου"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "Το \"%s\" δεν φαίνεται να είναι ένα έγκυρο θέμα."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "Το \"%s\" δεν είναι ένα έγκυρο θέμα. Μπορεί να είναι μια μηχανή θέματος "
+#~ "που πρέπει να κάνετε compile."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Η εγκατάσταση για το θέμα \"%s\" απέτυχε."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Το θέμα \"%s\" έχει εγκατασταθεί."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Θέλετε να το εφαρμόσετε τώρα, ή να διατηρήσετε το τρέχον σας θέμα;"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Διατήρηση τρέχοντος θέματος"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Εφαρμογή νέου θέματος"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "Το θέμα %s για το GNOME εγκαταστάθηκε επιτυχώς"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Αποτυχία δημιουργίας προσωρινού καταλόγου"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Έχουν εγκατασταθεί επιτυχώς νέα θέματα."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Δεν καθορίστηκε τοποθεσία αρχείου θέματος για εγκατάσταση"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Ανεπαρκή δικαιώματα για την εγκατάσταση του θέματος στο:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Επιλογή θέματος"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Πακέτα θέματος"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Το όνομα θέματος πρέπει να υπάρχει"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Το θέμα υπάρχει ήδη. Θέλετε να το αντικαταστήσετε;"
+
+#~ msgid "_Overwrite"
+#~ msgstr "Α_ντικατάσταση"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Θέλετε να απομακρύνετε αυτό το θέμα;"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Το θέμα δεν μπορεί να διαγραφεί"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Αδυναμία εγκατάστασης μηχανής θέματος"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Αδυναμία εκκίνησης του διαχειριστή ρυθμίσεων 'gnome-settings-daemon'.\n"
+#~ "Αν δεν τρέχει ο διαχειριστής ρυθμίσεων GNOME ορισμένες από τις "
+#~ "προτιμήσεις δε θα πραγματοποιηθούν. Αυτό μάλλον σημαίνει ότι υπάρχει "
+#~ "πρόβλημα με το Bonobo, ή ένας εκτός-GNOME διαχειριστής ρυθμίσεων (π.χ. "
+#~ "KDE) είναι ήδη ενεργός και είναι σε σύγκρουση με το διαχειριστή ρυθμίσεων "
+#~ "GNOME."
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Αντιγραφή αρχείου: %u από %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Αντιγραφή '%s'"
+
+#~ msgid "Copying files"
+#~ msgstr "Γίνεται αντιγραφή αρχείων"
+
+#~ msgid "Parent Window"
+#~ msgstr "Γονικό παράθυρο"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Το μητρικό παράθυρο του διαλόγου"
+
+#~ msgid "From URI"
+#~ msgstr "Από URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI από το οποίο γίνεται μεταφορά"
+
+#~ msgid "To URI"
+#~ msgstr "Σε URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI από το οποίο γίνεται μεταφορά"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Ποσοστό ολοκληρώθηκε"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Ποσοστό της μεταφοράς που έχει ολοκληρωθεί"
+
+#~ msgid "Current URI index"
+#~ msgstr "Τρέχων πίνακας URI"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Κατάλογος τρέχοντος URI - ξεκινάει από 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Σύνολο URIs"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Συνολικός αριθμός URI"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Το αρχείο '%s' υπάρχει ήδη. Θέλετε να το αντικαταστήσετε;"
+
+#~ msgid "_Skip"
+#~ msgstr "_Παράκαμψη"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Α_ντικατάσταση όλων"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Προεπιλεγμένος δείκτης - τρέχων"
+
+#~ msgid "White Pointer"
+#~ msgstr "Λευκός δείκτης"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Λευκός δείκτης - τρέχων"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Μεγάλος δείκτης"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Μεγάλος δείκτης - τρέχων"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Λευκός μεγάλος δείκτης - τρέχων"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Λευκός μεγάλος δείκτης"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Αυτό το θέμα δεν θα εμφανίζεται σωστά επειδή δεν είναι εγκατεστημένη η "
+#~ "απαιτούμενη μηχανή θεμάτων GTK+ '%s'."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Αυτό το θέμα δεν θα εμφανίζεται σωστά επειδή δεν είναι εγκατεστημένο το "
+#~ "απαιτούμενο θέμα διαχειριστή παραθύρων '%s'."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Αυτό το θέμα δεν θα εμφανίζεται σωστά επειδή δεν είναι εγκατεστημένη η "
+#~ "απαιτούμενη μηχανή εικονιδίων '%s'."
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Καθορίστε το όνομα της σελίδας για εμφάνιση (διαδίκτυο|πολυμέσα|σύστημα|"
+#~ "a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- Προεπιλεγμένες εφαρμογές GNOME"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Προτιμήσεις οθόνης"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Εφαρμογή μόνο των ρυθμίσεων και έξοδος (συμβατότητα μόνο; now handled by "
+#~ "daemon)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr ""
+#~ "Εκκίνηση της σελίδας με τις ρυθμίζεις διαλείμματος πληκτρολόγησης να "
+#~ "φαίνονται"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Εκκίνηση της σελίδας με τις ρυθμίσεις προσιτότητας να φαίνονται"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Προτιμήσεις πληκτρολογίου GNOME"
+
+#~ msgid "_Show..."
+#~ msgstr "_Εμφάνιση…"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Καθορίστε το όνομα της σελίδας για εμφάνιση (γενικά|προσιτότητα)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Προτιμήσεις ποντικιού GNOME"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "Αδυναμία εκκίνησης της εφαρμογής προτιμήσεων για το διαχειριστή παραθύρων "
+#~ "σας"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (ή \"λογότυπο των Windows\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Πλήκτρο κίνησης"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Ενέργεια μπάρας τίτλου"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Για να μετακινήσετε ένα παράθυρο, πατήστε και κρατήστε αυτό το πλήκτρο "
+#~ "και μετά σύρετε το παράθυρο:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Προτιμήσεις παραθύρων"
+
+#~ msgid "Window Selection"
+#~ msgstr "Επιλογή παραθύρου"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Διπλό κλικ στη μπάρα τίτλου για την εκτέλεση αυτής της ενέργειας:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Χρονικό διάστημα πριν την ανασήκωση:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Ανασήκωση επιλεγμένων παραθύρων μετά από ένα χρονικό διάστημα"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Επιλογή παραθύρων όταν το ποντίκι περνάει από επάνω τους"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Καθορισμός ιδιοτήτων παραθύρων"
+
+#~ msgid "Windows"
+#~ msgstr "Παράθυρα"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Ο διαχειριστής παραθύρων \"%s\" δεν έχει εγγράψει ένα εργαλείο ρυθμίσεων\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Μεγιστοποίηση"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Κάθετη μεγιστοποίηση"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Οριζόντια μεγιστοποίηση"
+
+#~ msgid "Minimize"
+#~ msgstr "Ελαχιστοποίηση"
+
+#~ msgid "Roll up"
+#~ msgstr "Δίπλωση πάνω"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "το κλειδί δεν βρέθηκε [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Απόκρυψη στην εκκίνηση (χρήσιμο για την προ-φόρτωση του κέλυφους)"
+
+#~ msgid "Filter"
+#~ msgstr "Φίλτρο"
+
+#~ msgid "Groups"
+#~ msgstr "Ομάδες"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Συνηθισμένες εργασίες"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Κλείσιμο του control-center όταν ενεργοποιείται μια εργασία"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Έξοδος από το κέλυφος μετά την προσθήκη ή την απομάκρυνση ενέργειας"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Έξοδος από το κέλυφος μετά την εκτέλεση βοήθειας"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Έξοδος από το κέλυφος μετά την εκτέλεση της εκκίνησης"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "Έξοδος από το κέλυφος μετά την αναβάθμιση ή την απεγκατάσταση"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr ""
+#~ "Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια βοήθειας "
+#~ "εκτελείται."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr ""
+#~ "Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια εκκίνησης "
+#~ "εκτελείται."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια προσθήκης ή "
+#~ "απομάκρυνσης εκτελείται."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Υποδεικνύει για το αν θα κλείνει το κέλυφος όταν μια ενέργεια αναβάθμισης "
+#~ "ή απεγκατάστασης εκτελείται."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Ονόματα εργασιών και σχετικά αρχεία .desktop"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Το όνομα της εργασίας που θα εμφανίζεται στο control-center, "
+#~ "ακολουθούμενο από το διαχωριστικό \";\" και ύστερα από το όνομα αρχείου "
+#~ "του σχετιζόμενου αρχείου .desktop που θα εκκινείται για αυτή την εργασία."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Αλλαγή θέματος;gtk-theme-selector.desktop,Ορισμός προτιμώμενων εφαρμογών;"
+#~ "default-applications.desktop,Προσθήκη εκτυπωτή;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "Αν αληθές, το control-center θα κλείνει όταν ενεργοποιείται ένα \"Common "
+#~ "Task\"."
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Το φίλτρο \"%s\" δεν ταιριάζει σε κανένα αντικείμενο."
+
+#~ msgid "No matches found."
+#~ msgstr "Δεν βρέθηκαν ταιριάσματα."
+
+#~ msgid "Other"
+#~ msgstr "Άλλα"
+
+#~ msgid "Start %s"
+#~ msgstr "Εκκίνηση %s"
+
+#~ msgid "Help"
+#~ msgstr "Βοήθεια"
+
+#~ msgid "Upgrade"
+#~ msgstr "Ενημέρωση"
+
+#~ msgid "Uninstall"
+#~ msgstr "Απεγκατάσταση"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Απομάκρυνση από τα αγαπημένα"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Προσθήκη στα αγαπημένα"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Απομάκρυνση από τα προγράμματα εκκίνησης"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Προσθήκη στα προγράμματα εκκίνησης"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Νέο λογιστικό φύλλο"
+
+#~ msgid "New Document"
+#~ msgstr "Νέο έγγραφο"
+
+#, fuzzy
+#~| msgid "Home"
+#~ msgctxt "Home folder"
+#~ msgid "Home"
+#~ msgstr "Οικία"
+
+#~ msgid "Documents"
+#~ msgstr "Έγγραφα"
+
+#~ msgid "File System"
+#~ msgstr "Σύστημα αρχείων"
+
+#~ msgid "Network Servers"
+#~ msgstr "Εξυπηρετητές δικτύου"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Άνοιγμα</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Μετονομασία…"
+
+#~ msgid "Send To..."
+#~ msgstr "Αποστολή σε…"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Μετακίνηση στα απορρίμματα"
+
+#~ msgid "Delete"
+#~ msgstr "Διαγραφή"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε μόνιμα το \"%s\";"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Αν διαγράψετε ένα αντικείμενο, αυτό θα χαθεί οριστικά."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Άνοιγμα με \"%s\""
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Άνοιγμα με την προεπιλεγμένη εφαρμογή"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Άνοιγμα στον διαχειριστή αρχείων"
+
+#~| msgid "Remove from Favorites"
+#~ msgid "Remove from recent menu"
+#~ msgstr "Απομάκρυνση από το μενού των προσφάτων"
+
+#~ msgid "Purge all the recent items"
+#~ msgstr "Εκκαθάριση όλων των πρόσφατων αντικειμένων"
+
+#~ msgid "?"
+#~ msgstr ";"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Σήμερα %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Χθες %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Εύρεση τώρα"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Άνοιγμα %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Απομάκρυνση από τα αντικείμενα συστήματος"

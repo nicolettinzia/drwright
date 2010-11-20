@@ -1,174 +1,1632 @@
+# #-#-#-#-#  wa.po (drwright)  #-#-#-#-#
 # translation of drwright.HEAD.po to Walloon
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Pablo Saratxaga <pablo@walon.org>, 2004.
 #
+# #-#-#-#-#  wa.po (gnome-control-center 1.5.5)  #-#-#-#-#
+# Traduction into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
+# ôtes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avons co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999-2002
+# Lorint Hendschel <LorintHendschel@skynet.be> 1999,2000
+# Lucyin Mahin <lucyin@walon.org>, 2000
+#
+# #-#-#-#-#  wa.po (gnome-control-center 1.5.5)  #-#-#-#-#
+# Traduction into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
+# ôtes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avons co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999-2002
+# Lorint Hendschel <LorintHendschel@skynet.be> 1999,2000
+# Lucyin Mahin <lucyin@walon.org>, 2000
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright\n"
+"Project-Id-Version: gnome-control-center 1.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-12-06 10:53+0100\n"
-"PO-Revision-Date: 2004-12-06 15:36+0100\n"
-"Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
-"Language-Team: Walloon <linux-wa@walon.org>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2003-01-02 12:26+0100\n"
+"Last-Translator: Pablo Saratxaga <pablo@mandrakesoft.com>\n"
+"Language-Team: Walon <linux-wa@chanae.alphanet.ch>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  wa.po (drwright)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.0.2\n"
+"#-#-#-#-#  wa.po (gnome-control-center 1.5.5)  #-#-#-#-#\n"
+"#-#-#-#-#  wa.po (gnome-control-center 1.5.5)  #-#-#-#-#\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
-
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
-
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Fé toubak</b>"
-
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Ovrer</b>"
-
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Verifyî si on pout rmete a pus tård di fé toubak"
-
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "Preferinces di DrWright"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Tins k' on fwait toubak eyet k' on n' pout nén tchôkî sol taprece"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Tins dvant fé toubak po-z advierti"
-
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Tins k' on pout ovrer sins s' arester dvant d' fé toubak"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Fråze opcionele a-z eployî po rmete li toubak a pus tård"
-
-#: data/glade/drw-preferences.glade.h:11
-msgid "_Allow postponing of breaks"
-msgstr "_Permete di rmete li toubak a pus tård"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "_Tins ki deure li toubak"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "Tins dvant toubak po-z _advierti"
-
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "Tins d' _ovraedje sins s' arester"
-
-#: data/glade/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "munutes"
-
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright est ddja en alaedje."
-
-#: src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+#: ../src/main.c:63
+msgid "Enable debugging code"
 msgstr ""
-"DrWright eploye li zône di messaedjes do scriftôr po håyner des informåcions. "
-"Mins i shonnreut ki vos n' avoz nole sifwaite zône di notifiaedje e vosse sicriftôr. "
-"Vos ndè ploz radjouter ene tot fjhant on clitch-droet sol sicriftôr eyet tchoezi "
-"«Radjouter e scriftôr -> Usteye -> Zône di notifiaedje»."
 
-#: src/drwright.c:138
-msgid "/_Enabled"
-msgstr "/En _alaedje"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr ""
 
-#: src/drwright.c:139
-msgid "/_Take a Break"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr ""
+
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+
+#: ../src/drwright.c:142
+#, fuzzy
+msgid "_Take a Break"
 msgstr "/Fé _toubak"
 
-#: src/drwright.c:141
-msgid "/_Preferences"
-msgstr "/_Preferinces"
-
-#: src/drwright.c:142
-msgid "/_About"
-msgstr "/Å_d fwait"
-
-#: src/drwright.c:144
-msgid "/_Remove Icon"
-msgstr "/_Oister imådjete"
-
-#: src/drwright.c:475
+#: ../src/drwright.c:504
 msgid "Disabled"
 msgstr "Dismetou"
 
-#: src/drwright.c:493
+#: ../src/drwright.c:513
 #, c-format
-msgid "%d minutes until the next break"
-msgstr "%d munutes divant l' toubak ki vént"
+msgid "Take a break now (next in %dm)"
+msgstr ""
 
-#: src/drwright.c:496
-msgid "One minute until the next break"
-msgstr "Ene munute divant l' toubak ki vént"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] ""
+msgstr[1] ""
 
-#: src/drwright.c:498
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr ""
+
+#: ../src/drwright.c:523
+#, c-format
 msgid "Less than one minute until the next break"
 msgstr "Moens d' ene munute divant l' toubak"
 
-#: src/drwright.c:609
-msgid "Quit DrWright?"
-msgstr "Cwiter DrWright?"
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
 
-#: src/drwright.c:610
-msgid "Don't forget to take regular breaks."
-msgstr "Èn rovyîz nén di fé toubak di tins en tins."
-
-#: src/drwright.c:621
-msgid "Don't Quit"
-msgstr "Èn nén cwiter"
-
-#: src/drwright.c:625
-msgid "Quit"
-msgstr "Cwiter"
-
-#: src/drwright.c:674
-msgid "About DrWright"
-msgstr "Åd fwait di DrWright"
-
-#: src/drwright.c:699
-msgid "A computer break reminder."
-msgstr "On programe po s' rimimbrer d' fé toubak eyet leyî l' copiutrece di tins en tins."
-
-#: src/drwright.c:700
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#: ../src/drwright.c:628
+#, fuzzy
+msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Sicrît pa Richard Hult &lt;richard@imendio.com&gt;"
 
-#: src/drwright.c:701
+#: ../src/drwright.c:629
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Gåliotaedje radjouté pa Anders Carlsson"
 
-#: src/drwright.c:868
-msgid "Break reminder"
-msgstr "Rimimbreu d' fé toubak"
+#: ../src/drwright.c:638
+msgid "A computer break reminder."
+msgstr ""
+"On programe po s' rimimbrer d' fé toubak eyet leyî l' copiutrece di tins en "
+"tins."
 
-#: src/drw-break-window.c:208
-msgid "_Postpone break"
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/drw-break-window.c:181
+#, fuzzy
+msgid "_Postpone Break"
 msgstr "_Leyî po pus tård"
 
-#: src/drw-break-window.c:251
+#: ../src/drw-break-window.c:227
 msgid "Take a break!"
 msgstr "Fé toubak!"
 
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Preferinces pol tinme"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr "_Permete di rmete li toubak a pus tård"
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:5
+msgid "minutes"
+msgstr "munutes"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Fé toubak</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Ovrer</b>"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Verifyî si on pout rmete a pus tård di fé toubak"
+
+#~ msgid "DrWright Preferences"
+#~ msgstr "Preferinces di DrWright"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Tins k' on fwait toubak eyet k' on n' pout nén tchôkî sol taprece"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Tins dvant fé toubak po-z advierti"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Tins k' on pout ovrer sins s' arester dvant d' fé toubak"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Fråze opcionele a-z eployî po rmete li toubak a pus tård"
+
+#~ msgid "_Break interval lasts"
+#~ msgstr "_Tins ki deure li toubak"
+
+#~ msgid "_Warning time is"
+#~ msgstr "Tins dvant toubak po-z _advierti"
+
+#~ msgid "_Work interval lasts"
+#~ msgstr "Tins d' _ovraedje sins s' arester"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright est ddja en alaedje."
+
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright eploye li zône di messaedjes do scriftôr po håyner des "
+#~ "informåcions. Mins i shonnreut ki vos n' avoz nole sifwaite zône di "
+#~ "notifiaedje e vosse sicriftôr. Vos ndè ploz radjouter ene tot fjhant on "
+#~ "clitch-droet sol sicriftôr eyet tchoezi «Radjouter e scriftôr -> Usteye -"
+#~ "> Zône di notifiaedje»."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/En _alaedje"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Preferinces"
+
+#~ msgid "/_About"
+#~ msgstr "/Å_d fwait"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Oister imådjete"
+
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d munutes divant l' toubak ki vént"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Ene munute divant l' toubak ki vént"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "Cwiter DrWright?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Èn rovyîz nén di fé toubak di tins en tins."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Èn nén cwiter"
+
+#~ msgid "Quit"
+#~ msgstr "Cwiter"
+
+#~ msgid "About DrWright"
+#~ msgstr "Åd fwait di DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Rimimbreu d' fé toubak"
+
+#, fuzzy
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Foyteuse di l' aidance"
+
+#, fuzzy
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Eject"
+#~ msgstr "Evenmint"
+
+#, fuzzy
+#~ msgid "Home folder"
+#~ msgstr "_Potchî å ridant des tinmes"
+
+#, fuzzy
+#~ msgid "Launch help browser"
+#~ msgstr "Foyteuse di l' aidance"
+
+#, fuzzy
+#~ msgid "Launch web browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Lock screen"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Log out"
+#~ msgstr "Adjinçmint"
+
+#, fuzzy
+#~ msgid "Suspend"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Volume down"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Volume mute"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Volume up"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr "Rindou del fonte"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Background"
+#~ msgstr "Fond"
+
+#~ msgid "Font"
+#~ msgstr "Fonte"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Dji n' a savou ahiver l' ridant «%s».\n"
+#~ "I gn a mezåjhe del fé po permete li candjmint des cursoes."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Dji n' a savou ahiver l' ridant «%s».\n"
+#~ "I gn a mezåjhe del fé po permete li candjmint des cursoes."
+
+#~ msgid "Keyboard"
+#~ msgstr "Taprece"
+
+#, fuzzy
+#~ msgid "Keyboard plugin"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "A_vailable files:"
+#~ msgstr "Tchuzes po les imådjes:"
+
+#, fuzzy
+#~ msgid "_Loaded files:"
+#~ msgstr "Modele"
+
+#, fuzzy
+#~ msgid "Volume"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Media keys"
+#~ msgstr "Sori"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Preferinces pol sori"
+
+#~ msgid "Mouse"
+#~ msgstr "Sori"
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Logout"
+#~ msgstr "Adjinçmint"
+
+#, fuzzy
+#~ msgid "Siren"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Beep"
+#~ msgstr "Roedeu"
+
+#, fuzzy
+#~ msgid "No sound"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Sound not set for this event."
+#~ msgstr "_Sons po ls evenmints"
+
+#, fuzzy
+#~ msgid "Select Sound File"
+#~ msgstr "Tchoezi on fitchî di son"
+
+#, fuzzy
+#~ msgid "Select sound file..."
+#~ msgstr "Tchoezi on fitchî di son"
+
+#, fuzzy
+#~ msgid "System Sounds"
+#~ msgstr "segondes"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Manage X Settings"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#, fuzzy
+#~ msgid "X Settings"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#, fuzzy
+#~ msgid "Alert Type"
+#~ msgstr "Radjouter sôre di fitchî"
+
+#, fuzzy
+#~ msgid "Alert Buttons"
+#~ msgstr "Botons"
+
+#, fuzzy
+#~ msgid "Show more _details"
+#~ msgstr "_Detays"
+
+#, fuzzy
+#~ msgid "About Me"
+#~ msgstr "Å _dfait"
+
+#, fuzzy
+#~ msgid "Set your personal information"
+#~ msgstr "Tchoezixhoz vos prémetous programes"
+
+#, fuzzy
+#~ msgid "Select Image"
+#~ msgstr "Disfacer"
+
+#, fuzzy
+#~ msgid "No Image"
+#~ msgstr "Imådjes"
+
+#, fuzzy
+#~ msgid "About %s"
+#~ msgstr "Å _dfait"
+
+#, fuzzy
+#~ msgid "Please type the passwords."
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "<b>Email</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Home</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "Rindou del fonte"
+
+#, fuzzy
+#~ msgid "<b>Job</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Web</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "A_ddress:"
+#~ msgstr "_Radjouter:"
+
+#, fuzzy
+#~ msgid "Address"
+#~ msgstr "_Radjouter:"
+
+#, fuzzy
+#~ msgid "C_ity:"
+#~ msgstr "Cô_per"
+
+#, fuzzy
+#~ msgid "C_ompany:"
+#~ msgstr "Co_mande:"
+
+#, fuzzy
+#~ msgid "Cale_ndar:"
+#~ msgstr "Cate_goreye:"
+
+#, fuzzy
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "Change Password"
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "Ci_ty:"
+#~ msgstr "Cô_per"
+
+#, fuzzy
+#~ msgid "Co_untry:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "Contact"
+#~ msgstr "Å d_vins"
+
+#, fuzzy
+#~ msgid "Cou_ntry:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "Hom_e:"
+#~ msgstr "_No:"
+
+#, fuzzy
+#~ msgid "Old pa_ssword:"
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "Personal Info"
+#~ msgstr "Fonte po les _terminås:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "No d' _uzeu:"
+
+#, fuzzy
+#~ msgid "Wor_k:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "Work _fax:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "_Address:"
+#~ msgstr "_Radjouter:"
+
+#, fuzzy
+#~ msgid "_Home page:"
+#~ msgstr "No d' _uzeu:"
+
+#, fuzzy
+#~ msgid "_Home:"
+#~ msgstr "_No:"
+
+#, fuzzy
+#~ msgid "_Manager:"
+#~ msgstr "Manaedjeu di purneas"
+
+#, fuzzy
+#~ msgid "_Mobile:"
+#~ msgstr "_Fitchî"
+
+#, fuzzy
+#~ msgid "_New password:"
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "_Profession:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "_Retype new password:"
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "_Title:"
+#~ msgstr "_Fitchî"
+
+#, fuzzy
+#~ msgid "_Work:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "<b>Support</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Preferinces pol purnea"
+
+#, fuzzy
+#~ msgid "_Screenreader"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "_Ripeter les tapes:"
+
+#, fuzzy
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Features</b>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "Basic"
+#~ msgstr "Di båze"
+
+#~ msgid "Del_ay:"
+#~ msgstr "_Tårdjaedje:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Tårdjaedje inte les tapes eyet pol mo_vmint do cursoe:"
+
+#~ msgid "Filters"
+#~ msgstr "Passetes"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "_Preferinces pol sori..."
+
+#~ msgid "S_peed:"
+#~ msgstr "_Roedeu:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Tapez po sayî l' apontiaedje:"
+
+#~ msgid "characters/second"
+#~ msgstr "caracteres/segonde"
+
+#~ msgid "milliseconds"
+#~ msgstr "milisegondes"
+
+#~ msgid "pixels/second"
+#~ msgstr "picsels/segonde"
+
+#, fuzzy
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "Desktop Background"
+#~ msgstr "Fond"
+
+#, fuzzy
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Preferinces pol fond"
+
+#, fuzzy
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "Centered"
+#~ msgstr "Å _mitan"
+
+#, fuzzy
+#~ msgid "Fill Screen"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Scaled"
+#~ msgstr "Al _schåle"
+
+#, fuzzy
+#~ msgid "Tiled"
+#~ msgstr "_Fitchî"
+
+#, fuzzy
+#~ msgid "Solid Color"
+#~ msgstr "Coleur solide"
+
+#, fuzzy
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Degradé di coûtchî"
+
+#, fuzzy
+#~ msgid "Vertical Gradient"
+#~ msgstr "Degradé d' astampé"
+
+#, fuzzy
+#~ msgid "Add Wallpaper"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "No Wallpaper"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "Deus"
+
+#~ msgid "Key"
+#~ msgstr "Clé"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Dji n' a savou trover l' fitchî «%s».\n"
+#~ "\n"
+#~ "Acertinez vs s' i vs plait k' il egzistêye bén, eyet rssayîz oudonbén "
+#~ "tchoezixhoz ene imådje di fond diferinne."
+
+#~ msgid "Please select an image."
+#~ msgstr "Tchoezixhoz ene imådje s' i vs plait."
+
+#, fuzzy
+#~ msgid "_Select"
+#~ msgstr "Disfacer"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Tchoezixhoz vos prémetous programes"
+
+#, fuzzy
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Prémetou betchteu waibe"
+
+#, fuzzy
+#~ msgid "W3M Text Browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Links Text Browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Foyteuse di l' aidance da _vosse"
+
+#, fuzzy
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Prémetou terminå"
+
+#, fuzzy
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminå"
+
+#, fuzzy
+#~ msgid "Standard XTerminal"
+#~ msgstr "Enonder dins on t_erminå"
+
+#, fuzzy
+#~ msgid "aterm"
+#~ msgstr "Categoreye"
+
+#, fuzzy
+#~ msgid "ETerm"
+#~ msgstr "Terminå"
+
+#~ msgid "Add..."
+#~ msgstr "Radjouter..."
+
+#, fuzzy
+#~ msgid "C_ustom"
+#~ msgstr "A _vosse môde:"
+
+#~ msgid "C_ustom:"
+#~ msgstr "A _vosse môde:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Co_mande:"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Prôpietés di l' aspougneu di tecse da vosse"
+
+#, fuzzy
+#~ msgid "Default Mail Reader"
+#~ msgstr "Prémetou manaedjeu di purneas"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Prémetou terminå"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Prémetou aspougneu di tecse"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "Prémetou betchteu waibe"
+
+#~ msgid "Default Window Manager"
+#~ msgstr "Prémetou manaedjeu di purneas"
+
+#~ msgid "Delete"
+#~ msgstr "Disfacer"
+
+#~ msgid "Edit..."
+#~ msgstr "Candjî..."
+
+#, fuzzy
+#~ msgid "Run in a _terminal"
+#~ msgstr "Enonder dins on _terminå"
+
+#, fuzzy
+#~ msgid "Run in a t_erminal"
+#~ msgstr "Enonder dins on _terminå"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminå"
+
+#~ msgid "Text Editor"
+#~ msgstr "Aspougneu di tecse"
+
+#~ msgid "Web Browser"
+#~ msgstr "Betchteu waibe"
+
+#~ msgid "Window Manager"
+#~ msgstr "Manaedjeu di purneas"
+
+#, fuzzy
+#~ msgid "_Command:"
+#~ msgstr "Co_mande:"
+
+#~ msgid "_Name:"
+#~ msgstr "_No:"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Prôpietés..."
+
+#, fuzzy
+#~ msgid "_Select:"
+#~ msgstr "Disfacer"
+
+#, fuzzy
+#~ msgid "_Resolution:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "Default Settings"
+#~ msgstr "Prémetou terminå"
+
+#, fuzzy
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#, fuzzy
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Preferinces pol son"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "Accions"
+
+#, fuzzy
+#~ msgid "Keep Resolution"
+#~ msgstr "_Discrijhaedje:"
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Tchoezi les fontes pol sicribanne"
+
+#, fuzzy
+#~ msgid "<b>Font Rendering</b>"
+#~ msgstr "Rindou del fonte"
+
+#, fuzzy
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "D_etails..."
+#~ msgstr "De_tays..."
+
+#~ msgid "Font Preferences"
+#~ msgstr "Preferinces pol fonte"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detays do rindou del fonte"
+
+#, fuzzy
+#~ msgid "Go _to font folder"
+#~ msgstr "_Potchî å ridant des tinmes"
+
+#, fuzzy
+#~ msgid "Gra_yscale"
+#~ msgstr "Schåle di _gris"
+
+#~ msgid "N_one"
+#~ msgstr "N_ole"
+
+#, fuzzy
+#~ msgid "R_esolution:"
+#~ msgstr "_Discrijhaedje:"
+
+#~ msgid "_Application font:"
+#~ msgstr "Fonte po les _programes:"
+
+#~ msgid "_Desktop font:"
+#~ msgstr "Fonte pol _sicribanne:"
+
+#~ msgid "_None"
+#~ msgstr "_Nouk"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "Fonte po les _terminås:"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Fonte pol tite des _purneas:"
+
+#, fuzzy
+#~ msgid "dots per inch"
+#~ msgstr "Finté (_ponts par pôce):"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Accion nén cnoxhowe>"
+
+#~ msgid "Desktop"
+#~ msgstr "Sicribanne"
+
+#~ msgid "Window Management"
+#~ msgstr "Manaedjmint des purneas"
+
+#~ msgid "Action"
+#~ msgstr "Accion"
+
+#~ msgid "Shortcut"
+#~ msgstr "Rascourti"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "<b>Cursoe nén cnoxhou</b>\n"
+#~ "%s"
+
+#~ msgid "Layout"
+#~ msgstr "Adjinçmint"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Prémetou betchteu waibe"
+
+#, fuzzy
+#~ msgid "Models"
+#~ msgstr "Modele"
+
+#, fuzzy
+#~ msgid "..."
+#~ msgstr "Radjouter..."
+
+#, fuzzy
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "_Ripeter les tapes:"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Roed</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Long</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Court</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Londjin</i></small>"
+
+#, fuzzy
+#~ msgid "Choose A Keyboard Model"
+#~ msgstr "Xhuflet del taprece"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Preferinces del taprece"
+
+#, fuzzy
+#~ msgid "Keyboard _model:"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "Layout Options"
+#~ msgstr "Tchuzes po les imådjes:"
+
+#, fuzzy
+#~ msgid "Layouts"
+#~ msgstr "Adjinçmint"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr "Vey divant"
+
+#, fuzzy
+#~ msgid "_Add..."
+#~ msgstr "Radjouter..."
+
+#~ msgid "_Delay:"
+#~ msgstr "_Tårdjaedje:"
+
+#, fuzzy
+#~ msgid "_Models:"
+#~ msgstr "Modele"
+
+#, fuzzy
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Tchoezi on aspougneu di tecse:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Roedeu:"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Defini vos preferinces pol taprece"
+
+#, fuzzy
+#~ msgid "Unknown Cursor"
+#~ msgstr ""
+#~ "<b>Cursoe nén cnoxhou</b>\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Default Cursor"
+#~ msgstr "Prémetou betchteu waibe"
+
+#, fuzzy
+#~ msgid "The default cursor that ships with X"
+#~ msgstr ""
+#~ "<b>Prémetou cursoe</b>\n"
+#~ "Li prémetou cursoe ki vént avou X11"
+
+#, fuzzy
+#~ msgid "White Cursor"
+#~ msgstr "Cursoes"
+
+#, fuzzy
+#~ msgid "The default cursor inverted"
+#~ msgstr ""
+#~ "<b>Blanc cursoe</b>\n"
+#~ "Li prémetou cursoe, avou les coleurs å rvier"
+
+#, fuzzy
+#~ msgid "Large Cursor"
+#~ msgstr "Cursoes"
+
+#, fuzzy
+#~ msgid "Large version of normal cursor"
+#~ msgstr ""
+#~ "<b>Lådje cursoe</b>\n"
+#~ "Modêye lådje do cursoe normå"
+
+#, fuzzy
+#~ msgid "Large White Cursor - Current"
+#~ msgstr ""
+#~ "<b>Lådje blanc cursoe - cursoe do moumint</b>\n"
+#~ "Modêye lådje do blanc cursoe"
+
+#, fuzzy
+#~ msgid "Large version of white cursor"
+#~ msgstr ""
+#~ "<b>Lådje blanc cursoe</b>\n"
+#~ "Modêye lådje do blanc cursoe"
+
+#, fuzzy
+#~ msgid "Cursor Theme"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Hôt</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Lådje</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Bas</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Londjin</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Pitit</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Botons"
+
+#, fuzzy
+#~ msgid "Cursor Size:"
+#~ msgstr "Cursoes"
+
+#~ msgid "Cursors"
+#~ msgstr "Cursoes"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr "Pådjes di manuel"
+
+#~ msgid "Motion"
+#~ msgstr "Movmint"
+
+#, fuzzy
+#~ msgid "Small"
+#~ msgstr "Al _schåle"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Defini vos preferinces pol sori"
+
+#, fuzzy
+#~ msgid "Network Proxy"
+#~ msgstr "Proxy pol rantoele"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Preferinces pol proxy del rantoele"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "<b>D_irect internet connection</b>"
+#~ msgstr "<b>Raloyaedje _direk al daegntoele</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Apontiaedje _otomatike do proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Apontiaedje al _mwin do proxy</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "Advanced Configuration"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_Hårdêye po l' apontiaedje otomatike:"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detays do proxy HTTP"
+
+#, fuzzy
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Proxy _HTTP:"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Preferinces pol proxy del rantoele"
+
+#~ msgid "Port:"
+#~ msgstr "Pôrt:"
+
+#, fuzzy
+#~ msgid "Proxy Configuration"
+#~ msgstr "Apontiaedje do proxy pol rantoele"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Lodjoe S_OCKS:"
+
+#, fuzzy
+#~ msgid "U_sername:"
+#~ msgstr "No d' _uzeu:"
+
+#~ msgid "_Details"
+#~ msgstr "_Detays"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Proxy _FTP:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Sicrete:"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Mete en alaedje les sons eyet ls assocyî avou des evenmints"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Preferinces pol son"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "Mete en _ouve li sierveu di sons a l' enondaedje"
+
+#~ msgid "General"
+#~ msgstr "Djenerå"
+
+#~ msgid "Sound Events"
+#~ msgstr "Sons po ls evenmints"
+
+#, fuzzy
+#~ msgid "Custom theme"
+#~ msgstr "Tinme do cursoe"
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "Tchoezi les tinmes po sacwantès pårteyes do scribanne"
+
+#~ msgid "Theme"
+#~ msgstr "Tinme"
+
+#, fuzzy
+#~ msgid "_Location:"
+#~ msgstr "Accion"
+
+#~ msgid "Icons"
+#~ msgstr "Imådjetes"
+
+#, fuzzy
+#~ msgid "Save Theme"
+#~ msgstr "_Schaper tinme"
+
+#, fuzzy
+#~ msgid "Select theme for the desktop"
+#~ msgstr "Tchoezi les fontes pol sicribanne"
+
+#, fuzzy
+#~ msgid "Short _description:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "Theme Details"
+#~ msgstr "_Detays"
+
+#, fuzzy
+#~ msgid "Theme _Details"
+#~ msgstr "_Detays"
+
+#, fuzzy
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "This theme suggests a background:"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "This theme suggests a font:"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#~ msgid "Window Border"
+#~ msgstr "Boird do purnea"
+
+#, fuzzy
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "_Potchî å ridant des tinmes"
+
+#, fuzzy
+#~ msgid "_Install Theme..."
+#~ msgstr "_Astaler novea tinme..."
+
+#, fuzzy
+#~ msgid "_Revert"
+#~ msgstr "_Bodjî"
+
+#, fuzzy
+#~ msgid "_Save Theme..."
+#~ msgstr "_Schaper tinme"
+
+#, fuzzy
+#~ msgid "_Theme name:"
+#~ msgstr "No d' _uzeu:"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "Menus & Bårs ås usteyes"
+
+#, fuzzy
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "C_ut"
+#~ msgstr "Cô_per"
+
+#, fuzzy
+#~ msgid "Icons only"
+#~ msgstr "Rén k' les imådjetes"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Preferinces pol menu eyet l' bår ås usteyes"
+
+#~ msgid "New File"
+#~ msgstr "Novea fitchî"
+
+#~ msgid "Open File"
+#~ msgstr "Drovi on fitchî"
+
+#~ msgid "Save File"
+#~ msgstr "Schaper fitchî"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Håyner les _imådjetes dins les menus"
+
+#, fuzzy
+#~ msgid "Text below icons"
+#~ msgstr "Tecse pa dzo les imådjetes"
+
+#, fuzzy
+#~ msgid "Text beside icons"
+#~ msgstr "Tecse a costé des imådjetes"
+
+#, fuzzy
+#~ msgid "Text only"
+#~ msgstr "Rén kel tecse"
+
+#, fuzzy
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Etiketes des _botons:"
+
+#~ msgid "_Copy"
+#~ msgstr "_Copyî"
+
+#~ msgid "_Edit"
+#~ msgstr "_Candjî"
+
+#~ msgid "_File"
+#~ msgstr "_Fitchî"
+
+#~ msgid "_New"
+#~ msgstr "_Novea"
+
+#~ msgid "_Open"
+#~ msgstr "_Drovi"
+
+#~ msgid "_Paste"
+#~ msgstr "C_laper"
+
+#~ msgid "_Print"
+#~ msgstr "_Eprimî"
+
+#~ msgid "_Quit"
+#~ msgstr "Moussî _foû"
+
+#~ msgid "_Save"
+#~ msgstr "_Schaper"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "Meta"
+#~ msgstr "Meta"
+
+#, fuzzy
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "_Ripeter les tapes:"
+
+#, fuzzy
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "Rindou del fonte"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Preferinces pol purnea"
+
+#, fuzzy
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Dobe-clitchî sol tite des purneas po:"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Tchoezi les purneas cwand l' sori passe å dzeur"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr "Propietés pol purnea"
+
+#~ msgid "Windows"
+#~ msgstr "Purneas"
+
+#, fuzzy
+#~ msgid "Others"
+#~ msgstr "Passetes"
+
+#, fuzzy
+#~ msgid "Desktop Preferences"
+#~ msgstr "Preferinces del taprece"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Cinte di Contrôle di GNOME"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "L' usteye d' apontiaedje di GNOME"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Dji n' a savou inicyî Bonobo"
+
+#~ msgid "Type"
+#~ msgstr "Sôre"
+
+#~ msgid "Event"
+#~ msgstr "Evenmint"
+
+#, fuzzy
+#~ msgid "_Sounds:"
+#~ msgstr "_Sons"
+
+#, fuzzy
+#~ msgid "Sound _file:"
+#~ msgstr "Tchoezi on fitchî di son"
+
+#~ msgid "_Play"
+#~ msgstr "_Djower"
+
+#~ msgid "_Remove"
+#~ msgstr "_Bodjî"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Li manaedjeu di purneas «%s» n' a nén redjistré ene usteye "
+#~ "d' apontiaedje\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Å pus grand"
+
+#~ msgid "Roll up"
+#~ msgstr "Erôler"
+
+#, fuzzy
+#~ msgid "Eject's shortcut."
+#~ msgstr "Rascourtis do _scribanne:"
+
+#, fuzzy
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Foyteuse di l' aidance"
+
+#, fuzzy
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Log out's shortcut."
+#~ msgstr "Rascourtis do _scribanne:"
+
+#, fuzzy
+#~ msgid "Pause"
+#~ msgstr "C_laper"
+
+#, fuzzy
+#~ msgid "Search's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "Keyboard layout"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "Keyboard model"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "keyboard layout"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "keyboard model"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "_No:"
+
+#, fuzzy
+#~ msgid "Type:"
+#~ msgstr "Sôre"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "Set as Application Font"
+#~ msgstr "Fonte po les _programes:"
+
+#, fuzzy
+#~ msgid "Sets the default application font"
+#~ msgstr "Tchoezixhoz vos prémetous programes"
+
+#, fuzzy
+#~ msgid "GNOME Font Viewer"
+#~ msgstr "Cinte di Contrôle di GNOME"
+
+#, fuzzy
+#~ msgid "_Apply font"
+#~ msgstr "Fonte po les _programes:"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr "Tinme"
+
+#~ msgid "Description"
+#~ msgstr "Discrijhaedje"
+
+#, fuzzy
+#~ msgid "Control theme"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "Window border theme"
+#~ msgstr "Boird do purnea"
+
+#, fuzzy
+#~ msgid "Icon theme"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "Apply theme"
+#~ msgstr "_Astaler novea tinme..."
+
+#, fuzzy
+#~ msgid "Mouse Keys"
+#~ msgstr "Sori"
+
+#~ msgid "seconds"
+#~ msgstr "segondes"
+
+#, fuzzy
+#~ msgid "<b>Hinting</b>:"
+#~ msgstr "Rindou del fonte"
+
+#~ msgid "_Sounds for events"
+#~ msgstr "_Sons po ls evenmints"
+
+#, fuzzy
+#~ msgid "Apply _Background"
+#~ msgstr "Fond"
+
+#, fuzzy
+#~ msgid "Use X settings"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#~ msgid "Screen"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Sound File"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "Sleep"
+#~ msgstr "Roedeu"
+
+#, fuzzy
+#~ msgid "Keyboard options"
+#~ msgstr "Rascourtis del taprece"

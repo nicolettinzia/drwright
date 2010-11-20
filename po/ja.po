@@ -1,171 +1,3894 @@
+# #-#-#-#-#  ja.po (drwright HEAD)  #-#-#-#-#
 # drwright ja.po.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the drwright package.
 # Takeshi AIHANA <aihana@gnome.gr.jp>, 2003-2004.
 #
+# #-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#
+# gnome-settings-daemon ja.po.
+# Copyright (C) 1998-2010 Free Software Foundation, Inc.
+# Yukihiro Nakai <Nakai@abricot.co.jp>, 1998.
+# Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000, 2009-2010.
+# Akira TAGOH <tagoh@gnome.gr.jp>, 2001.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2009.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+# Satoru SATOH <ss@gnome.gr.jp>, 2006.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2010.
+# Noritada Kobayashi <noritadak@gmail.com>, 2010.
+#
+# #-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#
+# gnome-control-center ja.po.
+# Copyright (C) 1998-2008 Free Software Foundation, Inc.
+# Yukihiro Nakai <Nakai@abricot.co.jp>, 1998
+# Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000, 2009, 2010.
+# Akira TAGOH <tagoh@gnome.gr.jp>, 2001.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2008.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+# Satoru SATOH <ss@gnome.gr.jp>, 2006.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: drwright HEAD\n"
+"Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-10-04 13:05+0900\n"
-"PO-Revision-Date: 2004-10-04 13:05+0900\n"
-"Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2010-02-28 23:02+0900\n"
+"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  ja.po (drwright HEAD)  #-#-#-#-#\n"
+"#-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "    "
-
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
-
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>一休みの時間</b>"
-
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>作業時間</b>"
-
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "一休みを延期できるようにする場合にチェックして下さい"
-
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "DrWright の設定"
-
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "一休みする時間です (キー入力不可)"
-
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "一休みを開始する前の警告時間です"
-
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "一休みに入る前に警告する時間です"
-
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "一休みを延期するのに利用する追加フレーズです"
-
-#: data/glade/drw-preferences.glade.h:11
-msgid "_Allow postponing of breaks"
-msgstr "一休みの延期を許可する(_A)"
-
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "一休みする時間(_B)"
-
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "警告する時間(_W)"
-
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "最後に警告を出す時間(_W)"
-
-#: data/glade/drw-preferences.glade.h:15
-msgid "minutes"
-msgstr "分"
-
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright は既に起動されています。"
-
-#: src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+#: ../src/main.c:63
+#, fuzzy
+msgid "Enable debugging code"
 msgstr ""
-"DrWright は情報を表示するために通知スペースを利用します。お使いのパネルには通"
-"知スペースが無いようです。通知スペースはパネルの上で右クリックして [パネルに"
-"追加] -> [ユーティリティ] -> [通知スペース] を選択すると起動されます。"
+"#-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+"デバッグ情報を有効にする\n"
+"#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+"デバッグ・モードにする"
 
-#: src/drwright.c:138
-msgid "/_Enabled"
-msgstr "/有効にする(_E)"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "通知スペースが存在しているかどうかを確認しない"
 
-#: src/drwright.c:139
-msgid "/_Take a Break"
-msgstr "/一休みする(_T)"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "タイピングの監視"
 
-#: src/drwright.c:141
-msgid "/_Preferences"
-msgstr "/設定(_P)"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"GNOME 一休み催促ツールは情報を表示するために通知スペースを利用しますが、お使"
+"いのパネルには通知スペースが無いようです。通知スペースはパネルの上で右クリッ"
+"クして \"パネルへ追加\" を選択して、ダイアログから [通知スペース] のエントリ"
+"を選択して \"追加\" ボタンをクリックして下さい。"
 
-#: src/drwright.c:142
-msgid "/_About"
-msgstr "/情報(_A)"
+#: ../src/drwright.c:142
+msgid "_Take a Break"
+msgstr "一休みする(_T)"
 
-#: src/drwright.c:144
-msgid "/_Remove Icon"
-msgstr "/アイコンの削除(_R)"
-
-#: src/drwright.c:475
+#: ../src/drwright.c:504
+#, fuzzy
 msgid "Disabled"
-msgstr "無効です"
+msgstr ""
+"#-#-#-#-#  ja.po (drwright HEAD)  #-#-#-#-#\n"
+"無効です\n"
+"#-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+"無効\n"
+"#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+"無効"
 
-#: src/drwright.c:493
+#: ../src/drwright.c:513
 #, c-format
-msgid "%d minutes until the next break"
-msgstr "次の一休みまで %d 分あります"
+msgid "Take a break now (next in %dm)"
+msgstr ""
 
-#: src/drwright.c:496
-msgid "One minute until the next break"
-msgstr "次の一休みまであと 1 分です"
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "次の一休みまで %d分あります"
 
-#: src/drwright.c:498
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr ""
+
+#: ../src/drwright.c:523
+#, fuzzy, c-format
 msgid "Less than one minute until the next break"
-msgstr "次の一休みまで 1 分を切りました"
+msgstr ""
+"#-#-#-#-#  ja.po (drwright HEAD)  #-#-#-#-#\n"
+"次の一休みまで 1 分を切りました\n"
+"#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+"次の一休みまで 1分を切りました"
 
-#: src/drwright.c:609
-msgid "Quit DrWright?"
-msgstr "DrWright を終了しますか？"
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"次のエラーにより \"キー入力の一休み設定ダイアログ\" を開けませんでした: %s"
 
-#: src/drwright.c:610
-msgid "Don't forget to take regular breaks."
-msgstr "定期的な一休みを忘れずに。"
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "作者: Richard Hult <richard@imendio.com>"
 
-#: src/drwright.c:621
-msgid "Don't Quit"
-msgstr "終了しない"
-
-#: src/drwright.c:625
-msgid "Quit"
-msgstr "終了する"
-
-#: src/drwright.c:674
-msgid "About DrWright"
-msgstr "DrWright について"
-
-#: src/drwright.c:699
-msgid "A computer break reminder."
-msgstr "コンピュータの一休み催促ツールです。"
-
-#: src/drwright.c:700
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "作者: Richard Hult &lt;richard@imendio.com&gt;"
-
-#: src/drwright.c:701
+#: ../src/drwright.c:629
 msgid "Eye candy added by Anders Carlsson"
 msgstr "目玉のキャンディの提供: Anders Carlsson"
 
-#: src/drwright.c:868
-msgid "Break reminder"
-msgstr "一休み催促ツール"
+#: ../src/drwright.c:638
+msgid "A computer break reminder."
+msgstr "コンピュータの一休み催促ツールです。"
 
-#: src/drw-break-window.c:208
-msgid "_Postpone break"
-msgstr "一休みの中断(_P)"
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+"相花 毅 <takeshi.aihana@gmail.com>\n"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp/"
 
-#: src/drw-break-window.c:251
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "中断を延長する(_P)"
+
+#: ../src/drw-break-window.c:227
 msgid "Take a break!"
 msgstr "一休みして下さい！"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "スクリーン・リーダを有効にするかどうかです。"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "スクリーン・リーダを有効にするかどうかです。"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "一休み"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr "一休みの延期を許可する(_A)"
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "一休みする時間(_B):"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "一休みに入ったら強制的に画面をロックする(_L)"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "一休みの警告を出すまでの時間(_W):"
+
+#: ../src/drwright-panel.glade.h:5
+msgid "minutes"
+msgstr "分"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>一休みの時間</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>作業時間</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ja.po (drwright HEAD)  #-#-#-#-#\n"
+#~ "一休みを延期できるようにする場合にチェックして下さい\n"
+#~ "#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "一休みの延長を可能にする場合は有効にして下さい"
+
+#~ msgid "DrWright Preferences"
+#~ msgstr "DrWright の設定"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ja.po (drwright HEAD)  #-#-#-#-#\n"
+#~ "一休みする時間です (キー入力不可)\n"
+#~ "#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "入力を禁止して一休みする時間です"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "一休みを開始する前の警告時間です"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  ja.po (drwright HEAD)  #-#-#-#-#\n"
+#~ "一休みに入る前に警告する時間です\n"
+#~ "#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "強制的に一休みに入るまでの時間です"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "一休みを延期するのに利用する追加フレーズです"
+
+#~ msgid "_Break interval lasts"
+#~ msgstr "一休みする時間(_B)"
+
+#~ msgid "_Warning time is"
+#~ msgstr "警告する時間(_W)"
+
+#~ msgid "_Work interval lasts"
+#~ msgstr "最後に警告を出す時間(_W)"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright は既に起動されています。"
+
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright は情報を表示するために通知スペースを利用します。お使いのパネルに"
+#~ "は通知スペースが無いようです。通知スペースはパネルの上で右クリックして [パ"
+#~ "ネルに追加] -> [ユーティリティ] -> [通知スペース] を選択すると起動されま"
+#~ "す。"
+
+#~ msgid "/_Enabled"
+#~ msgstr "/有効にする(_E)"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/一休みする(_T)"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/設定(_P)"
+
+#~ msgid "/_About"
+#~ msgstr "/情報(_A)"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/アイコンの削除(_R)"
+
+#~ msgid "%d minutes until the next break"
+#~ msgstr "次の一休みまで %d 分あります"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "次の一休みまであと 1 分です"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright を終了しますか？"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "定期的な一休みを忘れずに。"
+
+#~ msgid "Don't Quit"
+#~ msgstr "終了しない"
+
+#~ msgid "Quit"
+#~ msgstr "終了する"
+
+#~ msgid "About DrWright"
+#~ msgstr "DrWright について"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "作者: Richard Hult &lt;richard@imendio.com&gt;"
+
+#~ msgid "Break reminder"
+#~ msgstr "一休み催促ツール"
+
+#~ msgid "_Postpone break"
+#~ msgstr "一休みの中断(_P)"
+
+#~ msgid "Accessibility"
+#~ msgstr "アクセシビリティ"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "空きパーセンテージ通知の閾値"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "空き容量の警告の閾値"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "警告の繰り返しの最小通知間隔"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "無視するマウント・パス"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "ディスクの残り容量が少なくなった時に最初に警告する閾値となる残り容量のパー"
+#~ "センテージ。残り容量のパーセンテージがこの値を下まわれば、警告が表示されま"
+#~ "す。"
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr "残り容量が少なくても無視するマウント・パスの一覧を指定します"
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "時間を分単位で指定します。この時間より短い間隔で容量の警告を表示することは"
+#~ "ありません。"
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "容量をGB単位で指定します。空き容量がこの値を上まわれば、警告は表示されませ"
+#~ "ん。"
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "空き容量の警告を連続して出す前に、何パーセント空き容量を減らさなくてはなら"
+#~ "ないかを指定"
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "空き容量の連続通知のパーセンテージの閾値"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "光学ディスクを取り出すキー・バインディングです。"
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "タッチパッドを有効にするか無効にするかのキー・バインディングです。"
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "電卓を起動するキー・バインディングです。"
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "E-メール・クライアントを起動するキー・バインディングです。"
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "ヘルプ・ブラウザを起動するキー・バインディングです。"
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "メディア・プレイヤーを起動するキー・バインディングです。"
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "検索ツールを起動するキー・バインディングです。"
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "ウェブ・ブラウザを起動するキー・バインディングです。"
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "画面をロックするキー・バインディングです。"
+
+#~ msgid "Binding to log out."
+#~ msgstr "ログアウトするキー・バインディングです。"
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "システムの音量を小さくするキー・バインディングです。"
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "システムの音量をミュート (無音) にするキー・バインディングです。"
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "ホーム・フォルダを開くキー・バインディングです。"
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "再生を一時停止するキー・バインディングです。"
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "システムの音量を高くするキー・バインディングです。"
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "次のトラックにスキップするキー・バインディングです。"
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "前のトラックにスキップするキー・バインディングです。"
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "再生を開始する (または再生と一時停止を切り替える) するキー・バインディング"
+#~ "です。"
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "再生を停止するキー・バインディングです。"
+
+#~ msgid "Eject"
+#~ msgstr "メディアを取り出す"
+
+#~ msgid "Home folder"
+#~ msgstr "ホーム・フォルダを開く"
+
+#~ msgid "Launch calculator"
+#~ msgstr "電卓を起動する"
+
+#~ msgid "Launch email client"
+#~ msgstr "E-メール・クライアントを起動する"
+
+#~ msgid "Launch help browser"
+#~ msgstr "ヘルプ・ブラウザを起動する"
+
+#~ msgid "Launch media player"
+#~ msgstr "メディア・プレイヤーを起動する"
+
+#~ msgid "Launch web browser"
+#~ msgstr "ウェブ・ブラウザを起動する"
+
+#~ msgid "Lock screen"
+#~ msgstr "画面をロックする"
+
+#~ msgid "Log out"
+#~ msgstr "ログアウトする"
+
+#~ msgid "Next track"
+#~ msgstr "次のトラックに進む"
+
+#~ msgid "Pause playback"
+#~ msgstr "再生を一時停止する"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "再生する (または再生/一時停止する)"
+
+#~ msgid "Previous track"
+#~ msgstr "前のトラックに戻る"
+
+#~ msgid "Search"
+#~ msgstr "検索する"
+
+#~ msgid "Stop playback"
+#~ msgstr "再生を停止する"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "タッチパッドを切り替える"
+
+#~ msgid "Volume down"
+#~ msgstr "音量を下げる"
+
+#~ msgid "Volume mute"
+#~ msgstr "ミュートにする"
+
+#~ msgid "Volume step"
+#~ msgstr "音量の割合を変更する"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "音量の割合を設定するキー・バインディングです。"
+
+#~ msgid "Volume up"
+#~ msgstr "音量を上げる"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "RanR の初期設定ファイル"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "通知スペースに通知アイコンを表示するかどうか"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "XRandR プラグインはこのキーで指定されたファイルをデフォルトの設定ファイル"
+#~ "として検索します。これはユーザのふつう、ホームディレクトリに保存されてい"
+#~ "る ~/.config/monitors.xml と同様のものです。もしそのようなファイルが無い場"
+#~ "合、あるいはあったとしてもモニタの設定に合わない場合、このキーで指定された"
+#~ "ファイルが代わりに使われます。"
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "システムの起動後に外部モニタを有効にする"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "システムのブート時に外部モニタが接続されている時、システムのブート後に外部"
+#~ "モニタ有効にする。"
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "システムのブート後にラップトップのモニタを有効にする"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "システムのブート時に外部モニタが接続されている時、システムのブート後にラッ"
+#~ "プトップのモニタを有効にする。"
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr "表示関連の通知アイコンをパネルに表示するかどうかです。"
+
+#~ msgid "Antialiasing"
+#~ msgstr "アンチエイリアス"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr ""
+#~ "#-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+#~ "ヒンティング\n"
+#~ "#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "線幅の補正 (ヒンティング)"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA の順番"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "LCD 画面でサブピクセルの各要素の順番を指定します (これは Antialiasing を "
+#~ "\"rgba\" にセットした時にのみ適用されます)。利用可能な値: \"rgb\" は左端が"
+#~ "赤色 (最も一般的)、\"bgr\" は左端が青色、\"vrgb\" は上端が赤色、\"vbgr\" "
+#~ "は下端が赤色"
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "フォントの大きさをピクセル単位の大きさに変更する際に使用する解像度です。"
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "フォントを描画する際に使用するアンチエイリアスの種類を指定します。利用可能"
+#~ "な値: \"none\" はアンチエイリアスを無効にする、\"grayscale\" は標準的なグ"
+#~ "レースケールのアンチエイリアス、\"rgba\" はサブピクセルをアンチエイリアス"
+#~ "する (LCD 画面の場合のみ)"
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "フォントを描画する際に使用するヒンティング (線幅を補正する) の種類を指定し"
+#~ "ます。利用可能な値: \"none\" はヒンティングを無効にする、\"slight\" は基本"
+#~ "的なヒンティングのみ、\"medium\" は穏やかなヒンテイング、\"full\" は最大限"
+#~ "のヒンテイング (文字の形状に歪みが発生する可能性あり)"
+
+#~ msgid "Allowed keys"
+#~ msgstr "利用可能なキーバインディング"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "ここで指定した種類のキーバインディング以外は利用できなくなります (キーバイ"
+#~ "ンディングはこの下にあるサブディレクトリのキー名で指定します)。これは主に"
+#~ "ロックダウンで使用します。"
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "タイピング中にタッチパッドを無効にする"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "水平スクロールを有効にする"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "タッチパッドでのマウス・クリックを有効にする"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "タッチパッドを有効にする"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "タッチ・パッドでのスクロールの方法の選択"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "タッチ・パッドでのスクロール方法を選択します。指定できる値は次のとおり。"
+#~ "0: 無効、1: エッジ・スクロール、2: 2本指スクロール"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "タイプ中に誤ってタッチ・パッドを押してしまう問題があるのであれば、TRUE に"
+#~ "設定してください。"
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "この値を TRUE にすると、scroll_method キーで選択したのと同じ方法で、水平ス"
+#~ "クロールを許可します。"
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "この値を TRUE にすると、タッチ・パッドをタップすることで、マウス・クリック"
+#~ "と同じ動作できるようにします。"
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "この値を TRUE にすると、すべてのタッチ・パッドを有効にします。"
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "GNOME 設定デーモン"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "拡大鏡の切り替えに使用するキーバインディングです。"
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr ""
+#~ "オンスクリーン・キーボードの切り替えに使用するキーバインディングです。"
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "スクリーン・リーダの切り替えに使用するキーバインディングです。"
+
+#~ msgid "Bounce keys"
+#~ msgstr "バウンス・キー"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "拡大鏡の有効/無効を切り替える際に使用するコマンドです。"
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr ""
+#~ "オンスクリーン・キーボードの有効/無効を切り替える際に使用するコマンドで"
+#~ "す。"
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "スクリーン・リーダを起動したり停止する際に使用するコマンドです。"
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "XRandR のプラグインを有効にするかどうか"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr ""
+#~ "キーボード操作性 (アクセシビリティ) のプラグインを有効にするかどうか"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "背景のプラグインを有効にするかどうか"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "クリップボードのプラグインを有効にするかどうか"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "フォントのプラグインを有効にするかどうか"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "メンテナンス用プラグインを有効にするかどうか"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "キーバインディングのプラグインを有効にするかどうか"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "キーボードのプラグインを有効にするかどうか"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "メディア・キーのプラグインを有効にするかどうか"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "マウスのプラグインを有効にするかどうか"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "スマートカードのプラグインを有効にするかどうか"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "サウンドのプラグインを有効にするかどうか"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "一休みのプラグインを有効にするかどうか"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Xrdb のプラグインを有効にするかどうか"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Xsettings のプラグインを有効にするかどうか"
+
+#~ msgid "Mouse keys"
+#~ msgstr "マウス・キー"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "オンスクリーン・キーボードを有効にするかどうか"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "スクリーンの拡大鏡を有効にするかどうか"
+
+#~ msgid "Screen reader"
+#~ msgstr "スクリーン・リーダを有効にするかどうか"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "TRUE にすると、メンテナンス用のプラグインを有効にします (作業ファイルの"
+#~ "キャッシュを減らす際に使用します)。"
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr "TRUE にすると、XRandR 設定を管理するプラグインを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "TRUE にすると、クリップボードの設定を管理するプラグインを有効にします。"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "TRUE にすると、デスクトップの背景を管理するプラグインを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "TRUE にすると、フォントの設定を管理するプラグインを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr "TRUE にすると、キーボードの設定を管理するプラグインを有効にします。"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "TRUE にすると、スマートカードを抜くと画面をロックするよう管理するプラグイ"
+#~ "ンを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "TRUE にすると、マウスの設定を管理するプラグインを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "TRUE にすると、マルチメディア・キーの設定を管理するプラグインを有効にしま"
+#~ "す。"
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "TRUE にすると、サウンドのサンプル・キャッシュを管理するプラグインを有効に"
+#~ "します。"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "TRUE にすると、アクセシビリティに関係するキーボードの操作性を管理するプラ"
+#~ "グインを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "TRUE にすると、キーバインディングの設定を管理するプラグインを有効にしま"
+#~ "す。"
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "TRUE にすると、キーボードを使って一休みするプラグインを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "TRUE にすると、Xrdb の設定を管理するプラグインを有効にします。"
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "TRUE にすると、Xsettings の設定を管理するプラグインを有効にします。"
+
+#~ msgid "Slow keys"
+#~ msgstr "スロー・キーを有効にするかどうか"
+
+#~ msgid "Sticky keys"
+#~ msgstr "スティッキー・キーを有効にするかどうか"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "キーボード・ショートカットの変更ダイアログで表示する項目名"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "キーボード・ショートカットの変更ダイアログで表示する項目名"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "スクリーン・リーダを切り替えるキーボード・ショートカットの名前"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "キーボード・ショートカットの設定ダイアログで、拡大鏡を起動したり停止する"
+#~ "キー・バインディングの項目に表示する名称です。"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "キーボード・ショートカットの設定ダイアログで、オンスクリーン・キーボードを"
+#~ "起動したり停止するキー・バインディングの項目に表示する名称です。"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "これは、スクリーン・リーダを切り替えるキーボード・ショートカットの名前で"
+#~ "す。キーボード・ショートカットの設定ダイアログに表示されます。"
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "拡大鏡を起動または停止する"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "オンスクリーン・キーボードを起動または停止する"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "スクリーン・リーダの切り替え"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "バウンス・キーによるキーボード・アクセシビリティの機能を有効にするかどうか"
+#~ "です。"
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "マウス・キーによるキーボード・アクセシビリティの機能を有効にするかどうかで"
+#~ "す。"
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "オンスクリーン・キーボードを有効にするかどうかです。"
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "スクリーンの拡大鏡を有効にするかどうかです。"
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "スロー・キーによるによるキーボード・アクセシビリティの機能を有効にするかど"
+#~ "うかです。"
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "スティッキー・キーによるキーボード・アクセシビリティの機能を有効にするかど"
+#~ "うかです。"
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "\"none\"、\"lock_screen\"、あるいは \"force_logout\" のうちの一つを指定し"
+#~ "ます。スマートカードがログインに使用されたり、取り出された場合にそのアク"
+#~ "ションが実行されます。"
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "スマートカードを抜いた時のアクション"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "デーモン化しない"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "読み込むプラグインを GConf の接頭子で指定する"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "しばらくしてから終了する (デバッグ用)"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "アクセシビリティ・キーボード"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "アクセシビリティ・キーボードのプラグイン"
+
+#, fuzzy
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+#~ "ヘルプを表示する際にエラーが発生しました: %s\n"
+#~ "#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "次のヘルプを表示する際にエラーが発生しました: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "スロー・キーを有効にしますか?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "スロー・キーを無効にしますか?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "[SHIFT] キーを8秒間押下しました。これはスロー・キー機能のショートカットと"
+#~ "して、キーボード操作に影響を与えるものです。"
+
+#~ msgid "Don't activate"
+#~ msgstr "有効にしない"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "無効にしない"
+
+#~ msgid "Activate"
+#~ msgstr "有効にする"
+
+#~ msgid "Deactivate"
+#~ msgstr "無効にする"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "有効にしない(_N)"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "無効にしない(_N)"
+
+#~ msgid "_Activate"
+#~ msgstr "有効にする(_A)"
+
+#~ msgid "_Deactivate"
+#~ msgstr "無効にする(_D)"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "スロー・キーの警告"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "スティッキー・キーを有効にしますか?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "スティッキー・キーを無効にしますか?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "[SHIFT] キーを連続して5回押下しました。これはスティッキー・キー機能の"
+#~ "ショートカットとして、キーボード操作に影響を与えるものです。"
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "キーを一度に2回押下したか、あるいは [SHIFT] キーを連続して 5回押下しまし"
+#~ "た。これはスティッキー・キー機能を無効にし、キーボード操作に影響を与えるも"
+#~ "のです。"
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "スティッキー・キーの警告"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "ユニバーサル・アクセスの設定"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "色のコントラストを強調する(_C)"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "文字を大きく表示して読みやすくする(_T)"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "キーを押下したままにしてスロー・キーを有効にできる(_H)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "オンスクリーン・キーボードを使う(_K)"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "スクリーンの拡大鏡を使う(_M)"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "スクリーン・リーダを使う(_R)"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "キーを素早く押下したり押し続けた場合は無視する(_I)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "ステッキー・キーを有効にする(_P)"
+
+#~ msgid "Background"
+#~ msgstr "背景"
+
+#~ msgid "Background plugin"
+#~ msgstr "背景のプラグイン"
+
+#~ msgid "Clipboard"
+#~ msgstr "クリップボード"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "クリップボードのプラグイン"
+
+#~ msgid "Dummy"
+#~ msgstr "ダミー"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "ダミーのプラグイン"
+
+#~ msgid "Font"
+#~ msgstr "フォント"
+
+#~ msgid "Font plugin"
+#~ msgstr "フォントのプラグイン"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "このファイルシステムの警告は一切表示しない"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "警告を一切表示しない"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "ボリューム \"%s\" にはディスクの残りが %s しかありません。"
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "このコンピュータにはディスクの残りが %s しかありません。"
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "ゴミ箱を空にしたり、使っていないプログラムやファイルを削除したり、他のディ"
+#~ "スクやパーティションにファイルを移動することで、ディスクの空き容量を増やせ"
+#~ "ます。"
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "使っていないプログラムやファイルを削除したり、他のディスクやパーティション"
+#~ "にファイルを移動することで、ディスク容量を増やせます。"
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "ゴミ箱を空にしたり、使っていないプログラムやファイルを削除したり、外付け"
+#~ "ディスクにファイルを移動することで、ディスクの空き容量を増やせます。"
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "使っていないプログラムやファイルを削除したり、外付けディスクにファイルを移"
+#~ "動することで、ディスクの空き容量を増やせます。"
+
+#~ msgid "Low Disk Space"
+#~ msgstr "ディスクの空き容量が少ないです"
+
+#~ msgid "Empty Trash"
+#~ msgstr "ゴミ箱を空にする"
+
+#~ msgid "Examine…"
+#~ msgstr "調査中…"
+
+#~ msgid "Ignore"
+#~ msgstr "無視"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "%lu 番目のアイテムを削除中 (%lu 個中)"
+
+#~ msgid "Removing: %s"
+#~ msgstr "削除中: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "ゴミ箱を空にしています"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "ゴミ箱を空にする準備中…"
+
+#~ msgid "From: "
+#~ msgstr "From: "
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "ゴミ箱の中のすべてのアイテムを空にしますか?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "ゴミ箱を空にすることを選択すると、すべてのアイテムは永遠に失なわれます。別"
+#~ "途、それらを削除できることに留意してください。"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "ゴミ箱を空にする(_E)"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "キー・バインディング (%s) が無効です"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "キー・バインディング (%s) が完了していません"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "(%s) を実行する際にエラーが発生しました。\n"
+#~ "これはキー (%s) にリンクしています。"
+
+#~ msgid "Keybindings"
+#~ msgstr "キーバインディング"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "キーバインディングのプラグイン"
+
+#~ msgid "Keyboard"
+#~ msgstr "キーボード"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "キーボードのプラグイン"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "XKB 設定を有効にする際にエラーが発生しました。\n"
+#~ "以下のような様々な条件下で発生する可能性があります:\n"
+#~ " ・ libxklavier ライブラリのバグ\n"
+#~ " ・ X サーバのバグ (xkbcomp、xmodmap ユーティリティ)\n"
+#~ " ・ X サーバと互換性が無い libxkbfile の実装\n"
+#~ "\n"
+#~ "X サーバ バージョンデータ:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "この状況をバグとして報告する場合は、以下を含めてください:\n"
+#~ " ・ <b>%s</b> の結果\n"
+#~ " ・ <b>%s</b> の結果"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "XFree 4.3.0 を利用しています。\n"
+#~ "複雑な XKB 設定を行っている際に問題が起こることが知られています。\n"
+#~ "もっと単純な設定にしてみるか、もっと新しいバージョンの XFree を使ってみて"
+#~ "ください。"
+
+#~ msgid "_Layouts"
+#~ msgstr "レイアウト(_L)"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "キーボードの設定(_P)"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "現在のレイアウトを表示(_C)"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "利用可能なファイル(_V):"
+
+#~ msgid "Load modmap files"
+#~ msgstr "modmap ファイルの読み込み"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "modmap ファイルを読み込みますか?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "次回からこのメッセージを表示しない(_D)"
+
+#~ msgid "_Load"
+#~ msgstr "読み込む(_L)"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "読み込んだファイル(_L):"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "デフォルトの端末を起動できませんでした。デフォルトの端末を起動するコマンド"
+#~ "が指定され、それに対応するアプリケーションがインストールされているか確認し"
+#~ "て下さい。"
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "コマンドを実行できませんでした: %s\n"
+#~ "このコマンドがインストールされているか確認してください。"
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u 出力"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u 入力"
+
+#~ msgid "System Sounds"
+#~ msgstr "システムの効果音"
+
+#~ msgid "Media keys"
+#~ msgstr "メディア・キー"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "メディア・キーのプラグイン"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "マウスの操作性に関する機能を有効にできませんでした"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "マウスのアクセシビリティに関する機能を有効にするには mousetweak がインス"
+#~ "トールされている必要があります。"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "マウスの設定"
+
+#~ msgid "Mouse"
+#~ msgstr "マウス"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "マウスのプラグイン"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "一休みのプラグイン"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "画面の大きさや回転といった設定を管理します"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "モニタの設定に切り替えることができませんでした"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "ディスプレイの設定を元に戻せませんでした"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "バックアップしたディスプレイの設定に戻せませんでした"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] " %d秒後に元のディスプレイの設定に戻ります"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "ディスプレイの設定に問題はありませんか?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "前の設定に戻す(_R)"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "この設定のままにする(_K)"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "選択したディスプレイの設定を適用できませんでした"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "スクリーンの情報を更新できませんでした: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "いずれにせよ、モニタの設定を切り替えてみます"
+
+#~ msgid "Rotation not supported"
+#~ msgstr "回転はサポートしていません"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "モニタの設定を保存できませんでした"
+
+#~ msgid "Normal"
+#~ msgstr "標準"
+
+#, fuzzy
+#~ msgid "Left"
+#~ msgstr ""
+#~ "#-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+#~ "左\n"
+#~ "#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "左回り"
+
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr ""
+#~ "#-#-#-#-#  ja.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+#~ "右\n"
+#~ "#-#-#-#-#  ja.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "右回り"
+
+#~ msgid "Upside Down"
+#~ msgstr "逆さま"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "ディスプレイの設定(_C)…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "ディスプレイの設定を変更します"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "保存したモニタの設定を適用できませんでした"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "ユーザのホーム・フォルダを確定できません"
+
+# 'X' という1文字は固有名詞のため大文字にする
+#~ msgid "Manage the X resource database"
+#~ msgstr "Xのリソース・データベースを管理します"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Xリソース・データベース"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "GConf キーの %s が %s という型になっています (%s という型を期待していた)\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "X の設定を管理します"
+
+#~ msgid "X Settings"
+#~ msgstr "X の設定"
+
+#~ msgid "Module Path"
+#~ msgstr "モジュールのパス"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "スマートカードの PKCS #11 ドライバへのパス"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "イベントの発生源からエラーを受け取ったか、ハングアップしました"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "NSS セキュリティシステムをインストールできませんでした"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "適切なスマートカードのドライバを発見できませんでした"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "スマートカードのドライバ '%s' を読み込めませんでした"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "カードから受け取ったイベントを確認できませんでした - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr "スマートカードのイベントを待機中に想定外のエラーに遭遇しました"
+
+#~ msgid "Slot ID"
+#~ msgstr "スロットID"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "カードの入っているスロット"
+
+#~ msgid "Slot Series"
+#~ msgstr "スロットシリーズ"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "スロットごとのカードの識別子"
+
+#~ msgid "name"
+#~ msgstr "名前"
+
+#~ msgid "Module"
+#~ msgstr "モジュール"
+
+#~ msgid "smartcard driver"
+#~ msgstr "スマートカードドライバ"
+
+#~ msgid "Change system time"
+#~ msgstr "システムの時刻を変更"
+
+#~ msgid "Change system time zone"
+#~ msgstr "システムのタイムゾーンの変更"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "ハードウェアの時計の変更"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr "システムのタイムゾーンを変更するには権限が必要です。"
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "システムの時刻を変更するには権限が必要です。"
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr "ハードウェアの時計を変更するには権限が必要です。"
+
+#~ msgid "Unknown"
+#~ msgstr "不明"
+
+#~ msgid "Current network location"
+#~ msgstr "現在のネットワークの場所"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "背景を入手できるURL"
+
+#~ msgid "More themes URL"
+#~ msgstr "テーマを入手できるURL"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "これを現在の場所の名前にセットしてください。適切なネットワーク・プロキシの"
+#~ "設定を決定するのに使われます。"
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "デスクトップの背景を入手できる場所のURLです。空文字列ならば、リンクは表示"
+#~ "されません。"
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "デスクトップのテーマを入手できる場所のURLです。空文字列ならば、リンクは表"
+#~ "示されません。"
+
+#~ msgid "Image/label border"
+#~ msgstr "画像/ラベルの境界線"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "警告ダイアログに表示するラベルと画像の回りに追加する境界線の幅です"
+
+#~ msgid "Alert Type"
+#~ msgstr "警告の種類"
+
+#~ msgid "The type of alert"
+#~ msgstr "警告ダイアログの種類です"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "警告ボタン"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "警告ダイアログに表示するボタンです"
+
+#~ msgid "Show more _details"
+#~ msgstr "詳細表示(_D)"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "%s の上に左の親指を置いて下さい"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "%s の上に左の親指を通して下さい"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "%s の上に左の人差し指を置いて下さい"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "%s の上に左の人差し指を通して下さい"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "%s の上に左の中指を置いて下さい"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "%s の上に左の中指を通して下さい"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "%s の上に左の薬指を置いて下さい"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "%s の上に左の薬指を通して下さい"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "%s の上に左の小指を置いて下さい"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "%s の上に左の小指を通して下さい"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "%s の上に右の親指を置いて下さい"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "%s の上に右の親指を通して下さい"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "%s の上に右の人差し指を置いて下さい"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "%s の上に右の人差し指を通して下さい"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "%s の上に右の中指を置いて下さい"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "%s の上に右の中指を通して下さい"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "%s の上に右の薬指を置いて下さい"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "%s の上に右の薬指を通して下さい"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "%s の上に右の小指を置いて下さい"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "%s の上に右の小指を通して下さい"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "もう一度リーダーの上に指をおいて下さい"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "もう一度指を通して下さい"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "通す時間が短すぎます (もう一度試してみて下さい)"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "指の中央を認識できませんでした (もう一度指を通して下さい)"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "いったん指を外して、もう一度通して下さい"
+
+#~ msgid "Select Image"
+#~ msgstr "画像の選択"
+
+#~ msgid "No Image"
+#~ msgstr "画像なし"
+
+#~ msgid "Images"
+#~ msgstr "画像"
+
+#~ msgid "All Files"
+#~ msgstr "全てのファイル"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "アドレス帳の情報を取得する際にエラーが発生しました。\n"
+#~ "Evolution データ・サーバでは扱えないプロトコルです。"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "アドレス帳を開けません"
+
+#~ msgid "About %s"
+#~ msgstr "\"%s\" さんの情報"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "AIM/iChat(_I):"
+
+#~ msgid "A_ddress:"
+#~ msgstr "住所(_D):"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "アシスタント(_S):"
+
+#~ msgid "About Me"
+#~ msgstr "個人情報"
+
+#~ msgid "Address"
+#~ msgstr "住所"
+
+#~ msgid "C_ity:"
+#~ msgstr "市(_I):"
+
+#~ msgid "C_ompany:"
+#~ msgstr "会社(_O):"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "カレンダ(_N):"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "パスワードの変更(_R)..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "市(_T):"
+
+#~ msgid "Co_untry:"
+#~ msgstr "国(_U):"
+
+#~ msgid "Contact"
+#~ msgstr "連絡先"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "国(_N):"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "指紋認証を無効にする(_F)..."
+
+#~ msgid "Email"
+#~ msgstr "メール"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "指紋認証を有効にする(_F)..."
+
+#~ msgid "Full Name"
+#~ msgstr "氏名"
+
+#~ msgid "Hom_e:"
+#~ msgstr "自宅(_E):"
+
+#~ msgid "Home"
+#~ msgstr "ホーム"
+
+#~ msgid "IC_Q:"
+#~ msgstr "ICQ(_Q):"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "インスタント・メッセンジャー"
+
+#~ msgid "Job"
+#~ msgstr "仕事"
+
+#~ msgid "M_SN:"
+#~ msgstr "MSN(_S):"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "郵便番号(_B):"
+
+#~ msgid "P._O. box:"
+#~ msgstr "郵便番号(_O):"
+
+#~ msgid "Personal Info"
+#~ msgstr "個人情報"
+
+#~ msgid "Select your photo"
+#~ msgstr "写真を選択して下さい"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "県/州(_V):"
+
+#~ msgid "Telephone"
+#~ msgstr "電話"
+
+#~ msgid "User name:"
+#~ msgstr "ユーザ名:"
+
+#~ msgid "Web"
+#~ msgstr "ウェブ"
+
+#~ msgid "Web _log:"
+#~ msgstr "ブログ(_L):"
+
+#~ msgid "Wor_k:"
+#~ msgstr "仕事(_K):"
+
+#~ msgid "Work"
+#~ msgstr "仕事"
+
+#~ msgid "Work _fax:"
+#~ msgstr "仕事の FAX 番号(_F):"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "郵便番号(_P):"
+
+#~ msgid "_Address:"
+#~ msgstr "住所(_A):"
+
+#~ msgid "_Department:"
+#~ msgstr "担当部署(_D):"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "Groupwise(_G):"
+
+#~ msgid "_Home page:"
+#~ msgstr "ホームページ(_H):"
+
+#~ msgid "_Home:"
+#~ msgstr "自宅(_H):"
+
+#~ msgid "_Jabber:"
+#~ msgstr "Jabber(_J):"
+
+#~ msgid "_Manager:"
+#~ msgstr "マネージャ(_M):"
+
+#~ msgid "_Mobile:"
+#~ msgstr "携帯(_M):"
+
+#~ msgid "_Profession:"
+#~ msgstr "職業(_P):"
+
+#~ msgid "_State/Province:"
+#~ msgstr "県/州(_S):"
+
+#~ msgid "_Title:"
+#~ msgstr "役職(_T):"
+
+#~ msgid "_Work:"
+#~ msgstr "仕事(_W):"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "Yahoo(_Y):"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "郵便番号(_Z):"
+
+#~ msgid "Set your personal information"
+#~ msgstr "自分の情報を管理します"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr "デバイスにはアクセスできません (システム管理者に連絡して下さい)"
+
+#~ msgid "The device is already in use."
+#~ msgstr "そのデバイスは使用中です"
+
+#~ msgid "An internal error occured"
+#~ msgstr "システム内部のエラーが発生しました"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "登録した指紋情報を削除しますか？"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "削除する(_D)"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr "登録済みの指紋情報を削除して指紋認証を無効にしますか？"
+
+#~ msgid "Done!"
+#~ msgstr "完了です"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "'%s' というデバイスにアクセスできません"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "'%s' で指紋をキャプチャすることができませんでした"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "全ての指紋リーダーにアクセスできませんでした"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "システム管理者に連絡して下さい。"
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "指紋認証を有効にする"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "指紋認証を有効にするには、'%s' のデバイスを使って、あなたの指紋を登録する"
+#~ "必要があります。"
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "リーダーに指を通して下さい"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "リーダーに指を置いて下さい"
+
+#~ msgid "Left index finger"
+#~ msgstr "左の人差し指"
+
+#~ msgid "Left little finger"
+#~ msgstr "左の小指"
+
+#~ msgid "Left middle finger"
+#~ msgstr "左の中指"
+
+#~ msgid "Left ring finger"
+#~ msgstr "左の薬指"
+
+#~ msgid "Left thumb"
+#~ msgstr "左の親指"
+
+#~ msgid "Other finger: "
+#~ msgstr "別の指: "
+
+#~ msgid "Right index finger"
+#~ msgstr "右の人差し指"
+
+#~ msgid "Right little finger"
+#~ msgstr "右の小指"
+
+#~ msgid "Right middle finger"
+#~ msgstr "右の中指"
+
+#~ msgid "Right ring finger"
+#~ msgstr "右の薬指"
+
+#~ msgid "Right thumb"
+#~ msgstr "右の親指"
+
+#~ msgid "Select finger"
+#~ msgstr "指の選択"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "あなたの指紋を登録しました。今から指紋を読み取るリーダーを使ってログインで"
+#~ "きるようになりました。"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "子プロセスが強制終了しました"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "バックエンドの標準入力 IO チャンネルを終了できませんでした: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "バックエンドの標準出力 IO チャンネルを終了できませんでした: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "認証が完了しました！"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "初めて認証を行ってから既にパスワードが変更されています。もう一度パスワード"
+#~ "を入力して認証し直して下さい。"
+
+#~ msgid "That password was incorrect."
+#~ msgstr "そのパスワードは間違っています。"
+
+#~ msgid "Your password has been changed."
+#~ msgstr "パスワードが変更されています。"
+
+#~ msgid "System error: %s."
+#~ msgstr "システム・エラーです: %s"
+
+#~ msgid "The password is too short."
+#~ msgstr "パスワードが短すぎます。"
+
+#~ msgid "The password is too simple."
+#~ msgstr "パスワードが簡単すぎます。"
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "両方のパスワードが類似しています。"
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "新しいパスワードには数字または特殊文字を含めるようにして下さい。"
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "両方のパスワードが同じです。"
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "%s を起動できません: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "バンクエンドのプログラムを起動できません"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "システム・エラーが発生しました"
+
+#~ msgid "Checking password..."
+#~ msgstr "パスワードの確認中..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "パスワードを変更する場合は<b>パスワードの変更</b>をクリックして下さい。"
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "パスワードを<b>新しいパスワード</b>のエントリに入力して下さい。"
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "もう一度パスワードを<b>新しいパスワードの確認</b>エントリに入力して下さ"
+#~ "い。"
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "パスワードが一致しませんでした。"
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "パスワードの変更(_S)"
+
+#~ msgid "Change password"
+#~ msgstr "パスワードの変更"
+
+#~ msgid "Change your password"
+#~ msgstr "パスワードの変更"
+
+#~ msgid "Current _password:"
+#~ msgstr "現在のパスワード(_P):"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "パスワードを変更する場合は、この下のエントリに現在のパスワードを入力して"
+#~ "<b>認証</b>ボタンをクリックして下さい。\n"
+#~ "認証後に新しいパスワードを入力し、もう一度パスワードを入力して妥当性を検証"
+#~ "してから<b>パスワードの変更</b>ボタンをクリックして下さい。"
+
+#~ msgid "_Authenticate"
+#~ msgstr "認証(_A)"
+
+#~ msgid "_New password:"
+#~ msgstr "新しいパスワード(_N):"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "パスワードの確認(_R):"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "アクセシビリティ対応のログイン(_G)"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "支援技術"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "支援技術の設定"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr "支援技術を有効にするには、もう一度ログインし直す必要があります。"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "閉じてログアウトする(_L)"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "お気に入りのアプリを設定します"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "アクセシビリティ対応のログイン・ダイアログを開きます"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "キーボードのアクセシビリティを設定します"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "マウスのアクセシビリティを設定します"
+
+#~ msgid "Preferences"
+#~ msgstr "設定"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "支援技術を有効にする(_E)"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "キーボードのアクセシビリティ(_K)"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "マウスのアクセシビリティ(_M)"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "お気に入りのアプリ(_P)"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "ログインした時にアクセシビリティの機能を有効にするかどうかを選択します"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "壁紙の追加"
+
+#~ msgid "All files"
+#~ msgstr "全てのファイル"
+
+#~ msgid "Font may be too large"
+#~ msgstr "フォントが大きすぎるようです"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "選択したフォントの大きさは %dポイントですが、コンピュータで効果的に使用す"
+#~ "るのは困難です。%dより小さいフォントを選択することをお薦めします。"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "選択したフォントの大きさは %dポイントですが、コンピュータで効果的に使用す"
+#~ "るのは困難です。より小さいフォントを選択することをお薦めします。"
+
+#~ msgid "Use previous font"
+#~ msgstr "以前のフォントを使用する"
+
+#~ msgid "Use selected font"
+#~ msgstr "選択したフォントを使用する"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "ユーザ・インタフェース・ファイルを読み込めませんでした: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "インストールするテーマ・ファイルを指定する"
+
+#~ msgid "filename"
+#~ msgstr "FILENAME"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr "表示するページの名前を指定する (theme|background|fonts|interface)"
+
+#~ msgid "page"
+#~ msgstr "PAGE"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[壁紙...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "デフォルトのポインタ"
+
+#~ msgid "Install"
+#~ msgstr "インストール"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "このテーマを利用するには、別途 '%s' というウィンドウ・マネージャのテーマが"
+#~ "必要です。"
+
+#~ msgid "Apply Background"
+#~ msgstr "背景の適用"
+
+#~ msgid "Apply Font"
+#~ msgstr "フォントの適用"
+
+#~ msgid "Revert Font"
+#~ msgstr "元に戻す"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "このテーマには使用が推奨されている背景とフォントがあります。最後に適用した"
+#~ "フォントから推奨フォントに戻すことも可能です。"
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "このテーマには使用が推奨されている背景があります。最後に適用したフォントか"
+#~ "ら推奨フォントに戻すことも可能です。"
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "このテーマは推奨する背景とフォントの情報を提供しています。"
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "このテーマには使用が推奨されているフォントがあります。最後に適用したフォン"
+#~ "トから推奨フォントに戻すことも可能です。"
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "このテーマは推奨する背景の情報を提供しています。"
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "最後に適用したフォントから推奨フォントに戻すことも可能です。"
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "このテーマは推奨するフォントの情報を提供しています。"
+
+#~ msgid "Custom"
+#~ msgstr "その他"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "外観の設定"
+
+#~ msgid "Best _shapes"
+#~ msgstr "最適なシェイプ(_S)"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "最適なコントラスト(_N)"
+
+#~ msgid "C_olors:"
+#~ msgstr "色(_O):"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "カスタマイズ(_U)..."
+
+#~ msgid "Center"
+#~ msgstr "中央"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "次回ログインするまで変更したカーソル・テーマは提供されません。"
+
+#~ msgid "Colors"
+#~ msgstr "色"
+
+#~ msgid "Controls"
+#~ msgstr "コントロール"
+
+#~ msgid "Customize Theme"
+#~ msgstr "テーマのカスタマイズ"
+
+#~ msgid "D_etails..."
+#~ msgstr "詳細(_E)..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "デスクトップ(_K):"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "レンダリングの詳細"
+
+#~ msgid "Fonts"
+#~ msgstr "フォント"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "追加の背景をネットから入手する"
+
+#~ msgid "Get more themes online"
+#~ msgstr "追加のテーマをネットから入手する"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "グレースケール(_Y)"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "横方向にグラデーション"
+
+#~ msgid "Icons"
+#~ msgstr "アイコン"
+
+#~ msgid "Icons only"
+#~ msgstr "アイコンのみ"
+
+#~ msgid "Large"
+#~ msgstr "大きい"
+
+#~ msgid "N_one"
+#~ msgstr "なし(_O)"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "色を指定するダイアログを開きます"
+
+#~ msgid "Pointer"
+#~ msgstr "ポインタ"
+
+#~ msgid "R_esolution:"
+#~ msgstr "解像度(_E):"
+
+#~ msgid "Rendering"
+#~ msgstr "描画の種類"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "テーマを別名で保存..."
+
+#~ msgid "Save _As..."
+#~ msgstr "別名で保存(_A)..."
+
+#~ msgid "Save _background image"
+#~ msgstr "背景も一緒に保存する(_B)"
+
+# FIXME
+#~ msgid "Scale"
+#~ msgstr "サイズ調整"
+
+#~ msgid "Small"
+#~ msgstr "小さい"
+
+#~ msgid "Smoothing"
+#~ msgstr "滑らかさの補正 (スムージング)"
+
+#~ msgid "Solid color"
+#~ msgstr "単色"
+
+#~ msgid "Stretch"
+#~ msgstr "引き伸ばす"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "サブピクセル (LCDs)(_P)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "サブピクセルのスムージング (LCDs)(_P)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "サブピクセルの順番"
+
+#~ msgid "Text"
+#~ msgstr "文字列"
+
+#~ msgid "Text below items"
+#~ msgstr "アイコンの下にラベル"
+
+#~ msgid "Text beside items"
+#~ msgstr "アイコンの横にラベル"
+
+#~ msgid "Text only"
+#~ msgstr "ラベルのみ"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "このコントロールのテーマは色のスキーマをサポートしていません。"
+
+#~ msgid "Theme"
+#~ msgstr "テーマ"
+
+# FIXME
+#~ msgid "Tile"
+#~ msgstr "並べる"
+
+#~ msgid "VB_GR"
+#~ msgstr "VBGR(_G)"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "縦方向にグラデーション"
+
+#~ msgid "Window Border"
+#~ msgstr "ウィンドウの境界"
+
+#~ msgid "Zoom"
+#~ msgstr "ズーム"
+
+#~ msgid "_Add..."
+#~ msgstr "追加(_A)..."
+
+#~ msgid "_Application font:"
+#~ msgstr "アプリケーション(_A):"
+
+#~ msgid "_BGR"
+#~ msgstr "BGR(_B)"
+
+#~ msgid "_Description:"
+#~ msgstr "説明(_D):"
+
+#~ msgid "_Document font:"
+#~ msgstr "ドキュメント(_D):"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "固定幅のフォント(_F):"
+
+#~ msgid "_Full"
+#~ msgstr "全て(_F)"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "入力ボックス(_I):"
+
+#~ msgid "_Install..."
+#~ msgstr "インストール(_I)..."
+
+#~ msgid "_Medium"
+#~ msgstr "中間(_M)"
+
+#~ msgid "_Monochrome"
+#~ msgstr "モノクロ(_M)"
+
+#~ msgid "_Name:"
+#~ msgstr "名前(_N):"
+
+#~ msgid "_None"
+#~ msgstr "なし(_N)"
+
+#~ msgid "_RGB"
+#~ msgstr "RGB(_R)"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "デフォルトに戻す(_R)"
+
+#~ msgid "_Selected items:"
+#~ msgstr "選択したアイテム(_S):"
+
+#~ msgid "_Size:"
+#~ msgstr "サイズ(_S):"
+
+#~ msgid "_Slight"
+#~ msgstr "細身(_S)"
+
+#~ msgid "_Style:"
+#~ msgstr "スタイル(_S):"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "ツールチップ(_T):"
+
+#~ msgid "_VRGB"
+#~ msgstr "VRGB(_V)"
+
+#~ msgid "_Window title font:"
+#~ msgstr "ウィンドウのタイトル(_W):"
+
+#~ msgid "_Windows:"
+#~ msgstr "ウィンドウ(_W):"
+
+#~ msgid "dots per inch"
+#~ msgstr "ドット/インチ"
+
+#~ msgid "Appearance"
+#~ msgstr "外観の設定"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "デスクトップの見映えを設定します"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr ""
+#~ "デスクトップのさまざまな部分に適用するテーマ・パッケージをインストールしま"
+#~ "す"
+
+#~ msgid "Theme Installer"
+#~ msgstr "テーマのインストーラ"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "GNOME のテーマ・パッケージ"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "デスクトップの背景ではありません"
+
+#~ msgid "Slide Show"
+#~ msgstr "スライドショー"
+
+#~ msgid "Image"
+#~ msgstr "画像"
+
+#~ msgid "multiple sizes"
+#~ msgstr "複数のサイズ"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "ピクセル"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "フォルダ: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "フォルダ: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "画像がありません"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "テーマをインストールできません"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "%s というユーティリティがインストールされていません。"
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "テーマを展開している最中に問題が発生しました。"
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "選択したファイルをインストールする際にエラーが発生しました"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "\"%s\" はテーマとして妥当なファイルではないようです。"
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "\"%s\" はテーマとして妥当なファイルではないようです (おそらくコンパイルが"
+#~ "必要なテーマ・エンジンと思われます)。"
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "\"%s\" というテーマのインストールに失敗しました。"
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "\"%s\" というテーマをインストールしました。"
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "今すぐ適用しますか？ それとも現在のテーマを使用し続けますか？"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "現在のテーマのまま"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "新しいテーマの適用"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME のテーマ \"%s\" のインストールが完了しました"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "作業フォルダの生成に失敗しました"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "新しいテーマのインストールが完了しました。"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "インストールするテーマ・ファイルのパス名が指定されていません"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "テーマをインストールするために必要な権限が適当ではありません:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "テーマの選択"
+
+#~ msgid "Theme Packages"
+#~ msgstr "テーマのパッケージ"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "テーマの名前を指定して下さい"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "既にテーマが存在していますが、置き換えてもよろしいですか？"
+
+#~ msgid "_Overwrite"
+#~ msgstr "置き換える(_O)"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "このテーマを削除しますか？"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "テーマを削除できません"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "テーマ・エンジンをインストールできません"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "GNOME 設定マネージャ ('gnome-settings-daemon') を起動することができませ"
+#~ "ん。\n"
+#~ "設定マネージャを起動しないと、いくつかの設定が反映されません。これは DBus "
+#~ "の問題、あるいは GNOME ではない (KDE などの) 別の設定マネージャが既に起動"
+#~ "されていて GNOME 設定マネージャと衝突していることが原因かもしれません。"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "ストック・アイコンの '%s' を読み込めません\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "ファイルのコピー中: %u / %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' をコピーしています"
+
+#~ msgid "Copying files"
+#~ msgstr "ファイルのコピー"
+
+#~ msgid "Parent Window"
+#~ msgstr "親ウィンドウ"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "ダイアログの親ウィンドウ"
+
+#~ msgid "From URI"
+#~ msgstr "URI から"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "現在 URI から転送中です"
+
+#~ msgid "To URI"
+#~ msgstr "URI へ"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "現在 URI へ転送中です"
+
+#~ msgid "Fraction completed"
+#~ msgstr "一部完了しました"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "転送の一部が完了しました"
+
+#~ msgid "Current URI index"
+#~ msgstr "現在の URI インデックス"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "現在の URI インデックス - 1番目から開始します"
+
+#~ msgid "Total URIs"
+#~ msgstr "URI の合計"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "URI の合計です"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "'%s' というファイルは既に存在しますが、置き換えますか？"
+
+#~ msgid "_Skip"
+#~ msgstr "スキップする(_S)"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "全て置き換える(_A)"
+
+#~ msgid "Key"
+#~ msgstr "キー"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "このプロパティ・エディタが取り込んだ GConf キーです"
+
+#~ msgid "Callback"
+#~ msgstr "コールバック"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "GConf キーに対応する値が変更されたら呼び出されるコールバックです"
+
+#~ msgid "Change set"
+#~ msgstr "変更セット"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Gconf クライアントに適用するために転送されるデータを含んだ変更セットです"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "ウィジットに変換するコールバック"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "データが GConf からウィジットに変換される際に呼び出されるコールバックです"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "ウィジットから変更するコールバック"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "データがウィジットから GConf へ変換される際に呼び出されるコールバックです"
+
+#~ msgid "UI Control"
+#~ msgstr "UI コントロール"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "プロパティを制御するオブジェクト (通常は一個のウィジット) です"
+
+#~ msgid "Property editor object data"
+#~ msgstr "プロパティ編集するオブジェクト・データ"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "指定したプロパティ・エディタに必要なカスタムデータです"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "プロパティ編集でデータを解放するコールバック"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr "プロパティ編集でデータを解放する際に呼び出されるコールバックです"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "ファイル '%s' が見つかりませんでした。\n"
+#~ "\n"
+#~ "そのファイルが存在しているか確認して再度実行するか、別の画像ファイルを選択"
+#~ "して下さい。"
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "ファイル '%s' を開けません。\n"
+#~ "おそらくサポートしていない画像の種類のようです。\n"
+#~ "\n"
+#~ "かわりに別の画像を選択して下さい。"
+
+#~ msgid "Please select an image."
+#~ msgstr "画像を一つ選択して下さい。"
+
+#~ msgid "_Select"
+#~ msgstr "選択(_S)"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "デフォルトのポインタ - 使用中"
+
+#~ msgid "White Pointer"
+#~ msgstr "白いポインタ"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "白いポインタ - 使用中"
+
+#~ msgid "Large Pointer"
+#~ msgstr "大きなポインタ"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "大きなポインタ - 使用中"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "大きな白いポインタ - 使用中"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "大きな白いポインタ"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "このテーマは、必要となる GTK+ のテーマ (%s) がインストールされていないた"
+#~ "め、意図したようには正しく表示されないでしょう。"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "このテーマは、必要となるウィンドウ・マネージャのテーマ (%s) がインストール"
+#~ "されていないため、意図したようには正しく表示されないでしょう。"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "このテーマは、必要となるアイコン・テーマ (%s) がインストールされていないた"
+#~ "め、意図したようには正しく表示されないでしょう。"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "お気に入りのアプリ"
+
+#~ msgid "Select your default applications"
+#~ msgstr "デフォルトで使用するアプリケーションを設定します"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "お気に入りの視覚支援技術を起動します"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "視覚支援"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "設定情報を保存する際にエラーが発生しました: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "メインのインタフェースを読み込めませんでした"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "そのアプレットが適切にインストールされているか確認して下さい"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr "表示するページの名前を指定する (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- GNOME のデフォルトのアプリ"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "%s という文字は全て実際のリンクに置き換えられます"
+
+#~ msgid "C_ommand:"
+#~ msgstr "コマンド(_O):"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "コマンド(_M):"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "起動オプション(_X):"
+
+#~ msgid "Image Viewer"
+#~ msgstr "画像ビューア"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "インスタント・メッセンジャー"
+
+#~ msgid "Internet"
+#~ msgstr "インターネット"
+
+#~ msgid "Mail Reader"
+#~ msgstr "メール・クライアント"
+
+#~ msgid "Mobility"
+#~ msgstr "操作支援"
+
+#~ msgid "Multimedia"
+#~ msgstr "マルチメディア"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "マルチメディア・プレイヤー"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "リンク先を新しいタブで開く(_T)"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "リンク先を新しいウィンドウで開く(_W)"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "リンク先をウェブ・ブラウザのデフォルト操作で開く(_D)"
+
+#~ msgid "Run at st_art"
+#~ msgstr "ログインしたら起動する(_A)"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "端末から起動する(_E)"
+
+#~ msgid "System"
+#~ msgstr "システム"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "端末エミュレータ"
+
+#~ msgid "Text Editor"
+#~ msgstr "テキスト・エディタ"
+
+#~ msgid "Video Player"
+#~ msgstr "ビデオ・プレイヤー"
+
+#~ msgid "Visual"
+#~ msgstr "視覚支援"
+
+#~ msgid "Web Browser"
+#~ msgstr "ウェブ・ブラウザ"
+
+#~ msgid "_Run at start"
+#~ msgstr "ログインしたら起動する(_R)"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee 楽曲プレイヤー"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws メール"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian Sensible ブラウザ"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian 端末エミュレータ"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany ウェブ・ブラウザ"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution メール・クライアント"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "GNOME 拡大鏡 (スクリーン・リーダなし)"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME オンスクリーン・キーボード"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME 端末"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus (拡大鏡あり)"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape のメール"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE の拡大鏡 (スクリーン・リーダーなし)"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux スクリーン・リーダ"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linux スクリーン・リーダ (拡大鏡あり)"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla メール"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine 楽曲プレイヤー"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca (拡大鏡あり)"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox 楽曲プレイヤー"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey メール"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "標準のＸ端末"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem 動画プレイヤー"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "パネルを含める(_P)"
+
+#~ msgid "Monitor"
+#~ msgstr "モニタ"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "モニタの設定"
+
+#~ msgid "Off"
+#~ msgstr "無効"
+
+#~ msgid "On"
+#~ msgstr "有効"
+
+# See also ja.po of mousetweak
+#~ msgid "Panel icon"
+#~ msgstr "パネルのアイコン"
+
+#~ msgid "R_otation:"
+#~ msgstr "回転(_O):"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "リフレッシュ・レート(_F):"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "すべてのモニタで同じ画像(_M)"
+
+#~ msgid "Upside-down"
+#~ msgstr "逆さま"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "モニタの検出(_D)"
+
+#~ msgid "_Resolution:"
+#~ msgstr "解像度(_R):"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "モニタをパネルに表示する(_S)"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "モニタの解像度と位置を変更する"
+
+#~ msgid "Monitors"
+#~ msgstr "モニタ"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "複数の画面をミラーする"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "モニタ: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "モニタの設定を保存できませんでした"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "ディスプレイの設定を適用するセッション・バスの取得に失敗しました"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "ディスプレイを検出できませんでした"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "スクリーンの情報を取得できませんでした"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "設定を変更するモニタを選んでください。ドラッグして位置を調整してください。"
+
+#~ msgid "Sound"
+#~ msgstr "サウンド"
+
+#~ msgid "Desktop"
+#~ msgstr "デスクトップ"
+
+#~ msgid "New shortcut..."
+#~ msgstr "新しいショートカット..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "アクセラレータ・キー"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "アクセラレータの修飾キー"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "アクセラレータ・キーコード"
+
+#~ msgid "Accel Mode"
+#~ msgstr "アクセラレータのモード"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "アクセラレータの種類です"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<不明な操作>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "独自のショートカット"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "新しいショートカットを保存する際にエラー"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "このキーでは入力できないので \"%s\" というショートカット・キーは利用できま"
+#~ "せん。\n"
+#~ "[Control] や [Alt] や [Shift] といった修飾キーを併用するようにして下さい。"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "\"%s\" というショートカットは既に登録済です:\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "ショートカットを \"%s\" に変更すると、\"%s\" というショートカットが無効に"
+#~ "なります。"
+
+#~ msgid "_Reassign"
+#~ msgstr "割り当てる(_R)"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "設定データベースのアクセラレータの設定を解除する際にエラー: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "独自のショートカットが多すぎます"
+
+#~ msgid "Action"
+#~ msgstr "操作"
+
+#~ msgid "Shortcut"
+#~ msgstr "ショートカット"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "独自のショートカット"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "キーボード・ショートカット"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "キーボード・ショートカットを編集する際は、対応する操作をクリックして新しい"
+#~ "キーの組み合わせを押下して下さい ([BS] キーで取り消します)"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "コマンドにショートカット・キーを割り当てます"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr "設定を適用して終了する (互換性のみ; 現在はデーモン管理下)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "入力中断設定を表示させてページを開始します"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "アクセシビリティの設定を表示させてページを開始します"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- キーボードの設定"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "アクセシビリティ機能の ON/OFF を切り替えたらビープ音を鳴らす(_A)"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "修飾キーを押下したらビープ音を鳴らす(_M)"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "トグル・キーを押下したらビープ音を鳴らす(_T)"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "何かキーを押下したらビープ音を鳴らす(_E)"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "キーの押下が拒否されたらビープ音を鳴らす(_C)"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "キー押下が受け入れられたビープ音を鳴らす(_A)"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "キーの押下が拒否されたらビープ音を鳴らす(_R)"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "バウンス・キー"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "ウィンドウのタイトルバーを点滅させる(_W)"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "画面全体を点滅させる(_S)"
+
+#~ msgid "General"
+#~ msgstr "全般"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "キーボード・アクセシビリティのサウンド・フィードバック"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "警告音を視覚的なフィードバックで表現する(_V)"
+
+#~ msgid "Slow Keys"
+#~ msgstr "スロー・キー"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "スティッキー・キー"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "視覚的な置き換え"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "一休みの延長を許可する(_O)"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "サウンドのフィードバック(_F)..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "カーソルの点滅"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "テキスト・フィールドでカーソルを点滅させる(_B)"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "カーソルが点滅する速さです"
+
+#~ msgid "D_elay:"
+#~ msgstr "遅延(_E):"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "二つのキーが同時に押下されたらステッキー・キーを無効にする(_B)"
+
+#~ msgid "Fast"
+#~ msgstr "速い"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "キーが押されたままにされたらリピートされたものとする(_R)"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "キーボードの設定"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "キーボードの型式(_M):"
+
+#~ msgid "Layouts"
+#~ msgstr "レイアウト"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr "キー入力のリピート防止のため一休み中は画面をロックします"
+
+#~ msgid "Long"
+#~ msgstr "長い"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "マウス・キー"
+
+#~ msgid "Move _Down"
+#~ msgstr "下に移動(_D)"
+
+#~ msgid "Move _Up"
+#~ msgstr "上に移動(_U)"
+
+# FIXME
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "新しいウィンドウは有効なウィンドウレイアウトを使う(_S)"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "リピート・キー"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "押下したキーをリピートする際の速さです"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "デフォルトに戻す(_F)"
+
+#~ msgid "S_peed:"
+#~ msgstr "速度(_P):"
+
+#~ msgid "Short"
+#~ msgstr "短い"
+
+#~ msgid "Slow"
+#~ msgstr "遅い"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "加速(_A):"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "キーボードからアクセシビリティの機能を切り替えられるようにする(_A)"
+
+#~ msgid "_Delay:"
+#~ msgstr "間隔(_D):"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "重複したキーを素早く押下した場合は無視する(_I)"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "長いキー押下のみ受け入れる(_O)"
+
+#~ msgid "_Options..."
+#~ msgstr "オプション(_O)…"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "キーボードでポインタを制御できるようにする(_P)"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "ウィンドウ毎にグループ化する"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "同時にキーを押下した状態を模擬する(_S)"
+
+#~ msgid "_Speed:"
+#~ msgstr "速度(_S):"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "設定の確認(_T):"
+
+#~ msgid "By _country"
+#~ msgstr "国別(_C)"
+
+#~ msgid "By _language"
+#~ msgstr "言語別(_L)"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "レイアウトの選択"
+
+#~ msgid "Preview:"
+#~ msgstr "プレビュー:"
+
+#~ msgid "_Country:"
+#~ msgstr "国(_C):"
+
+#~ msgid "_Language:"
+#~ msgstr "言語(_L):"
+
+#~ msgid "_Variants:"
+#~ msgstr "系列(_V):"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "キーボードの型式の選択"
+
+#~ msgid "_Models:"
+#~ msgstr "型式(_M):"
+
+#~ msgid "_Vendors:"
+#~ msgstr "ベンダー(_V):"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "キーボード・レイアウトのオプション"
+
+#~ msgid "Layout"
+#~ msgstr "レイアウト"
+
+#~ msgid "Vendors"
+#~ msgstr "ベンダー"
+
+#~ msgid "Models"
+#~ msgstr "型式"
+
+#~ msgid "Default"
+#~ msgstr "デフォルト"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "お使いのキーボードを設定します"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "左へ移動する"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "右へ移動する"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "上へ移動する"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "下へ移動する"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "無効"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "表示するページの名前を指定する (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- 効果音の設定"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "予めクリックの種類を選択しておく(_B)"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "マウス・ジェスチャでクリックの種類を選択する(_U)"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "ダブル・クリック(_O):"
+
+#~ msgid "D_rag click:"
+#~ msgstr "ドラッグ・クリック(_R):"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "タイプ中はタッチ・パッドを無効にする(_T)"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "ダブル・クリックの間隔"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "ドラッグ＆ドロップ"
+
+# See also ja.po of mousetweak
+#~ msgid "Dwell Click"
+#~ msgstr "自動クリック"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "タッチ・パッドでのマウス・クリックを有効にする(_M)"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "水平スクロールを有効にする(_O)"
+
+#~ msgid "High"
+#~ msgstr "高い"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "ポインタの位置"
+
+#~ msgid "Low"
+#~ msgstr "低い"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "マウスの向き"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "ポインタの速度"
+
+#~ msgid "Scrolling"
+#~ msgstr "スクロール"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "第二のクリック(_N):"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "[Control] キーを押下したらポインタの位置を通知する(_O)"
+
+#~ msgid "Show click type _window"
+#~ msgstr "種類を表すウィンドウを表示する(_W)"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "第二のクリックの模擬"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "しきい値(_E):"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "ダブル・クリックの設定を確認する場合は電球をダブル・クリックしてみて下さ"
+#~ "い。"
+
+#~ msgid "Touchpad"
+#~ msgstr "タッチ・パッド"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "二指でのスクロール(_F)"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "自動クリックのパネル・アプレットを使ってクリックの種類を選択することも可能"
+#~ "です。"
+
+#~ msgid "_Disabled"
+#~ msgstr "無効にする(_D)"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "エッジ・スクロール(_E)"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "ポインタの移動を停止してクリックを始める(_I)"
+
+#~ msgid "_Left-handed"
+#~ msgstr "左利き(_L)"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "ジェスチャのしきい値(_M):"
+
+#~ msgid "_Right-handed"
+#~ msgstr "右利き(_M)"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "感度(_S):"
+
+#~ msgid "_Single click:"
+#~ msgstr "シングル・クリック(_S):"
+
+#~ msgid "_Timeout:"
+#~ msgstr "間隔(_T):"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "第一ボタンを押したままにすると第二のクリックとみなす(_T)"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "お使いのマウスの動きを設定します"
+
+#~ msgid "New Location..."
+#~ msgstr "新しい場所..."
+
+#~ msgid "Location already exists"
+#~ msgstr "その場所は既に登録済みです"
+
+#~ msgid "Network Proxy"
+#~ msgstr "ネットワークのプロキシ"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "お使いのネットワーク・プロキシを設定します"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>インターネットに直接接続する(_R)</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>自動的にプロキシの設定を行う(_A)</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>マニュアルでプロキシの設定を行う(_M)</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>認証を行う(_U)</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "自動設定する URL(_U):"
+
+#~ msgid "C_reate"
+#~ msgstr "作成する(_R)"
+
+#~ msgid "Create New Location"
+#~ msgstr "新しい場所の作成"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP プロキシの詳細"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "HTTP プロキシ(_T):"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "無視するホストの一覧"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "無視するホスト"
+
+#~ msgid "Location:"
+#~ msgstr "場所:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "ネットワーク・プロキシの設定"
+
+#~ msgid "Port:"
+#~ msgstr "ポート:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "プロキシの設定"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Socks ホスト(_O):"
+
+#~ msgid "The location already exists."
+#~ msgstr "その場所は既に登録済みです。"
+
+#~ msgid "U_sername:"
+#~ msgstr "ユーザ名(_S):"
+
+#~ msgid "_Delete Location"
+#~ msgstr "場所の削除(_D)"
+
+#~ msgid "_Details"
+#~ msgstr "詳細(_D)"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "FTP プロキシ(_F):"
+
+#~ msgid "_Location name:"
+#~ msgstr "場所の名前(_L):"
+
+#~ msgid "_Password:"
+#~ msgstr "パスワード(_P):"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "SSL プロキシ(_S):"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "全てのプロトコルで同じプロキシを使う(_U)"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "お使いのウィンドウ・マネージャの設定ツールを起動できません"
+
+#~ msgid "_Alt"
+#~ msgstr "[ALT] キー(_A)"
+
+#~ msgid "H_yper"
+#~ msgstr "[Hyper] キー(_Y)"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "[Windows] /スーパー・キー(_U)"
+
+#~ msgid "_Meta"
+#~ msgstr "[Meta] キー(_M)"
+
+#~ msgid "Movement Key"
+#~ msgstr "ウィンドウの移動"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "タイトルバーのアクション"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr "ウィンドウをつかんで移動する際に使用する修飾キー:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "ウィンドウの設定"
+
+#~ msgid "Window Selection"
+#~ msgstr "ウィンドウの選択"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "タイトルバーのダブル・クリックで実行するアクション(_D):"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "前面に出すまでの時間(_I):"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "マウスが移動した先のウィンドウを前面に出す(_R)"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "マウスが移動した先のウィンドウを選択する(_S)"
+
+#~ msgid "seconds"
+#~ msgstr "秒"
+
+#~ msgid "Set your window properties"
+#~ msgstr "ウィンドウのプロパティを設定します"
+
+#~ msgid "Windows"
+#~ msgstr "ウィンドウ"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "お使いのウィンドウ・マネージャ \"%s\" には設定ツールが登録されていませ"
+#~ "ん。\n"
+
+#~ msgid "Maximize"
+#~ msgstr "最大化する"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "縦方向に最大化する"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "横方向に最大化する"
+
+#~ msgid "Minimize"
+#~ msgstr "最小化する"
+
+#~ msgid "Roll up"
+#~ msgstr "巻き上げる"
+
+#~ msgid "None"
+#~ msgstr "何もしない"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "キーが見つかりませんでした [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "実行時に非表示 (シェルをあらかじめ読み込む時に有効)"
+
+#~ msgid "Filter"
+#~ msgstr "フィルタ"
+
+#~ msgid "Groups"
+#~ msgstr "グループ"
+
+#~ msgid "Common Tasks"
+#~ msgstr "よく利用するタスク"
+
+#~ msgid "Control Center"
+#~ msgstr "コントロール・センター"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "タスクを起動したらコントロール・センターを閉じる"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "追加または削除を行ったらシェルを終了する"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "ヘルプを表示したらシェルを終了する"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "タスクを起動したらシェルを終了する"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "アップグレードまたはアンインストールを行ったらシェルを終了する"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "ヘルプを表示したらシェルを閉じるかどうかです。"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "タスクを起動したらシェルを閉じるかどうかです。"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr "追加または削除を行ったらシェルを閉じるかどうかです。"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "アップグレードまたはアンインストールを行ったらシェルを閉じるかどうかです。"
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "タスクの名前とそれに対応する .desktop ファイル"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "コントロール・センターの中に表示するタスクの名前です。その後ろに \";\" で"
+#~ "区切ってタスクを起動する際に使用する .desktop ファイルを指定します。"
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[外観の設定;gnome-appearance-properties.desktop,お気に入りのアプリ;"
+#~ "default-applications.desktop,プリンタの追加;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "TRUE にすると、\"共通なタスク\" を起動するとコントロール・センターを閉じま"
+#~ "す。"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME デスクトップの設定ツールです"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "TRUE にすると、OpenType のフォントをサムネイル表示します。"
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "TRUE にすると、PCF のフォントをサムネイル表示します。"
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "TRUE にすると、TrueType のフォントをサムネイル表示します。"
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "TRUE にすると、Type1 のフォントをサムネイル表示します。"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "OpenType のフォントのサムネイルを生成する際に使用するコマンドを指定して下"
+#~ "さい。"
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "PCF のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "TrueType のフォントのサムネイルを生成する際に使用するコマンドを指定して下"
+#~ "さい。"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Type1 のフォントのサムネイルを生成する際に使用するコマンドを指定して下さ"
+#~ "い。"
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "OpenType のサムネイルを生成するコマンド"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "PCF のサムネイルを生成するコマンド"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "TrueType のサムネイルを生成するコマンド"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Type1 のサムネイルを生成するコマンド"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "OpenType のフォントをサムネイル表示するかどうか"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "PCF のフォントをサムネイル表示するかどうか"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "TrueType のフォントをサムネイル表示するかどうか"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Type1 のフォントをサムネイル表示するかどうか"
+
+#~ msgid "Name:"
+#~ msgstr "名前:"
+
+#~ msgid "Style:"
+#~ msgstr "スタイル:"
+
+#~ msgid "Type:"
+#~ msgstr "種類:"
+
+#~ msgid "Size:"
+#~ msgstr "サイズ:"
+
+#~ msgid "Version:"
+#~ msgstr "バージョン:"
+
+#~ msgid "Copyright:"
+#~ msgstr "著作権:"
+
+#~ msgid "Description:"
+#~ msgstr "説明:"
+
+#~ msgid "Installed"
+#~ msgstr "インストール済"
+
+#~ msgid "Install Failed"
+#~ msgstr "インストール失敗"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "用法: %s フォント・ファイル\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "フォントのインストール(_N)"
+
+#~ msgid "Font Viewer"
+#~ msgstr "フォント・ビューア"
+
+#~ msgid "Preview fonts"
+#~ msgstr "いろいろなフォントをプレビューします"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "サムネイル表示する文字列 (デフォルトは Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "フォントのサイズ (デフォルトは 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "フォント・ファイル 出力先のファイル"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "引数を解析する際にエラーが発生しました: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "フィルタ \"%s\" が、どのアイテムともマッチしません"
+
+#~ msgid "No matches found."
+#~ msgstr "どれもマッチしませんでした。"
+
+#~ msgid "Other"
+#~ msgstr "その他"
+
+#~ msgid "Start %s"
+#~ msgstr "%sを起動する"
+
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
+
+#~ msgid "Upgrade"
+#~ msgstr "アップグレード"
+
+#~ msgid "Uninstall"
+#~ msgstr "アンインストール"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "お気に入りから削除する"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "お気に入りに追加する"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "自動起動するプログラムから削除する"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "自動起動するプログラムに追加する"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "新しいスプレッドシート"
+
+#~ msgid "New Document"
+#~ msgstr "新しいドキュメント"
+
+#~ msgid "Documents"
+#~ msgstr "ドキュメント"
+
+#~ msgid "File System"
+#~ msgstr "ファイルシステム"
+
+#~ msgid "Network Servers"
+#~ msgstr "ネットワーク・サーバ"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>開く</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "名前の変更..."
+
+#~ msgid "Send To..."
+#~ msgstr "送る..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "ゴミ箱へ移動する"
+
+#~ msgid "Delete"
+#~ msgstr "削除する"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "本当に \"%s\" を完全に削除してもよろしいですか？"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "アイテムを削除してしまうと、元に戻すことはできません。"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "\"%s\" で開く"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "デフォルトのアプリで開く"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "ファイル・マネージャで開く"
+
+#~ msgid "?"
+#~ msgstr "？"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%p%l:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "今日の%p%l:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "昨日の%p%l:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%p%l:%M (%a)"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%B%e日 %p%l:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%Y年%B%e日"
+
+#~ msgid "Find Now"
+#~ msgstr "検索する"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s を開く</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "システムのアイテムから削除する"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "キーボード配置 \"%s\""
+
+#~ msgid "_Groups"
+#~ msgstr "グループ(_G)"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "キーボード配置"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "お使いのシステムをスリープできませんでした。\n"
+#~ "お使いのシステムが正しく設定されているか確認してください。"
+
+#~ msgid "Display Preferences"
+#~ msgstr "ディスプレイの設定"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "モニタをドラッグして場所を指定して下さい"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "複数の画面をミラーする(_M)"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "画面の解像度を変更します"
+
+#~ msgid "Display"
+#~ msgstr "ディスプレイ"

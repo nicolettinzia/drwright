@@ -1,181 +1,2800 @@
+# #-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#
 # DrWright
 # Copyright (C) 2002, 2003 Richard Hult.
 # This file is distributed under the same license as the DrWright package.
 # Филип Андонов <demercel@netbg.com>, 2003.
 # Владимир Петков <vpetkov@i-space.org>, updates 2004
-# 
-# 
+#
+#
+# #-#-#-#-#  bg.po (gnome-settings-daemon master)  #-#-#-#-#
+# Bulgarian translation of gnome-settings-daemon po-file.
+# Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Copyright (C) 2009, 2010 Free Software Foundation, Inc.
+# Copyright (C) 2010 Damyan Ivanov.
+# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
+# Yanko Kaneti <yaneti@declera.com>, 2002.
+# Rostislav Raykov <zbrox@i-space.org>, 2004, 2005.
+# Vladimir Petkov <vpetkov@i-space.org>, 2004, 2005, 2006.
+# Alexander Shopov <ash@kambanaria.org>, 2006, 2007, 2008, 2009, 2010.
+# Yavor Doganov <yavor@gnu.org>, 2007, 2008.
+# Damyan Ivanov <dam+gnome@ktnx.net>, 2010.
+#
+# #-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#
+# Bulgarian translation of gnome-control-center po-file.
+# Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Copyright (C) 2009, 2010 Free Software Foundation, Inc.
+# Copyright (C) 2009 Krasimir "Bfaf" Chonov <mk2616@abv.bg>.
+# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
+# Yanko Kaneti <yaneti@declera.com>, 2002.
+# Rostislav Raykov <zbrox@i-space.org>, 2004, 2005.
+# Vladimir Petkov <kaladan@gmial.com>, 2004, 2005, 2006.
+# Alexander Shopov <ash@kambanaria.org>, 2006, 2007, 2009.
+# Yavor Doganov <yavor@gnu.org>, 2007, 2008.
+# Krasimir "Bfaf" Chonov <mk2616@abv.bg>, 2009.
+#
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DrWright 0.14\n"
+"Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-26 14:13+0200\n"
-"PO-Revision-Date: 2004-04-26 21:32+0300\n"
-"Last-Translator: Vladimir \"Kaladan\" Petkov <vpetkov@i-space.org>\n"
-"Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
+"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"PO-Revision-Date: 2010-08-28 10:14+0300\n"
+"Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+"#-#-#-#-#  bg.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: data/glade/drw-preferences.glade.h:1
-msgid "    "
-msgstr "····"
+#: ../src/main.c:63
+#, fuzzy
+msgid "Enable debugging code"
+msgstr ""
+"#-#-#-#-#  bg.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+"Включване на код за изчистване на грешки\n"
+"#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+"Включване на кода за изчистване на грешки"
 
-#: data/glade/drw-preferences.glade.h:2
-msgid "*"
-msgstr "*"
+#: ../src/main.c:65
+msgid "Don't check whether the notification area exists"
+msgstr "Да не се проверява дали областта за уведомяване съществува"
 
-#: data/glade/drw-preferences.glade.h:3
-msgid "<b>Break</b>"
-msgstr "<b>Почивка</b>"
+#: ../src/main.c:91
+msgid "Typing Monitor"
+msgstr "Наблюдение на писането"
 
-#: data/glade/drw-preferences.glade.h:4
-msgid "<b>Work</b>"
-msgstr "<b>Работа</b>"
+#: ../src/main.c:108
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Наблюдението на писането използва областта за уведомяване, за да показва "
+"информация. Изглежда не сте включили тази област във вашия панел. Може да я "
+"добавите като щракнете с десния бутон на мишката върху панела и изберете "
+"„Добавяне към панела“ → „Полезни“ → „Област за уведомяване“."
 
-#: data/glade/drw-preferences.glade.h:5
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Проверява дали е повзолено да се отлагат почивките"
+#: ../src/drwright.c:142
+msgid "_Take a Break"
+msgstr "_Взимане на почивка"
 
-#: data/glade/drw-preferences.glade.h:6
-msgid "DrWright Preferences"
-msgstr "Настройки на DrWright"
+#: ../src/drwright.c:504
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+"Деактивиран\n"
+"#-#-#-#-#  bg.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+"Изключено\n"
+"#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+"Без"
 
-#: data/glade/drw-preferences.glade.h:7
-msgid "Duration of the break when typing is disallowed"
-msgstr "Продължителност на почивката, през която писането не е "
-"разрешено."
+#: ../src/drwright.c:513
+#, c-format
+msgid "Take a break now (next in %dm)"
+msgstr "Взимане на почивка сега (следващата е след %d мин.)"
 
-#: data/glade/drw-preferences.glade.h:8
-msgid "Duration of warning before starting a break"
-msgstr "Продължителност на предупреждението преди начало на "
-"почивката."
+#: ../src/drwright.c:515
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d минута до следващата почивка"
+msgstr[1] "%d минути до следващата почивка"
 
-#: data/glade/drw-preferences.glade.h:9
-msgid "Duration of work before forcing a break"
-msgstr "Продължителност на работата, преди принудителна "
-"почивка."
+#: ../src/drwright.c:521
+#, c-format
+msgid "Take a break now (next in less than one minute)"
+msgstr "Взимане на почивка сега (следващата е след по-малко от минута)"
 
-#: data/glade/drw-preferences.glade.h:10
-msgid "Optional phrase to use for postponing a break"
-msgstr "Възможни фрази, които да се използва за отлагане на почивката"
+#: ../src/drwright.c:523
+#, fuzzy, c-format
+msgid "Less than one minute until the next break"
+msgstr ""
+"#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+"По-малко от една минута до следващата почивка\n"
+"#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+"По-малко от минута до следващата почивка"
 
-#: data/glade/drw-preferences.glade.h:11
+#: ../src/drwright.c:611
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Прозорецът с настройките за почивките при писане не може да се покаже поради "
+"следната грешка: %s"
+
+#: ../src/drwright.c:628
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Написано от Richard Hult <richard@imendio.com>"
+
+#: ../src/drwright.c:629
+#, fuzzy
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+"#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+"Визуални глезотии от Anders Carlsson\n"
+"#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+"Шаренийките са добавени от Anders Carlsson"
+
+#: ../src/drwright.c:638
+#, fuzzy
+msgid "A computer break reminder."
+msgstr ""
+"#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+"Напомняне за почивки на компютъра\n"
+"#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+"Напомняне за почивки."
+
+#: ../src/drwright.c:640
+msgid "translator-credits"
+msgstr ""
+"Александър Шопов <ash@kambanaria.org>\n"
+"Явор Доганов <yavor@gnu.org>\n"
+"Владимир Петков <vpetkov@i-space.org>\n"
+"Ростислав Райков <zbrox@i-space.org>\n"
+"Янко Канети <yaneti@declera.com>\n"
+"Борислав Александров <B.Aleksandrov@cnsys.bg>\n"
+"Красимир „bfaf“ Чонов <mk2616@abv.bg>\n"
+"\n"
+"Проектът за превод на GNOME има нужда от подкрепа.\n"
+"Научете повече за нас на http://gnome.cult.bg\n"
+"Докладвайте за грешки на http://gnome.cult.bg/bugs"
+
+#: ../src/drw-break-window.c:181
+msgid "_Postpone Break"
+msgstr "_Отлагане на почивката"
+
+#: ../src/drw-break-window.c:227
+#, fuzzy
+msgid "Take a break!"
+msgstr ""
+"#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+"Направи почивка!\n"
+"#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+"Време е за почивка"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of minutes of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of minutes that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Дали екранният четец е включен."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Дали екранният четец е включен."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Почивки при писане"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
 msgstr "_Позволява отлагането на поивките"
 
-#: data/glade/drw-preferences.glade.h:12
-msgid "_Break interval lasts"
-msgstr "_Продължителност на почивката:"
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "Продължителност на по_чивката:"
 
-#: data/glade/drw-preferences.glade.h:13
-msgid "_Warning time is"
-msgstr "_Предупредително време:"
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "За_ключване на екрана за почивка при писане"
 
-#: data/glade/drw-preferences.glade.h:14
-msgid "_Work interval lasts"
-msgstr "_Работения интервал продължава"
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "Продължителност на ра_ботата:"
 
-#: data/glade/drw-preferences.glade.h:15
+#: ../src/drwright-panel.glade.h:5
 msgid "minutes"
 msgstr "минути"
 
-#: src/main.c:128
-msgid "DrWright is already running."
-msgstr "DrWright вече е стартиран."
+#~ msgid "    "
+#~ msgstr "····"
 
-#: src/main.c:141
-msgid ""
-"DrWright uses the notification area to display information. You don't seem "
-"to have a notification area on your panel. You can add it by right-clicking "
-"on your panel and choose 'Add to panel -> Utilities -> Notification area'."
-msgstr ""
-"DrWright използва зоната за уведомяване за да изобразява информация."
-"Изглежда нямата стартирана зона за уведомяване на вашия панел."
-"Можете да добавите такава чрез натискане на десния бутон върху"
-"вашия панел и от там да изберете Добавя към панела > Полезни >"
-"Област за уведомяване."
+#~ msgid "*"
+#~ msgstr "*"
 
-#: src/drwright.c:138
-msgid "/_Enabled"
-msgstr "/_Активиран"
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Почивка</b>"
 
-#: src/drwright.c:139
-msgid "/_Take a Break"
-msgstr "/_Направи почивка!"
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Работа</b>"
 
-#: src/drwright.c:141
-msgid "/_Preferences"
-msgstr "/_Настройки"
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+#~ "Проверява дали е повзолено да се отлагат почивките\n"
+#~ "#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Проверяване дали е разрешено да се отлагат почивките"
 
-#: src/drwright.c:142
-msgid "/_About"
-msgstr "/_Относно"
+#~ msgid "DrWright Preferences"
+#~ msgstr "Настройки на DrWright"
 
-#: src/drwright.c:144
-msgid "/_Remove Icon"
-msgstr "_Премахни Икона"
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+#~ "Продължителност на почивката, през която писането не е разрешено.\n"
+#~ "#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Продължителност на почивката, през която писането е забранено"
 
-#: src/drwright.c:475
-msgid "Disabled"
-msgstr "Деактивиран"
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Продължителност на предупреждението преди начало на почивката."
 
-#: src/drwright.c:493
-#, c-format
-msgid "%d minutes until the next break"
-msgstr "%d минути до следващата почивка"
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  bg.po (DrWright 0.14)  #-#-#-#-#\n"
+#~ "Продължителност на работата, преди принудителна почивка.\n"
+#~ "#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Периодът на работа, преди да се пусне почивка"
 
-#: src/drwright.c:496
-msgid "One minute until the next break"
-msgstr "Една минута до следващата почивка"
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr "Възможни фрази, които да се използва за отлагане на почивката"
 
-#: src/drwright.c:498
-msgid "Less than one minute until the next break"
-msgstr "По-малко от една минута до следващата почивка"
+#~ msgid "_Break interval lasts"
+#~ msgstr "_Продължителност на почивката:"
 
-#: src/drwright.c:609
-msgid "Quit DrWright?"
-msgstr "Изход от DrWright?"
+#~ msgid "_Warning time is"
+#~ msgstr "_Предупредително време:"
 
-#: src/drwright.c:610
-msgid "Don't forget to take regular breaks."
-msgstr "Не забравяйте да правите редовни почивки."
+#~ msgid "_Work interval lasts"
+#~ msgstr "_Работения интервал продължава"
 
-#: src/drwright.c:621
-msgid "Don't Quit"
-msgstr "Не излиза"
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright вече е стартиран."
 
-#: src/drwright.c:625
-msgid "Quit"
-msgstr "Изход"
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrWright използва зоната за уведомяване за да изобразява информация."
+#~ "Изглежда нямата стартирана зона за уведомяване на вашия панел.Можете да "
+#~ "добавите такава чрез натискане на десния бутон върхувашия панел и от там "
+#~ "да изберете Добавя към панела > Полезни >Област за уведомяване."
 
-#: src/drwright.c:674
-msgid "About DrWright"
-msgstr "Относно DrWright"
+#~ msgid "/_Enabled"
+#~ msgstr "/_Активиран"
 
-#: src/drwright.c:699
-msgid "A computer break reminder."
-msgstr "Напомняне за почивки на компютъра"
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Направи почивка!"
 
-#: src/drwright.c:700
-msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-msgstr "Създадено от·Richard·Hult·&lt;richard@imendio.com&gt;"
+#~ msgid "/_Preferences"
+#~ msgstr "/_Настройки"
 
-#: src/drwright.c:701
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Визуални глезотии от Anders Carlsson"
+#~ msgid "/_About"
+#~ msgstr "/_Относно"
 
-#: src/drwright.c:868
-msgid "Break reminder"
-msgstr "Напомнящ почивки"
+#~ msgid "/_Remove Icon"
+#~ msgstr "_Премахни Икона"
 
-#: src/drw-break-window.c:208
-msgid "_Postpone break"
-msgstr "_Отлага почивка"
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d минути до следващата почивка"
 
-#: src/drw-break-window.c:251
-msgid "Take a break!"
-msgstr "Направи почивка!"
+#~ msgid "One minute until the next break"
+#~ msgstr "Една минута до следващата почивка"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "Изход от DrWright?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Не забравяйте да правите редовни почивки."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Не излиза"
+
+#~ msgid "Quit"
+#~ msgstr "Изход"
+
+#~ msgid "About DrWright"
+#~ msgstr "Относно DrWright"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Създадено от·Richard·Hult·&lt;richard@imendio.com&gt;"
+
+#~ msgid "Break reminder"
+#~ msgstr "Напомнящ почивки"
+
+#~ msgid "_Postpone break"
+#~ msgstr "_Отлага почивка"
+
+#~ msgid "Accessibility"
+#~ msgstr "Достъпност"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Праг на свободното място, при който да се предупреждава"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Праг на свободното място, при който да не се предупреждава"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Минимален интервал между предупрежденията"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Монтирани пътища, които да се пренебрегват"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Процент свободно място за първо предупреждение за липса на място. Ако "
+#~ "свободното място падне под този процент, ще се покаже предупреждение."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Списък с монтирани пътища, които да не се взимат под внимание за "
+#~ "предупрежденията за свободното място."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Интервал в минути. Повторните предупреждения за файловата система ще се "
+#~ "появяват не по-често от този период."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Обем в GB. Ако наличното свободно място е повече, няма да се показва "
+#~ "предупреждение."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Процент, с който трябва да намалее свободното пространство на диска, "
+#~ "преди да се покаже ново предупреждение."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Праг за повторно предупреждение за свободното дисково пространство"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Клавишна комбинация за изваждане на оптичен диск."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Клавишна комбинация за включване и изключване на сензорния панел."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Клавишна комбинация за стартиране на калкулатора."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Клавишна комбинация за стартиране на програмата за е-поща."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Клавишна комбинация за стартиране на програмата за помощ."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Клавишна комбинация за стартиране на програмата за мултимедия."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Клавишна комбинация за стартиране на инструмента за търсене."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Клавишна комбинация за стартиране на Интернет браузъра."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Клавишна комбинация за заключване на екрана."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Клавишна комбинация за излизане от системата."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Клавишна комбинация за намаляване на нивото на звука."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Клавишна комбинация за заглушаване на звука."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Клавишна комбинация за отваряне на домашната папка."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Клавишна комбинация за пауза при изпълнение на музика."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Клавишна комбинация за увеличаване на нивото на звука."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Клавишна комбинация за отиване на следваща песен."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Клавишна комбинация за отиване на предходна песен."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Клавишна комбинация за изпълнение на музика (или превключване изпълнение/"
+#~ "пауза)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Клавишна комбинация за спиране на изпълнението."
+
+#~ msgid "Eject"
+#~ msgstr "Изваждане"
+
+#~ msgid "Home folder"
+#~ msgstr "Домашна папка"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Стартиране на калкулатор"
+
+#~ msgid "Launch email client"
+#~ msgstr "Стартиране на програма за е-поща"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Стартиране на програмата за помощ"
+
+#~ msgid "Launch media player"
+#~ msgstr "Стартиране на програмата за мултимедия"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Стартиране на Интернет браузъра"
+
+#~ msgid "Lock screen"
+#~ msgstr "Заключване на екрана"
+
+#~ msgid "Log out"
+#~ msgstr "Излизане от системата"
+
+#~ msgid "Next track"
+#~ msgstr "Следваща песен"
+
+#~ msgid "Pause playback"
+#~ msgstr "Пауза при изпълнение на музика"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Изпълнение (или изпълнение/пауза)"
+
+#~ msgid "Previous track"
+#~ msgstr "Предишна песен"
+
+#~ msgid "Search"
+#~ msgstr "Търсене"
+
+#~ msgid "Stop playback"
+#~ msgstr "Спиране на изпълнението"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Превключване на сензорния панел"
+
+#~ msgid "Volume down"
+#~ msgstr "Намаляване на звука"
+
+#~ msgid "Volume mute"
+#~ msgstr "Заглушаване на звука"
+
+#~ msgid "Volume step"
+#~ msgstr "Стъпка при изменение на звука"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Стъпка при увеличаване на звука като процент."
+
+#~ msgid "Volume up"
+#~ msgstr "Увеличаване на звука"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Файл за стандартните настройки на RandR"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Показване на екраните в областта за уведомяване"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Приставката за управление на RandR ще търси настройките по подразбиране в "
+#~ "указания файл. Съдържанието е същото като на файла „~/.config/monitors."
+#~ "xml“, където се съхраняват потребителските настройки. Ако даден "
+#~ "потребител няма такъв файл или съдържанието му не отговаря на наличните "
+#~ "монитори, ще се използва файлът, указан с този ключ."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Включване на външен монитор след зареждане на системата"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Дали да се включва евентуален външен монитор, който е бил свързан преди "
+#~ "включването на компютъра."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Включване на вградения монитор след зареждане на системата"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Дали да се включва вграденият монитор, ако преди включването на компютъра "
+#~ "е бил свързан външен монитор."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr "Дали в панела да се показва уведомителна икона за екрана."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Заглаждане"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Шрифтови подсказки"
+
+#~ msgid "RGBA order"
+#~ msgstr "Ред на RGBA"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Редът на подпикселните елементи при екран тип LCD — използва се, само "
+#~ "когато заглаждането е зададено на „rgba“. Възможни стойности са „rgb“ (за "
+#~ "червено отляво — най-често срещано), „bgr“ (за синьо отляво), „vrgb“ (за "
+#~ "червено отгоре) и „vbgr“ (за червено отдолу)."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Разделителната способност при преобразуване на размери на шрифтове в "
+#~ "размери на пиксели, в точки на инч."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Видът на заглаждане при изобразяване на шрифтове. Възможни стойности са "
+#~ "„none“ (без заглаждане), „grayscale“ (стандартно за степени на сивото) и "
+#~ "„rgba“ (за подпикселно заглаждане — само за екрани тип LCD)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Видът на шрифтовите подсказки при изобразяване на шрифтове. Възможни "
+#~ "стойности са „none“ (без подсказки), „slight“ (леки), „medium“ (средни) и "
+#~ "„full“ (за пълни подсказки — възможно е да причини изкривяване на някои "
+#~ "букви)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Позволени клавиши"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Ако не е празен, клавишните комбинации няма да се вземат предвид, освен "
+#~ "ако папката им за GConf е в списъка. Ползва се за ограничаване на достъпа "
+#~ "и възможностите за промени."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Изключване на сензорния панел по време на писане"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Включване на хоризонталното предвижване"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Включване на натискане на бутоните на мишката чрез сензорния панел"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Включване на сензорния панел"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Избор на вида придвижване чрез сензорния панел"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Избор на метода на предвижване чрез сензорния панел. Възможни стойности "
+#~ "са „0“ (изключено), „1“ (чрез ръба на панела), „2“ (с два пръста)"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Задайте да е истина, ако имате проблем със случайно докосване на "
+#~ "сензорния панел по време на писане."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Задайте да е истина, за да позволите хоризонтално придвижване по начина "
+#~ "указан в ключа „scroll_method“."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Задайте да е истина, за да подавате натискания на бутоните на мишката "
+#~ "чрез потупване по сензорния панел."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Задайте да е истина, за да включите всички сензорни панели."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Сървър за настройките на GNOME"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Клавишна комбинация за превключване на лупата."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Клавишна комбинация за превключване на екранната клавиатура."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Клавишна комбинация за превключване на екранния четец."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Подскачащи клавиши"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Команда за превключването на лупата."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Команда за превключването на екранната клавиатура."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Команда за превключването на екранния четец."
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Включване на приставката „XRandR“"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Включване на приставката за достъпност на клавиатурата"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Включване на приставката за фон"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Включване на приставката за буфера за обмен"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Включване на приставката за шрифтове"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Включване на приставката-домакиня"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Включване на приставката за бързи клавиши"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Включване на приставката за клавиатура"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Включване на приставката за мултимедийни клавиши"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Включване на приставката за мишка"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Включване на приставката за чип-карти"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Включване на приставката за звук"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Включване на приставката за почивки при писане"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Включване на приставката „xrdb“"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Включване на приставката за настройки на X"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Клавиши за мишка"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Екранна клавиатура"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Лупа"
+
+#~ msgid "Screen reader"
+#~ msgstr "Екранен четец"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Включване на приставката-домакиня, която да изчиства кешираните временни "
+#~ "файлове."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Задайте да е истина, за да позволите на приставката да управлява "
+#~ "настройките  на XRandR."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Включване на приставката за управление на настройките на буфера за обмен."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Включване на приставката за управление на настройките за фон на работния "
+#~ "плот."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "Включване на приставката за управление на настройките за шрифтове."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Включване на приставката за управление на настройките за клавиатурата."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Задайте да е истина за да позволите на приставката да управлява "
+#~ "заключването на екрана при изключване на чип-картата."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Включване на приставката за управление на настройките на мишката."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Включване на приставката за управление на настройките за мултимедийни "
+#~ "клавиши."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Включване на приставката за управление на кеширането на системните звуци."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Включване на приставката за управление на настройките за достъпност на "
+#~ "клавиатурата."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr "Включване на приставката за управление на бързите клавиши."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr "Включване на приставката за управление на почивките при писане."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "Включване на приставката за управление на настройките на „xrdb“."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "Включване на приставката за управление на настройките на X."
+
+#~ msgid "Slow keys"
+#~ msgstr "Бавни клавиши"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Лепкави клавиши"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Клавишната комбинация за включване и изключване на лупата"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr ""
+#~ "Клавишната комбинация за включване и изключване на екранната клавиатура"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "Клавишната комбинация за включване и изключване на екранния четец"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Клавишната комбинация за включване и изключване на лупата. Тя се показва "
+#~ "в прозореца за настройки на клавишните комбинации."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Клавишната комбинация за включване и изключване на екранната клавиатура. "
+#~ "Тя се показва в прозореца за настройки на клавишните комбинации."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Клавишната комбинация за включване и изключване на екранния четец. Тя се "
+#~ "показва в прозореца за настройки на клавишните комбинации."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Превключване на лупата"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Превключване на екранната клавиатура"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Превключване на екранния четец"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Дали достъпността на клавиатурата чрез подскачащи клавиши е включена."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "Дали достъпността на клавиатурата чрез клавиши за мишка е включена."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Дали екранната клавиатура е включена."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Дали лупата е включена."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Дали достъпността на клавиатурата чрез бавни клавиши е включена."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Дали достъпността на клавиатурата чрез лепкави клавиши е включена."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Задайте „none“ (без действие), „lock_screen“ (заключване на екрана) или "
+#~ "„force_logout“ (принудителен изход). Действието ще се предприема, когато "
+#~ "чип-картата, използвана за вход в системата, се изключи."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Действие при изключване на чип-картата"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Да не се преминава в режим на демон"
+
+# Това е описание на опция, което трябва да се пренесе на нов ред.
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr ""
+#~ "Представка на GConf, откъдето да се заредят настройките на приставките"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Изход след време — за изчистване на грешки"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Достъпност на клавиатурата"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Приставка за достъпност на клавиатурата"
+
+#, fuzzy
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  bg.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+#~ "Възникна грешка при показването на помощта: %s\n"
+#~ "#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Има грешка при показването на помощта за: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Искате ли да включите функцията „Бавни клавиши“?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Искате ли да изключите функцията „Бавни клавиши“?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Току що задържахте клавиша Shift за 8 секунди. Това е бърз клавиш за "
+#~ "функцията „Бавни клавиши“, която влияе върху работата на клавиатурата ви."
+
+#~ msgid "Don't activate"
+#~ msgstr "Да не се активира"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Да не се деактивира"
+
+#~ msgid "Activate"
+#~ msgstr "Активиране"
+
+#~ msgid "Deactivate"
+#~ msgstr "Деактивиране"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Да н_е се активира"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Да н_е се деактивира"
+
+#~ msgid "_Activate"
+#~ msgstr "_Активиране"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Деактивиране"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Сигнал за бавни клавиши"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Искате ли да включите функцията „Лепкави клавиши“?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Искате ли да изключите функцията „Лепкави клавиши“?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Току що натиснахте клавиша Shift 5 пъти последователно. Това е бързият "
+#~ "клавиш за функцията „Лепкави клавиши“, която влияе върху работата на "
+#~ "клавиатурата ви."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Току що натиснахте два клавиша едновременно, или клавиша Shift 5 пъти "
+#~ "подред. Това изключва функцията „Лепкави клавиши“, която влияе върху "
+#~ "работата на клавиатурата ви."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Сигнал за лепкави клавиши"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Настройки за универсален достъп"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "_Увеличен цветови контраст"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "_Едър и лесен за четене шрифт"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "_Задържане на клавишите след натискане (бавни клавиши)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Ползване на _екранна клавиатура"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Ползване на _лупа"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Ползване на екранен _четец"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr ""
+#~ "_Пренебрегване на повторните натискания на клавиши (подскачащи клавиши)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr ""
+#~ "_Клавишните комбинации да са клавишни последователности (лепкави клавиши)"
+
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#~ msgid "Background plugin"
+#~ msgstr "Приставка за фон"
+
+#~ msgid "Clipboard"
+#~ msgstr "Буфер за обмен"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Приставка за буфера за обмен"
+
+#~ msgid "Dummy"
+#~ msgstr "Фиктивна"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Фиктивна приставка (за тестване)"
+
+#~ msgid "Font"
+#~ msgstr "Шрифтове"
+
+#~ msgid "Font plugin"
+#~ msgstr "Приставка за шрифтове"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr ""
+#~ "Повече да не се показват никакви предупреждения за тази файлова система"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Повече да не се показват никакви предупреждения"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "В „%s“ са останали свободни само %s."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "На компютъра са останали свободни само %s."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Можете да освободите място като изчистите кошчето, като изтриете "
+#~ "неизползваните програми и файлове или като преместите част от нещата на "
+#~ "друг диск или дял."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Можете да освободите място като изтриете неизползваните програми и "
+#~ "файлове или като преместите част от нещата на друг диск или дял."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Можете да освободите място като изчистите кошчето, като изтриете "
+#~ "неизползваните програми и файлове или като преместите част от нещата на "
+#~ "външен диск."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Можете да освободите място като изтриете неизползваните програми и "
+#~ "файлове или като преместите част от нещата на външен диск."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Дисковото пространство привършва"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Изчистване на кошчето"
+
+#~ msgid "Examine…"
+#~ msgstr "Проверка…"
+
+#~ msgid "Ignore"
+#~ msgstr "Пренебрегване"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Изтриване на обект %lu от общо %lu"
+
+#~ msgid "Removing: %s"
+#~ msgstr "Изтриване: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Изчистване на кошчето"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Подготовка за изчистване на кошчето…"
+
+#~ msgid "From: "
+#~ msgstr "От:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Да се изтрият ли всички обекти в кошчето?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Ако решите за изчистите кошчето, всички обекти в него ще бъдат "
+#~ "безвъзвратно изтрити. Можете да изтривате обекти и поотделно."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Изчистване на кошчето"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Клавишната комбинация (%s) е грешна"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Клавишната комбинация (%s) е непълна"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Грешка при изпълнението на (%s),\n"
+#~ "която е свързана с клавиша (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Клавишни комбинации"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Приставка за клавишни комбинации"
+
+#~ msgid "Keyboard"
+#~ msgstr "Клавиатура"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Приставка за клавиатурата"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Грешка при задействане на настройките на XKB.\n"
+#~ "Това може да се случи в следните ситуации:\n"
+#~ " • грешка в библиотеката libxklavier;\n"
+#~ " • грешка в X сървъра (xkbcomp, xmodmap utilities);\n"
+#~ " • X сървър с несъвместима реализация на libxkbfile.\n"
+#~ "\n"
+#~ "Данни за версията на X сървъра:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Ако решите да докладвате тази грешка, молим включете следното:\n"
+#~ " • резултата от <b>%s</b>;\n"
+#~ " • резултата от <b>%s</b>."
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Използвате XFree 4.3.0.\n"
+#~ "Този софтуер има проблеми при сложни настройки на XKB.\n"
+#~ "Или пробвайте с по-прости настройки, или обновете версията на XFree."
+
+#~ msgid "_Layouts"
+#~ msgstr "_Подредби"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Настройки на _клавиатурата"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Показване на _текущата подредба"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "_Налични подредби:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Зареждане на файлове с подредби"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Искате ли да се зареди файл(ове) с подредби?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Да не се показва това съобщение отново"
+
+#~ msgid "_Load"
+#~ msgstr "_Зареждане"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Заредени файлове:"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Стандартният терминал не може да бъде открит. Проверете дали командата за "
+#~ "терминала е зададена и дали тя съответства на правилна програма."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Следната команда не може да бъде изпълнена: %s\n"
+#~ "Проверете дали това е валидна команда."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u вход"
+#~ msgstr[1] "%u входа"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u изход"
+#~ msgstr[1] "%u изхода"
+
+#~ msgid "System Sounds"
+#~ msgstr "Системните звуци"
+
+#~ msgid "Media keys"
+#~ msgstr "Мултимедийни клавиши"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Приставка за мултимедийни клавиши"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Неуспех при включване на функциите за достъпност на мишката"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "За достъпност на мишката на системата трябва да е инсталиран Mousetweaks."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Настройки на мишката"
+
+#~ msgid "Mouse"
+#~ msgstr "Мишка"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Приставка за мишката"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Приставка за почивки при писане"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Настройки за размер на екрана и ротация"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Настройките на екрана не могат да бъдат сменени"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Настройките на екрана не могат да бъдат възстановени"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr ""
+#~ "Настройките на екрана не могат да бъдат възстановени от резервно копие"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "След %d секунда ще бъдат върнати старите настройки на екрана"
+#~ msgstr[1] "След %d секунди ще бъдат върнати старите настройки на екрана"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Наред ли е екрана?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Възстановяване на предишните настройки"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Запазване на тези настройки"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Избраните настройки на екраните не могат да бъдат приложени"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Информацията за екрана не може да бъде обновена: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Опит за смяна на настройките на екрана въпреки това."
+
+#~ msgid "Rotation not supported"
+#~ msgstr "Не се поддържа завъртане"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Настройките на екрана не мотат да бъдат запазени"
+
+#~ msgid "Normal"
+#~ msgstr "нормално"
+
+#~ msgid "Left"
+#~ msgstr "наляво"
+
+#~ msgid "Right"
+#~ msgstr "надясно"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  bg.po (gnome-settings-daemon master)  #-#-#-#-#\n"
+#~ "обратно\n"
+#~ "#-#-#-#-#  bg.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "обърнато"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Настройване на екрана…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Настройване на екрана"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Запазените настройките на екраните не можаха да бъдат приложени"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Не може да се разбере коя е домашната папка на потребителя"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Управление на базата от данни с ресурси за X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "База от данни с ресурси за X"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr "Клавишът на GConf %s е зададен с вид %s, но се очакваше вид %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Управление на настройките на X"
+
+#~ msgid "X Settings"
+#~ msgstr "Настройки на X"
+
+#~ msgid "Module Path"
+#~ msgstr "Път до модула"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "път до драйвера за PKCS #11 на чип-картата"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "получена е грешка или прекъсване при комуникация с чип-картата"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Неуспех при инициализиране на системата за сигурност NSS"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "не е намерен подходящ драйвер за чип-картата"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "неуспех при зареждане на драйвера за чип-карти „%s“"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "неуспех при получаване на данни от картата – %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr "неочаквана грешка при изчакване на информация от чип-картата"
+
+#~ msgid "Slot ID"
+#~ msgstr "Номер на слот"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Слотът, в който е картата"
+
+#~ msgid "Slot Series"
+#~ msgstr "Серия на слота"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "номер на картата в слота"
+
+#~ msgid "name"
+#~ msgstr "име"
+
+#~ msgid "Module"
+#~ msgstr "Модул"
+
+#~ msgid "smartcard driver"
+#~ msgstr "драйвер за чип-карта"
+
+#~ msgid "Change system time"
+#~ msgstr "Промяна на системното време"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Промяна на системния часови пояс"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Сверяване на хардуерния часовник"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr "За промяна на системния часови пояс се изискват специални права."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "За промяна на системното време се изискват специални права."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr "За промяна на хардуерния часовник се изискват специални права."
+
+#~ msgid "Current network location"
+#~ msgstr "Текущо местоположение"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Адрес за допълнителни фонове"
+
+#~ msgid "More themes URL"
+#~ msgstr "Адрес за допълнителни теми"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Задайте да е текущото ви местоположение. Използва се за определянето на "
+#~ "подходящ сървър-посредник."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "Адрес, от който могат да се изтеглят допълнителни фонове за работното "
+#~ "място. Ако този ключ е празен низ, връзката няма да се показва."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "Адрес, от който могат да се изтеглят допълнителни теми за работното "
+#~ "място. Ако този ключ е празен низ, връзката няма да се показва."
+
+#~ msgid "Key"
+#~ msgstr "Ключ"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Ключ на GConf, за който е прикачен съответния редактор"
+
+#~ msgid "Callback"
+#~ msgstr "Обратно извикване"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Изпълнение на това обратно извикване, когато стойността свързана с този "
+#~ "клавиш е променена"
+
+#~ msgid "Change set"
+#~ msgstr "Комплект промени"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Комплект промени за GConf, който съдържа данните за препредаване на "
+#~ "клиентите за използване при натискането на „Прилагане“"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Преобразуване към обратно извикване на графичен обект"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Извеждане на обратно извикване, когато данните се конвертират от GConf в "
+#~ "графичния обект"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Преобразуване от обратно извикване на графичен обект"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Извеждане на обратно извикване, когато данните се конвертират в GConf от "
+#~ "графичния обект"
+
+#~ msgid "UI Control"
+#~ msgstr "Контрол на потребителския интерфейс"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Обект, контролиращ свойствата (обикновено графични обекти)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Редактор на свойствата на обектни данни"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Потребителски данни изисквани от зададен редактор на свойства"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Обратно извикване, което освобождава данни на редактора на свойства"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Обратно извикване, което да се извиква при освобождаване на данни от "
+#~ "редактора на свойства"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Файлът „%s“ не може да бъде намерен.\n"
+#~ "\n"
+#~ "Проверете дали съществува и опитайте отново или изберете друго "
+#~ "изображение за фон."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Няма програма, с която да се отвори файла „%s“.\n"
+#~ "Може би той е изображение, което още не се поддържа.\n"
+#~ "\n"
+#~ "Изберете друго изображение вместо него."
+
+#~ msgid "Please select an image."
+#~ msgstr "Изберете изображение."
+
+#~ msgid "_Select"
+#~ msgstr "_Избиране"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Предпочитани програми"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Избиране на стандартните програми"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Стартиране на предпочитаната технология за визуална помощ"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Визуална помощ"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Грешка при запазването на настройките: %s"
+
+#~ msgid "Custom"
+#~ msgstr "Потребителски"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Неуспех при зареждането на основния интерфейс"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Проверете дали аплетът е инсталиран правилно"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Всички появи на „%s“ ще бъдат заменени с действащи хипервръзки."
+
+#~ msgid "C_ommand:"
+#~ msgstr "_Команда:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ко_манда:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "_Флаг за изпълнение:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Преглед на изображения"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Бързи съобщения"
+
+#~ msgid "Internet"
+#~ msgstr "Интернет"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Програма за е-поща"
+
+#~ msgid "Mobility"
+#~ msgstr "Двигателна помощ"
+
+#~ msgid "Multimedia"
+#~ msgstr "Мултимедия"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Програма за мултимедия"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Отваряне на връзката в нов по_дпрозорец"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Отваряне на връзката в _нов прозорец"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Отваряне на връзката, както е _обичайно за браузъра"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Стартиране в _началото на сесията"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Стартиране в т_ерминал"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Терминален емулатор"
+
+#~ msgid "Text Editor"
+#~ msgstr "Текстов редактор"
+
+#~ msgid "Video Player"
+#~ msgstr "Гледане на филми"
+
+#~ msgid "Visual"
+#~ msgstr "Визуална помощ"
+
+#~ msgid "Web Browser"
+#~ msgstr "Интернет браузър"
+
+#~ msgid "_Run at start"
+#~ msgstr "Стартиране в _началото на сесията"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Програма за музика Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws — програма за е-поща"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "sensible-browser на Дебиан"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Терминален емулатор на Дебиан"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Интернет браузър Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution — програма за е-поща"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Лупа на GNOME без екранен четец"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Екранна клавиатура на GNOME"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Терминал на GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus с лупа"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Програма за е-поща Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Лупа на KDE без екранен четец"
+
+#~ msgid "KMail"
+#~ msgstr "KMail — програма за е-поща"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+# Това е име на програма.
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux Screen Reader"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linux Screen Reader с лупа"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla — програма за е-поща"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Програма за музика Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca с лупа"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Програма за музика Rhythbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "Програма за е-поща на SeaMonkey"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Стандартен XTerminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Програмата за филми Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "_Включване на панела"
+
+#~ msgid "Make Default"
+#~ msgstr "Да е стандартно"
+
+#~ msgid "Monitor"
+#~ msgstr "Екран"
+
+#~ msgid "Off"
+#~ msgstr "Изключен"
+
+#~ msgid "On"
+#~ msgstr "Включен"
+
+#~ msgid "Panel icon"
+#~ msgstr "Икона в панела"
+
+#~ msgid "R_otation:"
+#~ msgstr "_Завъртане:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "_Опресняване:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "_Еднакво изображение на всички екрани"
+
+#~ msgid "Upside-down"
+#~ msgstr "обърнато"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Засичане на екрани"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Разделителна способност:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Показване на екраните в панела"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Промяна на разделителната способност и положението на екраните"
+
+#~ msgid "Monitors"
+#~ msgstr "Екрани"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Употреба: %s ИЗХОДЕН_ФАЙЛ ЦЕЛЕВИ_ФАЙЛ\n"
+#~ "\n"
+#~ "Програмата инсталира профил на многоекранен профил на RANDR в\n"
+#~ "системните папки.  Така профилът ще се ползва в момента, когато\n"
+#~ "приставката за RANDR се изпълни от gnome-settings-daemon.\n"
+#~ "\n"
+#~ "ИЗХОДЕН_ФАЙЛ — пълен път, вероятно „/home/username/.config/monitors.xml“\n"
+#~ "\n"
+#~ "ЦЕЛЕВИ_ФАЙЛ  — относителен път за инсталирания файл.  Той ще бъде "
+#~ "копиран\n"
+#~ "               в системната папка за настройки на RANDR, с други думи в\n"
+#~ "               „%s/DEST_NAME“\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Програмата може да се ползва само от системен администратор"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Името на файла трябва да е абсолютно"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Следният файл не може да бъде отворен — „%s“: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Неуспех при получаването на информацията за „%s“: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "Файлът „%s“ трябва да е обикновен\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Тази програма трябва да се стартира само чрез pkexec(1)"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID трябва да е цяло число"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "Вие трябва да сте собственика на „%s“\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "Не трябва да има никакви папки в пътя до файла „%s“\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "„%s“ трябва да е папка\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Следният файл е недостъпен — „%s/%s“: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "„%s“ не може да се преименува на „%s“: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Необходима е идентификация, за да се инсталират многоекранните настройки "
+#~ "за всички потребители"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Инсталиране на многоекранни настройки за всички потребители"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Еднакво изображение на екраните"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Екран: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d × %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Изберете екран, за да промените настройките му. С влачене променяте "
+#~ "положението му."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Неуспех при запазването на настройките на екрана"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Неуспех при получаването на достъп до сесийната шина при прилагане на "
+#~ "настройките на екрана"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Неуспех при засичането на екрани"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Настройките на екрана са запазвани"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr "Настройките ще се приложат при следващото влизане на потребител."
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Неуспех при задаването на стандартните на настройки на екраните"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Неуспех при получаването на информацията за екрана"
+
+#~ msgid "Sound"
+#~ msgstr "Звук"
+
+#~ msgid "Desktop"
+#~ msgstr "Работен плот"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Нова клавишна комбинация…"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Клавиш на ускорение"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Модификатори за ускорение"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Клавиш на ускорение"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Ускорен режим"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Вид на ускорителя."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Неизвестно действие>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Потребителски клавишни комбинации"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Грешка при запазването на новата клавишна комбинация"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "„%s“ не може да се ползва за клавишна комбинация, защото ще стане "
+#~ "невъзможно да бъде въвеждан самостоятелно.\n"
+#~ "Комбинирайте го с някой от клавишите „Control“, „Alt“ или „Shift“."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Клавишната комбинация „%s“ вече се използва за:\n"
+#~ "„%s“"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Ако прехвърлите клавишната комбинация на „%s“, комбинацията „%s“ ще бъде "
+#~ "изключена."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Прехвърляне"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Грешка при изтриване на клавишната комбинация в базата от данни с "
+#~ "настройки: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Прекалено много клавишни комбинации"
+
+#~ msgid "Action"
+#~ msgstr "Действие"
+
+#~ msgid "Shortcut"
+#~ msgstr "Клавишна комбинация"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Потребителска клавишна комбинация"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Клавишни комбинации"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "За да редактирате клавишната комбинация, натиснете върху съответния ред и "
+#~ "въведете новата комбинация, или натиснете backspace за изчистване."
+
+#~ msgid "_Name:"
+#~ msgstr "_Име:"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Поставяне на клавишни комбинации за команди"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Звук при _включване/изключване на функции чрез клавиатурата"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Звук при натискане на _модификатор"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Звук при натискане на клавиш за превкл_ючване"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Звук при натискане на _клавиш"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Звук при _отхвърляне на клавиша"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Звук при п_риемане на клавиша"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Звук при от_хвърляне на клавиша"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Подскачащи клавиши"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Проблясване на _заглавната лента на прозореца"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Проблясване на _целия екран"
+
+#~ msgid "General"
+#~ msgstr "Общи"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Звукови уведомления за достъпност на клавиатурата"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "_Визуално подсказване при системни звуци"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Бавни клавиши"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Лепкави клавиши"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Визуални подсказки за звуци"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "_Разрешаване на отлагането на почивките"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Звукови _уведомления…"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Мигащ курсор"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "_Мигащ курсор в текстовите полета"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Скорост на мигане на курсора"
+
+#~ msgid "D_elay:"
+#~ msgstr "_Закъснение:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "_Изключване при натискането на два клавиша едновременно"
+
+#~ msgid "Fast"
+#~ msgstr "Бърза"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "_Натискането на бутона се повтаря, ако той бъде задържан"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Настройки на клавиатурата"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Модел на клавиатурата:"
+
+#~ msgid "Layouts"
+#~ msgstr "Подредби"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Списък с избраните за ползване подредби"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Заключване на екрана след определено време, за предотвратяването на "
+#~ "травми при прекалено дълго писане на клавиатурата."
+
+#~ msgid "Long"
+#~ msgstr "Дълго"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Клавиши за мишка"
+
+#~ msgid "Move _Down"
+#~ msgstr "Преместване на_горе"
+
+#~ msgid "Move _Up"
+#~ msgstr "Преместване на_долу"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Преместване на избраната подредба надолу в списъка"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Преместване на избраната подредба нагоре в списъка"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Новите прозорци унаследяват подредбата на прозореца на _фокус"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Отпечатване на диаграма на избраната подредба"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Изваждане на избраната подредба от списъка"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Повторни клавиши"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Скорост на повтаряне на клавишите"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Замяна на текущите настройки на подредбата на клавиатурата\n"
+#~ "със стандартните"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "_Стандартни настройки"
+
+#~ msgid "S_peed:"
+#~ msgstr "С_корост:"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Избиране на подредба, която да се добави към списъка"
+
+#~ msgid "Short"
+#~ msgstr "Късо"
+
+#~ msgid "Slow"
+#~ msgstr "Бавна"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Разглеждане и редактиране на настройките на подредбата"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Ускорение:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "В_ключване/изключване на достъпността чрез клавишни комбинации"
+
+#~ msgid "_Add..."
+#~ msgstr "_Добавяне…"
+
+#~ msgid "_Delay:"
+#~ msgstr "З_акъснение:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "И_гнориране на бързо натискане на еднакви клавиши"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Приемане само на задържани клавиши"
+
+#~ msgid "_Options..."
+#~ msgstr "Настро_йки…"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "П_оказалецът може да се движи чрез клавиатурата"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "_Отделна подредба за всеки прозорец"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "Симу_лиране на едновременно натискане"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Скорост:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "Пи_шете, за да изпробвате настройките:"
+
+#~ msgid "By _country"
+#~ msgstr "По _страна"
+
+#~ msgid "By _language"
+#~ msgstr "По _език"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Избиране на клавиатурна подредба"
+
+#~ msgid "Preview:"
+#~ msgstr "Предварителен преглед:"
+
+#~ msgid "_Country:"
+#~ msgstr "_Страна:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Език:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Варианти:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Избиране на модел клавиатура"
+
+#~ msgid "_Models:"
+#~ msgstr "_Модели:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Производители:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Настройки на подредбата"
+
+#~ msgid "Unknown"
+#~ msgstr "Неизвестен"
+
+#~ msgid "Layout"
+#~ msgstr "Подредба"
+
+#~ msgid "Vendors"
+#~ msgstr "Производители"
+
+#~ msgid "Models"
+#~ msgstr "Модели"
+
+# На едното място е в женски род — подредба, на другото май е мъжки.
+# Затова вместо „стандартно“ ползвам „По подразбиране“.
+#~ msgid "Default"
+#~ msgstr "По подразбиране"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Настройки на клавиатурата"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Стандартната икона „%s“ не може да бъде заредена\n"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Движение наляво"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Движение надясно"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Движение нагоре"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Движение надолу"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Без"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Предварителен из_бор на вида натискане"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Избор на вида чрез дви_жение на мишката"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "_Двойно натискане:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "_Изтегляне:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "_Изключване на сензорния панел при писане"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Пауза между две натискания"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Влачене и пускане"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Натискане без бутон"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "_Натискане на мишката чрез потупване на панела"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Включване на _хоризонтално придвижване"
+
+#~ msgid "High"
+#~ msgstr "Висока"
+
+#~ msgid "Large"
+#~ msgstr "Голям"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Посочване на показалеца"
+
+#~ msgid "Low"
+#~ msgstr "Ниска"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Ориентация на мишката"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Скорост на показалеца"
+
+#~ msgid "Scrolling"
+#~ msgstr "Придвижване"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Пов_торно натискане:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr ""
+#~ "П_оказване на позицията на курсора при натискане на клавиша „Control“"
+
+#~ msgid "Show click type _window"
+#~ msgstr "П_оказване на вида в прозорец"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Симулирано повторно натискане"
+
+#~ msgid "Small"
+#~ msgstr "Малък"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "П_раг:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "За да тествате настройките за двойно натискане, пробвайте с мишката върху "
+#~ "крушката"
+
+#~ msgid "Touchpad"
+#~ msgstr "Сензорен панел"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Придвижване с _два пръста"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "За да изберете вида натискане, може да използвате и аплета „Натискане без "
+#~ "бутон“"
+
+#~ msgid "_Disabled"
+#~ msgstr "_Изключен"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Чрез ръба на панела"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Емулиране на натискане при спиране движението на показалеца"
+
+#~ msgid "_Left-handed"
+#~ msgstr "За _лява ръка"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "П_раг на движение:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "За _дясна ръка"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Чувствителност"
+
+#~ msgid "_Single click:"
+#~ msgstr "Едно_кратно натискане:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "П_ауза:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_Второ натискане при задържане на основния бутон"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Настройки на вашата мишка"
+
+#~ msgid "New Location..."
+#~ msgstr "Ново местоположение…"
+
+#~ msgid "Location already exists"
+#~ msgstr "Местоположението вече съществува"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Мрежов сървър-посредник"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Настройки на мрежовия сървър-посредник"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Дирек_тна връзка към Интернет</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Автоматична настройка на сървъра-посредник</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Ръчна настройка на сървъра-посредник</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Използване на идентификация</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Адрес за автоматична _настройка:"
+
+#~ msgid "C_reate"
+#~ msgstr "_Създаване"
+
+#~ msgid "Create New Location"
+#~ msgstr "Създаване на ново местоположение"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Настройка на HTTP сървър-посредник"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "HTTP сървър-_посредник"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Списък на хостовете за игнориране"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Игнорирани хостове"
+
+#~ msgid "Location:"
+#~ msgstr "Местоположение:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Настройки на мрежовия сървър-посредник"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Настройка на сървър-посредник"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "_Хост за Socks:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Местоположението вече съществува."
+
+#~ msgid "U_sername:"
+#~ msgstr "Потр_ебителско име:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Изтриване на местоположение"
+
+#~ msgid "_Details"
+#~ msgstr "_Подробности"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP сървър-посредник:"
+
+#~ msgid "_Location name:"
+#~ msgstr "И_ме на местоположение:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Парола:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_HTTPS сървър-посредник:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Използване на същия посредник за всички протоколи"
+
+#, fuzzy
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr "В_ключване/изключване на достъпността чрез клавишни комбинации"
+
+#, fuzzy
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Звук при натискане на _клавиш"
+
+#, fuzzy
+#~ msgid "Beep when a key is"
+#~ msgstr "Звук при натискане на _клавиш"
+
+#, fuzzy
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "Звук при _отхвърляне на клавиша"
+
+#, fuzzy
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "Звук при натискане на _модификатор"
+
+#, fuzzy
+#~ msgid "Change constrast:"
+#~ msgstr "Комплект промени"
+
+#~ msgid "Contrast:"
+#~ msgstr "Контраст:"
+
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "Управление на показалеца чрез клавиатурата."
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "Управление на показалеца чрез видеокамера."
+
+#~ msgid "Ctrl+Alt+-"
+#~ msgstr "Ctrl+Alt+-"
+
+#~ msgid "Ctrl+Alt+0"
+#~ msgstr "Ctrl+Alt+0"
+
+#~ msgid "Ctrl+Alt+4"
+#~ msgstr "Ctrl+Alt+4"
+
+#~ msgid "Ctrl+Alt+8"
+#~ msgstr "Ctrl+Alt+8"
+
+#~ msgid "Ctrl+Alt+="
+#~ msgstr "Ctrl+Alt+="
+
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "Изключване при натискането на два клавиша едновременно"
+
+#~ msgid "Display"
+#~ msgstr "Показване"
+
+#~ msgid "Display a textual description of speech and sounds."
+#~ msgstr "Показване на текстово описание на речта и звуците."
+
+#~ msgid "Flash the entire screen"
+#~ msgstr "Проблясване на целия екран"
+
+#~ msgid "Flash the window title"
+#~ msgstr "Проблясване на заглавната лента на прозореца"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#, fuzzy
+#~ msgid "Hearing"
+#~ msgstr "<b>Изписване на шрифтовете</b>"
+
+#, fuzzy
+#~ msgid "HighContrast"
+#~ msgstr "Контакт"
+
+#, fuzzy
+#~ msgid "Hover Click"
+#~ msgstr "Натискане без бутон"
+
+#, fuzzy
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "И_гнориране на бързо натискане на еднакви клавиши"
+
+#, fuzzy
+#~ msgid "Keyboard Settings..."
+#~ msgstr "Клавишни комбинации"
+
+#, fuzzy
+#~ msgid "Larger"
+#~ msgstr "Голям"
+
+#, fuzzy
+#~ msgid "LowContrast"
+#~ msgstr "Контакт"
+
+#, fuzzy
+#~ msgid "Mouse Settings..."
+#~ msgstr "Ориентация на мишката"
+
+#~ msgid "None"
+#~ msgstr "нищо не прави"
+
+#, fuzzy
+#~ msgid "On screen keyboard"
+#~ msgstr "Екранна клавиатура на GNOME"
+
+#, fuzzy
+#~ msgid "Options..."
+#~ msgstr "Настро_йки…"
+
+# Това е име на програма.
+#, fuzzy
+#~ msgid "Screen Reader"
+#~ msgstr "Linux Screen Reader"
+
+#, fuzzy
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "_Емулиране на натискане при спиране движението на показалеца"
+
+#, fuzzy
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr "_Второ натискане при задържане на основния бутон"
+
+#, fuzzy
+#~ msgid "Type here to test settings"
+#~ msgstr "Пи_шете, за да изпробвате настройките:"
+
+#, fuzzy
+#~ msgid "Typing"
+#~ msgstr "Почивки при писане"
+
+#, fuzzy
+#~ msgid "Typing Assistant"
+#~ msgstr "_Асистент:"
+
+#, fuzzy
+#~ msgid "Video Mouse"
+#~ msgstr "Мишка"
+
+#, fuzzy
+#~ msgid "Visual Alerts"
+#~ msgstr "Визуална помощ"
+
+#~ msgid "Zoom"
+#~ msgstr "дисплеят да е вътре"
+
+#, fuzzy
+#~ msgid "Zoom in:"
+#~ msgstr "дисплеят да е вътре"
+
+#, fuzzy
+#~ msgid "Zoom out:"
+#~ msgstr "дисплеят да е вътре"
+
+#~ msgid "Control Center"
+#~ msgstr "Контролен център"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Инструмент за настройки на GNOME"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ако е истина, шрифтовете във формат OpenType ще се показват с "
+#~ "миниизображение."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ако е истина, шрифтовете във формат PCF ще се показват с миниизображение."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ако е истина, шрифтовете във формат TrueType ще се показват с "
+#~ "миниизображение."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ако е истина, шрифтовете във формат Type1 ще се показват с "
+#~ "миниизображение."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Команда за създаването на миниизображения за шрифтове във формат OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Команда за създаването на миниизображения за шрифтове във формат PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Команда за създаването на миниизображения за шрифтове във формат TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Команда за създаването на миниизображения за шрифтове във формат Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Команда за миниизображения за шрифтове OpenType."
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Команда за миниизображения за шрифтове PCF."
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Команда за миниизображения за шрифтове TrueType."
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Команда за миниизображения за шрифтове Type1."
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Да има ли миниизображения за шрифтове OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Да има ли миниизображения за шрифтове PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Да има ли миниизображения за шрифтове TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Да има ли миниизображения за шрифтове Type1"
+
+#~ msgid "Name:"
+#~ msgstr "Име:"
+
+#~ msgid "Style:"
+#~ msgstr "Стил:"
+
+#~ msgid "Type:"
+#~ msgstr "Вид:"
+
+#~ msgid "Size:"
+#~ msgstr "Размер:"
+
+#~ msgid "Version:"
+#~ msgstr "Версия:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Авторски права:"
+
+#~ msgid "Description:"
+#~ msgstr "Описание:"
+
+#~ msgid "Installed"
+#~ msgstr "Инсталиран"
+
+#~ msgid "Install Failed"
+#~ msgstr "Неуспешно инсталиране"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "употреба: %s шрифтов_файл\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Инстали_ране на шрифт"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Преглед на шрифтове"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Предварителен преглед на шрифтове"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Текст в миниизображението (стандартно е „Aa“)"
+
+#~ msgid "TEXT"
+#~ msgstr "ТЕКСТ"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Размер на шрифта (стандартно е 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "РАЗМЕР"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ШРИФТОВ_ФАЙЛ ИЗХОДЕН_ФАЙЛ"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Грешка при анализа на аргументите: %s\n"
 
 #~ msgid "Break coming up!"
 #~ msgstr "Почивката е скоро!"
@@ -209,3 +2828,1412 @@ msgstr "Направи почивка!"
 
 #~ msgid "Done"
 #~ msgstr "Fertig"
+
+#~ msgid "Image/label border"
+#~ msgstr "Рамка на изображение/етикет"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Широчината на рамката около етикет"
+
+#~ msgid "Alert Type"
+#~ msgstr "Вид предупреждение"
+
+#~ msgid "The type of alert"
+#~ msgstr "Вид на предупреждението"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Бутони при предупреждение"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Бутоните, които се показват при предупреждение"
+
+#~ msgid "Show more _details"
+#~ msgstr "Показване на пове_че информация"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Поставете левия си палец върху %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Преминете с левия си палец върху %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Поставете левия си показалец върху %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Преминете с левия си показалец върху %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Поставете левия си среден пръст върху %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Преминете с левия си среден пръст върху %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Поставете левия си безименен пръст върху %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Преминете с левия си безименен пръст върху %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Поставете лявото си кутре върху %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Преминете с лявото си кутре върху %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Поставете десния си палец върху %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Преминете с десния си палец върху %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Поставете десния си показалец върху %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Преминете с десния си показалец върху %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Поставете десния си среден пръст върху %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Преминете с десния си среден пръст върху %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Поставете десния си безимен пръст върху %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Преминете с десния си безимен пръст върху %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Поставете дясното си кутре върху %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Преминете с дясното си кутре върху %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Поставете пръста си отново върху четеца"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Преминете с пръста си отново върху четеца"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Преминахте твърде бързо, опитайте отново"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Пръстът ви не беше поставен правилно, преминете с него отново"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Махнете пръста си и пробвайте да преминете с него отново"
+
+#~ msgid "Select Image"
+#~ msgstr "Избор на изображение"
+
+#~ msgid "No Image"
+#~ msgstr "Няма изображение"
+
+#~ msgid "Images"
+#~ msgstr "Изображения"
+
+#~ msgid "All Files"
+#~ msgstr "Всички файлове"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Възникна грешка при опита за получаване на информация за адресника\n"
+#~ "Evolution Data Server не може да обработи протокола"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Адресникът не може да се отвори."
+
+#~ msgid "About %s"
+#~ msgstr "Относно %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "_AIM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "Адр_ес:"
+
+#~ msgid "About Me"
+#~ msgstr "За мен"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Град:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Фирма:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "_Календар:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Смяна на па_ролата…"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Гра_д:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Страна:"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "С_трана:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Изключване на влизането с _отпечатък…"
+
+#~ msgid "Email"
+#~ msgstr "Електронна поща"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Включване на влизането с _отпечатък…"
+
+#~ msgid "Full Name"
+#~ msgstr "Пълно име"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Д_омашен:"
+
+#~ msgid "Home"
+#~ msgstr "Домашна папка"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Бързи съобщения"
+
+#~ msgid "Job"
+#~ msgstr "Работа"
+
+#~ msgid "M_SN:"
+#~ msgstr "_MSN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "По_щ. кут.:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "П_ощ. кут.:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Лична информация"
+
+#~ msgid "Select your photo"
+#~ msgstr "Изберете снимката си"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Щат/провин_ция:"
+
+#~ msgid "Telephone"
+#~ msgstr "Телефон"
+
+#~ msgid "User name:"
+#~ msgstr "Потребителско име:"
+
+#~ msgid "Web"
+#~ msgstr "Интернет"
+
+#~ msgid "Web _log:"
+#~ msgstr "_Блог:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "С_лужебен:"
+
+#~ msgid "Work"
+#~ msgstr "Служебен"
+
+#~ msgid "Work _fax:"
+#~ msgstr "Служебен _факс:"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "Пощенски к_од:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Адрес:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Отдел:"
+
+#~ msgid "_GroupWise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Лична страница:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Домашна:"
+
+#~ msgid "_Manager:"
+#~ msgstr "Р_ъководител:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Мобилен телефон:"
+
+#~ msgid "_Profession:"
+#~ msgstr "Проф_есия:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "Щат/прови_нция:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Титла:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Служебна:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "Пощенски _код:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Настройване на личната ви информация"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Нямате право на достъп до това устройство. Обърнете се към системния си "
+#~ "администратор."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Устройството вече се ползва."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Получи се вътрешна грешка"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Изтриване на въведените отпечатъци?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Изтриване на отпечатъците"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Искате ли да изтриете въведените си отпечатъци и да изключите влизането с "
+#~ "тях?"
+
+#~ msgid "Done!"
+#~ msgstr "Готово!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Устройство „%s“ е недостъпно"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr ""
+#~ "Устройство „%s“ не може да започне сканирането на пръстовия отпечатък"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Не може да бъде достъпен никакъв четец на пръстови отпечатъци"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Обърнете се към системния си администратор за помощ."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Включване на влизането с пръстов отпечатък"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "За да включите влизането с пръстови отпечатъци, трябва да запазите "
+#~ "отпечатък чрез устройството „%s“."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Преминете с пръст върху четеца"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Поставете пръста си върху четеца"
+
+#~ msgid "Left index finger"
+#~ msgstr "Ляв показалец"
+
+#~ msgid "Left little finger"
+#~ msgstr "Ляво кутре"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Ляв среден пръст"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Ляв безименен пръст"
+
+#~ msgid "Left thumb"
+#~ msgstr "Ляв палец"
+
+#~ msgid "Other finger: "
+#~ msgstr "Друг пръст:"
+
+#~ msgid "Right index finger"
+#~ msgstr "Десен показалец"
+
+#~ msgid "Right little finger"
+#~ msgstr "Дясно кутре"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Десен среден пръст"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Десен безименен пръстен"
+
+#~ msgid "Right thumb"
+#~ msgstr "Десен палец"
+
+#~ msgid "Select finger"
+#~ msgstr "Избор на пръст"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Пръстовият ви отпечатък е запазен успешно. Вече трябва да можете да "
+#~ "влезете като ползвате четеца на отпечатъци."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Дъщерният процес спря неочаквано"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr ""
+#~ "В/И-ят канал за стандартен вход на ядрото не може да бъде затворен: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr ""
+#~ "В/И-ят канал за стандартен изход на ядрото не може да бъде затворен: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Идентификацията е успешна!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Паролата ви е променена откакто се идентифицирахте. Идентифицирайте се "
+#~ "наново."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Паролата не е вярна."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Паролата беше променена."
+
+#~ msgid "System error: %s."
+#~ msgstr "Системна грешка: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Паролата е твърде кратка."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Паролата е твърде проста."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Старата и новата парола си приличат твърде много."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Новата парола трябва да съдържа цифри или специални знаци."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Старата и новата парола са еднакви."
+
+#~ msgid "The new password has already been used recently."
+#~ msgstr "Новата парола е ползвана прекалено скоро в миналото."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Неуспех при стартирането на %s: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Не може да се пусне основната програма"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Получи се грешка в системата"
+
+#~ msgid "Checking password..."
+#~ msgstr "Проверяване на паролата…"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "Натиснете бутона <b>Смяна на паролата</b>, за да смените паролата си."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Въведете паролата си в полето <b>Нова парола</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "Въведете отново паролата си в полето <b>Въведете новата парола</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Двете пароли не съвпадат."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Смяна на _паролата"
+
+#~ msgid "Change password"
+#~ msgstr "Смяна на паролата"
+
+#~ msgid "Change your password"
+#~ msgstr "Смяна на паролата ви"
+
+#~ msgid "Current _password:"
+#~ msgstr "_Текуща парола:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "За да смените паролата си, въведете текущата си парола в полето отдолу и "
+#~ "натиснете <b>Идентификация</b>.\n"
+#~ "След това въведете новата си парола, напишете я пак за потвърждение и "
+#~ "натиснете <b>Смяна на паролата</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Идентификация"
+
+#~ msgid "_New password:"
+#~ msgstr "_Нова парола:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Напишете _отново новата парола:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "_Вход с помощ"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Помощни технологии"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Настройки на помощните технологии"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Промените за включването на помощните технологии ще се усетят чак при "
+#~ "следващото влизане в системата."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Затваряне и _излизане"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Преминаване към прозореца за предпочитани програми"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Преминаване към прозореца за достъпен вход"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Преминаване към прозореца за достъпност на клавиатурата"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Преминаване към прозореца за достъпност на мишката"
+
+#~ msgid "Preferences"
+#~ msgstr "Настройки"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Включване на помощните технологии"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "_Достъпност на клавиатурата"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Достъпност на _мишката"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "П_редпочитани програми"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr "Изберете кои помощни технологии да се включат при влизане"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Добавяне на фон"
+
+#~ msgid "All files"
+#~ msgstr "Всички файлове"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Шрифтът вероятно е прекалено голям"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Избраният шрифт е голям %d точка, което може да затрудни ефективната "
+#~ "работа на този компютър. Препоръчително е да изберете размер по-малък от "
+#~ "%d."
+#~ msgstr[1] ""
+#~ "Избраният шрифт е голям %d точки, което може да затрудни ефективната "
+#~ "работа на този компютър. Препоръчително е да изберете размер по-малък от "
+#~ "%d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Избраният шрифт е голям %d точка, което може да затрудни ефективната "
+#~ "работа на този компютър. Препоръчително е да изберете по-малък шрифт."
+#~ msgstr[1] ""
+#~ "Избраният шрифт е голям %d точки, което може да затрудни ефективната "
+#~ "работа на този компютър. Препоръчително е да изберете по-малък шрифт."
+
+#~ msgid "Use previous font"
+#~ msgstr "Използване на предишния шрифт"
+
+#~ msgid "Use selected font"
+#~ msgstr "Използване на избрания шрифт"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Неуспех при зареждането на файл за потребителския интерфейс: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr ""
+#~ "Посочете името на файл с тема, който да\n"
+#~ "                                       се инсталира"
+
+#~ msgid "filename"
+#~ msgstr "име_на_файла"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Указване на страницата, която да се\n"
+#~ "                                       покаже — „theme“ (тема), "
+#~ "„background“\n"
+#~ "                                       (фон), „fonts“ (шрифтове), "
+#~ "„interface“\n"
+#~ "                                       (интерфейс)"
+
+#~ msgid "page"
+#~ msgstr "страница"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[ФОН…]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Стандартен показалец"
+
+#~ msgid "Install"
+#~ msgstr "Инсталиране"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Тази тема ще изглежда по различен от оригиналния начин, защото "
+#~ "необходимото ѝ графично ядро на GTK+ — „%s“ не е инсталирано."
+
+#~ msgid "Apply Background"
+#~ msgstr "Прилагане на фон"
+
+#~ msgid "Apply Font"
+#~ msgstr "Прилагане на шрифт"
+
+#~ msgid "Revert Font"
+#~ msgstr "Отхвърляне на шрифта"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Текущата тема предлага фон и шрифт. Последното предложение за шрифт може "
+#~ "да бъде отхвърлено."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Текущата тема предлага фон. Последното предложение за шрифт може да бъде "
+#~ "отхвърлено."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Текущата тема предлага фон и шрифт."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Текущата тема предлага шрифт. Последното предложение за шрифт може да "
+#~ "бъде отхвърлено."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Текущата тема предлага фон."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Последното предложение за шрифт може да бъде отхвърлено."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Текущата тема предлага шрифт."
+
+#~ msgid "Best _shapes"
+#~ msgstr "Най-добри _форми"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Най-добър _контраст"
+
+#~ msgid "C_olors:"
+#~ msgstr "_Цветове:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "_Потребителски настройки…"
+
+#~ msgid "Center"
+#~ msgstr "в центъра на екрана"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "Промяната на темата на показалеца се прилага при следващото влизане в "
+#~ "системата."
+
+#~ msgid "Colors"
+#~ msgstr "Цветове"
+
+#~ msgid "Controls"
+#~ msgstr "Бутони и декорации"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Промяна на темата"
+
+#~ msgid "D_etails..."
+#~ msgstr "Под_робности…"
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Шрифт за _работния плот:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Информация за изписването на шрифтовете"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифтове"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Допълнителни фонове от Интернет"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Допълнителни теми от Интернет"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "С_тепени на сивото"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "хоризонтална преливка"
+
+#~ msgid "Icons"
+#~ msgstr "Икони"
+
+#~ msgid "Icons only"
+#~ msgstr "само икони"
+
+#~ msgid "N_one"
+#~ msgstr "Б_ез"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Отваряне на прозорец, за да се определи цвета"
+
+#~ msgid "Pointer"
+#~ msgstr "Показалци"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Разделителна способност:"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Запазване на темата като…"
+
+#~ msgid "Save _As..."
+#~ msgstr "Запазване _като…"
+
+#~ msgid "Save _background image"
+#~ msgstr "Запазване на _фона"
+
+#~ msgid "Scale"
+#~ msgstr "увеличаване в екрана"
+
+#~ msgid "Smoothing"
+#~ msgstr "Заглаждане"
+
+#~ msgid "Solid color"
+#~ msgstr "плътен цвят"
+
+#~ msgid "Span"
+#~ msgstr "Пренасяне"
+
+#~ msgid "Stretch"
+#~ msgstr "разтегляне по екрана"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "_Подпикселно (за LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Подпикселно за_глаждане (за LCD)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Подпикселна подредба"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Text below items"
+#~ msgstr "текст под иконите"
+
+#~ msgid "Text beside items"
+#~ msgstr "текст до иконите"
+
+#~ msgid "Text only"
+#~ msgstr "само текст"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Текущата тема за графични обекти не поддържа цветови схеми."
+
+#~ msgid "Theme"
+#~ msgstr "Тема"
+
+#~ msgid "Tile"
+#~ msgstr "на плочки"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "вертикална преливка"
+
+#~ msgid "Window Border"
+#~ msgstr "Рамки на прозорците"
+
+#~ msgid "_Application font:"
+#~ msgstr "_Шрифт за програмите:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Описание:"
+
+#~ msgid "_Document font:"
+#~ msgstr "Шрифт за _документите:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Р_авноширок шрифт:"
+
+#~ msgid "_Full"
+#~ msgstr "П_ълни"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "_Кутии за въвеждане:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Инсталиране…"
+
+#~ msgid "_Medium"
+#~ msgstr "_Средни"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Черно-бяло"
+
+#~ msgid "_None"
+#~ msgstr "_Без"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_Стандартни настройки"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Избрани записи:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Размер:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Леки"
+
+#~ msgid "_Style:"
+#~ msgstr "_Стил:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Съвети:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Шрифт за _заглавието на прозорците"
+
+#~ msgid "_Windows:"
+#~ msgstr "П_розорци:"
+
+#~ msgid "dots per inch"
+#~ msgstr "точки на инч"
+
+#~ msgid "Appearance"
+#~ msgstr "Външен вид"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Настройване на външния вид на работния плот"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr ""
+#~ "Инсталиране на пакети с теми за различни компоненти на работния плот"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Инсталатор на теми"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Пакет с тема за GNOME"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Без фон на работния плот"
+
+#~ msgid "Slide Show"
+#~ msgstr "Прожекция"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "multiple sizes"
+#~ msgstr "различни размери"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s на %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "пиксел"
+#~ msgstr[1] "пиксела"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Папка: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Папка: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Изображението липсва"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Неуспех при инсталирането на темата"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Инструментът %s не е инсталиран."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Възникна проблем при разархивирането на темата."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Възникна грешка при инсталирането на избрания файл"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "Изглежда „%s“ не е валидна тема."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "Изглежда „%s“ не е валидна тема. Може да е графично ядро, което трябва да "
+#~ "компилирате."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Инсталацията на темата „%s“ е неуспешна."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Темата „%s“ беше инсталирана."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Искате ли да я приложите сега или ще задържите текущата тема?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Запазване на текущата тема"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Прилагане на нова тема"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "Темата за GNOME %s е инсталирана правилно"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Неуспех при създаването на временна папка"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Новите теми  бяха инсталирани успешно."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Не е избран файл с тема, който да се инсталира"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Няма права за достъп, за да се инсталира темата в:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Избор на тема"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Пакети с теми"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Трябва да въведете име"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Темата вече съществува. Искате ли да я замените?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Презаписване"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Искате ли да изтриете тази тема?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Темата не може да бъде изтрита."
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Неуспех при инсталирането графичното ядро на темата"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "„gnome-settings-daemon“ не може да бъде стартиран.\n"
+#~ "Без него някои настройки няма да имат ефект. Това може да означава "
+#~ "проблем с DBus или че вече има работещ мениджър на настройки, който не е "
+#~ "на GNOME (напр. на KDE), и между двата се получава конфликт."
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Копиране на файл: %u от %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Копиране на „%s“"
+
+#~ msgid "Copying files"
+#~ msgstr "Копиране на файлове"
+
+#~ msgid "Parent Window"
+#~ msgstr "Родителски прозорец"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Родителски прозорец на диалога"
+
+#~ msgid "From URI"
+#~ msgstr "От адрес"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "Адрес, от който текущо се прехвърля"
+
+#~ msgid "To URI"
+#~ msgstr "Към адрес"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "Адрес, към който текущо се прехвърля"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Завършена част"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Завършената част от текущия трансфер"
+
+#~ msgid "Current URI index"
+#~ msgstr "Текущ индекс на адрес"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Текущ индекс на адрес — стартира от 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Общо адреси"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Общ брой на адресите"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Файлът „%s“ вече съществува. Искате ли да го презапишете?"
+
+#~ msgid "_Skip"
+#~ msgstr "Пр_опускане"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "_Презаписване на всички"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Стандартен показалец — текущ"
+
+#~ msgid "White Pointer"
+#~ msgstr "Бял показалец"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Бял показалец — текущ"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Голям показалец"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Голям показалец — текущ"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Голям бял показалец — текущ"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Голям бял показалец"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Тази тема ще изглежда по различен от оригиналния начин, защото "
+#~ "необходимата ѝ тема на GTK+ — „%s“ не е инсталирана."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Тази тема ще изглежда по различен от оригиналния начин, защото "
+#~ "необходимата ѝ тема на мениджъра на прозорци — „%s“ не е инсталирана."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Тази тема ще изглежда по различен от оригиналния начин, защото "
+#~ "необходимата ѝ тема с икони — „%s“ не е инсталирана."
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Указване на страницата, която да се\n"
+#~ "                                       покаже — „internet“ (Интернет),\n"
+#~ "                                       „multimedia“ (мултимедия), "
+#~ "„system“\n"
+#~ "                                       (система), „a11y“ (достъпност)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "— стандартни програми на GNOME"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Настройки на екрана"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr "Използване само на настройките и излизане"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr ""
+#~ "Показване на подпрозореца „Почивки при\n"
+#~ "                                    писане“"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Показване на подпрозореца „Достъпност“"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "— Настройки на клавиатурата"
+
+#~ msgid "_Show..."
+#~ msgstr "_Показване…"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr ""
+#~ "Указване на страницата, която да се\n"
+#~ "                                       покаже — „general“ (общи),\n"
+#~ "                                       „accessibility“ (достъпност)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "— Настройки за мишката"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "Неуспех при стартирането на програмата за настройки на мениджъра на "
+#~ "прозорци"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "_Hyper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "_Super (или „Логото на Windows“)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Мета"
+
+#~ msgid "Movement Key"
+#~ msgstr "Клавиш за движение"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Действие на заглавната лента"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Кой клавиш в комбинация с хващане на прозореца води до преместването му."
+
+#~ msgid "Window Preferences"
+#~ msgstr "Предпочитания за прозорец"
+
+#~ msgid "Window Selection"
+#~ msgstr "Избор на прозорец"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Двукратното натискане върху лентата със заглавието:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Интервал преди вдигане:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "Пов_дигане на избрания прозорец след определен интервал"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Избиране на прозорците, когато показалецът преминава над тях"
+
+#~ msgid "seconds"
+#~ msgstr "секунди"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Задаване на настройки за прозореца ви"
+
+#~ msgid "Windows"
+#~ msgstr "Прозорци"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Мениджърът на прозорци „%s“ не е регистрирал инструмент за настройки\n"
+
+#~ msgid "Maximize"
+#~ msgstr "максимизира"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "максимизира вертикално"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "максимизира хоризонтално"
+
+#~ msgid "Minimize"
+#~ msgstr "минимизира"
+
+#~ msgid "Roll up"
+#~ msgstr "навива"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "ключът не е намерен [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Скриване при стартиране (полезно за презареждане на конзолата)"
+
+#~ msgid "Filter"
+#~ msgstr "Филтър"
+
+#~ msgid "Groups"
+#~ msgstr "Групи"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Обичайни задачи"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Затваряне на контролния център при задействането на задача"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Изход от обвивката при действие за добавяне или премахване"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Изход от обвивката при действие за помощта"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Изход от обвивката при действие за стартиране"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "Изход от обвивката при действие за обновяване или деинсталиране"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "Указва дали обвивката да се затвори при действие за помощта."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "Указва дали обвивката да се затвори при действие за стартиране."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Указва дали обвивката да се затвори при действие за добавяне или "
+#~ "премахване."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Указва дали обвивката да се затвори при действие за обновяване или "
+#~ "деинсталиране."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Имена на задачи и свързаните с тях файлове, формат .desktop"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Името на задачата, което се показва в контролния център, последвано от "
+#~ "знака „;“ и името на файла, който е във формат .desktop и се използва за "
+#~ "стартирането на задачата."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Смяна на темата;gtk-theme-selector.desktop,Предпочитани програми;default-"
+#~ "applications.desktop,Добавяне на принтер;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "ако е включено, контролният център ще се затвори при изпълнението на "
+#~ "„Обичайна задача“."
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Филтърът ви „%s“ не напасва с никой запис."
+
+#~ msgid "No matches found."
+#~ msgstr "Няма съвпадения."
+
+#~ msgid "Other"
+#~ msgstr "Други"
+
+#~ msgid "Start %s"
+#~ msgstr "Стартиране на %s"
+
+#~ msgid "Help"
+#~ msgstr "Помощ"
+
+#~ msgid "Upgrade"
+#~ msgstr "Обновяване"
+
+#~ msgid "Uninstall"
+#~ msgstr "Премахване"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Премахване от любимите"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Добавяне към любимите"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Да не се стартира в началото"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Да се стартира в началото"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Нова електронна таблица"
+
+#~ msgid "New Document"
+#~ msgstr "Нов документ"
+
+#~ msgctxt "Home folder"
+#~ msgid "Home"
+#~ msgstr "Домашна папка"
+
+#~ msgid "Documents"
+#~ msgstr "Документи"
+
+#~ msgid "File System"
+#~ msgstr "Файлова система"
+
+#~ msgid "Network Servers"
+#~ msgstr "Мрежови сървъри"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Отваряне</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Преименуване…"
+
+#~ msgid "Send To..."
+#~ msgstr "Изпращане до…"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Преместване в кошчето"
+
+#~ msgid "Delete"
+#~ msgstr "Изтриване"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Сигурни ли сте, че искате да изтриете „%s“?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Ако изтриете обект, той бива безвъзвратно загубен."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Отваряне с „%s“"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Отваряне със стандартната програма"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Отваряне във файловия мениджър"
+
+#~ msgid "Remove from recent menu"
+#~ msgstr "Премахване от менюто на скоро ползваните"
+
+#~ msgid "Purge all the recent items"
+#~ msgstr "Изчистване на всички скоро ползвани обекти"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%k:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Днес %k:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Вчера %k:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %k:%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d %b %k:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Намиране сега"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Отваряне на „%s“</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Премахване от системните елементи"
