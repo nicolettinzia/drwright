@@ -2,21 +2,16 @@ SUBDIRS = src po
 
 ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS}
 
-DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install
-
-INTLTOOL = 				\
-	intltool-extract.in 		\
-	intltool-merge.in 		\
-	intltool-update.in
+DISTCHECK_CONFIGURE_FLAGS =
 
 EXTRA_DIST = 				\
 	AUTHORS 			\
 	ChangeLog			\
-	$(INTLTOOL)			\
-	$(desktop_in_files)		\
-	$(desktop_files)		\
 	autogen.sh			\
-	drwright.doap
+	drwright.doap			\
+	intltool-extract.in             \
+	intltool-merge.in               \
+	intltool-update.in
 
 DISTCLEANFILES = 		\
 	intltool-extract	\
