@@ -652,7 +652,7 @@ popup_about_cb (GtkAction *action, DrWright *dr)
 	};
 
 	for (i = 0; authors [i]; i++)
-		authors [i] = _(authors [i]);
+		authors [i] = (char *) _(authors [i]);
 
 	gtk_show_about_dialog (NULL,
 			       "authors", authors,
