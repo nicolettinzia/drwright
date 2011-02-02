@@ -592,17 +592,36 @@ popup_break_cb (GtkAction *action, DrWright *dr)
 }
 
 static void
+setup_display_cb (gpointer data)
+{
+        g_setenv ("DISPLAY", (char *) data, TRUE);
+}
+
+static void
 popup_preferences_cb (GtkAction *action, DrWright *dr)
 {
 	GdkScreen *screen;
 	GError    *error = NULL;
 	GtkWidget *menu;
-        char *argv[] = { BINDIR"/gnome-control-center", "typing-break", NULL };
+        char *argv[] = { BINDIR "/gnome-control-center", "typing-break", NULL };
+        char *display;
 
 	menu = gtk_ui_manager_get_widget (dr->ui_manager, "/Pop");
 	screen = gtk_widget_get_screen (menu);
 
-	if (!gdk_spawn_on_screen (screen, "/", argv, NULL, 0, NULL, NULL, NULL, &error)) {
+        if (screen != NULL) {
+                display = gdk_screen_make_display_name (screen);
+        } else {
+                display = NULL;
+        }
+
+        if (!g_spawn_async ("/",
+                            argv,
+                            NULL /* envv */,
+                            0,
+                            setup_display_cb, display,
+                            NULL,
+                            &error)) {
 		GtkWidget *error_dialog;
 
 		error_dialog = gtk_message_dialog_new (NULL, 0,
@@ -618,6 +637,8 @@ popup_preferences_cb (GtkAction *action, DrWright *dr)
 
 		g_error_free (error);
 	}
+
+	g_free (display);
 }
 
 static void
