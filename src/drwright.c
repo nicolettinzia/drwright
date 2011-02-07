@@ -40,8 +40,8 @@
 #include "drw-timer.h"
 
 #ifndef HAVE_APP_INDICATOR
-#define BLINK_TIMEOUT        200
-#define BLINK_TIMEOUT_MIN    120
+#define BLINK_TIMEOUT        1000
+#define BLINK_TIMEOUT_MIN    500
 #define BLINK_TIMEOUT_FACTOR 100
 #endif /* HAVE_APP_INDICATOR */
 
