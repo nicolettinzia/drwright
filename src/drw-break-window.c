@@ -348,7 +348,7 @@ clock_timeout_cb (DrwBreakWindow *window)
 
 	priv = window->priv;
 
-	seconds = 1 + priv->break_time - drw_timer_elapsed (priv->timer);
+	seconds = priv->break_time - drw_timer_elapsed (priv->timer);
 	seconds = MAX (0, seconds);
 
 	if (seconds == 0) {
