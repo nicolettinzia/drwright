@@ -106,9 +106,9 @@ AC_SUBST([ccpanelsdir])
 CCPANEL_LDFLAGS="-export_dynamic -avoid-version -module -no-undefined -export-symbols-regex '^g_io_module_(load|unload)'"
 AC_SUBST([CCPANEL_LDFLAGS])
 
-AC_PATH_PROG([GTK_BUILDER_CONVERT],[gtk-builder-convert-3.0],[false])
+AC_PATH_PROG([GTK_BUILDER_CONVERT],[gtk-builder-convert],[false])
 if test "$GTK_BUILDER_CONVERT" = "false"; then
-  AC_MSG_ERROR([gtk-builder-convert-3.0 not found])
+  AC_MSG_ERROR([gtk-builder-convert not found])
 fi
 
 # *********
