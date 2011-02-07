@@ -49,11 +49,14 @@ struct _DrwBreakWindowPrivate {
 	guint      clock_timeout_id;
 	guint      postpone_timeout_id;
 	guint      postpone_sensitize_id;
+        guint      postpone_delay;
 
         GSettings *settings;
 };
 
 #define DRW_BREAK_WINDOW_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), DRW_TYPE_BREAK_WINDOW, DrwBreakWindowPrivate))
+
+#define POSTPONE_DELAY (0 /* ms */)
 
 #define POSTPONE_CANCEL 30
 
@@ -134,6 +137,7 @@ drw_break_window_init (DrwBreakWindow *window)
 	priv->break_time = g_settings_get_int (priv->settings, "break-time");
 
         allow_postpone = g_settings_get_boolean (priv->settings, "allow-postpone");
+        priv->postpone_delay = POSTPONE_DELAY;
 
 	gtk_window_set_keep_above (GTK_WINDOW (window), TRUE);
 	gtk_window_fullscreen (GTK_WINDOW (window));
@@ -181,15 +185,13 @@ drw_break_window_init (DrwBreakWindow *window)
 		priv->postpone_button = gtk_button_new_with_mnemonic (_("_Postpone Break"));
 		gtk_widget_show (priv->postpone_button);
 
-		gtk_widget_set_sensitive (priv->postpone_button, FALSE);
+                if (priv->postpone_delay > 0) {
+                        gtk_widget_set_sensitive (priv->postpone_button, FALSE);
 
-		if (priv->postpone_sensitize_id) {
-			g_source_remove (priv->postpone_sensitize_id);
-		}
-
-		priv->postpone_sensitize_id = g_timeout_add_seconds (5,
-								     (GSourceFunc) postpone_sensitize_cb,
-								     window);
+                        priv->postpone_sensitize_id = g_timeout_add (priv->postpone_delay,
+                                                                     (GSourceFunc) postpone_sensitize_cb,
+                                                                     window);
+                }
 
 		g_signal_connect (priv->postpone_button,
 				  "clicked",
@@ -253,9 +255,7 @@ static void
 drw_break_window_finalize (GObject *object)
 {
 	DrwBreakWindow        *window = DRW_BREAK_WINDOW (object);
-	DrwBreakWindowPrivate *priv;
-
-	priv = window->priv;
+	DrwBreakWindowPrivate *priv = window->priv;
 
 	if (priv->clock_timeout_id != 0) {
 		g_source_remove (priv->clock_timeout_id);
@@ -271,8 +271,6 @@ drw_break_window_finalize (GObject *object)
 
         g_object_unref (priv->settings);
 
-	window->priv = NULL;
-
 	G_OBJECT_CLASS (drw_break_window_parent_class)->finalize (object);
 }
 
@@ -280,9 +278,7 @@ static void
 drw_break_window_dispose (GObject *object)
 {
 	DrwBreakWindow        *window = DRW_BREAK_WINDOW (object);
-	DrwBreakWindowPrivate *priv;
-
-	priv = window->priv;
+	DrwBreakWindowPrivate *priv = window->priv;
 
 	if (priv->timer) {
 		drw_timer_destroy (priv->timer);
@@ -303,9 +299,7 @@ drw_break_window_dispose (GObject *object)
 		g_source_remove (priv->postpone_sensitize_id);
 	}
 
-	if (G_OBJECT_CLASS (drw_break_window_parent_class)->dispose) {
-		(* G_OBJECT_CLASS (drw_break_window_parent_class)->dispose) (object);
-	}
+        G_OBJECT_CLASS (drw_break_window_parent_class)->dispose (object);
 }
 
 GtkWidget *
