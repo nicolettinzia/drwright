@@ -131,7 +131,7 @@ drw_break_window_init (DrwBreakWindow *window)
 
         priv->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
 
-	priv->break_time = 60 * g_settings_get_int (priv->settings, "break-time");
+	priv->break_time = g_settings_get_int (priv->settings, "break-time");
 
         allow_postpone = g_settings_get_boolean (priv->settings, "allow-postpone");
 

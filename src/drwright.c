@@ -561,11 +561,11 @@ settings_change_cb (GSettings  *settings,
         dr->state = STATE_START;
 
         if (!key || key == I_("type-time")) {
-                dr->type_time = 60 * g_settings_get_int (settings, "type-time");
+                dr->type_time = g_settings_get_int (settings, "type-time");
                 dr->warn_time = MIN (dr->type_time / 10, WARN_TIME_MAX);
 	}
 	if (!key || key == I_("break-time")) {
-                dr->break_time = 60 * g_settings_get_int (settings, "break-time");
+                dr->break_time = g_settings_get_int (settings, "break-time");
 	}
 	if (!key || key == I_("enabled")) {
                 GtkAction *action;

@@ -33,14 +33,14 @@
       <_summary>Whether the typing break can be postponed</_summary>
     </key>
     <key name="type-time" type="i">
-      <range min="5" max="120" />
-      <default>60</default>
+      <range min="300" max="7200" />
+      <default>3600</default>
       <_summary>Number of minutes of typing time before break mode starts</_summary>
     </key>
     <key name="break-time" type="i">
-      <range min="1" max="60" />
-      <default>3</default>
-      <_summary>Number of minutes that the typing break should last</_summary>
+      <range min="30" max="3600" />
+      <default>180</default>
+      <_summary>Number of seconds that the typing break should last</_summary>
     </key>
     <key name="unlock-phrase" type="s">
       <default>''</default>

@@ -22,6 +22,9 @@
 
 #include <config.h>
 
+#include <errno.h>
+#include <string.h>
+
 #include "drw-cc-panel.h"
 
 #define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.typing-break"
@@ -36,6 +39,64 @@ struct _DrwCcPanelPrivate
   gpointer dummy;
 };
 #endif
+
+static int
+spinbutton_input_cb (GtkWidget *button,
+                     gpointer *ret,
+                     gpointer user_data)
+{
+  const char *text;
+  char *end;
+  gint64 value, v;
+
+  text = gtk_entry_get_text (GTK_ENTRY (button));
+
+  value = 0;
+  do {
+    value *= 60;
+
+    errno = 0;
+    end = NULL;
+    v = strtoll (text, &end, 10);
+    if (errno ||
+        !end || (*end != '\0' && *end != ':') ||
+        v < 0 || v >= 60) {
+      return GTK_INPUT_ERROR;
+    }
+
+    value += v;
+    text = strchr (text, ':');
+    if (text)
+      text++;
+  } while (text);
+
+  * (gdouble *) ret = value;
+  return TRUE;
+}
+
+static gboolean
+spinbutton_output_cb (GtkSpinButton *button,
+                      gpointer user_data)
+{
+  char buf[64];
+  int value;
+  int h, m, s;
+
+  value = (int) (gtk_spin_button_get_value (button) + .5);
+
+  h = value / 3600;
+  value %= 3600;
+  m = value / 60;
+  s = value % 60;
+
+  if (h > 0)
+    g_snprintf (buf, sizeof (buf), "%u:%02u:%02u", h, m, s);
+  else
+    g_snprintf (buf, sizeof (buf), "%u:%02u", m, s);
+
+  gtk_entry_set_text (GTK_ENTRY (button), buf);
+  return TRUE;
+}
 
 static void
 drw_cc_panel_get_property (GObject    *object,
@@ -126,12 +187,26 @@ drw_cc_panel_init (DrwCcPanel *self)
                    gtk_builder_get_object (builder, "inner-box"),
                    "sensitive",
                    G_SETTINGS_BIND_GET);
+  widget = (GtkWidget *) gtk_builder_get_object (builder, "work-interval-spinbutton");
+  gtk_entry_set_width_chars (GTK_ENTRY (widget), 8);
+  gtk_entry_set_alignment (GTK_ENTRY (widget), 1.0);
+  g_signal_connect (widget, "input",
+                    G_CALLBACK (spinbutton_input_cb), NULL);
+  g_signal_connect (widget, "output",
+                    G_CALLBACK (spinbutton_output_cb), NULL);
   g_settings_bind (settings, "type-time",
-                   gtk_spin_button_get_adjustment (GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "work-interval-spinbutton"))),
+                   gtk_spin_button_get_adjustment (GTK_SPIN_BUTTON (widget)),
                    "value",
                    G_SETTINGS_BIND_DEFAULT);
+  widget = (GtkWidget *) gtk_builder_get_object (builder, "break-interval-spinbutton");
+  gtk_entry_set_width_chars (GTK_ENTRY (widget), 8);
+  gtk_entry_set_alignment (GTK_ENTRY (widget), 1.0);
+  g_signal_connect (widget, "input",
+                    G_CALLBACK (spinbutton_input_cb), NULL);
+  g_signal_connect (widget, "output",
+                    G_CALLBACK (spinbutton_output_cb), NULL);
   g_settings_bind (settings, "break-time",
-                   gtk_spin_button_get_adjustment (GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "break-interval-spinbutton"))),
+                   gtk_spin_button_get_adjustment (GTK_SPIN_BUTTON (widget)),
                    "value",
                    G_SETTINGS_BIND_DEFAULT);
   g_settings_bind (settings, "allow-postpone",

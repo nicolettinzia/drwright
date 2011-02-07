@@ -136,8 +136,8 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 gsettings_schemas_in_files = org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in
 gsettings_SCHEMAS = $(gsettings_schemas_in_files:.gschema.xml.in=.gschema.xml)
 
-gsettings_convertdir = $(datadir)/GConf/gsettings
-dist_gsettings_convert_DATA = drwright.convert
+# gsettings_convertdir = $(datadir)/GConf/gsettings
+# dist_gsettings_convert_DATA = drwright.convert
 
 @GSETTINGS_RULES@
 @INTLTOOL_XML_NOMERGE_RULE@
