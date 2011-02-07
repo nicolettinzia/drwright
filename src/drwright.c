@@ -147,9 +147,9 @@ extern gboolean debug;
 static void
 setup_debug_values (DrWright *dr)
 {
-	dr->type_time = 5;
-	dr->warn_time = 4;
-	dr->break_time = 10;
+	dr->type_time = 300;
+	dr->warn_time = 150;
+	dr->break_time = 60;
 }
 
 #ifdef HAVE_APP_INDICATOR
