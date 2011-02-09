@@ -35,7 +35,7 @@
     <key name="type-time" type="i">
       <range min="300" max="7200" />
       <default>3600</default>
-      <_summary>Number of minutes of typing time before break mode starts</_summary>
+      <_summary>Number of seconds of typing time before break mode starts</_summary>
     </key>
     <key name="break-time" type="i">
       <range min="30" max="3600" />
