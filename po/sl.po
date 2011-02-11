@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=drwright&component=general\n"
-"POT-Creation-Date: 2010-11-20 22:13+0000\n"
-"PO-Revision-Date: 2010-11-22 09:08+0100\n"
+"POT-Creation-Date: 2011-02-09 12:49+0000\n"
+"PO-Revision-Date: 2011-02-11 08:59+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -68,42 +68,42 @@ msgstr "Čas je za premor (naslednji bo če manj kot minuto)"
 msgid "Less than one minute until the next break"
 msgstr "Manj kot minuta do naslednjega premora"
 
-#: ../src/drwright.c:611
+#: ../src/drwright.c:630
 #, c-format
 msgid "Unable to bring up the typing break properties dialog with the following error: %s"
 msgstr "Ni mogoče prikazati pogovornega okna lastnosti premora tipkanja zaradi napake: %s"
 
-#: ../src/drwright.c:628
+#: ../src/drwright.c:649
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Program je napisal Richard Hult <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../src/drwright.c:650
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Program je grafično oblikoval Anders Carlsson"
 
-#: ../src/drwright.c:638
+#: ../src/drwright.c:659
 msgid "A computer break reminder."
 msgstr "Opomnik za  premor."
 
-#: ../src/drwright.c:640
+#: ../src/drwright.c:661
 msgid "translator-credits"
 msgstr "Matej Urbančič <mateju@svn.gnome.org>"
 
-#: ../src/drw-break-window.c:181
+#: ../src/drw-break-window.c:185
 msgid "_Postpone Break"
 msgstr "_Preloži odmor"
 
-#: ../src/drw-break-window.c:227
+#: ../src/drw-break-window.c:229
 msgid "Take a break!"
 msgstr "Čas je za odmor!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
-msgstr "Čas tipkanja v minutah, preden se začne premor"
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "Čas tipkanja v sekundah, preden se začne način premora"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
-msgstr "Število minut kolikor naj traja premor"
+msgid "Number of seconds that the typing break should last"
+msgstr "Število sekund, kolikor naj traja premor tipkanja"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
@@ -151,7 +151,5 @@ msgstr "_Zakleni zaslon za vsiljen premor med tipkanjem"
 msgid "_Work interval lasts:"
 msgstr "Časovni _razmik traja:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "minut"
-
+#~ msgid "minutes"
+#~ msgstr "minut"
