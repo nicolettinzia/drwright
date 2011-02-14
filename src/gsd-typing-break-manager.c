@@ -56,7 +56,6 @@ struct GsdTypingBreakManagerPrivate
 
 static void     gsd_typing_break_manager_class_init  (GsdTypingBreakManagerClass *klass);
 static void     gsd_typing_break_manager_init        (GsdTypingBreakManager      *typing_break_manager);
-static void     gsd_typing_break_manager_finalize    (GObject             *object);
 
 G_DEFINE_TYPE (GsdTypingBreakManager, gsd_typing_break_manager, G_TYPE_OBJECT)
 
@@ -220,8 +219,6 @@ gsd_typing_break_manager_class_init (GsdTypingBreakManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = gsd_typing_break_manager_finalize;
-
         g_type_class_add_private (klass, sizeof (GsdTypingBreakManagerPrivate));
 }
 
@@ -229,14 +226,6 @@ static void
 gsd_typing_break_manager_init (GsdTypingBreakManager *manager)
 {
         manager->priv = GSD_TYPING_BREAK_MANAGER_GET_PRIVATE (manager);
-}
-
-static void
-gsd_typing_break_manager_finalize (GObject *object)
-{
-        GsdTypingBreakManager *typing_break_manager = GSD_TYPING_BREAK_MANAGER (object);
-
-        G_OBJECT_CLASS (gsd_typing_break_manager_parent_class)->finalize (object);
 }
 
 GsdTypingBreakManager *
