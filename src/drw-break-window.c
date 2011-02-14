@@ -127,7 +127,6 @@ drw_break_window_init (DrwBreakWindow *window)
 	GdkRectangle           monitor;
 	gint                   right_padding;
 	gint                   bottom_padding;
-	GSettings             *settings;
 
 	priv = DRW_BREAK_WINDOW_GET_PRIVATE (window);
 	window->priv = priv;
