@@ -827,9 +827,7 @@ DrWright *
 drwright_new (void)
 {
 	DrWright  *dr;
-	GtkWidget *item;
 	GtkActionGroup *action_group;
-        GSettings *settings;
 
 	static const char ui_description[] =
 	  "<ui>"
