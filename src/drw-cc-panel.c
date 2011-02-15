@@ -174,7 +174,7 @@ drw_cc_panel_init (DrwCcPanel *self)
   widget = (GtkWidget *) gtk_builder_get_object (builder, "typing-break-preferences-box");
   gtk_widget_reparent (widget, GTK_WIDGET (self));
 
-  widget = (GtkWidget *) gtk_builder_get_object (builder, "toplevel");
+  widget = (GtkWidget *) gtk_builder_get_object (builder, "typing-break-preferences-dialog");
   gtk_widget_destroy (widget);
 
   /* Now connect the settings */
