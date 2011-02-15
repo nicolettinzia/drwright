@@ -4,7 +4,7 @@
 <glade-interface>
 
 <widget class="GtkWindow" id="typing-break-preferences-dialog">
-  <property name="title">toplevel</property>
+  <property name="title">window1</property>
   <property name="type">GTK_WINDOW_TOPLEVEL</property>
   <property name="window_position">GTK_WIN_POS_NONE</property>
   <property name="modal">False</property>
