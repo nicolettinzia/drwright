@@ -24,6 +24,10 @@
       <default>true</default>
       <_summary>Whether the settings daemon should activate the typing break plugin</_summary>
     </key>
+    <key type="i" name="priority">
+      <default>100</default>
+      <_summary>Priority to use for this plugin</_summary>
+    </key>
     <key name="enabled" type="b">
       <default>true</default>
       <_summary>Whether typing break is enabled</_summary>
