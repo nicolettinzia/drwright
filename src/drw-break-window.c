@@ -56,7 +56,7 @@ struct _DrwBreakWindowPrivate {
 
 #define DRW_BREAK_WINDOW_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), DRW_TYPE_BREAK_WINDOW, DrwBreakWindowPrivate))
 
-#define POSTPONE_DELAY (0 /* ms */)
+#define POSTPONE_DELAY (10 /* ms */)
 
 #define POSTPONE_CANCEL 30
 
@@ -182,6 +182,7 @@ drw_break_window_init (DrwBreakWindow *window)
 		gtk_container_set_border_width (GTK_CONTAINER (button_box), 12);
 
 		priv->postpone_button = gtk_button_new_with_mnemonic (_("_Postpone Break"));
+                gtk_button_set_focus_on_click (GTK_BUTTON (priv->postpone_button), FALSE);
 		gtk_widget_show (priv->postpone_button);
 
                 if (priv->postpone_delay > 0) {
@@ -238,6 +239,8 @@ drw_break_window_init (DrwBreakWindow *window)
 	gtk_box_pack_start (GTK_BOX (vbox), priv->clock_label, TRUE, TRUE, 8);
 
 	gtk_window_stick (GTK_WINDOW (window));
+
+        gtk_window_set_focus (GTK_WINDOW (window), NULL);
 
 	priv->timer = drw_timer_new ();
 
