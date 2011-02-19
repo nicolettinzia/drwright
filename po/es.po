@@ -32,15 +32,15 @@
 # Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002,2003.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
 # Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007.
-# Jorge González <jorgegonz@svn.gnome.org>, 2008, 2007, 2009, 2010.
+# Jorge González <jorgegonz@svn.gnome.org>, 2008, 2007, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center.HEAD\n"
+"Project-Id-Version: drwright.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=drwright&component=general\n"
-"POT-Creation-Date: 2010-11-20 22:13+0000\n"
-"PO-Revision-Date: 2010-12-02 19:15+0100\n"
+"POT-Creation-Date: 2011-02-15 19:58+0000\n"
+"PO-Revision-Date: 2011-02-19 15:05+0100\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "Descansar ahora (el siguiente en menos de un minuto)"
 msgid "Less than one minute until the next break"
 msgstr "Menos de un minuto hasta el siguiente descanso"
 
-#: ../src/drwright.c:611
+#: ../src/drwright.c:630
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -120,19 +120,19 @@ msgstr ""
 "No se puede mostrar el diálogo de las propiedades del descanso de escritura "
 "por el siguiente error: %s"
 
-#: ../src/drwright.c:628
+#: ../src/drwright.c:649
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Escrito por Richard Hult <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../src/drwright.c:650
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Interfaz más agradable añadida por Anders Carlsson"
 
-#: ../src/drwright.c:638
+#: ../src/drwright.c:659
 msgid "A computer break reminder."
 msgstr "Un recordatorio para los descansos frente al equipo."
 
-#: ../src/drwright.c:640
+#: ../src/drwright.c:661
 msgid "translator-credits"
 msgstr ""
 "Jorge González <jorgegonz@svn.gnome.org>, 2007, 2010\n"
@@ -147,39 +147,45 @@ msgstr ""
 "Lucas Di Pentima <lucas@lunix.com.ar>, 2002\n"
 "Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002, 2003"
 
-#: ../src/drw-break-window.c:181
+#: ../src/drw-break-window.c:184
 msgid "_Postpone Break"
 msgstr "_Posponer el descanso"
 
-#: ../src/drw-break-window.c:227
+#: ../src/drw-break-window.c:228
 msgid "Take a break!"
 msgstr "¡Tómese un descanso!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+#| msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
-"Número de minutos del tiempo de tecleo antes de que el modo de descanso se "
+"Número de segundos de tiempo de tecleo antes de que el modo de descanso se "
 "active"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
-msgstr "Número de minutos que descanso de tecleo debería durar"
+#| msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
+msgstr "Número de segundos que el descanso de tecleo debería durar"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
 msgstr "Frase para desbloquear la pantalla de pausa"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr "Prioridad de uso para este complemento"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 "Indica si el demonio de configuración debería activar el complemento de "
 "descanso de tecleo"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 msgid "Whether the typing break can be postponed"
 msgstr "Indica si el descanso de tecleo se puede posponer"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Whether typing break is enabled"
 msgstr "Indica si el descanso de tecleo está activado"
 
@@ -212,9 +218,8 @@ msgstr "B_loquear la pantalla para forzar un descanso de escritura"
 msgid "_Work interval lasts:"
 msgstr "D_uración del intervalo de trabajo:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "minutos"
+#~ msgid "minutes"
+#~ msgstr "minutos"
 
 #~ msgid "    "
 #~ msgstr "    "
