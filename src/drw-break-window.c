@@ -49,9 +49,10 @@ struct _DrwBreakWindowPrivate {
 	guint      clock_timeout_id;
 	guint      postpone_timeout_id;
 	guint      postpone_sensitize_id;
-        guint      postpone_delay;
+	guint      postpone_delay;
+	gint       elapsed_idle_time;
 
-        GSettings *settings;
+	GSettings *settings;
 };
 
 #define DRW_BREAK_WINDOW_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), DRW_TYPE_BREAK_WINDOW, DrwBreakWindowPrivate))
@@ -59,6 +60,8 @@ struct _DrwBreakWindowPrivate {
 #define POSTPONE_DELAY (10 /* ms */)
 
 #define POSTPONE_CANCEL 30
+
+#define ELAPSED_IDLE_INTERVAL 30 /* s */
 
 /* Signals */
 enum {
@@ -137,6 +140,8 @@ drw_break_window_init (DrwBreakWindow *window)
 
         allow_postpone = g_settings_get_boolean (priv->settings, "allow-postpone");
         priv->postpone_delay = POSTPONE_DELAY;
+
+	priv->elapsed_idle_time = 0;
 
 	gtk_window_set_keep_above (GTK_WINDOW (window), TRUE);
 	gtk_window_fullscreen (GTK_WINDOW (window));
@@ -319,6 +324,14 @@ drw_break_window_new (void)
 	return GTK_WIDGET (object);
 }
 
+void
+drw_break_window_set_elapsed_idle_time (DrwBreakWindow *window, gint seconds)
+{
+	/* account for elapsed idle time in blocks of ELAPSED_IDLE_INTERVAL */
+	window->priv->elapsed_idle_time =
+		(seconds / ELAPSED_IDLE_INTERVAL) * ELAPSED_IDLE_INTERVAL;
+}
+
 static gboolean
 postpone_sensitize_cb (DrwBreakWindow *window)
 {
@@ -344,7 +357,7 @@ clock_timeout_cb (DrwBreakWindow *window)
 
 	priv = window->priv;
 
-	seconds = priv->break_time - drw_timer_elapsed (priv->timer);
+	seconds = priv->break_time - drw_timer_elapsed (priv->timer) - priv->elapsed_idle_time;
 	seconds = MAX (0, seconds);
 
 	if (seconds == 0) {

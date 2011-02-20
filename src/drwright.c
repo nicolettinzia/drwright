@@ -423,6 +423,9 @@ maybe_change_state (DrWright *dr)
 
 		dr->break_window = drw_break_window_new ();
 
+		drw_break_window_set_elapsed_idle_time (DRW_BREAK_WINDOW (dr->break_window),
+		                                        elapsed_idle_time);
+
 		g_signal_connect (dr->break_window, "map_event",
 				  G_CALLBACK (break_window_map_event_cb),
 				  dr);
