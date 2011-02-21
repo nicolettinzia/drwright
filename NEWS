@@ -1,3 +1,12 @@
+Typing Break 2.91.90
+====================
+* Translation updates
+* Fix a critical warning in the control centre panel (#642340)
+* Some gcc 4.6 warning fixes (#642339, Christopher Aillon)
+* Fix g-s-d plugin schema (#642416, Christopher Aillon)
+* Don't focus the Postpone button in the break window by default (#642525)
+* Account for idle time when starting a typing break (#642788, Christopher Aillon)
+
 Typing Break 2.91.1
 ===================
 
