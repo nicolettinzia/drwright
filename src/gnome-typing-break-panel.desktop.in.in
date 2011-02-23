@@ -7,7 +7,7 @@ Terminal=false
 Type=Application
 StartupNotify=true
 # The X-GNOME-Settings-Panel is necessary to show in the main shell UI
-Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;
 OnlyShowIn=GNOME;
 X-GNOME-Settings-Panel=typing-break
 # Translators: those are keywords for the example control-center panel
