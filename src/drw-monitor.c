@@ -55,43 +55,15 @@ static void     drw_monitor_init          (DrwMonitor      *monitor);
 static void     drw_monitor_finalize      (GObject         *object);
 static gboolean drw_monitor_setup         (DrwMonitor      *monitor);
 
-static GObjectClass *parent_class;
 static guint signals[LAST_SIGNAL];
 
-
-GType
-drw_monitor_get_type (void)
-{
-	static GType object_type = 0;
-
-	if (!object_type) {
-		static const GTypeInfo object_info = {
-			sizeof (DrwMonitorClass),
-			NULL,		/* base_init */
-			NULL,		/* base_finalize */
-			(GClassInitFunc) drw_monitor_class_init,
-			NULL,		/* class_finalize */
-			NULL,		/* class_data */
-			sizeof (DrwMonitor),
-			0,              /* n_preallocs */
-			(GInstanceInitFunc) drw_monitor_init,
-		};
-
-		object_type = g_type_register_static (G_TYPE_OBJECT,
-                                                      "DrwMonitor", 
-                                                      &object_info, 0);
-	}
-
-	return object_type;
-}
+G_DEFINE_TYPE (DrwMonitor, drw_monitor, G_TYPE_OBJECT)
 
 static void
 drw_monitor_class_init (DrwMonitorClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 	
-        parent_class = G_OBJECT_CLASS (g_type_class_peek_parent (klass));
-        
         object_class->finalize = drw_monitor_finalize;
 
 	signals[ACTIVITY] = 
@@ -102,15 +74,16 @@ drw_monitor_class_init (DrwMonitorClass *klass)
 			      NULL, NULL,
 			      g_cclosure_marshal_VOID__VOID,
 			      G_TYPE_NONE, 0);
+
+        g_type_class_add_private (klass, sizeof (DrwMonitorPriv));
 }
 
 static void
 drw_monitor_init (DrwMonitor *monitor)
 {
-        DrwMonitorPriv *priv;
-        
-        priv = g_new0 (DrwMonitorPriv, 1);
-        monitor->priv = priv;
+        monitor->priv = G_TYPE_INSTANCE_GET_PRIVATE (monitor,
+                                                     DRW_TYPE_MONITOR,
+                                                     DrwMonitorPriv);
 
 	drw_monitor_setup (monitor);
 }
@@ -119,33 +92,25 @@ static void
 drw_monitor_finalize (GObject *object)
 {
         DrwMonitor     *monitor = DRW_MONITOR (object);
-        DrwMonitorPriv *priv;
-        
-        priv = monitor->priv;
+        DrwMonitorPriv *priv = monitor->priv;
 
 	g_source_remove (priv->timeout_id);
 	priv->timeout_id = 0;
 
 	if (priv->ss_info) {
 		XFree (priv->ss_info);
+                priv->ss_info = NULL;
 	}
-	
-	g_free (priv);
-	monitor->priv = NULL;
 
-        if (G_OBJECT_CLASS (parent_class)->finalize) {
-                (* G_OBJECT_CLASS (parent_class)->finalize) (object);
-        }
+        G_OBJECT_CLASS (drw_monitor_parent_class)->finalize (object);
 }
 
 static gboolean
 drw_monitor_timeout (DrwMonitor *monitor)
 {
-	DrwMonitorPriv *priv;
+	DrwMonitorPriv *priv = monitor->priv;
  	time_t          now;
 
-	priv = monitor->priv;
-	
 	if (XScreenSaverQueryInfo (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()),
 	                           DefaultRootWindow (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ())),
 	                           priv->ss_info) != 0) {
@@ -168,11 +133,9 @@ drw_monitor_timeout (DrwMonitor *monitor)
 static gboolean
 drw_monitor_setup (DrwMonitor *monitor)
 {
-	DrwMonitorPriv *priv;
+	DrwMonitorPriv *priv = monitor->priv;
 	int             event_base;
 	int             error_base;
-
-	priv = monitor->priv;
 
 	if (!XScreenSaverQueryExtension (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()),
 	                                 &event_base, &error_base)) {
@@ -193,4 +156,3 @@ drw_monitor_new (void)
 {
 	return g_object_new (DRW_TYPE_MONITOR, NULL);
 }
-
