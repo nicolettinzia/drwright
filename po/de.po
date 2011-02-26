@@ -4,7 +4,7 @@
 # This file is distributed under the same license as the DrWright package.
 # Michael Piefel <piefel@informatik.hu-berlin.de>, 2003.
 # Christian Neumair <chris@gnome-de.org>, 2003.
-# Mario Blättermann <mariobl@gnome.org>, 2010.
+# Mario Blättermann <mariobl@gnome.org>, 2010, 2011.
 #
 #
 # #-#-#-#-#  de.po (gnome-settings-daemon master)  #-#-#-#-#
@@ -45,15 +45,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-03 22:09+0100\n"
-"PO-Revision-Date: 2010-12-03 22:08+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&component=general\n"
+"POT-Creation-Date: 2011-02-15 19:58+0000\n"
+"PO-Revision-Date: 2011-02-26 21:45+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: KAider 0.1\n"
 "X-Poedit-Language: German\n"
@@ -114,7 +115,7 @@ msgstr "Jetzt eine Pause einlegen (nächste in weniger als einer Minute)"
 msgid "Less than one minute until the next break"
 msgstr "Weniger als eine Minute bis zur nächsten Pause"
 
-#: ../src/drwright.c:611
+#: ../src/drwright.c:630
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -123,19 +124,19 @@ msgstr ""
 "Der Tipppausen-Eigenschaftsdialog konnte auf Grund folgenden Fehlers nicht "
 "angezeigt werden: %s"
 
-#: ../src/drwright.c:628
+#: ../src/drwright.c:649
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Geschrieben von Richard Hult <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../src/drwright.c:650
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Augenschmaus von Anders Carlsson"
 
-#: ../src/drwright.c:638
+#: ../src/drwright.c:659
 msgid "A computer break reminder."
 msgstr "Ein Pausenerinnerer für den Computer."
 
-#: ../src/drwright.c:640
+#: ../src/drwright.c:661
 msgid "translator-credits"
 msgstr ""
 "Christian Kintner <mail@christian-kintner.de>\n"
@@ -144,20 +145,22 @@ msgstr ""
 "Mario Blättermann <mariobl@gnome.org>"
 
 # CHECK
-#: ../src/drw-break-window.c:181
+#: ../src/drw-break-window.c:184
 msgid "_Postpone Break"
 msgstr "Pause _verschieben"
 
-#: ../src/drw-break-window.c:227
+#: ../src/drw-break-window.c:228
 msgid "Take a break!"
 msgstr "Zeit für eine Tipppause!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+#| msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr "Anzahl der aktiven Minuten, bevor der Unterbrechungsmodus beginnt"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+#| msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr "Anzahl der Minuten, die die Tipppause dauern soll"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -165,15 +168,19 @@ msgid "Phrase to unlock the break screen with"
 msgstr "Kennwort zum Aufheben der Unterbrechung"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr "Priorität zur Verwendung dieses Plugins"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 "Legt fest, ob der Einstellungsdienst das Tipppausen-Plugin aktivieren soll"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 msgid "Whether the typing break can be postponed"
 msgstr "Legt fest, ob die Tipppause verschoben werden kann"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Whether typing break is enabled"
 msgstr "Legt fest, ob der Pausenerinnerer aktiviert ist."
 
@@ -206,348 +213,3 @@ msgstr "Bildschirm sperren und so eine _Tipppause erzwingen"
 msgid "_Work interval lasts:"
 msgstr "_Arbeitsintervall dauert:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "Minuten"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "<b>Break</b>"
-#~ msgstr "<b>Pause</b>"
-
-#, fuzzy
-#~ msgid "<b>Work</b>"
-#~ msgstr ""
-#~ "#-#-#-#-#  de.po (DrWright HEAD)  #-#-#-#-#\n"
-#~ "<b>Arbeit</b>\n"
-#~ "#-#-#-#-#  de.po (gnome-control-center master)  #-#-#-#-#\n"
-#~ "<b>Arbeitsplatz</b>"
-
-#~ msgid "Check if breaks are allowed to be postponed"
-#~ msgstr "Legt fest, ob Pausen verschoben werden dürfen"
-
-#~ msgid "DrWright Preferences"
-#~ msgstr "DrWright Einstellungen"
-
-#, fuzzy
-#~ msgid "Duration of the break when typing is disallowed"
-#~ msgstr ""
-#~ "#-#-#-#-#  de.po (DrWright HEAD)  #-#-#-#-#\n"
-#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
-#~ "#-#-#-#-#  de.po (gnome-control-center master)  #-#-#-#-#\n"
-#~ "Dauer der Pause, während der das Tippen unterbunden wird"
-
-#~ msgid "Duration of warning before starting a break"
-#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
-
-#, fuzzy
-#~ msgid "Duration of work before forcing a break"
-#~ msgstr ""
-#~ "#-#-#-#-#  de.po (DrWright HEAD)  #-#-#-#-#\n"
-#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
-#~ "#-#-#-#-#  de.po (gnome-control-center master)  #-#-#-#-#\n"
-#~ "Arbeitsdauer, bevor eine Pause erzwungen wird"
-
-#~ msgid "Optional phrase to use for postponing a break"
-#~ msgstr ""
-#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
-#~ "soll"
-
-#~ msgid "_Break interval lasts"
-#~ msgstr "_Pausenzeit dauert"
-
-#~ msgid "_Warning time is"
-#~ msgstr "_Vorwarnzeit ist"
-
-#~ msgid "_Work interval lasts"
-#~ msgstr "_Arbeitszeit dauert"
-
-#~ msgid "DrWright is already running."
-#~ msgstr "DrWright läuft bereits."
-
-#~ msgid ""
-#~ "DrWright uses the notification area to display information. You don't seem "
-#~ "to have a notification area on your panel. You can add it by right-"
-#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
-#~ "Notification area'."
-#~ msgstr ""
-#~ "DrWright verwendet das Benachrichtigungsfeld, um Informationen anzuzeigen. "
-#~ "Auf Ihrem Panel scheint sich kein Benachrichtigungsfeld zu befinden. Sie "
-#~ "können es hinzufügen, indem Sie auf Ihr Panel rechtsklicken und »Zum Panel "
-#~ "hinzufügen -> Werkzeuge -> Benachrichtigungsfeld« anklicken."
-
-#~ msgid "/_Enabled"
-#~ msgstr "/_Aktiviert"
-
-#~ msgid "/_Take a Break"
-#~ msgstr "/Eine _Pause nehmen"
-
-#~ msgid "/_Preferences"
-#~ msgstr "/_Einstellungen"
-
-#~ msgid "/_About"
-#~ msgstr "/_Über"
-
-#~ msgid "/_Remove Icon"
-#~ msgstr "/_Symbol entfernen"
-
-#~ msgid "%d minutes until the next break"
-#~ msgstr "%d Minuten bis zur nächsten Pause"
-
-#~ msgid "One minute until the next break"
-#~ msgstr "Eine Minute bis zur nächsten Pause"
-
-#~ msgid "Quit DrWright?"
-#~ msgstr "DrWright beenden?"
-
-#~ msgid "Don't forget to take regular breaks."
-#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
-
-#~ msgid "Don't Quit"
-#~ msgstr "Nicht beenden"
-
-#~ msgid "Quit"
-#~ msgstr "Beenden"
-
-#~ msgid "About DrWright"
-#~ msgstr "Info zu DrWright"
-
-#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-#~ msgstr "Geschrieben von Richard Hult &lt;rhult@codefactory.se&gt;"
-
-#~ msgid "Break reminder"
-#~ msgstr "Pausenerinnerer"
-
-#~ msgid "_Postpone break"
-#~ msgstr "Pause verschie_ben"
-
-#~ msgid "Accessibility"
-#~ msgstr "Barrierefreiheit"
-
-#~ msgid "Free percentage notify threshold"
-#~ msgstr "Freier Platz (in Prozent) zum Auslösen einer Warnung"
-
-#~ msgid "Free space no notify threshold"
-#~ msgstr "Freier Platz zum Auslösen einer Warnung"
-
-#~ msgid "Minimum notify period for repeated warnings"
-#~ msgstr "Minimaler Warnintervall für wiederholte Warnungen"
-
-#~ msgid "Mount paths to ignore"
-#~ msgstr "Zu ignorierende Einhängepfade"
-
-#~ msgid ""
-#~ "Percentage free space threshold for initial warning of low disk space. If "
-#~ "the percentage free space drops below this, a warning will be shown."
-#~ msgstr ""
-#~ "Prozentsatz des freien Plattenplatzes als Auslöseschwelle für die "
-#~ "erstmalige Warnung. Falls der Prozentsatz des freien Platzes unter diesen "
-#~ "Wert fällt, wird eine Warnung angezeigt."
-
-#~ msgid "Specify a list of mount paths to ignore when they run low on space."
-#~ msgstr ""
-#~ "Geben Sie eine Liste der Einhängepfade an, die bei wenig Plattenplatz "
-#~ "ignoriert werden sollen."
-
-#~ msgid ""
-#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
-#~ "appear more often than this period."
-#~ msgstr ""
-#~ "Geben Sie eine Zeit in Minuten an. Wiederholte Warnungen für einen "
-#~ "Datenträger erscheinen nicht öfter als in diesem Abstand."
-
-#~ msgid ""
-#~ "Specify an amount in GB. If the amount of free space is more than this, no "
-#~ "warning will be shown."
-#~ msgstr ""
-#~ "Geben Sie eine Größe in GB an. Falls die Menge des freien Plattenplatzes "
-#~ "größer als dieser Wert ist, wird keine Warnung angezeigt."
-
-#~ msgid ""
-#~ "Specify the percentage that the free disk space should reduce by before "
-#~ "issuing a subsequent warning."
-#~ msgstr ""
-#~ "Geben Sie den Prozentsatz des freien Plattenplatzes an, der unterschritten "
-#~ "werden muss, um wiederholte Warnungen auszulösen."
-
-#~ msgid "Subsequent free percentage notify threshold"
-#~ msgstr "Schwellwert in Prozent für wiederholte Warnungen"
-
-#~ msgid "Binding to eject an optical disc."
-#~ msgstr "Tastenkürzel um ein optisches Medium auszuwerfen."
-
-#~ msgid "Binding to enable or disable the touchpad."
-#~ msgstr "Tastenkürzel um das Touchpad zu aktivieren/deaktivieren."
-
-#~ msgid "Binding to launch the calculator."
-#~ msgstr "Tastenkürzel um den Taschenrechner zu öffnen."
-
-#~ msgid "Binding to launch the email client."
-#~ msgstr "Tastenkürzel um das E-Mail-Programm zu öffnen."
-
-#~ msgid "Binding to launch the help browser."
-#~ msgstr "Tastenkürzel um den Hilfe-Browser zu öffnen."
-
-#~ msgid "Binding to launch the media player."
-#~ msgstr "Tastenkürzel um den Medien-Player zu öffnen."
-
-#~ msgid "Binding to launch the search tool."
-#~ msgstr "Tastenkürzel um die Suche zu öffnen."
-
-#~ msgid "Binding to launch the web browser."
-#~ msgstr "Tastenkürzel um den Web-Browser zu öffnen."
-
-#~ msgid "Binding to lock the screen."
-#~ msgstr "Tastenkürzel um den Bildschirm zu sperren."
-
-#~ msgid "Binding to log out."
-#~ msgstr "Tastenkürzel um sich abzumelden."
-
-#~ msgid "Binding to lower the system volume."
-#~ msgstr "Tastenkürzel um die Lautstärke abzusenken."
-
-#~ msgid "Binding to mute the system volume."
-#~ msgstr "Tastenkürzel um die Lautstärke stumm zu schalten."
-
-#~ msgid "Binding to open the Home folder."
-#~ msgstr "Tastenkürzel um den persönlichen Ordner zu öffnen."
-
-#~ msgid "Binding to pause playback."
-#~ msgstr "Tastenkürzel um die Wiedergabe zu pausieren."
-
-#~ msgid "Binding to raise the system volume."
-#~ msgstr "Tastenkürzel um die Lautstärke anzuheben."
-
-#~ msgid "Binding to skip to next track."
-#~ msgstr "Tastenkürzel um zum nächsten Titel zu springen."
-
-#~ msgid "Binding to skip to previous track."
-#~ msgstr "Tastenkürzel um zum vorherigen Titel zu springen."
-
-#~ msgid "Binding to start playback (or toggle play/pause)."
-#~ msgstr ""
-#~ "Tastenkürzel um die Wiedergabe zu starten (oder zwischen Wiedergabe und "
-#~ "Pause umzuschalten)."
-
-#~ msgid "Binding to stop playback."
-#~ msgstr "Tastenkürzel um die Wiedergabe anzuhalten."
-
-#~ msgid "Eject"
-#~ msgstr "Auswerfen"
-
-#~ msgid "Home folder"
-#~ msgstr "Persönlicher Ordner"
-
-#~ msgid "Launch calculator"
-#~ msgstr "Taschenrechner öffnen"
-
-#~ msgid "Launch email client"
-#~ msgstr "E-Mail-Programm öffnen"
-
-#~ msgid "Launch help browser"
-#~ msgstr "Hilfe-Browser starten"
-
-#~ msgid "Launch media player"
-#~ msgstr "Medien-Player öffnen"
-
-#~ msgid "Launch web browser"
-#~ msgstr "Webbrowser starten"
-
-#~ msgid "Lock screen"
-#~ msgstr "Bildschirm sperren"
-
-#~ msgid "Log out"
-#~ msgstr "Abmelden"
-
-#~ msgid "Next track"
-#~ msgstr "Nächster Titel"
-
-#~ msgid "Pause playback"
-#~ msgstr "Wiedergabe pausieren"
-
-#~ msgid "Play (or play/pause)"
-#~ msgstr "Wiedergabe (bzw. Wiedergabe/Unterbrechen)"
-
-#~ msgid "Previous track"
-#~ msgstr "Vorheriger Titel"
-
-#~ msgid "Search"
-#~ msgstr "Suchen"
-
-#~ msgid "Stop playback"
-#~ msgstr "Wiedergabe anhalten"
-
-#~ msgid "Toggle touchpad"
-#~ msgstr "Touchpad ein/aus"
-
-#~ msgid "Volume down"
-#~ msgstr "Leiser"
-
-#~ msgid "Volume mute"
-#~ msgstr "Stummschalten"
-
-#~ msgid "Volume step"
-#~ msgstr "Schrittweite der Lautstärke"
-
-#~ msgid "Volume step as percentage of volume."
-#~ msgstr "Schrittweite der Lautstärke als Prozentsatz der Gesamtlautstärke."
-
-#~ msgid "Volume up"
-#~ msgstr "Lauter"
-
-#~ msgid "File for default configuration for RandR"
-#~ msgstr "Datei mit der Vorgabekonfiguration für RandR"
-
-#~ msgid "Show Displays in Notification Area"
-#~ msgstr "Bildschirme im Benachrichtigungsfeld anzeigen"
-
-#~ msgid ""
-#~ "The XRandR plugin will look for a default configuration in the file "
-#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
-#~ "normally gets stored in users' home directories. If a user does not have "
-#~ "such a file, or has one that does not match the user's setup of monitors, "
-#~ "then the file specified by this key will be used instead."
-#~ msgstr ""
-#~ "Das XRandR-Plugin sucht in der durch diesen Schlüssel angegebenen Datei "
-#~ "nach einer Vorgabekonfiguration. Dies verhält sich ähnlich wie ~/.config/"
-#~ "monitors.xml, die normalerweise in den persönlichen Ordnern der Benutzer "
-#~ "gespeichert wird. Falls ein Benutzer nicht über solch eine Datei verfügt "
-#~ "oder seine Konfiguration nicht zu den vorhandenen Bildschirmen passt, wird "
-#~ "die in diesem Schlüssel angegebene Datei stattdessen verwendet."
-
-#~ msgid "Turn on external monitor after system boot"
-#~ msgstr "Externen Bildschirm nach Systemstart einschalten"
-
-#~ msgid ""
-#~ "Turn on external monitor after system boot if user plugs in external "
-#~ "monitor on system boot."
-#~ msgstr ""
-#~ "Externen Bildschirm nach Systemstart einschalten, falls der Benutzer den "
-#~ "externen Bildschirm beim Systemstart anschließt."
-
-#~ msgid "Turn on laptop monitor after system boot"
-#~ msgstr "Laptop-Bildschirm nach Systemstart einschalten"
-
-#~ msgid ""
-#~ "Turn on laptop monitor after system boot if user plugs in external monitor "
-#~ "on system boot."
-#~ msgstr ""
-#~ "Laptop-Bildschirm nach Systemstart einschalten, falls der Benutzer den "
-#~ "externen Bildschirm beim Systemstart anschließt."
-
-#~ msgid ""
-#~ "Whether a notification icon with display-related things should be shown in "
-#~ "the panel."
-#~ msgstr ""
-#~ "Legt fest, ob im Panel ein Benachrichtigungssymbol für die "
-#~ "Bildschirmeinstellungen angezeigt wird."
-
-#~ msgid "Antialiasing"
-#~ msgstr "Kantenglättung"
-
-#~ msgid "DPI"
-#~ msgstr "DPI"
