@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dr. Wright\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-26 18:07+0200\n"
-"PO-Revision-Date: 2011-01-26 18:13+0200\n"
+"POT-Creation-Date: 2011-02-28 19:28+0200\n"
+"PO-Revision-Date: 2011-02-28 19:28+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Gezer (Hebrew) <gezer@lists.launchpad.net>\n"
-"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Virtaal 0.7.0-beta4\n"
 "X-Project-Style: gnome\n"
@@ -49,84 +49,88 @@ msgstr ""
 msgid "_Take a Break"
 msgstr "ל_קחת להפסקה"
 
-#: ../src/drwright.c:504
+#: ../src/drwright.c:507
 msgid "Disabled"
 msgstr "מנוטרל"
 
-#: ../src/drwright.c:513
+#: ../src/drwright.c:516
 #, c-format
 msgid "Take a break now (next in %dm)"
 msgstr "נא לצאת להפסקה כעת (הבאה בעוד %d דקות)"
 
-#: ../src/drwright.c:515
+#: ../src/drwright.c:518
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "דקה עד ההפסקה הבאה"
 msgstr[1] "%d דקות עד ההפסקה הבאה"
 
-#: ../src/drwright.c:521
+#: ../src/drwright.c:524
 #, c-format
 msgid "Take a break now (next in less than one minute)"
 msgstr "לצאת להפסקה כעת (הבאה בעוד פחות מדקה)"
 
-#: ../src/drwright.c:523
+#: ../src/drwright.c:526
 #, c-format
 msgid "Less than one minute until the next break"
 msgstr "פחות מדקה אחת עד ההפסקה הבאה"
 
-#: ../src/drwright.c:611
+#: ../src/drwright.c:633
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
 "error: %s"
 msgstr "לא ניתן להעלות את תיבת דו־שיח מאפייני הפסקת ההקלדה עקב השגיאה הבאה: %s"
 
-#: ../src/drwright.c:628
+#: ../src/drwright.c:652
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "נכתב על ידי Richard Hult‏ <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../src/drwright.c:653
 msgid "Eye candy added by Anders Carlsson"
 msgstr "העיצוב המרהיב נוסף על־ידי Anders Carlsson"
 
-#: ../src/drwright.c:638
+#: ../src/drwright.c:662
 msgid "A computer break reminder."
 msgstr "מזכיר הפסקות מהמחשב."
 
-#: ../src/drwright.c:640
+#: ../src/drwright.c:664
 msgid "translator-credits"
 msgstr "ירון שהרבני <sh.yaron@gmail.com>"
 
-#: ../src/drw-break-window.c:181
+#: ../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_דחיית ההפסקה"
 
-#: ../src/drw-break-window.c:227
+#: ../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "לצאת להפסקה!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
-msgstr "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "Number of seconds of typing time before break mode starts"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
-msgstr "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
+msgstr "Number of seconds that the typing break should last"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
 msgstr "Phrase to unlock the break screen with"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr "Priority to use for this plugin"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr "Whether the settings daemon should activate the typing break plugin"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 msgid "Whether the typing break can be postponed"
 msgstr "Whether the typing break can be postponed"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Whether typing break is enabled"
 msgstr "Whether typing break is enabled"
 
@@ -159,6 +163,5 @@ msgstr "יש ל_נעול את הצג כדי לאלץ הפסקת הקלדה"
 msgid "_Work interval lasts:"
 msgstr "זמן ה_עבודה נמשך:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "דקות"
+#~ msgid "minutes"
+#~ msgstr "דקות"
