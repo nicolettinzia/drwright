@@ -32,11 +32,6 @@ gnome_typing_monitor_LDADD = \
 	$(SCREENSAVER_LIBS)	\
 	$(INTLLIBS)
 
-if HAVE_APP_INDICATOR
-  gnome_typing_monitor_CFLAGS += -DHAVE_APP_INDICATOR $(APP_INDICATOR_CFLAGS)
-  gnome_typing_monitor_LDADD += $(APP_INDICATOR_LIBS)
-endif
-
 imagedir = $(pkgdatadir)/pixmaps
 dist_image_DATA = bar.png bar-red.png bar-green.png bar-disabled.png ocean-stripes.png
 

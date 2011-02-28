@@ -31,7 +31,6 @@
 
 gboolean debug = FALSE;
 
-#ifndef HAVE_APP_INDICATOR
 static gboolean
 have_tray (void)
 {
@@ -50,7 +49,6 @@ have_tray (void)
 		return FALSE;
 	}
 }
-#endif /* HAVE_APP_INDICATOR */
 
 int
 main (int argc, char *argv[])
@@ -95,7 +93,6 @@ main (int argc, char *argv[])
 		return 0;
 	}
 
-#ifndef HAVE_APP_INDICATOR
 	if (!no_check && !have_tray ()) {
 		GtkWidget *dialog;
 
@@ -113,7 +110,6 @@ main (int argc, char *argv[])
 
 		gtk_widget_destroy (dialog);
 	}
-#endif /* HAVE_APP_INDICATOR */
 	
 	drwright = drwright_new ();
 

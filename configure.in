@@ -117,12 +117,6 @@ fi
 
 GLIB_GSETTINGS
 
-# *****************
-# Optional features
-# *****************
-
-AM_CONDITIONAL([HAVE_APP_INDICATOR],[false])
-
 # *****
 # GConf
 # *****
