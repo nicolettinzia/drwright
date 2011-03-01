@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2010-09-14 22:21+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -94,7 +94,7 @@ msgstr ""
 "#-#-#-#-#  da.po (gnome-control-center)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 #, fuzzy
 msgid "Enable debugging code"
 msgstr ""
@@ -103,15 +103,15 @@ msgstr ""
 "#-#-#-#-#  da.po (gnome-control-center)  #-#-#-#-#\n"
 "Aktivér fejlfindingskode"
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "Kontrollér ikke om påmindelsesområdet findes"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "Tasteovervåger"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 msgid ""
 "The typing monitor uses the notification area to display information. You "
 "don't seem to have a notification area on your panel. You can add it by "
@@ -123,11 +123,11 @@ msgstr ""
 "ved at højreklikke på panelet og vælge \"Tilføj til panel\", markere "
 "\"Statusområde\" og klikke \"tilføj\"."
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 msgid "_Take a Break"
 msgstr "_Hold en pause"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 #, fuzzy
 msgid "Disabled"
 msgstr ""
@@ -138,29 +138,19 @@ msgstr ""
 "#-#-#-#-#  da.po (gnome-control-center)  #-#-#-#-#\n"
 "Deaktiveret"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr "Hold pause nu (næste gang om %dm)"
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "%d minut til næste pause"
 msgstr[1] "%d minutter til næste pause"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr "Hold pause nu (næste gang om mindre end et minut)"
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, c-format
 msgid "Less than one minute until the next break"
 msgstr "Mindre end et minut til næste pause"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -168,11 +158,11 @@ msgid ""
 msgstr ""
 "Kunne ikke vise vinduet for tastepauseindstillinger med den følgende fejl: %s"
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Skrevet af Richard Hult <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 #, fuzzy
 msgid "Eye candy added by Anders Carlsson"
 msgstr ""
@@ -183,7 +173,7 @@ msgstr ""
 "#-#-#-#-#  da.po (gnome-control-center)  #-#-#-#-#\n"
 "Guf for øjnene tilføjet af Anders Carlsson"
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 #, fuzzy
 msgid "A computer break reminder."
 msgstr ""
@@ -194,7 +184,7 @@ msgstr ""
 "#-#-#-#-#  da.po (gnome-control-center)  #-#-#-#-#\n"
 "Et program til at påminde om tastepauser."
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 "Kenneth Christiansen\n"
@@ -208,11 +198,11 @@ msgstr ""
 "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Mere info: http://www.dansk-gruppen.dk"
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Udsæt pause"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 #, fuzzy
 msgid "Take a break!"
 msgstr ""
@@ -224,11 +214,11 @@ msgstr ""
 "Tag en pause!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -236,15 +226,19 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 #, fuzzy
 msgid "Whether the typing break can be postponed"
 msgstr "Om skærmoplæseren er slået til."
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 #, fuzzy
 msgid "Whether typing break is enabled"
 msgstr "Om skærmoplæseren er slået til."
@@ -280,9 +274,14 @@ msgstr "_Lås skærm for at gennemtvinge tastepauser"
 msgid "_Work interval lasts:"
 msgstr "_Arbejdsinterval tager:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "minutter"
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Hold pause nu (næste gang om %dm)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Hold pause nu (næste gang om mindre end et minut)"
+
+#~ msgid "minutes"
+#~ msgstr "minutter"
 
 #~ msgid "    "
 #~ msgstr "    "

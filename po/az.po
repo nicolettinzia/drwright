@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2004-09-04 19:45+0300\n"
 "Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
 "Language-Team: Azerbaijani <translation-team-az@lists.sourceforge.net>\n"
@@ -44,20 +44,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 msgid "Enable debugging code"
 msgstr ""
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr ""
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 #, fuzzy
 msgid "Typing Monitor"
 msgstr "GNOME Yazma İzləyicisi Haqqında"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 #, fuzzy
 msgid ""
 "The typing monitor uses the notification area to display information. You "
@@ -70,12 +70,12 @@ msgstr ""
 "panelinizə sağ tıqlayıb 'Panelə Əlavə Et -> Tə'minatlar -> Bildiriş sahəsi' "
 "menyusunu seçin."
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 #, fuzzy
 msgid "_Take a Break"
 msgstr "/_Fasilə Ver"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 #, fuzzy
 msgid "Disabled"
 msgstr ""
@@ -86,24 +86,14 @@ msgstr ""
 "#-#-#-#-#  az.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
 "Bağlı"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr ""
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "Növbəti fasiləyə %d dəqiqə qalıb"
 msgstr[1] "Növbəti fasiləyə %d dəqiqə qalıb"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr ""
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, fuzzy, c-format
 msgid "Less than one minute until the next break"
 msgstr ""
@@ -114,45 +104,45 @@ msgstr ""
 "#-#-#-#-#  az.po (gnome-control-center.HEAD)  #-#-#-#-#\n"
 "Növbəti fasiləyə bir dəqiqədən az qalıb"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
 "error: %s"
 msgstr "Yazma fasiləsi xassələri dialoqu göstərilə bilmədi. Xəta: %s"
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 #, fuzzy
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Richard Hult &lt;richard@imendio.com&gt; tərəfindən yazılıb"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Qrafika Anders Carlsson tərəfindən əlavə edilib"
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 msgid "A computer break reminder."
 msgstr "Kopüter fasiləsini yada salan tə'minat."
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 #, fuzzy
 msgid "_Postpone Break"
 msgstr "Fasiləni _tə'xirə sal"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "Fasilə ver!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -160,14 +150,18 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
-msgid "Whether the typing break can be postponed"
+msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Whether typing break is enabled"
 msgstr ""
 
@@ -202,9 +196,8 @@ msgstr "<b>Fasilə verməyə məcbur etmək üçün ekranı _qıfılla</b>"
 msgid "_Work interval lasts:"
 msgstr "_İşin sürəkliyi:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "dəqiqə"
+#~ msgid "minutes"
+#~ msgstr "dəqiqə"
 
 #~ msgid "    "
 #~ msgstr "    "

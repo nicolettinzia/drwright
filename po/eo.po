@@ -1,0 +1,1997 @@
+# Esperanto translation for control-center
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the control-center package.
+#
+# Joop EGGEN <joop_eggen@yahoo.de>, 2006.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-06-21 17:09+0200\n"
+"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
+"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Launchpad-Export-Date: 2010-06-21 14:48+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr ""
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr ""
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Tajpada monitoro"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"La tajpa monitoro uzas la sciigan areon por vidigi informojn. Vi ŝajnas ne "
+"havi sciigan areon sur via panelo. Vi povas aldoni ĝin per dekstra alklako "
+"sur via panelo kaj elekto de 'Aldonu al panelo', elektante 'Sciiga areo' kaj "
+"alklakante 'Aldonu'."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr ""
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "Malŝaltita"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minuto ĝis la sekva paŭzo"
+msgstr[1] "%d minutoj ĝis la sekva paŭzo"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Malpli ol unu minuto ĝis la sekva paŭzo"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr "Neeblas aperigi la dialogon de tajpa paŭzo kun la jena eraro: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Verkita de Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Vidindaĵo aldonata de Anders Carlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Komputila paŭza rememorigo."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Joop Eggen https://launchpad.net/~joop-eggen\n"
+"  Kristjan SCHMIDT https://launchpad.net/~kristjan-eo\n"
+"  Patrick (Petriko) Oudejans https://launchpad.net/~patrickoudejans"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "_Prokrastu paŭzon"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Paŭzu!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Tajpa paŭzo"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+#, fuzzy
+msgid "_Allow postponing of breaks"
+msgstr "Permesu pr_okraston de paŭzojn"
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "_Paŭza intervalo daŭras:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "_Labora intervalo daŭras:"
+
+#~ msgid "minutes"
+#~ msgstr "minutoj"
+
+#~ msgid "Current network location"
+#~ msgstr "Aktuala loko en la reto"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Adreso por pli da ekranfonojn"
+
+#~ msgid "More themes URL"
+#~ msgstr "Adreso por pli da etosoj"
+
+#~ msgid "Image/label border"
+#~ msgstr "Bilda/etikeda bordero"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Borderlarĝo ĉirkaŭ etikedo kaj bildo en la averto-dialogo"
+
+#~ msgid "Alert Type"
+#~ msgstr "Averta tipo"
+
+#~ msgid "The type of alert"
+#~ msgstr "La tipo de averto"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Avertaj butonoj"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "La butonoj montritaj en la averta dialogo"
+
+#~ msgid "Show more _details"
+#~ msgstr "Montri pli da _detaloj"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Metu vian maldekstran dikfingron sur %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Metu vian dekstran dikfingron sur %s"
+
+#~ msgid "Select Image"
+#~ msgstr "Elekti bildon"
+
+#~ msgid "No Image"
+#~ msgstr "Neniu bildo"
+
+#~ msgid "Images"
+#~ msgstr "Bildoj"
+
+#~ msgid "All Files"
+#~ msgstr "Ĉiuj dosieroj"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Estis eraro klopodante ricevi la adreslibrajn informojn\n"
+#~ "Evolution Datumservilo ne povas trakti la protokolon"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Ne eblas malfermi adreslibron"
+
+#~ msgid "About %s"
+#~ msgstr "Pri %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dreso:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "A_sistanto:"
+
+#~ msgid "About Me"
+#~ msgstr "Pri mi"
+
+#~ msgid "Address"
+#~ msgstr "Adreso"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Urbo:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "K_ompanio:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kale_ndaro:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Ŝanĝi pasvo_rton..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Ur_bo:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Lando:"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakto"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "La_ndo:"
+
+#~ msgid "Email"
+#~ msgstr "Retpoŝto"
+
+#~ msgid "Full Name"
+#~ msgstr "Plena nomo"
+
+#~ msgid "Hom_e:"
+#~ msgstr "H_ejmo:"
+
+#~ msgid "Home"
+#~ msgstr "Hejmo"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Tujmesaĝilo"
+
+#~ msgid "Job"
+#~ msgstr "Laboro"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Poŝt_kesto:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P_oŝtkesto:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Personaj informoj"
+
+#~ msgid "Select your photo"
+#~ msgstr "Elekti vian foton"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Ŝtato/pro_vinco:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefono"
+
+#~ msgid "User name:"
+#~ msgstr "Uzantonomo:"
+
+#~ msgid "Web"
+#~ msgstr "Reto"
+
+#~ msgid "Web _log:"
+#~ msgstr "TTT-_protokolo:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Laborloko:"
+
+#~ msgid "Work"
+#~ msgstr "Laborejo"
+
+#~ msgid "Work _fax:"
+#~ msgstr "Labor_fakso:"
+
+#, fuzzy
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "_Poŝta kodo:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adreso:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Sekcio:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Hejmpaĝo:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Hejmo:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Manaĝero:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Poŝtelefono:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Profesio:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Ŝtato/provinco:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Titolo:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Laboro:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#, fuzzy
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_Poŝta kodo:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Agordu viajn personajn informojn"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Vi ne havas permeson aliri la ekipaĵon. Kontaktu vian "
+#~ "sistemadministranton."
+
+#~ msgid "The device is already in use."
+#~ msgstr "La ekipaĵo jam uzatas."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Interna eraro ekestis."
+
+#~ msgid "Done!"
+#~ msgstr "Farite!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Ne eblis aliri la '%s' ekipaĵo"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Kontaktu vian sistemadministranton por helpo."
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Metu la fingron sur la legilo"
+
+#~ msgid "Other finger: "
+#~ msgstr "Alia fingro: "
+
+#~ msgid "Right thumb"
+#~ msgstr "Dekstra dikfingro"
+
+#~ msgid "Select finger"
+#~ msgstr "Elekti fingron"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Ido finiĝis neatendite"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Ne povis malŝalti backend_stdin eneligan kanalon: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Ne povis malŝalti backend_stdout eneligan kanalon: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Aŭtentigita!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Via pasvorto estas ŝanĝita ekde kiam vi unuafoje aŭtentiĝis! Bonvolu "
+#~ "reaŭtentiĝi."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Tiu pasvorto estis nekorekta."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Via pasvorto estas ŝanĝita."
+
+#~ msgid "System error: %s."
+#~ msgstr "Sistemeraro: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "La pasvorto estas tro mallonga."
+
+#~ msgid "The password is too simple."
+#~ msgstr "La pasvorto estas tro simpla."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "La malnova kaj nova pasvortoj tro similas."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "La nova pasvorto enhavu almenaŭ numeran aŭ specialan signon."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "La malnova kaj nova pasvortoj estas identaj."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Ne eblas lanĉado de %s: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Ne eblas lanĉi malantaŭan sistemon"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Sistemeraro okazis"
+
+#~ msgid "Checking password..."
+#~ msgstr "Kontrolante pasvorton..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Alklaku <b>Ŝanĝu pasvorton</b> por ŝanĝi vian pasvorton."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Bonvolu tajpi vian pasvorton en la kampo <b>Nova pasvorto</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Bonvolu denove tajpi vian pasvorton en la kampo <b>Retajpu novan "
+#~ "pasvorton</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "La du pasvortoj ne estas egalaj."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Ŝanĝu pa_svorton"
+
+#~ msgid "Change password"
+#~ msgstr "Ŝanĝu pasvorton"
+
+#~ msgid "Change your password"
+#~ msgstr "Ŝanĝu vian pasvorton"
+
+#~ msgid "Current _password:"
+#~ msgstr "Nuna _pasvorto:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Por ŝanĝi vian pasvorton, entajpu vian nunan pasvorton en la kampo sube "
+#~ "kaj alklaku <b>Aŭtentigu</b>.\n"
+#~ "Post via aŭtentiĝo, entajpu vian novan pasvorton, retajpu ĝin por "
+#~ "kontrolo kaj alklaku <b>Ŝanĝu pasvorton</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Aŭtentigu"
+
+#~ msgid "_New password:"
+#~ msgstr "_Nova pasvorto:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_Retajpu novan pasvorton:"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Aldonu tapeton"
+
+#~ msgid "All files"
+#~ msgstr "Ĉiuj dosieroj"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Tiparo eble estas tro granda"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "La elektita tiparo estas tro granda je %d punkto, kaj ĝi povas "
+#~ "malfaciligi eficiente uzi la komputilon. Estas rekomendite ke vi elektu "
+#~ "grandon malpli altan ol %d."
+#~ msgstr[1] ""
+#~ "La elektita tiparo estas tro granda je %d punktoj, kaj ĝi povas "
+#~ "malfaciligi eficiente uzi la komputilon. Estas rekomendite ke vi elektu "
+#~ "grandon malpli altan ol %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "La elektita tiparo estas tro granda je %d punkto, kaj ĝi povas "
+#~ "malfaciligi eficiente uzi la komputilon. Estas rekomendite ke vi elektu "
+#~ "malpli grandan tiparon."
+#~ msgstr[1] ""
+#~ "La elektita tiparo estas tro granda je %d punktoj, kaj ĝi povas "
+#~ "malfaciligi eficiente uzi la komputilon. Estas rekomendite ke vi elektu "
+#~ "malpli grandan tiparon."
+
+#~ msgid "Use previous font"
+#~ msgstr "Uzu antaŭan tiparon"
+
+#~ msgid "Use selected font"
+#~ msgstr "Uzu elektitan tiparon"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Donu la dosiernomon de instalenda etoso"
+
+#~ msgid "filename"
+#~ msgstr "dosiernomo"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Donu la nomon de la montrota paĝo (theme|background|fonts|interface)"
+
+#~ msgid "page"
+#~ msgstr "paĝo"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "Ekranfono"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Implicita indikilo"
+
+#~ msgid "Install"
+#~ msgstr "Instali"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Ĉi tiu etoso ne aspektos kiel intencite ĉar la bezonata GTK+ etosa maŝino "
+#~ "'%s' ne estas instalita."
+
+#~ msgid "Apply Background"
+#~ msgstr "Apliki ekranfonon"
+
+#~ msgid "Apply Font"
+#~ msgstr "Apliku tiparon"
+
+#~ msgid "Revert Font"
+#~ msgstr "Malfari tiparon"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "La nuna etoso proponas fonon kaj tiparon. Krome, la laste aplikita "
+#~ "tiparpropono povas estas malfarata."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "La nuna etoso proponas fonon. Krome, la laste aplikita tiparpropono povas "
+#~ "estas malfarata."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "La nuna etoso proponas fonon kaj tiparon."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "La nuna etoso proponas tiparon. Krome, la laste aplikita tiparpropono "
+#~ "povas estas malfarata."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "La nuna etoso proponas fonon."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "La laste aplikita tiparpropono povas estas malfarata."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "La nuna etoso proponas tiparon."
+
+#~ msgid "Custom"
+#~ msgstr "Propra"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Aperaj Agordaĵoj"
+
+#~ msgid "Background"
+#~ msgstr "Fono"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Plej bonaj _formoj"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Plej bona ko_ntrasto"
+
+#~ msgid "C_olors:"
+#~ msgstr "K-oloroj"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "Adaptu..."
+
+#~ msgid "Center"
+#~ msgstr "Centrigi"
+
+#~ msgid "Colors"
+#~ msgstr "Koloroj"
+
+#~ msgid "Controls"
+#~ msgstr "Regiloj"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Adapti etoson"
+
+#~ msgid "D_etails..."
+#~ msgstr "Detaloj..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Labortabla tiparo:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detaloj pri tipara pentrado"
+
+#~ msgid "Fonts"
+#~ msgstr "Tiparoj"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Akiri pli da ekranfonoj rete"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Akiri pli da etosoj rete"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Grizoskalo"
+
+#~ msgid "Hinting"
+#~ msgstr "Poluri"
+
+#~ msgid "Icons"
+#~ msgstr "Piktogramoj"
+
+#~ msgid "Large"
+#~ msgstr "Granda"
+
+#~ msgid "N_one"
+#~ msgstr "Neniu"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Malfermas dialogon por specifi la koloron"
+
+#~ msgid "Pointer"
+#~ msgstr "Montrilo"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Distingivo:"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Konservu etoson kiel..."
+
+#~ msgid "Save _As..."
+#~ msgstr "_Konservi kiel..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Konservi _fonan bildon"
+
+#~ msgid "Scale"
+#~ msgstr "Skalo"
+
+#~ msgid "Small"
+#~ msgstr "Malgranda"
+
+#~ msgid "Smoothing"
+#~ msgstr "Glatigo"
+
+#, fuzzy
+#~ msgid "Span"
+#~ msgstr "Generi"
+
+#~ msgid "Stretch"
+#~ msgstr "Streĉi"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_bildere (LCD-ekranoj)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Sub_bildera glatigado (LDC-ekranoj)"
+
+#~ msgid "Text"
+#~ msgstr "Teksto"
+
+#~ msgid "Text only"
+#~ msgstr "Nur teksto"
+
+#~ msgid "Theme"
+#~ msgstr "Etoso"
+
+#~ msgid "Tile"
+#~ msgstr "Kaheligi"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_VR"
+
+#~ msgid "Window Border"
+#~ msgstr "Fenestra rando"
+
+#~ msgid "Zoom"
+#~ msgstr "Zomi"
+
+#~ msgid "_Add..."
+#~ msgstr "_Aldoni..."
+
+#~ msgid "_Application font:"
+#~ msgstr "_Aplikaĵa tiparo:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BVR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Priskribo"
+
+#~ msgid "_Document font:"
+#~ msgstr "_Dokumenta tiparo:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "_Fikslarĝa tiparo:"
+
+#~ msgid "_Full"
+#~ msgstr "_Plena"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "_Enigaj kampoj:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Instalu..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Meza"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monokroma"
+
+#~ msgid "_Name:"
+#~ msgstr "_Nomo:"
+
+#~ msgid "_None"
+#~ msgstr "_Neniu"
+
+#~ msgid "_RGB"
+#~ msgstr "_RVB"
+
+#~ msgid "_Selected items:"
+#~ msgstr "E_lektitaj elementoj:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Grandeco :"
+
+#~ msgid "_Slight"
+#~ msgstr "_Iomete"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stilo:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "Ŝ_pruchelpiloj:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRVB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_Fenestra titola tiparo:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Fenestroj:"
+
+#~ msgid "dots per inch"
+#~ msgstr "punktoj je colo"
+
+#~ msgid "Appearance"
+#~ msgstr "Apero"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Alpropigi la aspekton de la tabulo"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Instalas etospakaĵojn por diversaj partoj de la tabulo."
+
+#~ msgid "Theme Installer"
+#~ msgstr "Etosa instalilo"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnoma etosa pakaĵo"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Neniu fono por la tabulo"
+
+#~ msgid "Slide Show"
+#~ msgstr "Bildserio"
+
+#~ msgid "Image"
+#~ msgstr "Bildo"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "bildero"
+#~ msgstr[1] "bilderoj"
+
+#~ msgid "Image missing"
+#~ msgstr "Bildo mankas"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Ne eblas instali la etoson"
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Estis problemo je la eltiro de la etoso"
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Estis eraro je la instalo de la elektita dosiero"
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Malsuckesis la instalado de la etoso «%s»."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "La etoso \"%s\" estas instalita."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Ĉu vi dezirus nun apliki ĝin, aŭ teni vian nunan etoson?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Lasu nunan etoson"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Apliku novan etoson"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOMA etoso %s korekte instalita"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Malsukcesis krei dumtempan dosierujon"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "La novaj etosoj instaliĝis sukcese."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Neniu etosdosiera situo specifita por instali"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nesufiĉaj permesoj por instali la etoson en:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Elekti etoson"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Pakaĵoj de etosoj"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Etosa nomo ĉeestu."
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "La etoso jam ekzistas. Ĉu vi ŝatus substitui ĝin?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Anstataŭigi"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Ĉu vi volas forigi tiun ĉi etoson?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Ne eblas forigi la etoson"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Ne eblis instali la etos-modulon"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Ne eblas ŝargi standardan piktogramon '%s'\n"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Estis eraro vidigante helpon: %s"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Kopiante dosieron: %u el %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Kopiante '%s'"
+
+#~ msgid "Copying files"
+#~ msgstr "Kopiado de dosieroj"
+
+#~ msgid "Parent Window"
+#~ msgstr "Gepatra fenestro"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Gepatra fenestro de la dialogo"
+
+#~ msgid "From URI"
+#~ msgstr "De URI-o"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI-o de kiu aktuale transportante"
+
+#~ msgid "To URI"
+#~ msgstr "Al URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI-o al kiu aktuale transportante"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Parto finita"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Parto de transporto aktuale finita"
+
+#~ msgid "Current URI index"
+#~ msgstr "Aktuala URI-indico"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Aktuala URI-indico - komeciĝas per 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Totalaj URI-oj"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Totala nombro de URI-oj"
+
+#~ msgid "_Skip"
+#~ msgstr "_Preterpasi"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Anstataŭigi ĉi_ujn"
+
+#~ msgid "Key"
+#~ msgstr "Ŝlosilo"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "GConf-ŝlosilo al kiu ĉi tiu atributoredaktilo estas ligata"
+
+#~ msgid "Callback"
+#~ msgstr "Revoko"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Efiku ĉi tiun revokon kiam la valoro asociata kun la ŝlosilo ŝanĝiĝas"
+
+#~ msgid "Change set"
+#~ msgstr "Ŝangaro"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf-ŝanĝaro enhavanta datumojn por plusendi al la gconf-kliento je "
+#~ "apliko"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Konverto al komponanta revoko"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Revoko plenumata kiam datumoj estas konvertendaj de GConf al la komponanto"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Konverto de komponantorevoko"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Revoko plenumenda kiam datumoj estas konvertendaj al GConf de la "
+#~ "komponanto"
+
+#~ msgid "UI Control"
+#~ msgstr "UI-a Regilo"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objekto kiu regas la atributon (ordinare komponanto)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Atributredaktilaj objektaj datumoj"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Propraj datumoj bezonataj de la specifa atributredaktilo"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Revoko por liberigi atributredaktilajn datumojn"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Revoko plenumenda kiam atributredaktilaj objektdatumoj estas liberigendaj"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Ne eblis trovi la dosieron '%s'.\n"
+#~ "\n"
+#~ "Bonvolu certiĝi ke ĝi ekzistas kaj reprovi denove, aŭ elektu malsaman "
+#~ "fonan bildon."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Mi ne scias kiel malfermi la dosieron '%s'.\n"
+#~ "Eble tiu bilda tipo ankoraŭ ne estas subtenata.\n"
+#~ "\n"
+#~ "Bonvolu elekti alian malsaman bildon."
+
+#~ msgid "Please select an image."
+#~ msgstr "Bonvolu elekti bildon."
+
+#~ msgid "_Select"
+#~ msgstr "_Elektu"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Implicita indikilo - aktuala"
+
+#~ msgid "White Pointer"
+#~ msgstr "Blanka indikilo"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Blanka indikilo - aktuala"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Granda indikilo"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Granda indikilo - aktuala"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Granda blanka indikilo - aktuala"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Granda blanka indikilo"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Preferitaj aplikaĵoj"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Elektu viajn implicitajn aplikaĵojn"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Eraro dum konservado de agordaro: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Ne povis ŝargi la ĉefan interfacon"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Bonvolu certigu ke la aplikaĵeto estas ĝuste instalita"
+
+#~ msgid "Accessibility"
+#~ msgstr "Alirebleco"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Ĉiuj aperoj %s estos anstataŭigataj per efektiva ligilo"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ko_mando:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "R_ula flago:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Bildorigardilo"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Tujmesaĝilo"
+
+#~ msgid "Internet"
+#~ msgstr "Interreto"
+
+#~ msgid "Mobility"
+#~ msgstr "Movebleco"
+
+#~ msgid "Multimedia"
+#~ msgstr "Plurmediaĵoj"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Malfermu ligilon en nova _tabo"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Malfermu ligilon en nova _fenestro"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Malfermu ligilon per TTT-foliumila _implicita ago."
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Rulu _en terminalo"
+
+#~ msgid "System"
+#~ msgstr "Sistemo"
+
+#~ msgid "Text Editor"
+#~ msgstr "Tekst-redaktilo"
+
+#~ msgid "Visual"
+#~ msgstr "Vide"
+
+#~ msgid "Web Browser"
+#~ msgstr "Retumilo"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Muzik-legilo Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Poŝto"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epifanio-TTT-Legilo"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolucio-Retpoŝta Legilo"
+
+#~ msgid "Firebird"
+#~ msgstr "Fajrobirdo"
+
+#~ msgid "Firefox"
+#~ msgstr "Fajrovulpo"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Pligrandigilo de GNOME sen ekranlegilo"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Ekranklavaro de GNOME"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOMA Terminalo"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeono"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus kun pligrandigilo"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Poŝto Iceape"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Pligrandigilo de KDE sen ekranlegilo"
+
+#, fuzzy
+#~ msgid "KMail"
+#~ msgstr "KRetpoŝto"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konkeranto"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linuksa ekranlegilo"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linuksa ekranlegilo kun pligrandigilo"
+
+#~ msgid "Listen"
+#~ msgstr "Aŭskulti"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozila Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muziklegilo Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Normala X-Terminalo"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Filmlegilo Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Left"
+#~ msgstr "Maldekstre"
+
+#~ msgid "Monitor"
+#~ msgstr "Ekrano"
+
+#~ msgid "Normal"
+#~ msgstr "Normale"
+
+#~ msgid "Off"
+#~ msgstr "Elŝaltite"
+
+#~ msgid "On"
+#~ msgstr "Enŝaltite"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_otacio:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Ĝis_datiga intervalo:"
+
+#~ msgid "Right"
+#~ msgstr "Dekstre"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Distingivo:"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Ekrano: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Sound"
+#~ msgstr "Sono"
+
+#~ msgid "Desktop"
+#~ msgstr "Tabulo"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Nova ŝpar-vojo"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Akcela klavo"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Akcelaj modifigiloj"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Akcela klavkodo"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Akcela reĝimo"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "La tipo de la akcelilo."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Nekonata ago>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Propraj ŝpar-vojoj"
+
+#~ msgid "Action"
+#~ msgstr "Ago"
+
+#~ msgid "Shortcut"
+#~ msgstr "Fulmoklavo"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Fulmoklavoj"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Atribuu fulmklavojn al komandojn"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Intermitu _fenestran titololistelon"
+
+#~ msgid "General"
+#~ msgstr "Ĝenerale"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Kontrolu ĉu paŭzoj estas permesataj esti prokrastataj"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Rapido de kursora intermitado"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Daŭro de la paŭzo kiam tajpado estas malpermesata"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Daŭro de funkcio antaŭ devigi paŭzon"
+
+#~ msgid "Fast"
+#~ msgstr "Rapide"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Klavpremoj _ripetas kiam klavo estas tenata malsupre"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Klavaraj preferoj"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Klavara _modelo:"
+
+#~ msgid "Layouts"
+#~ msgstr "Aranĝoj"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Ŝlosu ekranon post certa daŭro por helpi preventi sanajn damaĝojn pro "
+#~ "ripeta klavara uzo."
+
+#~ msgid "Long"
+#~ msgstr "Longw"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Musklavoj"
+
+#~ msgid "Move _Down"
+#~ msgstr "Movi su_ben"
+
+#~ msgid "Move _Up"
+#~ msgstr "Movi su_pren"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Ripetklava rapido"
+
+#~ msgid "S_peed:"
+#~ msgstr "Ra_pido:"
+
+#~ msgid "Short"
+#~ msgstr "Mallonga"
+
+#~ msgid "Slow"
+#~ msgstr "Malrapide"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Akcelilo:"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Prokrasto:"
+
+#~ msgid "_Options..."
+#~ msgstr "_Opcioj..."
+
+#~ msgid "_Speed:"
+#~ msgstr "Rapideco:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Tajpu por provi agordaron:"
+
+#~ msgid "By _country"
+#~ msgstr "Laŭ _lando"
+
+#~ msgid "By _language"
+#~ msgstr "Laŭ _lingvo"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Elektu aranĝon"
+
+#~ msgid "Preview:"
+#~ msgstr "Aspekto:"
+
+#~ msgid "_Country:"
+#~ msgstr "_Lando:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Lingvo:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Elektu klavaran modelon"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modeloj:"
+
+#~ msgid "Unknown"
+#~ msgstr "Nekonata"
+
+#~ msgid "Layout"
+#~ msgstr "Aranĝo"
+
+#~ msgid "Models"
+#~ msgstr "Modeloj"
+
+#~ msgid "Default"
+#~ msgstr "Apriora"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klavaro"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Agordi viajn klavarajn preferojn"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Postatenda klako"
+
+#~ msgid "High"
+#~ msgstr "Alte"
+
+#~ msgid "Low"
+#~ msgstr "Malalte"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Musa agordaro"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Vi povas uzi ankaŭ la panelaplikaĵeton 'Postatenda klako' por elekti la "
+#~ "klaktipon"
+
+#~ msgid "_Disabled"
+#~ msgstr "_Malebligite"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Sentemo:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Fintempo:"
+
+#~ msgid "Mouse"
+#~ msgstr "_Muso"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Agordu viajn musajn preferojn"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Reta prokurilo"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Agordu viajn retajn prokurilajn preferojn"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Rekta interreta konekto</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Aŭtomata prokurila konfiguro</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Per_mana prokurila konfiguro</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Uzu aŭtentigo</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Aŭtomata agordara _URL-o:"
+
+#~ msgid "C_reate"
+#~ msgstr "K_rei"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP-prokurilaj detaloj"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP-prokurilo:"
+
+#~ msgid "Location:"
+#~ msgstr "Loko:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Retaj prokurilaj preferoj"
+
+#~ msgid "Port:"
+#~ msgstr "Pordo:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Prokurila agordaro"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks-gastiganto:"
+
+#~ msgid "U_sername:"
+#~ msgstr "U_zantonomo:"
+
+#~ msgid "_Details"
+#~ msgstr "_Detaloj"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP-prokurilo:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Pasvorto:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Sekura HTTP-prokurilo:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Uzu la saman prokurilon por ĉiuj protokoloj"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgid "Contrast:"
+#~ msgstr "Kontrasto:"
+
+#~ msgid "Display"
+#~ msgstr "Vidigi"
+
+#~ msgid "Larger"
+#~ msgstr "Pli grande"
+
+#~ msgid "None"
+#~ msgstr "Neniu"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "Ekranklavaro"
+
+#~ msgid "Options..."
+#~ msgstr "Opcioj..."
+
+#~ msgid "Screen Reader"
+#~ msgstr "Ekranlegilo"
+
+#~ msgid "Test:"
+#~ msgstr "Testo:"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "Tajpu ĉi tie por testi agordojn"
+
+#, fuzzy
+#~ msgid "Typing Assistant"
+#~ msgstr "A_sistanto:"
+
+#, fuzzy
+#~ msgid "Video Mouse"
+#~ msgstr "_Muso"
+
+#, fuzzy
+#~ msgid "Zoom in:"
+#~ msgstr "Zomi"
+
+#, fuzzy
+#~ msgid "Zoom out:"
+#~ msgstr "Zomi"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "Fenestra administrilo \"%s\" ne registris konfiguran ilon\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maksimumigu"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimumigu"
+
+#~ msgid "Roll up"
+#~ msgstr "Rulumu supren"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Fermu la stircentron kiam tasko estas aktivigata"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Eliru el ŝelo kiam aldona aŭ foriga ago estas plenumata"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Eliru el ŝelo kiam helpago estas plenumata"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Eliru el ŝelo je plenumo de lanĉa ago"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "Eliru el ŝelo je plenumo de promocia aŭ malinstala ago"
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Tasknomoj kaj asociataj .desktop-dosieroj"
+
+#~ msgid "Control Center"
+#~ msgstr "Stircentro"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "La GNOMA konfigura ilo"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "Se agordata al vera, tiam OpenType-tiparoj estos miniaturigataj."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Se agordata al vera, tiam PCF-tiparoj estos miniaturigataj."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "Se agordata al vera, tiam TrueType-tiparoj estos miniaturigataj."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Se agordata al vera, tiam Type1-tiparoj estos miniaturigataj."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Agordu ĉi tiun ŝlosilon al la komando uzata por krei miniaturojn por "
+#~ "OpenType-tiparoj."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Agordu ĉi tiun ŝlosilon al la komando uzata por krei miniaturojn por PCF-"
+#~ "tiparoj."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Agordu ĉi tiun ŝlosilon al la komando uzata por krei miniaturojn por "
+#~ "TrueType-tiparoj."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Agordu ĉi tiun ŝlosilon al la komando uzata por krei miniaturojn por "
+#~ "Type1-tiparoj."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Miniatura komando por OpenType-tiparoj"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Miniatura komando por PCF-tiparoj"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Miniatura komando por TrueType-tiparoj"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Miniatura komando por Type1-tiparoj"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Ĉu miniaturigi OpenType-tiparojn"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Ĉu miniaturigi PCF-tiparojn"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Ĉu miniaturigi la TrueType-tiparojn"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Ĉu miniaturigi la Type1-tiparojn"
+
+#~ msgid "Name:"
+#~ msgstr "Nomo:"
+
+#~ msgid "Style:"
+#~ msgstr "Stilo:"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"
+
+#~ msgid "Size:"
+#~ msgstr "Grando:"
+
+#~ msgid "Version:"
+#~ msgstr "Versio:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Kopirajto:"
+
+#~ msgid "Description:"
+#~ msgstr "Priskribo:"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "uzado: %s-tipara dosiero\n"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Teksto al miniaturo (defaŭlte: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKSTO"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Tipara grando (defaŭlte: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "GRANDO"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "TIPAR-DOSIERO ELIG-DOSIERO"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Eraro dum analizado de argumentoj: %s\n"
+
+#~ msgid "System Settings"
+#~ msgstr "Sistem-agordoj"
+
+#~ msgid "_All Settings"
+#~ msgstr "_Ĉiuj agordoj"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Alirebla _salutado"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Helpaj teknikoj"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Preferoj pri helpaj teknikoj"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Fermi kaj e_lsaluti"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Saltu al la dialogo pri preferataj aplikaĵoj"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Saltu al la dialogon por Alirebla salutado"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Saltu al la dialogo por Klavaralireblo"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Saltu al la dialogo por Musalireblo"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "Ŝaltu asistajn t_eknologiojn"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "_Klavaralireblo"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "_Musalireblo"
+
+#~ msgid "_Password dialogs as normal windows"
+#~ msgstr "_Pasvortdialogoj kiel ordinaraj fenestroj"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "?Preferataj aplikaĵoj"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr "Elekt kiuj alireblofunkcioj estas ŝaltataj kiam vi ensalutas"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Testante la novan agordaron. Se vi ne reagas post %d sekundo la antaŭa "
+#~ "agordaro estos restarigataj."
+#~ msgstr[1] ""
+#~ "Testante la novan agordaron. Se vi ne reagas post %d sekundoj la antaŭa "
+#~ "agordaro estos restarigataj."
+
+#~ msgid "Do you want to keep these settings?"
+#~ msgstr "Ĉu vi volas konservi ĉi/tiujn agordaĵojn?"
+
+#~ msgid "Use _previous settings"
+#~ msgstr "Uzi _antaŭajn agordaĵojn"
+
+#~ msgid "_Keep settings"
+#~ msgstr "_Konservi agordaĵojn"
+
+#~ msgid "Desktop effects could not be enabled"
+#~ msgstr "Ne aktivigeblis labortablajn efektojn"
+
+#~ msgid "<b>C_ustom:</b> Uses custom set of effects."
+#~ msgstr "<b>_Propra:</b> Uzas propran aron da efektoj."
+
+#~ msgid ""
+#~ "<b>E_xtra:</b> Provides more aesthetically pleasing set of effects. "
+#~ "Requires faster graphics card."
+#~ msgstr ""
+#~ "<b>_Ekstra:</b> Provizas pli estetike plaĉan aron da efektoj. Postulas "
+#~ "pli rapidan grafikan karton."
+
+#~ msgid ""
+#~ "<b>_None:</b> Provides a simple desktop environment without any effects."
+#~ msgstr "<b>_Neniu:</b> Donas simplan labortablan medion sen iaj efektaĵoj."
+
+#~ msgid "%d x %d (%s)"
+#~ msgstr "%d x %d (%s)"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Nur apliku agordaron kaj finu (nur pro kongrueco; nun traktite de demono)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Komencu la paĝon per montrado de la tajppaŭza agordaro"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "GNOMAJ klavaraj preferoj"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "Ne povas lanĉi la preferaplikaĵon por via fenestroadministrilo"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_iper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (aŭ \"Fenestra emblemo\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr "Por movi fenestron, premadu ĉi tiun klavon kaj prenu la fenestron:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Fenestraj preferoj"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Duoble alklaku titollistelon por plenumi ĉi tiun agon:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Intervalo antaŭ al levi:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Levu elektitajn fenestrojn post intervalo"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Elektu fenestrojn kiam la muso moviĝas super ili"
+
+#~ msgid "seconds"
+#~ msgstr "sekundoj"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Agordu viajn fenestrajn atributojn"
+
+#~ msgid "Windows"
+#~ msgstr "Fenestroj"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "klavo ne trovita [%s]\n"
+
+#~ msgid "Filter"
+#~ msgstr "Filtro"
+
+#~ msgid "Groups"
+#~ msgstr "Grupoj"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Oftaj taskoj"
+
+#~ msgid "Other"
+#~ msgstr "Alia"
+
+#~ msgid "Help"
+#~ msgstr "Helpo"
+
+#~ msgid "Upgrade"
+#~ msgstr "Promocio"
+
+#~ msgid "Uninstall"
+#~ msgstr "Malinstalo"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Forigu el favoritoj"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Aldonu al favoritoj"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Forigu el eklanĉaj programoj"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Aldonu al eklanĉaj programoj"
+
+#~ msgid "Search"
+#~ msgstr "Serĉu"
+
+#~ msgid "Rename..."
+#~ msgstr "Alinomu..."
+
+#~ msgid "Send To..."
+#~ msgstr "Sendu al..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Movu rubujen"
+
+#~ msgid "Delete"
+#~ msgstr "Forigu"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Malfermi per \"%s\""
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Malfermu per defaŭltan aplikaĵon"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Malfermu en dosieradministrilo"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Hodiaŭ %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Hieraŭ %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Serĉi nun"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Malfermi %s</b>"

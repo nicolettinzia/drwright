@@ -1,0 +1,3498 @@
+# #-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#
+# Irish translations for gnome-settings-daemon package.
+# Copyright (C) 2002-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# Alastair McKinstry <mckinstry@debian.org>, 2003.
+# Seán de Búrca <leftmostcat@gmail.com>, 2007, 2008, 2009.
+#
+# #-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#
+# Irish translations for gnome-settings-daemon package.
+# Copyright (C) 2002-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# Alastair McKinstry <mckinstry@debian.org>, 2003.
+# Seán de Búrca <leftmostcat@gmail.com>, 2007, 2008, 2009.
+#
+# #-#-#-#-#  ga.po (gnome-control-center.master)  #-#-#-#-#
+# Irish translations for gnome-control-center package.
+# Copyright (C) 2002-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-control-center package.
+# Alastair McKinstry <mckinstry@debian.org>, 2003.
+# Seán de Búrca <leftmostcat@gmail.com>, 2007, 2008, 2009.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2009-08-15 01:19-0600\n"
+"Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n"
+"%10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+"#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n"
+"%10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+"#-#-#-#-#  ga.po (gnome-control-center.master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n"
+"%10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "Cumasaigh cód dífhabhtaithe"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr ""
+
+#: ../../../po/../src/main.c:87
+#, fuzzy
+msgid "Typing Monitor"
+msgstr ""
+"#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+"Sos Clóscríofa\n"
+"#-#-#-#-#  ga.po (gnome-control-center.master)  #-#-#-#-#\n"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "_Tóg Sos"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "Díchumasaithe"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d nóiméad go dtí an chéad sos eile"
+msgstr[1] "%d nóiméad go dtí an chéad sos eile"
+msgstr[2] "%d nóiméad go dtí an chéad sos eile"
+msgstr[3] "%d nóiméad go dtí an chéad sos eile"
+msgstr[4] "%d nóiméad go dtí an chéad sos eile"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Níos lúide do nóiméad go dtí an sos"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Scríofa ag Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr ""
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Alastair McKinstry <mckinstry@debian.org>\n"
+"Seán de Búrca <leftmostcat@gmail.com>"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr ""
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Tóg sos!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Sos Clóscríofa"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "Leanann eatramh _sosa go ceann:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "Cuir scáileán faoi _ghlas chun sos clóscríofa a fhorfheidhmiú"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "Leanann eatramh _oibre go ceann:"
+
+#~ msgid "minutes"
+#~ msgstr "nóimeád"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Arbeit</b>"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Legt fest, ob Pausen verschoben werden dürfen"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Länge einer Pause, in der Tippen nicht erlaubt ist"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Arbeitszeit, bevor eine Pause erzwungen wird.</span>"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/_Über"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pausenerinnerer"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Freier Platz (in Prozent) zum Auslösen einer Warnung"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Freier Platz zum Auslösen einer Warnung"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Minimaler Warnintervall für wiederholte Warnungen"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Zu ignorierende Einhängepfade"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Prozentsatz des freien Plattenplatzes als Auslöseschwelle für die "
+#~ "erstmalige Warnung. Falls der Prozentsatz des freien Platzes unter diesen "
+#~ "Wert fällt, wird eine Warnung angezeigt."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Geben Sie eine Liste der Einhängepfade an, die bei wenig Plattenplatz "
+#~ "ignoriert werden sollen."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Geben Sie eine Zeit in Minuten an. Wiederholte Warnungen für einen "
+#~ "Datenträger erscheinen nicht öfter als in diesem Abstand."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Geben Sie eine Größe in GB an. Falls die Menge des freien Plattenplatzes "
+#~ "größer als dieser Wert ist, wird keine Warnung angezeigt."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Geben Sie den Prozentsatz des freien Plattenplatzes an, der "
+#~ "unterschritten werden muss, um wiederholte Warnungen auszulösen."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Schwellwert in Prozent für wiederholte Warnungen"
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Tastenkürzel um das Touchpad zu aktivieren/deaktivieren."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Tastenkürzel um die Wiedergabe zu starten (oder zwischen Wiedergabe und "
+#~ "Pause umzuschalten)."
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Touchpad ein/aus"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Datei mit der Vorgabekonfiguration für RandR"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Das XRandR-Plugin sucht in der durch diesen Schlüssel angegebenen Datei "
+#~ "nach einer Vorgabekonfiguration. Dies verhält sich ähnlich wie ~/.config/"
+#~ "monitors.xml, die normalerweise in den persönlichen Ordnern der Benutzer "
+#~ "gespeichert wird. Falls ein Benutzer nicht über solch eine Datei verfügt "
+#~ "oder seine Konfiguration nicht zu den vorhandenen Bildschirmen passt, "
+#~ "wird die in diesem Schlüssel angegebene Datei stattdessen verwendet."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Externen Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Externen Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Laptop-Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Laptop-Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Legt fest, ob im Panel ein Benachrichtigungssymbol für die "
+#~ "Bildschirmeinstellungen angezeigt wird."
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Die Abfolge der Sub-Pixel-Elemente eines Flachbildschirms. Wird nur "
+#~ "verwendet, wenn die Kantenglättung auf »rgba« gesetzt ist. Mögliche Werte "
+#~ "sind: »rgb« für Rot auf links (am meisten verbreitet), »bgr« für Blau auf "
+#~ "links, »vrgb« für Rot oben und »vbgr« für Rot unten."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Die zu verwendende Auflösung, um Schriftgrößen auf Pixelgrößen "
+#~ "umzuwandeln, Angabe erfolgt in Punkten pro Zoll."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Die Art der Kantenglättung beim Darstellen der Schriften. Mögliche Werte "
+#~ "sind: »none« für keine Kantenglättung, »grayscale« für Standard-"
+#~ "Graustufenkantenglättung und »rgba« für Sub-Pixel-Kantenglättung (nur bei "
+#~ "Flachbildschirmen)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Die Art des Hinting, welches beim Darstellen von Schriften verwendet "
+#~ "wird. Mögliche Werte sind: »none« für kein Hinting, »slight« für "
+#~ "minimales, »medium« für normales und »full« für maximales Hinting "
+#~ "(letzteres kann zum Entstellen der Buchstabenformen führen),"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Falls nicht leer, werden Tastenkürzel ignoriert, sofern deren GConf-"
+#~ "Ordner sich in der Liste befindet. Dies ist nützlich zum Sperren."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Touchpad während des Tippens deaktivieren"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Mausklicks mit dem Touchpad aktivieren"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Touchpad aktivieren"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Rollmethode für Touchpad auswählen"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Wählen Sie die Rollmethode für das Touchpad aus. Mögliche Werte sind: 0 - "
+#~ "deaktiviert, 1 - Kantenrollen, 2 - Rollen mit zwei Fingern"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »WAHR«, falls Sie Probleme mit unbeabsichtigtem "
+#~ "Berühren des Touchpads während des Tippens haben."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »WAHR«, um horizontales Rollen mit der Methode zu "
+#~ "erlauben, die im Schlüssel »scroll_method« festgelegt ist."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »WAHR«, um Mausklicks mit dem Touchpad auslösen zu "
+#~ "können."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Setzen Sie dies auf »WAHR«, um alle Touchpads zu aktivieren."
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Befehl zum Ein- und Ausschalten der Bildschirmlupe"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für automatisches Aufräumen aktiviert ist, das "
+#~ "alte temporäre Dateien aus den Zwischenspeichern entfernt."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Wenn auf »wahr« gesetzt, wird das Modul für die Einstellungen von XRandR "
+#~ "aktiviert."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen der Zwischenablage "
+#~ "aktiviert ist."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für das Festlegen des Bildschirmhintergrundes "
+#~ "aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "Legt fest, ob das Modul für die Schrifteneinstellung aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Tastatureinstellungen aktiviert ist."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Wenn auf »wahr« gesetzt, wird das Plugin zum Verwalten der "
+#~ "Bidschirmsperre beim Entfernen der SmartCard aktiviert."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Legt fest, ob das Modul für die Mauseinstellungen aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellung von Multimedia-Tasten "
+#~ "aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Auf »WAHR« setzen, um das Plugin zur Verwaltung des Audio-"
+#~ "Zwischenspeichers zu aktivieren."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen der barrierefreien Tastatur "
+#~ "aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Tastenkürzelverwaltung aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Tipppauseneinstellungen aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen von XRDB aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen von XSettings aktiviert ist."
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Tastenkürzel zum Ein- und Ausschalten der Bildschirmlupe"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Dies ist der Name des Tastenkürzels zum Ein- und Ausschalten der "
+#~ "Bildschirmlupe. Dieser Name wird im Einstellungsdialog der Tastatur "
+#~ "angezeigt."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Dies ist der Name des Tastenkürzels zum Ein- und Ausschalten der "
+#~ "Bildschirmtastatur. Dieser Name wird im Einstellungsdialog der Tastatur "
+#~ "angezeigt."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Dies ist der Name des Tastenkürzels zum Ein- und Ausschalten des "
+#~ "Bildschirmlesers. Dieser Name wird im Einstellungsdialog der Tastatur "
+#~ "angezeigt."
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Legt fest, ob springende Tasten (Barrierefreiheitsfunktion der Tastatur) "
+#~ "aktiviert sind."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Legt fest, ob Maustasten (Barrierefreiheitsfunktion der Tastatur) "
+#~ "aktiviert sind."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Legt fest, ob die Bildschirmlupe aktiviert ist."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Legt fest, ob Tastenverzögerung (Barrierefreiheitsfunktion der Tastatur) "
+#~ "aktiviert ist."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Legt fest, ob klebrige Tasten (Barrierefreiheitsfunktion der Tastatur) "
+#~ "aktiviert sind."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »none« (nichts tun), »lock_screen« (Bildschirm "
+#~ "sperren) oder »force_logout« (Abmelden erzwingen). Die Aktion wird "
+#~ "ausgeführt, wenn die zum Anmelden benutzte Smartcard entfernt wird."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Smartcard-Entfernung"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "GConf-Prefix, von wo aus Moduleinstellungen geladen werden"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Nach Ablauf einer Zeitspanne beenden - für Fehlerdiagnosezwecke"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Wollen Sie die Tastenverzögerung aktivieren?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Wollen Sie die Tastenverzögerung deaktivieren?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Sie haben die Umschalttaste 8 Sekunden lang gedrückt. Dies ist die "
+#~ "Tastenkombination für die Tastenverzögerungsfunktion, die das Verhalten "
+#~ "Ihrer Tastatur beeinflusst."
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Tastenverzögerungsalarm"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Wollen Sie klebrige Tasten aktivieren?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Wollen Sie klebrige Tasten deaktivieren?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Sie haben die Umschalttaste 5 Mal in Folge gedrückt. Dies ist die "
+#~ "Tastenkombination für die Funktion »klebrige Tasten«, die das Verhalten "
+#~ "Ihrer Tastatur beeinflusst."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Sie haben zwei Tasten auf einmal oder die Umschalttaste 5 Mal in Folge "
+#~ "gedrückt. Dies ist die Tastenkombination für die Funktion »klebrige "
+#~ "Tasten«, die das Verhalten Ihrer Tastatur beeinflusst."
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Farb_kontrast erhöhen"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "_Text größer darstellen"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Nur lan_ge Tastenanschläge akzeptieren (Tastenverzögerung)"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "Schnelle _doppelte Tastenanschläge ignorieren (Springende Tasten)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr ""
+#~ "Tastenkürzel durch _einzelnes Drücken der Tasten ausführen (Klebrige "
+#~ "Tasten)"
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie den Müll leeren, "
+#~ "ungenutzte Programme oder Dateien löschen oder Dateien auf eine andere "
+#~ "Festplatte oder eine andere Partition verschieben."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie ungenutzte Programme oder "
+#~ "Dateien löschen oder Dateien auf eine andere Festplatte oder eine andere "
+#~ "Partition verschieben."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie den Müll leeren, "
+#~ "ungenutzte Programme oder Dateien löschen oder Dateien auf einen externen "
+#~ "Datenträger verschieben."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie ungenutzte Programme oder "
+#~ "Dateien löschen oder Dateien auf einen externen Datenträger verschieben."
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Leeren des Mülleimers wird vorbereitet …"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Möchten Sie alle Objekte aus dem Mülleimer löschen?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Wenn Sie den Mülleimer leeren, wird der gesamte Inhalt unwiderruflich "
+#~ "gelöscht. Bitte beachten Sie, dass Objekte auch einzeln gelöscht werden "
+#~ "können."
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Fehler beim Ausführen von (%s),\n"
+#~ "das mit der Taste (%s) verknüpft ist"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Fehler beim Aktivieren der XKB-Konfiguration.\n"
+#~ "Dies kann unter folgenden Umständen passieren:\n"
+#~ " • ein Fehler in der Bibliothek libxklavier\n"
+#~ " • ein Fehler im X-Server (xkbcomp, xmodmap-Werkzeuge)\n"
+#~ " • X-Server mit inkompatibler Implementation von libxkbfile\n"
+#~ "\n"
+#~ "Versionsdaten des X-Servers:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Falls Sie dies als Fehler melden, fügen Sie hinzu:\n"
+#~ " • das Ergebnis von <b>%s</b>\n"
+#~ " • das Ergebnis von <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Sie benutzen derzeit XFree 4.3.0.\n"
+#~ "In Verbindung mit komplexen XKB-Konfigurationen sind Probleme bekannt.\n"
+#~ "Versuchen Sie eine einfachere Konfiguration zu benutzen oder\n"
+#~ "eine neuere Version der XFree-Software."
+
+#~ msgid "_Layouts"
+#~ msgstr "Be_legungen"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Aktuelle _Belegung anzeigen"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Das Vorgabeterminal konnte nicht gefunden werden. Stellen Sie sicher, "
+#~ "dass der Befehl für \n"
+#~ "den Vorgabeterminal gesetzt ist und auf eine installierte Anwendung "
+#~ "verweist."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Befehl konnte nicht ausgeführt werden: %s\n"
+#~ "Stellen Sie sicher, dass es sich um einen gültigen Befehl handelt."
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Barrierefreie Maushilfen konnten nicht aktiviert werden"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Eine barrierefreie Maus setzt das Programm »Mousetweaks« auf Ihrem System "
+#~ "voraus."
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Bildschirmgröße und -rotation einstellen"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Bildschirmkonfiguration konnte nicht geändert werden"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr ""
+#~ "Bildschirmkonfiguration konnte nicht aus einer Sicherungsdatei "
+#~ "wiederhergestellt werden"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] ""
+#~ "Diese Anzeige wird in %d Sekunde auf die vorherige Einstellung "
+#~ "zurückgesetzt"
+#~ msgstr[1] ""
+#~ "Diese Anzeige wird in %d Sekunden auf die vorherige Einstellung "
+#~ "zurückgesetzt"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Ist die Bildschirmanzeige in Ordnung?"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Die gewählte Bildschirmkonfiguration konnte nicht angewendet werden"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Bildschirminformationen konnten nicht aktualisiert werden: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Es wird trotzdem versucht, die Bildschirmkonfiguration zu ändern."
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Bildschirmkonfiguration konnte nicht gespeichert werden"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr ""
+#~ "Die gespeicherte Bildschirmkonfiguration konnte nicht angewendet werden"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Persönlicher Ordner des Benutzers konnte nicht ermittelt werden"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "GConf-Schlüssel %s ist vom Typ %s, es wurde jedoch der Typ %s erwartet\n"
+
+#~ msgid "Module Path"
+#~ msgstr "Modulpfad"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "Pfad zum Smartcard PKCS #11-Treiber"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "Fehler empfangen oder Abbruch seitens der Ereignisquelle"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Das NSS-Sicherheitssystem konnte nicht initialisiert werden"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "Es konnte kein passender Smartcard-Treiber gefunden werden"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "Smartcard-Treiber »%s« konnte nicht geladen werden"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr ""
+#~ "Überwachung auf eingehende Karten-Ereignisse ist fehlgeschlagen - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr ""
+#~ "Unerwarteter Fehler trat beim Warten auf eingehende Karten-Ereignisse auf"
+
+#~ msgid "Slot ID"
+#~ msgstr "Slot-Kennung"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Der Slot, in welchem sich die Karte befindet"
+
+#~ msgid "Slot Series"
+#~ msgstr "Slot-Reihe"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "Slotweise Kartenbezeichnung"
+
+#~ msgid "name"
+#~ msgstr "Name"
+
+#~ msgid "Module"
+#~ msgstr "Modul"
+
+#~ msgid "smartcard driver"
+#~ msgstr "Smartcard-Treiber"
+
+#~ msgid "Change system time"
+#~ msgstr "Systemzeit ändern"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Zeitzone des Systems ändern"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Hardware-Uhr konfigurieren"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Zeitzone des Systems zu "
+#~ "ändern."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Systemzeit zu ändern."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Hardware-Uhr zu "
+#~ "konfigurieren."
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Unbekannt\n"
+#~ "#-#-#-#-#  ga.po (gnome-control-center.master)  #-#-#-#-#\n"
+#~ "Anaithnid"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Tastaturbelegung »%s«"
+
+#~ msgid "_Groups"
+#~ msgstr "_Gruppen"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Der Rechner konnte nicht in den Ruhezustand versetzt werden.\n"
+#~ "Überprüfen Sie, ob der Rechner korrekt konfiguriert ist."
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Legt fest, ob ein Dialog angezeigt wird, wenn beim Ausführen des "
+#~ "Bildschirmschoners ein Fehler auftritt."
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Legt fest, ob der Bildschirmschoner beim Anmelden gestartet wird."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Fehler beim Start anzeigen"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% des Speicherplatzes auf »%s« wird benutzt"
+
+#~ msgid "Analyze"
+#~ msgstr "Analysieren"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Fehler beim Starten des Bildschirmschoners:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Der Bildschirmschoner steht in dieser Sitzung nicht zur Verfügung."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern des Mauszeiger-Themas erforderlich."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern der Zeiger erforderlich."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Audiodatei %s konnte nicht als Beispiel %s geladen werden"
+
+#~ msgid "Login"
+#~ msgstr "Anmelden"
+
+#~ msgid "Logout"
+#~ msgstr "Abmelden"
+
+#~ msgid "Boing"
+#~ msgstr "Gong"
+
+#~ msgid "Siren"
+#~ msgstr "Sirene"
+
+#~ msgid "Clink"
+#~ msgstr "Klicken"
+
+#~ msgid "Beep"
+#~ msgstr "Piep"
+
+#~ msgid "No sound"
+#~ msgstr "Kein Klang"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Diesem Ereignis ist kein Klang zugewiesen."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
+#~ "Sie können das Paket »gnome-audio« installieren, um die Vorgabeklänge zu "
+#~ "erhalten."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Die Audiodatei für dieses Ereignis existiert nicht."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Audiodatei wählen"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Die Datei %s ist keine gültige wav-Datei"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Audiodatei wählen …"
+
+#, fuzzy
+#~ msgid "Sound"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Audio\n"
+#~ "#-#-#-#-#  ga.po (gnome-control-center.master)  #-#-#-#-#\n"
+#~ "Fuaim"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Setzen Sie diesen Wert auf »True«, um die MIME-Typ-Handler für »text/"
+#~ "plain« und »text/*« synchron zu halten."
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "»text/plain« und »text/*«-Handler synchronisieren"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "Setzen Sie diesen Werten auf »True«, um das Modul für die Einstellungen "
+#~ "für den Standard-Text-Editor zu aktivieren."
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "Anscheinend hat bereits eine andere Anwendung auf den Schlüssel »%u« "
+#~ "zugegriffen."
+
+#~ msgid "Accessibility"
+#~ msgstr "Inrochtaineacht"
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Ceangal chun an t-áireamhán a thosú."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Ceangal chun an cliant ríomhphoist a thosú."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Ceangal chun an brabhsálaí cabhrach a thosú."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Ceangal chun an seinnteoir meán a thosú."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Ceangal chun an uirlis chuardaigh a thosú."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Ceangal chun an brabhsálaí gréasáin a thosú."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Ceangal chun an scáileán a chur faoi ghlas."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Ceangal chun logála amach."
+
+#, fuzzy
+#~ msgid "Binding to lower the system volume."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an scáileán a chur faoi ghlas.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to mute the system volume."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an uirlis chuardaigh a thosú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to open the Home folder."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an formhéadaitheoir a scoránú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to pause playback."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an seinnteoir meán a thosú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to raise the system volume."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an uirlis chuardaigh a thosú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to skip to next track."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an scáileán a chur faoi ghlas.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to skip to previous track."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun logála amach.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to stop playback."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun logála amach.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Eject"
+#~ msgstr "Díchuir"
+
+#~ msgid "Home folder"
+#~ msgstr "Fillteán baile"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Tosaigh áireamhán"
+
+#~ msgid "Launch email client"
+#~ msgstr "Tosaigh cliant ríomhphoist"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Tosaigh brabhsálaí cabhrach"
+
+#~ msgid "Launch media player"
+#~ msgstr "Tosaigh seinnteoir meán"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Tosaigh brabhsálaí gréasáin"
+
+#~ msgid "Lock screen"
+#~ msgstr "Cuir scáileán faoi ghlas"
+
+#~ msgid "Log out"
+#~ msgstr "Logáil amach"
+
+#~ msgid "Next track"
+#~ msgstr "An chéad rian eile"
+
+#~ msgid "Pause playback"
+#~ msgstr "Cuir athsheinm ar sos"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Seinn (nó seinn/sos)"
+
+#~ msgid "Previous track"
+#~ msgstr "An rian roimhe seo"
+
+#~ msgid "Search"
+#~ msgstr "Cuardaigh"
+
+#~ msgid "Stop playback"
+#~ msgstr "Stad athsheinm"
+
+#~ msgid "Volume down"
+#~ msgstr "Laghdaigh airde"
+
+#~ msgid "Volume mute"
+#~ msgstr "Balbhaigh airde"
+
+#~ msgid "Volume step"
+#~ msgstr "Céim airde"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Céim airde mar chéatadán airde."
+
+#~ msgid "Volume up"
+#~ msgstr "Méadaigh airde"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Taispeáin Taispeáintí sa Limistéar Fógra."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Frithailiasáil"
+
+#~ msgid "DPI"
+#~ msgstr "PSO"
+
+#~ msgid "Hinting"
+#~ msgstr "Leidiú"
+
+#~ msgid "RGBA order"
+#~ msgstr "Ord RGBA"
+
+#~ msgid "Allowed keys"
+#~ msgstr "Eochracha ceadaithe"
+
+#, fuzzy
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Cumasaigh an breiseán cló\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Deamhan Socruithe GNOME"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Ceangal chun an formhéadaitheoir a scoránú."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Ceangal chun an méarchlár scáileáin a scoránú."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Ceangal chun an léitheoir scáileáin a scoránú."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Eochracha preabtha"
+
+#, fuzzy
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an méarchlár scáileáin a scoránú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an léitheoir scáileáin a scoránú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Breiseán an mhéarchlár inrochtaineachta\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Cumasaigh an breiseán cúlra"
+
+#, fuzzy
+#~ msgid "Enable clipboard plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Breiseán gearrthaisce\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Cumasaigh an breiseán cló"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Cumasaigh an breiseán fodóireachta"
+
+#, fuzzy
+#~ msgid "Enable keybindings plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Breiseán cheangail eochrach\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable keyboard plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Cumasaigh an breiseán cúlra\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable media keys plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Breiseán eochracha meán\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable mouse plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Cumasaigh an breiseán cló\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable sound plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Cumasaigh an breiseán cló\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Breiseán sos clóscríofa\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable xrdb plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Cumasaigh an breiseán cló\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable xsettings plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Cumasaigh an breiseán fodóireachta\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Eochracha na luiche"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Méarchlár scáileáin"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Formhéadaitheoir scáileáin"
+
+#~ msgid "Screen reader"
+#~ msgstr "Léitheoir scáileáin"
+
+#, fuzzy
+#~ msgid "Slow keys"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Eochracha ceadaithe\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Eochracha greamaitheacha"
+
+#, fuzzy
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an méarchlár scáileáin a scoránú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an léitheoir scáileáin a scoránú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Scoránaigh an formhéadaitheoir"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Scoránaigh an méarchlár scáileán"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Scoránaigh an léitheoir scáileáin"
+
+#, fuzzy
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an méarchlár scáileáin a scoránú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Ná tar chun bheith deamhain"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Mearchlár Inrochtaineachta"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Breiseán an mhéarchlár inrochtaineachta"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Bhí earraid ag taispeáin cabhair: %s"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Ná díghníomhachtaigh"
+
+#~ msgid "Activate"
+#~ msgstr "Gníomhachtaigh"
+
+#~ msgid "Deactivate"
+#~ msgstr "Díghníomhachtaigh"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_Ná gníomhachtaigh"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "_Ná díghníomhachtaigh"
+
+#~ msgid "_Activate"
+#~ msgstr "_Gníomhachtaigh"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Díghníomhachtaigh"
+
+#, fuzzy
+#~ msgid "Sticky Keys Alert"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Eochracha greamaitheacha\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Sainroghanna Rochtana Uilíche"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Úsáid an _méarchlár scáileáin"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Úsáid an _formhéadaitheoir scáileáin"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Úsáid an _léitheoir scáileáin"
+
+#~ msgid "Background"
+#~ msgstr "Cúlra"
+
+#~ msgid "Background plugin"
+#~ msgstr "Breiseán an chúlra"
+
+#~ msgid "Clipboard"
+#~ msgstr "Gearrthaisce"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Breiseán gearrthaisce"
+
+#~ msgid "Dummy"
+#~ msgstr "Caochadán"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Breiseán caochadáin"
+
+#~ msgid "Font"
+#~ msgstr "Cló"
+
+#~ msgid "Font plugin"
+#~ msgstr "Breiseán cló"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Ná taispeáin aon rabhadh arís"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Níl ach %2$s spáis diosca fágtha ag an imleabhar \"%1$s\"."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Níl ach %s spáis diosca fágtha ag an ríomhaire seo."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Spás Diosca Gann"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Folmhaigh Bruscar"
+
+#~ msgid "Ignore"
+#~ msgstr "Déan Neamhaird Air"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Mír %lu as %lu á baint"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Bruscar á fholmhú"
+
+#~ msgid "From: "
+#~ msgstr "Ó:"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Folmhaigh Bruscar"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Tá an ceangal eochrach (%s) neamhbhailí"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Tá an ceangal eochrach (%s) neamhiomlán"
+
+#~ msgid "Keybindings"
+#~ msgstr "Ceangail eochrach"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Breiseán cheangail eochrach"
+
+#~ msgid "Keyboard"
+#~ msgstr "Méarchlár"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Breiseán an mhéarchláir"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Co_mhaid ar fáil:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Luchtaigh comhaid modmap"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Ná taispeáin an teachtaireacht seo arís"
+
+#~ msgid "_Load"
+#~ msgstr "_Luchtaigh"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "Comhaid _luchtaithe:"
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u Aschur"
+#~ msgstr[1] "%u Aschur"
+#~ msgstr[2] "%u Aschur"
+#~ msgstr[3] "%u nAschur"
+#~ msgstr[4] "%u Aschur"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u Ionchur"
+#~ msgstr[1] "%u Ionchur"
+#~ msgstr[2] "%u Ionchur"
+#~ msgstr[3] "%u nIonchur"
+#~ msgstr[4] "%u Ionchur"
+
+#~ msgid "System Sounds"
+#~ msgstr "Fuaimeanna Córais"
+
+#~ msgid "Media keys"
+#~ msgstr "Eochracha meán"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Breiseán eochracha meán"
+
+#~ msgid "Mouse"
+#~ msgstr "Luch"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Breiseán na luiche"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Breiseán sos clóscríofa"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#, fuzzy
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "_Athchóirigh an Chumraíocht Roimhe Seo\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Athchóirigh an Chumraíocht Roimhe Seo"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Coinnigh an Chumraíocht Seo"
+
+#, fuzzy
+#~ msgid "Normal"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Gnách\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Gnách\n"
+#~ "#-#-#-#-#  ga.po (gnome-control-center.master)  #-#-#-#-#\n"
+#~ "Gnáthrothlú"
+
+#~ msgid "Left"
+#~ msgstr "Ar Chlé"
+
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ar Dheis\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ar Dheis\n"
+#~ "#-#-#-#-#  ga.po (gnome-control-center.master)  #-#-#-#-#\n"
+#~ "Deis"
+
+#~ msgid "Upside Down"
+#~ msgstr "Bunoscionn"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Cumraigh socruithe taispeána"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Bainistigh an bunachar sonraí acmhainní X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Bunachar Sonraí Acmhainní X"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Bainistigh Socruithe X"
+
+#~ msgid "X Settings"
+#~ msgstr "Socruithe X"
+
+#, fuzzy
+#~ msgid "Binding to suspend the computer."
+#~ msgstr ""
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+#~ "Ceangal chun an t-áireamhán a thosú.\n"
+#~ "#-#-#-#-#  ga.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
+
+#~ msgid "Suspend"
+#~ msgstr "Cuir ar fionraí"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "Rialtán Airde GNOME"
+
+#~ msgid "Binding to eject an optical disk."
+#~ msgstr "Ceangal chun diosca optúil a dhíchur."
+
+#~ msgid "Don't activate"
+#~ msgstr "Ná gníomhachtaigh"
+
+#~ msgid "Don't show any warnings again for this filesystem"
+#~ msgstr "Ná taispeáin aon rabhadh arís don chóras comhad seo"
+
+#~ msgid "Examine..."
+#~ msgstr "Scrúdaigh..."
+
+#~ msgid "<i>Removing: %s</i>"
+#~ msgstr "<i>Á bhaint: %s</i>"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Ar mhaith leat an comhad/na comhaid modmap a luchtú?"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Sainroghanna na Luiche"
+
+#~ msgid "Typing Break"
+#~ msgstr "Sos Clóscríofa"
+
+#~ msgid "<i>Rotation not supported</i>"
+#~ msgstr "<i>Rothlú gan tacaíocht</i>"
+
+#~ msgid "_Configure Display Settings ..."
+#~ msgstr "_Cumraigh Socruithe Taispeána..."
+
+#~ msgid "Alert Type"
+#~ msgstr "Cineál Foláirimh"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Cnaipí Foláirimh"
+
+#~ msgid "Show more _details"
+#~ msgstr "Taispeáin tuilleadh _mionsonraí"
+
+#~ msgid "Select Image"
+#~ msgstr "Roghnaigh Íomhá"
+
+#~ msgid "No Image"
+#~ msgstr "Gan Íomhá"
+
+#~ msgid "Images"
+#~ msgstr "Íomhánna"
+
+#~ msgid "All Files"
+#~ msgstr "Gach Comhad"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Ní féidir leabhar seoltaí a oscailt"
+
+#~ msgid "About %s"
+#~ msgstr "Maidir le %s"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Cumasaigh Logáil Isteach _Méarloirg..."
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Díchumasaigh Logáil Isteach _Méarloirg..."
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "S_eoladh:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "_Cúntóir:"
+
+#~ msgid "About Me"
+#~ msgstr "Maidir Liom"
+
+#~ msgid "Address"
+#~ msgstr "Seoladh"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Cathair:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "C_omhlacht:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Fé_ilire:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Athraigh _Focal Faire..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Cat_hair:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Tír:"
+
+#~ msgid "Contact"
+#~ msgstr "Teagmháil"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Tí_r:"
+
+#~ msgid "Email"
+#~ msgstr "Ríomhphost"
+
+#~ msgid "Full Name"
+#~ msgstr "Ainm Iomlán"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Bail_e:"
+
+#~ msgid "Home"
+#~ msgstr "Baile"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Cur Teachtaireachtaí Meandaracha"
+
+#~ msgid "Job"
+#~ msgstr "Post"
+
+#~ msgid "M_SN:"
+#~ msgstr "_MSN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "_Bosca O.P.:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "Bosca _O.P.:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Eolas Pearsanta"
+
+#~ msgid "Select your photo"
+#~ msgstr "Roghnaigh do ghrianghraf"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Stát/Cúi_ge:"
+
+#~ msgid "Telephone"
+#~ msgstr "Teileafón"
+
+#~ msgid "User name:"
+#~ msgstr "Ainm úsáideora:"
+
+#~ msgid "Web"
+#~ msgstr "Gréasán"
+
+#~ msgid "Web _log:"
+#~ msgstr "_Loga gréasáin:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "Ob_air:"
+
+#~ msgid "Work"
+#~ msgstr "Obair"
+
+#~ msgid "Work _fax:"
+#~ msgstr "Fa_cs oibre:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "Cód Zip/_poist:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Seoladh:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Roinn:"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "Leathanach _baile:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Baile:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "Bai_nisteoir:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "Fón _póca:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Gairm:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "Stát/Cú_ige:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Teideal:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Obair:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "Cód _Zip/poist:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Socraigh do chuid eolais phearsanta"
+
+#~ msgid "Done!"
+#~ msgstr "Críochnaithe!"
+
+#~ msgid "Left index finger"
+#~ msgstr "Corrmhéar chlé"
+
+#~ msgid "Left little finger"
+#~ msgstr "Lúidín clé"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Méar mheáin chlé"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Méar an fháinne chlé"
+
+#~ msgid "Left thumb"
+#~ msgstr "Ordóg chlé"
+
+#~ msgid "Other finger: "
+#~ msgstr "Méar eile:"
+
+#~ msgid "Right index finger"
+#~ msgstr "Corrmhéar dheas"
+
+#~ msgid "Right little finger"
+#~ msgstr "Lúidín deas"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Méar mheáin dheas"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Méar an fháinne dheas"
+
+#~ msgid "Right thumb"
+#~ msgstr "Ordóg dheas"
+
+#~ msgid "Select finger"
+#~ msgstr "Roghnaigh méar"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Fíordheimhnithe!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Athraíodh d'fhocal faire ó d'fhíordheimhnigh tú ar dtús! "
+#~ "Athfhíordheimhnigh, le do thoil."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Bhí an focal faire sin mícheart."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Athraítear d'fhocal faire."
+
+#~ msgid "System error: %s."
+#~ msgstr "Earráid córais: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Tá an focal faire ró-ghairid."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Tá an focal faire ró-shimplí."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Tá an focal faire nua agus an seanfhocal faire ró-chósúil."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr ""
+#~ "Ní mór carachtair uimhriúla nó speisialta a bheith san fhocal faire nua."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Is ionann an focal faire nua agus an seanfhocal faire."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Ní féidir %s a thosú: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Ní féidir inneall a thosú"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Tharla earráid chórais"
+
+#~ msgid "Checking password..."
+#~ msgstr "Focal faire á sheiceáil..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Cliceáil <b>Athraigh focal faire</b> chun d'fhocal faire a athrú."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr ""
+#~ "Clóscriobh d'fhocal faire isteach sa réimse <b>Focal faire nua</b>, le do "
+#~ "thoil."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Clóscríobh d'fhocal faire arís isteach sa réimse <b>Iontráil focal faire "
+#~ "nua arís</b>, le do thoil."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Níl an dá fhocal faire cothrom."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Athraigh fo_cal faire"
+
+#~ msgid "Change password"
+#~ msgstr "Athraigh Focal Faire"
+
+#~ msgid "Change your password"
+#~ msgstr "Athraigh d'fhocal faire"
+
+#~ msgid "Current _password:"
+#~ msgstr "_Focal faire reatha:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Chun d'fhocal faire a athrú, iontráil d'fhocal faire reatha isteach sa "
+#~ "réimse thíos agus cliceáil <b>Fíordheimhnigh</b>.\n"
+#~ "Agus tú fíordheimhnithe, iontráil d'fhocal faire nua, iontráil é arís le "
+#~ "haghaidh fíoraithe agus cliceáil <b>Athraigh focal faire</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "Fí_ordheimhnigh"
+
+#~ msgid "_New password:"
+#~ msgstr "Focal faire _nua:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Iontráil focal faire nua _arís:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Lo_gáil Isteach Inrochtana"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Teicneolaíochtaí Oiriúnaitheacha"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Sainroghanna Teicneolaíochtaí Oiriúnaitheacha"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Ní rachaidh athruithe chun teicneolaíochtaí oiriúnaitheacha a chumasú i "
+#~ "bhfeidhm go dtí do chéad logáil isteach eile."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Dún agus Logáil _Amach"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Léim go dtí an dialóg Feidhmchlár de Rogha"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Léim go dtí an dialóg Logála Isteach Inrochtana"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Léim go dtí an dialóg Inrochtaineachta an Mhéarchláir"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Léim go dtí an dialóg Inrochtaineachta na Luiche"
+
+#~ msgid "Preferences"
+#~ msgstr "Sainroghanna"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Cumasaigh teicneolaíochtaí oiriúnaitheacha"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Inrochtaineacht an _Mhéarchláir"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Inrochtaineacht na _Luiche"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "Feidhmchláir de _Rogha"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Roghnaigh na gnéithe inrochtaineachta le cumasú nuair a logálann tú "
+#~ "isteach"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Cuir Cúlbhrat Leis"
+
+#~ msgid "All files"
+#~ msgstr "Gach comhad"
+
+#~ msgid "Use previous font"
+#~ msgstr "Úsáid cló roimhe seo"
+
+#~ msgid "Use selected font"
+#~ msgstr "Úsáid cló roghnaithe"
+
+#~ msgid "filename"
+#~ msgstr "AINMCOMHAID"
+
+#~ msgid "page"
+#~ msgstr "LEATHANACH"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[CÚLBHRAT...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Pointeoir Réamhshocraithe"
+
+#~ msgid "Install"
+#~ msgstr "Suiteáil"
+
+#~ msgid "Apply Background"
+#~ msgstr "Cuir Cúlra i bhFeidhm"
+
+#~ msgid "Apply Font"
+#~ msgstr "Cuir Cló i bhFeidhm"
+
+#~ msgid "Revert Font"
+#~ msgstr "Fill Cló"
+
+#~ msgid "Custom"
+#~ msgstr "Saincheaptha"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Sainroghanna Cuma"
+
+#~ msgid "Best _shapes"
+#~ msgstr "C_ruthanna is fearr"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Codars_nacht is fearr"
+
+#~ msgid "C_olors"
+#~ msgstr "D_athanna"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "Sain_cheap..."
+
+#~ msgid "Centered"
+#~ msgstr "Láraithe"
+
+#~ msgid "Colors"
+#~ msgstr "Dathanna"
+
+#~ msgid "Controls"
+#~ msgstr "Rialtáin"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Saincheap Téama"
+
+#~ msgid "D_etails..."
+#~ msgstr "_Sonraí..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Cló _deisce:"
+
+#~ msgid "Edit"
+#~ msgstr "Eagar"
+
+#~ msgid "Fill screen"
+#~ msgstr "Líon an scáileán"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Sonraí Rindreáil Clónna"
+
+#~ msgid "Fonts"
+#~ msgstr "Clónna"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "_Liathscála"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Grádán cothrománach"
+
+#~ msgid "Icons"
+#~ msgstr "Deilbhíní"
+
+#~ msgid "Icons only"
+#~ msgstr "Deilbhíní amháin"
+
+#~ msgid "Interface"
+#~ msgstr "Comhéadan"
+
+#~ msgid "Large"
+#~ msgstr "Mór"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "Roghchláir agus Barraí Uirlisí"
+
+#~ msgid "N_one"
+#~ msgstr "N_eamhní"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Oscail dialóg chun an dath a shocrú"
+
+#~ msgid "Pointer"
+#~ msgstr "Pointeoir"
+
+#~ msgid "Preview"
+#~ msgstr "Réamhamharc"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Taifeach:"
+
+#~ msgid "Rendering"
+#~ msgstr "Rindreáil"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Sábháil Téama Mar..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Sábháil _Mar..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Sábháil íomhá _cúlra"
+
+#~ msgid "Scaled"
+#~ msgstr "Scálaithe"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "_Taispeáin deilbhíní sa roghchláir"
+
+#~ msgid "Small"
+#~ msgstr "Beag"
+
+#~ msgid "Smoothing"
+#~ msgstr "Slíomachán"
+
+#~ msgid "Solid color"
+#~ msgstr "Dath soladach"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Fo_phicteilín (LCDanna)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Slíomachán fo_phicteilín (LCDanna)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Ord Fophicteilín"
+
+#~ msgid "Text"
+#~ msgstr "Téacs"
+
+#~ msgid "Text below items"
+#~ msgstr "Téacs faoi mhíreanna"
+
+#~ msgid "Text beside items"
+#~ msgstr "Téacs in aice le míreanna"
+
+#~ msgid "Text only"
+#~ msgstr "Téacs amháin"
+
+#~ msgid "Theme"
+#~ msgstr "Téama"
+
+#~ msgid "Tiled"
+#~ msgstr "Tílithe"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "_Lipéid chnaipe an bharra uirlisí:"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Grádán ingearach"
+
+#~ msgid "Window Border"
+#~ msgstr "Imlíne Fhuinneoige"
+
+#~ msgid "Zoom"
+#~ msgstr "Súmáil"
+
+#~ msgid "_Add..."
+#~ msgstr "Cuir _Leis..."
+
+#~ msgid "_Application font:"
+#~ msgstr "Cló _feidhmchláir:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Cur Síos:"
+
+#~ msgid "_Desktop Background"
+#~ msgstr "_Cúlra na Deisce"
+
+#~ msgid "_Document font:"
+#~ msgstr "Cló _cáipéise:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "_Eochracha aicearra an roghchláir ineagarthóireachta"
+
+#~ msgid "_File"
+#~ msgstr "_Comhad"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Cló _aonleithid:"
+
+#~ msgid "_Full"
+#~ msgstr "_Iomlán"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "_Boscaí ionchurtha:"
+
+#~ msgid "_Install..."
+#~ msgstr "S_uiteáil..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Measartha"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monacrómach"
+
+#~ msgid "_Name:"
+#~ msgstr "_Ainm:"
+
+#~ msgid "_None"
+#~ msgstr "_Neamhní"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_Athshocraigh go Réamhshocruithe"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Míreanna roghnaithe:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Méid:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Caol"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stíl:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Leideanna uirlisí:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Cló _theideal fuinneoige:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Fuinneoga:"
+
+#~ msgid "dots per inch"
+#~ msgstr "ponc san orlach"
+
+#~ msgid "Appearance"
+#~ msgstr "Cuma"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Saincheap cuma na deisce"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Suiteálaí Téamaí"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Pacáiste Téama Gnome"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Gan Cúlra na Deisce"
+
+#~ msgid "Slide Show"
+#~ msgstr "Taispeántas Sleamhnán"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s by %d %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s faoi %d %s\n"
+#~ "Fillteán: %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "phicteilín"
+#~ msgstr[1] "phicteilín"
+#~ msgstr[2] "phicteilín"
+#~ msgstr[3] "bpicteilín"
+#~ msgstr[4] "picteilín"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Ní féidir téama a shuiteáil"
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Tharla earráid ag suiteáil an chomhaid roghnaithe"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Coinnigh Téama Reatha"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Cuir Téama Nua i bhFeidhm"
+
+#~ msgid "Select Theme"
+#~ msgstr "Roghnaigh Téama"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Pacáistí Téamaí"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Forscríobh"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Níorbh fhéidir inneall téama a shuiteáil"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Comhad á chóipeáil: %u as %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' á chóipeáil"
+
+#~ msgid "Copying files"
+#~ msgstr "Comhaid á chóipeáil"
+
+#~ msgid "Parent Window"
+#~ msgstr "Máthairfhuinneog"
+
+#~ msgid "From URI"
+#~ msgstr "Ó URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI ag aistrigh anois ó"
+
+#~ msgid "To URI"
+#~ msgstr "Go dtí URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI ag aistrigh anois go dtí"
+
+#~ msgid "Total URIs"
+#~ msgstr "Meid URIs"
+
+#~ msgid "_Skip"
+#~ msgstr "_Scipeáil"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Forscríobh _Gach Rud"
+
+#~ msgid "Key"
+#~ msgstr "Eochair"
+
+#~ msgid "Callback"
+#~ msgstr "Aisghlaoch"
+
+#~ msgid "UI Control"
+#~ msgstr "Rialtán UI"
+
+#~ msgid "Please select an image."
+#~ msgstr "Roghnaigh íomhá, le do thoil."
+
+#~ msgid "_Select"
+#~ msgstr "_Roghnaigh"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Pointeoir Réamhshocraithe - Reatha"
+
+#~ msgid "White Pointer"
+#~ msgstr "Pointeoir Bán"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Pointeoir Bán - Reatha"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Pointeoir Mór"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Pointeoir Mór - Reatha"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Pointeoir Bán Mór - Reatha"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Pointeoir Bán Mór"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Feidhmchláir de Rogha"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Roghnaigh d'fheidhmchláir réamhshocraithe"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Tosaigh an teicneolaíocht oiriúnaitheach radharcach de rogha"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Cúnamh Radharcach"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Earráid agus cumraíocht á sábháil: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Níorbh fhéidir an príomhchomhéadan a luchtú"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- Feidhmchláir Réamhshocraithe GNOME"
+
+#~ msgid "C_ommand:"
+#~ msgstr "_Ordú:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Or_dú:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "_Bratach reatha:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Amharcán Íomhánna"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Clár Teachtaireachtaí Meandaracha"
+
+#~ msgid "Internet"
+#~ msgstr "Idirlíon"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Léitheoir Poist"
+
+#~ msgid "Mobility"
+#~ msgstr "Soghluaisteacht"
+
+#~ msgid "Multimedia"
+#~ msgstr "Ilmheáin"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Seinnteoir Ilmheán"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Oscail nasc i g_cluaisín nua"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Oscail nasc i bh_fuinneog nua"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Oscail nasc le brabhsálaí gréasáin _réamhshocraithe"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Rith ag am _tosaithe"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Rith i d_teirminéal"
+
+#~ msgid "System"
+#~ msgstr "Córas"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Aithriseoir Teirminéil"
+
+#~ msgid "Text Editor"
+#~ msgstr "Eagarthóir Téacs"
+
+#~ msgid "Video Player"
+#~ msgstr "Seinnteoir Físeán"
+
+#~ msgid "Visual"
+#~ msgstr "Amhairc"
+
+#~ msgid "Web Browser"
+#~ msgstr "Brabhsálaí Lín"
+
+#~ msgid "_Run at start"
+#~ msgstr "_Rith ag am tosaithe"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Seinnteoir Ceoil Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Post Claws"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Brabhsálaí Inchéadfaithe Debian"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Aithriseoir Teirminéal Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Brabhsálaí Lín Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Léitheoir Poist Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Formhéadaitheoir GNOME gan Léitheoir Scáileáin"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Méarchlár Scáileáin GNOME"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Teirminéal GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus le Formhéadaitheoir"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Post Iceape"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Formhéadaitheoir KDE gan Léitheoir Scáileáin"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Léitheoir Scáileáin Linux"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Léitheoir Scáileáin Linux le Formhéadaitheoir"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Post Mozilla"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Seinnteoir Ceoil Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca le Formhéadaitheoir"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Seinnteoir Ceoil Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "Post SeaMonkey"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "XTerminéal Caighdeánach"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Seinnteoir Scannán Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Sainroghanna Taispeána"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "Tarraing na scáileáin chun a n-áiteanna a shocrú"
+
+#~ msgid "Include _panel"
+#~ msgstr "Cuir _painéal san áireamh"
+
+#~ msgid "Monitor"
+#~ msgstr "Monatóir"
+
+#~ msgid "Off"
+#~ msgstr "Múchta"
+
+#~ msgid "On"
+#~ msgstr "Ar Siúl"
+
+#~ msgid "Panel icon"
+#~ msgstr "Deilbhín an phainéil"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_othlú:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "_Ráta athnuachana:"
+
+#~ msgid "Upside-down"
+#~ msgstr "Bunoscionn"
+
+#~ msgid "_Detect Monitors"
+#~ msgstr "_Braith Scáileáin"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "S_cáthánaigh scáileáin"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Taifeach:"
+
+#~ msgid "_Show displays in panel"
+#~ msgstr "Tai_speáin taispeáintí sa phainéal"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Athraigh taifeach scáileáin"
+
+#~ msgid "Display"
+#~ msgstr "Taispeáint"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Monatóir: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Scáthánaigh Scáileáin"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Níorbh fhéidir cumraíocht an scáileáin a shábháil"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Níorbh fhéidir taispeáintí a bhrath"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Níorbh fhéidir eolas scáileáin a fháil"
+
+#~ msgid "Desktop"
+#~ msgstr "Deasc"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Aicearra nua..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Eochair aicearra"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Mionathraitheoirí aicearra"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Cód eochrach aicearra"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Mód Luasghéaraithe"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "An cineál aicearra."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Gníomh Anaithnid>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Aicearraí Saincheaptha"
+
+#~ msgid "_Reassign"
+#~ msgstr "_Athshann"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "An iomarca aicearraí saincheaptha"
+
+#~ msgid "Action"
+#~ msgstr "Gníomh"
+
+#~ msgid "Shortcut"
+#~ msgstr "Aicearra"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Aicearra Saincheaptha"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Aicearraí Méarchláir"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Chun eochair aicearra a chur in eagar, cliceáil ar an ró comhfhreagrach "
+#~ "agus clóscríobh teaglaim eochracha nua, nó brúigh backspace chun glanta."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Sann eochracha aicearra ar orduithe"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Sainroghanna an Mhéarchláir GNOME"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Eochracha Preabtha"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Splanc barra teidil na _fuinneoige"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Splanc _scáileán ar fad"
+
+#~ msgid "General"
+#~ msgstr "Ginearálta"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Aiseolais Fuaime Inrochtaineacht an Mhéarchláir"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Eochracha Malla"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Eochracha Greamaitheacha"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Leideanna amhairc d'fhuaimeanna"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "_Luasghéarú:"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "_Ceadaigh iarchur sosanna"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "_Aiseolas Fuaime..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Caochadh an Chúrsóra"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "_Caochann an cúrsóir i réimsí téacs"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Luas caochadh an chúrsóra"
+
+#~ msgid "D_elay:"
+#~ msgstr "M_oill:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "Dích_umasaigh eochracha greamaitheacha má bhrúitear dhá eochair le chéile"
+
+#~ msgid "Fast"
+#~ msgstr "Tapa"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Déantar brú eochracha _arís nuair a choinníonn an eochair síos"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Sainroghanna an Mhéarchláir"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Samhail méarchláir:"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "R_oghanna Leaganacha Amach..."
+
+#~ msgid "Layouts"
+#~ msgstr "Leaganacha Amach"
+
+#~ msgid "Long"
+#~ msgstr "Fada"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Cnaipe na Luiche"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Athbhrú Eochracha"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Luas athbhrú eochracha"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Athshocraigh go Réa_mhshocruithe"
+
+#~ msgid "S_peed:"
+#~ msgstr "L_uas:"
+
+#~ msgid "Separate _layout for each window"
+#~ msgstr "_Leagan amach ar leith do gach fuinneog"
+
+#~ msgid "Short"
+#~ msgstr "Gearr"
+
+#~ msgid "Slow"
+#~ msgstr "Mall"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "Is féidir gnéithe _inrochtaineachta a scoránú le haicearraí méarchláir"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Moill:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "Déan _neamhaird ar brúnna eochrach dúblacha tapa"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Glac le brúnna eochrach fada amháin"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "Is féidir an _pointeoir a rialú leis an méarchlár"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "Leaganacha _amach roghnaithe:"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "Insamhail brúnna eochrach _comhuaineacha"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Luas:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "Clósc_ríobh chun socruithe a thástáil:"
+
+#~ msgid "By _country"
+#~ msgstr "De réir _tíre"
+
+#~ msgid "By _language"
+#~ msgstr "De réir t_eanga"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Roghnaigh Leagan Amach"
+
+#~ msgid "Preview:"
+#~ msgstr "Réamhamharc:"
+
+#~ msgid "_Country:"
+#~ msgstr "_Tír:"
+
+#~ msgid "_Language:"
+#~ msgstr "T_eanga:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Malairtí:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Roghnaigh Samhail Méarchláir"
+
+#~ msgid "_Models:"
+#~ msgstr "_Samhlacha:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "Dí_oltóirí"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Roghanna Leaganacha Amach Méarchláir"
+
+#~ msgid "Default"
+#~ msgstr "Réamhshocrú"
+
+#~ msgid "Layout"
+#~ msgstr "Leagan Amach"
+
+#~ msgid "Vendors"
+#~ msgstr "Díoltóirí"
+
+#~ msgid "Models"
+#~ msgstr "Samhlacha"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Socraigh do chuid sainroghanna an mhéarchláir"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Bog ar chlé"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Bog ar dheis"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Bog suas"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Bog síos"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Díchumasaithe"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Sonraigh ainm an leathanaigh le taispeáint (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Sainroghanna na Luiche GNOME"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Roghnaigh cineál cliceála _roimh ré"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Roghnaigh cineál cliceála le gotha luiche"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "Déchlic_eáil:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Cliceáil ta_rraingthe:"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Teorainn Am Déchliceála"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Tarraing agus Scaoil"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Cliceáil Fanachta"
+
+#~ msgid "Enable _horizontal scrolling"
+#~ msgstr "Cumasaigh scrollú c_othrománach"
+
+#~ msgid "Enable mouse _clicks with touchpad"
+#~ msgstr "Cumasaigh c_liceálacha luiche le ceap tadhaill"
+
+#~ msgid "High"
+#~ msgstr "Ard"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Aimsigh Pointeoir"
+
+#~ msgid "Low"
+#~ msgstr "Íseal"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Treosuíomh na Luiche"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Luas an Phointeora"
+
+#~ msgid "Scrolling"
+#~ msgstr "Scrollú"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Cliceáil tá_naisteach:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Ta_ispeáin ionad an phointeora nuair a bhrúítear an eochair Control"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Taispeáin _fuinneog chineáil chliceála"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Cliceáil Tánaisteach Ionsamhailte"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Tairseach:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Chun do shocruithe déchliceála a thástáil, déan iarracht déchliceáil ar "
+#~ "an mbolgán solais."
+
+#~ msgid "Touchpad"
+#~ msgstr "Ceap Tadhaill"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Scrollú dhá-_mhéar"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Is féidir leat an feidhmchláirín painéil Cliceáil Fanachta a úsáid chun "
+#~ "cineál cliceála a roghnú chomh maith."
+
+#~ msgid "_Acceleration:"
+#~ msgstr "Luas_ghéarú:"
+
+#~ msgid "_Disable touchpad while typing"
+#~ msgstr "Dí_chumasaigh ceap tadhaill agus ag clóscríobh"
+
+#~ msgid "_Disabled"
+#~ msgstr "Dích_umasaithe"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "Scrollú c_iumhaise"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Cuir tús le cliceáil agus gluaiseacht an phointeora á stad"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Ciotach"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "Tairseach _ghluaisne:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "D_eisealach"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "Í_ogaireacht:"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Aonchliceáil:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "Teorainn _Ama:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "_Truicear cliceáil tánaisteach agus an príomhcnaipe á choinneáil síos"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Socraigh do chuid sainroghanna na luiche"
+
+#~ msgid "New Location..."
+#~ msgstr "Suíomh Nua..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Tá an suíomh ann cheana"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Seachfhreastalaí Líonra"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Socraigh do chuid sainroghanna sheachfhreastalaí líonra"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Nasc idirlín díreach</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Cumraíocht seachfhreastalaí _uathoibríoch</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Cumraíocht seachfhreastalaí de _láimh</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>Ú_sáid fíordheimhniú</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "U_RL Uathchumraíochta:"
+
+#~ msgid "C_reate"
+#~ msgstr "C_ruthaigh"
+
+#~ msgid "Create New Location"
+#~ msgstr "Cruthaigh Suíomh Nua"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Mionsonraí Seachfhreastalaí HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Seachfhreastalaí _HTTP"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Liosta Óstach gan Aird"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Óstaigh gan Aird"
+
+#~ msgid "Location:"
+#~ msgstr "Suíomh:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Sainroghanna Sheachfhreastalaí Líonra"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Cumraíocht Seachfhreastalaí"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Óstach S_ocks:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Tá an suíomh ann cheana."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Ainm Úsáideora:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Scrios Suíomh"
+
+#~ msgid "_Details"
+#~ msgstr "_Mionsonraí"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Seachfhreastalaí _FTP:"
+
+#~ msgid "_Location name:"
+#~ msgstr "Ainm suímh:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Focal Faire:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Seachfhreastalaí HTTP d_aingean:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Úsáid an seachfhreastalaí _céanna do gach prótacal"
+
+#~ msgid "C_ontrol"
+#~ msgstr "C_ontrol"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (nó \"Lógo Windows\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Eochair Ghluaisteachta"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Gníomh an Bharra Teidil"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Chun fuinneog a bhogadh, brúigh-agus-coinnigh an eochair seo agus ansin "
+#~ "gabh an fhuinneog:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Sainroghanna Fuinneoige"
+
+#~ msgid "Window Selection"
+#~ msgstr "Roghnú Fuinneoga"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Déchliceáil barra teidil chun an gníomh seo a dhéanamh:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Eatramh roimh ardú:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Ardaigh fuinneoga roghnaithe i ndiaidh eatraimh"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Roghnaigh fuinneoga agus an luch á bogadh os a gcionn"
+
+#~ msgid "seconds"
+#~ msgstr "soicind"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Socraigh d'airíonna fuinneog"
+
+#~ msgid "Windows"
+#~ msgstr "Fuinneoga"
+
+#~ msgid "Maximize"
+#~ msgstr "Uasmhéadaigh"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Uasmhéadaigh go hIngearach"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Uasmhéadaigh go Cothrománach"
+
+#~ msgid "Minimize"
+#~ msgstr "Íoslaghdaigh"
+
+#~ msgid "Roll up"
+#~ msgstr "Roll suas"
+
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "eochair gan aimsiú [%s]\n"
+
+#~ msgid "Filter"
+#~ msgstr "Scagaire"
+
+#~ msgid "Groups"
+#~ msgstr "Grúpaí"
+
+#~ msgid "Control Center"
+#~ msgstr "Lárionad Rialaithe"
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Athraigh Téama;gtk-theme-selector.desktop,Socraigh Feidhmchláir de Rogha;"
+#~ "default-applications.desktop,Cuir Printéir Leis;gnome-cups-manager."
+#~ "desktop]"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "An t-uirlis cumraíochta GNOME"
+
+#~ msgid "Name:"
+#~ msgstr "Ainm:"
+
+#~ msgid "Style:"
+#~ msgstr "Stíl:"
+
+#~ msgid "Type:"
+#~ msgstr "Cineál:"
+
+#~ msgid "Size:"
+#~ msgstr "Méid:"
+
+#~ msgid "Version:"
+#~ msgstr "Leagan:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Cóipcheart:"
+
+#~ msgid "Description:"
+#~ msgstr "Cur Síos:"
+
+#~ msgid "Installed"
+#~ msgstr "Suiteáilte"
+
+#~ msgid "Install Failed"
+#~ msgstr "Theip Suiteáil"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "úsáid: %s comhadcló\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "_Suiteáil Cló"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Amharcán Clónna"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Réamhamharc clónna"
+
+#~ msgid "TEXT"
+#~ msgstr "TÉACS"
+
+#~ msgid "SIZE"
+#~ msgstr "MÉID"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "COMHAD-CLÓ COMHAD-ASCHURTHA"
+
+#~ msgid "Other"
+#~ msgstr "Eile"
+
+#~ msgid "<b>Start %s</b>"
+#~ msgstr "<b>Tosaigh %s</b>"
+
+#~ msgid "Help"
+#~ msgstr "Cabhair"
+
+#~ msgid "Upgrade"
+#~ msgstr "Uasghrádaigh"
+
+#~ msgid "Uninstall"
+#~ msgstr "Díshuiteáil"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Bain ó Cheanáin"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Cuir le Ceanáin"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Bain ó Ríomhchláir Tosaithe"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Cuir le Ríomhchláir Tosaithe"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Scarbhileog Nua"
+
+#~ msgid "New Document"
+#~ msgstr "Cáipéis Nua"
+
+#~ msgid "Documents"
+#~ msgstr "Cáipéisí"
+
+#~ msgid "File System"
+#~ msgstr "Córas Comhad"
+
+#~ msgid "Network Servers"
+#~ msgstr "Freastalaithe Líonra"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Oscail</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Athainmnigh..."
+
+#~ msgid "Send To..."
+#~ msgstr "Seol Chuig..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Bog go Bruscar"
+
+#~ msgid "Delete"
+#~ msgstr "Scrios"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "An bhfuil tú cinnte gur mhaith leat \"%s\" a scriosadh go buan?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Má scriosann tú mír, tá sí caillte go buan."
+
+#~ msgid "<b>Open with \"%s\"</b>"
+#~ msgstr "<b>Oscail le \"%s\"</b>"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Oscail le Feidhmchlár Réamhshocraithe"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Oscail i mBainisteoir Comhad"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Inniu %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Inné %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d %b %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Aimsigh Anois"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Oscail %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Bain ó Mhíreanna Córais"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "Sainroghanna na Luiche"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Ná gníomhachtaigh"
+
+#, fuzzy
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Ceangal chun diosca optúil a dhíchur."
+
+#, fuzzy
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Cumasaigh an breiseán cló"
+
+#, fuzzy
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Cumasaigh an breiseán cúlra"
+
+#, fuzzy
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "Ná taispeáin aon rabhadh arís don chóras comhad seo"
+
+#, fuzzy
+#~ msgid "Examine…"
+#~ msgstr "Scrúdaigh..."
+
+#, fuzzy
+#~ msgid "Removing: %s"
+#~ msgstr "<i>Á bhaint: %s</i>"
+
+#, fuzzy
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Sainroghanna na Luiche"
+
+#, fuzzy
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Ar mhaith leat an comhad/na comhaid modmap a luchtú?"
+
+#, fuzzy
+#~ msgid "Rotation not supported"
+#~ msgstr "<i>Rothlú gan tacaíocht</i>"
+
+#, fuzzy
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Cumraigh Socruithe Taispeána..."
+
+#, fuzzy
+#~ msgid "Keyboard Layout"
+#~ msgstr "Méarchlár"
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Léitheoir scáileáin"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Cumasaigh an breiseán fodóireachta"
+
+#, fuzzy
+#~ msgid "Toggle screenreader"
+#~ msgstr "Scoránaigh an léitheoir scáileáin"
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "Léitheoir scáileáin"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "Breiseán an mhéarchláir"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "Breiseán cló"
+
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr "Cumasaigh an breiseán cló"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Tá an ceangal eochrach (%s) neamhiomlán"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Tá an ceangal eochrach (%s) neamhiomlán"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Tá an ceangal eochrach (%s) neamhbhailí"
+
+#, fuzzy
+#~ msgid "Volume"
+#~ msgstr "Méadaigh airde"

@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2010-03-31 14:35+0530\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Country: INDIA\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 #, fuzzy
 msgid "Enable debugging code"
 msgstr ""
@@ -59,15 +59,15 @@ msgstr ""
 "#-#-#-#-#  ml.po (ml)  #-#-#-#-#\n"
 "പ്രശ്നനിര്‍ദ്ധാരണകോഡ് പ്രാവര്‍ത്തികമാക്കുക. "
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "അറിയിപ്പ് മേഖല ഉണ്ടോ എന്നു നോക്കേണ്ട"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "ടൈപ്പിങ് മോണിറ്റര്‍"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 msgid ""
 "The typing monitor uses the notification area to display information. You "
 "don't seem to have a notification area on your panel. You can add it by "
@@ -77,11 +77,11 @@ msgstr ""
 "ടൈപ്പിങ്ങ് മേല്‍നോട്ടക്കാരന്‍ വിവരങ്ങള്‍ കാണിക്കാന്‍ അറിയിപ്പ് മേഖല ഉപയോഗിക്കുന്നു. നിങ്ങളുടെ "
 "പാനലില്‍ അറിയിപ്പ് മേഖല ഇല്ല. പാനലില്‍ റൈറ്റ് ക്ലിക്ക് ചെയ്ത് അറിയിപ്പ് മേഖല പാനലിലേക്ക് ചേര്‍ക്കുക"
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 msgid "_Take a Break"
 msgstr "_വിശ്രമവേള"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 #, fuzzy
 msgid "Disabled"
 msgstr ""
@@ -92,48 +92,38 @@ msgstr ""
 "#-#-#-#-#  ml.po (ml)  #-#-#-#-#\n"
 "നിര്‍ജ്ജീവമാക്കിയ"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr ""
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "അടുത്ത വിശ്രമവേളയ്ക്ക് മുമ്പ് %d മിനിട്ട്"
 msgstr[1] "അടുത്ത വിശ്രമവേളയ്ക്ക് മുമ്പ് %d മിനിട്ടുകള്‍"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr ""
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, c-format
 msgid "Less than one minute until the next break"
 msgstr "അടുത്ത വിശ്രമവേളയ്ക്ക് ഒരു മിനിട്ട് പോലുമില്ല"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
 "error: %s"
 msgstr "ടൈപ്പിങ്ങ് വിശ്രമവേളാ ക്രമീകരണ ജാലകം തുറക്കുമ്പോള്‍ ഈ പിശക് പറ്റി: %s  "
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "എഴുതിയത് റിച്ചാര്‍ഡ് ഹട്ട് <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 msgid "Eye candy added by Anders Carlsson"
 msgstr "കണ്ണിന് കുളിര്‍മ്മ ചേര്‍ത്തത് ആന്‍ഡേര്‍സ് കാള്‍സണ്‍ "
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 msgid "A computer break reminder."
 msgstr "കമ്പ്യൂട്ടറിന്റെ വിശ്രമവേള ഒന്നോര്‍മ്മപ്പെടുത്തുന്നു."
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 "സന്തോഷ് തോട്ടിങ്ങല്‍ <santhosh00@gmail.com>\n"
@@ -141,20 +131,20 @@ msgstr ""
 "പ്രവീണ്‍ എ <pravi.a@gmail.com>\n"
 "അനിവര്‍ അരവിന്ദ് <anivar@movingrepublic.org>."
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "ഇടവേള _പിന്നത്തേക്കു നീട്ടിവെയ്ക്കുക"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "വിശ്രമവേള!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -162,15 +152,19 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 #, fuzzy
 msgid "Whether the typing break can be postponed"
 msgstr "സ്ക്രീന്‍ റീഡര്‍ ഓണ്‍ ആണോ എന്നു്."
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 #, fuzzy
 msgid "Whether typing break is enabled"
 msgstr "സ്ക്രീന്‍ റീഡര്‍ ഓണ്‍ ആണോ എന്നു്."
@@ -205,14 +199,13 @@ msgstr "<b>ടൈപ്പിങ്ങ് വിശ്രമവേള നിര�
 msgid "_Work interval lasts:"
 msgstr "_ജോലി സമയത്തിന്റെ സമയപരിധി:"
 
-#: ../src/drwright-panel.glade.h:5
 #, fuzzy
-msgid "minutes"
-msgstr ""
-"#-#-#-#-#  ml.po (drwright)  #-#-#-#-#\n"
-"മിനിട്ട്\n"
-"#-#-#-#-#  ml.po (ml)  #-#-#-#-#\n"
-"മിനിട്ടുകള്‍"
+#~ msgid "minutes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ml.po (drwright)  #-#-#-#-#\n"
+#~ "മിനിട്ട്\n"
+#~ "#-#-#-#-#  ml.po (ml)  #-#-#-#-#\n"
+#~ "മിനിട്ടുകള്‍"
 
 #~ msgid "    "
 #~ msgstr "   "

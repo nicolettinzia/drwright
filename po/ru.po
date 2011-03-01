@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2010-03-17 20:08+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
@@ -58,7 +58,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 #, fuzzy
 msgid "Enable debugging code"
 msgstr ""
@@ -67,15 +67,15 @@ msgstr ""
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "Включить режим отладки"
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "Не проверять наличие области уведомлений на панели"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "Монитор печати"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 msgid ""
 "The typing monitor uses the notification area to display information. You "
 "don't seem to have a notification area on your panel. You can add it by "
@@ -87,11 +87,11 @@ msgstr ""
 "щелкнув правой кнопкой на панели и выбрав \"Добавить на панель -> Утилиты -> "
 "Область уведомления\"."
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 msgid "_Take a Break"
 msgstr "_Сделать перерыв"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 #, fuzzy
 msgid "Disabled"
 msgstr ""
@@ -102,12 +102,7 @@ msgstr ""
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "Выкл."
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr ""
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
@@ -115,12 +110,7 @@ msgstr[0] "%d минута до следующего перерыва"
 msgstr[1] "%d минуты до следующего перерыва"
 msgstr[2] "%d минут до следующего перерыва"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr ""
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, fuzzy, c-format
 msgid "Less than one minute until the next break"
 msgstr ""
@@ -129,18 +119,18 @@ msgstr ""
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "Менее одной минуты до следующего перерыва"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
 "error: %s"
 msgstr "Не удалось отобразить диалог настройки перерыва печати. Ошибка: %s"
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Автор: Ричард Халт (Richard Hult) <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 #, fuzzy
 msgid "Eye candy added by Anders Carlsson"
 msgstr ""
@@ -149,7 +139,7 @@ msgstr ""
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "Дизайн: Андерс Карлссон (Anders Carlsson)"
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 #, fuzzy
 msgid "A computer break reminder."
 msgstr ""
@@ -158,26 +148,26 @@ msgstr ""
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "Программа напоминания о перерыве."
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 "Леонид Кантер <leon@asplinux.ru>\n"
 "Дмитрий Яценко <d.yacenko@gmail.com>"
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Отложить перерыв"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "Сделайте перерыв!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -185,15 +175,19 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 #, fuzzy
 msgid "Whether the typing break can be postponed"
 msgstr "Включена ли система чтения с экрана."
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 #, fuzzy
 msgid "Whether typing break is enabled"
 msgstr "Включена ли система чтения с экрана."
@@ -228,14 +222,13 @@ msgstr "_Блокировать экран для принудительного
 msgid "_Work interval lasts:"
 msgstr "Продолжительность _работы:"
 
-#: ../src/drwright-panel.glade.h:5
 #, fuzzy
-msgid "minutes"
-msgstr ""
-"#-#-#-#-#  ru.po (drwright)  #-#-#-#-#\n"
-"минуты\n"
-"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
-"минут"
+#~ msgid "minutes"
+#~ msgstr ""
+#~ "#-#-#-#-#  ru.po (drwright)  #-#-#-#-#\n"
+#~ "минуты\n"
+#~ "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
+#~ "минут"
 
 #~ msgid "    "
 #~ msgstr "    "

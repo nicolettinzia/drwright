@@ -1,0 +1,2899 @@
+# Uighur translation for gnome-control-center
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the gnome-control-center package.
+# Sahran <sahran@live.com>, 2010.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-08-05 20:51+0000\n"
+"Last-Translator: Sahran <sahran@live.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-08-09 22:20+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "سازلاش كودىنى قوزغات"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "ئۇقتۇرۇش رايونى بار يوقلۇقىنى تەكشۈرمە"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "كىرگۈزۈش كۆزەتكۈچ"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"كىرگۈزۈش كۆزەتكۈچ ئۇقتۇرۇش رايونىنى ئىشلىتىپ ئۇچۇر كۆرسىتىدۇ. خۇددى تاختىغا "
+"ئۇقتۇرۇش رايونى قويمىغاندەكلا. ئۇقتۇرۇش رايونى قوشماقچى بولسىڭىز، تاختىدا "
+"چاشقىنەك ئوڭ كۇنۇپكىسىنى چېكىپ ئاندىن «تاختىغا قوش - ئۇقتۇرۇش رايونى»نى "
+"تاللاڭ."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "ئارام ئېلىڭ(_T)"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "چەكلەنگەن"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "كېيىنكى ئۈزۈش ئارىلىقىغا يەنە %d بار"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "كېيىنكى ئۈزۈش ئارىلىقىغا بىر مىنۇت قالمىدى"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"خەت كىرگۈزۈۋاتقاندا ئۈزۈش ئارىلىقى خاسلىق سۆزلەشكۈنى قوزغىتالمىدى، خاتالىق "
+"تۆۋەندىكىدەك: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Richard Hult <richard@imendio.com> يازغان"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Eye candy نى Anders Carlsson قوشقان"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "كومپيۇتېر ئۈزۈش ئارىلىق ئەسكەرتكۈچى."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Abdusalam Abdurahman https://launchpad.net/~abdusalam\n"
+"  Muhammadjan https://launchpad.net/~muhammadjan-ababekri\n"
+"  Sahran https://launchpad.net/~sahran"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "كېچىكتۈرۈپ ئۈز(_P)"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "ئارام ئېلىڭ!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "كىرگۈزۈشنى ئۈزۈش"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+#, fuzzy
+msgid "_Allow postponing of breaks"
+msgstr "ئۈزۈشنى كېچىكتۈرۈشكە يول قوي(_O)"
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "ئۈزۈش ئارىلىقى داۋاملىشىشى(_B):"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "ئېكراننى قۇلۇپلاپ كىرگۈزۈشنى مەجبۇرىي ئۈز(_L)"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "خىزمەت ئارىلىقى داۋاملىشىشى(_W):"
+
+#~ msgid "minutes"
+#~ msgstr "مىنۇت"
+
+#~ msgid "Current network location"
+#~ msgstr "نۆۋەتتىكى تور ئورنى"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "تېخىمۇ كۆپ تەگلىك URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "تېخىمۇ كۆپ باش تېما URL"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "بۇنى نۆۋەتتىكى ئورنىڭىزنىڭ ئاتى قىلىپ تەڭشەڭ. بۇ توغرا بولغان تور "
+#~ "ۋاكالەتچى تەڭشىكىنى بايقاشتا لازىمى بار."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "تېخىمۇ كۆپ ئۈستەل ئۈستى تەگلىككە ئېرىشىش URL. ئەگەر بوش ھەرپ تىزمىسى "
+#~ "قىلىپ تەڭشەلسە ئۇنداقتا ئۇلانما كۆرۈنمەيدۇ."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "تېخىمۇ كۆپ ئۈستەل ئۈستى باش تېمىسىغا ئېرىشىش URL. ئەگەر بوش ھەرپ تىزمىسى "
+#~ "قىلىپ تەڭشەلسە ئۇنداقتا ئۇلانما كۆرۈنمەيدۇ."
+
+#~ msgid "Image/label border"
+#~ msgstr "سۈرەت/بەلگە گىرۋەك"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "ئەسكەرتىش كۆزنىكىدىكى سۈرەت ۋە بەلگىلەرنىڭ گىرۋەك كەڭلىكى"
+
+#~ msgid "Alert Type"
+#~ msgstr "ئاگاھلاندۇرۇش تىپى"
+
+#~ msgid "The type of alert"
+#~ msgstr "ئاگاھلاندۇرۇشنىڭ تىپى"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "ئاگاھلاندۇرۇش توپچالارى"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "ئاگاھلاندۇرۇش كۆزنىكىدە كۆرۈنىدىغان توپچالار"
+
+#~ msgid "Show more _details"
+#~ msgstr "تەپسىلاتىنى كۆرسەت(_D)"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "سول قول باشمالتىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "سول قول باشمالتىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "سول قول كۆرسەتكۈچ بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "سول قول كۆرسەتكۈچ بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "سول قول ئوتتۇرا بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "سول قول ئوتتۇرا بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "سول قول نامسىز بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "سول قول نامسىز بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "سول قول چىمچىلاق بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "سول قول چىمچىلاق بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "ئوڭ قول باشمالتىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "ئوڭ قول باشمالتىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "ئوڭ قول كۆرسەتكۈچ بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "ئوڭ قول كۆرسەتكۈچ بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "ئوڭ قول ئوتتۇرا بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "ئوڭ قول ئوتتۇرا بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "ئوڭ قول نامسىز بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "ئوڭ قول نامسىز بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "ئوڭ قول چىمچىلاق بارمىقىڭىزنى %s ئۈستىگە قويۇڭ."
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "ئوڭ قول چىمچىلاق بارمىقىڭىزنى %s ئۈستىدە سۈرۈڭ."
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "بارمىقىڭىزنى ئوقۇغۇچ ئۈستىگە قايتا قويۇڭ."
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "بارمىقىڭىزنى قايتا سۈرۈڭ."
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "سۈرۈش بەك قىسقا بولۇپ قالدى. قايتا سىناڭ."
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "بارمىقىڭىز ئوتتۇرىغا توغرىلانماپتۇ. قايتا سۈرۈڭ."
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "بارمىقىڭىزنى ئوقۇغۇچتىن ئاجرىتىپ، قايتىدىن سۈرۈڭ."
+
+#~ msgid "Select Image"
+#~ msgstr "سۈرەت تاللاڭ"
+
+#~ msgid "No Image"
+#~ msgstr "سۈرەت يوق"
+
+#~ msgid "Images"
+#~ msgstr "سۈرەتلەر"
+
+#~ msgid "All Files"
+#~ msgstr "ھەممە ھۆججەتلەر"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "ئادرېس دەپتىرىدىكى ئۇچۇرلارغا ئېرىشمەكچى بولغاندا خاتالىق كۆرۈلدى."
+#~ "Evolution  ئۇچۇر مۇلازىمېتىرى بۇ  كېلىشىمنى بىر تەرەپ قىلالمايدۇ."
+
+#~ msgid "Unable to open address book"
+#~ msgstr "ئادرېس دەپتىرىنى ئاچالمايدۇ"
+
+#~ msgid "About %s"
+#~ msgstr "%s ھەققىدە"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iسۆھبەت:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "مەنزىل(_D):"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "ياردەمچى(_S):"
+
+#~ msgid "About Me"
+#~ msgstr "بىز ھەققىدە"
+
+#~ msgid "Address"
+#~ msgstr "مەنزىل"
+
+#~ msgid "C_ity:"
+#~ msgstr "شەھەر(_I):"
+
+#~ msgid "C_ompany:"
+#~ msgstr "شىركەت(_O):"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "يىلنامە(_N):"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "ئىم ئۆزگەرت(_R)…"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "شەھەر(_T):"
+
+#~ msgid "Co_untry:"
+#~ msgstr "دۆلەت(_U):"
+
+#~ msgid "Contact"
+#~ msgstr "ئالاقىلەشكۈچى"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "دۆلەت(_N):"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "بارماق ئىزىدا تىزىمغا كىرىشنى چەكلە(_F)…"
+
+#~ msgid "Email"
+#~ msgstr "ئېلخەت"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "بارماق ئىزىدا تىزىمغا كىرىشنى قوزغات(_F)…"
+
+#~ msgid "Full Name"
+#~ msgstr "تولۇق ئاتى"
+
+#~ msgid "Hom_e:"
+#~ msgstr "ئۆي(_E):"
+
+#~ msgid "Home"
+#~ msgstr "ئۆي"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "مۇڭداشقۇ"
+
+#~ msgid "Job"
+#~ msgstr "ۋەزىپە"
+
+#~ msgid "M_SN:"
+#~ msgstr "MSN(_S):"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "پوچتا ساندۇقى(_B):"
+
+#~ msgid "P._O. box:"
+#~ msgstr "پوچتا ساندۇقى(_O):"
+
+#~ msgid "Personal Info"
+#~ msgstr "شەخسىي ئۇچۇر"
+
+#~ msgid "Select your photo"
+#~ msgstr "سۈرىتىڭىزنى تاللاڭ"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "شتات/ئۆلكە:"
+
+#~ msgid "Telephone"
+#~ msgstr "تېلېفون"
+
+#~ msgid "User name:"
+#~ msgstr "ئىشلەتكۈچى ئاتى:"
+
+#~ msgid "Web"
+#~ msgstr "تور"
+
+#~ msgid "Web _log:"
+#~ msgstr "Web خاتىرە(_L):"
+
+#~ msgid "Wor_k:"
+#~ msgstr "ئىش(_K):"
+
+#~ msgid "Work"
+#~ msgstr "ئىش"
+
+#~ msgid "Work _fax:"
+#~ msgstr "ئىش فاكىس(_F):"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "پوچتا  نومۇرى(_P):"
+
+#~ msgid "_Address:"
+#~ msgstr "مەنزىل(_A):"
+
+#~ msgid "_Department:"
+#~ msgstr "بۆلۈم(_D):"
+
+#~ msgid "_GroupWise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "باش بەت(_H):"
+
+#~ msgid "_Home:"
+#~ msgstr "ئۆي(_H):"
+
+#~ msgid "_Manager:"
+#~ msgstr "باشقۇرغۇچى(_M):"
+
+#~ msgid "_Mobile:"
+#~ msgstr "يانفون(_M):"
+
+#~ msgid "_Profession:"
+#~ msgstr "كەسپى(_P):"
+
+#~ msgid "_State/Province:"
+#~ msgstr "شتات/ئۆلكە(_S):"
+
+#~ msgid "_Title:"
+#~ msgstr "ماۋزۇ(_T):"
+
+#~ msgid "_Work:"
+#~ msgstr "ئىش(_W):"
+
+#~ msgid "_XMPP:"
+#~ msgstr "XMPP(_X):"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "ياخۇ(_Y):"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "پوچتا نومۇرى(_Z):"
+
+#~ msgid "Set your personal information"
+#~ msgstr "خۇسۇسىي ئۇچۇرلارنى تەڭشەڭ"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "سىزنىڭ بۇ ئۈسكۈنىنى زىيارەت قىلىش ھوقۇقىڭىز يوقكەن. سىستېما باشقۇرغۇچىسى "
+#~ "بىلەن ئالاقىلىشىڭ."
+
+#~ msgid "The device is already in use."
+#~ msgstr "ئۈسكۈنە ئىشلىتىلىۋاتىدۇ."
+
+#~ msgid "An internal error occured"
+#~ msgstr "بىر ئىچكى خاتالىق كۆرۈلدى."
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "خەتلەنگەن بارماق ئىزلىرىنى ئۆچۈرۈۋېتەمسىز؟"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "بارماق ئىزلىرىنى ئۆچۈر (_D)"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "خەتلەنگەن بارماق ئىزلىرىڭىزنى ئۆچۈرەمسىز؟ بارماق ئىزىدا تىزىمغا كىرىش "
+#~ "چەكلىنىدۇ"
+
+#~ msgid "Done!"
+#~ msgstr "تامام!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "'%s' ئۈسكۈنىنى زىيارەت قىلالمىدى."
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "'%s' ئۈسكۈنىسىدە بارماق ئىزىغا ئېرىشىشنى باشلىغىلى بولمىدى."
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr ""
+#~ "ھېچقانداق بارماق ئىزى ئوقۇغۇچ ئۈسكۈنىسى بىلەن ئالاقە قىلغىلى بولمىدى."
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "ياردەمگە ئېرىشىش ئۈچۈن سىستېما باشقۇرغۇچىسى بىلەن ئالاقىلىشىڭ."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "بارماق ئىزىدا تىزىمغا كىرىشنى قوزغات"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "بارماق ئىزى ئارقىلىق تىزىمغا كىرىشنى قوزغىتىش ئۈچۈن، «%s» ئۈسكۈنىسى "
+#~ "ئارقىلىق بىر بارمىقىڭىزنىڭ ئۇچۇرىنى ساقلىشىڭىز كېرەك."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "بارمىقىڭىزنى ئوقۇغۇچ ئۈستىدە بىر سۈرۈڭ"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "بارمىقىڭىزنى ئوقۇغۇچ ئۈستىگە قويۇڭ."
+
+#~ msgid "Left index finger"
+#~ msgstr "سول قول كۆرسەتكۈچ بارماق"
+
+#~ msgid "Left little finger"
+#~ msgstr "سول قول چىمچىلاق"
+
+#~ msgid "Left middle finger"
+#~ msgstr "سول قول ئوتتۇرا بارماق"
+
+#~ msgid "Left ring finger"
+#~ msgstr "سول قول نامسىز بارماق"
+
+#~ msgid "Left thumb"
+#~ msgstr "سول قول باش بارماق"
+
+#~ msgid "Other finger: "
+#~ msgstr "باشقا بارماق: "
+
+#~ msgid "Right index finger"
+#~ msgstr "ئوڭ قول كۆرسەتكۈچ بارماق"
+
+#~ msgid "Right little finger"
+#~ msgstr "ئوڭ قول چىمچىلاق"
+
+#~ msgid "Right middle finger"
+#~ msgstr "ئوڭ قول ئوتتۇرا بارماق"
+
+#~ msgid "Right ring finger"
+#~ msgstr "ئوڭ قول نامسىز بارماق"
+
+#~ msgid "Right thumb"
+#~ msgstr "ئوڭ قول باش بارماق"
+
+#~ msgid "Select finger"
+#~ msgstr "بارماق تاللاڭ"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "بارماق ئىزىڭىز مۇۋەپپەقىيەتلىك ساقلاندى. ئەمدى بارماق ئىزى ئوقۇغۇچىڭىز "
+#~ "ئارقىلىق تىزىمغا كىرەلەيسىز."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "تارماق پروگرامما تاسادىپىي ھالدا چېكىندى."
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr ""
+#~ "backend_stdin (ئارقا ئۆلچەملىك كىرگۈزۈش) قانىلىنى تاقىغىلى بولمىدى: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr ""
+#~ "backend_stdin IO (ئارقا ئۆلچەملىك چىقىرىش) قانىلىنى تاقىغىلى بولمىدى: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "دەلىللەندى!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "تۇنجى قېتىم سالاھىيەت تەكشۈرتكىنىڭىزدىن بۇيان ئىم ئۆزگەرتىلدى! يەنە بىر "
+#~ "قېتىم سالاھىيەت تەكشۈرتۈڭ."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "بۇ ئىم ناتوغرا."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "ئىم ئۆزگەرتىلدى."
+
+#~ msgid "System error: %s."
+#~ msgstr "سىستېما خاتالىقى: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "بۇ ئىم بەك قىسقا."
+
+#~ msgid "The password is too simple."
+#~ msgstr "ئىم بەك ئاددىي."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "كونا ۋە يېڭى ئىم بەك ئوخشىشىپ قالدى."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "يېڭى ئىم سان ياكى ئالاھىدە ھەرپلەرنى ئۆز ئىچىگە ئېلىشى كېرەك."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "كونا ۋە يېڭى ئىم ئوخشاش."
+
+#~ msgid "The new password has already been used recently."
+#~ msgstr "يېڭى ئىم تېخى يېقىندىلا ئىشلىتىلگەن."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "قوزغىتالمىدى %s：%s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "ئارقا ئۇچ پروگراممىسىنى قوزغاتقىلى بولمىدى."
+
+#~ msgid "A system error has occurred"
+#~ msgstr "سىستېما خاتالىقى كۆرۈلدى"
+
+#~ msgid "Checking password..."
+#~ msgstr "ئىم تەكشۈرۈۋاتىدۇ…"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "ئىم ئۆزگەرتىش ئۈچۈن <b>ئىم ئۆزگەرت</b>نى چېكىڭ."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "ئىمنى <b>يېڭى ئىم</b> رامكىسىغا كىرگۈزۈڭ."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "ئىمنى <b>يېڭى ئىمنى قايتا كىرگۈزۈڭ</b> رامكىسىغا قايتا كىرگۈزۈڭ."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "ئىككى ئىم ئوخشىمىدى."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "ئىم ئۆزگەرت(_S)"
+
+#~ msgid "Change password"
+#~ msgstr "ئىم ئۆزگەرت"
+
+#~ msgid "Change your password"
+#~ msgstr "ئىم ئۆزگەرتىڭ"
+
+#~ msgid "Current _password:"
+#~ msgstr "نۆۋەتتىكى ئىم(_P):"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "ئىمنى ئۆزگەرتىش ئۈچۈن تۆۋەندىكى كاتەكچىگە نۆۋەتتىكى ئىمنى كىرگۈزۈڭ، "
+#~ "<b>دەلىللە</b> نى چېكىڭ.\n"
+#~ "سالاھىيەت تەكشۈرۈشتىن ئۆتكەندىن كېيىن يېڭى ئىمنى كىرگۈزۈڭ. ئاندىن جەزملەش "
+#~ "ئۈچۈن يەنە بىر قېتىم كىرگۈزۈپ، <b>ئىم ئۆزگەرت</b> نى چېكىڭ."
+
+#~ msgid "_Authenticate"
+#~ msgstr "دەلىللە(_A)"
+
+#~ msgid "_New password:"
+#~ msgstr "يېڭى ئىم(_N):"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "يېڭى ئىمنى قايتا كىرگۈزۈڭ:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "قوشۇمچە ئىقتىدارلىق تىزىمغا كىر (_G)"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "ياردەمچى تېخنىكىلار"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "ياردەمچى تېخنىكىلار مايىللىقى"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "ياردەمچى تېخنىكىلارنى قوزغىتىشقا ئېلىپ بېرىلغان ئۆزگەرتىش كېيىنكى قېتىم "
+#~ "قايتا تىزىمغا كىرگەندە ئاندىن كۈچكە ئىگە بولىدۇ."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "تاقاپ تىزىمدىن چىق(_L)"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "ئامراق قوللىنىشچان پروگرامما سۆزلىشىش كۆزنىكىگە ئاتلا"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "قوشۇمچە ئىقتىدارلىق تىزىمغا كىرىش سۆزلىشىش كۆزنىكىگە ئاتلا"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "ھەرپ تاختا قوشۇمچە ئىقتىدار سۆزلىشىش كۆزنىكىگە ئاتلا"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "چاشقىنەك قوشۇمچە ئىقتىدار سۆزلىشىش كۆزنىكىگە ئاتلا"
+
+#~ msgid "Preferences"
+#~ msgstr "مايىللىق"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "ياردەمچى تېخنىكىلارنى قوزغات(_E)"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "ھەرپ تاختا قوشۇمچە ئىقتىدارى(_K)"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "چاشقىنەك قوشۇمچە ئىقتىدارى(_M)"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "ئامراق قوللىنىشچان پروگراممىلار(_P)"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "سىستېمىغا كىرگەن ۋاقتىڭىزدا قايسى قوشۇمچە ئىقتىدارنى "
+#~ "قوزغىتىدىغانلىقىڭىزنى تاللاڭ."
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "تام قەغىزى قوش"
+
+#~ msgid "All files"
+#~ msgstr "ھەممە ھۆججەتلەر"
+
+#~ msgid "Font may be too large"
+#~ msgstr "خەت نۇسخىسى بەك چوڭ بولۇپ كەتكەن بولۇشى مۇمكىن"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "تاللانغان خەت نۇسخىسى %d قاداق چوڭلۇقىدا بولغاچقا كومپيۇتېرنى ئۈنۈملۈك "
+#~ "ئىشلىتىشنى قىيىنلاشتۇرۇشى مۇمكىن. %d دىن كىچىكرەك چوڭلۇقنى تاللىشىڭىز "
+#~ "تەۋسىيە قىلىنىدۇ."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "تاللانغان خەت نۇسخىسى %d قاداق چوڭلۇقىدا بولغاچقا كومپيۇتېرنى ئۈنۈملۈك "
+#~ "ئىشلىتىشنى قىيىنلاشتۇرۇشى مۇمكىن. كىچىكرەك چوڭلۇقتىكى خەت نۇسخىسىنى "
+#~ "تاللىشىڭىز تەۋسىيە قىلىنىدۇ."
+
+#~ msgid "Use previous font"
+#~ msgstr "ئالدىنقى قېتىمقى خەت نۇسخىسىنى ئىشلەت"
+
+#~ msgid "Use selected font"
+#~ msgstr "تاللىغان خەت نۇسخىسىنى ئىشلەت"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "ئىشلەتكۈچى ئارا يۈز ھۆججىتىنى يۈكلىيەلمىدى: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "قاچىلىماقچى بولغان باش تېما ئۈچۈن ھۆججەت ئاتىنى بەلگىلەڭ."
+
+#~ msgid "filename"
+#~ msgstr "ھۆججەت ئاتى"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "(theme|background|fonts|interface)نى كۆرسىتىدىغان بەت ئىسمىنى بەلگىلەڭ."
+
+#~ msgid "page"
+#~ msgstr "بەت"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[تام قەغىزى…]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "كۆڭۈلدىكى ئىسترېلكا"
+
+#~ msgid "Install"
+#~ msgstr "ئورنات"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "زۆرۈر بولغان GTK+ تېما ماتورى «%s» قاچىلانمىغاچقا بۇ تېما ئۈمىد "
+#~ "قىلغىنىڭىزدەك كۆرۈنمەيدۇ."
+
+#~ msgid "Apply Background"
+#~ msgstr "تەگلىكنى قوللان"
+
+#~ msgid "Apply Font"
+#~ msgstr "خەت نۇسخا قوللان"
+
+#~ msgid "Revert Font"
+#~ msgstr "خەت نۇسخا ئەسلىگە قايتۇر"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى تېما بىر تەگلىك ۋە بىر خەت نۇسخىسىنى تەۋسىيە قىلىۋاتىدۇ. ھەمدە، "
+#~ "ئاخىرقى قېتىم قوللانغان خەت نۇسخا تەۋسىيىسىنى ئەسلىگە قايتۇرغىلى بولىدۇ."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى باش تېما بىر تەگلىك تەۋسىيە قىلىۋاتىدۇ. ھەمدە، ئاخىرقى قېتىم "
+#~ "قوللانغان خەت نۇسخا تەۋسىيىسىنى ئەسلىگە قايتۇرغىلى بولىدۇ."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "نۆۋەتتىكى تېما بىر تەگلىك ۋە خەت نۇسخىسىنى تەۋسىيە قىلىۋاتىدۇ."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى باش تېما بىر خەت نۇسخىسىنى تەۋسىيە قىلىۋاتىدۇ. ھەمدە، ئاخىرقى "
+#~ "قېتىم قوللانغان خەت نۇسخا تەۋسىيىسىنى قايتۇرغىلى بولىدۇ."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "نۆۋەتتىكى باش تېما بىر تەگلىكنى تەۋسىيە قىلىۋاتىدۇ."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "ئاخىرقى قېتىم تەتبىقلانغان خەت نۇسخا تەۋسىيىسىنى قايتۇرغىلى بولىدۇ."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "نۆۋەتتىكى باش تېما بىر خەت نۇسخىسىنى تەۋسىيە قىلىۋاتىدۇ."
+
+#~ msgid "Custom"
+#~ msgstr "ئىختىيارى"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "سىرتقى كۆرۈنۈش مايىللىقى"
+
+#~ msgid "Background"
+#~ msgstr "تەگلىك"
+
+#~ msgid "Best _shapes"
+#~ msgstr "ئەڭ ياخشى شەكىل(_s)"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "ئەڭ ياخشى سېلىشتۇرما(_n)"
+
+#~ msgid "C_olors:"
+#~ msgstr "رەڭ(_O):"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "ئىختىيارىچە(_u)…"
+
+#~ msgid "Center"
+#~ msgstr "ئوتتۇرا"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "ئىسترېلكا تېمىسىغا كىرگۈزگەن ئۆزگەرتىش سىستېمىغا كېيىنكى قېتىم "
+#~ "كىرگىنىڭىزدە كۈچكە ئېگە بولىدۇ."
+
+#~ msgid "Colors"
+#~ msgstr "رەڭلەر"
+
+#~ msgid "Controls"
+#~ msgstr "تىزگىنلەر"
+
+#~ msgid "Customize Theme"
+#~ msgstr "ئىختىيارىچە باش تېما"
+
+#~ msgid "D_etails..."
+#~ msgstr "تەپسىلاتى…(_E)"
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "ئۈستەل ئۈستى خەت نۇسخا(_K):"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "خەت نۇسخا سىزىش تەپسىلاتى"
+
+#~ msgid "Fonts"
+#~ msgstr "خەت نۇسخا"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "توردىن تېخىمۇ كۆپ تەگلىككە ئېرىش"
+
+#~ msgid "Get more themes online"
+#~ msgstr "توردىن تېخىمۇ كۆپ باش تېمىغا ئېرىش"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "تۇتۇقلۇقى(_Y)"
+
+#~ msgid "Hinting"
+#~ msgstr "مىكرو تەڭشەك"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "توغرىسىغا يانتۇلۇق دەرىجىسى"
+
+#~ msgid "Icons"
+#~ msgstr "سىنبەلگىلەر"
+
+#~ msgid "Icons only"
+#~ msgstr "سىنبەلگىلەرلا"
+
+#~ msgid "Large"
+#~ msgstr "چوڭ"
+
+#~ msgid "N_one"
+#~ msgstr "يوق(_O)"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "بەلگىلەنگەن رەڭدىكى سۆزلەشكۈنى ئاچ"
+
+#~ msgid "Pointer"
+#~ msgstr "ئىسترېلكا"
+
+#~ msgid "R_esolution:"
+#~ msgstr "ئېنىقلىقى(_e):"
+
+#~ msgid "Rendering"
+#~ msgstr "سىزىۋاتىدۇ"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "باش تېمىنى باشقا ئاتتا ساقلا…"
+
+#~ msgid "Save _As..."
+#~ msgstr "باشقا ئاتتا ساقلا(_A)…"
+
+#~ msgid "Save _background image"
+#~ msgstr "تەگلىك سۈرەتنى ساقلا(_b)"
+
+#~ msgid "Scale"
+#~ msgstr "نىسبىتى"
+
+#~ msgid "Small"
+#~ msgstr "كىچىك"
+
+#~ msgid "Smoothing"
+#~ msgstr "سىيلىق"
+
+#~ msgid "Solid color"
+#~ msgstr "ساپ رەڭ"
+
+#~ msgid "Span"
+#~ msgstr "ئارىلىق"
+
+#~ msgid "Stretch"
+#~ msgstr "سوز"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "ئىككىلەمچى چېكىت(LCD) (_P)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "سىلىقلانغان ئىككىلەمچى چېكىت(LCD) (_P)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "ئىككىلەمچى چېكىت تەرتىپى"
+
+#~ msgid "Text"
+#~ msgstr "تېكىست"
+
+#~ msgid "Text below items"
+#~ msgstr "تېكىست تۈرنىڭ ئاستىدا"
+
+#~ msgid "Text beside items"
+#~ msgstr "تېكىست تۈرنىڭ يېنىدا"
+
+#~ msgid "Text only"
+#~ msgstr "تېكىستلا"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "نۆۋەتتىكى تىزگىنەك تېمىسى رەڭ تەڭشەش لايىھىسىنى قوللىمايدۇ."
+
+#~ msgid "Theme"
+#~ msgstr "باش تېما"
+
+#~ msgid "Tile"
+#~ msgstr "ياي"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "بويىغا يانتۇلۇق دەرىجىسى"
+
+#~ msgid "Window Border"
+#~ msgstr "كۆزنەك گىرۋىكى"
+
+#~ msgid "Zoom"
+#~ msgstr "كېڭەيت تارايت"
+
+#~ msgid "_Add..."
+#~ msgstr "قوش(_A)…"
+
+#~ msgid "_Application font:"
+#~ msgstr "قوللىنىشچان پروگرامما خەت نۇسخا(_A):"
+
+#~ msgid "_BGR"
+#~ msgstr "BGR(_B)"
+
+#~ msgid "_Description:"
+#~ msgstr "چۈشەندۈرۈش(_D):"
+
+#~ msgid "_Document font:"
+#~ msgstr "پۈتۈك خەت نۇسخا(_D):"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "تەڭ كەڭلىك خەت نۇسخا(_F):"
+
+#~ msgid "_Full"
+#~ msgstr "تولۇق(_F)"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "كىرگۈزۈش كاتەكلىرى(_I):"
+
+#~ msgid "_Install..."
+#~ msgstr "ئورنات(_I)…"
+
+#~ msgid "_Medium"
+#~ msgstr "ئوتتۇرا(_M)"
+
+#~ msgid "_Monochrome"
+#~ msgstr "يەككە رەڭ(_M)"
+
+#~ msgid "_Name:"
+#~ msgstr "ئاتى(_N):"
+
+#~ msgid "_None"
+#~ msgstr "يوق(_N)"
+
+#~ msgid "_RGB"
+#~ msgstr "RGB(_R)"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "كۆڭۈلدىكىگە قايتۇر(_R)"
+
+#~ msgid "_Selected items:"
+#~ msgstr "تاللانغان تۈرلەر(_S)"
+
+#~ msgid "_Size:"
+#~ msgstr "چوڭلۇقى(_S):"
+
+#~ msgid "_Slight"
+#~ msgstr "سەل(_S)"
+
+#~ msgid "_Style:"
+#~ msgstr "ئۇسلۇب(_S):"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "قورال ئەسكەرتىش(_T):"
+
+#~ msgid "_VRGB"
+#~ msgstr "VRGB(_V)"
+
+#~ msgid "_Window title font:"
+#~ msgstr "كۆزنەك تېما خەت نۇسخا(_W):"
+
+#~ msgid "_Windows:"
+#~ msgstr "كۆزنەك(_W):"
+
+#~ msgid "dots per inch"
+#~ msgstr "ھەر دىيۇيم چېكىت"
+
+#~ msgid "Appearance"
+#~ msgstr "كۆرۈنۈش"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "ئىختىيارىچە ئۈستەل ئۈستى قىياپىتى"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "ئۈستەل ئۈستى بۆلەكلىرى ئۈچۈن باش تېما بوغچىسى ئورنىتىدۇ"
+
+#~ msgid "Theme Installer"
+#~ msgstr "باش تېما ئورناتقۇچ"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome تېما بوغچىسى"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "ئۈستەل ئۈستى تەگلىك يوق"
+
+#~ msgid "Slide Show"
+#~ msgstr "تام تەسۋىر كۆرسەت"
+
+#~ msgid "Image"
+#~ msgstr "سۈرەت"
+
+#~ msgid "multiple sizes"
+#~ msgstr "كۆپ خىل چوڭلۇق"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s دىن %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "چېكىت"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "قىسقۇچ: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "قىسقۇچ: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "سۈرەت يوقالغان"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "باش تېمىنى ئورناتقىلى بولمىدى"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "%s ئەمەلىي قورالى ئورنىتىلماپتۇ."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "تېمىنى ئاجراتقۇچە خاتالىق كۆرۈلدى"
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "تاللىغان ھۆججەتنى ئورنىتىۋاتقاندا خاتالىق كۆرۈلدى"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "%s ئۈنۈملۈك تېما ئەمەستەك تۇرىدۇ."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "\"%s\" ئۈنۈملۈك تېما ئەمەستەك تۇرىدۇ. ئېھتىمال بۇ تەرجىمە-تەھرىرلىشىڭىز "
+#~ "زۆرۈر بولىدىغان تېما ماتورى بولۇشى مۇمكىن."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "\"%s\" تېمانى ئورنىتالمىدى."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "\"%s\" تېما ئورنىتىلدى."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "ھازىرلا قوللىنامسىز ياكى نۆۋەتتىكى تېمىڭىزنى ساقلاپ قالامسىز؟"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "نۆۋەتتىكى تېمىنى ساقلاپ قال"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "يېڭى تېمىنى قوللان"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME تېمىسى %s توغرا ئورنىتىلدى."
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "ۋاقىتلىق مۇندەرىجە قۇرالمىدى."
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "يېڭى تېما مۇۋەپپەقىيەتلىك ئورنىتىلدى."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "ئورنىتىدىغان تېما ھۆججەت ئورنى ئېنىقلانماپتۇ."
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "تۆۋەندىكى ئورۇنغا ئورنىتىشقا ھوقۇق يەتمىدى:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "تېما تاللاڭ"
+
+#~ msgid "Theme Packages"
+#~ msgstr "تېما بوغچىسى"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "تېما ئاتى بولۇشى زۆرۈر"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "بۇ تېما ئاللىقاچان مەۋجۇت. ئالماشتۇرامسىز؟"
+
+#~ msgid "_Overwrite"
+#~ msgstr "قاپلا(_O)"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "بۇ تېمىنى ئۆچۈرۈۋېتەمسىز؟"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "تېمىنى ئۆچۈرگىلى بولمىدى."
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "تېما ماتورىنى ئورناتقىلى بولمىدى."
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "تەڭشەك باشقۇرغۇچ 'gnome-settings-daemon'نى قوزغىتالمىدى.\n"
+#~ "ئەگەر GNOME تەڭشەك باشقۇرغۇچ ئىجرا قىلىنمىسا بەزى مايىللىق كۈچكە ئىگە "
+#~ "بولمايدۇ. بۇ  DBus تا مەسىلە كۆرۈلگەنلىكىنى بىلدۈرىدۇ ياكى مەلۇم غەيرىي "
+#~ "GNOME (مەسىلەن KDE) تەڭشەك باشقۇرغۇچنىڭ ئاكتىپ ھالەتتە ئىكەنلىكىنى "
+#~ "بىلدۈرىدۇ. ھەمدە GNOME تەڭشەك باشقۇرغۇچ بىلەن توقۇنۇشىدۇ."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "ئامبار سىنبەلگىسى '%s' نى يۈكلىيەلمىدى\n"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "ياردەم كۆرسىتىشتە خاتالىق كۆرۈلدى: %s"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "ھۆججەت كۆچۈرۈۋاتىدۇ:  %u دىن %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' كۆچۈرۈۋاتىدۇ"
+
+#~ msgid "Copying files"
+#~ msgstr "ھۆججەتلەرنى كۆچۈرۈۋاتىدۇ"
+
+#~ msgid "Parent Window"
+#~ msgstr "ئاتا كۆزنەك"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "ئاتا سۆزلىشىش كۆزنىكى"
+
+#~ msgid "From URI"
+#~ msgstr "مەنبە URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI نۆۋەتتە كېلىۋاتقان مەنبە"
+
+#~ msgid "To URI"
+#~ msgstr "نىشان URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "نۆۋەتتە يوللىنىۋاتقان نىشان URI"
+
+#~ msgid "Fraction completed"
+#~ msgstr "تاماملانغان قىسمى"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "نۆۋەتتىكى يوللىنىشنىڭ تاماملانغان قىسمى"
+
+#~ msgid "Current URI index"
+#~ msgstr "نۆۋەتتىكى URI كۆرسەتكۈچىسى"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "نۆۋەتتىكى URI كۆرسەتكۈچىسى - 1 دىن باشلاپ"
+
+#~ msgid "Total URIs"
+#~ msgstr "جەمئىي URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "جەمئىي URI سانى"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "ھۆججەت '%s' مەۋجۇت ئىكەن. ئۇنى قاپلىۋېتەمسىز؟"
+
+#~ msgid "_Skip"
+#~ msgstr "ئاتلا(_S)"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "ھەممىنى قاپلا(_A)"
+
+#~ msgid "Key"
+#~ msgstr "كۇنۇپكا"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "مەزكۇر تەھرىرلىگۈچ باغلانغان GConf كۇنۇپكىسى"
+
+#~ msgid "Callback"
+#~ msgstr "قايتۇرما چاقىرىق"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "كۇنۇپكىغا باغلانغان قىممەت ئۆزگەرگەندە، مۇشۇ قايتۇرما چاقىرىقنى ئىجرا قىل"
+
+#~ msgid "Change set"
+#~ msgstr "ئۆزگىرىش توپى"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf خېرىدارىغا تەتبىقلاشقا يوللىنىدىغان مەلۇماتلارنى ئۆز ئىچىگە ئالغان "
+#~ "GConf ئۆزگىرىش توپى"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "زاپچاس قايتۇرما چاقىرىقىغا ئايلاندۇرۇش"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "مەلۇماتلار GConf تىن زاپچاسقا ئايلاندۇرۇلغاندا ئىجرا قىلىنىدىغان قايتۇرما "
+#~ "چاقىرىق"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "زاپچاستىن ئايلاندۇرۇلۇش قايتۇرما چاقىرىقى"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "مەلۇماتلار زاپچاستىن GConf قا ئايلاندۇرماقچى بولغاندا ئىجرا قىلىنىدىغان "
+#~ "قايتۇرما چاقىرىق"
+
+#~ msgid "UI Control"
+#~ msgstr "ئىشلەتكۈچى يۈزى تىزگىنىكى"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "خاسلىقنى تىزگىنلەيدىغان جىسىم (ئادەتتە بىر زاپچاس)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "خاسلىق تەھرىرلىگۈچ جىسىم مەلۇماتى"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "مۇئەييەن خاسلىق تەھرىرلىگۈچ تەلەپ قىلىدىغان ئۆزگىچە مەلۇماتلار"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "خاسلىق تەھرىرلىگۈچ مەلۇمات بوشىتىش قايتۇرما چاقىرىقى"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "خاسلىق تەھرىرلىگۈچ جىسىم مەلۇماتى بوشىتىلغاندا ئىجرا قىلىنىدىغان قايتۇرما "
+#~ "چاقىرىق"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "ھۆججەت '%s' تېپىلمىدى.\n"
+#~ "\n"
+#~ "ئۇنىڭ بارلىقىنى جەزملەشتۈرۈپ قايتا سىناڭ ياكى باشقا بىر تەگلىك رەسىم "
+#~ "تاللاڭ."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "ھۆججەت '%s' نى قانداق ئېچىشنى بىلمەيمەن.\n"
+#~ "ئېھتىمال ئۇ تېخى قوللىمايدىغان رەسىم تىپى ئوخشايدۇ.\n"
+#~ "\n"
+#~ "باشقا رەسىم تاللاڭ"
+
+#~ msgid "Please select an image."
+#~ msgstr "سۈرەت تاللاڭ."
+
+#~ msgid "_Select"
+#~ msgstr "تاللا(_S)"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "كۆڭۈلدىكى ئىسترېلكا  - نۆۋەتتىكى"
+
+#~ msgid "White Pointer"
+#~ msgstr "ئاق ئىسترېلكا"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "ئاق ئىسترېلكا - نۆۋەتتىكى"
+
+#~ msgid "Large Pointer"
+#~ msgstr "چوڭ ئىسترېلكا"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "چوڭ ئىسترېلكا - نۆۋەتتىكى"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "چوڭ ئاق ئىسترېلكا - نۆۋەتتىكى"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "چوڭ ئاق ئىسترېلكا"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "زۆرۈر GTK+ تېمىسى '%s' قاچىلانمىغاچقا، بۇ تېما كۈتكەندەك كۆرۈنمەيدۇ."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "زۆرۈر كۆزنەك باشقۇرغۇچ تېمىسى '%s' قاچىلانمىغاچقا، بۇ تېما كۈتكەندە "
+#~ "كۆرۈنمەيدۇ."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "زۆرۈر سىنبەلگە تېمىسى '%s' قاچىلانمىغاچقا، بۇ تېما كۈتكەندەك كۆرۈنمەيدۇ."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "ئامراق قوللىنىشچان پروگراممىلار"
+
+#~ msgid "Select your default applications"
+#~ msgstr "كۆڭۈلدىكى قوللىنىشچان پروگراممىلىرىڭىزنى تاللاڭ"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "ياقتۇرىدىغان كۆرۈشكە ياردەم بېرىش تېخنىكىسىنى قوزغات."
+
+#~ msgid "Visual Assistance"
+#~ msgstr "كۆرۈش ياردەمچىسى"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "سەپلىمىلەرنى ساقلاشتىكى خاتالىق: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "ئاساسىي ئالاقە ئېغىزىنى يۈكلىيەلمىدى"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "قوللانچاقنىڭ توغرا قاچىلانغانلىقىنى جەزملەشتۈرۈڭ."
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "كۆرسىتىدىغان بەتنىڭ نامىنى ئېنىقلاڭ (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- GNOME كۆڭۈلدىكى قوللانىشلار"
+
+#~ msgid "Accessibility"
+#~ msgstr "قوشۇمچە ئىقتىدار"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr ""
+#~ "%s قېتىملىق كۆرۈنگەننىڭ ھەممىسى ئەمەلىي ئۇلىنىش بىلەن ئالماشتۇرۇلىدۇ"
+
+#~ msgid "C_ommand:"
+#~ msgstr "بۇيرۇق(_O):"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "بۇيرۇق(_M):"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "ئىجرا تۇغى(_x):"
+
+#~ msgid "Image Viewer"
+#~ msgstr "سۈرەت كۆرگۈچ"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "مۇڭداشقۇ"
+
+#~ msgid "Internet"
+#~ msgstr "ئىنتېرنېت"
+
+#~ msgid "Mail Reader"
+#~ msgstr "ئېلخەت ئوقۇغۇچ"
+
+#~ msgid "Mobility"
+#~ msgstr "كۆچمە"
+
+#~ msgid "Multimedia"
+#~ msgstr "كۆپ ۋاسىتە"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "كۆپ ۋاسىتە قويغۇچ"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "ئۇلانمىنى يېڭى بەتكۈچتە ئاچ(_T)"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "ئۇلانمىنى يېڭى كۆزنەكتە ئاچ(_w)"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "ئۇلانمىنى كۆڭۈلدىكى توركۆرگۈدە ئاچ(_d)"
+
+#~ msgid "Run at st_art"
+#~ msgstr "قوزغالغاندا ئىجرا قىل(_a)"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "تېرمىنالدا ئىجرا قىل(_E)"
+
+#~ msgid "System"
+#~ msgstr "سىستېما"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "تېرمىنال تەقلىدلەشتۈرگۈچ"
+
+#~ msgid "Text Editor"
+#~ msgstr "تېكىست تەھرىرلىگۈچ"
+
+#~ msgid "Video Player"
+#~ msgstr "سىن قويغۇچ"
+
+#~ msgid "Visual"
+#~ msgstr "كۆرۈنۈشچان"
+
+#~ msgid "Web Browser"
+#~ msgstr "توركۆرگۈ"
+
+#~ msgid "_Run at start"
+#~ msgstr "قوزغالغاندا ئىجرا قىل(_R)"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee نەغمە قويغۇ"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws ئېلخەت"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian Sensible توركۆرگۈ"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian تېرمىنال تەقلىدلەشتۈرگۈچ"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany توركۆرگۈ"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution ئېلخەت ئوقۇغۇچ"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "GNOME ئېكران ئوقۇغۇچىسى يوق چوڭايتقۇ"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME ئېكران ھەرپ تاختا"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME تېرمىنال"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "چوڭايتقۇچىسى بار Gnopernicus"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "ئېكران ئوقۇغۇچى يوق KDE چوڭايتقۇ"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux ئېكران ئوقۇغۇچ"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "چوڭايتقۇچىسى بار Linux ئېكران ئوقۇغۇچ"
+
+#~ msgid "Listen"
+#~ msgstr "ئاڭلا"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla ئېلخەت"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine نەغمە قويغۇچ"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape ئالاقىچىسى"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "چوڭايتقۇچىسى بار Orca"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox نەغمە قويغۇچ"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey ئېلخەت"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "ئۆلچەملىك XTerminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem كىنو قويغۇچ"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "تاختا ئىچىدە(_P)"
+
+#~ msgid "Left"
+#~ msgstr "سول"
+
+#~ msgid "Make Default"
+#~ msgstr "كۆڭۈلدىكى"
+
+#~ msgid "Monitor"
+#~ msgstr "ئېكران"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "ئېكران مايىللىقى"
+
+#~ msgid "Normal"
+#~ msgstr "نورمال"
+
+#~ msgid "Off"
+#~ msgstr "چەكلە"
+
+#~ msgid "On"
+#~ msgstr "قوزغات"
+
+#~ msgid "Panel icon"
+#~ msgstr "تاختا سىنبەلگىسى"
+
+#~ msgid "R_otation:"
+#~ msgstr "ئايلاندۇر(_o)"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "يېڭىلاش سۈرئىتى(_f)"
+
+#~ msgid "Right"
+#~ msgstr "ئوڭ"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "ھەممە ئېكراندا ئوخشاش سۈرەت كۆرسەت(_M)"
+
+#~ msgid "Upside-down"
+#~ msgstr "ئاستى ئۈستىنى ئالماشتۇر"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "كۆزەتكۈچ بايقا(_D)"
+
+#~ msgid "_Resolution:"
+#~ msgstr "ئېنىقلىق(_R):"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "تاختىدا كۆزەتكۈچ كۆرسەت(_S)"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "كۆزەتكۈچنىڭ ئېنىقلىق ۋە ئورنىنى ئۆزگەرت"
+
+#~ msgid "Monitors"
+#~ msgstr "ئېكرانلار"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "بۇ پروگراممىنى root لا ئىشلىتەلەيدۇ"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "ئەسلى ھۆججەت ئاتى مۇتلەق بولسۇن"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "%sنى ئاچقىلى بولمىدى: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr " %s نىڭ ئۇچۇرىغا ئېرىشكىلى بولمىدى: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s چوقۇم مۇنتىزىم ھۆججەت بولۇشى كېرەك\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "بۇ پروگرامما چوقۇم  pkexec(1) ئارقىلىق ئىجرا قىلىنىشى كېرەك"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID چوقۇم پۈتۈن سان بولۇشى كېرەك"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "%s نىڭ ئىگىسى چوقۇم سىز بولۇشىڭىز كېرەك\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s چوقۇم ھەرقانداق مۇندەرىجە بىرىكمىسى بولماسلىقى كېرەك\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s چوقۇم مۇندەرىجە بولۇشى كېرەك\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "%s/%s نى ئاچقىلى بولمىدى: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "%s نىڭ ئاتىنى %s غا ئۆزگەرتكىلى بولمىدى: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "بارلىق ئىشلەتكۈچىلەرگە كوپ ئېكران تەڭشىكىنى ئورنىتىش ئۈچۈن دەلىللەش زۆرۈر"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "سىستېمىغا كوپ ئېكران تەڭشىكىنى ئورنىتىش"
+
+#~ msgid "Upside Down"
+#~ msgstr "دۈم (تەتۈر)"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "نۇسخىلانغان ئېكران"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "كۆزەتكۈچ: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "كۆزەتكۈچتىن بىرنى تاللاپ خاسلىقى ئۆزگەرتىلىدۇ؛ سۆرەپ ئۇلارنىڭ ئورنى "
+#~ "تەڭشىلىدۇ."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "كۆزەتكۈچ تەڭشەكلىرىنى ساقلىغىلى بولمىدى"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "كۆرسىتىش تەڭشەكلىرىنى تەتبىقلىغۇغۇچە سۆزلىشىش باش لىنىيىسىگە ئېرىشكىلى "
+#~ "بولمىدى."
+
+#~ msgid "Could not detect displays"
+#~ msgstr "كۆزەتكۈچ بايقالمىدى"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "كۆزەتكۈچ تەڭشەكلىرىنى ساقلىغىلى بولمىدى"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr "بۇ سەپلىمە، كېيىنكى قېتىم بىرى تىزىمغا كىرگەندە ئىشلىتىلىدۇ"
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "كۆزەتكۈچ تەڭشەكلىرىنى ساقلىغىلى بولمىدى"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "ئېكران ئۇچۇرىغا ئېرىشكىلى بولمىدى"
+
+#~ msgid "Sound"
+#~ msgstr "ئاۋاز"
+
+#~ msgid "Desktop"
+#~ msgstr "ئۈستەليۈزى"
+
+#~ msgid "New shortcut..."
+#~ msgstr "يېڭى قىسقا يول…"
+
+#~ msgid "Accelerator key"
+#~ msgstr "تېزلەتكۈچ كۇنۇپكىسى"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "تېزلەتكۈچ ئۆزگەرتكۈچ"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "تېزلەتكۈچ كۇنۇپكا نومۇرى"
+
+#~ msgid "Accel Mode"
+#~ msgstr "تېزلەتكۈچ ھالىتى"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "تېزلەتكۈچ تىپى."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<نامەلۇم مەشغۇلات>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "ئىختىيارى قىسقا يوللار"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "يېڭى قىسقا يول ساقلىغاندا خاتالىق كۆرۈلدى"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "تېز كۇنۇپكا \"%s\" ئىشلەتكىلى بولمايدۇ، چۈنكى ئۇنى ئىشلەتكەندە كىرگۈزگىلى "
+#~ "بولمايدۇ، بىرلا ۋاقىتتا Control ، Alt ياكى Shift نى ئىشلىتىشنى سىناڭ."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr "\"%s\" قىسقا يول \"%s\" غا ئىشلىتىلگەن"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "ئەگەر قىسقا يولنى \"%s\"غا بەلگىلىسىڭىز،  \"%s\" نىڭ قىسقا يولى چەكلىنىدۇ."
+
+#~ msgid "_Reassign"
+#~ msgstr "قايتا تەيىنلە(_R)"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "ساندان سەپلىگەندە تېزلەتكۈچنى تەڭشەشنى بىكار قىلغاندا خاتالىق كۆرۈلدى: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "ئىختىيارى قىسقا يول بەك كۆپ"
+
+#~ msgid "Action"
+#~ msgstr "مەشغۇلات"
+
+#~ msgid "Shortcut"
+#~ msgstr "قىسقا يول"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "ئىختىيارى قىسقا يول"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "تېز كۇنۇپكا"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "تېز كۇنۇپكىنى تەھرىرلەشتە، مۇناسىپ قۇرنى تاق چېكىپ ئاندىن يېڭى تېز "
+#~ "كۇنۇپكا كىرگۈزۈلىدۇ ياكى backspace ئۆچۈرۈش كۇنۇپكىسىدا تازىلىنىدۇ."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "بۇيرۇققا تېز كۇنۇپكا بەلگىلىنىدۇ"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "تەڭشەكنى قوللىنىپ چېكىن (ماسلىشىشچانلىق ئۈچۈنلا؛ ھازىر قوغداش پروگراممىسى "
+#~ "بىر تەرەپ قىلدى)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "كۆرسەتكەن خەت بېسىش ئارىلىق تەڭشىكىنى قوزغىتىش بېتى"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "كۆرسەتكەن قوشۇمچە ئىقتىدار تەڭشىكى قوزغىتىش بېتى"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- GNOME ھەرپ تاختا مايىللىقى"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "قوشۇمچە ئىقتىدارنى ئېچىپ ياكى ياپقاندىكى دۇت-دۈت ئاۋازى(_A)"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "ئۆزگەرتىش كۇنۇپكىسىنى باسقاندىكى دۈت-دۈت ئاۋازى(_M)"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "ئالماشتۇرۇش كۇنۇپكىسىنى باسقاندىكى دۈت-دۈت ئاۋازى"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "كۇنۇپكا بېسىلغاندىكى دۈت-دۈت ئاۋازى"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "رەت قىلغاندىكى دۈت-دۈت ئاۋازى"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "قوبۇل قىلغان كۇنۇپكا دۈت-دۈت ئاۋازى"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "رەت قىلغان كۇنۇپكا دۈت-دۈت ئاۋازى"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "قاڭقىش كۇنۇپكىسى"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "كۆزنەك ماۋزۇ بالداقنى چاقنات(_W)"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "پۈتۈن ئېكراننى چاقنات(_S)"
+
+#~ msgid "General"
+#~ msgstr "ئادەتتىكى"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "ھەرپ تاختا قوشۇمچە ئىقتىدارى ئاۋاز قايتۇرما ئىنكاسى"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "ئاگاھلاندۇرۇش ئاۋازى ئۈچۈن كۆرۈنمە ئىنكاسنى كۆرسەت(_V)"
+
+#~ msgid "Slow Keys"
+#~ msgstr "ئاستا كۇنۇپكا"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "چاپلاش كۇنۇپكىسى"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "ئاۋازلىق كۆرۈنمە ئىنكاس"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "ئاۋاز ئىنكاسى(_F)…"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "ئۈزۈشنى كېچىكتۈرۈشكە يول قويىدىغان قويمايدىغانلىقىنى تەكشۈر"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "نۇر بەلگە چاقناش"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "تېكىست رايونىدا نۇر بەلگە چاقنات(_B)"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "نۇر بەلگە چاقناش سۈرئىتى"
+
+#~ msgid "D_elay:"
+#~ msgstr "كېچىكتۈر(_E):"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "ئەگەر ئىككى كۇنۇپكا بىرلا ۋاقىتتا بېسىلسا چاپلاش كۇنۇپكىسىنى چەكلە(_B)"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "ئارام ئېلىش ۋاقتىدا كىرگۈزۈشكە يول قويۇلمايدۇ"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "مەجبۇرىي ئۈزۈۋېتىشتىن ئىلگىرىكى خىزمەت داۋاملىشىش ۋاقتى"
+
+#~ msgid "Fast"
+#~ msgstr "تېز"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "مەلۇم كۇنۇپكا بېسىپ تۇرۇلغاندا شۇ كۇنۇپكىنى تەكرارلا(_R)"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "ھەرپ تاختا مايىللىقى"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "ھەرپ تاختا تىپى(_M):"
+
+#~ msgid "Layouts"
+#~ msgstr "جايلاشتۇرۇش"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "مەلۇم ۋاقىت ئۆتكەندە ئېكراننى قۇلۇپلاپ تەكرار كۇنۇپكا خىزمىتىدە قول "
+#~ "بېغىشىنىڭ تېلىپ كېتىشىنىڭ ئالدىنى ئېلىشقا ياردەم بېرىدۇ."
+
+#~ msgid "Long"
+#~ msgstr "ئۇزۇن"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "چاشقىنەك كۇنۇپكا"
+
+#~ msgid "Move _Down"
+#~ msgstr "تۆۋەنگە(_D)"
+
+#~ msgid "Move _Up"
+#~ msgstr "يۇقىرىغا(_U)"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "يېڭى كۆزنەك ئاكتىپ كۆزنەك جايلاشتۇرۇشنى ئىشلىتىدۇ(_S)"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "تەكرار كۇنۇپكا"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "تەكرار كۇنۇپكا سۈرئىتى"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "كۆڭۈلدىكىگە قايتۇر(_F)"
+
+#~ msgid "S_peed:"
+#~ msgstr "سۈرئىتى:"
+
+#~ msgid "Short"
+#~ msgstr "قىسقا"
+
+#~ msgid "Slow"
+#~ msgstr "ئاستا"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "ھەرپ تاختا جايلاشتۇرۇش تاللانمىسىنى كۆرۈش ۋە تەھرىرلەش"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "تېزلىتىش(_A):"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "تېز كۇنۇپكىدا قوشۇمچە ئىقتىدارنى ئېچىش ياكى يېپىشقا يول قوي(_A)"
+
+#~ msgid "_Delay:"
+#~ msgstr "كېچىكتۈر(_D):"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "تېز سۈرئەتتە تەكرار كۇنۇپكا بېسىشقا پەرۋا قىلما(_I)"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "ئۇزاق كۇنۇپكا بېسىشقىلا قوشۇل(_O)"
+
+#~ msgid "_Options..."
+#~ msgstr "تاللانما(_O)…"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "كۇنۇپكا تاختىدا ئىسترېلكا باشقۇرۇشقا يول قوي(_P)"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "ھەر بىر كۆزنەكنى مۇستەقىل جايلاشتۇر(_S)"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "بىرلا ۋاقىتتا كۇنۇپكا بېسىشنى تەقلىدلەشتۈر(_S)"
+
+#~ msgid "_Speed:"
+#~ msgstr "سۈرئەت(_S):"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "ھەرپ كىرگۈزۈپ تەڭشەك سىناڭ(_T):"
+
+#~ msgid "By _country"
+#~ msgstr "دۆلەت بويىچە(_C)"
+
+#~ msgid "By _language"
+#~ msgstr "تىل بويىچە(_L)"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "جايلاشتۇرۇش تاللا"
+
+#~ msgid "Preview:"
+#~ msgstr "ئالدىن كۆزەت:"
+
+#~ msgid "_Country:"
+#~ msgstr "دۆلەت(_C):"
+
+#~ msgid "_Language:"
+#~ msgstr "تىل(_L):"
+
+#~ msgid "_Variants:"
+#~ msgstr "شالغۇتلار:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "ھەرپ تاختا تىپىدىن بىرنى تاللاڭ"
+
+#~ msgid "_Models:"
+#~ msgstr "تىپى(_M):"
+
+#~ msgid "_Vendors:"
+#~ msgstr "ساتقۇچى(_V):"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "ھەرپ تاختا جايلاشتۇرۇش تاللانما"
+
+#~ msgid "Unknown"
+#~ msgstr "نامەلۇم"
+
+#~ msgid "Layout"
+#~ msgstr "ئۇسلۇب"
+
+#~ msgid "Vendors"
+#~ msgstr "ساتقۇچى"
+
+#~ msgid "Models"
+#~ msgstr "تىپى"
+
+#~ msgid "Default"
+#~ msgstr "كۆڭۈلدىكى"
+
+#~ msgid "Keyboard"
+#~ msgstr "ھەرپ تاختا"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "ھەرپ تاختا مايىللىق تەڭشىكى"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "قول ئىشارەت|سولغا يۆتكەل"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "قول ئىشارەت|ئوڭغا يۆتكەل"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "قول ئىشارەت|ئۈستىگە يۆتكەل"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "قول ئىشارەت|ئاستىغا يۆتكەل"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "قول ئىشارەت|چەكلە"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "كۆرسىتىدىغان بەت ئاتى بەلگىلىنىدۇ (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- GNOME چاشقىنەك مايىللىقى"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "ئالدىن بەلگىلەنگەن چېكىش تىپىنى تاللاڭ(_B)"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "چاشقىنەك قول ئىشارىتىنى ئىشلىتىپ چېكىش تىپىنى تاللاڭ(_U)"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "قوش چەك(_O):"
+
+#~ msgid "D_rag click:"
+#~ msgstr "سۆرەپ چەك(_R):"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "كىرگۈزگەندە سەزگۈر تاختىنى چەكلە"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "قوش چېكىش ۋاقىت ھالقىشى"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "سۆرەپ تاشلا"
+
+#~ msgid "Dwell Click"
+#~ msgstr "لەيلىتىپ چەك"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "سەزگۈر تاختىدا چاشقىنەك چېكىشنى قوزغات(_M)"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "توغرىسىغا سۈرۈپ دومىلىتىشنى قوزغات"
+
+#~ msgid "High"
+#~ msgstr "يۇقىرى"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "ئىسترېلكا ئورنى"
+
+#~ msgid "Low"
+#~ msgstr "تۆۋەن"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "چاشقىنەك يۆنىلىشى"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "چاشقىنەك مايىللىقى"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "ئىسترېلكا سۈرئىتى"
+
+#~ msgid "Scrolling"
+#~ msgstr "دومىلات"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "ئىككىنچى چېكىش(_N):"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Ctrl كۇنۇپكا بېسىلسا ئىسترېلكا ئورنى كۆرۈنىدۇ(_O)"
+
+#~ msgid "Show click type _window"
+#~ msgstr "چېكىش تىپى كۆزنىكىنى كۆرسەت(_W)"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "تەقلىدلىك ئىككى چەك"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "بوسۇغا قىممەت"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr "قوش چېكىش تەڭشىكىڭىزنى سىناشتا، ئوڭ تەرەپتىكى لامپىنى قوش چېكىڭ."
+
+#~ msgid "Touchpad"
+#~ msgstr "سەزگۈر تاختا"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "ئىككى بارماقتا دومىلات(_F)"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "لەيلىمە چېكىش تاختىسىدىكى كىچىك پروگراممىنى ئىشلىتىپ چېكىش تىپىنى "
+#~ "تاللىيالايسىز."
+
+#~ msgid "_Disabled"
+#~ msgstr "چەكلەنگەن(_D)"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "يان سۈرگۈچ(_E)"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "ئىسترېلكا يۆتكىلىشنى توختاتقاندا چېكىشنى قوزغات(_I)"
+
+#~ msgid "_Left-handed"
+#~ msgstr "سولخاي(_L)"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "ھەرىكەت بوسۇغا قىممىتى(_M):"
+
+#~ msgid "_Right-handed"
+#~ msgstr "ئوڭخاي(_R)"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "سەزگۈرلۈكى(_S):"
+
+#~ msgid "_Single click:"
+#~ msgstr "يەككە چەك(_S):"
+
+#~ msgid "_Timeout:"
+#~ msgstr "ۋاقىت ھالقىش(_T):"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "چاشقىنەك ئاساسىي كۇنۇپكىسىنى بېسىپ قويۇپ بەرمەي ئىككىنچى قېتىم چەك(_T)"
+
+#~ msgid "Mouse"
+#~ msgstr "چاشقىنەك"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "چاشقىنەك مايىللىق تەڭشىكى"
+
+#~ msgid "New Location..."
+#~ msgstr "يېڭى ئورنى…"
+
+#~ msgid "Location already exists"
+#~ msgstr "ئورنى مەۋجۇت"
+
+#~ msgid "Network Proxy"
+#~ msgstr "تور ۋاكالەتچىسى"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "تور ۋاكالەتچى مايىللىقىڭىزنى تەڭشەڭ"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>تۇتاش تورغا بىۋاسىتە ئۇلا(_R)</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>ئاپتوماتىك ۋاكالەتچى سەپلىمىسى(_A)</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>قولدا ۋاكالەتچى سەپلىمىسى(_M)</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>سالاھىيەت دەلىللەش ئىشلەت(_U)</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL ئۆزلۈكىدىن سەپلە:"
+
+#~ msgid "C_reate"
+#~ msgstr "قۇر(_R)"
+
+#~ msgid "Create New Location"
+#~ msgstr "يېڭى ئورۇن قۇر"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP ۋاكالەتچى تەپسىلاتى"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP ۋاكالەتچى:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "كومپيۇتېر تىزىملىكىگە پەرۋا قىلما"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "پەرۋا قىلىنمىغان كومپيۇتېر"
+
+#~ msgid "Location:"
+#~ msgstr "ئورنى:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "تور ۋاكالەتچى مايىللىقى"
+
+#~ msgid "Port:"
+#~ msgstr "ئېغىز:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "ۋاكالەتچى سەپلىمە"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks مۇلازىمېتىر:"
+
+#~ msgid "The location already exists."
+#~ msgstr "بۇ ئورۇن مەۋجۇت."
+
+#~ msgid "U_sername:"
+#~ msgstr "ئىشلەتكۈچى ئاتى(_S):"
+
+#~ msgid "_Delete Location"
+#~ msgstr "ئورۇن ئۆچۈر(_D)"
+
+#~ msgid "_Details"
+#~ msgstr "تەپسىلاتلار(_D)"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP ۋاكالەتچى:"
+
+#~ msgid "_Location name:"
+#~ msgstr "ئورۇن ئاتى(_L):"
+
+#~ msgid "_Password:"
+#~ msgstr "ئىم(_P):"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "بىخەتەر HTTP ۋاكالەتچى(_S):"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "ھەممە كېلىشىملەرگە ئوخشاش ۋاكالەتچى ئىشلەت(_U)"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "كۆزنەك باشقۇرغۇچىڭىزنىڭ مايىللىق قوللىنىشچان پروگراممىسىنى قوزغىتالمىدى"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (ياكى \"Windows تۇغى\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "يۆتكىمە بوسۇغا قىممەت"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "ماۋزۇ بالداق ھەرىكىتى"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr "كۆزنەك يۆتكەشتە بۇ كۇنۇپكىنى بېسىپ تۇرۇپ ئاندىن كۆزنەك سۆرىلىدۇ:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "كۆزنەك مايىللىقى"
+
+#~ msgid "Window Selection"
+#~ msgstr "كۆزنەك تاللاش"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "ماۋزۇ بالداق قوش چېكىلسە بۇ مەشغۇلات ئىجرا قىلىنىدۇ(_D):"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "ئۆرلەشتىن ئىلگىرىكى كېچىكتۈرۈش(_I):"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "بىر ئازدىن كېيىن تاللانغان كۆزنەكنى ئۆرلەت(_R)"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "چاشقىنەك كۆزنەك ئۈستىگە يۆتكەلگەندە كۆزنەكنى تاللا(_S)"
+
+#~ msgid "seconds"
+#~ msgstr "سېكۇنت"
+
+#~ msgid "Set your window properties"
+#~ msgstr "كۆزنەك خاسلىق تەڭشىكى"
+
+#~ msgid "Windows"
+#~ msgstr "كۆزنەكلەر"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "كۆزنەك باشقۇرغۇچ \"%s\" سەپلەش قورالىنى خەتلەتمىگەن\n"
+
+#~ msgid "Maximize"
+#~ msgstr "چوڭايت"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "بويىغا چوڭايت"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "توغرىسىغا چوڭايت"
+
+#~ msgid "Minimize"
+#~ msgstr "كىچىكلەت"
+
+#~ msgid "Roll up"
+#~ msgstr "تۈر(_U)"
+
+#~ msgid "None"
+#~ msgstr "يوق"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "كۇنۇپكا تېپىلمىدى [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "قوزغالغاندا يوشۇر (shell نى ئالدىن يۈكلەشتە بەك ئەسقاتىدۇ)"
+
+#~ msgid "Filter"
+#~ msgstr "سۈزگۈچ"
+
+#~ msgid "Groups"
+#~ msgstr "گۇرۇپپا"
+
+#~ msgid "Common Tasks"
+#~ msgstr "ئاممىۋى ۋەزىپە"
+
+#~ msgid "Control Center"
+#~ msgstr "باشقۇرۇش مەركىزى"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "ۋەزىپە ئاكتىپلانغاندا باشقۇرۇش مەركىزىنى ياپ"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "قوش ياكى چىقىرىۋەت مەشغۇلاتى ئىجرا قىلغاندا قاپتىن چېكىن"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "ياردەم مەشغۇلاتى ئىجرا قىلغاندا قاپتىن چېكىن"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "قوزغىتىش مەشغۇلاتى ئىجرا قىلغاندا قاپتىن چېكىن"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "دەرىجە ئۆرلەت ياكى يوقات مەشغۇلاتى ئىجرا قىلغاندا قاپتىن چېكىن"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "ياردەم مەشغۇلاتى ئىجرا قىلىشقا كۆرسەتمە بېرىۋاتقاندا قاپتىن چېكىن"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "قوزغىتىش مەشغۇلاتى ئىجرا قىلىشقا كۆرسەتمە بېرىۋاتقاندا قاپتىن چېكىن"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "قوش ياكى چىقىرىۋەت مەشغۇلاتى ئىجرا قىلىشقا كۆرسەتمە بېرىۋاتقاندا قاپتىن "
+#~ "چېكىن"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "دەرىجە ئۆرلەت ياكى يوقات مەشغۇلاتى ئىجرا قىلىشقا كۆرسەتمە بېرىۋاتقاندا "
+#~ "قاپتىن چېكىن"
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "ۋەزىپە ئاتى ۋە باغلانغان .desktop ھۆججەت"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "باشقۇرۇش مەركىزىدە كۆرسىتىدىغان ۋەزىپە ئاتىدا ئەگىشىپلا كېلىدىغىنى \";\" "
+#~ "چېكىتلىك پەش، ئاندىن شۇ ۋەزىپە قوزغاتقان .desktop ھۆججەتنىڭ ھۆججەت ئاتى."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[تېما ئۆزگەرت;gtk-theme-selector.desktop، ئامراق قوللانىشلار تەڭشىكى "
+#~ "Applications;default-applications.desktop,پرىنتېر قوش;gnome-cups-manager."
+#~ "desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "ئەگەر true بولسا «ئادەتتىكى ۋەزىپە» ئاكتىپلانسا باشقۇرۇش مەركىزى يېپىلىدۇ."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME سەپلىمە قورالى"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، OpenType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، PCF خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، TrueType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، Type1 خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى OpenType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى PCF خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى TrueType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى Type1 خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "OpenType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "PCF خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "TrueType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Type1 خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "OpenType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "PCF خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "TrueType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Type1 خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#~ msgid "Name:"
+#~ msgstr "ئاتى:"
+
+#~ msgid "Style:"
+#~ msgstr "ئۇسلۇب:"
+
+#~ msgid "Type:"
+#~ msgstr "تىپى:"
+
+#~ msgid "Size:"
+#~ msgstr "چوڭلۇقى:"
+
+#~ msgid "Version:"
+#~ msgstr "نەشرى:"
+
+#~ msgid "Copyright:"
+#~ msgstr "نەشر ھوقۇقى:"
+
+#~ msgid "Description:"
+#~ msgstr "چۈشەندۈرۈش:"
+
+#~ msgid "Installed"
+#~ msgstr "ئورنىتىلغان"
+
+#~ msgid "Install Failed"
+#~ msgstr "ئورنىتىش مەغلۇپ بولدى."
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "ئىشلىتىش ئۇسۇلى: %s fontfile\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "خەت نۇسخا ئورنات(_N)"
+
+#~ msgid "Font Viewer"
+#~ msgstr "خەت نۇسخا كۆرگۈچ"
+
+#~ msgid "Preview fonts"
+#~ msgstr "خەت نۇسخىنى ئالدىن كۆزەت"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "كىچىك سۈرەتكە تېكىست ئىشلەت (كۆڭۈلدىكى: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "تېكىست"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "خەت چوڭلۇقى (كۆڭۈلدىكى: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "چوڭلۇقى"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "خەت نۇسخا-ھۆججەت چىقار-ھۆججەت"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "پارامېتىر تەھلىل قىلىشتا خاتالىق كۆرۈلدى: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "\"%s\" سۈزگۈچىڭىز ھېچقانداق تۈرگە ماس كەلمەيدۇ."
+
+#~ msgid "No matches found."
+#~ msgstr "ماس كەلگەن تۈر تېپىلمىدى."
+
+#~ msgid "Other"
+#~ msgstr "باشقا"
+
+#~ msgid "Start %s"
+#~ msgstr "%s قوزغات"
+
+#~ msgid "Help"
+#~ msgstr "ياردەم"
+
+#~ msgid "Upgrade"
+#~ msgstr "دەرىجە ئۆستۈر"
+
+#~ msgid "Uninstall"
+#~ msgstr "چىقىرىۋەت"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "يىغقۇچتىن چىقىرىۋەت"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "يىغقۇچقا قوش"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "قوزغىلىدىغان پروگراممىدىن چىقىرىۋەت"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "قوزغىلىدىغان پروگراممىغا قوش"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "يېڭى ئېلېكترونلۇق جەدۋەل"
+
+#~ msgid "New Document"
+#~ msgstr "يېڭى پۈتۈك"
+
+#~ msgid "Documents"
+#~ msgstr "پۈتۈكلەر"
+
+#~ msgid "File System"
+#~ msgstr "ھۆججەت سىستېمىسى"
+
+#~ msgid "Network Servers"
+#~ msgstr "تور مۇلازىمېتىرى"
+
+#~ msgid "Search"
+#~ msgstr "ئىزدە"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>ئاچ</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "ئات ئۆزگەرت…"
+
+#~ msgid "Send To..."
+#~ msgstr "يوللا…"
+
+#~ msgid "Move to Trash"
+#~ msgstr "ئەخلەتخانىغا يۆتكە"
+
+#~ msgid "Delete"
+#~ msgstr "ئۆچۈر"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "\"%s\" نى راستىنىلا مەڭگۈلۈك ئۆچۈرەمسىز؟"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "ئەگەر بىر تۈرنى ئۆچۈرسىڭىز، ئۇ مەڭگۈلۈك يوقىلىدۇ."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "\"%s\" دا ئاچ"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "كۆڭۈلدىكى قوللىنىشچان پروگراممىدا ئاچ"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "ھۆججەت باشقۇرغۇچتا ئاچ"
+
+#~ msgid "?"
+#~ msgstr "؟"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "بۈگۈن %p%l:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "تۈنۈگۈن %p%l:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%p%l:%M (%a)"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "دەرھال ئىزدە"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b> %s ئاچ</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "سىستېما تۈرىدىن چىقىرىۋەت"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Password dialogs as normal windows"
+#~ msgstr "نورمال كۆزنەك شەكلىدە ئىم سۆزلەشكۈنى كۆرسەت(_P)"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "يېڭى بەلگىلىمىلەر سىنىلىۋاتىدۇ. ئەگەر %d سېكۇنتقىچە ئىنكاس قايتۇرمىسىڭىز، "
+#~ "ئالدىنقى بەلگىلىمىلەر قايتىپ كېلىدۇ."
+
+#~ msgid "Keep Settings"
+#~ msgstr "تەڭشەكلەرنى ساقلاپ قال"
+
+#~ msgid "Do you want to keep these settings?"
+#~ msgstr "مۇشۇ تەڭشەكلەرنى ساقلاپ قالامسىز؟"
+
+#~ msgid "Use _previous settings"
+#~ msgstr "ئالدىنقى تەڭشەكلەرنى ئىشلەت(_p)"
+
+#~ msgid "_Keep settings"
+#~ msgstr "تەڭشەكلەرنى ساقلاپ قال(_K)"
+
+#~ msgid "Desktop effects could not be enabled"
+#~ msgstr "ئۈستەل ئۈستى ئۈنۈملىرىنى قوزغىتالمىدى"
+
+#~ msgid ""
+#~ "Please run \"Appearance/Desktop Effects\" again after restarting the "
+#~ "computer, when the new graphics driver is active."
+#~ msgstr ""
+#~ "قايتا قوزغىتىلغاندىن كېيىن يېڭى كۆرسىتىش كارتا قوزغاتقۇنى ئاكتىپلىغاندا "
+#~ "«كۆرۈنۈش/ئۈستەل ئۈستى ئۈنۈم»نى قايتا ئىجرا قىلىڭ."
+
+#~ msgid "Revert Button Layout"
+#~ msgstr "توپچا ئۇسلۇبىنى ئەسلىگە قايتۇر"
+
+#~ msgid ""
+#~ "The current theme suggests a background, a font and a button layout. "
+#~ "Also, the last applied font and button layout suggestion can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى باش تېما مۇناسىپ تەگلىك، خەت نۇسخا ۋە توپچا ئۇسلۇبىنى تەۋسىيە "
+#~ "قىلغان. ئالدىنقى قېتىم ئىشلەتكەن خەت نۇسخا ۋە توپچا ئۇسلۇب تەۋسىيىسىگە "
+#~ "ئەسلىگە قايتۇرغىلىمۇ بولىدۇ."
+
+#~ msgid ""
+#~ "The current theme suggests a background, a font and a button layout. "
+#~ "Also, the last applied button layout suggestion can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى باش تېما مۇناسىپ تەگلىك، خەت نۇسخا ۋە توپچا ئۇسلۇبىنى تەۋسىيە "
+#~ "قىلغان. ئالدىنقى قېتىم ئىشلەتكەن توپچا ئۇسلۇب تەۋسىيىسىگە ئەسلىگە "
+#~ "قايتۇرغىلىمۇ بولىدۇ."
+
+#~ msgid ""
+#~ "The current theme suggests a background and a button layout. Also, the "
+#~ "last applied font and button layout suggestion can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى باش تېما مۇناسىپ تەگلىك ۋە توپچا ئۇسلۇبىنى تەۋسىيە قىلغان. "
+#~ "ئالدىنقى قېتىم ئىشلەتكەن خەت نۇسخا ۋە توپچا ئۇسلۇب تەۋسىيىسىگە ئەسلىگە "
+#~ "قايتۇرغىلىمۇ بولىدۇ."
+
+#~ msgid ""
+#~ "The current theme suggests a font and a button layout. Also, the last "
+#~ "applied button_layout suggestion can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى باش تېما مۇناسىپ خەت نۇسخا ۋە توپچا ئۇسلۇبىنى تەۋسىيە قىلغان. "
+#~ "ئالدىنقى قېتىم ئىشلەتكەن توپچا ئۇسلۇب تەۋسىيىسىگە ئەسلىگە قايتۇرغىلىمۇ "
+#~ "بولىدۇ."
+
+#~ msgid ""
+#~ "The current theme suggests a button layout. Also, the last button layout "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "نۆۋەتتىكى باش تېما مۇناسىپ توپچا ئۇسلۇبىنى تەۋسىيە قىلغان. ئالدىنقى قېتىم "
+#~ "ئىشلەتكەن توپچا ئۇسلۇب تەۋسىيىسىگە ئەسلىگە قايتۇرغىلىمۇ بولىدۇ."
+
+#~ msgid "<b>C_ustom:</b> Uses custom set of effects."
+#~ msgstr "<b>ئىختىيارى(_u)</b>: ئىختىيارى ئۈنۈملەرنى ئىشلىتىدۇ."
+
+#~ msgid "<b>Compiz is not installed</b>"
+#~ msgstr "<b>Compiz ئورنىتىلماپتۇ</b>"
+
+#~ msgid ""
+#~ "<b>E_xtra:</b> Provides more aesthetically pleasing set of effects. "
+#~ "Requires faster graphics card."
+#~ msgstr ""
+#~ "<b>قوشۇمچە(_x):</b> تېخىمۇ كۆپ ئىستىخىيىلىك ھۇزۇر بېغىشلىغۇچى ئۈنۈملەرنى "
+#~ "تەمىنلەيدۇ. تېزرەك كۆرسىتىش كارتىسىنى تەلەپ قىلىدۇ."
+
+#~ msgid "<b>Mutter is running, can't switch to other effects.</b>"
+#~ msgstr ""
+#~ "<b>Mutter ئىجرا قىلىنىۋاتىدۇ، باشقا ئۈنۈمگە ئالماشتۇرغىلى بولمايدۇ.</b>"
+
+#~ msgid ""
+#~ "<b>N_ormal:</b> Provides improved usability and good balance between "
+#~ "attractiveness and moderate performance requirements."
+#~ msgstr ""
+#~ "<b>نورمال(_o)</b> ياخشىلانغان ئىشلىتىشچانلىق ھەمدە،  گۈزەللىك ۋە ئوبدان "
+#~ "ئىشلەش ئۈنۈمى تەلىپى ئارىسىدا ياخشى تەڭپۇڭلۇق بىلەن تەمىنلەيدۇ."
+
+#~ msgid ""
+#~ "<b>_None:</b> Provides a simple desktop environment without any effects."
+#~ msgstr ""
+#~ "<b>يوق (_N):</b> ھېچقانداق ئۈنۈم ئىشلەتمىگەن ئاددىي ئۈستەل ئۈستى بىلەن "
+#~ "تەمىنلەيدۇ."
+
+#~ msgid "Visual Effects"
+#~ msgstr "كۆرۈنمە ئۈنۈم"
+
+#~ msgid ""
+#~ "It appears that your graphics driver does not support the necessary "
+#~ "extensions to use this tool.  Do you want to use your graphics driver "
+#~ "vendor's tool instead?"
+#~ msgstr ""
+#~ "كۆرسىتىش قوزغاتقۇچىڭىز بۇ قورالنى ئىشلىتىشكە زۆرۈر بولىدىغان "
+#~ "كېڭەيتمىلەرنى قوللىمايدىغاندەك تۇرىدۇ. بۇنىڭ ئورنىغا كۆرسىتىش قوزغاتقۇچى "
+#~ "سودىگىرىنىڭ قورالىنى ئىشلىتەمسىز؟"
+
+#~ msgid "%d x %d (%s)"
+#~ msgstr "%d x %d (%s)"
+
+#~ msgid ""
+#~ "Your settings cannot be applied because the virtual resolution is not big "
+#~ "enough to contain your screens"
+#~ msgstr ""
+#~ "مەۋھۇم ئېنىقلىق ئېكرانىڭىزنى كۆرسىتىشكە يەتمىگەچكە، تەڭشەكلىرىڭىزنى "
+#~ "قوللىنالمايدۇ."
+
+#~ msgid "Please log out and log back in again"
+#~ msgstr "تىزىمدىن چىقىپ ئاندىن قايتا كىرىڭ"
+
+#~ msgid ""
+#~ "The installation of an additional component (%s) is required in order to "
+#~ "apply your settings. Would you like to install it now?"
+#~ msgstr ""
+#~ "بەلگىلىمىلىرىڭىزنى تەتبىقلاش ئۈچۈن قوشۇمچە قىسىم (%s) نىڭ قاچىلىنىشى "
+#~ "زۆرۈر. ھازىر قاچىلامسىز؟"
+
+#~ msgid "Apply System-Wide..."
+#~ msgstr "سىستېما دائىرىسىدە قوللان(_W)…"
+
+#~ msgid ""
+#~ "Do you want to apply these settings system-wide, so that they are also "
+#~ "used for package installation and other system services?"
+#~ msgstr ""
+#~ "سىز سىستېما دائىرىسىدە بۇ تەڭشەكلەرنى قوللىنامسىز؟ بۇنداق بولغاندا "
+#~ "ئۇلارنى يۇمشاق دېتال بوغچىسى قاچىلاش ۋە باشقا سىستېما مۇلازىمىتىگە "
+#~ "ئىشلىتىشكىمۇ بولىدۇ"
+
+#~ msgid "Reset"
+#~ msgstr "ئەسلىگە قايتۇر"

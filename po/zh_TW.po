@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.31.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2010-07-17 19:33+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
@@ -45,19 +45,19 @@ msgstr ""
 "#-#-#-#-#  zh_TW.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 msgid "Enable debugging code"
 msgstr "啟用除錯碼"
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "不要檢查通知區是否存在"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "休息提示小程式"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 msgid ""
 "The typing monitor uses the notification area to display information. You "
 "don't seem to have a notification area on your panel. You can add it by "
@@ -68,11 +68,11 @@ msgstr ""
 "以在面板上按滑鼠右邊按鈕，選取「加入至面板」及其中的「程式狀態通知區」後，再"
 "按「新增」。"
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 msgid "_Take a Break"
 msgstr "休息一下(_T)"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 #, fuzzy
 msgid "Disabled"
 msgstr ""
@@ -83,47 +83,37 @@ msgstr ""
 "#-#-#-#-#  zh_TW.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
 "已停用"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr "現在休息（剩下 %d分）"
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "距離休息時間還有 %d 分鐘"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr "現在休息（剩下不到一分鐘）"
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, c-format
 msgid "Less than one minute until the next break"
 msgstr "距離休息時間少於 1 分鐘"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
 "error: %s"
 msgstr "無法顯示「休息提示」偏好設定對話方塊，因為出現以下的錯誤：%s"
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "由 Richard Hult <richard@imendio.com> 編寫"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 msgid "Eye candy added by Anders Carlsson"
 msgstr "由 Anders Carlsson 加入視覺效果"
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 msgid "A computer break reminder."
 msgstr "在使用電腦時發出休息提示的小工具。"
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 "如對翻譯有任何意見，請送一封電子郵件給\n"
@@ -132,20 +122,20 @@ msgstr ""
 "\n"
 "Woodman Tuen <wmtuen@gmail.com>, 2004-07"
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "停止休息(_P)"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "請休息一下！"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -153,15 +143,19 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 #, fuzzy
 msgid "Whether the typing break can be postponed"
 msgstr "是否開啟螢幕閱讀器。"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 #, fuzzy
 msgid "Whether typing break is enabled"
 msgstr "是否開啟螢幕閱讀器。"
@@ -197,9 +191,14 @@ msgstr "透過鎖定畫面來強制休息(_L)"
 msgid "_Work interval lasts:"
 msgstr "工作時間為(_W):"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "分鐘"
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "現在休息（剩下 %d分）"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "現在休息（剩下不到一分鐘）"
+
+#~ msgid "minutes"
+#~ msgstr "分鐘"
 
 #~ msgid "    "
 #~ msgstr "    "

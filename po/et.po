@@ -1,0 +1,4181 @@
+# #-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#
+# GNOME sätetedeemoni eesti keele tõlge.
+# Estonian translation of GNOME Settings Daemon.
+#
+# Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007-2010 The Gnome Project.
+# This file is distributed under the same license as the gnome-control-center
+# package.
+#
+# Lauris Kaplinski <lauris ariman ee>, 1999.
+# Tõivo Leedjärv <toivo linux ee>, 2002, 2003.
+# Ivar Smolin <okul linux ee>, 2005-2010.
+# Priit Laes <plaes plaes org>, 2005, 2006, 2009
+# Mattias Põldaru <mahfiaz gmail com>, 2009-2010.
+#
+# #-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#
+# GNOME sätetedeemoni eesti keele tõlge.
+# Estonian translation of GNOME Settings Daemon.
+#
+# Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007-2010 The Gnome Project.
+# This file is distributed under the same license as the gnome-control-center
+# package.
+#
+# Lauris Kaplinski <lauris ariman ee>, 1999.
+# Tõivo Leedjärv <toivo linux ee>, 2002, 2003.
+# Ivar Smolin <okul linux ee>, 2005-2010.
+# Priit Laes <plaes plaes org>, 2005, 2006, 2009
+# Mattias Põldaru <mahfiaz gmail com>, 2009-2010.
+#
+# #-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#
+# GNOME juhtimiskeskuse eesti keele tõlge.
+# Estonian translation of GNOME Control Center.
+#
+# Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007-2010 The Gnome Project.
+# This file is distributed under the same license as the gnome-control-center
+# package.
+#
+# Lauris Kaplinski <lauris ariman ee>, 1999.
+# Tõivo Leedjärv <toivo linux ee>, 2002, 2003.
+# Ivar Smolin <okul linux ee>, 2005-2010.
+# Priit Laes <plaes+gi18n plaes org>, 2005, 2006, 2008.
+# Mattias Põldaru <mahfiaz gmail com>, 2009-2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Control Center MASTER\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-09-07 22:06+0300\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Language-Team: Estonian <gnome-et@linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Estonian\n"
+"X-Poedit-Country: ESTONIA\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "Silumiskoodi lubamine"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "Teavitusala olemasolu ei kontrollita"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Tippimismonitor"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Tippimismonitor kasutab andmete kuvamiseks teateala. Paistab, et sinu "
+"paneelil pole teateala. Seda on võimalik sinna lisada kui teha paneelil "
+"paremklõps, valida 'Lisa paneelile', siis valida 'Teateala' ja klõpsata "
+"nupul 'Lisa'."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "_Tee vaheaeg"
+
+#: ../../../po/../src/drwright.c:441
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+"Keelatud\n"
+"#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+"Keelatud\n"
+"#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+"Välja lülitatud"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minut järgmise puhkepausini"
+msgstr[1] "%d minutit järgmise puhkepausini"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Järgmise puhkepausini on vähem kui minut"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Puhkepausi omaduste dialoogi pole järgneva vea tõttu võimalik kuvada: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Autor: Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Andres Carlsson'i poolt lisatud silmarõõm"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Puhkepausist meeldetuletaja."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Lauris Kaplinski <lauris ariman ee>, 1999.\n"
+"Tõivo Leedjärv <toivo linux ee>, 2002, 2003.\n"
+"Ivar Smolin <okul linux ee>, 2005-2010.\n"
+"Priit Laes <plaes+gi18n plaes org>, 2005, 2006, 2008.\n"
+"Mattias Põldaru <mahfiaz gmail com>, 2009-2010."
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "_Lükka puhkepaus edasi"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Tee üks puhkepaus!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Kas ekraanilugeja on sisse lülitatud või mitte."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Kas ekraanilugeja on sisse lülitatud või mitte."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Tippimise vaheaeg"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "_Vaheaja kestus:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "Tippimise vaheaja pealesundimiseks _lukustatakse ekraan"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "_Töö kestus:"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Tee praegu vaheaeg (järgmiseni %dm)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Tee praegu vaheaeg (järgmiseni on vähem kui minut)"
+
+#~ msgid "minutes"
+#~ msgstr "minutit"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Arbeit</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
+#~ "#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+#~ "Märgitakse juhul, kui puhkepauside edasilükkamine on lubatud"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
+#~ "#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+#~ "Puhkepausi kestus, mille vältel on klaviatuurilt sisestused keelatud"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
+#~ "#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+#~ "Töö kestus enne sunniviisilist puhkepausi"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/_Über"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pausenerinnerer"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+#~ "Unbekannt\n"
+#~ "#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+#~ "Tundmatu"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Tastaturbelegung »%s«"
+
+#~ msgid "_Groups"
+#~ msgstr "_Gruppen"
+
+#~ msgid "Suspend"
+#~ msgstr "Bereitschaft"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Legt fest, ob ein Dialog angezeigt wird, wenn beim Ausführen des "
+#~ "Bildschirmschoners ein Fehler auftritt."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Fehler beim Start anzeigen"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% des Speicherplatzes auf »%s« wird benutzt"
+
+#~ msgid "Analyze"
+#~ msgstr "Analysieren"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "GNOME-Lautstärkeregler"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Fehler beim Starten des Bildschirmschoners:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Der Bildschirmschoner steht in dieser Sitzung nicht zur Verfügung."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern des Mauszeiger-Themas erforderlich."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern der Zeiger erforderlich."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Audiodatei %s konnte nicht als Beispiel %s geladen werden"
+
+#~ msgid "Login"
+#~ msgstr "Anmelden"
+
+#~ msgid "Logout"
+#~ msgstr "Abmelden"
+
+#~ msgid "Boing"
+#~ msgstr "Gong"
+
+#~ msgid "Siren"
+#~ msgstr "Sirene"
+
+#~ msgid "Clink"
+#~ msgstr "Klicken"
+
+#~ msgid "Beep"
+#~ msgstr "Piep"
+
+#~ msgid "No sound"
+#~ msgstr "Kein Klang"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Diesem Ereignis ist kein Klang zugewiesen."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
+#~ "Sie können das Paket »gnome-audio« installieren, um die Vorgabeklänge zu "
+#~ "erhalten."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Die Audiodatei für dieses Ereignis existiert nicht."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Audiodatei wählen"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Die Datei %s ist keine gültige wav-Datei"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Audiodatei wählen …"
+
+#, fuzzy
+#~ msgid "Sound"
+#~ msgstr ""
+#~ "#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+#~ "Audio\n"
+#~ "#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+#~ "Heli"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Setzen Sie diesen Wert auf »True«, um die MIME-Typ-Handler für »text/"
+#~ "plain« und »text/*« synchron zu halten."
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "»text/plain« und »text/*«-Handler synchronisieren"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "Anscheinend hat bereits eine andere Anwendung auf den Schlüssel »%u« "
+#~ "zugegriffen."
+
+#~ msgid "Accessibility"
+#~ msgstr "Hõlbustused"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Vaba kettaruumi protsendi teavituslävi"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Vaba kettaruumi teavitusläve piir"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Kordushoiatuste intervall"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Eiratavad haakepunktid"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Vaba kettaruumi lävi protsentides, mil kuvatakse esimene hoiatus. Kui "
+#~ "vaba kettaruumi jääb määratud protsendist vähem, kuvatakse hoiatus."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr "Määra haakepunktid, mille kettaruumi vähesust eiratakse."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Määra aeg minutites. Kordushoiatused sama köite kohta ei ilmu tihedamini "
+#~ "kui määratud vahemik."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Määra maht GB-des. Kui vaba ruumi on rohkem, kui see väärtus, ei näidata "
+#~ "mingit hoiatust."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Mitme protsendini peab vaba kettaruum enne kordushoiatuse näitamist "
+#~ "kahanema."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Vaba kettaruumi protsendi muutus enne kordushoiatust"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Klahviseos optilise ketta väljastamiseks."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Klahviseos puuteplaatide lubamiseks ja keelamiseks."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Klahviseos kalkulaatori käivitamiseks."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Klahviseos e-posti kliendi käivitamiseks."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Klahviseos abiteabe sirvija käivitamiseks."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Klahviseos meediaesitaja käivitamiseks."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Klahviseos otsinguvahendi käivitamiseks."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Klahviseos veebisirvija käivitamiseks."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Klahviseos ekraani lukustamiseks."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Klahviseos väljalogimiseks."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Klahviseos süsteemi helivaljuse vähendamiseks."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Klahviseos süsteemi helivaljuse nullimiseks."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Klahviseos kodukataloogi avamiseks."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Klahviseos meediaesituse pausimiseks."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Klahviseos süsteemi helivaljuse suurendamiseks."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Klahviseos järgmise loo peale hüppamiseks."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Klahviseos eelmise loo peale hüppamiseks."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr "Klahviseos esitamise alustamiseks (või esitamiseks/pausimiseks)"
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Klahviseos meediaesituse seiskamiseks."
+
+#~ msgid "Eject"
+#~ msgstr "Sahtli lahtilükkamine"
+
+#~ msgid "Home folder"
+#~ msgstr "Kodukataloog"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Kalkulaatori käivitamine"
+
+#~ msgid "Launch email client"
+#~ msgstr "E-posti kliendi käivitamine"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Abiteabe sirvija käivitamine"
+
+#~ msgid "Launch media player"
+#~ msgstr "Meediaesitaja käivitamine"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Veebisirvija käivitamine"
+
+#~ msgid "Lock screen"
+#~ msgstr "Ekraani lukustamine"
+
+#~ msgid "Log out"
+#~ msgstr "Väljalogimine"
+
+#~ msgid "Next track"
+#~ msgstr "Järgmisele loole hüppamine"
+
+#~ msgid "Pause playback"
+#~ msgstr "Esitamise paus"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Esitamine (või esitamine/paus)"
+
+#~ msgid "Previous track"
+#~ msgstr "Eelmisele loole hüppamine"
+
+#~ msgid "Search"
+#~ msgstr "Otsing"
+
+#~ msgid "Stop playback"
+#~ msgstr "Esitamise lõpetamine"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Puuteplaadid sisse/välja"
+
+#~ msgid "Volume down"
+#~ msgstr "Heli vaiksemaks"
+
+#~ msgid "Volume mute"
+#~ msgstr "Heli tummaks"
+
+#~ msgid "Volume step"
+#~ msgstr "Helitugevuse samm"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Helitugevuse reguleerimise samm protsentides."
+
+#~ msgid "Volume up"
+#~ msgstr "Heli valjemaks"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "RandR vaikesätete fail"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Kuvade näitamine teavitusalas"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "XRandR plugin otsib vaikesätteid failist, mis määratakse selle võtmega. "
+#~ "See on samasugune fail, nagu ~/.config/monitors.xml kasutaja "
+#~ "kodukataloogis. Kui kasutajal ei ole mainitud faili, või see fail ei sobi "
+#~ "kasutaja monitoride arvuga, kasutatakse hoopis käesoleva võtmega määratud "
+#~ "faili."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Pärast süsteemi alglaadimist lülitatakse väline monitor sisse"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Kui kasutaja ühendab süsteemi alglaadimisel välise monitori, lülitatakse "
+#~ "see alglaadimise järel sisse."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Pärast süsteemi alglaadimist lülitatakse sülearvuti monitor sisse"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Pärast süsteemi alglaadimist lülitatakse sisse sülearvuti monitor, kui "
+#~ "alglaadimisel ühendatakse väline monitor."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr "Kas kuvaga seotud teavitusikooni tuleb paneelil näidata või mitte."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Sakisilumine"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Varjundamine"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA järjestus"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Alampikslite elementide järjestus LCD-ekraanil. Kasutatakse ainult juhul, "
+#~ "kui sakisilumise väärtuseks on määratud \"rgba\". Võimalikud väärtused: "
+#~ "\"rgb\" - punane on vasakul (enimkasutatav), \"bgr\" - sinine on vasakul, "
+#~ "\"vrgb\" - punane on üleval, \"vbgr\" - punane on all."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Eraldusvõime, mida kasutatakse kirjasuuruste pikslitesse teisendamisel. "
+#~ "Ühik punkti tollile."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Kirjatüüpide renderdamisel kasutatav sakisilumise meetod. Võimalikud "
+#~ "väärtused on: \"none\" sakisilumise keelamiseks, \"grayscale\" "
+#~ "standardseks halltoonides sakisilumiseks ja \"rgba\" alampiksli "
+#~ "sakisilumiseks (ainult LCD ekraanidel)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Fontide renderdamisel kasutatav varjundamise tüüp. Võimaliku väärtused on "
+#~ "\"none\" varjundamise keelamiseks, \"slight\" lihtsa, \"medium\" keskmise "
+#~ "ja \"full\" maksimaalse varjundamise jaoks (võib põhjustada tähekujude "
+#~ "moondumist)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Lubatud klahvid"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Mittetühja väärtuse korral eiratakse neid kiirklahve, mille GConf "
+#~ "kataloog pole nimekirjas. See on kasulik lukustamiseks."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Puuteplaadi keelamine tippimise ajaks"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Rõhtsa kerimise lubamine"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Hiireklõpsude lubamine puuteplaadilt"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Puuteplaadi lubamine"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Puuteplaadi kerimismeetodi valimine"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Puuteplaadi kerimismeetod. Võimalikud väärtused on 0: keelatud, 1: "
+#~ "kerimine servalt ja 2: kahe sõrmega kerimine"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Märgi see väärtus juhul, kui sind segab, et sa tippimise ajal kogemata "
+#~ "puuteplaati puudutad."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Kui märgitud, siis on rõhtne kerimine lubatud scroll_method võtmega "
+#~ "määratud moel."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Kui märgitud, siis tõlgendatakse puuteplaadil toksimist hiireklõpsudena."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Kui märgitud, siis on kõik puuteplaadid lubatud."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "GNOME sätetedeemon"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Klahviseos ekraaniluubi sisse/välja lülitamiseks."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Klahviseos ekraaniklaviatuuri sisse/välja lülitamiseks."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Klahviseos ekraanilugeja sisse/välja lülitamiseks."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Põrkeklahvid"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Ekraaniluubi sisse-/väljalülitamise käsk."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Ekraaniklaviatuuri sisse-/väljalülitamise käsk."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Ekraanilugeja sisse-/väljalülitamise käsk."
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "XRandR plugina lubamine"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Hõlbustustega klaviatuuriplugina lubamine"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Taustaplugina lubamine"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Lõikelauaplugina lubamine"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Kirjatüübi plugina lubamine"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Majapidamisplugina lubamine"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Kiirklahvide plugina lubamine"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Klaviatuuriplugina lubamine"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Meediaklahvide plugina lubamine"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Hiireplugina lubamine"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Smartcard plugina lubamine"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Heliplugina lubamine"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Tippimise vaheaeja plugina lubamine"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Xrdb plugina lubamine"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Xsettings plugina lubamine"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Hiireklahvid"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Ekraaniklaviatuur"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Ekraaniluup"
+
+#~ msgid "Screen reader"
+#~ msgstr "Ekraanilugeja"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Kui määratud, siis on majahoidjaplugin lubatud. Selle plugina abil "
+#~ "eemaldatakse ajutiste failide puhvrid."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud XRandR sätteid hallata."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud lõikelaua sätteid hallata."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Kui märgitud, siis on pluginal lubatud töölaua tausta sätteid hallata."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Kui märgitud, siis on pluginal lubatud kirjatüüpide sätteid hallata."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud klaviatuurisätteid hallata."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Märgi see, et lubada pluginal lukustada ekraan smartcardi eemaldamisel."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud hiiresätteid hallata."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Kui märgitud, siis on pluginal lubatud multimeediaklahvide sätteid "
+#~ "hallata."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud helipuhvrit hallata."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Kui märgitud, siis on pluginal lubatud klahviatuurihõlbustuste sätteid "
+#~ "hallata."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud klahviseoseid hallata."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud tippimise vaheaegu hallata."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud xrdb sätteid hallata."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "Kui märgitud, siis on pluginal lubatud xsettings sätteid hallata."
+
+#~ msgid "Slow keys"
+#~ msgstr "Aeglased klahvid"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Kleepuvad klahvid"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Luubi sisse/välja lülitamise kiirklahvi nimi"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "Ekraaniklaviatuuri sisse/välja lülitamise kiirklahvi nimi"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "Ekraanilugeja sisse/välja lülitamise kiirklahvi nimi"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "See on luubi sisse- ja väljalülitamiseks mõeldud klahvikombinatsiooni "
+#~ "nimi. Seda nime näidatakse kiirklahvide eelistuste dialoogis."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "See on ekraaniklaviatuuri sisse- ja väljalülitamiseks mõeldud "
+#~ "klahvikombinatsiooni nimi. Seda nime näidatakse kiirklahvide eelistuste "
+#~ "dialoogis."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "See on ekraanilugeja sisse- ja väljalülitamiseks mõeldud "
+#~ "klahvikombinatsiooni nimi. Seda nime näidatakse kiirklahvide eelistuste "
+#~ "dialoogis."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Ekraaniluup sisse/välja"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Ekraaniklaviatuur sisse/välja"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Ekraanilugeja sisse/välja"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr "Kas hüpikklahvide hõlbustus on sisse lülitatud või mitte."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "Kas hiireklaviatuuri hõlbustus on sisse lülitatud või mitte."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Kas ekraaniklaviatuur on sisse lülitatud või mitte."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Kas ekraaniluup on sisse lülitatud või mitte."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Kas aeglaste klahvide hõlbustus on sisse lülitatud või mitte."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Kas kleepuvate klahvide hõlbustus on sisse lülitatud või mitte."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Määra selle väärtuseks \"none\" (puudub), \"lock_screen\" (lukustatakse "
+#~ "ekraan) või \"force_logout\" (väljalogimise nõudmine). See tegevus "
+#~ "käivitatakse, kui eemaldatakse smartcard, mida kasutati sisselogimiseks."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Smartcardi eemaldamise tegevus"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Deemoniks ei minda"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "GConfi prefiks, millelt laaditakse plugina sätteid"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Lõpetamine teatud aja möödudes (silumiseks)"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Hõlbustustega klaviatuur"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Hõlbustustega klaviatuuri plugin"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Abiteabe kuvamisel tekkis viga: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Kas soovid aeglased klahvid sisse lülitada?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Kas soovid aeglased klahvid välja lülitada?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Sa hoidsid Shift klahvi all 8 sekundi vältel.  See on kiirklahv, mis "
+#~ "lülitab sisse aeglaste klahvide funktsionaalsuse ja seetõttu muudab ka "
+#~ "Sinu klaviatuuri käitumist."
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Ära lülita välja"
+
+#~ msgid "Activate"
+#~ msgstr "Lülita sisse"
+
+#~ msgid "Deactivate"
+#~ msgstr "Lülita välja"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Ä_ra lülita sisse"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Ä_ra lülita välja"
+
+#~ msgid "_Activate"
+#~ msgstr "Lülita _sisse"
+
+#~ msgid "_Deactivate"
+#~ msgstr "Lülita _välja"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Aeglaste klahvide hoiatus"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Kas soovid kleepuvad klahvid sisse lülitada?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Kas soovid kleepuvad klahvid välja lülitadada?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Sa vajutasid Shift klahvi 5 korda järjest.  See on kiirklahv, mis lülitab "
+#~ "sisse kleepuvate klahvide funktsionaalsuse ja seetõttu muudab ka Sinu "
+#~ "klaviatuuri käitumist."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Sa vajutasid korraga kahte klahvi või vajutasid Shift klahvi 5 korda "
+#~ "järjest. See lülitab sisse kleepuvate klahvide funktsionaalsuse ja "
+#~ "seetõttu muudab ka Sinu klaviatuuri käitumist."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Kleepuvate klahvide hoiatus"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Universaalse ligipääsu eelistused"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "_Värvustel on suurem kontrastsus"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "_Tekst on suurem ja seda on lihtsam lugeda"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr ""
+#~ "Vajutusega nõustumiseks tuleb klahvi pikalt all _hoida (aeglased klahvid)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Kasutatakse ekraani_klaviatuuri"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Kasutatakse ekraani_luupi"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Kasutatakse ekraanilu_gejat"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "Klahvide topeltvajutusi _eiratakse (hüpikklahvid)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr ""
+#~ "_Kiirklahvide kombinatsioone on võimalik valida klahvhaaval (kleepuvad "
+#~ "klahvid)"
+
+#~ msgid "Background"
+#~ msgstr "Taust"
+
+#~ msgid "Background plugin"
+#~ msgstr "Taustaplugin"
+
+#~ msgid "Clipboard"
+#~ msgstr "Lõikelaud"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Lõikelaua plugin"
+
+#~ msgid "Dummy"
+#~ msgstr "Liba"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Libaplugin"
+
+#~ msgid "Font"
+#~ msgstr "Kirjatüüp"
+
+#~ msgid "Font plugin"
+#~ msgstr "Kirjatüübi plugin"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "Selle failisüsteemi kohta ei pea enam mingeid hoiatusi näitama"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "_Tulevikus ei kuvata enam ühtegi hoiatust"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Köitel \"%s\" on ainult %s vaba kettaruumi."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Sellel arvutil on ainult %s vaba kettaruumi."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Kettaruumi on võimalik vabastada prügikasti tühjendamisega, kasutusel "
+#~ "mitteolevate failide või programmide eemaldamisega või failide "
+#~ "ümbertõstmisega teisele kettale või partitsioonile."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Kettaruumi on võimalik vabastada kasutusel mitteolevate failide või "
+#~ "programmide eemaldamisega või failide ümbertõstmisega teisele kettale või "
+#~ "partitsioonile."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Kettaruumi on võimalik vabastada prügikasti tühjendamisega, kasutusel "
+#~ "mitteolevate failide või programmide eemaldamisega või failide "
+#~ "ümbertõstmisega välisele kettale."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Kettaruumi on võimalik vabastada kasutusel mitteolevate failide või "
+#~ "programmide eemaldamisega või failide ümbertõstmisega välisele kettale."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Kettal on vähe ruumi"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Tühjenda prügikast"
+
+#~ msgid "Examine…"
+#~ msgstr "Uuri olukorda…"
+
+#~ msgid "Ignore"
+#~ msgstr "Eira"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "%lu. kirje eemaldamine (%lu-st)"
+
+#~ msgid "Removing: %s"
+#~ msgstr "Eemaldamine: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Prügikasti tühjendamine"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Ettevalmistused prügikasti tühjendamiseks…"
+
+#~ msgid "From: "
+#~ msgstr "Kust:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Kas tühjendada kogu prügikast?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Kui sa valid prügikasti tühjendamise, siis kõik seal asuvad asjad "
+#~ "visatakse jäädavalt minema. Vajadusel saab neid asju ka ükshaaval minema "
+#~ "visata."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Tühjenda prügikast"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Klahviseos (%s) on vigane"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Klahviseos (%s) on poolik"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Viga (%s) kävitamise proovimisel,\n"
+#~ "mis on ühendatud klahviga (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Kiirklahvid"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Kiirklahvide plugin"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klaviatuur"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Klaviatuuriplugin"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Viga XKB sätete aktiveerimisel.\n"
+#~ "See võib juhtuda mitmetel asjaoludel:\n"
+#~ " • vea tõttu libxklavier teegis\n"
+#~ " • vea tõttu X-serveris (utiliidid xkbcomp ja xmodmap)\n"
+#~ " • ühildamatusega libxkbfile ja X-serveri vahel\n"
+#~ "\n"
+#~ "X-serveri versiooniandmed:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Kui sa plaanid olukorra kohta vearaporti saata, siis lisa sinna ka:\n"
+#~ " • <b>%s</b> tulemus\n"
+#~ " • <b>%s</b> tulemus"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Sa kasutad XFree versiooni 4.3.0.\n"
+#~ "Sellel on teadaolevalt probleeme kompleksete XKB sätetega.\n"
+#~ "Proovi kasutada lihtsamaid sätteid või kasuta värskemat XFree tarkvara."
+
+#~ msgid "_Layouts"
+#~ msgstr "_Paigutused"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Klaviatuuri _eelistused"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Näita _praegust paigutust"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "_Saadaolevad failid:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Modmap failide laadimine"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Kas soovid modmap faile laadida?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "Tulevikus _seda teadet enam ei kuvata"
+
+#~ msgid "_Load"
+#~ msgstr "_Laadi"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "Laaditud _failid:"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Vaikimisi terminali pole võimalik hankida. Veendu, et vaikimisi terminali "
+#~ "käsuks on määratud sobilik rakendus."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Käsku pole võimalik käivitada: %s\n"
+#~ "Veendu, et selline käsk on olemas."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u väljund"
+#~ msgstr[1] "%u väljundit"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u sisend"
+#~ msgstr[1] "%u sisendit"
+
+#~ msgid "System Sounds"
+#~ msgstr "Süsteemsed helid"
+
+#~ msgid "Media keys"
+#~ msgstr "Meediaklahvid"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Meediaklahvide plugin"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Hiirehõlbustuste võimalusi pole võimalik lubada"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr "Hiirehõlbustuste kasutamiseks peab Mousetweaks olema paigaldatud."
+
+#~ msgid "Mouse"
+#~ msgstr "Hiir"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Hiireplugin"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Tippimise vaheaeja plugin"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Ekraani suuruse ja pööramise sätete määramine"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Kuvari häälestust pole võimalik muuta"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Kuva sätteid pole võimalik taastada"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "Kuva sätteid pole võimalik varukoopiast taastada"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "Kuva eelmised sätted taastatakse %d sekundi pärast"
+#~ msgstr[1] "Kuva eelmised sätted taastatakse %d sekundi pärast"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Kas kuva paistab korras olevat?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Taasta eelmised sätted"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Jäta need sätted alles"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Valitud kuvasätteid pole võimalik rakendada"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Ekraaniteavet pole võimalik värskendada: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Sellest hoolimata proovitakse kuvari häälestust muuta."
+
+#~ msgid "Rotation not supported"
+#~ msgstr "Pööramine pole toetatud"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Kuvari häälestust pole võimalik salvestada"
+
+#~ msgid "Normal"
+#~ msgstr "Tavaline"
+
+#~ msgid "Left"
+#~ msgstr "Vasakule"
+
+#~ msgid "Right"
+#~ msgstr "Paremale"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+#~ "Tagurpidi\n"
+#~ "#-#-#-#-#  et.po (GNOME Settings Daemon MASTER)  #-#-#-#-#\n"
+#~ "Tagurpidi\n"
+#~ "#-#-#-#-#  et.po (GNOME Control Center MASTER)  #-#-#-#-#\n"
+#~ "Pea peal"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Seadista kuva…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Kuva seadistamine"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Kuvarite jaoks salvestatud häälestust pole võimalik rakendada"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Kasutaja kodukataloogi pole võimalik tuvastada"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "X'i ressursside andmebaasi haldamine"
+
+#~ msgid "X Resource Database"
+#~ msgstr "X'i ressursside andmebaas"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr "GConf võti %s on tüübiga %s, eeldatakse tüüpi %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "X'i seadistuste haldamine"
+
+#~ msgid "X Settings"
+#~ msgstr "X'i sätted"
+
+#~ msgid "Module Path"
+#~ msgstr "Mooduli rada"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "smartcardi PKCS #11 draiveri asukoht"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "sündmuste allikast saadi viga või katkestus "
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "NSS turvasüsteemi pole võimalik lähtestada"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "sobivat smartcardi draiverit ei leitud"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "smartcardi draiverit '%s' pole võimalik laadida"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "sissetulevaid kaardisündmuseid ei suudetud jälgida - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr "esines ootamatu viga, kui oodati smartcardi sündmuseid"
+
+#~ msgid "Slot ID"
+#~ msgstr "Sloti ID"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Pesa, milles kaart asub"
+
+#~ msgid "Slot Series"
+#~ msgstr "Pesa seeria"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "pesade kaupa kaardi identifitseerija"
+
+#~ msgid "name"
+#~ msgstr "nimi"
+
+#~ msgid "Module"
+#~ msgstr "Moodul"
+
+#~ msgid "smartcard driver"
+#~ msgstr "smartcardi lugeja draiver"
+
+#~ msgid "Change system time"
+#~ msgstr "Muuda süsteemi kella"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Muuda süsteemi ajavööndit"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Muuda raudvaralist kella"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr "Süsteemi ajavööndi muutmiseks on vaja eriõiguseid."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "Süsteemi kella muutmiseks on vaja eriõiguseid."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr "Raudvaralise kella seadistamiseks on vaja eriõiguseid."
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "Kas ekraanilugeja on sisse lülitatud või mitte."
+
+#~ msgid "Don't activate"
+#~ msgstr "Ära lülita sisse"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Hiire-eelistused"
+
+#~ msgid "Typing Break"
+#~ msgstr "Tippimise vaheaeg"
+
+#~ msgid "Current network location"
+#~ msgstr "Praegune võrguasukoht"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Lisataustade URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "Lisateemade URL"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Määra siin oma praeguse asukoha nimi. Seda kasutatakse sobilike "
+#~ "proksisätete tuvastamiseks."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "Töölaua lisataustapiltide hankimise URL. Tühjaksjäetuna seda viita ei "
+#~ "kuvata."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "Töölaua lisateemade hankimise URL. Tühjaksjäetuna seda viita ei kuvata."
+
+#~ msgid "Image/label border"
+#~ msgstr "Pildi/sildi ääris"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Hoiatusdialoogi pildi või sildi ümber oleva äärise laius"
+
+#~ msgid "Alert Type"
+#~ msgstr "Hoiatuse liik"
+
+#~ msgid "The type of alert"
+#~ msgstr "Hoiatuse liik"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Hoiatusnupud"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Hoiatusdialoogis näidatavad nupud"
+
+#~ msgid "Show more _details"
+#~ msgstr "_Näita üksikasjalisemalt"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Aseta vasak pöial seadmele %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Tõmba vasak pöial üle seadme %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Aseta vasak nimetissõrm seadmele %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Tõmba vasak nimetissõrm üle seadme %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Aseta vasak keskmine sõrm seadmele %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Tõmba vasak keskmine sõrm üle seadme %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Aseta vasak nimetu sõrm seadmele %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Tõmba vasak nimetu sõrm üle seadme %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Aseta vasak väike sõrm seadmele %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Tõmba vasak väike sõrm üle seadme %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Aseta parem pöial seadmele %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Tõmba parem pöial üle seadme %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Aseta parem nimetissõrm seadmele %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Tõmba parem nimetissõrm üle seadme %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Aseta parem keskmine sõrm seadmele %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Tõmba parem keskmine sõrm üle seadme %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Aseta parem nimetu sõrm seadmele %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Tõmba parem nimetu sõrm üle seadme %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Aseta parem väike sõrm seadmele %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Tõmba parem väike sõrm üle seadme %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Aseta sõrm uuesti lugejale"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Tõmba sõrm uuesti üle lugeja"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Tõmme oli liiga lühike, proovi uuesti"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Su sõrm ei olnud keskel, proovi seda uuesti üle lugeja tõmmata"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Tõsta sõrm üles ja proovi seda uuesti üle lugeja tõmmata"
+
+#~ msgid "Select Image"
+#~ msgstr "Pildi valimine"
+
+#~ msgid "No Image"
+#~ msgstr "Pilt puudub"
+
+#~ msgid "Images"
+#~ msgstr "Pildid"
+
+#~ msgid "All Files"
+#~ msgstr "Kõik failid"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Aadressiraamatu andmete hankimise katsel tekkis viga. Evolution'i "
+#~ "andmeserver ei oska protokolli käsitleda"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Aadressiraamatut pole võimalik avada"
+
+#~ msgid "About %s"
+#~ msgstr "Kasutaja %s andmed"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "_Aadress:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "_Assistent:"
+
+#~ msgid "About Me"
+#~ msgstr "Minust"
+
+#~ msgid "Address"
+#~ msgstr "Aadress"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Linn:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Firma:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kal_ender:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "_Muuda parooli..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "L_inn:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Riik:"
+
+#~ msgid "Contact"
+#~ msgstr "Kontaktaadress"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "_Riik:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "_Sõrmejäljega sisselogimise keelamine..."
+
+#~ msgid "Email"
+#~ msgstr "E-post"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "_Sõrmejäljega sisselogimise lubamine..."
+
+#~ msgid "Full Name"
+#~ msgstr "Täisnimi"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Ko_dus:"
+
+#~ msgid "Home"
+#~ msgstr "Kodu"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Kiirsuhtlus"
+
+#~ msgid "Job"
+#~ msgstr "Töökoht"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "_Postkast:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P_ostkast:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Isiklikud andmed"
+
+#~ msgid "Select your photo"
+#~ msgstr "Oma foto valimine"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Osariik/Maa_kond:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefon"
+
+#~ msgid "User name:"
+#~ msgstr "Kasutajanimi:"
+
+#~ msgid "Web"
+#~ msgstr "Veeb"
+
+#~ msgid "Web _log:"
+#~ msgstr "_Veebipäevik:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Tööl:"
+
+#~ msgid "Work"
+#~ msgstr "Töö"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Faks tööl:"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "_Postiindeks:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Aadress:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Osakond:"
+
+#~ msgid "_GroupWise:"
+#~ msgstr "_GroupWise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Koduleht:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Kodus:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Juhataja:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Mobiil:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Amet:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Osariik/Maakond:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Ametinimetus:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Tööl:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_Postiindeks:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Isiklike andmete määramine"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Sul pole õigust sellele seadmele ligi pääseda. Ligipääsu jaoks võta palun "
+#~ "ühendust oma süsteemiülemaga."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Seade on juba kasutusel."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Tekkis sisemine viga"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Kas kustutada registreeritud sõrmejäljed?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Kustuta sõrmejäljed"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Kas sa tahad kustutada registreeritud sõrmejäljed, sellega keelatakse "
+#~ "sõrmejäljega sisselogimine?"
+
+#~ msgid "Done!"
+#~ msgstr "Valmis!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Seadmele '%s' pole võimalik ligi pääseda"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Ei suudetud alustada sõrmejälje salvestamist seadmel '%s'"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Ühelegi sõrmejäljelugejale pole võimalik ligi pääseda"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Abi saamiseks võta palun ühendust oma süsteemiülemaga."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Sõrmejäljega logimise lubamine"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Et sisse lülitada sõrmejäljega sisselogimist, pead sa salvestama '%s' "
+#~ "seadmega vähemalt ühe sõrmejälje."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Tõmba sõrm üle lugeja"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Aseta sõrm lugejale"
+
+#~ msgid "Left index finger"
+#~ msgstr "Vasak nimetissõrm"
+
+#~ msgid "Left little finger"
+#~ msgstr "Vasak väike sõrm"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Vasak keskmine sõrm"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Vasak nimetu sõrm"
+
+#~ msgid "Left thumb"
+#~ msgstr "Vasak pöial"
+
+#~ msgid "Other finger: "
+#~ msgstr "Muu sõrm: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Parem nimetissõrm"
+
+#~ msgid "Right little finger"
+#~ msgstr "Parem väike sõrm"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Parem keskmine sõrm"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Parem nimetu sõrm"
+
+#~ msgid "Right thumb"
+#~ msgstr "Parem pöial"
+
+#~ msgid "Select finger"
+#~ msgstr "Sõrme valimine"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Sinu sõrmejälg on edukalt salvestatud. Sul peaks olema nüüd võimalik "
+#~ "sõrmejäljelugeja abil sisse logida."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Lapsprotsess lõpetas ootamatult"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Backend_stdin S/V kanali tööd pole võimalik lõpetada: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Backend_stdout S/V kanali tööd pole võimalik lõpetada: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Autenditud!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Sinu parool on pärast algset autentimist muutunud! Palun autendi uuesti."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "See parool ei ole õige."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Sinu parool on muutunud."
+
+#~ msgid "System error: %s."
+#~ msgstr "Süsteemne viga: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Parool on liiga lühike."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Parool on liiga lihtne."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Vana ja uus parool on liiga sarnased."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Uus parool peab sisaldama numbreid või erimärke."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Vana ja uus parool on ühesugused."
+
+#~ msgid "The new password has already been used recently."
+#~ msgstr "Uus parool on hiljuti kasutusel olnud."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "%s pole võimalik käivitada: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Taustaprogrammi pole võimalik käivitada"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Tekkis süsteemne viga"
+
+#~ msgid "Checking password..."
+#~ msgstr "Parooli kontrollimine..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Parooli muutmiseks klõpsa <b>Muuda parooli</b>."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Palun sisesta oma parool väljale <b>Uus parool</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "Palun sisesta oma parool uuesti väljale <b>Uus parool uuesti</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Kaks parooli ei kattu."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Muuda _parooli"
+
+#~ msgid "Change password"
+#~ msgstr "Parooli muutmine"
+
+#~ msgid "Change your password"
+#~ msgstr "Sinu parooli muutmine"
+
+#~ msgid "Current _password:"
+#~ msgstr "P_raegune parool:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Parooli muutmiseks sisesta oma praegune parool allpool olevale väljale ja "
+#~ "klõpsa nuppu <b>Autendi</b>.\n"
+#~ "Pärast autentimist sisesta oma uus parool, kontrolliks sisesta oma uus "
+#~ "parool veel teinegi kord ja klõpsa <b>Muuda parooli</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Autendi"
+
+#~ msgid "_New password:"
+#~ msgstr "_Uus parool:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Uus pa_rool uuesti:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "_Hõlbustustega sisselogimine"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Abistav tehnika"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Abistava tehnika eelistused"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Abistavate tehnikate lubamine rakendub alles järgmisel sisselogimisel."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Sulge ja _logi välja"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Eelistatud rakenduste dialoogi avamine"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Abistava tehnika toega sisselogimise dialoogi avamine"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Klaviatuurihõlbustuste dialoogi avamine"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Hiirehõlbustuste dialoogi avamine"
+
+#~ msgid "Preferences"
+#~ msgstr "Eelistused"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Abistav tehnika on lubatud"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "_Klaviatuurihõlbustused"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "_Hiirehõlbustused"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "_Eelistatud rakendused"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr "Sisselogimisel kasutatavate hõlbustuste valimine"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Tapeedi lisamine"
+
+#~ msgid "All files"
+#~ msgstr "Kõik failid"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Kiri võib liiga suur olla"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Valitud kiri on %d punkti suurune, see võib raskendada arvuti efektiivset "
+#~ "kasutamist.  Soovitatav on kasutada väiksemat kirjasuurust kui %d."
+#~ msgstr[1] ""
+#~ "Valitud kiri on %d punkti suurune, see võib raskendada arvuti efektiivset "
+#~ "kasutamist.  Soovitatav on kasutada väiksemat kirjasuurust kui %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Valitud kiri on %d punkti suurune, see võib raskendada arvuti efektiivset "
+#~ "kasutamist.  Soovitatav on kasutada väiksemat kirjasuurust."
+#~ msgstr[1] ""
+#~ "Valitud kiri on %d punkti suurune, see võib raskendada arvuti efektiivset "
+#~ "kasutamist.  Soovitatav on kasutada väiksemat kirjasuurust."
+
+#~ msgid "Use previous font"
+#~ msgstr "Kasuta eelmist kirjatüüpi"
+
+#~ msgid "Use selected font"
+#~ msgstr "Kasuta valitud kirjatüüpi"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Kasutajaliidese faili pole võimalik laadida: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Paigaldatava teemafaili nime määramine"
+
+#~ msgid "filename"
+#~ msgstr "failinimi"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr "Määra näidatava lehe nimi (theme|background|fonts|interface)"
+
+#~ msgid "page"
+#~ msgstr "leht"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[TAPEET...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Vaikimisi kursor"
+
+#~ msgid "Install"
+#~ msgstr "Paigalda"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "See teema ei näe välja selline nagu peaks, kuna vajalik GTK+ teemamootor "
+#~ "'%s' pole paigaldatud."
+
+#~ msgid "Apply Background"
+#~ msgstr "Rakenda taust"
+
+#~ msgid "Apply Font"
+#~ msgstr "Rakenda kirjatüüp"
+
+#~ msgid "Revert Font"
+#~ msgstr "Taasta kirjatüüp"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Käesolev teema vihjab taustale ja kirjatüübile. Viimati rakendatud "
+#~ "kirjatüübivihjeid on võimalik tagasi võtta."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Käesolev teema vihjab taustale. Veel: viimati rakendatud "
+#~ "kirjatüübivihjeid on võimalik tagasi võtta."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Käesolev teema vihjab taustale ja kirjatüübile."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Valitud teema soovitab ka fonti. Viimati rakendatud fondisoovituse saab "
+#~ "tagasi pöörata."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Käesolev teema vihjab taustale."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Viimati rakendatud fondisoovituse saab tagasi pöörata."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Käesolev teema vihjab kirjatüübile."
+
+#~ msgid "Custom"
+#~ msgstr "Kohandatud"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Välimuse eelistused"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Parim k_ujund"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Parim k_ontrast"
+
+#~ msgid "C_olors:"
+#~ msgstr "_Värvused:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "_Kohanda..."
+
+#~ msgid "Center"
+#~ msgstr "Keskel"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "Kursoriteema muudatused rakenduvad järgmisel sisselogimisel."
+
+#~ msgid "Colors"
+#~ msgstr "Värvused"
+
+#~ msgid "Controls"
+#~ msgstr "Vidinad"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Teema kohandamine"
+
+#~ msgid "D_etails..."
+#~ msgstr "Üksikas_jad..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "_Töölaua kirjatüüp:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Kirjatüübi renderdamise üksikasjad"
+
+#~ msgid "Fonts"
+#~ msgstr "Kirjatüübid"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Tõmba veel taustapilte"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Tõmba veel teemasid"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "_Halltoon"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Rõhtne üleminek"
+
+#~ msgid "Icons"
+#~ msgstr "Ikoonid"
+
+#~ msgid "Icons only"
+#~ msgstr "Ainult ikoonid"
+
+#~ msgid "Large"
+#~ msgstr "Suur"
+
+#~ msgid "N_one"
+#~ msgstr "P_uudub"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Dialoogi avamine värvi määramiseks"
+
+#~ msgid "Pointer"
+#~ msgstr "Kursor"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Eraldusvõime:"
+
+#~ msgid "Rendering"
+#~ msgstr "Renderdamine"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Teema salvestamine kui..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Salvesta _kui..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Salvesta _taustapilt"
+
+#~ msgid "Scale"
+#~ msgstr "Kogu pilt nähtaval"
+
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgid "Smoothing"
+#~ msgstr "Pehmendamine"
+
+#~ msgid "Solid color"
+#~ msgstr "Ühtlane värvus"
+
+#~ msgid "Span"
+#~ msgstr "Üle mitme ekraani"
+
+#~ msgid "Stretch"
+#~ msgstr "Venitatud"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Alam_piksel (LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Alam_piksli silumine (LCD)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Alampiksli järjekord"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Text below items"
+#~ msgstr "Tekst kirjete all"
+
+#~ msgid "Text beside items"
+#~ msgstr "Tekst kirjete kõrval"
+
+#~ msgid "Text only"
+#~ msgstr "Ainult tekst"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Praegune juhtteema ei toeta värviskeeme."
+
+#~ msgid "Theme"
+#~ msgstr "Teema"
+
+#~ msgid "Tile"
+#~ msgstr "Korduv"
+
+# see ei lähe tõlkides sugugi arusaadavamaks
+#~ msgid "VB_GR"
+#~ msgstr "VS_RP"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Püstine üleminek"
+
+#~ msgid "Window Border"
+#~ msgstr "Akna ääris"
+
+#~ msgid "Zoom"
+#~ msgstr "Ekraan täidetud"
+
+#~ msgid "_Add..."
+#~ msgstr "Li_sa..."
+
+#~ msgid "_Application font:"
+#~ msgstr "_Rakenduste kirjatüüp:"
+
+#~ msgid "_BGR"
+#~ msgstr "_SRP"
+
+#~ msgid "_Description:"
+#~ msgstr "_Kirjeldus:"
+
+#~ msgid "_Document font:"
+#~ msgstr "_Dokumendi kirjatüüp:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Ki_ndla laiusega kirjatüüp:"
+
+#~ msgid "_Full"
+#~ msgstr "_Täielik"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "S_isestuskastid:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Paigalda..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Keskmine"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monokroom"
+
+#~ msgid "_Name:"
+#~ msgstr "_Nimi:"
+
+#~ msgid "_None"
+#~ msgstr "Puu_dub"
+
+#~ msgid "_RGB"
+#~ msgstr "_PRS"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "Taasta _vaikeväärtused"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Valitud kirjed:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Suurus:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Veidi"
+
+# Taustapildi paigutuse valikukasti ees (ekraan täidetud, korduv, keskel jt)
+#~ msgid "_Style:"
+#~ msgstr "_Paigutus:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Vihjed:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VPRS"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Akna p_ealkirja kirjatüüp:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Aknad:"
+
+#~ msgid "dots per inch"
+#~ msgstr "punkti tollile"
+
+#~ msgid "Appearance"
+#~ msgstr "Välimus"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Töölaua välimuse kohandamine"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Töölaua välimuse muutmise teemapakkide paigaldamine"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Teemapaigaldaja"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome Teemapakk"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Töölaual puudub taust"
+
+#~ msgid "Slide Show"
+#~ msgstr "Slaidiesitus"
+
+#~ msgid "Image"
+#~ msgstr "Pilt"
+
+#~ msgid "multiple sizes"
+#~ msgstr "mitmes suuruses"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s × %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "piksel"
+#~ msgstr[1] "pikslit"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Kataloog: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Kataloog: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Pilt on puudu"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Teemat pole võimalik paigaldada"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Utiliit %s pole paigaldatud."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Teema lahtipakkimisel tekkis probleem."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Valitud faili paigaldamisel tekkis viga"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "\"%s\" ei paista olevat korrektne teema."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "\"%s\" ei paista olevat korrektne teema. Võib-olla on see teemamootor, "
+#~ "mis tuleb kompileerida."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Tõrge teema \"%s\" paigaldamisel."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Teema \"%s\" on paigaldatud."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Kas soovid selle kohe rakendada või hoida praeguse teema alles?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Säilita praegune teema"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Rakenda uus teema"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME teema %s on korralikult paigaldatud"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Tõrge ajutise kataloogi loomisel"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Uued teemad on edukalt paigaldatud."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Paigaldamisel pole teemafaili asukohta määratud"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Pole piisavalt õiguseid teema paigaldamiseks asukohta:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Teema valimine"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Teemapaketid"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Teemale peab olema määratud nimi"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Teema on juba olemas. Kas soovid selle asendada?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Kirjuta üle"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Kas soovid selle teema eemaldada?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Teemat pole võimalik kustutada"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Teemamootorit pole võimalik paigaldada"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Sätete haldurit 'gnome-settings-daemon' pole võimalik käivitada.\n"
+#~ "Kui GNOME sätete haldur ei tööta, siis võivad mõned eelistused mitte "
+#~ "jõustuda. See võib olla DBus-ist põhjustatud probleem või olukord, kus "
+#~ "mõni mitte-GNOME (näiteks KDE oma) sätete haldur on juba aktiivne ning on "
+#~ "vastuolus GNOME sätete halduriga."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Ikooni '%s' pole võimalik laadida\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Faili kopeerimine: %u/%u-st"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' kopeerimine"
+
+#~ msgid "Copying files"
+#~ msgstr "Failide kopeerimine"
+
+#~ msgid "Parent Window"
+#~ msgstr "Emaaken"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Dialoogi emaaken"
+
+#~ msgid "From URI"
+#~ msgstr "URI-lt"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "Käimasoleva ülekande lähtekoha URI"
+
+#~ msgid "To URI"
+#~ msgstr "URI-le"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "Käimasoleva ülekande sihtkoha URI"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Alamhulk on kohal"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Ülekande alamhulk on kohale toimetatud"
+
+#~ msgid "Current URI index"
+#~ msgstr "Käesolev URI indeks"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Käesolev URI indeks alates esimesest"
+
+#~ msgid "Total URIs"
+#~ msgstr "Kokku URIsid"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "URI-de koguarv"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Fail '%s' on juba olemas. Kas soovid selle üle kirjutada?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Jäta vahele"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "_Kirjuta kõik üle"
+
+#~ msgid "Key"
+#~ msgstr "Võti"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "GConf'i võti, mille külge see omadusteredaktor on ühendatud"
+
+#~ msgid "Callback"
+#~ msgstr "Väljakutse"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Võtmega seotud väärtuse muutumisel tehtav väljakutse"
+
+#~ msgid "Change set"
+#~ msgstr "Muudatuste kogum"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf'i klientprogrammile rakendamiseks edastatav GConf'i muudatuste kogum"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Vidinale andmete teisendamise väljakutse"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "GConfist pärit andmete vidina jaoks teisendamisel tehtav väljakutse."
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Vidinalt pärit andmete teisendamise väljakutse"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Vidinalt pärit andmete GConfi jaoks teisendamisel tehtav väljakutse."
+
+#~ msgid "UI Control"
+#~ msgstr "Kasutajaliidese juhtimine"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Omadust juhtiv objekt (tavaliselt on selleks vidin)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Omadusteredaktori objekti andmed"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Kohandatud andmed eriomaste omaduste redaktori jaoks"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Omaduste redaktori andmete vabastamise väljakutse"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr "Omaduste redaktori objektiandmete vabastamise väljakutse"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Faili '%s' pole võimalik leida.\n"
+#~ "\n"
+#~ "Palun kontrolli, kas fail on olemas ja proovi uuesti või vali teine "
+#~ "taustapilt."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Ei oska avada faili '%s'.\n"
+#~ "Võib-olla on see selline pildivorming, mis pole veel toetatud.\n"
+#~ "\n"
+#~ "Palun vali mõni teine pilt."
+
+#~ msgid "Please select an image."
+#~ msgstr "Palun vali pilt."
+
+#~ msgid "_Select"
+#~ msgstr "_Vali"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Vaikimisi kursor - käesolev"
+
+#~ msgid "White Pointer"
+#~ msgstr "Valge kursor"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Valge kursor - käesolev"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Suur kursor"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Suur kursor - käesolev"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Suur valge kursor - käesolev"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Suur valge kursor"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "See teema ei näe välja selline nagu peaks, kuna vajalik GTK+ teema '%s' "
+#~ "pole paigaldatud."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "See teema ei näe välja selline nagu peaks, kuna vajalik aknahalduri teema "
+#~ "'%s' pole paigaldatud."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "See teema ei näe välja selline nagu peaks, kuna vajalik ikooniteema '%s' "
+#~ "pole paigaldatud."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Eelistatud rakendused"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Vaikimisi kasutatavate rakenduste valimine"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Eelistatava visuaalse abistava tehnika käivitamine"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Visuaalne abistav tehnika"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Viga sätete salvestamisel: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Peamist liidest pole võimalik laadida"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Veendu, et rakend on õigesti paigaldatud"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr "Määra näidatava lehe nimi (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- GNOME vaikimisi rakendused"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Kõik %s stringid asendatakse tegeliku viidaga"
+
+#~ msgid "C_ommand:"
+#~ msgstr "Kä_sk:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "_Käsk:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Käivitamis_lipp:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Pildinäitaja"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Kiirsuhtlus"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Postilugeja"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobiilsus"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimeedia"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Multimeediaesitaja"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Viidad avatakse uuel _kaardil"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Viidad avatakse uues ak_nas"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Avatakse vastavalt sirvija _vaikesätetele"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Käivitatakse sisse_logimisel"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Käivitatakse _terminalis"
+
+#~ msgid "System"
+#~ msgstr "Süsteem"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Terminaliemulaator"
+
+#~ msgid "Text Editor"
+#~ msgstr "Tekstiredaktor"
+
+#~ msgid "Video Player"
+#~ msgstr "Videoesitaja"
+
+#~ msgid "Visual"
+#~ msgstr "Visuaalne"
+
+#~ msgid "Web Browser"
+#~ msgstr "Veebisirvija"
+
+#~ msgid "_Run at start"
+#~ msgstr "Käivitatakse _sisselogimisel"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee muusikaesitaja"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian'i mõistlik sirvija"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian'i terminaliemulaator"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany veebisirvija"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Postilugeja Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "GNOME luup ilma ekraanilugejata"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME ekraaniklaviatuur"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME terminal"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus koos luubiga"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape e-post"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE luup ilma ekraanilugejata"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linuxi ekraanilugeja"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linuxi ekraanilugeja koos luubiga"
+
+# Praegu jääb tõlkimata. Kui rakendus juhuslikult tõlgitakse, siis tuleb
+# sellele reageerida.
+# Jälgi aadressi https://translations.launchpad.net/listen
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine muusikaesitaja"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca koos luubiga"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox muusikaesitaja"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey e-post"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Tavaline XTerminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem filmiesitaja"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "_Paneeli kaasamine"
+
+#~ msgid "Make Default"
+#~ msgstr "Määra vaikimisi sätteks"
+
+#~ msgid "Monitor"
+#~ msgstr "Kuvar"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Kuvari eelistused"
+
+#~ msgid "Off"
+#~ msgstr "Välja lülitatud"
+
+#~ msgid "On"
+#~ msgstr "Sisse lülitatud"
+
+#~ msgid "Panel icon"
+#~ msgstr "Paneeliikoon"
+
+#~ msgid "R_otation:"
+#~ msgstr "_Pööramine:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "_Värskendussagedus:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "Sama pilt kõi_gil kuvaritel"
+
+#~ msgid "Upside-down"
+#~ msgstr "Tagurpidi"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Tuvasta kuvarid"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Eraldusvõime"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Kuvareid näidatakse paneelil"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Kuvarite eraldusvõime ja asukoha muutmine"
+
+#~ msgid "Monitors"
+#~ msgstr "Kuvarid"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Kasutamine: %s LÄHTEFAIL SIHTNIMI\n"
+#~ "\n"
+#~ "See programm paigaldab mitme kuvari sätete jaoks vajaliku RANDR-profiili\n"
+#~ "süsteemsesse asukohta. Seda profiili kasutatakse olukorras, kus GNOME\n"
+#~ "sätetedeemon (gnome-settings-daemon) käivitab RANDR-plugina.\n"
+#~ "\n"
+#~ "LÄHTEFAIL - täielik rada, harilikult /home/kasutajanimi/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "SIHTNIMI - paigaldatud faili suhteline nimi. See fail pannakse\n"
+#~ "           RANDR-seadistuste ülesüsteemilisse kataloogi, harilikult\n"
+#~ "           on selleks %s/SIHTNIMI\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Seda programmi tohib kasutada ainult juurkasutaja"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Lähtefaili nimi peab olema täieliku rajaga"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Faili %s pole võimalik avada: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Faili %s kohta pole võimalik andmeid hankida:%s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s peab olema tavaline fail\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "See programm peab olema käivitatud pkexec(1) kaudu"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID väärtus peab olema täisarv"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "Fail %s peab kuuluma sulle\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s ei tohi sisaldada viiteid kataloogidele\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s peab olema kataloog\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Faili %s/%s pole võimalik avada: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "Nime muutmine %s -> %s pole võimalik: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Kõigile kasutajatele mitme kuvari sätete paigaldamiseks on vajalik ennast "
+#~ "autentida"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Mitme kuvari sätete paigaldamine kogu süsteemile"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Ekraanid on peegeldatud"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Kuvar: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Omaduste muutmiseks vali kuvar. Asukoha muutmiseks lohista see uuele "
+#~ "asukohale."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Kuvari sätteid pole võimalik salvestada"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "Kuvaseadistuse rakendamisel ei saadud seansisiiniga ühendust"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Kuvasid pole võimalik tuvastada"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Kuvari sätted salvestati"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr "Seda seadistust kasutatakse järgmisel sisselogimisel."
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Kuvaritele pole võimalik vaikesätteid määrata"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Ekraani andmeid pole võimalik hankida"
+
+#~ msgid "Desktop"
+#~ msgstr "Töölaud"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Uus kiirklahv..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Kiirklahv"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Kiirklahvide muuteklahvid"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Kiirklahvi kood"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Kiirklahvi liik"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Kiirklahvi liik."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<tundmatu tegevus>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Kohandatud kiirklahvid"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Viga uue kiirklahvi salvestamisel"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Kiirklahvi \"%s\" pole võimalik kasutada, kuna see teeb selle klahvi "
+#~ "kasutamise tavaolukorras võimatuks.\n"
+#~ "Palun proovi klahvi kombineerida klahvidega Control, Alt või Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Kiirklahvi \"%s\" juba kasutatakse järgneva tegevuse jaoks:\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Kui sa määrad selle kiirklahvi tegevusele \"%s\", siis tegevuse \"%s\" "
+#~ "kiirklahv keelatakse."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Määra"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "Viga kiirklahvi eemaldamisel sätete andmebaasist: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Liiga palju kohandatud kiirklahve"
+
+#~ msgid "Action"
+#~ msgstr "Tegevus"
+
+#~ msgid "Shortcut"
+#~ msgstr "Kiirklahv"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Kohandatud kiirklahv"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Kiirklahvid"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Kiirklahvi muutmiseks klõpsa vastaval real ja sisesta uus kiirklahv. "
+#~ "Nullimiseks vajuta Backspace klahvi."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Käskudele kiirklahvide seadmine"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Sätete rakendamine ja programmi töö lõpetamine (ühilduvuse eesmärkidel, "
+#~ "seda hallatakse nüüd deemoni poolt)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Lehekülje alguses näidatakse tippimisvaheaegade sätteid"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Lehekülje alguses näidatakse hõlbustuste sätteid"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- GNOME klaviatuurieelistused"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "_Hõlbustusvalikute sisse- ja väljalülitamisel tehakse piiksu"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Muuteklahvi vajutamisel tehakse _piiksu"
+
+# Äkki vahetusklahvi?
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Lülitiklahvi vajutamisel tehakse _piiksu"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Klahvi vajutamisel tehakse _piiksu"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Klahvi _hülgamisel tehakse piiksu"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Klahvi _aktsepteerimisel tehakse piiksu"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Klahvi _hülgamisel tehakse piiksu"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Põrkeklahvid"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Akna _tiitliriba vilgutamine"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Kogu _ekraani vilgutamine"
+
+#~ msgid "General"
+#~ msgstr "Üldine"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Klaviatuurihõlbustuste heliline tagasiside"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Hoiatusheliga näidatakse koos ka _visuaalset tagasisidet"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Aeglased klahvid"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Kleepuvad klahvid"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Koos hoiatushelidega visuaalhoiatused"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "_Puhkepause on lubatud edasi lükata"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Heliline _tagasiside..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Kursori vilkumine"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Kursor _vilgub tekstiväljadel"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Kursori vilkumiskiirus"
+
+#~ msgid "D_elay:"
+#~ msgstr "V_iivitus:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "_Kahe klahvi koosvajutamisel keelatakse kleepuvad klahvid"
+
+#~ msgid "Fast"
+#~ msgstr "Kiire"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Klahvivajutus k_ordub, kui klahvi hoitakse all"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Klaviatuurieelistused"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Klaviatuuri _mudel:"
+
+#~ msgid "Layouts"
+#~ msgstr "Paigutused"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Kasutuseks valitud klaviatuuripaigutuste loend"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Ekraani lukustamine kindlate ajavahemike järel hoiab ära liigsest "
+#~ "arvutikasutamisest tulenevaid tervisekahjustusi"
+
+#~ msgid "Long"
+#~ msgstr "Pikk"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Hiire klahvid"
+
+#~ msgid "Move _Down"
+#~ msgstr "Liiguta _alla"
+
+#~ msgid "Move _Up"
+#~ msgstr "Liiguta ü_les"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Valitud klaviatuuripaigutuse liigutamine loendis allapoole"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Valitud klaviatuuripaigutuse liigutamine loendis ülespoole"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "_Uued aknad kasutavad aktiivse akna paigutust"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Valitud klaviatuuripaigutusest pildi printimine"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Valitud klaviatuuripaigutuse eemaldamine loendist"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Klahvide kordamine"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Klahvide kordamise kiirus"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Asenda praegused klaviatuurisätted\n"
+#~ "vaikesätetega"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Taasta _vaikeväärtused"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Kiirus:"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Klaviatuuripaigutuse valimine loendisse lisamiseks"
+
+#~ msgid "Short"
+#~ msgstr "Lühike"
+
+#~ msgid "Slow"
+#~ msgstr "Aeglane"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Klaviatuuripaigutuse valikute kuvamine ja muutmine"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "K_iirendus:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "_Hõlbustusi on võimalik klaviatuuri abil sisse ja välja lülitada"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Viivitus:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "Kiireid klahvide korduvvajutusi _eiratakse"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Aktsepteeritakse ainult klahvide pikki allhoidmisi"
+
+#~ msgid "_Options..."
+#~ msgstr "_Valikud..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "_Kursorit on võimalik juhtida klaviatuuri abil"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Eraldi _paigutus iga akna jaoks"
+
+#~ msgid "_Show..."
+#~ msgstr "_Näita..."
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Mitme klahvi allhoidmisi simuleeritakse"
+
+#~ msgid "_Speed:"
+#~ msgstr "Kii_rus:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "T_esti sätteid siin:"
+
+#~ msgid "By _country"
+#~ msgstr "_Riigi järgi"
+
+#~ msgid "By _language"
+#~ msgstr "_Keele järgi"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Paigutuse valimine"
+
+#~ msgid "Preview:"
+#~ msgstr "Eelvaade:"
+
+#~ msgid "_Country:"
+#~ msgstr "_Riik:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Keel:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Variandid:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Klaviatuuri mudeli valimine"
+
+#~ msgid "_Models:"
+#~ msgstr "_Mudelid:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Tarnijad:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Klaviatuuripaigutuse valikud"
+
+#~ msgid "Layout"
+#~ msgstr "Paigutus"
+
+#~ msgid "Vendors"
+#~ msgstr "Tarnijad"
+
+#~ msgid "Models"
+#~ msgstr "Mudelid"
+
+#~ msgid "Default"
+#~ msgstr "Vaikimisi"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Klaviatuurieelistuste seadmine"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Liigutamine vasakule"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Liigutamine paremale"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Liigutamine üles"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Liigutamine alla"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Keelatud"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Määra näidatava lehe nimi (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- GNOME hiire-eelistused"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Klõpsu liiki on või_malik valida"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Klõpsu liik valitakse _hiirežestiga"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "T_opeltklõps:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Lohist_amine:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "_Tippimise ajal on puutepadi keelatud"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Topeltklõpsu ajapiirang"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Lohistamine ja lahtilaskmine"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Ooteajaga klõps"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Puutepadjalt tulevad _hiireklõpsud on lubatud"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "_Rõhtkerimine lubatud"
+
+#~ msgid "High"
+#~ msgstr "Kõrge"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Kursori asukoht"
+
+#~ msgid "Low"
+#~ msgstr "Madal"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Vasaku- või paremakäeliste hiir"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Kursori kiirus"
+
+#~ msgid "Scrolling"
+#~ msgstr "Kerimine"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "_Paremklõps:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "_Control klahvi vajutamisel näidatakse kursori asukohta"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Klõpsu liik valitakse _akna abil"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Simuleeritud paremklõps"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Lävi:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Topeltklõpsu sätete testimiseks proovi teha elektripirni pildil "
+#~ "topeltklõps."
+
+#~ msgid "Touchpad"
+#~ msgstr "Puutepadi"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "_Kahe sõrmega kerimine"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Klõpsamise liigi valimiseks on võimalik kasutada ka ooteaja klõpsu "
+#~ "paneelirakendit."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Välja lülitatud"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Servas kerimine"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Kursori peatumisel tehakse hiireklõps"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Vasakukäelise hiir"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "_Liikumise lävi:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Paremakäelise hiir"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Tundlikkus:"
+
+#~ msgid "_Single click:"
+#~ msgstr "Ük_sikklõps:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "A_japiirang:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_Vasaku nupu allhoidmisel tehakse paremklõps"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Hiire-eelistuste seadmine"
+
+#~ msgid "New Location..."
+#~ msgstr "Uus asukoht..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Asukoht on juba olemas"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Võrgu proksi"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Võrguproksi eelistuste seadmine"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Otseühendus Internetiga</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>A_utomaatne proksi seadistamine</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Käsitsi seadistatav proksi</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>Autentimise kas_utamine</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Automaatse seadistuse U_RL:"
+
+#~ msgid "C_reate"
+#~ msgstr "_Loo"
+
+#~ msgid "Create New Location"
+#~ msgstr "Uue asukoha loomine"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP proksi üksikasjad"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "_HTTP proksi:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Eiratavate hostide nimekiri"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Eiratavad hostid"
+
+#~ msgid "Location:"
+#~ msgstr "Asukoht:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Võrguproksi eelistused"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Proksi sätted"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks host:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Asukoht on juba olemas."
+
+#~ msgid "U_sername:"
+#~ msgstr "Kasutaja_nimi:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Kustuta asukoht"
+
+#~ msgid "_Details"
+#~ msgstr "_Üksikasjad"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP proksi:"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Asukoha nimi:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Parool:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Tu_rvalise HTTP proksi:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Kõikide _protokollide jaoks kasutatakse sama proksit"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "Sinu aknahaldurile pole võimalik eelistuste rakendust käivitada"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "_Hüper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (ehk \"Windowsi logo\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Liigutamise klahv"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Tiitliriba toimingud"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr "Akna liigutamiseks hoia seda klahvi all ning seejärel haara aknast:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Akende eelistused"
+
+#~ msgid "Window Selection"
+#~ msgstr "Akna valimine"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Topeltklõps tiitliribal: "
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Viivitus enne esiletõstmist:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "Valitud aken tõstetakse pärast viivitust _esile"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Akende aktiveerimine, kui hiirekursor üle nende liigub"
+
+#~ msgid "seconds"
+#~ msgstr "sekundit"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Akende omaduste seadmine"
+
+#~ msgid "Windows"
+#~ msgstr "Aknad"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "Aknahalduril \"%s\" ei ole registreeritud seadistamisvahendit\n"
+
+#~ msgid "Maximize"
+#~ msgstr "maksimeerib"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "maksimeerib rõhtsalt"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "maksimeerib püstiselt"
+
+#~ msgid "Minimize"
+#~ msgstr "minimeerib"
+
+#~ msgid "Roll up"
+#~ msgstr "kerib kokku"
+
+#~ msgid "None"
+#~ msgstr "ei tee midagi"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "klahvi ei leitud [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Peidetakse käivitamisel (kasulik kestprogrammi eellaadimiseks)"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Groups"
+#~ msgstr "Grupid"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Sagedasti kasutatavad"
+
+#~ msgid "Control Center"
+#~ msgstr "Juhtimiskeskus"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Ülesande aktiveerimise korral juhtimiskeskuse sulgemine"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Kestprogrammist väljumine lisamise või eemaldamise korral"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Kestprogrammist väljumine abiteabe käivitamise korral"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Kestprogrammist väljumine käivitamistoimingu korral"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "Kestprogrammist väljumine uuendamise või paigaldatud komponendi "
+#~ "eemaldamise korral"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr ""
+#~ "Määrab, kas pärast abitegevuse lõppemist kestprogramm sulgetakse või "
+#~ "mitte."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr ""
+#~ "Määrab, kas pärast abitegevuse käivitamist kestprogramm sulgetakse või "
+#~ "mitte."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Määrab, kas pärast lisamist või eemaldamist kestprogramm sulgetakse või "
+#~ "mitte."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Määrab, kas pärast uuendamist või paigalduse eemaldamist kestprogramm "
+#~ "sulgetakse või mitte."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Ülesannete nimed ja nendega seotud .desktop failid"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Juhtimiskeskuses kuvatav ülesande nimi, millele järgneb eraldaja \";\" ja "
+#~ "sellele ülesande käivitamiseks vajalik .desktop fail."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Teema muutmine;gtk-theme-selector.desktop,Eelistatud rakenduste "
+#~ "määramine;default-applications.desktop,Printeri lisamine;gnome-cups-"
+#~ "manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "Kui määratud, siis juhtimiskeskus suletakse \"Sagedasti kasutatava\" "
+#~ "ülesande aktiveerimisel."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME seadistusprogramm"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "Kui märgitud, siis tehakse OpenType kirjatüüpidest pisipildid."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Kui märgitud, siis tehakse PCF kirjatüüpidest pisipildid."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "Kui märgitud, siis tehakse TrueType kirjatüüpidest pisipildid."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Kui märgitud, siis tehakse Type1 kirjatüüpidest pisipildid."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr "Käsk, millega tehakse OpenType kirjatüüpidest pisipilte."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr "Käsk, millega tehakse PCF kirjatüüpidest pisipilte."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr "Käsk, millega tehakse TrueType kirjatüüpidest pisipilte."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr "Käsk, millega tehakse Type1 kirjatüüpidest pisipilte."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "OpenType kirjatüüpidest pisipiltide tegemise käsk"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "PCF kirjatüüpidest pisipiltide tegemise käsk"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "TrueType kirjatüüpidest pisipiltide tegemise käsk"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Type1 kirjatüüpidest pisipiltide tegemise käsk"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Kas OpenType kirjatüüpidest tuleb pisipilte teha"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Kas PCF kirjatüüpidest tuleb pisipilte teha"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Kas TrueType kirjatüüpidest tuleb pisipilte teha"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Kas Type1 kirjatüüpidest tuleb pisipilte teha"
+
+#~ msgid "Name:"
+#~ msgstr "Nimi:"
+
+# see käib fontide kohta
+#~ msgid "Style:"
+#~ msgstr "Laad:"
+
+#~ msgid "Type:"
+#~ msgstr "Liik:"
+
+#~ msgid "Size:"
+#~ msgstr "Suurus:"
+
+#~ msgid "Version:"
+#~ msgstr "Versioon:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Autoriõigus:"
+
+#~ msgid "Description:"
+#~ msgstr "Kirjeldus:"
+
+#~ msgid "Installed"
+#~ msgstr "Paigaldatud"
+
+#~ msgid "Install Failed"
+#~ msgstr "Paigaldamine nurjus"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "kasutamine: %s kirjatüübifail\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "_Paigalda kirjatüüp"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Kirjatüüpide näitaja"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Kirjatüüpide eelvaatlemine"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Pisipildiks tehtav tekst (vaikimisi: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKST"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Kirja suurus (vaikimisi: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "SUURUS"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "KIRJATÜÜBIFAIL VÄLJUNDFAIL"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Viga argumentide analüüsimisel: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Sinu filtrile \"%s\" ei vasta ükski kirje."
+
+#~ msgid "No matches found."
+#~ msgstr "Vastavusi ei leitud."
+
+#~ msgid "Other"
+#~ msgstr "Muu"
+
+#~ msgid "Start %s"
+#~ msgstr "Käivita %s"
+
+#~ msgid "Help"
+#~ msgstr "Abi"
+
+#~ msgid "Upgrade"
+#~ msgstr "Uuenda"
+
+#~ msgid "Uninstall"
+#~ msgstr "Eemalda"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Eemalda lemmikute hulgast"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Lisa lemmikute hulka"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Eemalda isekäivituvate rakenduste hulgast"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Lisa rakendus isekäivitumiseks"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Uus arvutustabel"
+
+#~ msgid "New Document"
+#~ msgstr "Uus dokument"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumendid"
+
+#~ msgid "File System"
+#~ msgstr "Failisüsteem"
+
+#~ msgid "Network Servers"
+#~ msgstr "Võrguserverid"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Ava</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Muuda nime..."
+
+#~ msgid "Send To..."
+#~ msgstr "Saada kuhu..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Viska prügikasti"
+
+#~ msgid "Delete"
+#~ msgstr "Kustuta"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Kas soovid \"%s\" jäädavalt kustutada?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Kui sa selle kustutad, läheb see jäädavalt kaotsi."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Ava rakendusega \"%s\""
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Ava vaikimisi rakendusega"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Ava failihalduris"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Täna %H:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Eile %H:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %H:%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d. %b %H:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d. %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Otsi kohe"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Ava %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Eemalda süsteemikirjetest"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "Hiire-eelistused"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Ära lülita sisse"
+
+#, fuzzy
+#~ msgid "Keyboard Layout"
+#~ msgstr "Klaviatuur"
+
+#, fuzzy
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Käsku pole võimalik käivitada: %s\n"
+#~ "Veendu, et selline käsk on olemas."
+
+#, fuzzy
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Klahviseos kodukataloogi avamiseks."
+
+#, fuzzy
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Ekraanilugeja sisse-/väljalülitamise käsk."
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Ekraanilugeja"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Smartcard plugina lubamine"
+
+#, fuzzy
+#~ msgid "Toggle screenreader"
+#~ msgstr "Ekraanilugeja sisse/välja"
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "Ekraanilugeja"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "Xrdb plugina lubamine"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "Kirjatüübi plugin"
+
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr "Lõikelauaplugina lubamine"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "Kui märgitud, siis on pluginal lubatud klahviatuurihõlbustuste sätteid "
+#~ "hallata."
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Klahviseos (%s) on poolik"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Klahviseos (%s) on poolik"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Klahviseos (%s) on vigane"
+
+#, fuzzy
+#~ msgid "Volume"
+#~ msgstr "Heli valjemaks"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Kuvaeelistused"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "Kuvarite asukoha määramiseks lohista need sobivale kohale"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "Ekraanid on pee_geldatud"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Ekraani eraldusvõime muutmine"
+
+#~ msgid "Display"
+#~ msgstr "Kuva"

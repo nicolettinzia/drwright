@@ -1,0 +1,5975 @@
+# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# Serbian translation of gnome-control-center
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003 - 2009.
+#
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Maintainer: Veljko M. Stanojević <veljko@vms.homelinux.net>
+# Reviewed on 2005-03-03 by: Danilo Šegan <danilo@gnome.org>
+# Translated on 2006-03-11 by: Slobodan D. Sredojević <slobo@akrep.be>
+# Miloš Popović <gpopac@gmail.com>, 2010.
+#
+# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# Serbian translation of gnome-control-center
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003 - 2009.
+#
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Maintainer: Veljko M. Stanojević <veljko@vms.homelinux.net>
+# Reviewed on 2005-03-03 by: Danilo Šegan <danilo@gnome.org>
+# Translated on 2006-03-11 by: Slobodan D. Sredojević <slobo@akrep.be>
+# Miloš Popović <gpopac@gmail.com>, 2010.
+#
+# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# Serbian translation of gnome-control-center
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
+#
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Maintainer: Veljko M. Stanojević <veljko@vms.homelinux.net>
+# Reviewed on 2005-03-03 by: Danilo Šegan <danilo@gnome.org>
+# Translated on 2006-03-11 by: Slobodan D. Sredojević <slobo@akrep.be>
+# Miloš Popović <gpopac@gmail.com>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-08-23 00:51+0200\n"
+"Last-Translator: Miloš Popović <gpopac@gmail.com>\n"
+"Language-Team: Serbian <gnom@prevod.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "Uključi kod za traženje grešaka"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "Ne proveravaj da li postoji obaveštajna zona"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Praćenje kucanja"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Praćenje kucanja koristi obaveštajnu zonu panela za prikaz podataka. Čini se "
+"da vi nemate obaveštajnu zonu na panelu. Možete je dodati desnim-klikom na "
+"panel i izborom „Dodaj na panel > Obaveštajna zona“ i klikom na „Dodaj“."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "_Uzmi odmor"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minut do sledećeg odmora"
+msgstr[1] "%d minuta do sledećeg odmora"
+msgstr[2] "%d minuta do sledećeg odmora"
+msgstr[3] "Jedan minut do sledećeg odmora"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Manje od jednog minuta do sledećeg odmora"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Ne može da prikaže prozorče za podešavanje odmora od kucanja usled sledeće "
+"greške: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Napisao Ričard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Ulepšao Anders Karlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Podsetnik za uzimanje odmora."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Veljko M. Stanojević <veljko@vms.homelinux.net>\n"
+"Goran Rakić <grakic@devbase.net>\n"
+"Danilo Šegan <danilo@gnome.org>\n"
+"\n"
+"Prevod.org — prevod na srpski jezik."
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "Od_loži odmor"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Uzmi odmor!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Određuje da li je uključen čitač ekrana."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Određuje da li je uključen čitač ekrana."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Odmor od kucanja"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "_Odmor traje:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "_Zaključaj ekran kako bi primorao na odmor pri kucanju"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "Period _rada traje:"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Uzmite pauzu (sledeća je za %d minuta)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Uzmite pauzu (sledeća je za menje od jednog minuta)"
+
+# bug(danilo): plural-forms
+#~ msgid "minutes"
+#~ msgstr "minuta"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "<b>Arbeit</b>\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "<b>Posao</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Uključi ako je dozvoljeno odlaganje odmora"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Trajanje odmora kada je kucanje onemogućeno"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Trajanje rada pre nametanja odmora"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#, fuzzy
+#~ msgid "/_About"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "/_Über\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "/_O programu"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#, fuzzy
+#~ msgid "Break reminder"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pausenerinnerer\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Podsetnik za odmore"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern des Mauszeiger-Themas erforderlich.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Ne mogu da napravim direktorijum „%s“.\n"
+#~ "Ovo je neophodno da bi se omogućila promena kursora."
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern der Zeiger erforderlich.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Ne mogu da napravim direktorijum „%s“.\n"
+#~ "Ovo je neophodno da bi se omogućila promena kursora."
+
+#, fuzzy
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Audiodatei %s konnte nicht als Beispiel %s geladen werden\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Ne mogu da učitam datoteku %s kao probni %s"
+
+#~ msgid "Login"
+#~ msgstr "Anmelden"
+
+#, fuzzy
+#~ msgid "Logout"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Abmelden\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Odjavi se"
+
+#~ msgid "Boing"
+#~ msgstr "Gong"
+
+#, fuzzy
+#~ msgid "Siren"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Sirene\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Sirena"
+
+#, fuzzy
+#~ msgid "Clink"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Klicken\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Klink"
+
+#, fuzzy
+#~ msgid "Beep"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Piep\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Bip"
+
+#~ msgid "No sound"
+#~ msgstr "Kein Klang"
+
+#, fuzzy
+#~ msgid "Sound not set for this event."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Diesem Ereignis ist kein Klang zugewiesen.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Zvuk za _ovaj događaj nije postavljen."
+
+#, fuzzy
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
+#~ "Sie können das Paket »gnome-audio« installieren, um die Vorgabeklänge zu "
+#~ "erhalten.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Zvučna datoteka za ovaj događaj ne postoji.\n"
+#~ "Možda bi trebali instalirati gnome-audio paket da biste imali osnovne "
+#~ "zvukove."
+
+#, fuzzy
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Zvučna datoteka za ovaj događaj ne postoji."
+
+#, fuzzy
+#~ msgid "Select Sound File"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Audiodatei wählen\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Odaberite datoteku sa zvukom"
+
+#, fuzzy
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Die Datei %s ist keine gültige wav-Datei\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Datoteka %s ne predstavlja ispravnu WAV datoteku"
+
+#, fuzzy
+#~ msgid "Select sound file..."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Audiodatei wählen …\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Odaberite datoteku sa zvukom..."
+
+#, fuzzy
+#~ msgid "Sound"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Audio\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Zvuk"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Setzen Sie diesen Wert auf »True«, um die MIME-Typ-Handler für »text/"
+#~ "plain« und »text/*« synchron zu halten."
+
+#, fuzzy
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "»text/plain« und »text/*«-Handler synchronisieren\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Uskladi rukovaoce za text/plain i text/*"
+
+#, fuzzy
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Anscheinend hat bereits eine andere Anwendung auf den Schlüssel »%u« "
+#~ "zugegriffen.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Čini se da neki drugi program već ima pristup ključu „%u“."
+
+#~ msgid "Accessibility"
+#~ msgstr "Pristupačnost"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Prag obaveštenja o procentu slobodnog prostora"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Prag obaveštenja o slobodnom prostoru"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Najmanji period obaveštavanja za ponovljena upozorenja"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Putanje za montiranje koje treba zanemariti"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Prag zauzetosti u procentima pri kome se ispisuju upozorenja o malo "
+#~ "slobodnog prostora na disku. Ukoliko procenat padne ispod ove vrednosti, "
+#~ "upozorenje će biti prikazano."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Izaberite spisak montiranih putanja koje treba zanemariti ako preostane "
+#~ "malo slobodnog prostora."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Odredite vreme u minutima. Upozorenja za disk se neće ponovo prikazati "
+#~ "pre isteka ovog vremena."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Odredite veličinu u gigabajtima. Upozorenja se neće prikazivati ukoliko "
+#~ "je slobodan prostor veći od ove vrednosti."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Odredite koliko procenta od slobodnog prostora treba popuniti pre nego "
+#~ "što se ponovo ispiše upozorenje."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Prag za ponovnog obaveštenja o procentu slobodnog prostora"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Vezujem za izbacivanje optičkog diska."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Vezujem uključivanje/isključivanje dodirne table."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Vezujem za pokretanje kalkulatora."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Vezujem za pokretanje programa za e-poštu."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Vezujem za pokretanje pregledača pomoći."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Vezujem za pokretanje programa za zvuk i video."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Vezujem za pokretanje programa za pretragu."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Vezujem za pokretanje internet preglednika."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Vezujem za zaključavanje ekrana."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Vezujem za odjavu sa sistema."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Vezujem za utišavanje zvuka."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Vezujem za isključivanje zvuka."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Vezujem za otvaranje lične fascikle."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Vezujem za pauziranje muzike/filma."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Vezujem za pojačavanje zvuka."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Vezujem za prelazak na narednu numeru."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Vezujem za prelazak na prethodnu numeru."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr "Vezujem za puštanje muzike/filma (ili puštanje/pauzu)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Vezujem za zaustavljanje muzike/filma."
+
+#, fuzzy
+#~ msgid "Eject"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Izbacivanje medijuma\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Izbacivanje medijuma\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Izbaci"
+
+#, fuzzy
+#~ msgid "Home folder"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Otvaranje lične fascikle\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Otvaranje lične fascikle\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Lična fascikla"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Pokretanje kalkulatora"
+
+#~ msgid "Launch email client"
+#~ msgstr "Pokretanje program za e-poštu"
+
+#, fuzzy
+#~ msgid "Launch help browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pokretanje pregledača pomoći\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pokretanje pregledača pomoći\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pokreni pregledač pomoći"
+
+#~ msgid "Launch media player"
+#~ msgstr "Pokretanje programa za zvuk i filmove"
+
+#, fuzzy
+#~ msgid "Launch web browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pokretanje Internet preglednika\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pokretanje Internet preglednika\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pokreni čitač veba"
+
+#~ msgid "Lock screen"
+#~ msgstr "Zaključavanje ekrana"
+
+#, fuzzy
+#~ msgid "Log out"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Odjavljivanje sa sistema\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Odjavljivanje sa sistema\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Odjava"
+
+#~ msgid "Next track"
+#~ msgstr "Puštanje naredne numere"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pauziranje numere"
+
+#, fuzzy
+#~ msgid "Play (or play/pause)"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Puštanje (ili puštanje/pauziranje)\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Puštanje (ili puštanje/pauziranje)\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pusti (ili pusti/pauziraj)"
+
+#~ msgid "Previous track"
+#~ msgstr "Puštanje prethodne numere"
+
+#~ msgid "Search"
+#~ msgstr "Pretraga"
+
+#~ msgid "Stop playback"
+#~ msgstr "Zaustavljanje numere"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Uključivanje/isključivanje dodirne table"
+
+#, fuzzy
+#~ msgid "Volume down"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Utišavanje zvuka\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Utišavanje zvuka\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Utišaj"
+
+#, fuzzy
+#~ msgid "Volume mute"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Isključivanje zvuka\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Isključivanje zvuka\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Isključi zvuk"
+
+#~ msgid "Volume step"
+#~ msgstr "Korak jačine zvuka"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Korak jačine zvuka kao postotak jačine."
+
+#, fuzzy
+#~ msgid "Volume up"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pojačavanje zvuka\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pojačavanje zvuka\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Pojačaj"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Datoteka za podrazumevana RandR podešavanja"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Prikaži ekrane u obaveštajnoj zoni"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "IksRandR dodatak će tražiti podrazumevana podešavanja u datoteci iz ovog "
+#~ "ključa. Ovo je slično kao ~/.config/monitors.xml koja se obično čuva u "
+#~ "ličnom direktorijumu korisnika. Datoteka iz ovog ključa se koristi "
+#~ "ukoliko nema takve datoteke, ili se ona ne poklapa sa podešavanjima "
+#~ "ekrana."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Uključi spoljni ekran nakon pokretanja"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Uključuje spoljni ekran pri podizanju sistema ukoliko ga korisnik "
+#~ "priključi."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Uključi ekran prenosnog računara nakon pokretanja"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Uključuje ekran prenosnog računara pri podizanju sistema ukoliko korisnik "
+#~ "priključi spoljni ekran."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Određuje da li da se prikazuje ikonica sa stavkama vezanim za ekrane "
+#~ "unutar panela."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Umekšavanje ivica"
+
+#~ msgid "DPI"
+#~ msgstr "TPI"
+
+# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# ranije je bilo „saveti“, ali možda je bolje „hintovi“
+#
+# Uh, uh, ovo se odnosi na doterivanje fontova nego na savete
+# ~Miloš
+# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# ranije je bilo „saveti“, ali možda je bolje „hintovi“
+#
+# Uh, uh, ovo se odnosi na doterivanje fontova nego na savete
+# ~Miloš
+# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# ranije je bilo „saveti“, ali možda je bolje „hintovi“
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Doterivanje\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Doterivanje\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Saveti"
+
+#~ msgid "RGBA order"
+#~ msgstr "Redosled RGBA"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Redosled elemenata za doterivanje ispod piksela na LCD ekranu. Koristi se "
+#~ "samo kada je umekšavanje ivica postavljeno na „rgba“. Moguće vrednosti "
+#~ "su: „rgb“ za crvenu sleva (najkorišćenije), „bgr“ za zelenu sleva, „vrgb“ "
+#~ "za crvenu odozgo i „vbgr“ za crvenu odozdo."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Rezolucija koja se koristi za prevođenje veličine fontova na veličinu "
+#~ "slike (u tačkama po inču)"
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Vrsta umekšavanja ivica prilikom iscrtavanja fontova. Dozvoljene "
+#~ "vrednosti su: „none“ za isključivanje umekšavanja, „grayscale„ za "
+#~ "standardno umekšavanje u sivim tonovima i „rgba„ za doterivanje ispod "
+#~ "piksela (samo za LCD ekrane)."
+
+# formama pisma = pisanim formama???
+# ~Miloš
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Vrsta doterivanja prilikom iscrtavanja fontova. Moguće vrednosti su: "
+#~ "„none“ za isključivanje doterivanja, „slight“ za osnovno doterivanje, "
+#~ "„medium“ za srednji nivo doterivanja i „full“ za najveće doterivanje "
+#~ "(može da napravi izobličenja u formama pisma)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Dozvoljeni ključevi"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Ukoliko je upisano, ignoriše prečice, osim ukoliko je njihov Gkonf "
+#~ "direktorijum unutar spiska. Ovo je korisno za zaključavanje."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Isključi dodirnu tablu dok kucam"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Uključi horizontalno klizanje"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Uključi klik na dodirnoj tabli"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Uključi dodirnu površ"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Izaberite režim klizanja preko dodirne table"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Izaberite režim klizanja preko dodirne table. Dozvoljene su vrednosti: "
+#~ "„0“ (isključeno klizanje), „1“ (klizanje ivicom dodirne table) i "
+#~ "„2“ (klizanje sa dva prsta)"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Postavite na „TRUE“ (tačno) ukoliko slučajno zakačinjete dodirnu tablu u "
+#~ "toku kucanja."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Postavite na „TRUE“ (tačno) da dozvolite horizontalno klizanje na isti "
+#~ "način kao za vertikalno, što određuje ključ scroll_method."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Postavite na „TRUE“ (tačno) da uključite levi klik miša tapkanjem na "
+#~ "dodirnoj tabli."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Postavite na „TRUE“ (tačno) da uključite sve dodirne table."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Uslužni program za podešavanje Gnoma"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Vezujem za uključivanje lupe."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Vezujem za uključivanje tastature na ekranu."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Vezuje za uključivanje čitača ekrana."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Odskačući tasteri"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Naredba za uključivanje ili isključivanje lupe."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Naredba za uključivanje ili isključivanje tastature na ekranu."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Naredba za uključivanje ili isključivanje čitača ekrana."
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Uključi IksRandR dodatak"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Uključi dodatak za pristupačnost tastature"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Uključi dodatak za pozadinsku sliku"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Uključi dodatak za spisak isečaka"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Uključi dodatak za font"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Uključi dodatak za čišćenje"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Uključi dodatak za prečice"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Uključi dodatak za tastaturu"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Uključi dodatak za multimedijalne tastere"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Uključi dodatak za miša"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Uključi dodatak za pametne kartice"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Uključi dodatak za zvuk"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Uključi dodatak za prekide prilikom kucanja"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Uključi xrdb dodatak"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Uključi dodatak za podešavanja Iksa"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Tasteri miša"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Tastatura na ekranu"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Lupa"
+
+#~ msgid "Screen reader"
+#~ msgstr "Čitač ekrana"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Uključite radi pokretanja dodatka za čišćenje sistema koji uklanja "
+#~ "privremene datoteke."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Postavite na „True“ (tačno) kako bo dodatak upravljao IksRandR "
+#~ "podešavanjima."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava spisak isečaka."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava pozadinsku sliku."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava fontove."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava tastaturu."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Postavite na „True“ (tačno) kako bi dodatak zaključao ekran pri "
+#~ "uklanjanju pametne kartice."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava miša."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Uključite za pokretanje dodatka koji podešava multimedijalne tastere."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Uključite za pokretanje dodatka koji upravlja ostavom zvučnih isečaka."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Uključite za pokretanje dodatka koji podešava pristupačnost tastature."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava prečice na tastaturi."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Uključite za pokretanje dodatka koji podešava odmor prilikom kucanja."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava xrdb."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava postavke Iksa."
+
+#~ msgid "Slow keys"
+#~ msgstr "Spori tasteri"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Lepljivi tasteri"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Naziv prečice na tastaturi koja uključuje lupu"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "Naziv prečice na tastaturi koja uključuje tastaturu na ekranu"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "Naziv prečice na tastaturi koja uključuje čitača ekrana"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Ovo je naziv prečice na tastaturi koja uključuje lupu. Naziv je prikazan "
+#~ "u prozorčetu sa postavkama prečica na tastaturi."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Ovo je naziv prečice na tastaturi koja uključuje tastaturu na ekranu. "
+#~ "Naziv je prikazan u prozorčetu sa postavkama prečica na tastaturi."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Ovo je naziv prečice na tastaturi koja uključuje čitača ekrana. Naziv je "
+#~ "prikazan u prozorčetu sa postavkama prečica na tastaturi."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Prikaz lupe"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Prikaz tastature na ekranu"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Prikaz čitača ekrana"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Određuje da li su uključeni odskačući tasteri u sklopu podrške za "
+#~ "pristupačnost."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Određuje da li je uključena pristupačnost tastera miša preko tastature."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Određuje da li je uključena tastatura na ekranu."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Određuje da li je uključena lupa."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Određuje da li je uključena pristupačnost sporih tastera."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Određuje da li je uključena pristupačnost lepljivih tastera."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Postavite na „none“ (ništa), „lock_screen“ (zaključaj ekran) ili "
+#~ "„force_logout“ (primoraj odjavu). Ove radnje se primenjuju kada se "
+#~ "korisnik prijavljuje putem pametne kartice."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Radnja pru uklanjanju pametne kartice"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Ne pokreći kao uslužni program"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "Gkonfov prefiks iz koga se čitaju podešavanja za dodatke"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Izađi nakon određenog vremena (za traženje grešaka)"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Pristupačnost tastature"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Dodatak za pristupačnost tastature"
+
+#, fuzzy
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Došlo je do greške prilikom prikaza pomoći: %s\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Došlo je do greške prilikom prikaza pomoći: %s\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Došlo je do greške prilikom prikazivanja pomoći: %s"
+
+#, fuzzy
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da uključite spore tastere?\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da uključite spore tastere?\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da pokrenete spore tastere?"
+
+#, fuzzy
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da uključite spore tastere?\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da uključite spore tastere?\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da isključite spore tastere?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Upravo ste držali taster Shift pritisnut 8 sekundi.  Ovo je prečica za "
+#~ "mogućnost sporih tastera, koja utiče na to kako radi vaša tastatura."
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Ne obustavljaj"
+
+#~ msgid "Activate"
+#~ msgstr "Pokreni"
+
+#~ msgid "Deactivate"
+#~ msgstr "Obustavi"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Ne pokreć_i"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Ne obust_avljaj"
+
+#~ msgid "_Activate"
+#~ msgstr "Po_kreni"
+
+#~ msgid "_Deactivate"
+#~ msgstr "Ob_ustavi"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Upozorenje o sporim tasterima"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Želite li da uključite lepljive tastere?"
+
+#, fuzzy
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da isključite lepljive tastere?\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da isključite lepljive tastere?\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Želite li da isključite spore lepljive tastere?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Upravo ste pritisnuli taster Shift pet puta zaredom.  Ovo je prečica za "
+#~ "mogućnost lepljivih tastera, koja utiče na način rada vaše tastature."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Upravo ste pritisnuli dva tastera istovremeno, ili ste pristisnuli Shift "
+#~ "5 puta zaredom.  Ovo isključuje mogućnost lepljivih tastera, što utiče na "
+#~ "to kako vaša tastatura radi."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Upozorenje o lepljivim tasterima"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Postavke opšte pristupačnosti"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Pojačaj _kontrast boja"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "_Uvećaj tekst radi lakšeg čitanja"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "_Dugo pritisni taster (spori tasteri)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Koristi _tastaturu na ekranu"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Koristi _lupu"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Koristi _čitač ekrana"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Zanemari dvostruke pritiske (odskačući tasteri)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "P_ritisni po jedan taster za prečicu (lepljivi tasteri)"
+
+#~ msgid "Background"
+#~ msgstr "Pozadina"
+
+#~ msgid "Background plugin"
+#~ msgstr "Dodatak za pozadinu"
+
+#~ msgid "Clipboard"
+#~ msgstr "Spisak isečaka"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Dodatak za spisak isečaka"
+
+# Malo šale nije na odmet?
+# ~Miloš
+#~ msgid "Dummy"
+#~ msgstr "Lažnjak"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Dodatak za lažnjaka"
+
+#~ msgid "Font"
+#~ msgstr "Font"
+
+#~ msgid "Font plugin"
+#~ msgstr "Dodatak za font"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "Ne prikazuj upozorenja za ovaj sistem datoteka"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Ne prikazuj nikakva upozorenja"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Disk „%s“ ima samo %s preostalog prostora."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Računar ima samo %s preostalog prostora."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Možete osloboditi prostor na disku izbacivanjem smeća, uklanjanjem "
+#~ "nepotrebnih programa ili datoteka ili premeštanjem datoteka na drugi disk "
+#~ "ili particiju."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Možete osloboditi prostor na disku uklanjanjem nepotrebnih programa ili "
+#~ "datoteka ili premeštanjem datoteka na drugi disk ili particiju."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Možete osloboditi prostor na disku izbacivanjem smeća, uklanjanjem "
+#~ "nepotrebnih programa ili datoteka ili premeštanjem datoteka na spoljni "
+#~ "disk."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Možete osloboditi prostor na disku uklanjanjem nepotrebnih programa ili "
+#~ "datoteka ili premeštanjem datoteka na spoljni disk."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Malo prostora na disku"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Izbaci smeće"
+
+#~ msgid "Examine…"
+#~ msgstr "Ispitaj…"
+
+#~ msgid "Ignore"
+#~ msgstr "Zanemari"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Uklanjam %lu stavku od %lu"
+
+#~ msgid "Removing: %s"
+#~ msgstr "Uklanjam: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Izbacujem smeće"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Pripremam se da izbacim smeće…"
+
+#~ msgid "From: "
+#~ msgstr "Od:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Da izbacim sve stavke iz smeća?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Ukoliko izaberete da ispraznite smeće, sve stavke će biti trajno "
+#~ "izgubljene. Možete izbaciti i zasebno svaku stavku iz smeća."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Iz_baci smeće"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Nije ispravna veza sa tasterom (%s)"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Nije potpuna veza sa tasterom (%s)"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Greška pri pokretanju (%s)\n"
+#~ "koje je povezano sa tasterom (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Prečice na tastaturi"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Dodatak za prečice na tastaturi"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastatura"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Dodatak za tastaturu"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Greška pri pokretanju podešavanja tastature.\n"
+#~ "Ovo se može desiti u slučaju:\n"
+#~ " • greške unutar biblioteke libxklavier\n"
+#~ " • greške unutar Iks servera (alati xkbcomp, xmodmap)\n"
+#~ " • nesaglasnosti Iks servera i libxkbfile\n"
+#~ "\n"
+#~ "Podaci o izdanju X servera:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Ukoliko projavite ovo kao grešku, priložite i sledeće:\n"
+#~ " • Rezultat <b>%s</b>\n"
+#~ " • Rezultat <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Trenutno koristite IksFri 4.3.0.\n"
+#~ "U ovom izdanju postoje problemi sa složenijim podešavanjima tastature.\n"
+#~ "Pokušajte da koristite jednostavnija podešavanja ili nabavite noviji "
+#~ "IksFri."
+
+#~ msgid "_Layouts"
+#~ msgstr "_Rasporedi"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "_Postavke tastature"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Prika_ži trenutni raspored"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Dostupne _datoteke:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Učitaj modmap datoteke"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Da li želite da učitate modmap datoteke?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Nemoj više da prikazuješ ovu poruku"
+
+#~ msgid "_Load"
+#~ msgstr "_Učitaj"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Učitane datoteke:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Ne mogu da nađem podrazumevani terminal. Proverite da li je naredba za "
+#~ "terminal postavljena i da li pokazuje na postojeći program.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Ne mogu da nađem podrazumevani terminal. Proverite da li je naredba za "
+#~ "terminal postavljena i da li pokazuje na postojeći program.\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Ne mogu da nađem podrazumevani terminal. Proverite da li je naredba za "
+#~ "terminal postavljena i da pokazuje na postojeći program."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Ne mogu da izvršim naredbu: %s\n"
+#~ "Proverite da li je ovo ispravna naredba."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u izlaz"
+#~ msgstr[1] "%u izlaza"
+#~ msgstr[2] "%u izlaza"
+#~ msgstr[3] "%u izlaz"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u ulaz"
+#~ msgstr[1] "%u ulaza"
+#~ msgstr[2] "%u ulaza"
+#~ msgstr[3] "%u ulaz"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sistemski zvuci"
+
+#~ msgid "Media keys"
+#~ msgstr "Multimedijalni tasteri"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Dodatak za multimedijalne tastere"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Ne mogu da uključim pristupačnost miša"
+
+#, fuzzy
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr "Za pristupačnost miša morate da instalirate Mousetweaks program."
+
+#~ msgid "Mouse"
+#~ msgstr "Miš"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Dodatak za miša"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Dodatak za odmor prilikom kucanja"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Podešavanje veličine i rotacije ekrana"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Ne mogu da učitam podešavanja monitora"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Ne mogu da vratim podešavanja ekrana"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "Ne mogu da vratim podešavanja ekrana iz rezervnih podešavanja"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "Podešavanja ekrana će biti vraćena na prethodna za %d sekundu"
+#~ msgstr[1] "Podešavanja ekrana će biti vraćena na prethodna za %d sekunde"
+#~ msgstr[2] "Podešavanja ekrana će biti vraćena na prethodna za %d sekundi"
+#~ msgstr[3] "Podešavanja ekrana će biti vraćena na prethodna za %d sekundu"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Da li ekran izgleda kako treba?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Vrati prethodna podešavanja"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Zadrži ova podešavanja"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Ne mogu da primenim izabrana podešavanja ekrana"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Ne mogu da osvežim podatke o ekranu: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Pokušavam da ipak učitam podešavanja monitora."
+
+#~ msgid "Rotation not supported"
+#~ msgstr "Nije podržano rotiranje"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Ne mogu da sačuvam podešavanja monitora"
+
+#~ msgid "Normal"
+#~ msgstr "Obično"
+
+#~ msgid "Left"
+#~ msgstr "Levo"
+
+#~ msgid "Right"
+#~ msgstr "Desno"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Naopačke\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Naopačke\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Izvrnuto"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "Podesi _ekrane…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Podesi ekran"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Ne mogu da primenim sačuvana podešavanja ekrana"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Ne mogu da odredim korisnikov lični direktorijum"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Upravljanje Iksovom bazom resursa"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Iksova baza resursa"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr "Gkonf ključ %s je postavljen na tip %s a očekivani tip je %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Uredi podešavanja Iksa"
+
+#~ msgid "X Settings"
+#~ msgstr "Podešavanja Iksa"
+
+#~ msgid "Module Path"
+#~ msgstr "Putanja do modula"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "putanja do PKCS #11 putanje drajvera za pametne kartice"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "greška ili prekid sa izvorom događaja"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Ne mogu da pokrenem NSS sigurnosni sistem"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "ne postoji odgovarajući drajver za pametne kartice"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "ne mogu da učitam drajver „%s“ za pametne kartice"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "ne mogu da pratim priključivanje kartice — %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr "neočekivana greška pri čekanju na priključivanje pametne kartice"
+
+#~ msgid "Slot ID"
+#~ msgstr "IB slota"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Slot u kome je kartica"
+
+#~ msgid "Slot Series"
+#~ msgstr "Niz slotova"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "identifikazija kartica po slotovima"
+
+#~ msgid "name"
+#~ msgstr "ime"
+
+#~ msgid "Module"
+#~ msgstr "Modul"
+
+#~ msgid "smartcard driver"
+#~ msgstr "drajver za pametne kartice"
+
+#~ msgid "Change system time"
+#~ msgstr "Promeni vreme na sistemu"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Promeni vremensku zonu"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Podesi sat na računaru"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr "Potrebna su ovlašćenja za promenu vremenske zone na sistemu."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "Potrebna su ovlašćenja za promenu vremena na sistemu."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr "Potrebna su ovlašćenja za podešavanje sata na računaru."
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Nepoznat\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Nepoznat\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Nepoznato"
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "Određuje da li je uključen čitač ekrana."
+
+#~ msgid "Don't activate"
+#~ msgstr "Ne pokreći"
+
+#, fuzzy
+#~ msgid "Mouse Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Podešavanja miša\n"
+#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Podešavanje miša"
+
+#~ msgid "Typing Break"
+#~ msgstr "Odmor od kucanja"
+
+#~ msgid "Current network location"
+#~ msgstr "Trenutno mrežno mesto"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Još adresa sa pozadinama"
+
+#~ msgid "More themes URL"
+#~ msgstr "Još adresa sa temama"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Postavite ovo na naziv vaše trenutne lokacije. Ona se koristi za "
+#~ "određivanje podešavanja mrežnog posrednika."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "Adresa sa koje se preuzimaju dodatne pozadine za radnu površ. Ukoliko "
+#~ "ostavite prazno, veza se neće prikazati."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "Adresa sa koje se preuzimaju dodatne teme. Ukoliko ostavite prazno, veza "
+#~ "se neće prikazati."
+
+#~ msgid "Image/label border"
+#~ msgstr "Granica slike/okvira"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Širina granice oko naslova i slike u prozorčetu uzbune"
+
+#~ msgid "Alert Type"
+#~ msgstr "Vrsta uzbune"
+
+#~ msgid "The type of alert"
+#~ msgstr "Vrsta uzbune."
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Dugmad za uzbunu"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Dugmad koja se prikazuju u prozorčetu za uzbunu"
+
+#~ msgid "Show more _details"
+#~ msgstr "Prikaži _više detalja"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Stavite levi palac na %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Prevucite levi palac preko %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Stavite levi kažiprst na %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Prevucite levi kažiprst preko %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Stavite levi srednji prst na %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Prevucite levi srednji prst preko %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Stavite levi domali prst na %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Prevucite levi domali prst preko %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Stavite levi mali prst na %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Prevucite levi mali prst preko %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Stavite desni palac na %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Prevucite desni palac preko %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Stavite desni kažiprst na %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Prevucite desni kažiprst preko %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Stavite desni srednji prst na %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Prevucite desni srednji prst preko %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Stavite desni domali prst na %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Prevucite desni domali prst preko %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Stavite desni mali prst na %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Prevucite desni mali prst preko %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Ponovo stavite prst na čitač otisaka"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Ponovo prevucite prst"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Prebrzo ste prevukli prst, probajte opet"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Prst nije na sredini, prevucite ga ponovo"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Sklonite prst i probajte da ga prevučete ponovo"
+
+#~ msgid "Select Image"
+#~ msgstr "Izbor slike"
+
+#~ msgid "No Image"
+#~ msgstr "Bez slike"
+
+#~ msgid "Images"
+#~ msgstr "Slike"
+
+#~ msgid "All Files"
+#~ msgstr "Sve datoteke"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Došlo je do greške u pokušaju pribavljanja podataka adresara\n"
+#~ "Poslužitelj podataka Evolucije ne prihvata dati protokol"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Ne mogu da otvorim imenik"
+
+#~ msgid "About %s"
+#~ msgstr "%s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dresa:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "Pomoć_nik:"
+
+#~ msgid "About Me"
+#~ msgstr "O meni"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Mest_o:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Preduzeće:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kalend_ar:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Promena _lozinke..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "_Grad:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "Ze_mlja:"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Ze_mlja:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "O_nemogući prijavu otiskom prsta..."
+
+#~ msgid "Email"
+#~ msgstr "E-pošta"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "_Omogući prijavu otiskom prsta..."
+
+#~ msgid "Full Name"
+#~ msgstr "Puno ime i prezime"
+
+#~ msgid "Hom_e:"
+#~ msgstr "K_ućni:"
+
+#~ msgid "Home"
+#~ msgstr "Lično"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Brze poruke"
+
+#~ msgid "Job"
+#~ msgstr "Posao"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Poštanski _fah:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "_Poštanski fah"
+
+#~ msgid "Personal Info"
+#~ msgstr "Lični podaci"
+
+#~ msgid "Select your photo"
+#~ msgstr "Izaberite svoju sliku"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Država/Pok_rajina:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefon"
+
+#~ msgid "User name:"
+#~ msgstr "Korisničko ime:"
+
+#~ msgid "Web"
+#~ msgstr "Intarnet"
+
+#~ msgid "Web _log:"
+#~ msgstr "Internet dnevnik:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "Na po_slu:"
+
+#~ msgid "Work"
+#~ msgstr "Na po_slu:"
+
+#~ msgid "Work _fax:"
+#~ msgstr "Fak_s:"
+
+#~| msgid "Zip/_Postal code:"
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "Po_štanski broj:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adresa:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Odeljenje:"
+
+# bug(slobo): šta je ovo?
+#~| msgid "_Groupwise:"
+#~ msgid "_GroupWise:"
+#~ msgstr "_Grupvajz:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Internet strana:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Lična:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Direktor"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Mobilni:"
+
+#~ msgid "_Profession:"
+#~ msgstr "Zanima_nje:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "Dr_žava/Pokrajina:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Titula:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Poslovna:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_Džaber:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Jahu:"
+
+#~| msgid "_Zip/Postal code:"
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "Poštanski _broj:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Postavite vaše lične podatke"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Nemate dozvole za pristup ovom uređaju. Kontaktirajte vašeg sistemskog "
+#~ "administratora"
+
+#~ msgid "The device is already in use."
+#~ msgstr "Uređaj je već u upotrebi."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Došlo je do greške unutar programa"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Da obrišem registrovane otiske prsta?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Obriši otiske prsta"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Da li želite da obrišete registrovane otiske prsta kako bi onemogućili "
+#~ "prijavu putem otiska prsta?"
+
+#~ msgid "Done!"
+#~ msgstr "Završeno!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Ne mogu da pristupim uređaju „%s“"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Ne mogu da uhvatim otisak prsta sa uređaja „%s“"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Ne mogu da pristupim čitačima prsta"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Javite se sistemskom administratoru radi pomoći."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Omogući prijavu putem otiska prsta"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Morate sačuvati jedan od vaših otisaka prsta sa uređaja „%s“, kako bi "
+#~ "omogućili prijavu na sistem putem otiska prsta."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Prevucite prst preko čitača"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Postavite prst na čitač"
+
+#~ msgid "Left index finger"
+#~ msgstr "Levi kažiprst"
+
+#~ msgid "Left little finger"
+#~ msgstr "Mali, levi prst"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Srednji, levi prst"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Domali, levi prst"
+
+#~ msgid "Left thumb"
+#~ msgstr "Levi palac"
+
+#~ msgid "Other finger: "
+#~ msgstr "Ostali prsti: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Desni kažiprst"
+
+#~ msgid "Right little finger"
+#~ msgstr "Desni, mali prst"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Desni, srednji prst"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Desni, domali prsti"
+
+#~ msgid "Right thumb"
+#~ msgstr "Desni palac"
+
+#~ msgid "Select finger"
+#~ msgstr "Izaberite prst"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Vaš otisak prsta je uspešno sačuvan. Sada se možete prijaviti na sistem "
+#~ "preko čitača otisaka prsta."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Potproces je neočekivano završen"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Ne mogu da ukagim ulazno izlazni kanal za backend_stdin: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Ne mogu da ukagim ulazno izlazni kanal za backend_stdout: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Identitet je potvrđen!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Tvoja lozinka je promenjena od kada si se prijavio. Molim te da ponovo "
+#~ "potvrdiš svoj identitet."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Lozinka nije ispravna"
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Lozinka je promenjena."
+
+#~ msgid "System error: %s."
+#~ msgstr "Sistemska greška: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Lozinka je prekratka."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Lozinka je suviše jednostavna."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Stara i nova lozinka su suviše slične."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Nova lozinka mora da sadrži cifru ili specijalni znak (znake)."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Stara i nova lozinka su iste."
+
+#~| msgid "The two passwords are not equal."
+#~ msgid "The new password has already been used recently."
+#~ msgstr "Nova lozinka je već upotrebljavana u skorije vreme."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Ne mogu da pokrenem program %s: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Ne mogu da pokrenem pozadinski proces"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Dogodila se sistemska greška"
+
+#~ msgid "Checking password..."
+#~ msgstr "Proveravam lozinku..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Klikni na dugme <b>Promeni lozinku</b> da izmenite lozinku."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Molim ukucaj lozinku u polje <b>Nova lozinka</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "Molim ponovo ukucaj lozinku, u polje <b>Potvrda nove lozinke</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Lozinke se ne podudaraju."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Promeni lo_zinku"
+
+#~ msgid "Change password"
+#~ msgstr "Promeni lozinku"
+
+#~ msgid "Change your password"
+#~ msgstr "Promeni lozinku"
+
+#~ msgid "Current _password:"
+#~ msgstr "Sadašnja _lozinka:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Da bi izmenio lozinku, unesi sadašnju lozinku u polje ispod i klikni na "
+#~ "<b>Potvrdi identitet</b>.\n"
+#~ "Nakon toga, unesi novu lozinku, unesi je ponovo zarad provere i klikni na "
+#~ "<b>Promeni lozinku</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Potvrdi identitet"
+
+#~ msgid "_New password:"
+#~ msgstr "Nova _lozinka:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_Potvrda nove lozinke:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Pristupačna pri_java"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Tehnologije za ispomoć"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Postavke tehnologija za ispomoć"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Tehnologija za ispomoć neće biti uključena ili isključena do vaše sledeće "
+#~ "prijave."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Zatvori i _odjavi se"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Idi na prozorče sa omiljenim programima"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Idi na prozorče za pristupačnu prijavu"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Idi na prozorče za pristupačnost tastature"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Idi na prozorče za pristupačnost miša"
+
+#~ msgid "Preferences"
+#~ msgstr "Postavke"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Uključi tehnologije za ispomoć"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Pristupačnost _tastature"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Pristupačnost _miša"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "_Omiljeni programi"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr "Izaberite koje tehnologije za ispomoć za pokretanje sa sistemom"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Dodaj pozadinu"
+
+#~ msgid "All files"
+#~ msgstr "Sve datoteke"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Font je možda prevelik"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Izabrani font je veličine %d tačke, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite veličinu manju od %d."
+#~ msgstr[1] ""
+#~ "Izabrani font je veličine %d tačke, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite veličinu manju od %d."
+#~ msgstr[2] ""
+#~ "Izabrani font je veličine %d tačaka, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite veličinu manju od %d."
+#~ msgstr[3] ""
+#~ "Izabrani font je veličine %d tačke, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite veličinu manju od %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Izabrani font je veličine %d tačke, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite font manje veličine."
+#~ msgstr[1] ""
+#~ "Izabrani font je veličine %d tačke, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite font manje veličine."
+#~ msgstr[2] ""
+#~ "Izabrani font je veličine %d tačaka, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite font manje veličine."
+#~ msgstr[3] ""
+#~ "Izabrani font je veličine %d tačke, i možda će otežati upotrebu ovog "
+#~ "računara. Preporučuje se da koristite font manje veličine."
+
+#~ msgid "Use previous font"
+#~ msgstr "Koristi prethodni font"
+
+#~ msgid "Use selected font"
+#~ msgstr "Koristi izabrani font"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Ne mogu da učitam korisničku datoteku za sučelje: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Navedi datoteku teme za postavljanje"
+
+#~ msgid "filename"
+#~ msgstr "datoteka"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr "Navedite ime lista koji prikazati (teme|pozadina|fontovi|sučelje)"
+
+#~ msgid "page"
+#~ msgstr "list"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[POZADINSKA-SLIKA...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Osnovni kurzor"
+
+#~ msgid "Install"
+#~ msgstr "Instaliraj"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Ova tema neće izgledati kako treba jer nije instaliran potrebni motor za "
+#~ "Gtk+ teme: „%s“"
+
+#~ msgid "Apply Background"
+#~ msgstr "Primeni pozadinu"
+
+#~ msgid "Apply Font"
+#~ msgstr "Primeni font"
+
+#~ msgid "Revert Font"
+#~ msgstr "Vrati font"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Tekuća tema predlaže svoju pozadinu i font. Tekođe, možete vratiti i "
+#~ "poslednji korišćeni font."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Tekuća tema predlaže pozadinu. Takođe, možete vratiti i podlednji "
+#~ "korišćeni font."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Tekuća tema predlaže pozadinu i font."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Tekuća tema predlaže font. Takođe, možete vratiti i poslednji korišćeni "
+#~ "font."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Tekuća tema predlaže pozadinu."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Možete vratiti poslednji korišćeni font."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Tekuća tema predlaže font."
+
+#~ msgid "Custom"
+#~ msgstr "Prilagođeno"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Postavke izgleda"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Najbolji o_blici"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Najbolji _kontrast"
+
+#~ msgid "C_olors:"
+#~ msgstr "_Boje:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "Pri_lagodi..."
+
+#~ msgid "Center"
+#~ msgstr "Centrirano"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "Izmena teme kurzora uzima maha po vašoj narednoj prijavi."
+
+#~ msgid "Colors"
+#~ msgstr "Boje"
+
+#~ msgid "Controls"
+#~ msgstr "Elementi"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Prilagodi temu"
+
+#~ msgid "D_etails..."
+#~ msgstr "D_etalji..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "_Radna površina:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detalji iscrtavanja fonta"
+
+#~ msgid "Fonts"
+#~ msgstr "Fontovi"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Preuzmi još pozadina sa mreže"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Preuzmi još tema sa mreže"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "_Sive nijanse"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Horizontalni preliv"
+
+#~ msgid "Icons"
+#~ msgstr "Ikonice"
+
+#~ msgid "Icons only"
+#~ msgstr "Samo ikonice"
+
+#~ msgid "Large"
+#~ msgstr "Velika"
+
+#~ msgid "N_one"
+#~ msgstr "_Ništa"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Otvori prozorče za izbor boje"
+
+#~ msgid "Pointer"
+#~ msgstr "Pokazivač"
+
+#~ msgid "R_esolution:"
+#~ msgstr "R_ezolucija:"
+
+#~ msgid "Rendering"
+#~ msgstr "Iscrtavanje"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Sačuvaj temu kao..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Sačuvaj _kao..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Sačuvaj _pozadinsku sliku"
+
+#~ msgid "Scale"
+#~ msgstr "Srazmerno"
+
+#~ msgid "Small"
+#~ msgstr "Mala"
+
+#~ msgid "Smoothing"
+#~ msgstr "Uglađivanje"
+
+#~ msgid "Solid color"
+#~ msgstr "Puna boja"
+
+#~ msgid "Span"
+#~ msgstr "Rasprostrto"
+
+#~ msgid "Stretch"
+#~ msgstr "Razvučeno"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Ispod tačke (LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Doterivanje ispod tačke (LCD)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Poredak ispod tačke"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Text below items"
+#~ msgstr "Tekst ispod ikonica"
+
+#~ msgid "Text beside items"
+#~ msgstr "Tekst pored ikonica"
+
+#~ msgid "Text only"
+#~ msgstr "Samo tekst"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Tekuća tema elemenata ne podržava šeme boja."
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Tile"
+#~ msgstr "Popločano"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Vertikalni preliv"
+
+#~ msgid "Window Border"
+#~ msgstr "Okvir prozora"
+
+#~ msgid "Zoom"
+#~ msgstr "Uvećaj"
+
+#~ msgid "_Add..."
+#~ msgstr "_Dodaj..."
+
+#~ msgid "_Application font:"
+#~ msgstr "Prog_rami:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Opis:"
+
+#~ msgid "_Document font:"
+#~ msgstr "Dok_umenti:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Ravnomerno širok:"
+
+#~ msgid "_Full"
+#~ msgstr "_Potpuno"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "_Polja za unos:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Instaliraj"
+
+#~ msgid "_Medium"
+#~ msgstr "_Srednje"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Jednobojno"
+
+#~ msgid "_Name:"
+#~ msgstr "_Ime:"
+
+#~ msgid "_None"
+#~ msgstr "_Ništa"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "V_rati na podrazumevano"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Odabrane stavke:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Veličina:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Malo"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stil:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Oblačići:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Naslov _prozora:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Prozori:"
+
+#~ msgid "dots per inch"
+#~ msgstr "tačaka po inču"
+
+#~ msgid "Appearance"
+#~ msgstr "Izgled"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Prilagodite izgled radne površi"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Instalira paket teme koji pokriva razne delove radne površine"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Postavljanje teme"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Paket Gnom teme"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Nema pozadine za radnu površ"
+
+#~ msgid "Slide Show"
+#~ msgstr "Pokretni prikaz"
+
+#~ msgid "Image"
+#~ msgstr "Slike"
+
+#~ msgid "multiple sizes"
+#~ msgstr "više veličina"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s po %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "piksel"
+#~ msgstr[1] "piksela"
+#~ msgstr[2] "piksela"
+#~ msgstr[3] "piksel"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Fascikla: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Fascikla: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Nedostaje slika"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Ne mogu da instaliram temu"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Nije instaliran alat %s."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Javio se problem pri raspakovanju teme."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Javila se greška tokom instalacije izabrane datoteke"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "„%s“ ne izgleda kao ispravna tema."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "„%s“ ne izgleda kao ispravna tema. Možda je potrebno da instalirate motor "
+#~ "teme."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Neuspešna instalacija teme „%s“."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Gnomova tema „%s“ je uspešno instalirana"
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Želite li da je primenite odmah ili da zadržite trenutnu temu?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Zadrži trenutnu temu"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Primeni novu temu"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "Gnomova tema %s je uspešno instalirana"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Neuspešno pravljenje privremenog direktorijuma"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Nove teme su uspešno instalirane."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Nije navedena putanja datoteke teme za postavljanje"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nedovoljna ovlašćenja za instaliranje teme u:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Izaberite temu"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Paketi tema"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Morate dati naziv teme"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Ova tema već postoji. Želite li da je zamenite?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "Pre_snimi"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Želite li da obrišete ovu temu?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Tema se ne može obrisati"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Ne mogu da instaliram motor teme"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Ne mogu da pokrenem upravnika postavki „gnome-settings-daemon“.\n"
+#~ "Bez Gnomovog upravnika postavki neka od podešavanja neće raditi. Ovo može "
+#~ "značiti da postoji problem sa DBasom ili je možda već u upotrebi neki "
+#~ "drugi upravnik postavki (npr. KDE), koji onemogućuje rad Gnomovog "
+#~ "upravnika postavki."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Ne mogu da učitam osnovnu,ugrađenu ikonu „%s“\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Umnožavam datoteku: %u od %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Umnožavam „%s“"
+
+#~ msgid "Copying files"
+#~ msgstr "Umnožavam datoteke"
+
+#~ msgid "Parent Window"
+#~ msgstr "Roditeljski prozor"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Roditeljski prozor prozorčeta"
+
+#~ msgid "From URI"
+#~ msgstr "Sa adrese"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "Adresa sa koje se trenutno vrši prenos"
+
+#~ msgid "To URI"
+#~ msgstr "Na adresu"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "Adresa na koju se trenutno vrši prenos"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Završen deo"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Deo prenosa koji je do sada završen"
+
+#~ msgid "Current URI index"
+#~ msgstr "Trenutni URI indeks"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Trenutni URI indeks počinje sa 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Ukupno URI-a"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Ukupni broj URI-a"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Datoteke „%s“ već postoji. Želite li da je zamenite?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Preskoči"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "_Zameni sve"
+
+#~ msgid "Key"
+#~ msgstr "Taster"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "GConf ključ na koji je prikačen ovaj uređivač osobina"
+
+#~ msgid "Callback"
+#~ msgstr "Povratni poziv"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Pošanji ovaj povratni poziv kada se vrednos povezana sa tasterom promeni"
+
+#~ msgid "Change set"
+#~ msgstr "Promeni skup"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf promena skupa koji sadrži podatke za prosleđivanje gconf klijent "
+#~ "pri primeni"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Promena u povratni poziv grafičke kontrole"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Povratni poziv koji treba izdati pre no što se podaci promene iz GConf-a "
+#~ "u element"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Promena iz povratnog poziva grfičkog elementa"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Povratni poziv koji treba izdati kada se podaci iz grafičkog elementa "
+#~ "prebacuju u GConf"
+
+#~ msgid "UI Control"
+#~ msgstr "Kontrola korisničkog sučelja"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objekat koji kontroliše osobine "
+
+#~ msgid "Property editor object data"
+#~ msgstr "Uređivač osobina za objekt podatke"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Prilagođeni podaci neophodni za uređivač posebnih osobina"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Povratni poziv uređivača osobina za oslobađanje podataka"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Povratni poziv koji treba izdati kada treba osloboditi podatke iz objekta "
+#~ "uređivača osobina"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Nisam pronašao datoteku '%s'.\n"
+#~ "\n"
+#~ "Uverite sa da ista postoji i pokušajte iznova ili odaberite drugu sliku "
+#~ "pozadine."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Ne znam kako da otvorim datoteku '%s'.\n"
+#~ "Možda se radi o vrsti slike koja još nije podržana.\n"
+#~ "\n"
+#~ "Molim da odaberete drugu sliku."
+
+#~ msgid "Please select an image."
+#~ msgstr "Odaberite sliku."
+
+#~ msgid "_Select"
+#~ msgstr "_Izaberi"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Osnovni kurzor — tekući"
+
+#~ msgid "White Pointer"
+#~ msgstr "Beli kurzor"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Beli kurzor — tekući"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Ogroman pokazivač"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Veliki kurzor — tekući"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Veliki beli kurzor — tekući"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Veliki beli kurzor"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Ova tema neće izgledati kako treba jer nije instalirana potrebna %s Gtk+ "
+#~ "tema."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Ova tema neće izgledati kako treba jer nije instaliran potrebni %s "
+#~ "upravnik prozorima."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Ova tema neće izgledati kako treba jer nije instalirana potrebna %s tema "
+#~ "sa ikonama."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Omiljeni programi"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Odaberite vaše osnovne programe"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Pokreni željenu tehnologiju za vizuelnu ispomoć"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "_Vizualna pomoć"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Greška pri čuvanju podešavanja: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Ne mogu da učitam glavno sučelje"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Molim proverite da li je programče ispravno postavljeno"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr "Izaberite naziv strane za prikaz (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "— Podrazumevani Gnomovi programi"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Sve %s pojave biće zamenjene sa stvarnom vezom"
+
+#~ msgid "C_ommand:"
+#~ msgstr "N_aredba:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "_Naredba:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Izvršna za_stavica:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Preglednik slika"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Program za brze poruke"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Čitač e-pošte"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobilnost"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedija"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Puštanje multimedije"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Otvori vezu u novom _listu"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Otvori vezu u novom _prozoru"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Otvori vezu sa podrazumevanim preglednikom"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Pokreni sa _sistemom"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Pokreni u t_erminalu"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Emulator terminala"
+
+#~ msgid "Text Editor"
+#~ msgstr "Urednik teksta"
+
+#~ msgid "Video Player"
+#~ msgstr "Program za video"
+
+#~ msgid "Visual"
+#~ msgstr "Vizuelna upozorenja"
+
+#~ msgid "Web Browser"
+#~ msgstr "Veb preglednik"
+
+#~ msgid "_Run at start"
+#~ msgstr "Pokreni sa _sistemom"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Zloslutnička muzička kutija"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws program za poštu"
+
+#~ msgid "Dasher"
+#~ msgstr "Jurišnik"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Razumni čitač Debijana"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Emulator terminala iz Debijana"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Preglednik Interneta — Spoznaja"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Program za poštu Evolucija"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Vatrena lisica"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Gnom Lupa bez čitača ekrana"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Gnomova ekranska tastatura"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Gnom terminal"
+
+#~ msgid "Galeon"
+#~ msgstr "Galija"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernik"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernik sa lupom"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE lupa bez čitača ekrana"
+
+#~ msgid "KMail"
+#~ msgstr "KMejl"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konkveror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konzola"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linuksov čitač ekrana"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linuksov čitač ekrana sa lupom"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozila"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozila 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilina pošta"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozila Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Puštanje muzike Mujna"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netskejp Komunikator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orka"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orka sa lupom"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Ritam mašina"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Standardni X terminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "Uključi _panel"
+
+#~| msgid "Default"
+#~ msgid "Make Default"
+#~ msgstr "Označi podrazumevano"
+
+#~ msgid "Monitor"
+#~ msgstr "Ekran"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Postavke ekrana"
+
+#~ msgid "Off"
+#~ msgstr "Isključeno"
+
+#~ msgid "On"
+#~ msgstr "Uključeno"
+
+#~ msgid "Panel icon"
+#~ msgstr "Ikonica za panel"
+
+#~ msgid "R_otation:"
+#~ msgstr "_Rotacija:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Učestanost os_vežavanja:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "_Ista slika na svim ekranima"
+
+#~ msgid "Upside-down"
+#~ msgstr "Izvrnuto"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Očitaj ekrane"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Rezolucija:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "P_rikaži ekrane u panelu"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Promeni rezoluciju i mesto ekranima"
+
+#~ msgid "Monitors"
+#~ msgstr "Ekrani"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Upotreba: %s IZVORNA_DATOTEKA IME_CILJA\n"
+#~ "\n"
+#~ "Ovaj program instalira RANDR profil za podešavanje više ekrana\n"
+#~ "među sistemkim putanjama.  Krajnji profil će se koristiti kada \n"
+#~ "pokrenete RANDR dodatak u Gnomovom upravniku postavki.\n"
+#~ "\n"
+#~ "IZVORNA_DATOTEKA — puna putanja, obično: \n"
+#~ "            /home/korisničko_ime/.config/monitors.xml\n"
+#~ "\n"
+#~ "IME_CILJA — ime instalirane datoteke.  Ovo će biti smešteno u\n"
+#~ "            sistemski direktorijum za RANDR podešavanja, odnosni u:\n"
+#~ "            %s/IME_CILJA\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Samo administrator može da pokrene ovaj program"
+
+#~| msgid "Theme name must be present"
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Ime izvorne datoteke mora biti apsolutno"
+
+#~| msgid "Could not access '%s' device"
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Ne mogu da otvorim %s: %s\n"
+
+#~| msgid "Could not get screen information"
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Ne mogu da dobijem podatke za %s: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s mora da bude obična datoteka\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Ovaj program morate pokrenuti kroz pkexec(1)"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "Morate postaviti PKEXEC_UID na celobrojnu vrednsot"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "Morate da budete vlasnik %s\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s ne sme da sadrži direktorijume\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s mora da bude direktorijum\n"
+
+#~| msgid "Could not access '%s' device"
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Ne mogu da otvorim %s/%s: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "Ne mogu da preimenujem %s u %s: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Potrebna je prijava kako bi instalirali podešavanja više ekrana za sve "
+#~ "korisnike"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Instaliraj podešavanja više ekrana na sistemu"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Kloniraj ekran"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Ekran: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Izaberite ekran da izmenite podešavanja. Prevucite ekrane da im promenite "
+#~ "redosled."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Ne mogu da sačuvam podešavanja za ekran"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Ne mogu da dobijem magistralu sesije tokom primenjivanja podešavanja za "
+#~ "ekran"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Ne mogu da nađem ekrane"
+
+#~| msgid "Could not save the monitor configuration"
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Podešavanja ekrana su sačuvana"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr "Podešavanja će biti upotrebljena kada se sledeći put prijavite."
+
+#~| msgid "Could not save the monitor configuration"
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Ne mogu da postavim podrazumevana podešavanja za ekrane"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Ne mogu da dobijem podatke o ekranu"
+
+#~ msgid "Desktop"
+#~ msgstr "Radna površina"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Nova prečica..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Prečica"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Izmenjivači prečica"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Kod tastera prečice"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Način rada prečica"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Vrsta prečice."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Nepoznata radnja>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Proizvoljna prečica"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Greška pri čuvanju nove prečice"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Ne možete koristiti prečicu „%s“ jer se taster koristi pri kucanju.\n"
+#~ "Probajte da pridodate taster kao što je Ctrl, Alt ili Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Prečica „%s“ se već koristi za\n"
+#~ "„%s“"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "Ukoliko dodelite prečicu za „%s“, onemogućićete prečicu za „%s“."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Ponovo dodeli"
+
+# Jel OK ovo?
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "Greška pri isključivanju prečice u bazi podešavanja: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Suviše proizvoljnih prečica"
+
+#~ msgid "Action"
+#~ msgstr "Akcija"
+
+#~ msgid "Shortcut"
+#~ msgstr "Prečica"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Proizvoljna prečica"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Prečice na tastaturi"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Da izmenite prečicu, kliknite na odgovarajući red i ukucajte novu "
+#~ "kombinaciju tastera ili pritisnite Backspace da obrišete prečicu."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Podesite tastere za pokretanje čestih naredbi"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr "Samo primeni podešenja i izađi "
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Prikaži list sa podešavanjima za odmore pri kucanju"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Prikaži list sa podešavanjima tehnologije za ispomoć"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Postavke tastature za Gnom"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Zapišti kada je p_ristupačnost uključena ili isključena"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Zapišti kada je pritisnut _izmenjivač"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Zapišti kada je pritisnut _prekidač"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Zapišti kada je pritisnut _taster"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Zapišti ako taster _nije prihvaćen"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Zapišti ako je taster pri_hvaćen"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Zapišti ako taster _nije prihvaćen"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Odskočni tasteri"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Bljesak _naslovne linije prozora"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Bljesak celog _ekrana"
+
+#~ msgid "General"
+#~ msgstr "Opšte"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Pristupačnost tastature, zvučna potvrda"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Prikaži _vizuelnu potvrdu za zvuke uzbune"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Spori tasteri"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Lepljivi tasteri"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Vizuelni signal za zvuk"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Do_pusti odlaganje odmora"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "_Zvučna potvrda..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Treptući kursor"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Kurzor _trepće u poljima za unos teksta"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Brzina treptanja kursora"
+
+#~ msgid "D_elay:"
+#~ msgstr "_Zastoj:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "_Onemogući ako su dva tastera istovremeno pritisnuta"
+
+#~ msgid "Fast"
+#~ msgstr "Veliko"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Pritisci na taster se ponavljaju kada se taster drži pritisnut"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Postavke tastature"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Model tastature:"
+
+#~ msgid "Layouts"
+#~ msgstr "Rasporedi"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Spisak izabranih rasporeda tastature"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Zaključaj ekran nakon određenog vremena kako bi sprečio povrede od "
+#~ "preterane upotrebe tastature"
+
+#~ msgid "Long"
+#~ msgstr "Dug"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Tasteri miša"
+
+#~ msgid "Move _Down"
+#~ msgstr "Pomeri _dole"
+
+#~ msgid "Move _Up"
+#~ msgstr "Pomeri _gore"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Pomera ovaj raspored tastature naniže u spisku"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Pomera ovaj raspored tastature naviše u spisku"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "_Novi prozori koriste raspored trenutnog prozora"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Šrampa dijagram izabranog raspodela"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Uklanja izabrani raspored sa spiska"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Ponavljanje tastera"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Brzina ponavljanja tastera"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Postavlja podrazumevana podešavanja za trenutni\n"
+#~ "raspored tastature"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Vrati na _podrazumevano"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Brzina:"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Izaberite profil za dodavanje na spisak"
+
+#~ msgid "Short"
+#~ msgstr "Kratak"
+
+#~ msgid "Slow"
+#~ msgstr "Malo"
+
+#~| msgid "Keyboard Layout Options"
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Prikazuje i uređuje opcije rasporeda tastature"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Ubrzanje:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "_Uključivanje ispomoći preko prečica sa tastature"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Zastoj:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "Zanemari _uzastopne dvostruke pritiske na taster"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "Prihvati samo _duži pritisak na tastere"
+
+#~ msgid "_Options..."
+#~ msgstr "_Opcije..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "_Kontroliši pokazivač preko tastature"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Poseban _raspored za svaki prozor"
+
+#~ msgid "_Show..."
+#~ msgstr "_Prikaži..."
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simuliraj uzastopne pritisne na taster"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Brzina:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "Kucaj radi provere podešenja:"
+
+#~ msgid "By _country"
+#~ msgstr "Po _zemlji"
+
+#~ msgid "By _language"
+#~ msgstr "Po _jeziku"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Izaberite raspored"
+
+#~ msgid "Preview:"
+#~ msgstr "Pregled:"
+
+#~ msgid "_Country:"
+#~ msgstr "Ze_mlja:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Jezik:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Varijante:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Izaberite model tastature"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modeli:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Proizvođači:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Opcije rasporeda tastature"
+
+#~ msgid "Layout"
+#~ msgstr "Izgled"
+
+#~ msgid "Vendors"
+#~ msgstr "Proizvođači"
+
+#~ msgid "Models"
+#~ msgstr "Modeli"
+
+#~ msgid "Default"
+#~ msgstr "Podrazumevano"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Podesite vašu tastaturu"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Pomeri levo"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Pomeri desno"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Pomeri gore"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Pomeri dole"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Onemogućeno"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Navedite ime lista za prikazivanje (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Postavke miša za Gnomu"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "_Najpre izaberi vrstu klika"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "_Izaberi vrstu klika potezom miša"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "_Dvostruki klik:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "_Prevlačenje:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "I_sključi dodirnu tablu prilikom kucanja"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Vreme za dupli klik"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Prevlačenje stavki"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Vremenski klik"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Uključi _klik na dodirnoj tabli"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Uključi ho_rizontalne klizače"
+
+#~ msgid "High"
+#~ msgstr "Velika"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Nalaženje pokazivača"
+
+#~ msgid "Low"
+#~ msgstr "Mala"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Orijentacija miša"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Brzina pokazivača"
+
+#~ msgid "Scrolling"
+#~ msgstr "Klizanje"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "_Sekundarni klik:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "_Označi mesto pokazivača kada je pritisnut taster Control"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Prikaži _vrstu klika u prozoru"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Simulacija sekundarnog klika"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Osetljivost:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Probajte da kliknete na sijalicu radi provere podešavanja dvostrukog "
+#~ "klika."
+
+#~ msgid "Touchpad"
+#~ msgstr "Dodirna tabla"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Klizanje sa _dva prsta"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr "Možete koristiti i programče iz panela za izbor vremenskog klika."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Onemogućeno"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "Kli_zanje ivicom"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Klikni po prestanku kretanja miša"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Levoruki miš"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "_Osetljivost na pokret:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Desnoruki miš"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "O_setljivost:"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Jedan klik:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "In_terval:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_Aktiviraj sekundarni klik držeći glavno dugme"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Podesite miša"
+
+#~ msgid "New Location..."
+#~ msgstr "Novo mesto..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Mesto već postoji"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Mrežni posrednik"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Podesite postavke mrežnog posrednika"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Direktni priključak na internet</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Samopodešavanje posrednika</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Ručno podešavanje posrednika</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>Koristi _identifikaciju</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Adresa za samopodešavanje:"
+
+#~ msgid "C_reate"
+#~ msgstr "Nap_ravi"
+
+#~ msgid "Create New Location"
+#~ msgstr "Napravi novo mesto"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detalji HTTP posrednika"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP posrednik:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Zanemareni spisak domaćina"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Zanemareni računari"
+
+#~ msgid "Location:"
+#~ msgstr "Mesto:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Postavke mrežnog posrednika"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Podešavanje posrednika"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_OCKS server:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Mesto već postoji."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Korisničko ime:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Obriši mesto"
+
+#~ msgid "_Details"
+#~ msgstr "_Detalji"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP posrednik:"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Naziv mesta:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Lozinka:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Bezbedni HTTP posrednik:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Koristi istog posrednika za sve protokolo"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "Ne mogu da pokrenem program sa podešenjima za vaš upravnik prozora"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "_Hiper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "_Super (ili „Vindouz znak“)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Taster za premeštanje prozora"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Radnja za naslovnu liniju"
+
+# note(slobo): problem širine prikaza
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Za premeštanje prozora držite pritisnut ovaj taster i uhvatite prozor:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Postavke prozora"
+
+#~ msgid "Window Selection"
+#~ msgstr "Izbor prozora"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Dvostruki klik na naslovnu liniju izvršava:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Period pre izdizanja:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "Izdigni odabrane prozore posle određenog roka"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "Oda_beri prozore kada se miš kreće preko njih"
+
+#~ msgid "seconds"
+#~ msgstr "sekundi"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Podesite osobine za prozore"
+
+#~ msgid "Windows"
+#~ msgstr "Prozori"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "Upravnik prozora „%s“ nije prijavio alat za podešavanje\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Uvećaj"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Uvećaj vertikalno"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Uvećaj horizontalno"
+
+#~ msgid "Minimize"
+#~ msgstr "Umanji"
+
+#~ msgid "Roll up"
+#~ msgstr "Zamotaj"
+
+#~ msgid "None"
+#~ msgstr "Ništa"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "ključ nije pronađen [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Sakrij po prijavi (korisno za preučitavanje ljuske)"
+
+#~ msgid "Filter"
+#~ msgstr "Pretraži"
+
+# bug(slobo): šta je ovo?
+#~ msgid "Groups"
+#~ msgstr "Grupe"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Uobičajni poslovi"
+
+#~ msgid "Control Center"
+#~ msgstr "Upravljački centar"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Zatvori upravljački centar po aktiviranju stavke"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Zatvori školjku po obavljenom dodavanju ili uklanjanju akcije"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Zatvori školjku po aktiviranju pomoći"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Zatvori ljusku po pokretanju stavke"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "Zatvori ljusku po ažuriranju ili uklanjanju stavke"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "Određuje da li će se školjka zatvoriti po aktiviranju pomoći."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "Određuje da li će se školjka zatvoriti po aktiviranju stavke."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Određuje da li će se školjka zatvoriti nakon obavljenog dodavanja ili "
+#~ "uklanjanja stavke."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Određuje da li će se školjka zatvoriti nakon obavljenog ažuriranja ili "
+#~ "uklanjanja stavke."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Imena stavki i pridruženih .desktop datoteka"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Ime stavke koje će se prikazati u upravljačkom centru praćeno znakom "
+#~ "„;“za odvajanje i putanjom do pridružene .desktop datoteke koja će biti "
+#~ "pokrenuta."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Izmeni temu;gtk-theme-selector.desktop,Odredi omiljene programe;default-"
+#~ "applications.desktop,Dodaj štampač;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "ako je uključeno, glavni prozor upravljačkog centra će se zatvoriti po "
+#~ "pokretanju njegovih stavki."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Gnomov alat za podešavanje"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ako je postavljeno, onda će se za OpenTajp fontove koristiti umanjeni "
+#~ "prikaz."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ako je postavljeno, onda će se za PCF fontove koristiti umanjeni prikaz."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ako je postavljeno, onda će se za TruTajp fontove koristiti umanjeni "
+#~ "prikaz"
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ako je postavljeno, onda će se za Tajp1 fontove koristiti umanjeni prikaz"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
+#~ "prikaza kod OpenTajp fontova."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
+#~ "prikaza kod PCF fontove."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
+#~ "prikaza kod TruTajp fontova."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
+#~ "prikaza kod Tajp1 fontova."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Naredba za umanjeni prikaz kod OpenTajp fontova"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Naredba za umanjeni prikaz kod PCF fontova"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Naredba za umanjeni prikaz kod TruTajp fontova"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Naredba za umanjeni prikaz kod Tajp1 fonta"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Da li da uključim umanjeni prikaz OpenTajp fontova"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Da li da uključim umanjeni prikaz PCF fontova"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Da li da uključim umanjeni prikaz TruTajp fontova"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Da li da uključim umanjeni prikaz Tajp1 fontova"
+
+#~ msgid "Name:"
+#~ msgstr "Ime:"
+
+#~ msgid "Style:"
+#~ msgstr "Stil:"
+
+#~ msgid "Type:"
+#~ msgstr "Tip:"
+
+#~ msgid "Size:"
+#~ msgstr "Veličina:"
+
+#~ msgid "Version:"
+#~ msgstr "Verzija:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Autorska prava:"
+
+#~ msgid "Description:"
+#~ msgstr "Opis:"
+
+#~ msgid "Installed"
+#~ msgstr "Instalirano"
+
+#~ msgid "Install Failed"
+#~ msgstr "Neuspela instalacija"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "upotreba: %s datoteka sa fotom\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Instaliraj _font"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Pregledač fontova"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Pregled fontova"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Tekst za umanjeni prikaz (podrazumevano: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKST"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Veličina fonta (podrazumevano: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "VELIČINA"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "DATOTEKA-FONTA IZLAZNA-DATOTEKA"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Greška pri obradi argumenata: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Vaš kriterijum „%s“ se ne poklapa ni sa jednom stavkom."
+
+#~ msgid "No matches found."
+#~ msgstr "Ništa nije pronađeno."
+
+#~ msgid "Other"
+#~ msgstr "Ostalo"
+
+#~ msgid "Start %s"
+#~ msgstr "Pokreni %s"
+
+#~ msgid "Help"
+#~ msgstr "Pomoć"
+
+#~ msgid "Upgrade"
+#~ msgstr "Ažuriraj"
+
+#~ msgid "Uninstall"
+#~ msgstr "_Ukloni"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Ukloni iz omiljenih"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Dodaj u omiljene"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Ne pokreći po prijavi"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Pokreni po prijavi"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Novi tabelarni račun"
+
+#~ msgid "New Document"
+#~ msgstr "Novi dokument"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumenti"
+
+#~ msgid "File System"
+#~ msgstr "Sistem datoteka"
+
+#~ msgid "Network Servers"
+#~ msgstr "Mrežni serveri"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Otvori</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Preimenuj..."
+
+#~ msgid "Send To..."
+#~ msgstr "Pošalji u..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Premesti u smeće"
+
+#~ msgid "Delete"
+#~ msgstr "Izbriši"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Da li sigurno želite da trajno obrišete „%s“?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Ukoliko obrišete ovu stavku biće trajno izgubljena."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Otvori u programu „%s“"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Otvori u podrazumevanom programu"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Otvori u upravniku datotekam"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Danas %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Juče %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Traži"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Otvori %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Ukloni iz sistemskih stavki"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "Podešavanja miša"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Ne pokreći"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Raspored tastature „%s“"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Raspored tastature"
+
+#~ msgid "_Groups"
+#~ msgstr "_Grupe"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Ne mogu da uspavam računar.\n"
+#~ "Proverite da li je računar ispravno podešen."
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Vezujem za obustavljanje računara."
+
+#~ msgid "Suspend"
+#~ msgstr "Obustavi"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Uključite radi prikaza prozorčića kada se jave greške pri pokretanju "
+#~ "čuvara ekrana."
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Uključite za pokretanje čuvara ekrana po prijavi."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Prikaži greške pri pokretanju"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Pokreni čuvara ekrana"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Uključi dodatak za čuvanje ekrana"
+
+#~ msgid "Toggle screenreader"
+#~ msgstr "Prikaz čitača ekrana"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "Upotrebljeno je %d%% prostora na disku „%s“"
+
+#~ msgid "Analyze"
+#~ msgstr "Analiza"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "Upravljanje jačinom zvuka za Gnom"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Greška pri pokretanju čuvara ekrana:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Čuvar ekrana neće biti aktivan tokom ove seanse."
+
+#~ msgid "Screensaver"
+#~ msgstr "Čuvar ekrana"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "Dodatak za čuvara ekrana"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "Dodatak za font"
+
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr "Uključi dodatak za spisak isečaka"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "Uključite za pokretanje dodatka koji podešava pristupačnost tastature."
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Akcija povezanog tastera (%s) je više puta definisana\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Veza povezanog tastera (%s) je više puta definisana\n"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Nije ispravna veza sa tasterom (%s)"
+
+#~ msgid "Volume"
+#~ msgstr "Jačina"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "Edit"
+#~ msgstr "Uredi"
+
+#~ msgid "Fill screen"
+#~ msgstr "Popuni ekran"
+
+#~ msgid "Interface"
+#~ msgstr "Sučelje"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "Meniji i palete alatki"
+
+#~ msgid "Preview"
+#~ msgstr "Pregled"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Prikaži ikonice u menijima"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Izgled palete sa alatkama:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "_Izmenjive prečice menija"
+
+#~ msgid "_File"
+#~ msgstr "_Datoteka"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Postavke za ekran"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "Prevucite monitore kako bi odredili njihovo mesto"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "_Kloniraj ekran"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Promenite rezoluciju ekrana"
+
+#~ msgid "Display"
+#~ msgstr "Ekran"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "_Ubrzanje:"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "_Opcije rasporeda..."
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "Odabrani _rasporedi:"
+
+#~ msgid "C_ontrol"
+#~ msgstr "_Control"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "Ajšo, lepoto i čežnjo, za ljubav srca moga dođi u Hadžiće na kafu. "
+#~ "0123456789"
+
+#~| msgid "No Desktop Background"
+#~ msgid "_Desktop Background"
+#~ msgstr "_Pozadina radne površi"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Ništa nije pronađeno.</b> </span><span>\n"
+#~ "\n"
+#~ " Ni jedna stavka se ne poklapa sa filterom „<b>%s</b>“.</span>"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr "Nepoznati IB korisnika — možda je baza korisnika oštećena"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "Levi palac\n"
+#~ "Levi srednji prst\n"
+#~ "Levi domali prst\n"
+#~ "Levi mali prst\n"
+#~ "Desni palac\n"
+#~ "Desni srednji prst\n"
+#~ "Desni domali prst\n"
+#~ "Desni mali prst"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>E-pošta</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Kuća</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Posao</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Veb</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Promeni lozinku</span>"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Tehnologije za ispomoć</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Postavke</b>"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>B_oje</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Meniji i alatke</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Pregled</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>_Pozadina radne površi</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "_Iseci"
+
+#~ msgid "New File"
+#~ msgstr "Nova datoteka"
+
+#~ msgid "Open File"
+#~ msgstr "Otvori datoteku"
+
+#~ msgid "Save File"
+#~ msgstr "Snimi datoteku"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "Puna boja\n"
+#~ "Vodoravni prelaz\n"
+#~ "Uspravni prelaz"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "Tekst ispod stavki\n"
+#~ "Tekst pored stavki\n"
+#~ "Samo ikone\n"
+#~ "Samo tekst"
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "Popločano\n"
+#~ "Uvećano\n"
+#~ "Na sredini\n"
+#~ "Srazmerno\n"
+#~ "Ispunjen ekran"
+
+#~ msgid "_Copy"
+#~ msgstr "_Umnoži"
+
+#~ msgid "_New"
+#~ msgstr "_Nova"
+
+#~ msgid "_Open"
+#~ msgstr "_Otvori"
+
+#~ msgid "_Print"
+#~ msgstr "_Štampaj"
+
+#~ msgid "_Quit"
+#~ msgstr "_Izađi"
+
+#~ msgid "_Save"
+#~ msgstr "_Sačuvaj"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Vizelni</b>"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "Obično\n"
+#~ "Levo\n"
+#~ "Desno\n"
+#~ "Izvrnuto\n"
+
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "Ne mogu da primenim izabrana podešavanja"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>Odskočni tasteri</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Opšte</b>"
+
+#~ msgid "<b>Slow Keys</b>"
+#~ msgstr "<b>Spori tasteri</b>"
+
+#~ msgid "<b>Sticky Keys</b>"
+#~ msgstr "<b>Lepljivi tasteri</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Brzo</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Dugo</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Kratko</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Sporo</i></small>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Pronađi pokazivač</b>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>Brzo</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>Velika</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>Sporo</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>Mala</i></small>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Spisak zanemarenih računara</b>"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>_Pozadinska slika</b>"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Bez pozadine"
+
+#~ msgid "Monitor Resolution Settings"
+#~ msgstr "Postavke rezolucije ekrana"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Rezolucija ekrana"
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Povrati i uskladišti početna podešavanja"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Omogući zvuk i poveži zvuke sa događajima"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "Nepoznat upravljač jačinom zvuka: %d"
+
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "Nisam uspeo da sastavim cevovod za procveru „%s“"
+
+#~ msgid "Not connected"
+#~ msgstr "Nije povezan"
+
+#~ msgid "Autodetect"
+#~ msgstr "Automatski prepoznaj"
+
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - Napredna arhitektura za zvuk na Linuksu"
+
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART zvučni servis"
+
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - Prosvetljeni zvučni servis"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - Otvoreni sistem zvuka"
+
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "PulseAudio zvučni server"
+
+#~ msgid "Test Sound"
+#~ msgstr "Proveri zvuk"
+
+#~ msgid "Silence"
+#~ msgstr "Tišina"
+
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr "- Postavke zvuka"
+
+#~ msgid "<b>Alerts and Sound Effects</b>"
+#~ msgstr "<b>Zvučni efekti i upozorenja</b>"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>Audio konferansa</b>"
+
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>Podrazumevani kanali zvučnog uređaja</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>Muzika i filmovi</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>Zvučni signali</b>"
+
+#~ msgid "<b>Sound Theme</b>"
+#~ msgstr "<b>Zvučna tema</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Proveravam...</span>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "Klikni na U redu za kraj."
+
+#~ msgid "Devices"
+#~ msgstr "Uređaji"
+
+#~ msgid "Play _alert sound"
+#~ msgstr "Puštaj zvuke _upozorenja"
+
+#~ msgid "Play _sound effects when buttons are clicked"
+#~ msgstr "Puštaj zvuke pri kliku na _dugmiće"
+
+#~ msgid "S_ound playback:"
+#~ msgstr "Puštanje zv_uka:"
+
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "Odaberi uređaj i kanale za kontrolu tastaturom. Koristi Shift i Ctrl "
+#~ "tastere da odabereš više kanala ako je to neophodno."
+
+#~ msgid "So_und playback:"
+#~ msgstr "Puštanje zv_uka:"
+
+#~ msgid "Sou_nd capture:"
+#~ msgstr "S_nimanje zvuka:"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Postavke zvuka"
+
+#~ msgid "Sounds"
+#~ msgstr "Zvuci"
+
+#~ msgid "Test"
+#~ msgstr "Proveri"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "Cevovod komande za proveru"
+
+#~ msgid "_Device:"
+#~ msgstr "_Uređaj:"
+
+#~ msgid "_Play alerts and sound effects"
+#~ msgstr "_Puštaj zvuke efekta i upozorenja"
+
+#~ msgid "_Sound playback:"
+#~ msgstr "Puštanje _zvuka:"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alert sound"
+#~ msgstr "Zvuk upozorenja"
+
+#~ msgctxt "Sound event"
+#~ msgid "Windows and Buttons"
+#~ msgstr "Prozori i dugmići"
+
+#~ msgctxt "Sound event"
+#~ msgid "Button clicked"
+#~ msgstr "Pritisak na digme"
+
+#~ msgctxt "Sound event"
+#~ msgid "Toggle button clicked"
+#~ msgstr "Uključivenje dugmeta"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window maximized"
+#~ msgstr "Uvećavanje prozora"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window unmaximized"
+#~ msgstr "Poništeno uvećanje"
+
+#~ msgctxt "Sound event"
+#~ msgid "Window minimised"
+#~ msgstr "Umanjivanje prozora"
+
+#~ msgctxt "Sound event"
+#~ msgid "Desktop"
+#~ msgstr "Radna površina"
+
+#~ msgctxt "Sound event"
+#~ msgid "Login"
+#~ msgstr "Prijava"
+
+#~ msgctxt "Sound event"
+#~ msgid "Logout"
+#~ msgstr "Odjava"
+
+#~ msgctxt "Sound event"
+#~ msgid "New e-mail"
+#~ msgstr "Nova e-pošta"
+
+#~ msgctxt "Sound event"
+#~ msgid "Empty trash"
+#~ msgstr "Pražnjenje smeća"
+
+#~ msgctxt "Sound event"
+#~ msgid "Long action completed (download, CD burning, etc.)"
+#~ msgstr "Kraj duge radnje (preuzimanje, upis diska i slično)"
+
+#~ msgctxt "Sound event"
+#~ msgid "Alerts"
+#~ msgstr "Uzbune"
+
+#~ msgctxt "Sound event"
+#~ msgid "Information or question"
+#~ msgstr "Podatak ili pitanje"
+
+#~ msgctxt "Sound event"
+#~ msgid "Warning"
+#~ msgstr "Upozorenje"
+
+#~ msgctxt "Sound event"
+#~ msgid "Error"
+#~ msgstr "Greška"
+
+#~ msgctxt "Sound event"
+#~ msgid "Battery warning"
+#~ msgstr "Upozorenje baterije"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Proveri zvučni signal"
+
+#~ msgid "Sound files"
+#~ msgstr "Zvučne datoteke"
+
+#~ msgid "Custom..."
+#~ msgstr "Proizvoljno..."
+
+#~ msgid "Lock Screen"
+#~ msgstr "Zaključaj ekran"
+
+#~ msgid "Shutdown"
+#~ msgstr "Ugasi računar"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr "Uključi pri prijavi podršku za Gnomove tehnologije za ispomoć"
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "Greška pri pokretanju prozorčeta za podešavanje miša: %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "Ne mogu da uvezem AccessX podešavanja iz datoteke '%s'"
+
+# bug(slobo): glupo
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Uvezi datoteku sa podešavanjima mogućnosti"
+
+#~ msgid "_Import"
+#~ msgstr "U_vezi"
+
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "Podesite pristupačnost tastature"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Izgleda da sistem nema XKB proširenje. Bez toga opcije za pristupačnost "
+#~ "tastature neće raditi."
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Omogući tastere na mišu</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Omogući tastere za ponavljanje</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Karakteristike</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Prekidači</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Osnovno"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr ""
+#~ "Zapišti jednom kada je dioda uključena, a dva puta kada je isključena."
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Napravi zastoj između pritiska na taster i pokretanja pokazivača:"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "Omogući prekidače"
+
+#~ msgid "Filters"
+#~ msgstr "Filteri"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Zanemari sve sledeće pritiske na ISTI taster ako se odigravaju u okviru "
+#~ "vremena koje korisnik može da podešava"
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Podešavanje pristupačnosti tastature (AccessX)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Najveća brzina pokazivača:"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "_Postavke miša..."
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "Prihvati tastere samo kada su držani pritisnuti određeno vreme koje "
+#~ "korisnik podešava"
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Izvrši višestruke istovremene operacije pritiska na taster uzastopnim "
+#~ "pritiskanjem izmenjivača"
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Vreme do najvećeg ubrzanja:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Preobrati brojčani deo tastature u kontolnu tablu za miša."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "Onemogući ako nije u upotrbi:"
+
+#~ msgid "_Enable keyboard accessibility features"
+#~ msgstr "Omogući opcije za pristupačnost tastature"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "Uvezi podešenja za opcije..."
+
+#~ msgid "_accepted"
+#~ msgstr "prihvaćeno"
+
+#~ msgid "_pressed"
+#~ msgstr "pritisnuto"
+
+#~ msgid "characters/second"
+#~ msgstr "znakova u sekundi"
+
+#~ msgid "milliseconds"
+#~ msgstr "milisekundi"
+
+#~ msgid "pixels/second"
+#~ msgstr "piksela u sekundi"
+
+#~ msgid ""
+#~ "Centered\n"
+#~ "Fill screen\n"
+#~ "Scaled\n"
+#~ "Zoom\n"
+#~ "Tiled"
+#~ msgstr ""
+#~ "Na sredini\n"
+#~ "Popuni ekran\n"
+#~ "Srazmerno\n"
+#~ "Uveličano\n"
+#~ "Popločano"
+
+#~ msgid "Go _to Fonts Folder"
+#~ msgstr "I_di u fasciklu sa fontovima"
+
+#~ msgid "The theme is an engine. You need to compile it."
+#~ msgstr "Tema je biblioteka. Morate je kompilirati."
+
+#~ msgid "The file format is invalid"
+#~ msgstr "Oblik datoteke je neispravan"
+
+#~ msgid "This theme is not in a supported format."
+#~ msgstr "Ova tema nije u podržanom obliku."
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s je putanja gde će se postaviti datoteke teme. Ovo se ne može koristiti "
+#~ "kao izvorna putanja"
+
+#~ msgid "The file format is invalid."
+#~ msgstr "Oblik datoteke je neispravan."
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Samo primeni postavke i izađi"
+
+#~ msgid "Connecting..."
+#~ msgstr "Povezujem..."
+
+# bug: AT -> Accessibility Toolkit?
+#~ msgid "Autostart the preferred AT"
+#~ msgstr "Sam pokreni željeni AT"
+
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "Program za poštu Evolucija verzije 1.4"
+
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "Program za poštu Evolucija verzije 1.5"
+
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "Program za poštu Evolucija verzije 1.6"
+
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "Program za poštu Evolucija verzije 2.0"
+
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "Program za poštu Evolucija verzije 2.2"
+
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "Program za poštu Evolucija verzije 2.4"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Links tekstualni čitač veba"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Lynx tekstualni čitač veba"
+
+#~ msgid "Simple OnScreen Keyboard"
+#~ msgstr "Jednostavna ekranska tastatura"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "W3M tekstualni čitač veba"
+
+#~ msgid "Inverted"
+#~ msgstr "Izvrnuto"
+
+#~ msgid "Default Settings"
+#~ msgstr "Osnovne postavke"
+
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Postavke ekrana %d\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Podešavanje rezolucije ekrana"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "Učini ovo _podrazumevanim samo za ovaj računar (%s)"
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Zadrži rezoluciju"
+
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr "Želite li da ostavite ovu rezoluciju?"
+
+#~ msgid "Use _previous resolution"
+#~ msgstr "Koristi prethodnu rezoluciju"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "Zadrži rezoluciju"
+
+#~ msgid ""
+#~ "The X Server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "Iks server ne podržava XRandR proširenje. Nisu moguće promene rezolucije "
+#~ "ekrana u hodu."
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Ova verzija XRandR proširenja nije usklađena sa ovi programom. Nisu "
+#~ "moguće promene rezolucije ekrana u hodu."
+
+#~ msgid "New accelerator..."
+#~ msgstr "Nova prečica..."
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr "Greška pri smeštanju nove prečice u bazu podešavanja: %s\n"
+
+#~ msgid "There was an error launching the keyboard tool: %s"
+#~ msgstr "Greška pri pokretanju programčeta za tastaturu: %s"
+
+#~ msgid "Choose..."
+#~ msgstr "Izaberi..."
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Mikrosoftova prirodna tastatura"
+
+#~ msgid "_Accessibility..."
+#~ msgstr "_Pristupačnost..."
+
+#~ msgid "_Layouts:"
+#~ msgstr "_Rasporedi:"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Brzo</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Visoko</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Veliko</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Nisko</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Sporo</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Malo</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Dugmad"
+
+#~ msgid "Motion"
+#~ msgstr "Kretanje"
+
+#~ msgid "      "
+#~ msgstr "       "
+
+#~ msgid "Advanced Configuration"
+#~ msgstr "Napredna podešavanja"
+
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "Omog_ući softversko mešanje zvuka (ESD)"
+
+#~ msgid "System Beep"
+#~ msgstr "Sistemsko zvonce"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "_Uključi sistemsko zvonce"
+
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Povezanost tastera (%s) nije dovršena\n"
+
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Povezanost tastera (%s)nije ispravna\n"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Greška pri pokretanju podešavanja XKB-a.\n"
+#~ "Može se dogoditi usled raznih okolnosti:\n"
+#~ "— greške u libxklavier biblioteci\n"
+#~ "— greške u Iks serveru (alatima xkbcomp, xmodmap)\n"
+#~ "— Iks server sa nesaglasnom izvedbom libxkbfile\n"
+#~ "\n"
+#~ "Podaci o izdanju Iks servera:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Ukoliko prijavite ovo kao grešku, uključite i:\n"
+#~ "— Izlaz naredbe <b>%s</b>\n"
+#~ "— Izlaz naredbe <b>%s</b>"
+
+# bug(danilo): XFree should be XFree86, AFAIK
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Koristite XFree 4.3.0.\n"
+#~ "Postoje neki poznati problemi sa složenim podešavanjima XKB-a.\n"
+#~ "Pokušajte da koristite jednostavnija podešavanja ili da preuzmete novije "
+#~ "izdanje XFree programa."
+
+#~ msgid "Do _not show this warning again"
+#~ msgstr "_Nemoj više da prikazuješ ovo upozorenje"
+
+#~ msgid ""
+#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.</b>\n"
+#~ "\n"
+#~ "Expected was %s, but the the following settings were found: %s.\n"
+#~ "\n"
+#~ "Which set would you like to use?"
+#~ msgstr ""
+#~ "<b>Podešavanja tastature iz Iksa se razlikuju od tekućih podešavanja "
+#~ "tastature u Gnomu.</b>\n"
+#~ "\n"
+#~ "Očekivano je %s, ali pronađena su sledeća podešavanja: %s.\n"
+#~ "\n"
+#~ "Koja podešavanja želite da koristite?"
+
+#~ msgid "Use X settings"
+#~ msgstr "Koristi podešavanja Iksa"
+
+#~ msgid "Keep GNOME settings"
+#~ msgstr "Zadrži podešavanja iz Gnoma"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_Nemoj više da prikazuješ ovo upozorenje."
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Želite li da učitate modmap datoteku(e)?"
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "Greška pri obrazovanju signala cevi."
+
+#~ msgid "Type"
+#~ msgstr "Vrsta"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Vrsta primenjivača pozadine: BG_APPLIER_ROOT za prozor korena ili "
+#~ "BG_APPLIER_PREVIEW za pregled"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Širina ukoliko je primenjivač za pregled:Polazna vrednost je 64."
+
+#~ msgid "Preview Height"
+#~ msgstr "Visina pregleda"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Visina ukoliko je primenjivač za pregled:Polazna vrednost je 48."
+
+#~ msgid "Screen"
+#~ msgstr "Ekran"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Ekran na kojem će primenjivač pozadine crtati"
+
+#~ msgid "Edited %m/%d/%Y"
+#~ msgstr "Izmenjeno dana %d. %m. %Y."
+
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "Neočekivani atribut „%s“ za element „%s“"
+
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "Nije nađen atribut „%s“ elementa „%s“"
+
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "Neočekivana oznaka „%s“ — očekivana je oznaka „%s“"
+
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "Neočekivana oznaka „%s“ unutar „%s“"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "Nije nađena ispravna datoteka obeleživača"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "Obeleživač za putanju „%s“ već postoji"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "Ne postoji obeleživač za putanju „%s“"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "MIME tip nije definisan u obeleživaču za putanju „%s“"
+
+#~ msgid "No private flag has been defined in bookmark for URI '%s'"
+#~ msgstr "Privatna oznaka nije definisana u obeleživaču za putanju „%s“"
+
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "Grupe nisu postavljene u obeleživaču za putanju „%s“"
+
+#~ msgid "No application with name '%s' registered a bookmark for '%s'"
+#~ msgstr "Program sa imenom „%s“ nije napravio obeleživač za „%s“"
+
+#~ msgid ""
+#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr ""
+#~ "Ako je postavljeno, mime rukovaoci za text/plain i text/* će biti "
+#~ "usklađeni"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Prečica za e-poštu."
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Prečica do lične fascikle."
+
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Prečica za pokretanje pregledača pomoći."
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Prečica za pokretanje čitača veba."
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Prečica za zaključavanje ekrana."
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Prečica za odjavljivanje."
+
+#~ msgid "Media player"
+#~ msgstr "Puštanje medija"
+
+#~ msgid "Media player key's shortcut."
+#~ msgstr "Prečica za puštanje medija."
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Prečica za narednu pesmu."
+
+#~ msgid "Pause"
+#~ msgstr "Pauza"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Prečica za pauzu."
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Prečica za puštanje (ili puštanje/pauzu)."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Prečica za prethodnu pesmu."
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Prečica za pretragu."
+
+#~ msgid "Skip to next track"
+#~ msgstr "Pređi na narednu pesmu"
+
+#~ msgid "Skip to previous track"
+#~ msgstr "Pređi na prethodnu pesmu"
+
+#~ msgid "Sleep"
+#~ msgstr "Uspavaj"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Prečica za uspavljivanje."
+
+#~ msgid "Stop playback key"
+#~ msgstr "Zaustavi puštanje"
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Prečica za zaustavljanje puštanja."
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Prečica za utišavanje."
+
+#~ msgid "Volume mute's shortcut."
+#~ msgstr "Prečica za utišavanje zvuka."
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "Prečica za pojačavanje zvuka."
+
+#~ msgid "Display a dialog when there are errors running the screensaver"
+#~ msgstr "Prikaži prozorče kada dođe do greške pri pokretanju čuvara ekrana"
+
+#~ msgid "Run screensaver at login"
+#~ msgstr "Pokreni čuvara ekrana po prijavljivanju"
+
+#~ msgid "Show Startup Errors"
+#~ msgstr "Prikaži greške pri pokretanju"
+
+#~ msgid "Themes"
+#~ msgstr "Teme"
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Window border theme"
+#~ msgstr "Tema za okvire prozora"
+
+#~ msgid "Icon theme"
+#~ msgstr "Tema za ikone"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr ""
+#~ "Ako je postavljeno, onda će se za instalirane teme koristiti umanjeni "
+#~ "prikaz"
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "Ako je postavljeno, onda će se za teme koristiti umanjeni prikaz"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Dodeli ovaj taster naredbi koja će se koristiti za pravljenje umanjenog "
+#~ "prikaza kod instaliranih tema."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "Dodeli ovaj taster naredbi koja će se koristiti za pravljenje umanjenog "
+#~ "prikaza kod tema."
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "Naredba za umanjeni prikaz kod instaliranih tema"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "Naredba za umanjeni prikaz kod tema"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Da li da koristim umanjeni prikaz instaliranih tema"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Da li da koristim umanjeni prikaz tema"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABVGDĐEŽZ"
+
+#~ msgid "[FILE]"
+#~ msgstr "[DATOTEKA]"
+
+#~ msgid "Apply theme"
+#~ msgstr "Primeni temu"
+
+#~ msgid "Sets the default theme"
+#~ msgstr "Postavi za podrazumevanu temu"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>Programi</b>"
+
+#~ msgid "<b>Support</b>"
+#~ msgstr "<b>Podrška</b>"
+
+#~ msgid ""
+#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
+#~ "you next log in.</i></small>"
+#~ msgstr ""
+#~ "<i><small><b>Napomena:</b> Izmene ove postavke neće stupiti u dejstvo dok "
+#~ "se ne prijavite iznova.</small></i>"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Pokreni ove tehnologije za ispomoć pri svakoj vašoj prijavi:"
+
+#~ msgid "_Magnifier"
+#~ msgstr "_Lupa"
+
+#~ msgid "_On-screen keyboard"
+#~ msgstr "_Tastatura na ekranu"
+
+#~ msgid "_Screenreader"
+#~ msgstr "_Čitač ekrana"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'orca' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Nema dostupnih tehnologija za ispomoć na vašem sistemu. Neophodno je "
+#~ "instalirati „gok“ paket za tastaturu na ekranu i „orca“ paket za "
+#~ "mogućnosti čitanja ekrana i uvećavanja."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gok' package must be installed in order to get on-screen keyboard "
+#~ "support."
+#~ msgstr ""
+#~ "Nisu prisutne sve dostupne tehnologije za ispomoć na vašem sistemu. "
+#~ "Neophodno je instalirati „gok“ paket za tastaturu na ekranu."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'orca' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Nisu prisutne sve dostupne tehnologije za ispomoć na vašem sistemu. "
+#~ "Neophodno je instalirati „orca“ paket za mogućnosti čitanja ekrana i "
+#~ "uvećavanja."
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Izmenite izgled pozadine vaše radne površi"
+
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "<b>_Pozadina radne površi</b>"
+
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "<b>_Boje radne površi</b> "
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Postavke pozadine radne površi"
+
+# note(slobo): problem širine prikaza
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Dodaj"
+
+#~ msgid "_Finish"
+#~ msgstr "Zav_rši"
+
+#~ msgid "_Remove"
+#~ msgstr "Ukloni"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[DATOTEKA...]"
+
+#~ msgid "- Desktop Background Preferences"
+#~ msgstr "- Postavke pozadine radne površi"
+
+#~ msgid "background size|%s, %d %s x %d %s"
+#~ msgstr "%s, %d %s x %d %s"
+
+#~ msgid "<b>Audio Player</b>"
+#~ msgstr "<b>Puštač nosača zvuka</b>"
+
+#~ msgid "left"
+#~ msgstr "levo"
+
+#~ msgid "inverted"
+#~ msgstr "obrnuto"
+
+#~ msgid "right"
+#~ msgstr "desno"
+
+#~ msgid "<b>Hinting</b>:"
+#~ msgstr "<b>Saveti</b>:"
+
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<b>Doterivanje</b>:"
+
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<b>Poredak ispod tačke</b>:"
+
+# note(slobo): problem širine prikaza
+#~ msgid "Go _to font folder"
+#~ msgstr "Deta_lji"
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "Dostupni _rasporedi:"
+
+#~ msgid "Reset To De_faults"
+#~ msgstr "_Vrati na podrazumevano"
+
+#~ msgid "Separate _group for each window"
+#~ msgstr "Razdvoj _grupu za svaki prozor"
+
+#~ msgid "Unknown Pointer"
+#~ msgstr "Nepoznat kursor"
+
+#~ msgid "The default pointer that ships with X"
+#~ msgstr "Osnovni kurzor koji dolazi sa Iksom"
+
+#~ msgid "The default pointer inverted"
+#~ msgstr "Osnovni kurzor obrnutih boja"
+
+#~ msgid "Large version of normal pointer"
+#~ msgstr "Veća varijanta normalnog kurzora"
+
+#~ msgid "Large version of white pointer"
+#~ msgstr "Veća varijanta belog kursora<"
+
+#~ msgid "Pointer Theme"
+#~ msgstr "Tema pokazivača"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Istakni pokazivač kada se pritisne Ctrl"
+
+#~ msgid "Medium"
+#~ msgstr "Srednji"
+
+#~ msgid "Pointer Size:"
+#~ msgstr "Veličina pokazivača:"
+
+# bug(danilo): plural-forms
+#~ msgid "Pointers"
+#~ msgstr "Pokazivači"
+
+#~ msgid "Would you like to remove this theme?"
+#~ msgstr "Želite li da uklonite ovu temu?"
+
+#~ msgid "Theme deleted succesfully. Please select another theme."
+#~ msgstr "Tema je uklonjena uspešno. Molim izaberite drugu temu."
+
+#~ msgid "Theme can not be deleted"
+#~ msgstr "Tema ne može biti uklonjena"
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Na vašem sistemu nije pronađena nijedna tema.  Ovo verovatno znači da "
+#~ "dijalog \"Podešenja teme\" nije pravilno instaliran, ili da niste "
+#~ "instalirali paket \"gnom teme\"."
+
+#~ msgid ""
+#~ "Can not install theme. \n"
+#~ "The %s utility is not installed."
+#~ msgstr ""
+#~ "Ne mogu da instaliram temu. \n"
+#~ "Alat %s nije instaliran."
+
+#~ msgid ""
+#~ "Can not install theme. \n"
+#~ "There was a problem while extracting the theme"
+#~ msgstr ""
+#~ "Ne mogu da instaliram temu.\n"
+#~ "Dogodila se greška prilikom raspakivanje teme."
+
+#~ msgid "The theme is an engine. You need to compile the theme."
+#~ msgstr "Tema je podrška. Morate je kompajlirati."
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "Navedena putanja datoteke teme za postavljanje je neispravna"
+
+#~ msgid "Custom theme"
+#~ msgstr "Prilagođena tema"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "Možete sačuvati ovu temu pritiskom na „Snimi temu“ dugme."
+
+#~ msgid ""
+#~ "The default theme schemas could not be found on your system.  This means "
+#~ "that you probably don't have metacity installed, or that your gconf is "
+#~ "configured incorrectly."
+#~ msgstr ""
+#~ "Ne mogu da nađem podrazumevane sheme tema na vašem sistemu. Ovo znači da "
+#~ "verovatno niste instalirali metasiti, ili da je vaš GKonf loše podešen."
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "Odaberite teme za razne delove radne površine"
+
+#~ msgid "<b>You do not have permission to change theme settings</b>"
+#~ msgstr "<b>Nemate ovlašćenja da izmenite postavke teme</b>"
+
+#~ msgid "Apply _Background"
+#~ msgstr "Primeni pozadinu"
+
+#~ msgid "Save _Background Image"
+#~ msgstr "Snimi _pozadinsku sliku"
+
+#~ msgid "Select theme for the desktop"
+#~ msgstr "Izaberite temu za okruženje"
+
+#~ msgid "The current controls theme does not support color schemes"
+#~ msgstr "Kontrole odabrane teme ne podržavaju promenu šeme boja"
+
+#~ msgid "Theme Details"
+#~ msgstr "Detalji teme"
+
+#~ msgid "Theme Preferences"
+#~ msgstr "Podešenja teme"
+
+#~ msgid "This theme suggests a background:"
+#~ msgstr "Ova tema predlaže pozadinu:"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Instaliraj temu..."
+
+#~ msgid "_Save Theme..."
+#~ msgstr "_Sačuvaj temu..."
+
+#~ msgid "theme selection tree"
+#~ msgstr "stablo izbora teme"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr "Prilagodite izgled linija sa alatima i menijama u programima"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Ponašanje i izgled</b>"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Postavke menija i palete sa alatima"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "_Odvojive trake sa alatkama"
+
+#~ msgid "_Edit"
+#~ msgstr "_Uređivanje"
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this command exists."
+#~ msgstr ""
+#~ "Ne mogu da izvršim naredbu: %s\n"
+#~ "Proverite da li ona postoji."
+
+#~ msgid "Volume mute's shortcut"
+#~ msgstr "Prečica za isključivanje zvuka"
+
+#~ msgid "Old password is incorrect, please retype it"
+#~ msgstr "Stara lozinka je netačna, molim unesite je ponovo"
+
+#~ msgid "Could not run /usr/bin/passwd"
+#~ msgstr "Ne mogu da izvršim naredbu /usr/bin/passwd"
+
+#~ msgid "Unexpected error has occurred"
+#~ msgstr "Dogodila se neočekivana greška"
+
+#~ msgid "Please type the passwords."
+#~ msgstr "Molim ukucajte lozinke."
+
+#~ msgid "Old pa_ssword:"
+#~ msgstr "_Stara lozinka:"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "Podrška tehnologijama za ispomoć"
+
+#~ msgid "From:"
+#~ msgstr "Sa:"
+
+#~ msgid "To:"
+#~ msgstr "Na"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid ""
+#~ "Can not install themes. \n"
+#~ "The gzip utility is not installed."
+#~ msgstr ""
+#~ "Ne mogu da instaliram teme. \n"
+#~ "Alat gzip nije instaliran."
+
+#~ msgid ""
+#~ "Icon Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema ikona %s je uspešno instalirana.\n"
+#~ "Možete je izabrati među detaljima teme."
+
+#~ msgid ""
+#~ "Windows Border Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema ivica prozora %s je uspešno instalirana.\n"
+#~ "Možete je izabrati među detaljima teme."
+
+#~ msgid ""
+#~ "Controls Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema elemenata %s je uspešno instalirana.\n"
+#~ "Možete je izabrati među detaljima teme."
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Instaliraj temu</span>"
+
+#~ msgid "New themes can also be installed by dragging them into the window."
+#~ msgstr "Nove teme se takođe mogu instalirati dovlačenjem u prozor."
+
+#~ msgid "Save Theme"
+#~ msgstr "Snimi temu"
+
+#~ msgid "Short _description:"
+#~ msgstr "Kratak opis:"
+
+#~ msgid "Theme _Details"
+#~ msgstr "Detalji teme"
+
+#~ msgid "_Theme name:"
+#~ msgstr "Naziv _teme:"
+
+#~ msgid "No '/dev/pmu' device found"
+#~ msgstr "Nijedan „/dev/pmu“ uređaj nije pronađen"
+
+#~ msgid "Not a powerbook"
+#~ msgstr "Nije moćna mašina"
+
+#~ msgid "Wrong permission for '/dev/pmu' device"
+#~ msgstr "Pogrešne dozvole za uređaj „/dev/pmu“"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Nisam mogao da pokrenem bonobo"
+
+#~ msgid ""
+#~ "Couldn't load the Glade file.\n"
+#~ "Make sure that this daemon is properly installed."
+#~ msgstr ""
+#~ "Ne mogu da učitam Glejd datoteku.\n"
+#~ "Proverite da li je ova usluga ispravno postavljena."
+
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr "Dogodila se greška prilikom učitavanja slike: %s"
+
+#~ msgid "Brightness down"
+#~ msgstr "Smanji osvetljenje"
+
+#~ msgid "Brightness down's shortcut."
+#~ msgstr "Prečica za smanjivanje osvetljenja."
+
+#~ msgid "Brightness up"
+#~ msgstr "Povećaj osvetljenje"
+
+#~ msgid "Brightness up's shortcut."
+#~ msgstr "Prečica za povećanje osvetljenja."
+
+#~ msgid ""
+#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
+#~ "Useful for re-applying xmodmap based adjustments"
+#~ msgstr ""
+#~ "Skup skripti za pokretanje kad god se izmeni stanje tastature. Korisno za "
+#~ "ponovno uključivanje xmodmap izmena"
+
+#~ msgid "A list of modmap files available in the $HOME directory."
+#~ msgstr "Spisak modmap datoteka dostupnih u $HOME direktorijumu."
+
+#~ msgid "Default group, assigned on window creation"
+#~ msgstr "Podrazumevana grupa, dodeljena po pravljenju prozora"
+
+#~ msgid "Keep and manage separate group per window"
+#~ msgstr "Drži i radi sa odvojenom grupom po prozoru"
+
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Baratanje osvežavanjem tastature:"
+
+#~ msgid "Keyboard layout"
+#~ msgstr "Raspored tastature"
+
+#~ msgid "Keyboard model"
+#~ msgstr "Model tastature"
+
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr ""
+#~ "Podešavanja tastature u GKonfu će ubrzo biti prevaziđena od strane "
+#~ "sistema (zastarelo)"
+
+#~ msgid "Save/restore indicators together with layout groups"
+#~ msgstr "Sačuvaj/vrati pokazatelje zajedno sa grupama rasporeda"
+
+#~ msgid "Show layout names instead of group names"
+#~ msgstr "Prikaži nazive rasporeda umesto imena grupa"
+
+#~ msgid ""
+#~ "Show layout names instead of group names (only for versions of XFree "
+#~ "supporting multiple layouts)"
+#~ msgstr ""
+#~ "Prikaži nazive rasporeda umesto imena grupa (samo za XFree izdanja koja "
+#~ "podržavaju više rasporeda)"
+
+#~ msgid "Suppress the \"X sysconfig changed\" warning message"
+#~ msgstr "Sakrij upozorenje „izmenjena sistemska podešavanja Iksa“"
+
+#~ msgid ""
+#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
+#~ "configuration) This key has been deprecated since GNOME 2.12, please "
+#~ "unset the model, layouts and options keys to get the default system "
+#~ "configuration."
+#~ msgstr ""
+#~ "Podešavanja tastature u GKonfu će ubrzo biti prevaziđena (iz podešavanja "
+#~ "sistema)  Ovaj ključ je zastareo počevši od Gnoma 2.12, izbacite postavke "
+#~ "modela, rasporeda i opcija da biste dobili podrazumevano podešavanje "
+#~ "sistema."
+
+#~ msgid "keyboard layout"
+#~ msgstr "raspored tastature"
+
+#~ msgid "keyboard model"
+#~ msgstr "model tastature"
+
+#~ msgid "modmap file list"
+#~ msgstr "spisak modmap datoteka"
+
+#~ msgid "Orientation"
+#~ msgstr "Pružanje"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Pružanje fioke"
+
+#~ msgid "microseconds"
+#~ msgstr "mikrosekundi"
+
+#~ msgid "Epiphany"
+#~ msgstr "Spoznaja"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "_Terminal:"
+
+#~ msgid "Large Cursor"
+#~ msgstr "Veliki kurzor"
+
+#~ msgid "Please specify a name and a command for this editor."
+#~ msgstr "Navedite ime i naredbu za ovaj uređivač."
+
+#~ msgid "Add..."
+#~ msgstr "Dodaj..."
+
+#~ msgid "Can open _URIs"
+#~ msgstr "Ne mogu da otvorim _adrese"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Osobine prilagođenog uređivača"
+
+#~ msgid "Default Mail Reader"
+#~ msgstr "Osnovni čitač pošte"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Osnovni terminal"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Osnovni uređivač teksta"
+
+#~ msgid "Edit..."
+#~ msgstr "Uredi..."
+
+#~ msgid "Run in a _terminal"
+#~ msgstr "Pokreni u _terminalu"
+
+#~ msgid ""
+#~ "Select the window manager you want.  You will need to hit apply, wave the "
+#~ "magic wand, and do a magic dance for it to work."
+#~ msgstr ""
+#~ "Odaberite upravnika prozora koji želite. Moraćete da kliknete „primeni“, "
+#~ "mahnete čarobnim štapićem, i izvedete čarobni ples da bi proradilo."
+
+#~ msgid "Understands _Netscape Remote Control"
+#~ msgstr "Razume Netscape-ove daljinske kontrole"
+
+#~ msgid "Use this _editor to open text files in the file manager"
+#~ msgstr ""
+#~ "Koristi ovaj uređivač teksta za otvaranje tekst datoteka u upravniku "
+#~ "datoteka"
+
+#~ msgid "Window Manager"
+#~ msgstr "Upravnik prozora"
+
+#~ msgid "_Command:"
+#~ msgstr "_Naredba:"
+
+#~ msgid "_Properties..."
+#~ msgstr "Oso_bine..."
+
+#~ msgid "_Select:"
+#~ msgstr "_Izaberi:"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "O_mogući server zvuka na početku"
+
+#~ msgid "_Sound an audible bell"
+#~ msgstr "_Zvuk i razgovetno zvonce"
+
+#~ msgid "_Visual feedback:"
+#~ msgstr "_Vizuelno zvonce:"
+
+#~ msgid "Permissions on the file %s are broken\n"
+#~ msgstr "Dozvole datoteke %s su neispravne\n"
+
+#~ msgid "Event"
+#~ msgstr "Događaj"
+
+#~ msgid "Sound File"
+#~ msgstr "Datoteka sa zvukom"
+
+#~ msgid "_Sounds:"
+#~ msgstr "_Zvuci:"
+
+#~ msgid "_Play"
+#~ msgstr "_Pokreni"
+
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "Idi do direktorijuma sa temama"
+
+#~ msgid "The typing monitor is already running."
+#~ msgstr "Praćenje kucanja je već pokrenuto"

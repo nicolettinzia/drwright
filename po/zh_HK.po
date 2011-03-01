@@ -1,0 +1,4843 @@
+# #-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#
+# Chinese (Hong Kong) translation of gnome-control-center.
+# Copyright (C) 1999, 2001-07 Free Software Foundation, Inc.
+# GNOME 1.x:
+# S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999.
+# Abel Cheung <abel@oaka.org>, 2001-2002.
+# GNOME 2.x:
+# Abel Cheung <abel@oaka.org>, 2001-2003, 2005.
+# Woodman Tuen <wmtuen@gmail.com>, 2004-07.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008.
+#
+#
+# #-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#
+# Chinese (Hong Kong) translation of gnome-control-center.
+# Copyright (C) 1999, 2001-07 Free Software Foundation, Inc.
+# GNOME 1.x:
+# S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999.
+# Abel Cheung <abel@oaka.org>, 2001-2002.
+# GNOME 2.x:
+# Abel Cheung <abel@oaka.org>, 2001-2003, 2005.
+# Woodman Tuen <wmtuen@gmail.com>, 2004-07.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008.
+#
+#
+# #-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#
+# Chinese (Hong Kong) translation of gnome-control-center.
+# Copyright (C) 1999, 2001-07 Free Software Foundation, Inc.
+# GNOME 1.x:
+# S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999.
+# Abel Cheung <abel@oaka.org>, 2001-2002.
+# GNOME 2.x:
+# Abel Cheung <abel@oaka.org>, 2001-2003, 2005.
+# Woodman Tuen <wmtuen@gmail.com>, 2004-07.
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center 2.31.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-07-20 15:57+0800\n"
+"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
+"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "啟用除錯碼"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "不要檢查通知區是否存在"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "休息提示小程式"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"休息提示小程式需要透過程式狀態通知區來顯示資訊，可是面板中並沒有該區域。你可"
+"以在面板上按滑鼠右邊按鈕，選取「加入至面板」及其中的「程式狀態通知區」後，再"
+"按「新增」。"
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "休息一下(_T)"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "已停用"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "距離休息時間還有 %d 分鐘"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "距離休息時間少於 1 分鐘"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr "無法顯示「休息提示」偏好設定對話方塊，因為出現以下的錯誤：%s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "由 Richard Hult <richard@imendio.com> 編寫"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "由 Anders Carlsson 加入視覺效果"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "在使用電腦時發出休息提示的小工具。"
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"如對翻譯有任何意見，請送一封電子郵件給\n"
+"以下地址，GNOME 翻譯隊伍會盡快回覆你：\n"
+"zh-l10n@lists.linux.org.tw\n"
+"\n"
+"Woodman Tuen <wmtuen@gmail.com>, 2004-07"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "停止休息(_P)"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "請休息一下！"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "是否開啟螢幕閱讀器。"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "是否開啟螢幕閱讀器。"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "休息提示"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "休息時間為(_B):"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "透過鎖定畫面來強制休息(_L)"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "工作時間為(_W):"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "現在休息（剩下 %d分）"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "現在休息（剩下不到一分鐘）"
+
+#~ msgid "minutes"
+#~ msgstr "分鐘"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "<b>Arbeit</b>\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "<b>工作</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "選用這個設定可以讓你暫時放棄休息"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "指定休息時間長度，這段期間內不允許使用鍵盤"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "強制休息前可以工作的時間"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#, fuzzy
+#~ msgid "/_About"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "/_Über\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "/關於(_A)"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pausenerinnerer"
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Setzen Sie diesen Wert auf »True«, um die MIME-Typ-Handler für »text/"
+#~ "plain« und »text/*« synchron zu halten."
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "»text/plain« und »text/*«-Handler synchronisieren"
+
+#, fuzzy
+#~ msgid "Accessibility"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "無障礙功能\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "無障礙功能\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "無障礙環境"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "可用空間百分比通知界限"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "可用空間不通知界限"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "重覆警示的最小通知期間"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "要忽略的掛載路徑"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "開始警告磁碟空間不足的剩餘空間百分比界限。如果可用空間的百分比低於這個值就"
+#~ "會顯示警告。"
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr "指定要忽略磁碟空間不足的掛載路徑清單。"
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr "以分鐘指定的時間。後續的儲存區警告出現頻率不會高於這個週期。"
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr "指定一個 GB 數值。如果可用空間大於此數值，就不會顯示警告。"
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr "指定可用磁碟空間減少時發出後續警告前的百分比。"
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "後續可用百分比通知門檻"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "退出光碟片的組合鍵。"
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "啟用或停用觸控板的組合鍵。"
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "執行計數機的組合鍵。"
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "執行電子郵件客戶端的組合鍵。"
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "執行說明文件瀏覽器的組合鍵。"
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "執行媒體播放程式的組合鍵。"
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "執行搜尋工具的組合鍵。"
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "執行網頁瀏覽器的組合鍵。"
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "鎖定螢幕的組合鍵。"
+
+#~ msgid "Binding to log out."
+#~ msgstr "登出的組合鍵。"
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "降低系統音量的組合鍵。"
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "設定系統靜音的組合鍵。"
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "開啟家目錄的組合鍵。"
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "暫停播放的組合鍵。"
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "提高系統音量的組合鍵。"
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "跳到下一首的組合鍵。"
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "跳回上一首的組合鍵。"
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr "開始播放(或切換播放/暫停)的組合鍵。"
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "停止播放的組合鍵。"
+
+#~ msgid "Eject"
+#~ msgstr "退出"
+
+#~ msgid "Home folder"
+#~ msgstr "個人資料夾"
+
+#~ msgid "Launch calculator"
+#~ msgstr "執行計數機"
+
+#~ msgid "Launch email client"
+#~ msgstr "執行電子郵件客戶端"
+
+#~ msgid "Launch help browser"
+#~ msgstr "執行說明文件瀏覽器"
+
+#~ msgid "Launch media player"
+#~ msgstr "執行媒體播放程式"
+
+#~ msgid "Launch web browser"
+#~ msgstr "執行網頁瀏覽器"
+
+#~ msgid "Lock screen"
+#~ msgstr "鎖定畫面"
+
+#~ msgid "Log out"
+#~ msgstr "登出"
+
+#~ msgid "Next track"
+#~ msgstr "下一首歌曲"
+
+#~ msgid "Pause playback"
+#~ msgstr "暫停播放"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "播放（或播放/暫停）"
+
+#~ msgid "Previous track"
+#~ msgstr "上一首歌曲"
+
+#~ msgid "Search"
+#~ msgstr "搜尋"
+
+#~ msgid "Stop playback"
+#~ msgstr "停止播放"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "切換觸控板"
+
+#~ msgid "Volume down"
+#~ msgstr "調低音量"
+
+#~ msgid "Volume mute"
+#~ msgstr "靜音"
+
+#~ msgid "Volume step"
+#~ msgstr "音度"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "音度是音量的百分比。"
+
+#~ msgid "Volume up"
+#~ msgstr "調高音量"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "RandR 的預設組態檔案"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "在通知區顯示訊息"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "XRandR 外掛程式會在這個設定鍵指定的檔案中尋找預設的組態。這很類似通常儲存"
+#~ "在使用者家目錄的 ~/.config/monitors.xml。如果使用者沒有這個檔案，或是雖然"
+#~ "有卻不符含使用者的螢幕設定，就會以這個設定鍵指定的檔案來代替。"
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "在系統開機後開啟外接螢幕"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr "如果使用者在系統開機時接上外接螢幕則在開機後開啟外接螢幕。"
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "在系統開機後開啟手提電腦螢幕"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr "如果使用者在系統開機時接上手提電腦螢幕則在開機後開啟它。"
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr "是否在面板顯示通知圖示和顯示器相關訊息。"
+
+#~ msgid "Antialiasing"
+#~ msgstr "平滑化"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "Hinting\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "Hinting\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "字型提示"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA 順序"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "在 LCD 螢幕上子像素元素的順序；只有在平滑化設為「rgba」時才能使用。可能的"
+#~ "數值有：「rgb」為紅色在左(最常用)，「bgr」為藍色在左，「vrgb」為紅色在上，"
+#~ "「vbgr」為紅色在下。"
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr "用來將字型大小轉換為像素大小的解像度，單位為 點/每英吋。"
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "繪製字型時所用的平滑化類型。可能的數值有：「none」為不使用平滑化，"
+#~ "「grayscale」為標準的灰階平滑化，而「rgba」是子像素平滑化（只適用 LCD 螢"
+#~ "幕）。"
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "繪製字型時所用的 hinting 類型。可能的數值有：「none」為不使用 hinting，"
+#~ "「slight」為基本式，「medium」為中等程度，而「full」是最大的 hinting（可能"
+#~ "造成字體破碎）。"
+
+#~ msgid "Allowed keys"
+#~ msgstr "允許按鍵"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "如果為非空值，所屬 GConf 目錄不在此清單中的組合鍵都會被忽略。這在防止盜用"
+#~ "時很有用。"
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "打字時停用觸控板"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "啟用水平捲動"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "啟用觸控板的滑鼠點擊"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "啟用觸控板"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "選擇觸控板捲動方式"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "選擇觸控板的捲動方式。支援的數值有：0 ：停用，1：邊緣捲動，2：兩指式捲動"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr "如果你在打字時容易不小心碰到觸控板，可將此項設定為 TRUE。"
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "設定此項為 TRUE 可使用水平捲動，如同以 scroll_method 選取的方式一般。"
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr "設定此項為 TRUE 可以在觸控板上輕點來送出滑鼠點擊的指令。"
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "設定此項為 TRUE 以啟用所有的觸控板。"
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "GNOME 設定值伺服程式"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "切換放大鏡的組合鍵。"
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "切換螢幕鍵盤的組合鍵。"
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "切換螢幕閱讀器的組合鍵。"
+
+#~ msgid "Bounce keys"
+#~ msgstr "回鍵"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "用來開啟或關閉放大鏡的指令。"
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "用來開啟或關閉螢幕鍵盤的指令。"
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "用來開啟或關閉螢幕閱讀器的指令。"
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "啟用 XRandR 外掛程式"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "啟用鍵盤可存取性外掛程式"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "啟用背景圖片外掛程式"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "啟用剪貼簿外掛程式"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "啟用字型外掛程式"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "啟用管家外掛程式"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "啟用組合鍵外掛程式"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "啟用鍵盤外掛程式"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "啟用多媒體按鍵外掛程式"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "啟用滑鼠按鍵外掛程式"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "啟用智慧卡外掛程式"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "啟用音效外掛程式"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "啟用休息提示外掛程式"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "啟用 xrdb 外掛程式"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "啟用 xsettings 外掛程式"
+
+#~ msgid "Mouse keys"
+#~ msgstr "滑鼠按鍵"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "螢幕鍵盤"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "螢幕放大鏡"
+
+#~ msgid "Screen reader"
+#~ msgstr "螢幕閱讀器"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr "設為 True 以啟用管家外掛程式，可刪除暫時性檔案快取。"
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr "設為 True 以啟用管理 XRandR 設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr "設為 True 以啟用管理剪貼簿設定值的外掛程式。"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr "設為 True 以啟用管理桌面背景設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "設為 True 以啟用管理字型設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr "設為 True 以啟用管理鍵盤設定值的外掛程式。"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr "設為 True 以啟用管理移除智慧卡時鎖定螢幕的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "設為 True 以啟用管理滑鼠設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr "設為 True 以啟用管理多媒體按鍵設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr "設為 True 以啟用管理音效樣本快取的外掛程式。"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr "設為 True 則啟用設定管理鍵盤無障礙設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr "設為 True 以啟用管理組合鍵設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr "設為 True 以啟用管理休息提示設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "設為 True 以啟用管理 xrdb 設定值的外掛程式。"
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "設為 True 以啟用管理 xsettings 設定值的外掛程式。"
+
+#~ msgid "Slow keys"
+#~ msgstr "遲緩按鍵"
+
+#~ msgid "Sticky keys"
+#~ msgstr "黏性特殊鍵"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "用來切換放大鏡的捷徑鍵名稱"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "用來切換螢幕鍵盤的捷徑鍵名稱"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "用來切換螢幕閱讀器的捷徑鍵名稱"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "這是用來切換放大鏡的捷徑鍵名稱。這個名稱會顯示在捷徑鍵偏好設定對話盒。"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "這是用來切換螢幕鍵盤的捷徑鍵名稱。這個名稱會顯示在捷徑鍵偏好設定對話盒。"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "這是用來切換螢幕閱讀器的捷徑鍵名稱。這個名稱會顯示在捷徑鍵偏好設定對話盒。"
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "切換放大鏡"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "切換螢幕鍵盤"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "切換螢幕閱讀器"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr "是否開啟回鍵鍵盤無障礙功能。"
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "是否開啟滑鼠按鍵鍵盤無障礙功能。"
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "是否開啟螢幕鍵盤。"
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "是否開啟放大鏡。"
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "是否開啟遲緩按鍵鍵盤無障礙功能。"
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "是否開啟黏性特殊鍵鍵盤無障礙功能。"
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "將它設定為「none」、「lock_screen」或「force_logout」之一。這個動作會在用"
+#~ "來登入的智慧卡移除後執行。"
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "智慧卡移除動作"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "不要以伺服程式狀態執行"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "載入外掛程式設定值的 GConf 前綴字"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "一段時間後離開（偵錯用）"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "鍵盤可存取性"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "鍵盤可存取性引掛程式"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "顯示說明文件時發生錯誤：%s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "是否啟用遲緩按鍵？"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "是否停用遲緩按鍵？"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "你按住 Shift 鍵達 8 秒。這是使用遲緩鍵功能的捷徑，那會影響鍵盤的操作方式。"
+
+#~ msgid "Don't deactivate"
+#~ msgstr "不要停用"
+
+#~ msgid "Activate"
+#~ msgstr "使用"
+
+#~ msgid "Deactivate"
+#~ msgstr "停用"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "不要啟用(_N)"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "不要停用(_N)"
+
+#~ msgid "_Activate"
+#~ msgstr "使用(_A)"
+
+#~ msgid "_Deactivate"
+#~ msgstr "不使用(_D)"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "遲緩按鍵警告"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "是否啟用黏性特殊鍵？"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "是否停用黏性特殊鍵？"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "你連續按了 5 下 Shift 鍵。這是使用黏性特殊鍵功能的捷徑，那會影響鍵盤的操作"
+#~ "方式。"
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "你同時按下兩個鍵，或是連續按下5次 Shift 鍵。這會停用黏性特殊鍵功能，那會影"
+#~ "響鍵盤的操作方式。"
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "黏性特殊鍵警告"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "無障礙偏好設定"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "增強顏色對比(_C)"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "讓文字變大以利閱讀(_T)"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "按住按鍵來接受他們（遲緩按鍵）"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "使用螢幕鍵盤(_K)"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "使用螢幕放大鏡(_M)"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "使用螢幕閱讀器(_R)"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "忽略重複按下的按鍵（回鍵）(_I)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "按壓捷徑鍵時能一次按壓一個鍵（黏性鍵）(_P)"
+
+#~ msgid "Background"
+#~ msgstr "背景"
+
+#~ msgid "Background plugin"
+#~ msgstr "背景圖片外掛程式"
+
+#~ msgid "Clipboard"
+#~ msgstr "剪貼簿"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "剪貼簿外掛程式"
+
+#~ msgid "Dummy"
+#~ msgstr "偽裝"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "偽裝外掛程式"
+
+#~ msgid "Font"
+#~ msgstr "字型"
+
+#~ msgid "Font plugin"
+#~ msgstr "字型外掛程式"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "不要再對這個檔案系統顯示任何警告"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "不再顯示任何警告"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "儲存區「%s」只剩下 %s 磁碟空間。"
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "這台電腦只剩下 %s 磁碟空間。"
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "你可以藉由清理回收筒、移除未使用的程式或檔案，或將檔案移至另一個磁碟機或分"
+#~ "割區來推出磁碟空間。"
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "你可以藉由移除未使用的程式或檔案，或將檔案移至另一個磁碟機或分割區來推出磁"
+#~ "碟空間。"
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "你可以藉由清理回收筒、移除未使用的程式或檔案，或將檔案移至外接式磁碟機來推"
+#~ "出磁碟空間。"
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "你可以藉由移除未使用的程式或檔案，或將檔案移至外接式磁碟機來推出磁碟空間。"
+
+#~ msgid "Low Disk Space"
+#~ msgstr "磁碟空間不足"
+
+#~ msgid "Empty Trash"
+#~ msgstr "清理回收筒"
+
+#~ msgid "Examine…"
+#~ msgstr "檢查…"
+
+#~ msgid "Ignore"
+#~ msgstr "忽略"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "正在移除項目 %lu / %lu"
+
+#~ msgid "Removing: %s"
+#~ msgstr "正在移除：%s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "正在清理回收筒"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "準備清理回收筒…"
+
+#~ msgid "From: "
+#~ msgstr "從："
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "是否清理回收筒所有項目？"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "如果你選擇清理回收筒，所有在回收筒裏的項目會永遠消失。請注意你也可以個別刪"
+#~ "除它們。"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "清理回收筒(_E)"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "按鍵組合 (%s) 無效"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "按鍵組合 (%s) 不完整"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "執行 (%s) 時發生錯誤；\n"
+#~ "有關的按鍵組合是 (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "組合鍵"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "組合鍵外掛程式"
+
+#~ msgid "Keyboard"
+#~ msgstr "鍵盤"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "鍵盤外掛程式"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "啟用 XKB 組態時發生錯誤。\n"
+#~ "這可能在很多種狀況下發生：\n"
+#~ "- libxklavier 程式庫有錯誤\n"
+#~ "- X 伺服器有錯誤(xkbcomp、xmodmap 公用程式)\n"
+#~ "- X 伺服器的 libxkbfile 實作不完整\n"
+#~ "\n"
+#~ "X 伺服器版本資料：\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "如果你要將這個狀況回報為程式錯誤，請附上：\n"
+#~ " • <b>%s</b> 的結果\n"
+#~ " • <b>%s</b> 的結果"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "你使用的是 XFree 4.3.0。\n"
+#~ "這個版本在複雜 XKB 組態上有已知的問題。\n"
+#~ "請使用較簡單的組態或使用較新版的 XFree 軟件。"
+
+#~ msgid "_Layouts"
+#~ msgstr "配置(_L)"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "鍵盤偏好設定(_P)"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "顯示目前配置(_C)"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "可用的檔案(_V)："
+
+#~ msgid "Load modmap files"
+#~ msgstr "載入 modmap 檔"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "是否要載入 modmap 檔案？"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "不要再顯示這個訊息(_D)"
+
+#~ msgid "_Load"
+#~ msgstr "載入(_L)"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "載入的檔案(_L)："
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "無法取得預設的終端機。請檢查你預設的終端機指令已設定並指向正確的應用程式。"
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "不能執行指令： %s\n"
+#~ "請檢查該指令是否為有效的指令。"
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u 輸出"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u 輸入"
+
+#~ msgid "System Sounds"
+#~ msgstr "系統音效"
+
+#~ msgid "Media keys"
+#~ msgstr "多媒體按鍵"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "多媒體按鍵外掛程式"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "無法啟用滑鼠可存取性功能"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr "滑鼠無障礙功能需要你的系統安裝 Mousetweaks。"
+
+#~ msgid "Mouse"
+#~ msgstr "滑鼠"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "滑鼠外掛程式"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "休息提示外掛程式"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "設定螢幕大小與旋轉設定值"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "無法切換顯示器組態"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "無法還原畫面的組態"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "無法從備份還原畫面的組態"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "畫面將會在 %d 秒後重設為先前的組態"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "畫面看來是否正常？"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "復原前一個組態(_R)"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "保留這個組態(_K)"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "選取的畫面組態無法套用"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "無法重新整理螢幕的資訊：%s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "嘗試強制切換顯示器。"
+
+#~ msgid "Rotation not supported"
+#~ msgstr "不支援旋轉"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "無法儲存顯示器組態"
+
+#, fuzzy
+#~ msgid "Normal"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "一般\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "一般\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "正常"
+
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgid "Upside Down"
+#~ msgstr "由上而下"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "設定顯示設定值(_C)…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "設定顯示設定值"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "無法套用已儲存的顯示器組態"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "無法決定使用者的個人資料夾所在"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "管理 X 資源資料庫"
+
+#~ msgid "X Resource Database"
+#~ msgstr "X 資源資料庫"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr "GConf 設定鍵 %s 的類型目前是 %s，但應該是 %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "管理 X 設定值"
+
+#~ msgid "X Settings"
+#~ msgstr "X 設定值"
+
+#~ msgid "Module Path"
+#~ msgstr "模組路徑"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "智慧卡 PKCS #11 讀卡機路徑"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "接收到錯誤或是從事件來源掛斷"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "無法初始化 NSS 安全系統"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "找不到適合的智慧卡讀卡機"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "無法載入智慧卡讀卡機「%s」"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "無法監看剛剛的卡片事件 - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr "當等候智慧卡事件時遇到未預期的錯誤"
+
+#~ msgid "Slot ID"
+#~ msgstr "插槽 ID"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "卡片放入的插槽"
+
+#~ msgid "Slot Series"
+#~ msgstr "插槽序列"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "各插槽卡片識別符"
+
+#~ msgid "name"
+#~ msgstr "名稱"
+
+#~ msgid "Module"
+#~ msgstr "模組"
+
+#~ msgid "smartcard driver"
+#~ msgstr "智慧卡讀卡機"
+
+#~ msgid "Change system time"
+#~ msgstr "改變系統時刻"
+
+#~ msgid "Change system time zone"
+#~ msgstr "改變系統時區"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "設定硬件時鐘"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr "改變系統時區需要有權限。"
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "改變系統時刻需要有權限。"
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr "設定硬件時鐘需要有權限。"
+
+#~ msgid "Unknown"
+#~ msgstr "不明"
+
+#~ msgid "Sound"
+#~ msgstr "音效"
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "是否開啟螢幕閱讀器。"
+
+#~ msgid "Don't activate"
+#~ msgstr "不要使用"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "滑鼠偏好設定"
+
+#~ msgid "Typing Break"
+#~ msgstr "休息提示"
+
+#~ msgid "Current network location"
+#~ msgstr "目前的網絡位置"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "更多背景 URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "更多佈景主題 URL"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "將此項設定為你目前的位置名稱。這是用來決定合適的網絡代理伺服器組態。"
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr "可以取得更多桌面背景的 URL。如果設定為空字串則不會顯示連結。"
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr "可以取得更多桌面主題的 URL。如果設定為空字串則不會顯示連結。"
+
+#~ msgid "Key"
+#~ msgstr "設定鍵"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "該屬性修改程式所修改的 GConf 設定鍵"
+
+#~ msgid "Callback"
+#~ msgstr "Callback"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "當設定鍵的值有改變時，發出這個 callback"
+
+#~ msgid "Change set"
+#~ msgstr "Change set"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr "在套用時將 Gconf change set 中包含的資料會傳送給 gconf 客戶端"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "轉化為視窗元件的改變所需的 callback"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "需要將更改後的 GConf 資料轉化為視窗元件的改變時，所發出的 callback"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "由視窗元件的改變所需的 callback 轉化"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "需要將視窗元件的改變轉化為更改後的 GConf 資料時，所發出的 callback"
+
+#~ msgid "UI Control"
+#~ msgstr "介面控制"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "控制該屬性的物件（通常是視窗元件）"
+
+#~ msgid "Property editor object data"
+#~ msgstr "屬性修改程式的物件資料"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "特定的屬性修改程式需要自定的資料"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "屬性修改程式釋放資料的 callback"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr "當屬性修改程式釋放物件資料時，發出 callback"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "找不到檔案‘%s’。\n"
+#~ "\n"
+#~ "請確定檔案已經存在並再試一次，或是選擇其它背景圖案。"
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "無法決定如何開啟檔案‘%s’。\n"
+#~ "可能目前仍未支援該種圖片格式。\n"
+#~ "\n"
+#~ "請選擇其它圖案。"
+
+#~ msgid "Please select an image."
+#~ msgstr "請選取圖片。"
+
+#~ msgid "_Select"
+#~ msgstr "選取(_S)"
+
+#~ msgid "Date And Time"
+#~ msgstr "日期和時刻"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "日期和時刻偏好設定面板"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "首選應用程式"
+
+#~ msgid "Select your default applications"
+#~ msgstr "選取預設使用的應用程式"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "啟動首選的視覺輔助技術"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "視覺輔助"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "儲存設定時出現錯誤：%s"
+
+#~ msgid "Custom"
+#~ msgstr "自選"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "無法載入主介面"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "請確定該面板程式已經安裝妥當。"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "所有 %s 都會取代為真實的連結"
+
+#~ msgid "C_ommand:"
+#~ msgstr "指令(_O):"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "指令(_M):"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "執行旗標(_X):"
+
+#~ msgid "Image Viewer"
+#~ msgstr "圖片瀏覽程式"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "即時通訊程式"
+
+#~ msgid "Internet"
+#~ msgstr "互聯網"
+
+#~ msgid "Mail Reader"
+#~ msgstr "電子郵件讀信軟件"
+
+#~ msgid "Mobility"
+#~ msgstr "移動性"
+
+#~ msgid "Multimedia"
+#~ msgstr "多媒體"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "多媒體播放器"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "在新的分頁中開啟連結(_T)"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "在新的視窗中開啟連結(_W)"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "使用網頁瀏覽器預設開啟連結(_D)"
+
+#~ msgid "Run at st_art"
+#~ msgstr "啟動時執行(_A)"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "在終端機中執行(_E)"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "終端機模擬程式"
+
+#~ msgid "Text Editor"
+#~ msgstr "文字編輯器"
+
+#~ msgid "Video Player"
+#~ msgstr "影片播放器"
+
+#~ msgid "Visual"
+#~ msgstr "視覺"
+
+#~ msgid "Web Browser"
+#~ msgstr "網頁瀏覽器"
+
+#~ msgid "_Run at start"
+#~ msgstr "啟動時執行(_R)"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee 音樂播放程式"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian Sensible Browser"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian Terminal Emulator"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany 網頁瀏覽器"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution 電子郵件讀信軟件"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "無螢幕閱讀器的 GNOME 放大鏡"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME 畫面鍵盤"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME 終端機"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "具放大鏡的 Gnopernicus"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape 瀏覽器"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape 郵件"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "無螢幕閱讀器的 KDE 放大鏡"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux 螢幕閱讀器"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "具放大鏡的 Linux 螢幕閱讀器"
+
+#~ msgid "Listen"
+#~ msgstr "聽取"
+
+#~ msgid "Midori"
+#~ msgstr "Midori 瀏覽器"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine 音樂播放程式"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "具放大鏡的 Orca"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox 音樂播放程式"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey 瀏覽器"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey 郵件"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "標準的 X 終端機"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem 影片播放程式"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "包含面板(_P)"
+
+#~ msgid "Make Default"
+#~ msgstr "成為預設值"
+
+#~ msgid "Monitor"
+#~ msgstr "顯示器"
+
+#~ msgid "Off"
+#~ msgstr "關閉"
+
+#~ msgid "On"
+#~ msgstr "開"
+
+#~ msgid "Panel icon"
+#~ msgstr "面板圖示"
+
+#~ msgid "R_otation:"
+#~ msgstr "旋轉(_O):"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "更新頻率(_F):"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "所有螢幕都使用相同圖片(_M)"
+
+#~ msgid "Upside-down"
+#~ msgstr "由上而下"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "偵測螢幕(_D)"
+
+#~ msgid "_Resolution:"
+#~ msgstr "解像度(_R):"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "在面板顯示螢幕(_S)"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "改變螢幕解像度和位置"
+
+#~ msgid "Monitors"
+#~ msgstr "螢幕"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "用法：%s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "這個程式會安裝 RANDR 設定組合把多螢幕設定至\n"
+#~ "系統層的位置。產生的設定組合會在 RANDR 外掛程式\n"
+#~ "在 gnome-settings-daemon 中執行時使用。\n"
+#~ "\n"
+#~ "SOURCE_FILE - 完整路徑名稱，通常是 /home/username/.config/monitors.xml\n"
+#~ "\n"
+#~ "DEST_NAME - 已安裝檔案的相對名稱。這會放置在\n"
+#~ "            RANDR 組態的系統層級目錄中，因此結果\n"
+#~ "            通常會是 %s/DEST_NAME\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "這個程式只能由 root 使用者來使用"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "來源檔案名稱必須是絕對路徑"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "無法開啟 %s：%s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "無法取得檔案 %s 的資訊：%s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s 必須為正規的檔案\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "這個程式必須只透過 pkexec(1) 執行"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID 必須設定為整數值"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "%s 的擁有者必須是你\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s 必須沒有任何目錄元素\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s 必須是目錄\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "無法開啟 %s/%s：%s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "無法將 %s 的名稱更改為 %s：%s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr "安裝多螢幕設定值給所有使用者需要驗證"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "將多螢幕設定值安裝到全系統"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "鏡射螢幕"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "顯示器：%s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr "選擇一個螢幕以改變它的屬性；拖曳它則能重新排列它的位置。"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "無法儲存顯示器組態"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "在套用顯示組態時無法取得作業階段匯流排"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "無法偵測顯示器"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "顯示器組態已儲存"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr "這個組態會在下次有使用者登入後使用。"
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "無法設定預設的顯示器組態"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "無法取得螢幕資訊"
+
+#~ msgid "Desktop"
+#~ msgstr "桌面"
+
+#~ msgid "New shortcut..."
+#~ msgstr "新增捷徑鍵..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "捷徑鍵"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "捷徑鍵的特殊按鍵（例如 Alt、Ctrl）"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "捷徑鍵碼"
+
+#~ msgid "Accel Mode"
+#~ msgstr "捷徑鍵模式"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "捷徑鍵的類型。"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<行動設定不詳>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "自選捷徑鍵"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "儲存新的捷徑鍵時發生錯誤"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "捷徑“%s”無法使用，原因是會無法按下此按鍵。\n"
+#~ "請試用其它的按鍵：如同時使用 Control，Alt  或 Shift。"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "捷徑鍵“%s”己經使用於：\n"
+#~ "“%s”"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "如果你重新指派捷徑鍵為「%s」，「%s」的捷徑鍵就會停用。"
+
+#~ msgid "_Reassign"
+#~ msgstr "重新指派(_R)"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "在組態資料庫中取消設定捷徑鍵時出現錯誤：%s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "太多自選捷徑鍵"
+
+#~ msgid "Action"
+#~ msgstr "動作"
+
+#~ msgid "Shortcut"
+#~ msgstr "捷徑鍵"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "自選捷徑鍵"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "鍵盤捷徑鍵"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "要編輯捷徑鍵，點選相應的行並按下新的按鍵組合，或以 backspace 鍵來清除。"
+
+#~ msgid "_Name:"
+#~ msgstr "名稱(_N):"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "為不同的指令分配捷徑鍵"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "當開啟或關閉可存取性功能時發出聲響(_A)"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "當按下特殊按鍵時發出聲響(_M)"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "當按下切換按鍵時發出聲響(_T)"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "當按下任何按鍵時發出聲響(_E)"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "如果拒絕按鍵動作則發出聲響(_C)"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "如果接受按鍵動作則發出聲響(_A)"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "如果拒絕按鍵動作則發出聲響(_R)"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "回鍵"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "閃動視窗標題列(_W)"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "閃動整個螢幕(_S)"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "鍵盤無障礙功能音效回饋"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "在警示音效中顯示視覺回饋(_V)"
+
+#~ msgid "Slow Keys"
+#~ msgstr "遲緩按鍵"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "黏性特殊鍵"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "音效的視覺化提示"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "可以暫時放棄休息(_O)"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "音效回饋(_F)..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "游標閃爍"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "文字輸入欄中的游標可以閃爍(_B)"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "游標閃爍速度"
+
+#~ msgid "D_elay:"
+#~ msgstr "延遲(_E):"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "如果同時按下任何兩鍵則關閉黏性鍵功能(_B)"
+
+#~ msgid "Fast"
+#~ msgstr "快速"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "當按下某鍵不放時重複輸出該字符(_R)"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "鍵盤偏好設定"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "鍵盤模式(_M)"
+
+#~ msgid "Layouts"
+#~ msgstr "配置"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "用來選取鍵盤配置的清單"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr "每隔某段時間鎖定畫面，避免因為不斷使用鍵盤導致手部受損"
+
+#~ msgid "Long"
+#~ msgstr "長"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "滑鼠控制鍵"
+
+#~ msgid "Move _Down"
+#~ msgstr "下移(_D)"
+
+#~ msgid "Move _Up"
+#~ msgstr "上移(_U)"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "將清單中選取的鍵盤配置向下移動"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "將清單中選取的鍵盤配置向上移動"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "新視窗延用使用中視窗的配置(_S)"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "顯示選取的鍵盤配置的圖表"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "從清單中移除選取的鍵盤配置"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "重複按鍵"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "按鍵重複速度"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "以預設值替換目前的鍵盤配置\n"
+#~ "設定值"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "重置為預設值(_F)"
+
+#~ msgid "S_peed:"
+#~ msgstr "速度(_P):"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "選擇要加入清單的鍵盤配置"
+
+#~ msgid "Short"
+#~ msgstr "短"
+
+#~ msgid "Slow"
+#~ msgstr "慢速"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "檢視並編輯鍵盤配置選項"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "加速度(_A):"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "允許使用鍵盤捷徑鍵開啟和關閉無障礙功能(_A)"
+
+#~ msgid "_Add..."
+#~ msgstr "加入(_A)..."
+
+#~ msgid "_Delay:"
+#~ msgstr "延遲(_D):"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "忽略快速重複按鍵(_I)"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "按下某鍵不放，達到指定時間後方會生效(_O)"
+
+#~ msgid "_Options..."
+#~ msgstr "選項(_O)..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "允許使用鍵盤控制鼠標(_P)"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "給每一個視窗獨立的配置(_S)"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "模擬同時按鍵(_S)"
+
+#~ msgid "_Speed:"
+#~ msgstr "速度(_S):"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "請輸入文字來測試設定(_T):"
+
+#~ msgid "By _country"
+#~ msgstr "根據國家(_C)"
+
+#~ msgid "By _language"
+#~ msgstr "根據語言(_L)"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "選擇配置"
+
+#~ msgid "Preview:"
+#~ msgstr "預覽："
+
+#~ msgid "_Country:"
+#~ msgstr "國家(_C):"
+
+#~ msgid "_Language:"
+#~ msgstr "語言(_L):"
+
+#~ msgid "_Variants:"
+#~ msgstr "變體(_V):"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "選擇鍵盤型號"
+
+#~ msgid "_Models:"
+#~ msgstr "型號(_M):"
+
+#~ msgid "_Vendors:"
+#~ msgstr "製造商(_V):"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "鍵盤配置選項"
+
+#~ msgid "Layout"
+#~ msgstr "配置"
+
+#~ msgid "Vendors"
+#~ msgstr "製造商"
+
+#~ msgid "Models"
+#~ msgstr "型號"
+
+#~ msgid "Default"
+#~ msgstr "預設值"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "修改鍵盤偏好設定"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "無法載入圖示‘%s’\n"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "向左劃"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "向右劃"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "向上劃"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "向下劃"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "停用手勢"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "事先選擇點擊的類型(_B)"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "選擇滑鼠手勢的點擊類型(_U)"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "連按兩下(_O):"
+
+#~ msgid "D_rag click:"
+#~ msgstr "拖曳點擊(_R):"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "打字時停用觸控板(_T)"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "連按兩下分辨時間"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "拖放"
+
+#~ msgid "Dwell Click"
+#~ msgstr "替代點擊"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "啟用觸控板的滑鼠點擊(_M)"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "啟用水平捲動(_O)"
+
+#~ msgid "High"
+#~ msgstr "高"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "標示鼠標位置"
+
+#~ msgid "Low"
+#~ msgstr "低"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "左右手模式"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "指標速度"
+
+#~ msgid "Scrolling"
+#~ msgstr "捲動方式"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "第二次點擊(_N):"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "當按下 Control 時顯示游標的位置(_O)"
+
+#~ msgid "Show click type _window"
+#~ msgstr "顯示點擊類型視窗(_W)"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "模擬第二下點選"
+
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "分辨距離(_E):"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr "要測試你的連按兩下設定值，請嘗試在此電燈泡上連按兩下。"
+
+#~ msgid "Touchpad"
+#~ msgstr "觸控板"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "兩點捲動(_F)"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr "你可以使用「替代點擊」面板程式來選擇點擊的類型。"
+
+#~ msgid "_Disabled"
+#~ msgstr "已停用(_D)"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "邊緣捲動(_E)"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "當停止游標移動時初始化點擊(_I)"
+
+#~ msgid "_Left-handed"
+#~ msgstr "慣用左手(_L)"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "移動速度(_M):"
+
+#~ msgid "_Right-handed"
+#~ msgstr "慣用右手(_R)"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "敏感度(_S):"
+
+#~ msgid "_Single click:"
+#~ msgstr "點選(_S):"
+
+#~ msgid "_Timeout:"
+#~ msgstr "時限(_T):"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "按住主要鍵時觸發第二次點擊(_T)"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "修改滑鼠偏好設定"
+
+#~ msgid "New Location..."
+#~ msgstr "新增位置..."
+
+#~ msgid "Location already exists"
+#~ msgstr "位置已經存在"
+
+#~ msgid "Network Proxy"
+#~ msgstr "代理伺服器"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "設定代理伺服器"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>直接網絡連線(_R)</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>自動設定代理伺服器(_A)</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>自選代理伺服器(_M)</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>需要認證(_U)</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "自動設定所需的 _URL："
+
+#~ msgid "C_reate"
+#~ msgstr "建立(_R)"
+
+#~ msgid "Create New Location"
+#~ msgstr "建立新的位置"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP 代理伺服器設定"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP 代理伺服器："
+
+#~ msgid "Ignore Host List"
+#~ msgstr "忽略主機清單"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "忽略的主機"
+
+#~ msgid "Location:"
+#~ msgstr "位置:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "網絡代理伺服器偏好設定"
+
+#~ msgid "Port:"
+#~ msgstr "連接埠:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "代理伺服器設定"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks 主機："
+
+#~ msgid "The location already exists."
+#~ msgstr "該位置已經存在。"
+
+#~ msgid "U_sername:"
+#~ msgstr "使用者名稱(_S):"
+
+#~ msgid "_Delete Location"
+#~ msgstr "冊除位置(_D)"
+
+#~ msgid "_Details"
+#~ msgstr "詳細設定(_D)"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP 代理伺服器："
+
+#~ msgid "_Location name:"
+#~ msgstr "位置名稱(_L):"
+
+#~ msgid "_Password:"
+#~ msgstr "密碼(_P):"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "安全 HTTP 代理伺服器(_S):"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "所有協定皆使用相同的代理伺服器(_U)"
+
+#~ msgid "Universal Access"
+#~ msgstr "無障礙功能"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr "<span size=\"x-large\">高/反差</span>"
+
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr "<span size=\"x-large\">高</span>"
+
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr "<span size=\"x-large\">低</span>"
+
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr "<span size=\"x-large\">一般</span>"
+
+#~ msgid "Acceptance delay:"
+#~ msgstr "接受時間延遲："
+
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr "允許使用鍵盤捷徑鍵開啟和關閉無障礙功能"
+
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "當 Caps 和 Num Lock 在使用時發出聲響"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "發出聲響條件為按鍵"
+
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "當拒絕按鍵動作則發出聲響"
+
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "當按下特殊按鍵時發出聲響"
+
+#~ msgid "Caribou"
+#~ msgstr "Caribou"
+
+#~ msgid "Change constrast:"
+#~ msgstr "改變對比："
+
+#~ msgid "Closed Captioning"
+#~ msgstr "關閉說明"
+
+#~ msgid "Contrast:"
+#~ msgstr "對比："
+
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "使用鍵盤控制鼠標。"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "使用視像攝影機控制指標"
+
+#~ msgid "Ctrl+Alt+-"
+#~ msgstr "Ctrl+Alt+-"
+
+#~ msgid "Ctrl+Alt+0"
+#~ msgstr "Ctrl+Alt+0"
+
+#~ msgid "Ctrl+Alt+4"
+#~ msgstr "Ctrl+Alt+4"
+
+#~ msgid "Ctrl+Alt+8"
+#~ msgstr "Ctrl+Alt+8"
+
+#~ msgid "Ctrl+Alt+="
+#~ msgstr "Ctrl+Alt+="
+
+#~ msgid "Decrease size:"
+#~ msgstr "減少字型大小："
+
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "如果同時按下任何兩鍵則停用"
+
+#~ msgid "Display"
+#~ msgstr "顯示"
+
+#~ msgid "Display a textual description of speech and sounds."
+#~ msgstr "顯示語音和音效的文字描述"
+
+#~ msgid "Flash the entire screen"
+#~ msgstr "閃動整個螢幕"
+
+#~ msgid "Flash the window title"
+#~ msgstr "閃動視窗標題"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#~ msgid "Hearing"
+#~ msgstr "聽覺"
+
+#~ msgid "High/Inverse"
+#~ msgstr "高/反差"
+
+#~ msgid "HighContrast"
+#~ msgstr "高對比"
+
+#~ msgid "HighContrastInverse"
+#~ msgstr "高反差"
+
+#~ msgid "Hover Click"
+#~ msgstr "停駐即點擊"
+
+#~ msgid "I need assistance with:"
+#~ msgstr "我需要協助："
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "忽略快速重複按鍵"
+
+#~ msgid "Increase size:"
+#~ msgstr "增加字型大小："
+
+#~ msgid "Keyboard Settings..."
+#~ msgstr "鍵盤設定值..."
+
+#~ msgid "Larger"
+#~ msgstr "放大"
+
+#~ msgid "LowContrast"
+#~ msgstr "低反差"
+
+#~ msgid "Mouse Settings..."
+#~ msgstr "滑鼠設定值..."
+
+#~ msgid "Nomon"
+#~ msgstr "Nomon"
+
+#~ msgid "None"
+#~ msgstr "沒有"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "螢幕鍵盤"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "Options..."
+#~ msgstr "選項..."
+
+#~ msgid "Pointing and Clicking"
+#~ msgstr "指標和點擊"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted."
+#~ msgstr "在按鍵被按下到它被接受之間置入延遲。"
+
+#~ msgid "Screen Reader"
+#~ msgstr "螢幕閱讀器"
+
+#~ msgid "Seeing"
+#~ msgstr "視覺"
+
+#~ msgid "Shift+Ctrl+Alt+-"
+#~ msgstr "Shift+Ctrl+Alt+-"
+
+#~ msgid "Shift+Ctrl+Alt+="
+#~ msgstr "Shift+Ctrl+Alt+="
+
+#~ msgid "Show Universal Access status"
+#~ msgstr "顯示無障礙功能狀態"
+
+#~ msgid "Sound Settings..."
+#~ msgstr "音效設定值..."
+
+#~ msgid "Test flash"
+#~ msgstr "測試閃動"
+
+#~ msgid "Test:"
+#~ msgstr "測試："
+
+#~ msgid "Text size:"
+#~ msgstr "文字大小："
+
+#~ msgid "Treats a sequence of modifier keys as a key combination."
+#~ msgstr "將連續按的特殊鍵視為按鍵組合。"
+
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "當停止游標移動時觸發點擊。"
+
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr "按住主要鍵時觸發次要點擊"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "開啟或關閉："
+
+#~ msgid "Type here to test settings"
+#~ msgstr "在這裏打字以測試設定值"
+
+#~ msgid "Typing"
+#~ msgstr "輸入"
+
+#~ msgid "Typing Assistant"
+#~ msgstr "輸入助理"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "當警示音效發出時使用視覺化的指示。"
+
+#~ msgid "Use an alternative form of text input"
+#~ msgstr "使用文字輸入的替代形式"
+
+#~ msgid "Video Mouse"
+#~ msgstr "視像滑鼠"
+
+#~ msgid "Visual Alerts"
+#~ msgstr "視覺警示"
+
+#~ msgid "Zoom"
+#~ msgstr "縮放"
+
+#~ msgid "Zoom in:"
+#~ msgstr "拉近："
+
+#~ msgid "Zoom out:"
+#~ msgstr "拉遠："
+
+#~ msgid "accepted"
+#~ msgstr "已接受"
+
+#~ msgid "pressed"
+#~ msgstr "已按下"
+
+#~ msgid "rejected"
+#~ msgstr "已拒絕"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "執行設定後關閉控制中心"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "增加彧移除動作進行時離開 shell"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "求助動作進行時離開 shell"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "啟動動作進行時離開 shell"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "升級及移除動作進行時離開 shell"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "指示求助動作進行時是否離開 shell。"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "指示啟動動作進行時是否離開 shell。"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr "指示增加或移除動作進行時是否離開 shell。"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr "指示升級或移除動作進行時是否離開 shell。"
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "設定名稱及相關的 .desktop 檔"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "在“;”前的是 顯示在控制中心的設定名稱（因此需要翻譯），而其後相關 .desktop "
+#~ "檔案是用作執行該設定。"
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[更改佈景主題;gtk-theme-selector.desktop,設定首選應用程式;default-"
+#~ "applications.desktop,加入打印機;gnome-cups-manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr "如設定為‘true’，控制中心會在「一般工作」使用後關閉。"
+
+#~ msgid "Control Center"
+#~ msgstr "控制中心"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME 設定工具"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "如設定為‘true’，則會顯示 OpenType 字型的縮圖。"
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "如設定為‘true’，則會顯示 PCF 字型的縮圖。"
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "如設定為‘true’，則會顯示 TrueType 字型的縮圖。"
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "如設定為‘true’，則會顯示 Type1 字型的縮圖。"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr "本設定鍵指定了用來製作 OpenType 字型縮圖的指令。"
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr "本設定鍵指定了用來製作 PCF 字型縮圖的指令。"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr "本設定鍵指定了用來製作 TrueType 字型縮圖的指令。"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr "本設定鍵指定了用來製作 Type1 字型縮圖的指令。"
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "製作 OpenType 字型縮圖的指令"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "製作 PCF 字型縮圖的指令"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "製作 TrueType 字型縮圖的指令"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "製作 Type1 字型縮圖的指令"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "是否為 OpenType 字型製作縮圖"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "是否為 PCF 字型製作縮圖"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "是否為 TrueType 字型製作縮圖"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "是否為 Type1 字型製作縮圖"
+
+#~ msgid "Name:"
+#~ msgstr "名稱:"
+
+#~ msgid "Style:"
+#~ msgstr "字款："
+
+#~ msgid "Type:"
+#~ msgstr "類型:"
+
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgid "Version:"
+#~ msgstr "版本:"
+
+#~ msgid "Copyright:"
+#~ msgstr "版權："
+
+#~ msgid "Description:"
+#~ msgstr "描述:"
+
+#~ msgid "Installed"
+#~ msgstr "已安裝"
+
+#~ msgid "Install Failed"
+#~ msgstr "安裝失敗"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "用法：%s 字型檔\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "安裝字型(_N)"
+
+#~ msgid "Font Viewer"
+#~ msgstr "字型檢視程式"
+
+#~ msgid "Preview fonts"
+#~ msgstr "預覽字型"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "文字轉為縮圖（預設：Aa）"
+
+#~ msgid "TEXT"
+#~ msgstr "文字"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "字型大小（預設：64）"
+
+#~ msgid "SIZE"
+#~ msgstr "大小"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "字型檔 輸出檔"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "分析參數時發生錯誤：%s\n"
+
+#~ msgid "Example Panel"
+#~ msgstr "範例面板"
+
+#~ msgid "Example preferences panel"
+#~ msgstr "範例偏好設定面板"
+
+#~ msgid "System Settings"
+#~ msgstr "系統設定值"
+
+#~ msgid "_All Settings"
+#~ msgstr "所有設定值(_A)"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "滑鼠偏好設定"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "不要使用"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "鍵盤配置「%s」"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "鍵盤配置"
+
+#~ msgid "_Groups"
+#~ msgstr "群組(_G)"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr "不能進入睡眠模式，請檢查是否已經設置妥當。"
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "讓電腦進入暫停模式的組合鍵。"
+
+#~ msgid "Suspend"
+#~ msgstr "暫停"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr "設為 True 在螢幕保護程式在執行時出現錯誤則顯示對話方塊。"
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "設為 True 則登入時就執行螢幕保護程式。"
+
+#~ msgid "Show startup errors"
+#~ msgstr "顯示啟動時發生的錯誤"
+
+#~ msgid "Start screensaver"
+#~ msgstr "啟動螢幕保護程式"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "啟用螢幕保護外掛程式"
+
+#~ msgid "Toggle screenreader"
+#~ msgstr "切換螢幕閱讀器"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "「%2$s」上已使用 %1$d%% 磁碟空間"
+
+#~ msgid "Analyze"
+#~ msgstr "分析"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "GNOME 音量控制"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "啟動螢幕保護程式時出現錯誤：\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "今次作業階段不會有螢幕保護桯式的功能。"
+
+#~ msgid "Screensaver"
+#~ msgstr "螢幕保護程式"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "螢幕保護外掛程式"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "無法建構目錄“%s”。\n"
+#~ "變更鼠標時需要該目錄。"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "無法建構目錄“%s”。\n"
+#~ "變更鼠標時需要建構該目錄。"
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "無法載入音效檔 %s 作為音效樣本 %s"
+
+#~ msgid "Login"
+#~ msgstr "登入"
+
+#~ msgid "Logout"
+#~ msgstr "登出"
+
+#~ msgid "Boing"
+#~ msgstr "彈簧"
+
+#~ msgid "Siren"
+#~ msgstr "警報"
+
+#~ msgid "Clink"
+#~ msgstr "叮噹"
+
+#, fuzzy
+#~ msgid "Beep"
+#~ msgstr ""
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "嗶聲\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-settings-daemon 2.31.5)  #-#-#-#-#\n"
+#~ "嗶聲\n"
+#~ "#-#-#-#-#  zh_HK.po (gnome-control-center 2.31.5)  #-#-#-#-#\n"
+#~ "鈴聲"
+
+#~ msgid "No sound"
+#~ msgstr "沒有聲音"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "此事件沒有設定音效。"
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "代表該事件的音效檔不存在。\n"
+#~ "安裝 gnome-audio 套件可獲得一套預設的音效。"
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "代表該事件的音效檔不存在。"
+
+#~ msgid "Select Sound File"
+#~ msgstr "選取音效檔"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "檔案 %s 不是有效的 wav 檔案"
+
+#~ msgid "Select sound file..."
+#~ msgstr "選取音效檔..."
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "字型外掛程式"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "當設定螢幕時發生錯誤"
+
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr "啟用剪貼簿外掛程式"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr "設為 True 則啟用設定管理鍵盤無障礙設定值的外掛程式。"
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "按鍵組合 (%s) 所代表的行動已經在其它按鍵組合中定義了\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "出現了多次同樣的按鍵組合 (%s)\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "可能另一個應用程式已經使用了按鍵‘%u’。"
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "按鍵組合 (%s) 已經正在使用\n"
+
+#~ msgid "Volume"
+#~ msgstr "音量"
+
+#~ msgid "Sound Sample Cache plugin"
+#~ msgstr "音效樣本快取外掛程式"
+
+#~ msgid "Image/label border"
+#~ msgstr "圖片/標籤邊框"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "在警告對話方塊中圍繞標籤與圖片的邊框的寬度"
+
+#~ msgid "Alert Type"
+#~ msgstr "警告類型"
+
+#~ msgid "The type of alert"
+#~ msgstr "警告的類型"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "警告按鈕"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "在警告對話方塊中顯示的按鈕"
+
+#~ msgid "Show more _details"
+#~ msgstr "顯示更多訊息(_D)"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "請將您的左手姆指放在 %s 上"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "請將您的左手姆指在 %s 上刷一下"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "請將您的左手食指放在 %s 上"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "請將您的左手食指在 %s 上刷一下"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "請將您的左手中指放在 %s 上"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "請將您的左手中指在 %s 上刷一下"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "請將您的左手無名指放在 %s 上"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "請將您的左手無名指在 %s 上刷一下"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "請將您的左手小指放在 %s 上"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "請將您的左手小指在 %s 上刷一下"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "請將您的右手姆指放在 %s 上"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "請將您的右手姆指在 %s 上刷一下"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "請將您的右手食指放在 %s 上"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "請將您的右手食指在 %s 上刷一下"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "請將您的右手中指放在 %s 上"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "請將您的右手中指在 %s 上刷一下"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "請將您的右手無名指放在 %s 上"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "請將您的右手無名指在 %s 上刷一下"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "請將您的右手小指放在 %s 上"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "請將您的右手小指在 %s 上刷一下"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "請將您的手指再次放到辨識器上"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "請將您的手指再刷一次"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "刷得太快，請再試一次"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "您的手指沒有對準中央，請再刷一次"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "將手指拿開，並且試著再刷一次"
+
+#~ msgid "Select Image"
+#~ msgstr "選擇圖片"
+
+#~ msgid "No Image"
+#~ msgstr "沒有圖片"
+
+#~ msgid "Images"
+#~ msgstr "圖片"
+
+#~ msgid "All Files"
+#~ msgstr "全部檔案"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "嘗試取得地址薄資訊時發生錯誤\n"
+#~ "Evolution 資料伺服器無法處理該通訊協定"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "無法開啟地址薄"
+
+#~ msgid "About %s"
+#~ msgstr "關於 %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "地址(_A):"
+
+#~ msgid "About Me"
+#~ msgstr "關於自己"
+
+#~ msgid "Address"
+#~ msgstr "地址"
+
+#~ msgid "C_ity:"
+#~ msgstr "城市(_I):"
+
+#~ msgid "C_ompany:"
+#~ msgstr "公司(_O):"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "行事曆(_N):"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "變更密碼(_R)..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "城市(_T):"
+
+#~ msgid "Co_untry:"
+#~ msgstr "國家/地區(_U):"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "國家/地區(_N):"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "停用指紋登入(_F)..."
+
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "啟用指紋登入(_F)..."
+
+#~ msgid "Full Name"
+#~ msgstr "全名"
+
+#~ msgid "Hom_e:"
+#~ msgstr "住家(_E):"
+
+#~ msgid "Home"
+#~ msgstr "家"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "即時訊息"
+
+#~ msgid "Job"
+#~ msgstr "職業"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "郵政信箱(_B):"
+
+#~ msgid "P._O. box:"
+#~ msgstr "郵政信箱(_O):"
+
+#~ msgid "Personal Info"
+#~ msgstr "個人資訊"
+
+#~ msgid "Select your photo"
+#~ msgstr "選擇您的相片"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "州/省(_V):"
+
+#~ msgid "Telephone"
+#~ msgstr "電話"
+
+#~ msgid "User name:"
+#~ msgstr "使用者名稱："
+
+#~ msgid "Web"
+#~ msgstr "網頁"
+
+#~ msgid "Web _log:"
+#~ msgstr "網路日誌(_L):"
+
+#~ msgid "Wor_k:"
+#~ msgstr "工作(_W):"
+
+#~ msgid "Work"
+#~ msgstr "工作"
+
+#~ msgid "Work _fax:"
+#~ msgstr "工作傳真(_F):"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "郵遞區號(_P):"
+
+#~ msgid "_Address:"
+#~ msgstr "地址(_A):"
+
+#~ msgid "_Department:"
+#~ msgstr "部門(_D):"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "首頁(_H):"
+
+#~ msgid "_Home:"
+#~ msgstr "住家(_H):"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "總管(_M):"
+
+#~ msgid "_Mobile:"
+#~ msgstr "手機(_M):"
+
+#~ msgid "_Profession:"
+#~ msgstr "職業(_P):"
+
+#~ msgid "_State/Province:"
+#~ msgstr "州/省(_S):"
+
+#~ msgid "_Title:"
+#~ msgstr "職稱(_T):"
+
+#~ msgid "_Work:"
+#~ msgstr "工作(_W)"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "郵遞區號(_Z):"
+
+#~ msgid "Set your personal information"
+#~ msgstr "設定您的個人資訊"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr "您不被允許使用這個裝置。請連絡您的系統管理者。"
+
+#~ msgid "The device is already in use."
+#~ msgstr "該裝置已經在使用中。"
+
+#~ msgid "An internal error occured"
+#~ msgstr "發生了內部的錯誤"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "是否刪除已註冊的指紋？"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "刪除指紋(_D)"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr "您確定要刪除已註冊的指紋嗎？這麼一來將會停用指紋登入。"
+
+#~ msgid "Done!"
+#~ msgstr "完成！"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "無法使用「%s」裝置上的指紋捕捉"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "無法存取任何指紋辨識器"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "請連絡您的系統管理員來幫忙。"
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "啟用指紋登入"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr "要啟用指紋登入，您需要使用「%s」裝置儲存您的指紋。"
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "將手指在辨識器上刷一下"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "將手指放在辨識器上"
+
+#~ msgid "Left index finger"
+#~ msgstr "左手食指"
+
+#~ msgid "Left little finger"
+#~ msgstr "左手小指"
+
+#~ msgid "Left middle finger"
+#~ msgstr "左手中指"
+
+#~ msgid "Left ring finger"
+#~ msgstr "左手無名指"
+
+#~ msgid "Left thumb"
+#~ msgstr "左手姆指"
+
+#~ msgid "Other finger: "
+#~ msgstr "其他手指:"
+
+#~ msgid "Right index finger"
+#~ msgstr "右手食指"
+
+#~ msgid "Right little finger"
+#~ msgstr "右手小指"
+
+#~ msgid "Right middle finger"
+#~ msgstr "右手中指"
+
+#~ msgid "Right ring finger"
+#~ msgstr "右手無名指"
+
+#~ msgid "Right thumb"
+#~ msgstr "右手姆指"
+
+#~ msgid "Select finger"
+#~ msgstr "選擇手指"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr "您的指紋已成功的儲存了。現在應該可以使用您的指紋辨識器來登入。"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "子程式突然離開"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "無法關閉 backend_stdin IO channel: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "無法關閉 shutdown backend_stdout IO channel: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "通過認證！"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr "在通過認證後您的密碼已被變更！請重新認證。"
+
+#~ msgid "That password was incorrect."
+#~ msgstr "密碼錯誤。"
+
+#~ msgid "Your password has been changed."
+#~ msgstr "您的密碼已經變更。"
+
+#~ msgid "System error: %s."
+#~ msgstr "系統錯誤：%s。"
+
+#~ msgid "The password is too short."
+#~ msgstr "密碼過短。"
+
+#~ msgid "The password is too simple."
+#~ msgstr "密碼過份簡單。"
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "舊密碼與新密碼太相似了。"
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "新的密碼必須包含數字或特殊字元。"
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "舊密碼與新密碼是相同的。"
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "無法執行 %s：%s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "無法執行後端程式"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "發生了系統錯誤"
+
+#~ msgid "Checking password..."
+#~ msgstr "檢查密碼..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "按下<b>變更密碼</b>來變更您的密碼。"
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "請在<b>新密碼</b>中輸新的密碼。"
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "請在<b>再輸入新的密碼</b>中，再次輸入您的密碼。"
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "兩個密碼不是相同。"
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "變更密碼(_S)"
+
+#~ msgid "Change password"
+#~ msgstr "變更密碼"
+
+#~ msgid "Change your password"
+#~ msgstr "改變您的密碼"
+
+#~ msgid "Current _password:"
+#~ msgstr "目前密碼(_P):"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "要變更目前的密碼，先在以下的欄位輸入目前的密碼，並按下<b>認證</b>。\n"
+#~ "通過認證後，可以輸入新的密碼；輸入後再輸入一次作為檢查，接著按<b>變更密碼"
+#~ "</b>。"
+
+#~ msgid "_Authenticate"
+#~ msgstr "認證(_A)"
+
+#~ msgid "_New password:"
+#~ msgstr "新密碼(_N):"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "再輸入新的密碼(_R):"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "無障礙登入(_G)"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "輔助科技"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "輔助科技偏好設定"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr "啟用輔助科技後，需要等下次登入才會生效。"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "關閉及登出(_L)"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "移至首選應用程式對話盒"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "移至無障礙登入對話盒"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "移至鍵盤可存取性對話盒"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "移至滑鼠無障礙功能對話盒"
+
+#~ msgid "Preferences"
+#~ msgstr "偏好設定"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "啟用輔助科技(_E)"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "鍵盤可存取性(_K)"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "滑鼠無障礙功能(_M)"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "首選應用程式(_P)"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr "選擇當您登入時要啟用哪個無障礙功能"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "加入桌布"
+
+#~ msgid "All files"
+#~ msgstr "所有檔案"
+
+#~ msgid "Font may be too large"
+#~ msgstr "字型可能過大"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取小於 %d 點的字"
+#~ "型。"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取較小的字型。"
+
+#~ msgid "Use previous font"
+#~ msgstr "使用以前的字型"
+
+#~ msgid "Use selected font"
+#~ msgstr "使用已選字型"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "無法載入使用者介面檔案：%s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "指定要安裝的佈景主題名稱"
+
+#~ msgid "filename"
+#~ msgstr "檔案名稱"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr "指定要顯示的頁面名稱 (theme|background|fonts|interface)"
+
+#~ msgid "page"
+#~ msgstr "頁面"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[桌布...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "預設鼠標"
+
+#~ msgid "Install"
+#~ msgstr "安裝"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "這個佈景主題無法正確顯示，因為要求的 GTK+ 佈景主題引擎「%s」尚未安裝。"
+
+#~ msgid "Apply Background"
+#~ msgstr "套用背景圖案"
+
+#~ msgid "Apply Font"
+#~ msgstr "套用字型"
+
+#~ msgid "Revert Font"
+#~ msgstr "還原字型"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "目前的佈景主題建議使用指定的背景與字型。同時，上次套用的建議字型會被還原。"
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "目前的佈景主題建議使用指定的背景。同時，上次套用的建議字型會被還原。"
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "本佈景主題建議使用指定的背景與字型。"
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr "目前的佈景主題有建議搭配的字型。同時，上次套用的建議字型會被還原。"
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "本佈景主題建議使用指定的背景。"
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "上次套用的建議字型會被還原。"
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "本佈景主題建議使用指定的字型。"
+
+#~ msgid "Best _shapes"
+#~ msgstr "最佳形狀(_S)"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "最佳對比(_N)"
+
+#~ msgid "C_olors:"
+#~ msgstr "顏色(_O):"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "自訂(_U)..."
+
+#~ msgid "Center"
+#~ msgstr "置中"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "改變游標主題會在下次登入時生效。"
+
+#~ msgid "Colors"
+#~ msgstr "顏色"
+
+#~ msgid "Controls"
+#~ msgstr "介面控制"
+
+#~ msgid "Customize Theme"
+#~ msgstr "自訂佈景主題"
+
+#~ msgid "D_etails..."
+#~ msgstr "詳細設定(_E)..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "桌面字型(_K):"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "描繪字型的設定細節"
+
+#~ msgid "Fonts"
+#~ msgstr "字型"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "線上取得更多背景"
+
+#~ msgid "Get more themes online"
+#~ msgstr "線上取得更多佈景主題"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "灰階(_Y)"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "水平漸層"
+
+#~ msgid "Icons"
+#~ msgstr "圖示"
+
+#~ msgid "Icons only"
+#~ msgstr "只有圖示"
+
+#~ msgid "N_one"
+#~ msgstr "無(_O)"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "開啟對話方塊來指定顏色"
+
+#~ msgid "Pointer"
+#~ msgstr "指標"
+
+#~ msgid "R_esolution:"
+#~ msgstr "解析度(_E):"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "另存佈景主題..."
+
+#~ msgid "Save _As..."
+#~ msgstr "另存新檔(_A)..."
+
+#~ msgid "Save _background image"
+#~ msgstr "儲存背景圖片(_B)"
+
+#~ msgid "Scale"
+#~ msgstr "縮放"
+
+#~ msgid "Smoothing"
+#~ msgstr "平滑化"
+
+#~ msgid "Solid color"
+#~ msgstr "單一色彩"
+
+#~ msgid "Span"
+#~ msgstr "跨越"
+
+#~ msgid "Stretch"
+#~ msgstr "延伸"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "次像素(sub_pixel) [LCD]"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "次像素(sub_pixel)平滑方式 [LCD]"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "次像素排列次序"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Text below items"
+#~ msgstr "文字在項目下"
+
+#~ msgid "Text beside items"
+#~ msgstr "文字在項目旁"
+
+#~ msgid "Text only"
+#~ msgstr "只有文字"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "本控制佈景不支援色彩配置。"
+
+#~ msgid "Theme"
+#~ msgstr "佈景主題"
+
+#~ msgid "Tile"
+#~ msgstr "鋪排"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "垂直漸層"
+
+#~ msgid "Window Border"
+#~ msgstr "視窗邊框"
+
+#~ msgid "_Application font:"
+#~ msgstr "應用程式字型(_A):"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "描述(_D):"
+
+#~ msgid "_Document font:"
+#~ msgstr "文件字型(_D):"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "固定寬度字型(_F):"
+
+#~ msgid "_Full"
+#~ msgstr "完整(_F)"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "輸入視窗(_I):"
+
+#~ msgid "_Install..."
+#~ msgstr "安裝(_I)..."
+
+#~ msgid "_Medium"
+#~ msgstr "中(_M)"
+
+#~ msgid "_Monochrome"
+#~ msgstr "不平滑化(_M)"
+
+#~ msgid "_None"
+#~ msgstr "沒有(_N)"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "重置為預設值(_R)"
+
+#~ msgid "_Selected items:"
+#~ msgstr "已選項目(_S):"
+
+#~ msgid "_Size:"
+#~ msgstr "大小(_S):"
+
+#~ msgid "_Slight"
+#~ msgstr "輕微(_S)"
+
+#~ msgid "_Style:"
+#~ msgstr "風格(_S):"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "工具提示(_T):"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "視窗標題字型(_W):"
+
+#~ msgid "_Windows:"
+#~ msgstr "視窗(_W):"
+
+#~ msgid "dots per inch"
+#~ msgstr "解析度(dpi)"
+
+#~ msgid "Appearance"
+#~ msgstr "外觀"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "自訂桌面的外觀"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "安裝佈景主題套件供桌面不同的部份使用"
+
+#~ msgid "Theme Installer"
+#~ msgstr "佈景主題安裝程式"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome 佈景主題套件"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "無桌面背景"
+
+#~ msgid "Slide Show"
+#~ msgstr "幻燈片顯示"
+
+#~ msgid "Image"
+#~ msgstr "圖片"
+
+#~ msgid "multiple sizes"
+#~ msgstr "多重尺寸"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "寛%d %s 高%d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "像素"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s,  %s\n"
+#~ "資料夾：%s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "資料夾：%s"
+
+#~ msgid "Image missing"
+#~ msgstr "遺失圖片"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "不能安裝主題"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "%s 程式並沒有安裝在系統上。"
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "解壓縮佈景主題時發生錯誤。"
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "安裝選定的檔案時發生錯誤"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "「%s」似乎不是有效的主題。"
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr "「%s」似乎不是有效的主題。它可能是需要您自己編譯的主題引擎。"
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "安裝佈景主題「%s」失敗。"
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "佈景主題“%s”已經安裝。"
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "想現在就立即套用，還是保留現有的佈景主題？"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "保留目前的佈景主題"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "套用新的佈景主題"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME 佈景主題 %s 已正確地安裝"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "建構暫存目錄失敗"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "新的佈景主題已經安裝完成。"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "沒有指定安裝佈景主題檔案的位置"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "沒有足夠的權安裝佈景主題至：\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "選擇佈景主題"
+
+#~ msgid "Theme Packages"
+#~ msgstr "佈景主題套件"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "佈景主題已經存在。要取代它嗎？"
+
+#~ msgid "_Overwrite"
+#~ msgstr "覆寫(_O)"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "是否刪除此佈景主題？"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "佈景主題無法刪除"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "無法安裝主題引擎"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "無法啟動設定管理程式「gnome-settings-daemon」。\n"
+#~ "如果 GNOME 設定管理程式沒有執行，某部份偏好設定可能不會生效。這可能表示 "
+#~ "Dbus 出了問題；或是另一個 GNOME 以外（例如 KDE）的設定管理程式正在執行，"
+#~ "和 GNOME 設定管理程式出現衝突。"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "複製檔案：%u 之 %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "正在複製‘%s’"
+
+#~ msgid "Copying files"
+#~ msgstr "正在複製檔案"
+
+#~ msgid "Parent Window"
+#~ msgstr "主視窗"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "對話視窗的主視窗"
+
+#~ msgid "From URI"
+#~ msgstr "URI 來源地"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "檔案傳送程序的來源地 URI"
+
+#~ msgid "To URI"
+#~ msgstr "URI 目的地"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "檔案傳送程序的目的地 URI"
+
+#~ msgid "Fraction completed"
+#~ msgstr "完成比例"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "檔案傳送程序的完成比例"
+
+#~ msgid "Current URI index"
+#~ msgstr "目前的 URI 編號"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "目前的 URI 編號 ─ 由 1 開始"
+
+#~ msgid "Total URIs"
+#~ msgstr "URI 總數"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "URI 的總數"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "檔案「%s」已經存在。是否要覆蓋它？"
+
+#~ msgid "_Skip"
+#~ msgstr "略過(_S)"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "覆蓋全部(_A)"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "預設鼠標 - 使用中"
+
+#~ msgid "White Pointer"
+#~ msgstr "白色鼠標"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "白色鼠標 - 使用中"
+
+#~ msgid "Large Pointer"
+#~ msgstr "大型鼠標"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "大型鼠標 - 使用中"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "大型白色鼠標 - 使用中"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "大型白色鼠標"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr "這個佈景主題無法正確顯示，因為要求的 GTK+ 佈景主題「%s」尚未安裝。"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "這個佈景主題無法正確顯示，因為要求的視窗管理程式佈景主題「%s」尚未安裝。"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr "這個佈景主題無法正確顯示，因為要求的圖示主題「%s」尚未安裝。"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr "指定要顯示的頁面名稱 (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- GNOME 預設應用程式"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "螢幕偏好設定"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr "套用設定並離開（現在已經由伺服程式處理，此選擇只為提供相容性而設）"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "啟動頁面時顯示鍵盤輸入間隔設定"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "啟動頁面時顯示可存取性設定值"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr " - GNOME 鍵盤偏好設定"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "指定要顯示的頁面名稱 (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- GNOME 滑鼠偏好設定"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "無法啟動視窗總管的偏好設定"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (或者「視窗標誌」)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "移動鍵"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "標題列動作"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr "如果想移動視窗，按住此按鍵來抓取視窗："
+
+#~ msgid "Window Preferences"
+#~ msgstr "視窗偏好設定"
+
+#~ msgid "Window Selection"
+#~ msgstr "視窗選取"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "在視窗標題中連按兩下滑鼠按鈕後會進行指定的動作(_D):"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "這個時間後提升視窗(_I):"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "相隔某段時間後將已選取的視窗提升至最表面來顯示(_R)"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "當滑鼠移動至視窗時選取該視窗(_S)"
+
+#~ msgid "seconds"
+#~ msgstr "秒"
+
+#~ msgid "Set your window properties"
+#~ msgstr "設定視窗屬性"
+
+#~ msgid "Windows"
+#~ msgstr "視窗"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "視窗管理員“%s”沒有登記任何設定工具\n"
+
+#~ msgid "Maximize"
+#~ msgstr "最大化"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "垂直最大化"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "水平最大化"
+
+#~ msgid "Minimize"
+#~ msgstr "最小化"
+
+#~ msgid "Roll up"
+#~ msgstr "捲起"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "找不到按鍵 [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "啟動時隱藏 (要預先載入 shell 時很有用)"
+
+#~ msgid "Filter"
+#~ msgstr "篩選"
+
+#~ msgid "Groups"
+#~ msgstr "類別"
+
+#~ msgid "Common Tasks"
+#~ msgstr "一般設定"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "您的過濾條件「%s」沒有任合項目符合。"
+
+#~ msgid "No matches found."
+#~ msgstr "找不到符合項。"
+
+#~ msgid "Other"
+#~ msgstr "其它"
+
+#~ msgid "Start %s"
+#~ msgstr "啟動 %s"
+
+#~ msgid "Help"
+#~ msgstr "求助"
+
+#~ msgid "Upgrade"
+#~ msgstr "更新"
+
+#~ msgid "Uninstall"
+#~ msgstr "移除"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "自最愛中移除"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "加入最愛"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "從「初始啟動程式」中移除"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "加入「初始啟動程式」"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "新試算表"
+
+#~ msgid "New Document"
+#~ msgstr "新文件"
+
+#~ msgid "Documents"
+#~ msgstr "文件"
+
+#~ msgid "File System"
+#~ msgstr "檔案系統"
+
+#~ msgid "Network Servers"
+#~ msgstr "網路伺服器"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>開啟</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "重新命名..."
+
+#~ msgid "Send To..."
+#~ msgstr "傳送至..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "移至回收筒"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "確定要永遠刪除「%s」？"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "如果將項目刪除，它將會永久失去。"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "以「%s」開啟"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "以預設的應用程式開啟"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "在檔案管理員中開啟"
+
+#~ msgid "?"
+#~ msgstr "？"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "今天 %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "昨天 %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%Y %b %d"
+
+#~ msgid "Find Now"
+#~ msgstr "現在尋找"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>以“%s”開啟</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "自系統項目中移除"
+
+#~ msgid "Display Preferences"
+#~ msgstr "顯示偏好設定"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "拖曳顯示器來設定它們的位置"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "鏡射螢幕(_M)"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "變更螢幕解析度"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "Fill screen"
+#~ msgstr "全螢幕"
+
+#~ msgid "Interface"
+#~ msgstr "介面"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "選單及工具列"
+
+#~ msgid "Preview"
+#~ msgstr "預覽"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "在選單中顯示圖示(_I)"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "工具列按鈕文字(_B):"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "可編輯選單捷徑鍵(_E)"
+
+#~ msgid "_File"
+#~ msgstr "檔案(_F)"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "加速度(_C):"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "配置選項(_O)..."
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "已選的配置(_S):"
+
+#~ msgid "C_ontrol"
+#~ msgstr "C_ontrol"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "0123456789 The following is Chinese: '中文測試'"
+
+#~ msgid "_Desktop Background"
+#~ msgstr "桌面背景(_D)"
+
+# 翻譯後程式無法顯示字形效果後，應是 bug，故暫將 <b> <span> 等刪除，
+# Woodman
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "找不到相符。\n"
+#~ "篩選 “%s” 時沒有任何匹配的項目。"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr "不明的登入 ID，使用者資料庫可能已經受損"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "左手姆指\n"
+#~ "左手中指\n"
+#~ "左手無名指\n"
+#~ "左手小指\n"
+#~ "右手姆指\n"
+#~ "右手中指\n"
+#~ "右手無名指\n"
+#~ "右手小指"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>電子郵件</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>住家</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>職業</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Web</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">變更密碼</span>"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>輔助科技</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>偏好設定</b>"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>桌面色彩(_O)</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>預覽</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>桌面背景(_D)</b>"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>視覺</b>"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>啟用回鍵</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>一般</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>快</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>長</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>短</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>慢</i></small>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>顯示鼠標位置</b>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>長</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>快</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>短</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>慢</i></small>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>忽略主機列表</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "剪下(_U)"
+
+#~ msgid "New File"
+#~ msgstr "新增檔案"
+
+#~ msgid "Open File"
+#~ msgstr "開啟檔案"
+
+#~ msgid "Save File"
+#~ msgstr "儲存檔案"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "單一色彩\n"
+#~ "水平漸層\n"
+#~ "垂直漸層"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "文字在項目下\n"
+#~ "文字在項目旁\n"
+#~ "只有圖示\n"
+#~ "只有文字"
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "拼貼\n"
+#~ "放大\n"
+#~ "置中\n"
+#~ "縮小\n"
+#~ "填滿螢幕"
+
+#~ msgid "_Copy"
+#~ msgstr "複製(_C)"
+
+#~ msgid "_New"
+#~ msgstr "新增(_N)"
+
+#~ msgid "_Open"
+#~ msgstr "開啟(_O)"
+
+#~ msgid "_Print"
+#~ msgstr "列印(_P)"
+
+#~ msgid "_Quit"
+#~ msgstr "結束(_Q)"
+
+#~ msgid "_Save"
+#~ msgstr "儲存(_S)"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "一般\n"
+#~ "左邊\n"
+#~ "右邊\n"
+#~ "由上而下\n"
+
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "無法套用選取的組態"
+
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "無法取得 org.gnome.SettingsDaemon.XRANDR"
+
+#~ msgid "_Command:"
+#~ msgstr "指令(_C):"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "螢幕解析度"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>桌布(_W)</b>"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "沒有桌布"
+
+#~ msgid "Monitor Resolution Settings"
+#~ msgstr "螢幕解析度設定值"
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "讀入舊版本的設定"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "啟用音效並將音效及不同的事件建構連繫"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "不明的音量控制 %d"
+
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "無法建立‘%s’的測試管道"
+
+#~ msgid "Not connected"
+#~ msgstr "沒有連接"
+
+#~ msgid "Autodetect"
+#~ msgstr "自動偵測"
+
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - 先進 Linux 音效架構"
+
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART 音效服務程式"
+
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - Enlightenment 音效服務程式"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - 開放音效系統"
+
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "Polypaudio 音效伺服器"
+
+#~ msgid "Silence"
+#~ msgstr "無聲"
+
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr " - GNOME 音效偏好設定"
+
+#~ msgid "<b>Alerts and Sound Effects</b>"
+#~ msgstr "<b>警示與聲音效果</b>"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>音訊會議</b>"
+
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>預設混音器聲道</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>音樂及影片</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>事件音效</b>"
+
+#~ msgid "<b>Sound Theme</b>"
+#~ msgstr "<b>音效佈景主題</b>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "按確定來完成"
+
+#~ msgid "Devices"
+#~ msgstr "裝置"
+
+#~ msgid "Play _alert sound"
+#~ msgstr "播放警示聲音(_A)"
+
+#~ msgid "Play _sound effects when buttons are clicked"
+#~ msgstr "當按鈕被點擊時播放音效(_S)"
+
+#~ msgid "S_ound playback:"
+#~ msgstr "聲音播放(_O):"
+
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "以鍵盤選取裝置及聲道。如需要時使用 Shift 及 Control 鍵來選擇多條聲道。"
+
+#~ msgid "So_und playback:"
+#~ msgstr "聲音播放(_U):"
+
+#~ msgid "Sou_nd capture:"
+#~ msgstr "聲音擷取(_N):"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "音效偏好設定"
+
+#~ msgid "Sounds"
+#~ msgstr "音效"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "管道測試"
+
+#~ msgid "_Device:"
+#~ msgstr "裝置(_D):"
+
+#~ msgid "_Play alerts and sound effects"
+#~ msgstr "播放警示與聲音效果(_P)"
+
+#~ msgid "_Sound playback:"
+#~ msgstr "聲音播放(_S):"
+
+#~ msgid "Testing event sound"
+#~ msgstr "測試事件聲音"
+
+#~ msgid "Sound files"
+#~ msgstr "聲音檔案"
+
+#~ msgid "Custom..."
+#~ msgstr "自訂..."
+
+#~ msgid "Lock Screen"
+#~ msgstr "鎖定螢幕"
+
+#~ msgid "Shutdown"
+#~ msgstr "關機"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr "登入時啟用 GNOME 輔助科技支援"
+
+#~ msgid "Cloned Output"
+#~ msgstr "複製式輸出"
+
+#~ msgid "New accelerator..."
+#~ msgstr "新增捷徑鍵..."
+
+#~ msgid "Alert sound"
+#~ msgstr "警示聲音"
+
+#~ msgid "Windows and Buttons"
+#~ msgstr "視窗與按鈕"
+
+#~ msgid "Button clicked"
+#~ msgstr "按鈕被點擊"
+
+#~ msgid "Toggle button clicked"
+#~ msgstr "切換按鈕點擊"
+
+#~ msgid "Window maximized"
+#~ msgstr "視窗最大化"
+
+#~ msgid "Window unmaximized"
+#~ msgstr "視窗取消最大化"
+
+#~ msgid "Window minimised"
+#~ msgstr "視窗最小化"
+
+#~ msgid "New e-mail"
+#~ msgstr "新郵件通知"
+
+#~ msgid "Empty trash"
+#~ msgstr "清理回收筒"
+
+#~ msgid "Long action completed (download, CD burning, etc.)"
+#~ msgstr "長時間動作已完成（下載、燒錄 CD 等等）"
+
+#~ msgid "Alerts"
+#~ msgstr "警示"
+
+#~ msgid "Information or question"
+#~ msgstr "資訊或問題"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Battery warning"
+#~ msgstr "電池警示"
+
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "元件「%2$s」中有未預期的屬性「%1$s」"
+
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "找不到元件「%2$s」中的屬性「%1$s」"
+
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "未預期的標籤「%s」，應為標籤「%s」"
+
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "「%2$s」中有未預期的標籤「%1$s」"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "在資料目錄中找不到有效的書籤檔案"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "URI「%s」的書籤已存在"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "找不到 URI「%s」的書籤"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "URI「%s」書籤中沒有定義 MIME 類型"
+
+#~ msgid "No private flag has been defined in bookmark for URI '%s'"
+#~ msgstr "URI「%s」書籤中沒有私有旗幟"
+
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "URI「%s」書籤中沒有設定群組"
+
+#~ msgid "No application with name '%s' registered a bookmark for '%s'"
+#~ msgstr "沒有名為「%s」的應用程式註冊書籤「%s」"
+
+#~ msgid ""
+#~ "Centered\n"
+#~ "Fill screen\n"
+#~ "Scaled\n"
+#~ "Zoom\n"
+#~ "Tiled"
+#~ msgstr ""
+#~ "置中\n"
+#~ "全螢幕\n"
+#~ "縮小\n"
+#~ "放大\n"
+#~ "並排顯示"
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr "佈景主題檔案會安裝在 %s 中。不能將其選成是原始檔的位置"
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "套用設定並離開"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "畫面解析度偏好設定"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "只在這部電腦 (%s) 中成為預設值(_M)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] "正在測試新的設定。如果在 %d 秒內沒有回應，則會回復舊的。"
+
+#~ msgid "Keep Resolution"
+#~ msgstr "保留解析度"
+
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr "是否保留這個解析度？"
+
+#~ msgid "Use _Previous Resolution"
+#~ msgstr "使用以前的解析度(_P)"
+
+#~ msgid "_Keep Resolution"
+#~ msgstr "保留解析度(_K)"
+
+#~ msgid ""
+#~ "The X server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr "這個 X 伺服器不支援 XRandR 擴展功能，因此無法即時變更畫面的大小。"
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "系統中的 XRandR 擴展功能和本程式的不相容，因此無法即時變更畫面解析度。"
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr "在組態資料庫中設定新的捷徑鍵時出現錯誤：%s\n"
+
+#~ msgid "Keyboard Accessibility Notifications"
+#~ msgstr "鍵盤可存取性通知"
+
+#~ msgid "_Layouts:"
+#~ msgstr "配置(_L):"
+
+#~ msgid "Advanced Configuration"
+#~ msgstr "進階設定"
+
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "啟用軟體混音[ESD](_N)"
+
+#~ msgid "System Beep"
+#~ msgstr "系統鈴聲"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "啟用系統鈴聲(_E)"
+
+#~ msgid "_Visual system beep"
+#~ msgstr "以畫面閃爍代替鈴聲(_V)"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "指定為應用程式字型"
+
+#~ msgid "Sets the default application font"
+#~ msgstr "設定應用程式的預設字型"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">是否套用新的字型？</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "不套用字型(_N)"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr "您選取的佈景主題建議使用一款新的字型。可以在下面的地方預覽該字型。"
+
+#~ msgid "_Apply font"
+#~ msgstr "套用字型(_A)"
+
+#~ msgid "Themes"
+#~ msgstr "佈景主題"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Control theme"
+#~ msgstr "介面主題"
+
+#~ msgid "Window border theme"
+#~ msgstr "視窗邊框主題"
+
+#~ msgid "Icon theme"
+#~ msgstr "圖示主題"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr "如設定為‘true’，則會為已安裝的佈景主題製作縮圖。"
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "如設定為‘true’，則會為佈景主題製作縮圖。"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr "本設定鍵的內容是為已安裝的佈景主題製作縮圖所用的指令。"
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr "本設定鍵的內容是為佈景主題製作縮圖所用的指令。"
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "為已安裝的佈景主題製作縮圖所用的指令"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "為佈景主題製作縮圖所用的指令"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "是否為已安裝的佈景主題製作縮圖"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "是否為佈景主題製作縮圖"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABC 中文測試"
+
+#~ msgid "[FILE]"
+#~ msgstr "[檔案]"
+
+#~ msgid "Apply theme"
+#~ msgstr "套用佈景主題"
+
+#~ msgid "Sets the default theme"
+#~ msgstr "設定預設的佈景主題"

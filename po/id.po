@@ -1,0 +1,5762 @@
+# #-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#
+# Terjemahan Bahasa Indonesia 
+# Copyright (C) 2003 
+# This file is distributed under the same license as the fontilus package.
+# Ahmad Riza H Nst  <rizahnst@gnome.org> 2006
+# Mohammad DAMT <mdamt@bisnisweb.com> 2003 
+#
+#
+# #-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#
+# Terjemahan Bahasa Indonesia 
+# Copyright (C) 2003 
+# This file is distributed under the same license as the fontilus package.
+# Ahmad Riza H Nst  <rizahnst@gnome.org> 2006
+# Mohammad DAMT <mdamt@bisnisweb.com> 2003 
+#
+#
+# #-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#
+# translation of gnome-control-center to Indonesian
+# Copyright (C) 2003 gnome-control-center's  copyright holder
+# This file is distributed under the same license as the gnome-control-center package.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2003.
+# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006.
+# Andika Triwidada <andika@gmail.com>, 2009.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2010.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-09-02 11:31+0700\n"
+"Last-Translator: Dirgita <dirgitadevina@yahoo.co.id>\n"
+"Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: Indonesia\n"
+"X-Generator: Lokalize 1.1\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "Aktifkan kode debug"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "Jangan memeriksa apakah wilayah pemberitahuan telah ada"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Pemantauan Pengetikan"
+
+#: ../../../po/../src/main.c:103
+#, fuzzy
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Program pemantau ketik menggunakan area notifikasi untuk menampilkan "
+"informasi. Sepertinya Anda belum memasang area notifikasi. Silakan tambah "
+"dulu area notifikasi ke panel dengan cara mengklik kanan pada panel dan "
+"pilih 'Masukkan ke panel' kemudian 'Area Notifikasi' dan tekan tombol "
+"'Masukkan'.\n"
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Program pemantau ketik menggunakan area notifikasi untuk menampilkan "
+"informasi. Sepertinya Anda belum memasang area notifikasi. Silakan tambah "
+"dulu area notifikasi ke panel dengan cara mengklik kanan pada panel dan "
+"pilih 'Masukkan ke panel' kemudian 'Area Notifikasi' dan tekan tombol "
+"'Masukkan'.\n"
+"#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+"Program pemantau ketik menggunakan area notifikasi untuk menampilkan "
+"informasi. Sepertinya Anda belum memasang area notifikasi. Silakan tambah "
+"dulu area notifikasi ke panel dengan cara mengklik kanan pada panel dan "
+"pilih 'Tambahkan ke panel' kemudian 'Area notifikasi' dan tekan tombol "
+"'Tambah'."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "Is_tirahat"
+
+#: ../../../po/../src/drwright.c:441
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Tidak aktif\n"
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Tidak aktif\n"
+"#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+"Dinonaktifkan"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d menit lagi kita akan istirahat"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Kurang dari satu menit lagi kita akan istirahat"
+
+#: ../../../po/../src/drwright.c:553
+#, fuzzy, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Dialog pengaturan istirahat pengetikan tidak dapat ditampilkan. Pesan error: "
+"%s\n"
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Dialog pengaturan istirahat pengetikan tidak dapat ditampilkan. Pesan error: "
+"%s\n"
+"#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+"Dialog pengaturan istirahat pengetikan tidak dapat ditampilkan. Pesan galat: "
+"%s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Ditulis oleh Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Pernak-pernik dibuat oleh Anders Carlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Program pengingat istirahat."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Andika Triwidada <andika@gmail.com>, 2010.\n"
+"Dirgita <dirgitadevina@yahoo.co.id>, 2010.\n"
+"\n"
+"Kontribusi Launchpad:\n"
+"  Ahmad https://launchpad.net/~alza\n"
+"  Andi Darmawan https://launchpad.net/~belutz\n"
+"  Andika Triwidada https://launchpad.net/~andika\n"
+"  Andy Apdhani https://launchpad.net/~imtheface\n"
+"  Arief Setiadi Wibowo https://launchpad.net/~q-thrynx\n"
+"  Bagus Herlambang https://launchpad.net/~bagus\n"
+"  Candra Senja https://launchpad.net/~undurundur\n"
+"  Cecep Mahbub https://launchpad.net/~cecepm\n"
+"  FeHa https://launchpad.net/~chrans\n"
+"  Gian Anantrio https://launchpad.net/~giananantrio\n"
+"  Kurniawan Haikal https://launchpad.net/~coneman\n"
+"  Mohammad DAMT https://launchpad.net/~mdamt\n"
+"  Muhammad Bayu https://launchpad.net/~rametux\n"
+"  Muhammad Subair https://launchpad.net/~subair\n"
+"  Satrya Pratama https://launchpad.net/~satrya\n"
+"  Sihabul Milah https://launchpad.net/~eshabe\n"
+"  Suari Widilaksono https://launchpad.net/~s-widilaksono\n"
+"  Suprianto https://launchpad.net/~suprie1983\n"
+"  Wisnu Manupraba https://launchpad.net/~inoex135\n"
+"  bakazero https://launchpad.net/~zzee-bob\n"
+"  rotyyu https://launchpad.net/~rotua-hd"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "Tun_da Instirahat"
+
+#: ../../../po/../src/drw-break-window.c:234
+#, fuzzy
+msgid "Take a break!"
+msgstr ""
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Istirahat Dulu!\n"
+"#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+"Istirahat Dulu!\n"
+"#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+"Istirahat dulu!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Pengaturan Tema"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+#, fuzzy
+msgid "_Allow postponing of breaks"
+msgstr "B_olehkan penundaan istirahat"
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "Je_da istirahat:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "_Kunci layar untuk menjalankan jeda pengetikan"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "Lama _waktu kerja:"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Istirahat sekarang (berikutnya dalam %dm)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Istirahat sekarang (berikutnya dalam kurang dari semenit)"
+
+#~ msgid "minutes"
+#~ msgstr "menit"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Tempat Bekerja</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Tempat Bekerja</b>"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Beri tanda centang bila ingin memperbolehkan penundaan istirahat"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lama istirahat saat papan ketik dimatikan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lama istirahat saat papan ketik dimatikan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Lama istirahat saat papan tik dimatikan"
+
+#, fuzzy
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Lama bekerja sebelum istirahat dilakukan"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lama bekerja sebelum istirahat dilakukan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lama bekerja sebelum istirahat dilakukan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Lama bekerja sebelum memaksa istirahat dilakukan"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#, fuzzy
+#~ msgid "DrWright is already running."
+#~ msgstr "Pemantau ketik sudah dijalankan."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/Keterangan Progr_am"
+
+#, fuzzy
+#~ msgid "/_Remove Icon"
+#~ msgstr "_Hapus"
+
+#, fuzzy
+#~ msgid "One minute until the next break"
+#~ msgstr "%d menit lagi kita akan istirahat"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#, fuzzy
+#~ msgid "Quit"
+#~ msgstr "_Keluar"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pengingat waktu istirahat"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Freier Platz (in Prozent) zum Auslösen einer Warnung"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Freier Platz zum Auslösen einer Warnung"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Minimaler Warnintervall für wiederholte Warnungen"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Zu ignorierende Einhängepfade"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Prozentsatz des freien Plattenplatzes als Auslöseschwelle für die "
+#~ "erstmalige Warnung. Falls der Prozentsatz des freien Platzes unter diesen "
+#~ "Wert fällt, wird eine Warnung angezeigt."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Geben Sie eine Liste der Einhängepfade an, die bei wenig Plattenplatz "
+#~ "ignoriert werden sollen."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Geben Sie eine Zeit in Minuten an. Wiederholte Warnungen für einen "
+#~ "Datenträger erscheinen nicht öfter als in diesem Abstand."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Geben Sie eine Größe in GB an. Falls die Menge des freien Plattenplatzes "
+#~ "größer als dieser Wert ist, wird keine Warnung angezeigt."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Geben Sie den Prozentsatz des freien Plattenplatzes an, der "
+#~ "unterschritten werden muss, um wiederholte Warnungen auszulösen."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Schwellwert in Prozent für wiederholte Warnungen"
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Tastenkürzel um das Touchpad zu aktivieren/deaktivieren."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Tastenkürzel um die Wiedergabe zu starten (oder zwischen Wiedergabe und "
+#~ "Pause umzuschalten)."
+
+#~ msgid "Launch calculator"
+#~ msgstr "Taschenrechner öffnen"
+
+#~ msgid "Launch email client"
+#~ msgstr "E-Mail-Programm öffnen"
+
+#~ msgid "Launch media player"
+#~ msgstr "Medien-Player öffnen"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Touchpad ein/aus"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Datei mit der Vorgabekonfiguration für RandR"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Bildschirme im Benachrichtigungsfeld anzeigen"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Das XRandR-Plugin sucht in der durch diesen Schlüssel angegebenen Datei "
+#~ "nach einer Vorgabekonfiguration. Dies verhält sich ähnlich wie ~/.config/"
+#~ "monitors.xml, die normalerweise in den persönlichen Ordnern der Benutzer "
+#~ "gespeichert wird. Falls ein Benutzer nicht über solch eine Datei verfügt "
+#~ "oder seine Konfiguration nicht zu den vorhandenen Bildschirmen passt, "
+#~ "wird die in diesem Schlüssel angegebene Datei stattdessen verwendet."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Externen Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Externen Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Laptop-Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Laptop-Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Legt fest, ob im Panel ein Benachrichtigungssymbol für die "
+#~ "Bildschirmeinstellungen angezeigt wird."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Kantenglättung"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA-Abfolge"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Die Abfolge der Sub-Pixel-Elemente eines Flachbildschirms. Wird nur "
+#~ "verwendet, wenn die Kantenglättung auf »rgba« gesetzt ist. Mögliche Werte "
+#~ "sind: »rgb« für Rot auf links (am meisten verbreitet), »bgr« für Blau auf "
+#~ "links, »vrgb« für Rot oben und »vbgr« für Rot unten."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Die zu verwendende Auflösung, um Schriftgrößen auf Pixelgrößen "
+#~ "umzuwandeln, Angabe erfolgt in Punkten pro Zoll."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Die Art der Kantenglättung beim Darstellen der Schriften. Mögliche Werte "
+#~ "sind: »none« für keine Kantenglättung, »grayscale« für Standard-"
+#~ "Graustufenkantenglättung und »rgba« für Sub-Pixel-Kantenglättung (nur bei "
+#~ "Flachbildschirmen)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Die Art des Hinting, welches beim Darstellen von Schriften verwendet "
+#~ "wird. Mögliche Werte sind: »none« für kein Hinting, »slight« für "
+#~ "minimales, »medium« für normales und »full« für maximales Hinting "
+#~ "(letzteres kann zum Entstellen der Buchstabenformen führen),"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Falls nicht leer, werden Tastenkürzel ignoriert, sofern deren GConf-"
+#~ "Ordner sich in der Liste befindet. Dies ist nützlich zum Sperren."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Touchpad während des Tippens deaktivieren"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Horizontales Rollen aktivieren"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Mausklicks mit dem Touchpad aktivieren"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Rollmethode für Touchpad auswählen"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Wählen Sie die Rollmethode für das Touchpad aus. Mögliche Werte sind: 0 - "
+#~ "deaktiviert, 1 - Kantenrollen, 2 - Rollen mit zwei Fingern"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »WAHR«, falls Sie Probleme mit unbeabsichtigtem "
+#~ "Berühren des Touchpads während des Tippens haben."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »WAHR«, um horizontales Rollen mit der Methode zu "
+#~ "erlauben, die im Schlüssel »scroll_method« festgelegt ist."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »WAHR«, um Mausklicks mit dem Touchpad auslösen zu "
+#~ "können."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Setzen Sie dies auf »WAHR«, um alle Touchpads zu aktivieren."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Springende Tasten"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Befehl zum Ein- und Ausschalten der Bildschirmlupe"
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Befehl zum Ein- und Ausschalten der Bildschirmtastatur"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für automatisches Aufräumen aktiviert ist, das "
+#~ "alte temporäre Dateien aus den Zwischenspeichern entfernt."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Wenn auf »wahr« gesetzt, wird das Modul für die Einstellungen von XRandR "
+#~ "aktiviert."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen der Zwischenablage "
+#~ "aktiviert ist."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für das Festlegen des Bildschirmhintergrundes "
+#~ "aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "Legt fest, ob das Modul für die Schrifteneinstellung aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Tastatureinstellungen aktiviert ist."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Wenn auf »wahr« gesetzt, wird das Plugin zum Verwalten der "
+#~ "Bidschirmsperre beim Entfernen der SmartCard aktiviert."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Legt fest, ob das Modul für die Mauseinstellungen aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellung von Multimedia-Tasten "
+#~ "aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Auf »WAHR« setzen, um das Plugin zur Verwaltung des Audio-"
+#~ "Zwischenspeichers zu aktivieren."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen der barrierefreien Tastatur "
+#~ "aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Tastenkürzelverwaltung aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Tipppauseneinstellungen aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen von XRDB aktiviert ist."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Legt fest, ob das Modul für die Einstellungen von XSettings aktiviert ist."
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Tastenkürzel zum Ein- und Ausschalten der Bildschirmlupe"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "Tastenkürzel zum Ein- und Ausschalten der Bildschirmtastatur"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr ""
+#~ "Der Name des Tastenkürzels zum Ein- und Ausschalten des Bildschirmlesers"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Dies ist der Name des Tastenkürzels zum Ein- und Ausschalten der "
+#~ "Bildschirmlupe. Dieser Name wird im Einstellungsdialog der Tastatur "
+#~ "angezeigt."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Dies ist der Name des Tastenkürzels zum Ein- und Ausschalten der "
+#~ "Bildschirmtastatur. Dieser Name wird im Einstellungsdialog der Tastatur "
+#~ "angezeigt."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Dies ist der Name des Tastenkürzels zum Ein- und Ausschalten des "
+#~ "Bildschirmlesers. Dieser Name wird im Einstellungsdialog der Tastatur "
+#~ "angezeigt."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Legt fest, ob die Bildschirmtastatur aktiviert ist."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Legt fest, ob die Bildschirmlupe aktiviert ist."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »none« (nichts tun), »lock_screen« (Bildschirm "
+#~ "sperren) oder »force_logout« (Abmelden erzwingen). Die Aktion wird "
+#~ "ausgeführt, wenn die zum Anmelden benutzte Smartcard entfernt wird."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Smartcard-Entfernung"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Nicht zum Hintergrunddienst werden"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "GConf-Prefix, von wo aus Moduleinstellungen geladen werden"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Nach Ablauf einer Zeitspanne beenden - für Fehlerdiagnosezwecke"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Farb_kontrast erhöhen"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "_Text größer darstellen"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Nur lan_ge Tastenanschläge akzeptieren (Tastenverzögerung)"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Bildschirml_upe verwenden"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr ""
+#~ "Tastenkürzel durch _einzelnes Drücken der Tasten ausführen (Klebrige "
+#~ "Tasten)"
+
+#~ msgid "Clipboard"
+#~ msgstr "Zwischenablage"
+
+#~ msgid "Dummy"
+#~ msgstr "Dummy"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "Für dieses Dateisystem keine Warnungen mehr anzeigen"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Auf dem Datenträger »%s« ist nur noch %s Plattenplatz verfügbar."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Auf diesem Rechner ist nur noch %s Plattenplatz verfügbar."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie den Müll leeren, "
+#~ "ungenutzte Programme oder Dateien löschen oder Dateien auf eine andere "
+#~ "Festplatte oder eine andere Partition verschieben."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie ungenutzte Programme oder "
+#~ "Dateien löschen oder Dateien auf eine andere Festplatte oder eine andere "
+#~ "Partition verschieben."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie den Müll leeren, "
+#~ "ungenutzte Programme oder Dateien löschen oder Dateien auf einen externen "
+#~ "Datenträger verschieben."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Sie können Plattenplatz frei machen, indem Sie ungenutzte Programme oder "
+#~ "Dateien löschen oder Dateien auf einen externen Datenträger verschieben."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Zu wenig Speicherplatz"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Müll leeren"
+
+#~ msgid "Examine…"
+#~ msgstr "Überprüfen …"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorieren"
+
+#~ msgid "Removing: %s"
+#~ msgstr "Entfernt wird: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Mülleimer wird geleert"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Leeren des Mülleimers wird vorbereitet …"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Möchten Sie alle Objekte aus dem Mülleimer löschen?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Wenn Sie den Mülleimer leeren, wird der gesamte Inhalt unwiderruflich "
+#~ "gelöscht. Bitte beachten Sie, dass Objekte auch einzeln gelöscht werden "
+#~ "können."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Müll leeren"
+
+#~ msgid "Keybindings"
+#~ msgstr "Tastenkürzel"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Aktuelle _Belegung anzeigen"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Das Vorgabeterminal konnte nicht gefunden werden. Stellen Sie sicher, "
+#~ "dass der Befehl für \n"
+#~ "den Vorgabeterminal gesetzt ist und auf eine installierte Anwendung "
+#~ "verweist."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u Ausgabe"
+#~ msgstr[1] "%u Ausgaben"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u Eingabe"
+#~ msgstr[1] "%u Eingaben"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Eine barrierefreie Maus setzt das Programm »Mousetweaks« auf Ihrem System "
+#~ "voraus."
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Bildschirmgröße und -rotation einstellen"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Bildschirmkonfiguration konnte nicht geändert werden"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Bildschirmkonfiguration konnte nicht wiederhergestellt werden"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr ""
+#~ "Bildschirmkonfiguration konnte nicht aus einer Sicherungsdatei "
+#~ "wiederhergestellt werden"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] ""
+#~ "Diese Anzeige wird in %d Sekunde auf die vorherige Einstellung "
+#~ "zurückgesetzt"
+#~ msgstr[1] ""
+#~ "Diese Anzeige wird in %d Sekunden auf die vorherige Einstellung "
+#~ "zurückgesetzt"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Ist die Bildschirmanzeige in Ordnung?"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Die gewählte Bildschirmkonfiguration konnte nicht angewendet werden"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Bildschirminformationen konnten nicht aktualisiert werden: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Es wird trotzdem versucht, die Bildschirmkonfiguration zu ändern."
+
+#~ msgid "Rotation not supported"
+#~ msgstr "Rotation wird nicht unterstützt"
+
+#, fuzzy
+#~ msgid "Left"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Links\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Kiri"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kopfüber\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Terbalik"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Bildschirmeinstellungen …"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Bildschirmeinstellungen festlegen"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr ""
+#~ "Die gespeicherte Bildschirmkonfiguration konnte nicht angewendet werden"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Die X-Ressourcendatenbank verwalten"
+
+#~ msgid "X Resource Database"
+#~ msgstr "X-Ressourcendatenbank"
+
+#~ msgid "Module Path"
+#~ msgstr "Modulpfad"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "Pfad zum Smartcard PKCS #11-Treiber"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "Fehler empfangen oder Abbruch seitens der Ereignisquelle"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Das NSS-Sicherheitssystem konnte nicht initialisiert werden"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "Es konnte kein passender Smartcard-Treiber gefunden werden"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "Smartcard-Treiber »%s« konnte nicht geladen werden"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr ""
+#~ "Überwachung auf eingehende Karten-Ereignisse ist fehlgeschlagen - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr ""
+#~ "Unerwarteter Fehler trat beim Warten auf eingehende Karten-Ereignisse auf"
+
+#~ msgid "Slot ID"
+#~ msgstr "Slot-Kennung"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Der Slot, in welchem sich die Karte befindet"
+
+#~ msgid "Slot Series"
+#~ msgstr "Slot-Reihe"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "Slotweise Kartenbezeichnung"
+
+#~ msgid "name"
+#~ msgstr "Name"
+
+#~ msgid "Module"
+#~ msgstr "Modul"
+
+#~ msgid "smartcard driver"
+#~ msgstr "Smartcard-Treiber"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Hardware-Uhr konfigurieren"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Zeitzone des Systems zu "
+#~ "ändern."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Systemzeit zu ändern."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Hardware-Uhr zu "
+#~ "konfigurieren."
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% des Speicherplatzes auf »%s« wird benutzt"
+
+#~ msgid "Analyze"
+#~ msgstr "Analysieren"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "Setzen Sie diesen Werten auf »True«, um das Modul für die Einstellungen "
+#~ "für den Standard-Text-Editor zu aktivieren."
+
+#~ msgid "Accessibility"
+#~ msgstr "Kemudahan"
+
+#, fuzzy
+#~ msgid "Binding to launch the calculator."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan layar bantuan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to launch the email client."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan layar bantuan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Tampilkan layar bantuan"
+
+#, fuzzy
+#~ msgid "Binding to launch the media player."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to launch the search tool."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Tampilkan perambah web"
+
+#, fuzzy
+#~ msgid "Binding to lock the screen."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to log out."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lewatkan ke trek sebelumnya\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to lower the system volume."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to mute the system volume."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to open the Home folder."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to pause playback."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pemutar Suara:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to raise the system volume."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Lewatkan ke trek berikut"
+
+#, fuzzy
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Lewatkan ke trek sebelumnya"
+
+#, fuzzy
+#~ msgid "Binding to stop playback."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Lewatkan ke trek berikut\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#~ msgid "Eject"
+#~ msgstr "Keluarkan Media"
+
+#~ msgid "Home folder"
+#~ msgstr "Folder rumah"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Tampilkan layar bantuan"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Tampilkan perambah web"
+
+#~ msgid "Lock screen"
+#~ msgstr "Kunci layar"
+
+#~ msgid "Log out"
+#~ msgstr "Keluar"
+
+#, fuzzy
+#~ msgid "Next track"
+#~ msgstr "Lewatkan ke trek berikut"
+
+#, fuzzy
+#~ msgid "Pause playback"
+#~ msgstr "Pemutar Suara:"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Putar (atau putar/istirahat)"
+
+#, fuzzy
+#~ msgid "Previous track"
+#~ msgstr "Lewatkan ke trek sebelumnya"
+
+#~ msgid "Search"
+#~ msgstr "Cari"
+
+#, fuzzy
+#~ msgid "Stop playback"
+#~ msgstr "Tombol stop"
+
+#~ msgid "Volume down"
+#~ msgstr "Kecilkan suara"
+
+#~ msgid "Volume mute"
+#~ msgstr "Volume bisu"
+
+#~ msgid "Volume step"
+#~ msgstr "Tingkatan volume"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Tingkatan volume suara dalam persentase."
+
+#~ msgid "Volume up"
+#~ msgstr "Besarkan suara"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr "<b>Hinting</b>:"
+
+#, fuzzy
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Aktifkan fasilitas k_emudahan akses pada papan ketik"
+
+#, fuzzy
+#~ msgid "Enable background plugin"
+#~ msgstr "Simpan Gam_bar Latar"
+
+#, fuzzy
+#~ msgid "Enable clipboard plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Simpan Gam_bar Latar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable font plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Simpan Gam_bar Latar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable keybindings plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Simpan Gam_bar Latar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable keyboard plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Simpan Gam_bar Latar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable media keys plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jalankan screensaver pada saat login\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable mouse plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Simpan Gam_bar Latar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable sound plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Simpan Gam_bar Latar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Istirahat Mengetik\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable xrdb plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Simpan Gam_bar Latar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Enable xsettings plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jalankan screensaver pada saat login\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Kemud_ahan Akses"
+
+#, fuzzy
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Kemud_ahan Akses"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Ada error saat menampilkan layar bantuan: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Aktifkan fasilitas Tombol Lambat?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Matikan fasilitas Tombol Lambat?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Anda baru saja menekan tombol Shift selama 8 detik. Ini adalah tombol "
+#~ "singkat untuk mengaktifkan fasilitas Tombol Lambat. Fasilitas ini akan "
+#~ "merubah cara kerja papan ketik Anda."
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Janga_n aktifkan"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Janga_n dimatikan"
+
+#~ msgid "_Activate"
+#~ msgstr "_Aktifkan"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Matikan"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Peringatan Tombol Lambat"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Aktifkan fasilitas Tombol Berurut?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Matikan fasilitas Tombol Berurut?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Anda baru saja menekan tombol Shift selama 5 kali berturut-turut. Ini "
+#~ "adalah tombol singkat untuk mengaktifkan fasilitas Tombol Berurut. "
+#~ "Fasilitas ini akan merubah cara kerja papan ketik Anda."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Anda baru saja menekan dua tombol sekaligus atau  tombol Shift selama 5 "
+#~ "kali berturut-turut. Ini adalah tombol singkat untuk mengaktifkan "
+#~ "fasilitas Tombol Lambat. Fasilitas ini akan merubah cara kerja papan "
+#~ "ketik Anda."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Peringatan Tombol Berurut"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Preferensi Akses Universal"
+
+#, fuzzy
+#~ msgid "Background"
+#~ msgstr "Aktifkan Gam_bar Latar"
+
+#, fuzzy
+#~ msgid "Background plugin"
+#~ msgstr "Simpan Gam_bar Latar"
+
+#, fuzzy
+#~ msgid "Clipboard plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pilihan papan ketik\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Dummy plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Berkas Suara\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#~ msgid "Font"
+#~ msgstr "Fonta"
+
+#, fuzzy
+#~ msgid "Font plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Berkas Suara\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Error saat menjalankan (%s)\n"
+#~ "kebetulan ini terhubung ke tombol (%s)"
+
+#, fuzzy
+#~ msgid "Keybindings plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pilihan papan ketik\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#~ msgid "Keyboard"
+#~ msgstr "Papan Ketik"
+
+#, fuzzy
+#~ msgid "Keyboard plugin"
+#~ msgstr "Pilihan papan ketik"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Berkas _tersedia:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Buka berkas modmap"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Jangan tampilkan pesan ini lagi"
+
+#~ msgid "_Load"
+#~ msgstr "_Buka"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Berkas yang dibuka:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Perintah tidak dapat dijalankan: %s\n"
+#~ "Periksa dulu apakah perintah tersebut tersedia atau tidak."
+
+#~ msgid "System Sounds"
+#~ msgstr "Suara System"
+
+#, fuzzy
+#~ msgid "Media keys"
+#~ msgstr "Tombol Mouse"
+
+#, fuzzy
+#~ msgid "Media keys plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tombol Mouse\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Aktifkan fasilitas k_emudahan akses pada papan ketik"
+
+#, fuzzy
+#~ msgid "Mouse"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mouse\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mouse\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Tetikus"
+
+#, fuzzy
+#~ msgid "Mouse plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Berkas Suara\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Typing break plugin"
+#~ msgstr "Istirahat Mengetik"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Right"
+#~ msgstr "Kanan"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Direktori rumah pemilik tidak dapat ditentukan"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "Kunci GConf %s dipasang untuk jenis %s padahal diharapkan untuk jenis %s\n"
+
+#, fuzzy
+#~ msgid "Manage X Settings"
+#~ msgstr "Gunakan pengaturan X"
+
+#, fuzzy
+#~ msgid "X Settings"
+#~ msgstr "Gunakan pengaturan X"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tidak diketahui\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tidak diketahui\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Unknown"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Komputer ini tidak dapat ditidurkan.\n"
+#~ "Periksa dulu apakah konfigurasinya sudah benar atau belum."
+
+#, fuzzy
+#~ msgid "Binding to suspend the computer."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tampilkan perambah web\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#, fuzzy
+#~ msgid "Suspend"
+#~ msgstr "Suara"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr "Tampilkan dialog saat ada error dalam menjalankan screensaver"
+
+#, fuzzy
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Jalankan screensaver pada saat login"
+
+#, fuzzy
+#~ msgid "Show startup errors"
+#~ msgstr "Tampilkan Error saat Startup"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Jalankan screensaver"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Jalankan screensaver pada saat login"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Ada error saat menjalankan screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kegunaan screensaver tidak dapat diaktifkan."
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "Jalankan screensaver"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "Jalankan screensaver pada saat login"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Direktori \"%s\" tidak dapat dibuat.\n"
+#~ "Hal ini dibutuhkan untuk dapat merubah tema penunjuk mouse."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Direktori \"%s\" tidak dapat dibuat.\n"
+#~ "Perubahan kursor membutuhkan adanya direktori ini."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Berkas suara %s untuk sampel %s tidak dapat dibuka"
+
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "Logout"
+#~ msgstr "Keluar"
+
+#~ msgid "Boing"
+#~ msgstr "Boing"
+
+#~ msgid "Siren"
+#~ msgstr "Sirine"
+
+#~ msgid "Clink"
+#~ msgstr "Clink"
+
+#~ msgid "Beep"
+#~ msgstr "Bip"
+
+#~ msgid "No sound"
+#~ msgstr "Tanpa Suara"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Tidak ada suara untuk kejadian ini."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Berkas suara untuk kejadian ini tidak ada.\n"
+#~ "Anda mungkin perlu memasang gnome-audio-package untuk satu set suara."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Berkas suara yang dipasangkan pada kejadian ini tidak tersedia."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Pilih Berkas Suara"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Berkas %s bukanlah berkas wav yang benar"
+
+#, fuzzy
+#~ msgid "Select sound file..."
+#~ msgstr "Pilih Berkas Suara"
+
+#~ msgid "Sound"
+#~ msgstr "Suara"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "Berkas Suara"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Jika diisi true, pengelola mime untuk text/plain dan text/* akan "
+#~ "disinkronkan"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Sinkronisasikan pengelola text/plain dan text/*"
+
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jalankan screensaver pada saat login\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Terdapat lebih dari satu tindakan pada Pemasangan Tombol (%s)\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Terdapat lebih dari satu pemasangan pada Pemasangan Tombol (%s)\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "Sepertinya ada aplikasi lain yang telah memiliki akses ke tombol '%u'."
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Pemasangan Tombol (%s) sudah terpakai\n"
+
+#~ msgid "Volume"
+#~ msgstr "Volume"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_Jangan tampilkan peringatan ini lagi"
+
+#~ msgid "Typing Break"
+#~ msgstr "Istirahat Mengetik"
+
+#~ msgid "S_peed:"
+#~ msgstr "Kece_patan:"
+
+#, fuzzy
+#~ msgid "_Type to test settings:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ke_tikkan sesuatu untuk mencoba:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ke_tikkan sesuatu untuk mencoba:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "_Tikkan sesuatu untuk mencoba:"
+
+#, fuzzy
+#~ msgid "Zoom"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Perbesar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Perbesar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Zum"
+
+#, fuzzy
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tidak dapat membaca ikon saham '%s'\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tidak dapat membaca ikon saham '%s'\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Tidak dapat memuat ikon persedian '%s'\n"
+
+#~ msgid "Key"
+#~ msgstr "Kunci"
+
+#, fuzzy
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kunci GConf yang terkait dengan pengisi nilai\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kunci GConf yang terkait dengan pengisi nilai\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Kunci GConf yang terkait dengan penyunting properti"
+
+#~ msgid "Callback"
+#~ msgstr "Callback"
+
+#, fuzzy
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jalankan callback ini saat nilai pada kunci berubah\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jalankan callback ini saat nilai pada kunci berubah\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Terbitkan callback ini saat nilai yang terkait dengan kunci diubah"
+
+#, fuzzy
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kelompok data perubahan GConf akan dikirimkan ke klien gconf saat "
+#~ "diaktifkan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kelompok data perubahan GConf akan dikirimkan ke klien gconf saat "
+#~ "diaktifkan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Kelompok data perubahan GConf akan dikirimkan ke klien gconf saat "
+#~ "diterapkan"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Konversi ke callback widget"
+
+#, fuzzy
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang akan dijalankan saat data dikonversi dari GConf ke widget\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang akan dijalankan saat data dikonversi dari GConf ke widget\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Callback yang akan diterbitkan saat data dikonversi dari GConf ke widget"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Konversi dari callback widget"
+
+#, fuzzy
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang dijalankan saat data dikonversi dari GConf ke widget\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang dijalankan saat data dikonversi dari GConf ke widget\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Callback yang diterbitkan saat data dikonversi dari GConf ke widget"
+
+#~ msgid "UI Control"
+#~ msgstr "Kendali UI"
+
+#, fuzzy
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Objek yang mengatur pengisian nilai (biasanya berupa widget)\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Objek yang mengatur pengisian nilai (biasanya berupa widget)\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Objek yang mengatur properti (biasanya berupa widget)"
+
+#, fuzzy
+#~ msgid "Property editor object data"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Data objek pengisi nilai\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Data objek pengisi nilai\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Data objek penyunting properti"
+
+#, fuzzy
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Data tambahan yang diperlukan oleh pengisi nilai tertentu\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Data tambahan yang diperlukan oleh pengisi nilai tertentu\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Data tambahan yang diperlukan oleh penyunting properti tertentu"
+
+#, fuzzy
+#~ msgid "Property editor data freeing callback"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang membebaskan data pengisi nilai\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang membebaskan data pengisi nilai\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Callback yang membebaskan data penyunting properti"
+
+#, fuzzy
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang akan dipanggil saat data objek pengisi nilai akan "
+#~ "dibebaskan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Callback yang akan dipanggil saat data objek pengisi nilai akan "
+#~ "dibebaskan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Callback yang akan dipanggil saat data objek penyunting properti akan "
+#~ "dibebaskan"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Berkas '%s' tidak dapat ditemukan.\n"
+#~ "\n"
+#~ "Pastikan berkas tersebut ada dan coba lagi, atau pilihlah gambar latar "
+#~ "yang lain."
+
+#, fuzzy
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Berkas '%s' tidak dapat dibuka.\n"
+#~ "Sepertinya berkas ini bukan gambar yang dapat dikenali GNOME.\n"
+#~ "\n"
+#~ "Silakan ganti dengan gambar lain saja.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Berkas '%s' tidak dapat dibuka.\n"
+#~ "Sepertinya berkas ini bukan gambar yang dapat dikenali GNOME.\n"
+#~ "\n"
+#~ "Silakan ganti dengan gambar lain saja.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Berkas '%s' tidak dapat dibuka.\n"
+#~ "Sepertinya berkas ini gambar yang belum didukung.\n"
+#~ "\n"
+#~ "Silakan ganti dengan gambar lain saja."
+
+#~ msgid "Please select an image."
+#~ msgstr "Silakan pilih sebuah gambar."
+
+#~ msgid "_Select"
+#~ msgstr "_Pilih"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Aplikasi Pilihan"
+
+#, fuzzy
+#~ msgid "Select your default applications"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Silakan pilih aplikasi utama\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Silakan pilih aplikasi utama\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Memilih aplikasi utama Anda"
+
+#, fuzzy
+#~ msgid "Custom"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Sesuaikan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Sesuaikan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Ubahan"
+
+#, fuzzy
+#~ msgid "Could not load the main interface"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tidak dapat membaca antar muka utam\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tidak dapat membaca antar muka utam\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Tidak dapat memuat antarmuka utama"
+
+#, fuzzy
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Periksa dulu apakah appletnya terpasang dengan benar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Periksa dulu apakah appletnya terpasang dengan benar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Pastikan applet ini telah terpasang dengan benar"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Perambah Sensible Debian"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Terminal Emulator Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#, fuzzy
+#~ msgid "Epiphany Web Browser"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Perambah Web Epiphany\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Perambah Web Epiphany\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Epiphany Peramban Web"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Program Email Evolution\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Program Email Evolution\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Evolution Pembaca Surat"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminal GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#, fuzzy
+#~ msgid "Mozilla Mail"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mozilla Mail\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Mozilla Mail\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Mozilla Surat"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "XTerminal Standar"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Seluruh %s akan digantikan dengan tautan aktual"
+
+#, fuzzy
+#~ msgid "Co_mmand:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Peri_ntah:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Peri_ntah:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "P_erintah:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Tanda e_ksekusi:"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Buka tautan di _tab baru"
+
+#, fuzzy
+#~ msgid "Open link in new _window"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Buka tautan di _jendela baru\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Buka tautan di _jendela baru\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Buka taut pada jendela _baru"
+
+#, fuzzy
+#~ msgid "Open link with web browser _default"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Buka tautan dengan perambah web _default\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Buka tautan dengan perambah web _default\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Buka tautan dengan peramban web _default"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Jalankan pada t_erminal"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#, fuzzy
+#~ msgid "_Resolution:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Resolusi:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Resolusi:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "_Resolution:"
+
+#, fuzzy
+#~ msgid "Re_fresh rate:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Laju re_fresh:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Laju re_fresh:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Laju penyega_ran:"
+
+#, fuzzy
+#~ msgid "R_otation:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "P_erputaran:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "P_erputaran:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "R_otasi:"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tombol akselerator"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Pengait akselerator"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Kode tombol akselerator"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Moda Akselerator"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Jenis akselerator."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Tindakan Tidak Diketahui>"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
+
+#, fuzzy
+#~ msgid "Action"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tindakan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tindakan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Aksi"
+
+#, fuzzy
+#~ msgid "Shortcut"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tombol Singkat\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tombol Singkat\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Pintasan"
+
+#, fuzzy
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tombol Singkat\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tombol Singkat\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Tombol Pintas"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Pasang tombol singkat untuk perintah tertentu"
+
+#, fuzzy
+#~ msgid "Layout"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tata letak\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tata letak\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Tata Letak"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Standar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Standar\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Bawaan"
+
+#, fuzzy
+#~ msgid "Models"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Model\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Model\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Models"
+
+#, fuzzy
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pilih Model Papan Ketik\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pilih Model Papan Ketik\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Choose a Keyboard Model"
+
+#, fuzzy
+#~ msgid "Choose a Layout"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pilih Susunan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pilih Susunan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Choose a Layout"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Kecepatan kedip kursor"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr ""
+#~ "Tombol akan diulangi saat tombol te_rsebut ditekan dalam beberapa saat"
+
+#, fuzzy
+#~ msgid "Keyboard _model:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Model papan ketik:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Model papan ketik:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "_Model papan tik:"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Kunci layar setelah durasi tertentu untuk mencegah cedera lengan akibat "
+#~ "terlalu banyak mengetik"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Contohnya:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Contohnya:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Pratinjau:"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Kecepatan pengulangan kunci"
+
+#~ msgid "_Add..."
+#~ msgstr "T_ambah..."
+
+#~ msgid "_Delay:"
+#~ msgstr "Je_da:"
+
+#~ msgid "_Models:"
+#~ msgstr "_Model:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Kecepatan:"
+
+#, fuzzy
+#~ msgid "Set your keyboard preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Atur papan ketik Anda\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Atur papan ketik Anda\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Atur preferensi papan tik Anda"
+
+#~ msgid "Large"
+#~ msgstr "Besar"
+
+#~ msgid "Small"
+#~ msgstr "Kecil"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Akselerasi:"
+
+#, fuzzy
+#~ msgid "_Sensitivity:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Kepekaan:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Kepekaan:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "_Sensitivity:"
+
+#, fuzzy
+#~ msgid "_Timeout:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Waktu _timeout:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Waktu _timeout:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Wak_tu habis:"
+
+#, fuzzy
+#~ msgid "Set your mouse preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Atur mouse Anda\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Atur mouse Anda\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Atur preferensi tetikus Anda"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Proksi Jaringan"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Atur proksi jaringan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Atur proksi jaringan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Atur preferensi proksi jaringan Anda"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Koneksi inte_rnet langsung</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Konfigur_asi proksi otomatis</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Konfigurasi proksi _manual</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>G_unakan otentikasi</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL konfigurasi otomatis:"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detil Proksi HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Proksi H_TTP:"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pengaturan Proksi Jaringan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pengaturan Proksi Jaringan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Preferensi Proksi Jaringan"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Host s_ocks:"
+
+#, fuzzy
+#~ msgid "U_sername:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Nama _pengguna:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Nama _pengguna:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "_Nama Pengguna:"
+
+#, fuzzy
+#~ msgid "_Details"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Detil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "_Detil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "_Detail"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Proksi _FTP:"
+
+#, fuzzy
+#~ msgid "_Password:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kata _Sandi:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kata _Sandi:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "_Sandi:"
+
+#, fuzzy
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Proksi HTTP _secure:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Proksi HTTP _secure:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Proksi HTTP_S:"
+
+#, fuzzy
+#~ msgid "Flash _window titlebar"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kedipkan judul _jendela saja\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kedipkan judul _jendela saja\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Kedipkan judul _jendela"
+
+#~ msgid "_Name:"
+#~ msgstr "_Nama:"
+
+#, fuzzy
+#~ msgid "The GNOME configuration tool"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Program pengatur sistem GNOME\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Program pengatur sistem GNOME\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Perkakas konfigurasi GNOME"
+
+#~ msgid "Name:"
+#~ msgstr "Nama:"
+
+#~ msgid "Style:"
+#~ msgstr "Gaya:"
+
+#, fuzzy
+#~ msgid "Type:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tipe:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Tipe:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Jenis:"
+
+#~ msgid "Size:"
+#~ msgstr "Ukuran:"
+
+#~ msgid "Version:"
+#~ msgstr "Versi:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Hak Cipta:"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Keterangan:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Keterangan:\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Deskripsi:"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "cara pakai: %s berkasfont\n"
+
+#, fuzzy
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis OpenType akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis OpenType akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Jika diset, fonta jenis OpenType akan dibuat dalam ukuran kecil."
+
+#, fuzzy
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis PCF akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis PCF akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Jika diset, fonta jenis PCF akan dibuat dalam ukuran kecil."
+
+#, fuzzy
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis TrueType akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis TrueType akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Jika diset, fonta jenis TrueType akan dibuat dalam ukuran kecil."
+
+#, fuzzy
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis Type1 akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Jika diset, font jenis Type1 akan dibuat dalam ukuran kecil\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Jika diset, fonta jenis Type1 akan dibuat dalam ukuran kecil."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "OpenType dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "OpenType dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis "
+#~ "OpenType dalam kunci ini."
+
+#, fuzzy
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "PCF dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "PCF dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis "
+#~ "PCF dalam kunci ini."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "TrueType dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "TrueType dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis "
+#~ "TrueType dalam kunci ini."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "Type1 dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf font jenis "
+#~ "Type1 dalam key ini.\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis "
+#~ "Type1 dalam kunci ini."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Perintah pembuat contoh huruf untuk huruf jenis OpenType"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Perintah pembuat contoh huruf untuk huruf jenis PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Perintah pembuat contoh huruf untuk huruf jenis TrueType"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Perintah pembuat contoh huruf untuk huruf jenis Type1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr ""
+#~ "Menentukan apakah ingin membuat contoh huruf untuk huruf jenis OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Menentukan apakah ingin membuat contoh huruf untuk huruf jenis PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr ""
+#~ "Menentukan apakah ingin membuat contoh huruf untuk huruf jenis TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr ""
+#~ "Menentukan apakah ingin membuat contoh huruf untuk huruf jenis Type1"
+
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Pemasangan Tombol (%s) tidak lengkap\n"
+
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Pemasangan Tombol (%s) salah\n"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Ingin membuka berkas modmap?"
+
+#, fuzzy
+#~ msgid "Mouse Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pengaturan Mouse\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Preferensi Tetikus"
+
+#, fuzzy
+#~ msgid "Change set"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Ubah kelompok data\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Ubah set"
+
+#, fuzzy
+#~ msgid "Error saving configuration: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Kesalahan ketika menyimpan konfigurasi: %s\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Galat menyimpan konfigurasi: %s"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "B_olehkan penundaan istirahat"
+
+#, fuzzy
+#~ msgid "Keyboard Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Pengaturan Papan Ketik\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Preferensi Papan Ketik"
+
+#, fuzzy
+#~ msgid "Layouts"
+#~ msgstr ""
+#~ "#-#-#-#-#  id.po (gnome-control-center HEAD)  #-#-#-#-#\n"
+#~ "Susunan\n"
+#~ "#-#-#-#-#  id.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Tata Letak"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Konfigurasi Proksi"
+
+#~ msgid "Current network location"
+#~ msgstr "Lokasi jaringan kini"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "URL latar belakang lainnya"
+
+#~ msgid "More themes URL"
+#~ msgstr "URL tema lainnya"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Tata ini ke nama lokasi Anda kini. Ini dipakai untuk menentukan "
+#~ "konfigurasi proksi jaringan yang tepat."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL untuk memperoleh lebih banyak latar belakang desktop. Bila "
+#~ "dikosongkan, taut tidak akan muncul."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL untuk memperoleh lebih banyak tema desktop. Bila dikosongkan, taut "
+#~ "tidak akan muncul."
+
+#~ msgid "Date And Time"
+#~ msgstr "Tanggal Dan Waktu"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "Panel preferensi Tanggal dan Waktu"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Jalankan teknologi pemandu visual yang dipilih"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Pemandu Visual"
+
+#~ msgid "C_ommand:"
+#~ msgstr "_Perintah:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Penampil Gambar"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Pesan Instan"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Pembaca Surat"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobilitas"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Pemutar Multimedia"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Jalankan saat st_art"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Emulator Terminal"
+
+#~ msgid "Text Editor"
+#~ msgstr "Penyunting Teks"
+
+#~ msgid "Video Player"
+#~ msgstr "Pemutar Video"
+
+#~ msgid "Visual"
+#~ msgstr "Visual"
+
+#~ msgid "Web Browser"
+#~ msgstr "Peramban Web"
+
+#~ msgid "_Run at start"
+#~ msgstr "_Jalankan pada saat mulai"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee Pemutar Musik"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "GNOME Magnifier tanpa Screen Reader"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Papan Ketik OnScreen GNOME"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus dengan Pembesar"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Surat"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE Magnifier tanpa Screen Reader"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Pembaca Tampilan Linux"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Pembaca Tampilan Linux dengan  Magnifier"
+
+#~ msgid "Listen"
+#~ msgstr "Perhatikan"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine Pemutar Musik"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca dengan Magnifier"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox Pemutar Musik"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Surat"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem Pemutar Film"
+
+#~ msgid "Include _panel"
+#~ msgstr "Sertakan _panel"
+
+#~ msgid "Make Default"
+#~ msgstr "Jadikan Baku"
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Off"
+#~ msgstr "Mati"
+
+#~ msgid "On"
+#~ msgstr "Aktif"
+
+#~ msgid "Panel icon"
+#~ msgstr "Ikon panel"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "Ga_mbar yang sama pada semua monitor"
+
+#~ msgid "Upside-down"
+#~ msgstr "Terbalik"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Deteksi monitor"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Tampilkan monitor pada panel"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Mengubah resolusi dan posisi monitor"
+
+#~ msgid "Monitors"
+#~ msgstr "Monitor"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Cara pakai: %s BERKAS_SUMBER NAMA_TUJUAN\n"
+#~ "\n"
+#~ "Program ini memasang suatu profil RANDR bagi tatanan multi-monitor\n"
+#~ "ke suatu lokasi sistem. Profil hasil akan dipakai ketika plug-in RANDR\n"
+#~ "dijalankan di gnome-settings-daemon.\n"
+#~ "\n"
+#~ "BERKAS_SUMBER - suatu nama lokasi lengkap, biasanya /home/namapengguna/."
+#~ "config/monitors.xml\n"
+#~ "\n"
+#~ "NAMA_TUJUAN - suatu nama relatif bagi berkas terpasang. Ini akan\n"
+#~ "              diletakkan di direktori sistem bagi konfigurasi RANDR,\n"
+#~ "              sehingga hasilnya biasanya %s/NAMA_TUJUAN\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Program ini hanya bisa digunakan oleh root"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Nama berkas sumber mesti absolut"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Tidak dapat membuka %s: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Tidak memperoleh informasi bagi %s: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s harus merupakan berkas reguler\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Program ini hanya boleh dijalankan melalui pkexec(1)"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID mesti ditata ke suatu nilai integer"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "Pemilik %s mestinya Anda\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s tak boleh memiliki komponen direktori\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s harus berupa direktori\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Tidak dapat membuka %s/%s: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "Tidak dapat mengubah nama %s to %s: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Otentikasi diperlukan untuk memasang tatanan multi-monitor bagi semua "
+#~ "pengguna"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Pasang tatanan multi-monitor bagi seluruh sistem"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Layar Kembar"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Monitor: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Pilih suatu monitor untuk mengubah propertinya; seret dia untuk menata "
+#~ "ulang penempatannya."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Tidak dapat menyimpan konfigurasi monitor"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Tidak dapat mendapatkan bus sesi saat menerapkan konfigurasi tampilan"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Tidak dapat mendeteksi tampilan"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Konfigurasi monitor telah disimpan"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr ""
+#~ "Konfigurasi ini akan dipakai ketika seseorang log masuk di saat mendatang."
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Tidak dapat menata konfigurasi baku untuk monitor"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Tidak dapat memperoleh informasi layar"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Pintasan baru..."
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Tombol Pintas Gubahan"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Kesalahan saat menyimpan tombol pintas baru"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Tombol pintas \"%s\" tidak dapat digunakan, karena tidak mungkin mengetik "
+#~ "dengan tombol itu.\n"
+#~ "Silakan coba tombol seperti Control, Alt, atau Shift secara bersamaan."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Tombol pintas itu \"%s\" sudah digunakan untuk\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Jika Anda memfungsikan ulang cara pintas untuk \"%s\", cara \"%s\"  ini "
+#~ "akan dinonaktifkan."
+
+#~ msgid "_Reassign"
+#~ msgstr "Alih _Fungsikan"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Kesalahan saat tidak mengatur akselerator dalam konfigurasi basis data:%s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Terlalu banyak tombol pintas gubahan"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Tombol Pintas Gubahan"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Untuk mengedit tombol cara pintas, klik kolom yang berkorespondensi dan "
+#~ "ketikkan kombinasi tombol baru, atau tekan spasi mundur untuk menghapus."
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Tit ketika fitur _aksesibilitas dinyalakan atau dimatikan"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Tit ketika kunci pengubah ditekan"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Tit ketika kunci _toggle ditekan"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Tit ketika kunci dit_ekan"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Tit ketika kunci ditola_k"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Tit ketika kunci diterim_a"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Tit ketika kunci ditola_k"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Tombol Pantul"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Kedipkan _seluruh layar"
+
+#~ msgid "General"
+#~ msgstr "Umum"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Pantulan Audio Terkait Papan Tuts"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Tunjukkan umpan balik _visual untuk untuk tanda suara"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Tombol Lambat"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Tombol Lengket"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Petunjuk visual bagi suara"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Pantulan _Audio..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Kursor Berkedip"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Pendaran _kursor di area teks"
+
+#~ msgid "D_elay:"
+#~ msgstr "T_unda"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "Nona_ktifkan tombol-tombol yang sudah dibuat jika dua tombol ditekan "
+#~ "bersamaan"
+
+#~ msgid "Fast"
+#~ msgstr "Cepat"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Daftar tata letak papan tik yang dipilih untuk dipakai"
+
+#~ msgid "Long"
+#~ msgstr "Panjang"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Tombol Tetikus"
+
+#~ msgid "Move _Down"
+#~ msgstr "Pin_dah ke Bawah"
+
+#~ msgid "Move _Up"
+#~ msgstr "Pindah ke _Atas"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Pindahkan tata letak papan tik ke bawah pada daftar"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Pindahkan tata letak papan tik ke atas pada daftar"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Jendela baru _memakai tata letak jendela aktif"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Cetak diagram tata letak papan tik yang dipilih"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Hapus tata letak papan tik yang dipilih dari daftar"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Tombol Pengulangan"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Ganti tatanan tata letak papan tik kini dengan\n"
+#~ "tatanan baku"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "_Kembali Semula"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Pilih suatu tata letak papan tik untuk ditambahkan ke daftar"
+
+#~ msgid "Short"
+#~ msgstr "Pendek"
+
+#~ msgid "Slow"
+#~ msgstr "Lambat"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Melihat dan menyunting opsi tata letak papan tik"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "_Fitur terkait dapat digunakan bersama cara pintas papan tuts"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Abaikan tekanan cepat tombol yang sama"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Hanya menerima tekanan tombol yang lama"
+
+#~ msgid "_Options..."
+#~ msgstr "_Opsi..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "_Kursor dapat dikendalikan menggunakan tombol anak panah"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Tata letak terpi_sah untuk masing-masing jendela"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simulasi penekanan tombol secara serempak"
+
+#~ msgid "By _country"
+#~ msgstr "Berdasarkan _negara"
+
+#~ msgid "By _language"
+#~ msgstr "Berdasarkan _bahasa"
+
+#~ msgid "_Country:"
+#~ msgstr "_Negara:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Bahasa:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Varian:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Vendor:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Pilihan-pilihan Tata Letak Keyboard"
+
+#~ msgid "Vendors"
+#~ msgstr "Para Penyedia"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Bergerak ke kiri"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Bergerak ke kanan"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Bergerak ke atas"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Bergerak ke bawah"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Dinonaktifkan"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Pilih tipe klik se_belumnya"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Pilih tipe klik dengan"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "Klik g_anda:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Klik d_rag:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Matikan _touchpad ketika mengetik"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Timeout Klik Ganda"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Seret dan Letakkan"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Dwell Click"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "_Mengaktifkan klik tetikus dengan touchpad"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Aktifkan penggulungan h_orisontal"
+
+#~ msgid "High"
+#~ msgstr "Tinggi"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Lokasi Penunjuk"
+
+#~ msgid "Low"
+#~ msgstr "Rendah"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Orientasi Tetikus"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Kecepatan Penunjuk"
+
+#~ msgid "Scrolling"
+#~ msgstr "Menggulung"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Klik K_edua:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Tampilkan posisi pointer ketika kunci Control ditekan"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Tampilkan tipe_jendela klik"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Klik Sekunder Tersimulasi"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "Ambang:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Untuk menguji pengaturan klik-ganda Anda, cobalah melakukan klik-ganda "
+#~ "pada lampu."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Menggulung dua _jari"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Anda juga dapat memakai aplet panel Dwell Click untuk memilik tipe klik."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Dinonaktifkan"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "Menggulung t_epi"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "Inisiasi klik ketika pointer berhenti"
+
+#~ msgid "_Left-handed"
+#~ msgstr "Tangan _Kidal"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "A_mbang gerakan:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "Tangan _Kanan"
+
+#~ msgid "_Single click:"
+#~ msgstr "Klik _tunggal:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_Trigger klik kedua dengan memegang bawah tombol utama"
+
+#~ msgid "New Location..."
+#~ msgstr "Lokasi Baru..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Lokasi sudah ada"
+
+#~ msgid "C_reate"
+#~ msgstr "_Buat"
+
+#~ msgid "Create New Location"
+#~ msgstr "Buat Lokasi Baru"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Abaikan Daftar Host"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Alamat yang diabaikan"
+
+#~ msgid "Location:"
+#~ msgstr "Lokasi:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Lokasi sudah ada."
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Hapus Lokasi"
+
+#~ msgid "_Location name:"
+#~ msgstr "Nama _lokasi:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "G_unakan proxy yang sama untuk semua protokol"
+
+#~ msgid "Universal Access"
+#~ msgstr "Akses Universal"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr "<span size=\"x-large\">High/Terbalik</span>"
+
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr "<span size=\"x-large\">Tinggi</span>"
+
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr "<span size=\"x-large\">Rendah</span>"
+
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr "<span size=\"x-large\">Normal</span>"
+
+#~ msgid "Acceptance delay:"
+#~ msgstr "Tundaan penerimaan:"
+
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr ""
+#~ "Fitur aksesibilitas dapat diaktifkan maupun tidak dengan tombol pintas"
+
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Bip ketika Caps dan Num Lock dipakai"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "Bip ketika kunci"
+
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "Bip ketika kunci ditolak"
+
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "Bip ketika kunci pengubah ditekan"
+
+#~ msgid "Caribou"
+#~ msgstr "Caribou"
+
+#~ msgid "Change constrast:"
+#~ msgstr "Ubah kontras:"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "Penjelasan Tertutup"
+
+#~ msgid "Contrast:"
+#~ msgstr "Kontras:"
+
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "Kendalikan penunjuk memakai tombol panah."
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "Kendalikan penunjuk memakai kamera video."
+
+#~ msgid "Ctrl+Alt+-"
+#~ msgstr "Ctrl+Alt+-"
+
+#~ msgid "Ctrl+Alt+0"
+#~ msgstr "Ctrl+Alt+0"
+
+#~ msgid "Ctrl+Alt+4"
+#~ msgstr "Ctrl+Alt+4"
+
+#~ msgid "Ctrl+Alt+8"
+#~ msgstr "Ctrl+Alt+8"
+
+#~ msgid "Ctrl+Alt+="
+#~ msgstr "Ctrl+Alt+="
+
+#~ msgid "Decrease size:"
+#~ msgstr "Kecilkan ukuran:"
+
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "Matikan bila dua tombol ditekan bersamaan"
+
+#~ msgid "Display"
+#~ msgstr "Tampilan"
+
+#~ msgid "Display a textual description of speech and sounds."
+#~ msgstr "Tampilkan deskripsi tekstual dari pidato dan suara."
+
+#~ msgid "Flash the entire screen"
+#~ msgstr "Kedipkan seluruh layar"
+
+#~ msgid "Flash the window title"
+#~ msgstr "Kedipkan baris judul"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#~ msgid "Hearing"
+#~ msgstr "Pendengaran"
+
+#~ msgid "High/Inverse"
+#~ msgstr "Tinggi/Terbalik"
+
+#~ msgid "HighContrast"
+#~ msgstr "HighContrast"
+
+#~ msgid "HighContrastInverse"
+#~ msgstr "HighContrastInverse"
+
+#~ msgid "Hover Click"
+#~ msgstr "Klik Mengambang"
+
+#~ msgid "I need assistance with:"
+#~ msgstr "Saya perlu bantuan atas:"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Abaikan penekanan cepat tombol yang sama"
+
+#~ msgid "Increase size:"
+#~ msgstr "Besarkan ukuran:"
+
+#~ msgid "Keyboard Settings..."
+#~ msgstr "Tatanan Tombol..."
+
+#~ msgid "Larger"
+#~ msgstr "Lebih besar"
+
+#~ msgid "LowContrast"
+#~ msgstr "LowContrast"
+
+#~ msgid "Mouse Settings..."
+#~ msgstr "Pengaturan Tetikus..."
+
+#~ msgid "Nomon"
+#~ msgstr "Nomon"
+
+#~ msgid "None"
+#~ msgstr "Nihil"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "Papan tik di layar"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "Options..."
+#~ msgstr "Opsi..."
+
+#~ msgid "Pointing and Clicking"
+#~ msgstr "Menunjuk dan Menklik"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted."
+#~ msgstr ""
+#~ "Sisipkan jeda antara ketika suatu tombol ditekan dan ketika itu diterima."
+
+#~ msgid "Screen Reader"
+#~ msgstr "Pembaca Layar"
+
+#~ msgid "Seeing"
+#~ msgstr "Penglihatan"
+
+#~ msgid "Shift+Ctrl+Alt+-"
+#~ msgstr "Shift+Ctrl+Alt+-"
+
+#~ msgid "Shift+Ctrl+Alt+="
+#~ msgstr "Shift+Ctrl+Alt+="
+
+#~ msgid "Show Universal Access status"
+#~ msgstr "Tampilkan status Akses Universal"
+
+#~ msgid "Sound Settings..."
+#~ msgstr "Pengaturan Suara..."
+
+#~ msgid "Test flash"
+#~ msgstr "Uji flash"
+
+#~ msgid "Test:"
+#~ msgstr "Uji:"
+
+#~ msgid "Text size:"
+#~ msgstr "Ukuran teks:"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination."
+#~ msgstr "Perlakukan urutan kunci pengubah sebagai suatu kombinasi kunci."
+
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "Picu klik ketika penunjuk terdiam."
+
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr "Picu klik sekunder dengan menahan tombol primer."
+
+#~ msgid "Turn on or off:"
+#~ msgstr "Nyalakan atau matikan:"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "Ketik di sini untuk menguji"
+
+#~ msgid "Typing"
+#~ msgstr "Mengetik"
+
+#~ msgid "Typing Assistant"
+#~ msgstr "Asisten Mengetik"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Gunakan indikasi visual ketika terjadi suara peringatan."
+
+#~ msgid "Use an alternative form of text input"
+#~ msgstr "Gunakan bentuk alternatif masukan teks"
+
+#~ msgid "Video Mouse"
+#~ msgstr "Mouse Video"
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Peringatan Visual"
+
+#~ msgid "Zoom in:"
+#~ msgstr "Perbesaran:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "Perkecilan:"
+
+#~ msgid "accepted"
+#~ msgstr "diterima"
+
+#~ msgid "pressed"
+#~ msgstr "ditekan"
+
+#~ msgid "rejected"
+#~ msgstr "ditolak"
+
+#~ msgid "Control Center"
+#~ msgstr "Pusat Kendali"
+
+#~ msgid "Installed"
+#~ msgstr "Terpasang"
+
+#~ msgid "Install Failed"
+#~ msgstr "Pemasangan Gagal"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Pasa_ng Fonta"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Penampil Fonta"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Pratinjau fonta"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Teks untuk dicontohkan (baku: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKS"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Ukuran fonta (baku: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "UKURAN"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "BERKAS-FONTA BERKAS-KELUARAN"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Kesalahan mengurai argumen: %s\n"
+
+#~ msgid "Example Panel"
+#~ msgstr "Panel Contoh"
+
+#~ msgid "Example preferences panel"
+#~ msgstr "Contoh panel preferensi "
+
+#~ msgid "System Settings"
+#~ msgstr "Pengaturan Sistem"
+
+#~ msgid "_All Settings"
+#~ msgstr "Semu_a Pengaturan"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Pengaturan"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Janga_n aktifkan"
+
+#, fuzzy
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Lewatkan ke trek berikut"
+
+#, fuzzy
+#~ msgid "Allowed keys"
+#~ msgstr "Tombol Mouse"
+
+#, fuzzy
+#~ msgid "Enable touchpad"
+#~ msgstr "Mesin program tidak dapat dijalankan"
+
+#, fuzzy
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Gunakan pengaturan GNOME"
+
+#, fuzzy
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Tampilkan perambah web"
+
+#, fuzzy
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Tampilkan perambah web"
+
+#, fuzzy
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Tampilkan perambah web"
+
+#, fuzzy
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Jalankan screensaver pada saat login"
+
+#, fuzzy
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Simpan Gam_bar Latar"
+
+#, fuzzy
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Jalankan screensaver pada saat login"
+
+#, fuzzy
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Simpan Gam_bar Latar"
+
+#, fuzzy
+#~ msgid "Mouse keys"
+#~ msgstr "Tombol Mouse"
+
+#, fuzzy
+#~ msgid "On-screen keyboard"
+#~ msgstr "Papan Ketik _Visual"
+
+#, fuzzy
+#~ msgid "Screen magnifier"
+#~ msgstr "Jalankan screensaver"
+
+#, fuzzy
+#~ msgid "Screen reader"
+#~ msgstr "Pembaca _Layar"
+
+#, fuzzy
+#~ msgid "Slow keys"
+#~ msgstr "Peringatan Tombol Lambat"
+
+#, fuzzy
+#~ msgid "Sticky keys"
+#~ msgstr "Peringatan Tombol Berurut"
+
+#, fuzzy
+#~ msgid "Toggle magnifier"
+#~ msgstr "Kaca Pe_mbesar"
+
+#, fuzzy
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Papan Ketik _Visual"
+
+#, fuzzy
+#~ msgid "Toggle screen reader"
+#~ msgstr "Pembaca _Layar"
+
+#, fuzzy
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+
+#, fuzzy
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+
+#, fuzzy
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+
+#, fuzzy
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+
+#, fuzzy
+#~ msgid "Don't deactivate"
+#~ msgstr "Janga_n dimatikan"
+
+#, fuzzy
+#~ msgid "Activate"
+#~ msgstr "_Aktifkan"
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "_Matikan"
+
+#, fuzzy
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Papan Ketik _Visual"
+
+#, fuzzy
+#~ msgid "Use screen _reader"
+#~ msgstr "Pembaca _Layar"
+
+#, fuzzy
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "Abaikan penekanan tombol sel_ama:"
+
+#, fuzzy
+#~ msgid "Don't show any warnings again"
+#~ msgstr "_Jangan tampilkan peringatan ini lagi"
+
+#, fuzzy
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Menyalin berkas: %u dari %u"
+
+#, fuzzy
+#~ msgid "From: "
+#~ msgstr "Dari:"
+
+#, fuzzy
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Pemasangan Tombol (%s) salah\n"
+
+#, fuzzy
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Pemasangan Tombol (%s) tidak lengkap\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Error saat mengaktifkan konfigurasi XKB.\n"
+#~ "Kemungkinan masalah:\n"
+#~ "- bug pada program pustaka libxklavier\n"
+#~ "- bug pada server X (xkbcomp, xmodmap)\n"
+#~ "- server X tidak cocok dengan implementasi libxkbfile\n"
+#~ "\n"
+#~ "Data versi server X:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Bila Anda ingin melaporkan kejadian ini, silakan lampirkan juga:\n"
+#~ "- Hasil keluaran perintah <b>%s</b>\n"
+#~ "- Hasil keluaran perintah <b>%s</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Anda sedang menggunakan XFree 4.3.0.\n"
+#~ "Ada masalah yang biasa terjadi bila menggunakan konfigurasi XKB yang "
+#~ "rumit.\n"
+#~ "Cobalah gunakan konfigurasi yang lebih ringkas atau gunakan versi XFree "
+#~ "yang lebih baru."
+
+#, fuzzy
+#~ msgid "_Layouts"
+#~ msgstr "Susunan"
+
+#, fuzzy
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Pengaturan Papan Ketik"
+
+#, fuzzy
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Ingin membuka berkas modmap?"
+
+#, fuzzy
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "Konfigurasi Proksi"
+
+#, fuzzy
+#~ msgid "_Keep This Configuration"
+#~ msgstr "Konfigurasi Lanjutan"
+
+#, fuzzy
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Kesalahan ketika menyimpan konfigurasi: %s"
+
+#, fuzzy
+#~ msgid "Change system time"
+#~ msgstr "Ubah kelompok data"
+
+#, fuzzy
+#~ msgid "Change system time zone"
+#~ msgstr "Ubah kelompok data"
+
+#, fuzzy
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Susunan papan ketik"
+
+#, fuzzy
+#~ msgid "Keyboard Layout"
+#~ msgstr "Susunan papan ketik"
+
+#, fuzzy
+#~ msgid "_Groups"
+#~ msgstr "_Groupwise:"
+
+#, fuzzy
+#~ msgid "Toggle screenreader"
+#~ msgstr "Pembaca _Layar"
+
+#, fuzzy
+#~ msgid "GNOME Volume Control"
+#~ msgstr "Pusat Kendali GNOME"
+
+#~ msgid "Image/label border"
+#~ msgstr "Bingkai gambar/teks"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Lebar bingkai di sekeliling teks dan gambar pada dialog peringatan"
+
+#~ msgid "Alert Type"
+#~ msgstr "Jenis Peringatan"
+
+#~ msgid "The type of alert"
+#~ msgstr "Jenis peringatan"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Tombol Peringatan"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Tombol yang ditampilkan dalam dialog peringatna"
+
+#~ msgid "Show more _details"
+#~ msgstr "Tampilkan informasi _detiĺ"
+
+#~ msgid "About Me"
+#~ msgstr "Informasi Pribadi"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Masukkan informasi pribadi Anda"
+
+#~ msgid "Select Image"
+#~ msgstr "Pilih Foto"
+
+#~ msgid "No Image"
+#~ msgstr "Tidak Ada Foto"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Ada kesalahan saat mencoba untuk mengambil informasi alamat\n"
+#~ "ada masalah pada protokol Server Data Evolution"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Buku alamat tak dapat dibuka"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr "Nama login tidak dikenal, basis data pengguna mungkin sedang rusak"
+
+#~ msgid "About %s"
+#~ msgstr "Tentang %s"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Anak keluar tak terduga"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Tidak bisa mematikan backend_stdin IO channel: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Tidak bisa mematikan backend_stdout IO channel: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Telah otentik!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Kata sandi anda telah diganti karena anda telah terotentikasi! Silahkan "
+#~ "otentikasi ulang."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Kata sandinya salah."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Kata sandi anda telah diganti."
+
+#~ msgid "System error: %s."
+#~ msgstr "Ada kesalahan pada sistem: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Sandinya terlalu singkat."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Sandinya terlalu sederhana."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Sandi lama dan barunya terlalu mirip."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Harus berisi karakter angka atau karakter istimewa."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Sandi lama dan barunya sama persis."
+
+#~ msgid "Unable to launch /usr/bin/passwd: %s"
+#~ msgstr "Program /usr/bin/passwd: %s gagal untuk dijalankan"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Ada kesalahan pada sistem"
+
+#~ msgid "Checking password..."
+#~ msgstr "Memeriksa Sandi..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Klik <b>Ganti Sandi</b> untuk mengganti kata sandi."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Silakan ketik sandinya pada isian <b>Kata sandi baru</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Silakan ketik lagi kata sandinya pada isian <b>Ketik ulang kata sandi</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Kedua kata sandi tidak sama."
+
+#~ msgid " "
+#~ msgstr "."
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<i>Email</i>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Rumah</b>"
+
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>Pesan Instan</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Pekerjaan</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Telepon</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Web</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Ganti kata sandi anda</span>"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_lamat:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "A_sisten:"
+
+#~ msgid "Address"
+#~ msgstr "Alamat"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Kota:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Perusahaan:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kale_nder:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Ganti Sandi..."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Ganti _sandi"
+
+#~ msgid "Change password"
+#~ msgstr "Ganti sandi"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "_Kota:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Negara:"
+
+#~ msgid "Contact"
+#~ msgstr "Informasi Kontak"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "_Negara:"
+
+#~ msgid "Current _password:"
+#~ msgstr "Sa_ndi sekarang:"
+
+#~ msgid "Full Name"
+#~ msgstr "Nama Lengkap"
+
+#~ msgid "Hom_e:"
+#~ msgstr "_Rumah:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "P.O. _box:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P._O. box:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Informasi Pribadi"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Negara Bagian/Pro_vinsi:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Untuk mengganti kata sandi anda, masukkan kata sandi sekarang di bawah "
+#~ "dan klik <b>Otentikasi<b>.\n"
+#~ "Setelah anda terotentikasi, masukkan kata sandi baru, ketik lagi untuk "
+#~ "memastikan dan klik <b>Ganti kata sandi</b>."
+
+#~ msgid "User name:"
+#~ msgstr "Nama pengguna:"
+
+#~ msgid "Web _log:"
+#~ msgstr "Web _log:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Kantor:"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Fax kantor:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "Kode _pos:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Alamat:"
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Otentikasi"
+
+#~ msgid "_Department:"
+#~ msgstr "_Bagian:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Laman web:"
+
+#~ msgid "_Home:"
+#~ msgstr "Ruma_h:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Manajer:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Ponsel:"
+
+#~ msgid "_New password:"
+#~ msgstr "Sa_ndi baru:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Profesi:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Silakan _ketik ulang sandinya:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "N_egara Bagian/Provinsi:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Gelar:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Kantor:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "K_ode pos:"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>Aplikasi</b>"
+
+#~ msgid "<b>Support</b>"
+#~ msgstr "<b>Status Dukungan</b>"
+
+#~ msgid ""
+#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
+#~ "you next log in.</i></small>"
+#~ msgstr ""
+#~ "<small><i><b>Catatan:</b> Perubahan yang dilakukan akan berlaku pada "
+#~ "login berikutnya</i></small>"
+
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Pengaturan Teknologi Bantuan"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Tutup dan Ke_luar"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Jalankan teknologi bantuan berikut pada saat log in:"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "Aktifkan T_eknologi Bantuan"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "Dukungan Teknologi Bantuan"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr "Aktifkan dukungan teknologi bantuan GNOME saat login"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'gnopernicus' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Teknologi Bantuan tidak tersedia pada komputer ini. Anda perlu memasang "
+#~ "program 'gok' untuk menggunakan teknologi ini yang berupa dukungan papan "
+#~ "ketik visual dan juga program 'gnopernicus' yang menyediakan fasilitas "
+#~ "pembacaan layar dan fasilitas perbesaran tampilan layar."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gok' package must be installed in order to get on-screen keyboard "
+#~ "support."
+#~ msgstr ""
+#~ "Teknologi bantuan yang tersedia pada komputer ini tidak lengkap. Anda "
+#~ "perlu memasang program 'gok' untuk menggunakan teknologi ini yang berupa "
+#~ "dukungan papan ketik visual."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gnopernicus' package must be installed for screenreading and "
+#~ "magnifying capabilities."
+#~ msgstr ""
+#~ "Teknologi bantuan yang tersedia pada komputer ini tidak lengkap. Anda "
+#~ "perlu memasang program 'gnopernicus' yang menyediakan fasilitas pembacaan "
+#~ "layar dan fasilitas perbesaran tampilan layar."
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "Gagal membuka dialog pengaturan mouse: %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "Gagal membaca pengaturan AccessX dari berkas '%s'"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Berkasi Impor Konfigurasi Fitur"
+
+#~ msgid "_Import"
+#~ msgstr "_Impor"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Sistem ini tidak memiliki fasilitas XKB. Karena itu, fitur kemudahan "
+#~ "akses pada papan ketik tidak dapat digunakan."
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Aktifkan Deteksi Penekanan Tombol Berulang</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Aktifkan Penekanan To_mbol Lambat</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Aktifkan Tombol _Mouse</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Aktifkan Tombol Be_rulang</b>"
+
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Aktifkan _Tombol Berurut</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Fitur</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Tombol Togel</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Umum"
+
+#~ msgid "Beep if key is re_jected"
+#~ msgstr "Bunyikan bel bila tombol di_tolak"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr "Bunyikan bel bila _fasilitas ini dimatikan atau dihidupkan"
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "Bunyikan bel bila to_mbol pengait ditekan"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr "Bunyikan bel bila LED menyala dan dua kali bel bila LED dimatikan."
+
+#~ msgid "Beep when key is:"
+#~ msgstr "Bunyikan bel bila tombol ini:"
+
+#~ msgid "Del_ay:"
+#~ msgstr "Jed_a:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Jeda waktu antara penekanan tombol dan perpindahan _mouse:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "Matikan _bila ada dua tombol ditekan pada saat bersamaan"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "Aktifka_n Tombol Togel"
+
+#~ msgid "Filters"
+#~ msgstr "Penyaring"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Abaikan apabila ada tombol yang sama yang ditekan berulang kali terus "
+#~ "menerus selama waktu yang ditentukan."
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Pengaturan Kemudahan Akses pada Papan Ketik (AccessX)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Kecepatan ma_ksimal penunjuk:"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "_Pengaturan Mouse..."
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr "Terima tombol setelah ditekan dan ditahan selama beberapa saat."
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Lakukan penekanan tombol ganda secara simultan dengan menekan tombol "
+#~ "pengait dalam urutan tertentu."
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Waktu akse_lerasi hingga kecepatan maksimum:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Aktifkan tombol numerik menjadi alat kendali mouse"
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "Matikan bila tidak _dipakai selama:"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "_Impor Pengaturan Fitur..."
+
+#~ msgid "_Only accept keys held for:"
+#~ msgstr "Hanya _terima tombol bila ditekan selama:"
+
+#~ msgid "_accepted"
+#~ msgstr "diterim_a"
+
+#~ msgid "_pressed"
+#~ msgstr "di_tekan"
+
+#~ msgid "_rejected"
+#~ msgstr "dit_olak"
+
+#~ msgid "characters/second"
+#~ msgstr "karakter/detik"
+
+#~ msgid "milliseconds"
+#~ msgstr "milidetik"
+
+#~ msgid "pixels/second"
+#~ msgstr "piksel/detik"
+
+#~ msgid "seconds"
+#~ msgstr "detik"
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Atur Gambar Latar Desktop"
+
+#~ msgid "Desktop Background"
+#~ msgstr "Gambar Latar Desktop"
+
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "<b>Gambar _Latar Desktop</b>"
+
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "<b>Warna _Desktop</b>"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Pengaturan Gambar Latar Desktop"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Buka dialog untuk memilih warna"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "M_asukkan Gambar"
+
+#~ msgid "_Finish"
+#~ msgstr "_Selesai"
+
+#~ msgid "_Style:"
+#~ msgstr "_Model:"
+
+#~ msgid "Centered"
+#~ msgstr "Tengah"
+
+#~ msgid "Fill Screen"
+#~ msgstr "Penuhi Layar"
+
+#~ msgid "Scaled"
+#~ msgstr "Skala"
+
+#~ msgid "Tiled"
+#~ msgstr "Pasang Ubin"
+
+#~ msgid "Solid Color"
+#~ msgstr "Warna Padat"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Gradien Horisontal"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "Gradien Vertikal"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Masukkan Gambar"
+
+#~ msgid "Images"
+#~ msgstr "Foto"
+
+#~ msgid "All Files"
+#~ msgstr "Seluruh Berkas"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Tidak Ada Gambar"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "piksel"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Program pengatur 'gnome-settings-daemon' tidak dapat dijalankan.\n"
+#~ "Tanpa program ini, beberapa layanan pengaturan sistem tidak dapat "
+#~ "dilakukan. Biasanya ini karena adanya masalah dengan Bonobo atau sudah "
+#~ "ada program sejenis bawaan non-GNOME (misalnya dari KDE) yang sedang "
+#~ "jalan di memori dan menjadi konflik dengan program bawaan GNOME."
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Aktifkan dan keluar"
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Ambil dan simpan pengaturan asal"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Menyalin '%s'"
+
+#~ msgid "From URI"
+#~ msgstr "URI Asal"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI asal transfer"
+
+#~ msgid "To URI"
+#~ msgstr "URI tujuan"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI tujuan transfer"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Persentase selesai"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Persentase transfer yang sudah selesai"
+
+#~ msgid "Current URI index"
+#~ msgstr "Indeks URI saat ini"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Indeks URI saat ini - dari 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Total URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Total jumlah URI"
+
+#~ msgid "Copying files"
+#~ msgstr "Menyalin berkas"
+
+#~ msgid "To:"
+#~ msgstr "Ke:"
+
+#~ msgid "Connecting..."
+#~ msgstr "Menyambung..."
+
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "Pembaca Surat Evolution 1.4"
+
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "Pembaca Surat Evolution 1.5"
+
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "Pembaca Surat Evolution 1.6"
+
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "Pembaca Surat Evolution 2.0"
+
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "Pembaca Surat Evolution 2.2"
+
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "Pembaca Surat Evolution 2.4"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Perambah Teks Links"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Perambah Teks Lynx"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "Perambah Teks W3M"
+
+#~ msgid "<b>Audio Player</b>"
+#~ msgstr "<b>Pemutar Suara</b>"
+
+#~ msgid "<b>Image Viewer</b>"
+#~ msgstr "<b>Penampil Gambar</b>"
+
+#~ msgid "<b>Instant Messenger</b>"
+#~ msgstr "<b>Pembawa Pesan</b>"
+
+#~ msgid "<b>Mail Reader</b>"
+#~ msgstr "<b>Pembaca Email</b>"
+
+#~ msgid "<b>Terminal Emulator</b>"
+#~ msgstr "<b>Terminal Emulator</b>"
+
+#~ msgid "<b>Text Editor</b>"
+#~ msgstr "<b>Penyunting Teks</b>"
+
+#~ msgid "<b>Video Player</b>"
+#~ msgstr "<b>Pemutar Video</b>"
+
+#~ msgid "<b>Web Browser</b>"
+#~ msgstr "<b>Perambah Web</b>"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Ubah resolusi layar"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Resolusi Layar"
+
+#~ msgid "left"
+#~ msgstr "kiri"
+
+#~ msgid "inverted"
+#~ msgstr "terbalik"
+
+#~ msgid "Default Settings"
+#~ msgstr "Pengaturan Bawaan"
+
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Pengaturan Layar %d\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Pengaturan Resolusi Layar"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "Jadikan konfigurasi uta_ma bagi komputer ini (%s) saja"
+
+#~ msgid "Options"
+#~ msgstr "Pilihan"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored.Testing the new settings. If you don't respond "
+#~ "in %d seconds the previous settings will be restored."
+#~ msgstr ""
+#~ "Coba setingan baru. Jika anda tidak menjawab dalam %d detik, setingan "
+#~ "sebelumnya akan dikembalikan.Coba setingan baru. Jika anda tidak menjawab "
+#~ "dalam %d detik, setingan sebelumnya akan dikembalikan."
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Ganti Resolusi"
+
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr "Ingin gunakan resolusi ini?"
+
+#~ msgid "Use _previous resolution"
+#~ msgstr "Gunakan resolusi _sebelumnya"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "_Ganti resolusi"
+
+#~ msgid ""
+#~ "The X Server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "Server X tidak dapat menggunakan fasilitas XRandR. Perubahan resolusi "
+#~ "langsung tidak dapat dilakukan."
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Fasilitas XRandR terpasang tidak kompatibel dengan program ini. Perubahan "
+#~ "resolusi langsung tidak dapat dilakukan."
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Pilih fonta yang dipakai pada desktop"
+
+#~ msgid "<b>Font Rendering</b>"
+#~ msgstr "<b>Penggambaran Fonta</b>"
+
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<b>Penghalusan</b>:"
+
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<b>Urutan Subpixel</b>:"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Ben_tuk terbaik"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Ko_ntras terbaik"
+
+#~ msgid "D_etails..."
+#~ msgstr "D_etil..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Font des_ktop:"
+
+#~ msgid "Font Preferences"
+#~ msgstr "Pengaturan Fonta"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detil Penggambaran Fonta"
+
+#~ msgid "Go _to font folder"
+#~ msgstr "Buka folder fon_ta"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Skala _abu-abu"
+
+#~ msgid "N_one"
+#~ msgstr "T_idak pakai"
+
+#~ msgid "R_esolution:"
+#~ msgstr "R_esolusi:"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_piksel (untuk LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Penghalusan sub_piksel (untuk LCD)"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "_Application font:"
+#~ msgstr "Huruf _Aplikasi:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Document font:"
+#~ msgstr "Huruf _desktop:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Huruf lebar tetap:"
+
+#~ msgid "_Full"
+#~ msgstr "_Penuh"
+
+#~ msgid "_Medium"
+#~ msgstr "_Sedang"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monokrom"
+
+#~ msgid "_None"
+#~ msgstr "_Tidak pakai"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Slight"
+#~ msgstr "_Sedikit"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Fonta pada judul _jendela:"
+
+#~ msgid "dots per inch"
+#~ msgstr "titik per inci (dpi)"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Fonta mungkin terlalu besar"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d.The font selected is %d points large, and may make it "
+#~ "difficult to effectively use the computer. It is recommended that you "
+#~ "select a size smaller than %d."
+#~ msgstr ""
+#~ "Huruf yang dipilih besarnya %d poin, dan kemungkinan sulit untuk "
+#~ "dipergunakan secara efektif oleh komputer.  Disarankan agar anda memilih "
+#~ "ukuran yang lebih kecil dari %d.Huruf yang dipilih besarnya %d poin, dan "
+#~ "kemungkinan sulit untuk dipergunakan secara efektif oleh komputer.  "
+#~ "Disarankan agar anda memilih ukuran yang lebih kecil dari %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font.The font selected is %d points large, and may make it "
+#~ "difficult to effectively use the computer. It is recommended that you "
+#~ "select a smaller sized font."
+#~ msgstr ""
+#~ "Huruf yang dipilih adalah besarnya %d point, dan akan sulit untuk "
+#~ "dipergunakan secara efektif di komputer. Disarankan agar anda memilih "
+#~ "huruf yang lebih kecil.Huruf yang dipilih adalah besarnya %d point, dan "
+#~ "akan sulit untuk dipergunakan secara efektif di komputer. Disarankan agar "
+#~ "anda memilih huruf yang lebih kecil."
+
+#~ msgid "New accelerator..."
+#~ msgstr "Akselerator baru..."
+
+#~ msgid "Window Management"
+#~ msgstr "Pengaturan Jendela"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become unusable to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time.\n"
+#~ msgstr ""
+#~ "Shortcut \"%s\" tidak dapat dipergunakan karena akan menjadi tidak "
+#~ "berguna untuk mengetik menggunakan kunci ini.\n"
+#~ "Silahkan coba dengan sebuah kunci seperti Control, Alt atau Shift secara "
+#~ "bersamaan.\n"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ msgstr ""
+#~ "Tombol singkat \"%s\" sudah digunakan untuk:\n"
+#~ "\"%s\"\n"
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr ""
+#~ "Akselerator baru tidak dapat diaktifkan pada basis data konfigurasi: %s\n"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s\n"
+#~ msgstr ""
+#~ "Akselerator baru tidak dapat dimatikan pada basis data konfigurasi: %s\n"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new "
+#~ "accelerator, or press backspace to clear."
+#~ msgstr ""
+#~ "Untuk mengubah tombol singkat, silakan klik pada baris yang hendak diubah "
+#~ "dan tekan tombol yang ingin digunakan sebagai tombol singkat atau tekan "
+#~ "tombol backspace untuk membatalkan."
+
+#~ msgid "There was an error launching the keyboard tool: %s"
+#~ msgstr "Ada error saat membuka alat papan ketik: %s"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Terapkan konfigurasi dan keluar (hanya untuk kompatibilitas saja, "
+#~ "sekarang sudah ditangani oleh program daemon sendiri)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Langsung tampilkan pengaturan istirahat mengetik"
+
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "<b>Kedipan Kursor</b>"
+
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "<b>Pengulangan Tombol</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Cepat</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Panjang</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Pendek</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Pelan</i></small>"
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "Susunan yang _tersedia:"
+
+#~ msgid "Choose..."
+#~ msgstr "Pilih..."
+
+#~ msgid "Cursor _blinks in text boxes and fields"
+#~ msgstr "_Kedipan kursor pada kotak teks dan isian"
+
+#~ msgid "Layout Options"
+#~ msgstr "Pilihan Susunan"
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Papan Ketik Natural Microsoft"
+
+#~ msgid "Reset To De_faults"
+#~ msgstr "_Kembalikan ke Awal"
+
+#~ msgid "Separate _group for each window"
+#~ msgstr "Pisahkan _kelompok untuk masing-masing jendela"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "Susunan _terpilih:"
+
+#~ msgid "%d milliseconds"
+#~ msgid_plural "%d milliseconds"
+#~ msgstr[0] "%d milidetik"
+
+#~ msgid "Unknown Pointer"
+#~ msgstr "Penunjuk Tak Dikenal"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Penunjuk Default"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Penunjuk Default - Aktif"
+
+#~ msgid "The default pointer that ships with X"
+#~ msgstr "Penunjuk default dari X"
+
+#~ msgid "White Pointer"
+#~ msgstr "Penunjuk Putih"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Penunjuk Putih - Aktif"
+
+#~ msgid "The default pointer inverted"
+#~ msgstr "Kebalikan dari penunjuk default"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Penunjuk Besar"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Penunjuk Besar - Aktif"
+
+#~ msgid "Large version of normal pointer"
+#~ msgstr "Versi besar dari penunjuk biasa"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Penunjuk Putih Besar - Aktif"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Penunjuk Putih Besar"
+
+#~ msgid "Large version of white pointer"
+#~ msgstr "Penunjuk putih versi besar"
+
+#~ msgid "Pointer Theme"
+#~ msgstr "Penunjuk Tema"
+
+#~ msgid "<b>Double-Click Timeout </b>"
+#~ msgstr "<b>Timeout Klik Ganda</b>"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Seret dan Letakkan</b>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Penunjukkan Kursor</b>"
+
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr "<b>Orientasi Mouse</b>"
+
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<b>Kecepatan</b>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Cepat</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Tinggi</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Besar</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Rendah</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Lambat</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Kecil</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Tombol"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Tampilkan _kursor dengan tombol Ctrl"
+
+#~ msgid "Medium"
+#~ msgstr "Sedang"
+
+#~ msgid "Motion"
+#~ msgstr "Gerakan"
+
+#~ msgid "Pointer Size:"
+#~ msgstr "Ukuran Penunjuk:"
+
+#~ msgid "Pointers"
+#~ msgstr "Penunjuk"
+
+#~ msgid "_Left-handed mouse"
+#~ msgstr "Mouse orang kida_l"
+
+#~ msgid "_Threshold:"
+#~ msgstr "_Derajat:"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Abaikan Daftar Host</b>"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Bunyikan suara dan asosiasikan dengan kejadian tertentu"
+
+#~ msgid "Not connected"
+#~ msgstr "Tidak tersambung"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Pengaturan Suara"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>Pertemuan Suara</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>Musik dan Filem</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>Suara Kejadian</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Mencoba...</span>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "Klik OK untuk selesai"
+
+#~ msgid "Devices"
+#~ msgstr "Perangkat"
+
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "Aktifkan perangkat lunak pengolah suara (ESD)"
+
+#~ msgid "Flash _entire screen"
+#~ msgstr "Kedipkan s_eluruh layar"
+
+#~ msgid "Sound & Video Preferences"
+#~ msgstr "Pengaturan Suara & Video"
+
+#~ msgid "Sound Capture:"
+#~ msgstr "Penangkap Suara:"
+
+#~ msgid "Sounds"
+#~ msgstr "Suara"
+
+#~ msgid "System Beep"
+#~ msgstr "Bel Sistem"
+
+#~ msgid "Test"
+#~ msgstr "Coba"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "Mencoba Pemipaan"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "Aktifkan bel syst_em"
+
+#~ msgid "_Play system sounds"
+#~ msgstr "_Mainkan suara system"
+
+#~ msgid "_Visual system beep"
+#~ msgstr "Bunyi sistem _Tampilan"
+
+#~ msgid "Would you like to remove this theme?"
+#~ msgstr "Anda ingin membuang tema ini?"
+
+#~ msgid "Theme deleted succesfully. Please select another theme."
+#~ msgstr "Tema telah dihapus dengan sukses. Silahkan pilih tema yang lain."
+
+#~ msgid "Theme can not be deleted"
+#~ msgstr "Tema tidak dapat dihapus"
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Tidak ada tema terpasang pada komputer. Hal ini mungkin disebabkan karena "
+#~ "dialog \"Pengaturan Tema\" tidak dipasang dengan benar atau Anda belum "
+#~ "memasang paket \"gnome-themes\" pada komputer ini."
+
+#~ msgid "This theme is not in a supported format."
+#~ msgstr "Tema dibuat dalam bentuk yang tidak dapat dibaca"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Gagal membuat direktori sementara"
+
+#~ msgid ""
+#~ "Can not install theme. \n"
+#~ "The bzip2 utility is not installed."
+#~ msgstr ""
+#~ "Tema tidak dapat diinstal karena\n"
+#~ "program bzip2 tidak terinstal."
+
+#~ msgid "Installation Failed"
+#~ msgstr "Instalasi Gagal"
+
+#~ msgid ""
+#~ "Can not install themes. \n"
+#~ "The gzip utility is not installed."
+#~ msgstr ""
+#~ "Tema tidak dapat diinstal\n"
+#~ "karena program gzip tidak tersedia."
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "Tema GNOME %s telah terpasang"
+
+#~ msgid "The theme is an engine. You need to compile the theme."
+#~ msgstr ""
+#~ "Tema ini adalah mesin tema. Anda harus melakukan kompilasi terlebih "
+#~ "dahulu."
+
+#~ msgid "The file format is invalid"
+#~ msgstr "Bentuk berkas tidak benar"
+
+#~ msgid ""
+#~ "The theme \"%s\" has been installed.\n"
+#~ "Would you like to apply it now, or keep your current theme?"
+#~ msgstr ""
+#~ "Tema \"%s\" telah dipasang.\n"
+#~ "Anda ingin menerapkannya sekarang, atau tetap dengan tema saat ini?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Tetap Tema Sekarang"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Terapkan Tema Baru"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Anda belum menentukan lokasi berkas tema yang hendak diinstal"
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "Lokasi berkas tema yang dipilih tidak benar"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Hak akses tidak tersedia untuk menginstal tema pada:\n"
+#~ "%s"
+
+#~ msgid "The file format is invalid."
+#~ msgstr "Berkas tema tidak benar"
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s adalah path tempat berkas tema akan dipasang. Path ini tidak boleh "
+#~ "digunakan sebagai lokasi asal"
+
+#~ msgid ""
+#~ "Cannot install theme.\n"
+#~ "The tar program is not installed on your system."
+#~ msgstr ""
+#~ "Tema tidak dapat diinstal\n"
+#~ "karena program tar tidak tersedia."
+
+#~ msgid "Custom theme"
+#~ msgstr "Tema Bebas"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "Anda dapat menyimpan tema ini dengan menekan tombol \"Simpan Tema\""
+
+#~ msgid ""
+#~ "The default theme schemas could not be found on your system.  This means "
+#~ "that you probably don't have metacity installed, or that your gconf is "
+#~ "configured incorrectly."
+#~ msgstr ""
+#~ "Skema tema bawaan tidak terdapat pada komputer ini. Hal ini mungkin "
+#~ "disebabkan karena Anda belum memasang program metacity atau program gconf "
+#~ "Anda tidak dipasang dengan benar."
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Nama tema harus ada"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Tema sudah ada sebelumnya. Ganti?"
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "Pilih tema untuk berbagai komponen desktop"
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Apply _Font"
+#~ msgstr "Aktifkan _Fonta"
+
+#~ msgid "Controls"
+#~ msgstr "Komponen"
+
+#~ msgid "Icons"
+#~ msgstr "Ikon"
+
+#~ msgid "Save Theme"
+#~ msgstr "Simpan Tema"
+
+#~ msgid "Select theme for the desktop"
+#~ msgstr "Pilih tema untuk desktop"
+
+#~ msgid "Theme Details"
+#~ msgstr "Detil Tema"
+
+#~ msgid "Theme _Details"
+#~ msgstr "_Detil Tema"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Tema ini tidak mengandung fonta dan gambar latar."
+
+#~ msgid "This theme suggests a background:"
+#~ msgstr "Tema ini mengandung gambar latar yang disarankan:"
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Tema ini mengandung fonta dan gambar latar yang disarankan:"
+
+#~ msgid "This theme suggests a font:"
+#~ msgstr "Tema ini mengandung huruf yang disarankan:"
+
+#~ msgid "Window Border"
+#~ msgstr "Bingkai Jendela"
+
+#~ msgid "_Description:"
+#~ msgstr "_Keterangan:"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Instal Tema..."
+
+#~ msgid "_Install..."
+#~ msgstr "_Pasang..."
+
+#~ msgid "_Revert"
+#~ msgstr "_Kembalikan"
+
+#~ msgid "_Save Theme..."
+#~ msgstr "_Simpan Tema..."
+
+#~ msgid "theme selection tree"
+#~ msgstr "pohon pilihan tema"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr "Atur penampakan kotak tombol dan kotak menu pada aplikasi"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "Menu & Kotak Tombol"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Perilaku dan Penampakan</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Contoh Jadi</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "_Potong"
+
+#~ msgid "Icons only"
+#~ msgstr "Ikon saja"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Pengaturan Menu dan Kotak Tombol"
+
+#~ msgid "New File"
+#~ msgstr "Berkas Baru"
+
+#~ msgid "Open File"
+#~ msgstr "Buka Berkas"
+
+#~ msgid "Save File"
+#~ msgstr "Simpan Berkas"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Tampilkan _ikon pada menu"
+
+#~ msgid "Text below icons"
+#~ msgstr "Teks di bawah ikon"
+
+#~ msgid "Text beside icons"
+#~ msgstr "Teks di samping ikon"
+
+#~ msgid "Text only"
+#~ msgstr "Teks saja"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Label tom_bol pada kotak tombol:"
+
+#~ msgid "_Copy"
+#~ msgstr "_Salin"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "Kotak tombol _dapat dilepas"
+
+#~ msgid "_Edit"
+#~ msgstr "_Ubah"
+
+#~ msgid "_Editable menu accelerators"
+#~ msgstr "Aks_elerator menu dapat diubah"
+
+#~ msgid "_File"
+#~ msgstr "_Berkas"
+
+#~ msgid "_New"
+#~ msgstr "_Baru"
+
+#~ msgid "_Open"
+#~ msgstr "B_uka"
+
+#~ msgid "_Paste"
+#~ msgstr "Tem_pel"
+
+#~ msgid "_Print"
+#~ msgstr "_Cetak"
+
+#~ msgid "_Save"
+#~ msgstr "_Simpan"
+
+#~ msgid ""
+#~ "<b>Cannot start the preferences application for your window manager</b>\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "<b>Pengaturan aplikasi pengatur jendela ini tidak dapat dijalankan</b>\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "C_ontrol"
+#~ msgstr "C_ontrol"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (Tombol \"Logo Windows\")"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "<b>Tombol Pergerakan</b>"
+
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>Tindakan Judul Jendela</b>"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Pemilihan Jendela</b>"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Untuk memindahkan jendela, tekan dan tahan tombol ini, kemudian gerakkan "
+#~ "jendelanya:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Pengaturan Jendela"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "Klik gan_da pada judul jendela untuk melakukan tindakan ini:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Jeda sebelum mengangkat jendela:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Angkat jendela terpilih setelah jeda waktu tertentu"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "P_ilih jendela saat mouse berada di atasnya"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Atur properti jendela"
+
+#~ msgid "Windows"
+#~ msgstr "Jendela"
+
+#~ msgid "Others"
+#~ msgstr "Lainnya"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "Pengaturan Desktop"
+
+#~ msgid ""
+#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.</b>\n"
+#~ "\n"
+#~ "Expected was %s, but the the following settings were found: %s.\n"
+#~ "\n"
+#~ "Which set would you like to use?"
+#~ msgstr ""
+#~ "<b>Pengaturan papan ketik sistem X berbeda dengan pengaturan papan ketik "
+#~ "GNOME anda</b>\n"
+#~ "\n"
+#~ "Menginginkan %s, tapi yang ditemukan: %s.\n"
+#~ "\n"
+#~ "Konfigurasi apa yang ingin Anda gunakan?"
+
+#~ msgid ""
+#~ "Couldn't load the Glade file.\n"
+#~ "Make sure that this daemon is properly installed."
+#~ msgstr ""
+#~ "Berkas Glade tidak dapat dibuka.\n"
+#~ "Periksa dulu apakah daemonnya terpasang dengan benar."
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "Pipa sinyal tidak dapat dibuat."
+
+#~ msgid "Type"
+#~ msgstr "Tipe"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Jenis bg_applier: BG_APPLIER_ROOT untuk jendela dasar atau "
+#~ "BG_APPLIER_PREVIEW untuk cuplikannya"
+
+#~ msgid "Preview Width"
+#~ msgstr "Lebar Cuplikan"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Lebar jika applier adalah cuplikan: awalnya bernilai 64"
+
+#~ msgid "Preview Height"
+#~ msgstr "Tinggi Cuplikan"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Tinggi apabila applier adalah cuplikan: awalnya bernilai 48"
+
+#~ msgid "Screen"
+#~ msgstr "Layar"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Layar tempat BGApplier digambar"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Pengatur jendela \"%s\" tidak memiliki program konfigurasi yang "
+#~ "terdaftar\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maksimalkan Ukuran"
+
+#~ msgid "Roll up"
+#~ msgstr "Gulung"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Tombol singkat untuk email"
+
+#~ msgid "Eject's shortcut."
+#~ msgstr "Tombol untuk mengeluarkan media"
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Tombol untuk membuka folder rumah"
+
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Tombol untuk menampilkan layar bantuan"
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Tombol untuk menampilkan perambah web."
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Tombol untuk mengunci layar."
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Tombol untuk keluar dari sistem."
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Tombol untuk memutar trek berikutnya."
+
+#~ msgid "Pause"
+#~ msgstr "Istirahat"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Tombol untuk menghentikan lagu sementara."
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Tombol untuk memutar lagu atau istirahatkan lagu."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Tombol untuk memutar trek sebelumnya."
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Tombol untuk mencari."
+
+#~ msgid "Sleep"
+#~ msgstr "Tidur"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Tombol untuk menidurkan komputer."
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Tombol untuk menghentikan pemutaran lagu."
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Tombol untuk mengecilkan volume suara."
+
+#~ msgid "Volume mute's shortcut"
+#~ msgstr "Tombol untuk membisukan suara komputer."
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "Tombol untuk memperbesar volume suara."
+
+#~ msgid ""
+#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
+#~ "Useful for re-applying xmodmap based adjustments"
+#~ msgstr ""
+#~ "Kumpulan skrip yang dijalankan saat status papan ketik dibaca ulang.Ini "
+#~ "berguna saat menerapkan pengaturan berbasis xmodmap"
+
+#~ msgid "A list of modmap files available in the $HOME directory."
+#~ msgstr "Daftar berkas modmap pada direktori $HOME."
+
+#~ msgid "Default group, assigned on window creation"
+#~ msgstr "Kelompok standar, dipasang pada saat jendela dibuat"
+
+#~ msgid "Keep and manage separate group per window"
+#~ msgstr "Simpan dan atur kelompok terpisah pada masing-masing jendela"
+
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Pengatur Pembaruan Papan Ketik"
+
+#~ msgid "Keyboard model"
+#~ msgstr "Model papan ketik"
+
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr "Pengaturan papan ketik pada gconf akan dialihkan dari sistem ASAP"
+
+#~ msgid "Save/restore indicators together with layout groups"
+#~ msgstr "Simpan/ambil indikator bersamaan dengan susunan kelompok"
+
+#~ msgid "Show layout names instead of group names"
+#~ msgstr "Tampilkan nama susunan dan bukan nama kelompok"
+
+#~ msgid ""
+#~ "Show layout names instead of group names (only for versions of XFree "
+#~ "supporting multiple layouts)"
+#~ msgstr ""
+#~ "Tampilkan nama susunan dan bukan nama kelompok (hanya untuk versi XFree "
+#~ "yang mendukung banyak susunan)"
+
+#~ msgid "Suppress the \"X sysconfig changed\" warning message"
+#~ msgstr "Hilangkan pesan perintan \"X sysconfig changed\""
+
+#~ msgid "The Keyboard Preview, X offset"
+#~ msgstr "Preview Keyboard, offset X"
+
+#~ msgid "The Keyboard Preview, Y offset"
+#~ msgstr "Preview·Keyboard,·offset·Y"
+
+#~ msgid "The Keyboard Preview, height"
+#~ msgstr "Preview Keyboard, tinggi"
+
+#~ msgid "The Keyboard Preview, width"
+#~ msgstr "Preview Keyboard, lebar"
+
+#~ msgid ""
+#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
+#~ "configuration) This key has been deprecated since GNOME 2.12, please "
+#~ "unset the model, layouts and options keys to get the default system "
+#~ "configuration."
+#~ msgstr ""
+#~ "Sebentar lagi, pengaturan papan ketik pada gconf akan dialihkan (dari "
+#~ "konfigurasi sistem). Kunci ini sudah kadaluwarsa sejak GNOME 2.12, "
+#~ "silakan hapus model, susunan dan kunci pilihan untuk mendapatkan "
+#~ "konfigurasi sistem yang standar."
+
+#~ msgid "keyboard layout"
+#~ msgstr "susunan papan ketik"
+
+#~ msgid "keyboard model"
+#~ msgstr "model papan ketik"
+
+#~ msgid "modmap file list"
+#~ msgstr "daftar berkas modmap"
+
+#~ msgid "Orientation"
+#~ msgstr "<b>Orientasi</b>"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Arah dari tray."
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "Vw pak faizal dikejar taxi sang camat buqhory. 0123456789"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "Jadikan sebagai fonta yang digunakan oleh semua aplikasi"
+
+#~ msgid "Sets the default application font"
+#~ msgstr "Silakan pilih fonta utama untuk aplikasi"
+
+#~ msgid "GNOME Font Viewer"
+#~ msgstr "Penampil Fonta GNOME"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Aktifkan huruf baru ini?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "Ja_ngan aktifkan huruf ini"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "Tema yang Anda pilih menyertakan fonta. Contoh fontanya dapat Anda lihat "
+#~ "dibawah ini."
+
+#~ msgid "_Apply font"
+#~ msgstr "_Aktifkan fonta"
+
+#~ msgid "Themes"
+#~ msgstr "Tema"
+
+#~ msgid "Description"
+#~ msgstr "Keterangan"
+
+#~ msgid "Control theme"
+#~ msgstr "Tema komponen"
+
+#~ msgid "Window border theme"
+#~ msgstr "Tema bingkai jendela"
+
+#~ msgid "Icon theme"
+#~ msgstr "Tema ikon"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABCDEFG"
+
+#~ msgid "Apply theme"
+#~ msgstr "Aktifkan tema"
+
+#~ msgid "Sets the default theme"
+#~ msgstr "Pilih tema standar"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr "Jika diset, semua tema terpasang akan disiapkan ukuran kecilnya."
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "Jika diset, semua tema akan disiapkan ukuran kecilnya."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Tulis perintah pembuat gambar-gambar kecil untuk membuat contoh tampilan "
+#~ "tema terpasang pada key ini."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "Tulis perintah pembuat gambar-gambar kecil untuk membuat contoh tampilan "
+#~ "tema pada key ini."
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr ""
+#~ "Perintah pembuat gambar-gambar kecil untuk membuat contoh tampilan tema "
+#~ "terpasang."
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr ""
+#~ "Perintah pembuat gambar-gambar kecil untuk membuat contoh tampilan tema."
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Menentukan apakah ingin  membuat contoh tampilan tema terpasang."
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Menentukan apakah ingin  membuat contoh tampilan tema."
+
+#~ msgid "Old password is incorrect, please retype it"
+#~ msgstr "Sandi lama salah, silakan ketik ulang"
+
+#~ msgid "Unexpected error has occurred"
+#~ msgstr "Ada kesalahan tak terduga"
+
+#~ msgid "Please type the passwords."
+#~ msgstr "Silakan ketikkan kata sandi."
+
+#~ msgid "Old pa_ssword:"
+#~ msgstr "_Sandi lama:"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid ""
+#~ "Icon Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema Ikon %s terinstal sempurna.\n"
+#~ "Anda boleh pilih ikon ini dalam detil tema."
+
+#~ msgid ""
+#~ "Windows Border Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema Bingkai Jendela %s terinstal sempurna.\n"
+#~ "Anda boleh mencobanya pada detil tema."
+
+#~ msgid ""
+#~ "Controls Theme %s correctly installed.\n"
+#~ "You can select it in the theme details."
+#~ msgstr ""
+#~ "Tema Komponen %s terinstal sempurna.\n"
+#~ "Anda dapat mencobanya dalam detil tema."
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Instal Tema</span>"
+
+#~ msgid "Theme Installation"
+#~ msgstr "Instalasi Tema"
+
+#~ msgid "New themes can also be installed by dragging them into the window."
+#~ msgstr "Anda juga bisa menyeret tema baru ke dalam jendela ini."
+
+#~ msgid "Short _description:"
+#~ msgstr "Keterangan _singkat:"
+
+#~ msgid "_Theme name:"
+#~ msgstr "Nama _tema:"
+
+#~ msgid "No '/dev/pmu' device found"
+#~ msgstr "Tidak menemukan perangkat '/dev/pmu'"
+
+#~ msgid "Not a powerbook"
+#~ msgstr "Bukan powerbook"
+
+#~ msgid "Wrong permission for '/dev/pmu' device"
+#~ msgstr "Permisi salah untuk perangkat '/dev/pmu'"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Bonobo tidak dapat diinisialisasi"
+
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr "Ada error saat menampilkan gambar: %s"
+
+#~ msgid "Brightness down"
+#~ msgstr "Turunkan kecerahan"
+
+#~ msgid "Brightness down's shortcut."
+#~ msgstr "Tombol untuk menurunkan kecerahan layar"
+
+#~ msgid "Brightness up"
+#~ msgstr "Naikkan kecerahan"
+
+#~ msgid "Brightness up's shortcut."
+#~ msgstr "Tombol untuk menaikkan kecerahan layar"
+
+#~ msgid "Could not display help"
+#~ msgstr "Tidak dapat menampilkan bantuan"
+
+#~ msgid "Epiphany"
+#~ msgstr "Epiphany"
+
+#~ msgid "Please specify a name and a command for this editor."
+#~ msgstr "Silakan masukkan nama dan perintah penyunting ini."
+
+#~ msgid "Add..."
+#~ msgstr "Tambah..."
+
+#~ msgid "C_ustom:"
+#~ msgstr "L_ainnya:"
+
+#~ msgid "Can open _URIs"
+#~ msgstr "_URI tidak dapat dibuka"
+
+#~ msgid "Can open multiple _files"
+#~ msgstr "Aplikasi ini dapat _membuka banyak berkas"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Properti Penyunting Lainnya"
+
+#~ msgid "Default Mail Reader"
+#~ msgstr "Pembaca Email Utama"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Terminal Utama"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Penyunting Teks Utama"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "Perambah Web Utama"
+
+#~ msgid "Default Window Manager"
+#~ msgstr "Pengatur Jendela Utama"
+
+#~ msgid "Edit..."
+#~ msgstr "Ubah..."
+
+#~ msgid "Run in a _terminal"
+#~ msgstr "Jalankan dalam _terminal"
+
+#~ msgid ""
+#~ "Select the window manager you want.  You will need to hit apply, wave the "
+#~ "magic wand, and do a magic dance for it to work."
+#~ msgstr ""
+#~ "Pilih pengatur jendela yang Anda ingin gunakan. Silakan klik tombol "
+#~ "Terapkan untuk mengaktifkannya."
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "Understands _Netscape Remote Control"
+#~ msgstr "Paham protokol _Netscape Remote Control"
+
+#~ msgid "Use this _editor to open text files in the file manager"
+#~ msgstr ""
+#~ "Gunakan program ini untuk m_enyunting berkas teks dalam pengatur berkas"
+
+#~ msgid "Window Manager"
+#~ msgstr "Pengatur Jendela"
+
+#~ msgid "_Command:"
+#~ msgstr "Peri_ntah:"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Properti..."
+
+#~ msgid "_Select:"
+#~ msgstr "_Pilih:"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "Fonta _terminal:"
+
+#~ msgid "Large Cursor"
+#~ msgstr "Kursor Besar"
+
+#~ msgid "Cursors"
+#~ msgstr "Kursor"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "Aktifka_n server suara"
+
+#~ msgid "_Sound an audible bell"
+#~ msgstr "Bunyikan _bel"
+
+#~ msgid "_Visual feedback:"
+#~ msgstr "Reaksi _visual:"
+
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "_Buka Folder Tema"
+
+#~ msgid "Permissions on the file %s are broken\n"
+#~ msgstr "Hak akses berkas %s rusak\n"
+
+#~ msgid "Event"
+#~ msgstr "Kejadian"
+
+#~ msgid "_Sounds:"
+#~ msgstr "_Suara:"
+
+#~ msgid "_Play"
+#~ msgstr "_Putar"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Mesin program tidak dapat dijalankan"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Magnifier"
+#~ msgstr "Kaca Pe_mbesar"
+
+#~ msgid "_On-screen keyboard"
+#~ msgstr "Papan Ketik _Visual"
+
+#~ msgid "_Screenreader"
+#~ msgstr "Pembaca _Layar"
+
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+
+#~ msgid "I_gnore duplicate keypresses within:"
+#~ msgstr "Abaikan penekanan tombol sel_ama:"
+
+#~ msgid "_Remove"
+#~ msgstr "_Hapus"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Menyalin berkas: %u dari %u"
+
+#~ msgid "From:"
+#~ msgstr "Dari:"
+
+#~ msgid "normal"
+#~ msgstr "normal"
+
+#~ msgid "right"
+#~ msgstr "kanan"
+
+#~ msgid "<b>_Lock screen to enforce typing break</b>"
+#~ msgstr "<b>Kunci _layar untuk istirahat mengetik</b>"
+
+#~ msgid "_Accessibility..."
+#~ msgstr "Kemud_ahan Akses..."
+
+#~ msgid "Advanced Configuration"
+#~ msgstr "Konfigurasi Lanjutan"
+
+#~ msgid "Theme Preferences"
+#~ msgstr "Pengaturan Tema"
+
+#~ msgid "_Quit"
+#~ msgstr "_Keluar"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Pusat Kendali GNOME"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Error saat mengaktifkan konfigurasi XKB.\n"
+#~ "Kemungkinan masalah:\n"
+#~ "- bug pada program pustaka libxklavier\n"
+#~ "- bug pada server X (xkbcomp, xmodmap)\n"
+#~ "- server X tidak cocok dengan implementasi libxkbfile\n"
+#~ "\n"
+#~ "Data versi server X:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Bila Anda ingin melaporkan kejadian ini, silakan lampirkan juga:\n"
+#~ "- Hasil keluaran perintah <b>%s</b>\n"
+#~ "- Hasil keluaran perintah <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Anda sedang menggunakan XFree 4.3.0.\n"
+#~ "Ada masalah yang biasa terjadi bila menggunakan konfigurasi XKB yang "
+#~ "rumit.\n"
+#~ "Cobalah gunakan konfigurasi yang lebih ringkas atau gunakan versi XFree "
+#~ "yang lebih baru."
+
+#~ msgid "Do _not show this warning again"
+#~ msgstr "_Jangan tampilkan peringatan ini lagi"
+
+#~ msgid "Keep GNOME settings"
+#~ msgstr "Gunakan pengaturan GNOME"
+
+#~ msgid "Keyboard layout"
+#~ msgstr "Susunan papan ketik"
+
+#~ msgid "_Postpone break"
+#~ msgstr "Nanti _saja"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/Is_tirahat"
+
+#~ msgid "About GNOME Typing Monitor"
+#~ msgstr "Informasi Mengenai Pemantau Pengetikan GNOME"
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Karya Richard Hult &lt;richard@imendio.com&gt;"
+
+#~ msgid "The typing monitor is already running."
+#~ msgstr "Pemantau ketik sudah dijalankan."

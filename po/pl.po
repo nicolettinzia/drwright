@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2010-09-17 22:54+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
@@ -29,19 +29,19 @@ msgstr ""
 "X-Poedit-Language: Polish\n"
 "X-Poedit-Country: Poland\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 msgid "Enable debugging code"
 msgstr "Włączenie kodu do debugowania"
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "Bez sprawdzania dostępności obszaru powiadamiania"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "Monitor pisania na klawiaturze"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 msgid ""
 "The typing monitor uses the notification area to display information. You "
 "don't seem to have a notification area on your panel. You can add it by "
@@ -54,11 +54,11 @@ msgstr ""
 "następnie wybierając opcję \"Dodaj do panelu\", zaznaczyć pole wyboru "
 "\"Obszar powiadamiania\" i kliknąć przycisk \"Dodaj\"."
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 msgid "_Take a Break"
 msgstr "C_zas na przerwę"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 #, fuzzy
 msgid "Disabled"
 msgstr ""
@@ -69,12 +69,7 @@ msgstr ""
 "#-#-#-#-#  pl.po (gnome-control-center)  #-#-#-#-#\n"
 "Nieaktywny"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr "Weź przerwę (następna za %dm)"
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
@@ -82,12 +77,7 @@ msgstr[0] "%d minuta do przerwy"
 msgstr[1] "%d minuty do przerwy"
 msgstr[2] "%d minut do przerwy"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr "Weź przerwę (następna za mniej niż minutę)"
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, fuzzy, c-format
 msgid "Less than one minute until the next break"
 msgstr ""
@@ -96,7 +86,7 @@ msgstr ""
 "#-#-#-#-#  pl.po (gnome-control-center)  #-#-#-#-#\n"
 "Mniej niż minuta do następnej przerwy"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -104,11 +94,11 @@ msgid ""
 msgstr ""
 "Nie można wyświetlić okna właściwości przerw w pisaniu z powodu błędu: %s"
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Napisany przez Richarda Hulta <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 #, fuzzy
 msgid "Eye candy added by Anders Carlsson"
 msgstr ""
@@ -117,7 +107,7 @@ msgstr ""
 "#-#-#-#-#  pl.po (gnome-control-center)  #-#-#-#-#\n"
 "Grafika autorstwa Andresa Carlssona"
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 #, fuzzy
 msgid "A computer break reminder."
 msgstr ""
@@ -126,24 +116,24 @@ msgstr ""
 "#-#-#-#-#  pl.po (gnome-control-center)  #-#-#-#-#\n"
 "Program do przypominania o przerwach w pracy z komputerem."
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr "Aviary.pl <gnomepl@aviary.pl>, 2007, 2008, 2009, 2010"
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "O_drocz przerwę"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "Czas na przerwę!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -151,15 +141,19 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 #, fuzzy
 msgid "Whether the typing break can be postponed"
 msgstr "Określa, czy czytnik ekranowy jest włączony."
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 #, fuzzy
 msgid "Whether typing break is enabled"
 msgstr "Określa, czy czytnik ekranowy jest włączony."
@@ -194,9 +188,14 @@ msgstr "_Blokada ekranu wymuszająca przerwę w pisaniu"
 msgid "_Work interval lasts:"
 msgstr "Długość czasu p_racy:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "minut"
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Weź przerwę (następna za %dm)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Weź przerwę (następna za mniej niż minutę)"
+
+#~ msgid "minutes"
+#~ msgstr "minut"
 
 #~ msgid "    "
 #~ msgstr "    "

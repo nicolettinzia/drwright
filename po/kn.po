@@ -1,0 +1,4225 @@
+# #-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#
+# translation of gnome-settings-daemon.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2010.
+# #-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#
+# translation of gnome-settings-daemon.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2010.
+# #-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#
+# translation of gnome-control-center.master.kn.po to Kannada
+# translation of gnome-control-center.HEAD.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2010.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center.master.kn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-04-22 14:13+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: kn-IN <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "ದೋಷನಿವಾರಣಾ ಸಂಕೇತವನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "ಸೂಚನಾ ಸ್ಥಳವು ಅಸ್ತಿತ್ವದಲ್ಲಿ ಇದೆಯೆ ಎಂದು ಪರಿಶೀಲಿಸಬೇಡ"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "ಟೈಪಿಂಗ್ ಮೇಲ್ವಿಚಾರಕ"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"ಟೈಪಿಂಗ್ ಮೇಲ್ವಿಚಾರಕವು ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಲು ಸೂಚನಾ ಜಾಗವನ್ನು ಬಳಸುತ್ತದೆ. ನಿಮ್ಮಲ್ಲಿನ "
+"ಫಲಕದಲ್ಲಿ ಒಂದು ಸೂಚನಾ ಜಾಗವು ಇದ್ದಂತೆ ತೋರುತ್ತಿಲ್ಲ. ನೀವದನ್ನು ಸೇರಿಸಲು ಫಲಕದ ಮೇಲೆ ಬಲ "
+"ಕ್ಲಿಕ್ಕಿಸಿ ಹಾಗು 'ಫಲಕಕ್ಕೆ ಸೇರಿಸು' ಅನ್ನು ಆರಿಸಿ, 'ಸೂಚನಾ ಜಾಗ' ಹಾಗು 'ಸೇರಿಸು' ಅನ್ನು "
+"ಆಯ್ಕೆಮಾಡಿ."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "ಒಂದು ವಿರಾಮವನ್ನು ತೆಗೆದುಕೊ(_T)"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "ಅಶಕ್ತಗೊಂಡ"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "ಮುಂದಿನ ವಿರಾಮಕ್ಕೆ %d ನಿಮಿಷದ ಸಮಯವಿದೆ"
+msgstr[1] "ಮುಂದಿನ ವಿರಾಮಕ್ಕೆ %d ನಿಮಿಷಗಳ ಸಮಯವಿದೆ"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "ಮುಂದಿನ ವಿರಾಮಕ್ಕೆ ಒಂದು ನಿಮಿಷಕ್ಕೂ ಕಡಿಮೆ ಸಮಯವಿದೆ"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"ಈ ಕೆಳಗಿನ ದೋಷದ ಕಾರಣದಿಂದಾಗಿ ನಮೂದಿಸುವ ವಿರಾಮದ ಗುಣಲಕ್ಷಣಗಳ ಸಂವಾದವನ್ನು ತೋರಿಸಲು "
+"ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Richard Hult <richard@imendio.com> ರವರಿಂದ ಬರೆಯಲ್ಪಿಟ್ಟಿದೆ"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "ಐ ಕ್ಯಾಂಡಿಯನ್ನು ಸೇರ್ಪಡಿಸಿದವರು Anders Carlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "ಒಂದು ಗಣಕದ ವಿರಾಮದ ಜ್ಞಾಪನೆ."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.com>"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "ವಿರಾಮವನ್ನು ಮುಂದೂಡು(_P)"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "ಒಂದು ವಿರಾಮವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "ತೆರೆಯ ಓದುಗವು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "ತೆರೆಯ ಓದುಗವು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "ಟೈಪಿಂಗ್ ವಿರಾಮ"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "ವಿರಾಮದ ಕಾಲಾವಧಿಯ ತೀರುವಿಕೆ(_B):"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "ನಮೂದಿಸುವ ವಿರಾಮವನ್ನು ಹೇರಲು ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡು(_L)"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "ಕೆಲಸದ ಅವಧಿಯ ತೀರುವಿಕೆ(_W):"
+
+#~ msgid "minutes"
+#~ msgstr "ನಿಮಿಷಗಳು"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Arbeit</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
+#~ "#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+#~ "ವಿರಾಮಗಳನ್ನು ಮುಂದಕ್ಕೆ ಹಾಕಲು ಅನುಮತಿ ಇದೆಯೆ ಎಂದು ಪರಿಶೀಲಿಸಿ"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
+#~ "#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+#~ "ನಮೂದಿಸುವ ಅನುಮತಿ ಇಲ್ಲದೆ ಇರುವಾಗಿನ ವಿರಾಮದ ಕಾಲಾವಧಿ"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
+#~ "#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+#~ "ಒಂದು ವಿರಾಮವನ್ನು ಹೇರುವ ಮೊದಲಿನ ಕೆಲಸದ ಕಾಲಾವಧಿ"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/_Über"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pausenerinnerer"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Datei mit der Vorgabekonfiguration für RandR"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Das XRandR-Plugin sucht in der durch diesen Schlüssel angegebenen Datei "
+#~ "nach einer Vorgabekonfiguration. Dies verhält sich ähnlich wie ~/.config/"
+#~ "monitors.xml, die normalerweise in den persönlichen Ordnern der Benutzer "
+#~ "gespeichert wird. Falls ein Benutzer nicht über solch eine Datei verfügt "
+#~ "oder seine Konfiguration nicht zu den vorhandenen Bildschirmen passt, "
+#~ "wird die in diesem Schlüssel angegebene Datei stattdessen verwendet."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Externen Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Externen Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Laptop-Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Laptop-Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »none« (nichts tun), »lock_screen« (Bildschirm "
+#~ "sperren) oder »force_logout« (Abmelden erzwingen). Die Aktion wird "
+#~ "ausgeführt, wenn die zum Anmelden benutzte Smartcard entfernt wird."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Smartcard-Entfernung"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Fehler beim Aktivieren der XKB-Konfiguration.\n"
+#~ "Dies kann unter folgenden Umständen passieren:\n"
+#~ " • ein Fehler in der Bibliothek libxklavier\n"
+#~ " • ein Fehler im X-Server (xkbcomp, xmodmap-Werkzeuge)\n"
+#~ " • X-Server mit inkompatibler Implementation von libxkbfile\n"
+#~ "\n"
+#~ "Versionsdaten des X-Servers:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Falls Sie dies als Fehler melden, fügen Sie hinzu:\n"
+#~ " • das Ergebnis von <b>%s</b>\n"
+#~ " • das Ergebnis von <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Sie benutzen derzeit XFree 4.3.0.\n"
+#~ "In Verbindung mit komplexen XKB-Konfigurationen sind Probleme bekannt.\n"
+#~ "Versuchen Sie eine einfachere Konfiguration zu benutzen oder\n"
+#~ "eine neuere Version der XFree-Software."
+
+#~ msgid "_Layouts"
+#~ msgstr "Be_legungen"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Aktuelle _Belegung anzeigen"
+
+#~ msgid "Module Path"
+#~ msgstr "Modulpfad"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "Pfad zum Smartcard PKCS #11-Treiber"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "Fehler empfangen oder Abbruch seitens der Ereignisquelle"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Das NSS-Sicherheitssystem konnte nicht initialisiert werden"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "Es konnte kein passender Smartcard-Treiber gefunden werden"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "Smartcard-Treiber »%s« konnte nicht geladen werden"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr ""
+#~ "Überwachung auf eingehende Karten-Ereignisse ist fehlgeschlagen - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr ""
+#~ "Unerwarteter Fehler trat beim Warten auf eingehende Karten-Ereignisse auf"
+
+#~ msgid "Slot ID"
+#~ msgstr "Slot-Kennung"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Der Slot, in welchem sich die Karte befindet"
+
+#~ msgid "Slot Series"
+#~ msgstr "Slot-Reihe"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "Slotweise Kartenbezeichnung"
+
+#~ msgid "name"
+#~ msgstr "Name"
+
+#~ msgid "Module"
+#~ msgstr "Modul"
+
+#~ msgid "smartcard driver"
+#~ msgstr "Smartcard-Treiber"
+
+#~ msgid "Change system time"
+#~ msgstr "Systemzeit ändern"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Zeitzone des Systems ändern"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Hardware-Uhr konfigurieren"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Zeitzone des Systems zu "
+#~ "ändern."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Systemzeit zu ändern."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Hardware-Uhr zu "
+#~ "konfigurieren."
+
+#~ msgid "_Groups"
+#~ msgstr "_Gruppen"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Legt fest, ob ein Dialog angezeigt wird, wenn beim Ausführen des "
+#~ "Bildschirmschoners ein Fehler auftritt."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Fehler beim Start anzeigen"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% des Speicherplatzes auf »%s« wird benutzt"
+
+#~ msgid "Analyze"
+#~ msgstr "Analysieren"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "GNOME-Lautstärkeregler"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Fehler beim Starten des Bildschirmschoners:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Der Bildschirmschoner steht in dieser Sitzung nicht zur Verfügung."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern des Mauszeiger-Themas erforderlich."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern der Zeiger erforderlich."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Audiodatei %s konnte nicht als Beispiel %s geladen werden"
+
+#~ msgid "Login"
+#~ msgstr "Anmelden"
+
+#~ msgid "Logout"
+#~ msgstr "Abmelden"
+
+#~ msgid "Boing"
+#~ msgstr "Gong"
+
+#~ msgid "Siren"
+#~ msgstr "Sirene"
+
+#~ msgid "Clink"
+#~ msgstr "Klicken"
+
+#~ msgid "Beep"
+#~ msgstr "Piep"
+
+#~ msgid "No sound"
+#~ msgstr "Kein Klang"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Diesem Ereignis ist kein Klang zugewiesen."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
+#~ "Sie können das Paket »gnome-audio« installieren, um die Vorgabeklänge zu "
+#~ "erhalten."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Die Audiodatei für dieses Ereignis existiert nicht."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Audiodatei wählen"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Die Datei %s ist keine gültige wav-Datei"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Audiodatei wählen …"
+
+#, fuzzy
+#~ msgid "Sound"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "Audio\n"
+#~ "#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+#~ "ಧ್ವನಿ"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Setzen Sie diesen Wert auf »True«, um die MIME-Typ-Handler für »text/"
+#~ "plain« und »text/*« synchron zu halten."
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "»text/plain« und »text/*«-Handler synchronisieren"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "Anscheinend hat bereits eine andere Anwendung auf den Schlüssel »%u« "
+#~ "zugegriffen."
+
+#~ msgid "Accessibility"
+#~ msgstr "ನಿಲುಕಣೆ"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "ಮುಕ್ತ ಪ್ರತಿಶತ ಸೂಚನೆಯ ಮಿತಿ"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "ಮುಕ್ತ ಸ್ಥಳದ ಸೂಚನೆ ಇರದ ಮಿತಿ"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "ಪುನರಾವರ್ತಿತ ಎಚ್ಚರಿಕೆಗಳ ಕನಿಷ್ಟ ಸೂಚನಾ ಕಾಲಾವಧಿ"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "ಆಲಕ್ಷಿಸಬೇಕಿರುವ ಆರೋಹಣಾ ಮಾರ್ಗಗಳು"
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "ಸ್ಥಳಾವಕಾಶವು ಕಡಿಮೆ ಇದ್ದಾಗ ಯಾವ ಆರೋಹಣಾ ಮಾರ್ಗಗಳ ಪಟ್ಟಿಯನ್ನು ಆಲಕ್ಷಿಸಬೇಕು ಎಂದು ಸೂಚಿಸಿ."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "ಸಮಯವನ್ನು ನಿಮಿಷದಲ್ಲಿ ಸೂಚಿಸಿ. ಒಂದು ಪರಿಮಾಣಕ್ಕೆ ತರುವಾಯದ ಎಚ್ಚರಿಕೆಗಳು ಈ ಕಾಲಾವಧಿಯ "
+#~ "ನಂತರ ಕಾಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "ಆನಂತರದ ಮುಕ್ತ ಪ್ರತಿಶತ ಸೂಚನಾ ಮಿತಿ"
+
+#, fuzzy
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "ಗಣಕದ ಧ್ವನಿ ಪರಿಮಾಣವನ್ನು ಹೆಚ್ಚಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "ಕ್ಯಾಲ್ಕುಲೇಟರನ್ನು ಆರಂಭಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "ಇಮೈಲ್ ಕ್ಲೈಂಟನ್ನು ಆರಂಭಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "ನೆರವಿನ ವೀಕ್ಷಕವನ್ನು ಆರಂಭಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "ಮೀಡಿಯಾ ಪ್ಲೇಯರನ್ನು ಆರಂಭಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "ಜಾಲ ವೀಕ್ಷಕವನ್ನು ಆರಂಭಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to log out."
+#~ msgstr "ನಿರ್ಗಮಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "ಗಣಕದ ಧ್ವನಿ ಪರಿಮಾಣವನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "ಗಣಕದ ಧ್ವನಿ ಪರಿಮಾಣವನ್ನು ಮೂಕಗೊಳಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "ನೆಲೆ ಕಡತಕೋಶವನ್ನು ತೆರೆಯಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "ಪ್ಲೇಬ್ಯಾಕ್ ಅನ್ನು ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತಗೊಳಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "ಗಣಕದ ಧ್ವನಿ ಪರಿಮಾಣವನ್ನು ಹೆಚ್ಚಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "ಮುಂದಿನ ಹಾಡಿಗೆ ಹೋಗಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "ಹಿಂದಿನ ಹಾಡಿಗೆ ಹೋಗಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "ಪ್ಲೇಬ್ಯಾಕ್ ಅನ್ನು(ಅಥವ ಪ್ಲೇ/ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತದ ನಡುವೆ ಬದಲಾಯಿಸಲು) ಆರಂಭಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "ಪ್ಲೇಬ್ಯಾಕ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Eject"
+#~ msgstr "ಹೊರತಳ್ಳು"
+
+#~ msgid "Home folder"
+#~ msgstr "ನೆಲೆ ಕಡತಕೋಶ"
+
+#~ msgid "Launch calculator"
+#~ msgstr "ಕ್ಯಾಲ್ಕುಲೇಟರನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "Launch email client"
+#~ msgstr "ಇಮೈಲ್ ಕ್ಲೈಂಟನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "Launch help browser"
+#~ msgstr "ನೆರವಿನ ವೀಕ್ಷಕವನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "Launch media player"
+#~ msgstr "ಮೀಡಿಯಾ ಪ್ಲೇಯರನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "Launch web browser"
+#~ msgstr "ಜಾಲ ವೀಕ್ಷಕವನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "Lock screen"
+#~ msgstr "ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡು"
+
+#~ msgid "Log out"
+#~ msgstr "ನಿರ್ಗಮಿಸು"
+
+#~ msgid "Next track"
+#~ msgstr "ಮುಂದಿನ ಹಾಡು"
+
+#~ msgid "Pause playback"
+#~ msgstr "ಪ್ಲೇಬ್ಯಾಕನ್ನು ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತಗೊಳಿಸು"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "ಪ್ಲೇ (ಅಥವ ಪ್ಲೇ/ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತ)"
+
+#~ msgid "Previous track"
+#~ msgstr "ಹಿಂದಿನ ಹಾಡು"
+
+#~ msgid "Search"
+#~ msgstr "ಹುಡುಕು"
+
+#~ msgid "Stop playback"
+#~ msgstr "ಪ್ಲೇಬ್ಯಾಕನ್ನು ನಿಲ್ಲಿಸು"
+
+#, fuzzy
+#~ msgid "Toggle touchpad"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "ಟಚ್‌ಪ್ಯಾಡಿನಿಂದ ಮೌಸ್‌ಕ್ಲಿಕ್‌ಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಿ\n"
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+
+#~ msgid "Volume down"
+#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣ ಇಳಿಕೆ"
+
+#~ msgid "Volume mute"
+#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣ ಮೂಕ"
+
+#~ msgid "Volume step"
+#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣದ ಹಂತ"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣದ ಪ್ರತಿಶತವಾಗಿ ಧ್ವನಿ ಪ್ರಮಾಣದ ಹಂತ."
+
+#~ msgid "Volume up"
+#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣ ಏರಿಕೆ"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "ಸೂಚನೆಗಳನ್ನು ಸೂಚನಾ ಸ್ಥಳದಲ್ಲಿ ತೋರಿಸು"
+
+#~ msgid "Antialiasing"
+#~ msgstr "ಆಂಟಿಅಲಿಯಾಸಿಂಗ್"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "ಹಿಂಟಿಂಗ್"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA ಕ್ರಮ"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "ಒಂದು LCD ತೆರೆಯಲ್ಲಿ ಸಬ್‌ಪಿಕ್ಸೆಲ್‌ ಘಟಕಗಳ ಕ್ರಮ; ಕೇವಲ \"rgba\" ಗೆ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್ "
+#~ "ಮಾಡುವಾಗ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ: ಎಡಭಾಗದಲ್ಲಿ ಕೆಂಪಿಗಾಗಿ \"rgb"
+#~ "\" (ಸರ್ವೆ ಸಾಮಾನ್ಯ), ಎಡಭಾಗದಲ್ಲಿ ನೀಲಿಗಾಗಿ \"bgr\", ಮೇಲ್ಭಾಗದಲ್ಲಿ ಕೆಂಪಿಗಾಗಿ \"vrgb"
+#~ "\", ಅಡಿಭಾಗದಲ್ಲಿ ಕೆಂಪಿಗಾಗಿ \"vbgr\"."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "ಅಕ್ಷರ ಶೈಲಿಯ ಗಾತ್ರಗಳನ್ನು ಪಿಕ್ಸೆಲ್‌ ಗಾತ್ರಗಳಾಗಿ ಬದಲಾಯಿಸಲು ಬಳಸಬೇಕಿರುವ ರೆಸಲ್ಯೂಶನ್, ಪ್ರತಿ "
+#~ "ಇಂಚಿನಲ್ಲಿನ ಚುಕ್ಕಿಗಳ ಆಧಾರದಲ್ಲಿ."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಆಂಟಿಅಲಿಯಾಸಿಂಗ್ ಮಾಡುವಾಗ ಬಳಸಬೇಕಿರುವ ಬಗೆಗಳು. ಸಾಧ್ಯವಿರುವ "
+#~ "ಮೌಲ್ಯಗಳೆಂದರೆ: ಯಾವುದೆ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್ ಬೇಡವಾದಲ್ಲಿ \"ಯಾವುದೂ ಇಲ್ಲ\", ಮಾನ್ಯವಾದ "
+#~ "ಗ್ರೇಸ್ಕೇಲ್ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್‌ಗಾಗಿ \"ಗ್ರೇಸ್ಕೇಲ್\", ಹಾಗು ಸಬ್‌ಪಿಕ್ಸೆಲ್ ಆಂಟಿಅಲಿಯಾಸಿಂಗ್‌ಗಾಗಿ "
+#~ "\"rgba\" (ಕೇವಲ LCD ತೆರೆಗಳಿಗೆ ಮಾತ್ರ)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ರೆಂಡರಿಂಗ್ ಮಾಡಲು ಬಳಸಬೇಕಿರುವ ಹಿಂಟಿಂಗ್ ಪ್ರಕಾರ. ಸಾಧ್ಯವಿರುವ "
+#~ "ಮೌಲ್ಯಗಳೆಂದರೆ: ಯಾವುದೆ ಹಿಂಟಿಂಗ್ ಬೇಡವಾದಲ್ಲಿ \"ಯಾವುದೂ ಇಲ್ಲ\", ಆರಂಭಿಕ ಮಟ್ಟಕ್ಕಾಗಿ "
+#~ "\"ಕೊಂಚ\", ಮಧ್ಯಮ ಮಟ್ಟಕ್ಕಾಗಿ \"ಮಧ್ಯಮ\", ಹಾಗು ಗರಿಷ್ಟ ಹಿಂಟಿಂಗ್‌ಗಾಗಿ \"ಸಂಪೂರ್ಣ\" (ಇದು "
+#~ "ಅಕ್ಷರಗಳನ್ನು ವಿರೂಪಗೊಳಿಸಬಹುದು)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "ಅನುಮತಿ ಇರುವ ಕೀಲಿಗಳು"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "ಖಾಲಿ ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ, GConf ಕೋಶವು ಪಟ್ಟಿಯಲ್ಲಿ ಇರದ ಹೊರತು ಕೀಲಿಬೈಂಡಿಂಗ್‌ಗಳನ್ನು "
+#~ "ಆಲಕ್ಷಿಸಲಾಗುವುದು. ಇದು ಒಂದು ಉಪಯುಕ್ತ ಲಾಕ್‌ಡೌನ್ ಆಗಿರುತ್ತದೆ."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "ಟೈಪ್ ಮಾಡುವಾಗ ಟಚ್‌ಪ್ಯಾಡನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "ಅಡ್ಡ ಚಲಿಸುವಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "ಟಚ್‌ಪ್ಯಾಡಿನಿಂದ ಮೌಸ್‌ಕ್ಲಿಕ್‌ಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಿ"
+
+#, fuzzy
+#~ msgid "Enable touchpad"
+#~ msgstr "ಟಚ್‌ಪ್ಯಾಡಿನಿಂದ ಮೌಸ್‌ಕ್ಲಿಕ್‌ಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಿ"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "ಟಚ್‌ಪ್ಯಾಡ್ ಚಲನೆಯ ವಿಧಾನವನ್ನು ಆರಿಸಿ"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "ಟೈಪಿಸುವಾಗ ಆಕಸ್ಮಿಕವಾಗಿ ಟಚ್‌ಪ್ಯಾಡ್ ಗೆ ಕೈ ತಾಗುವ ತೊಂದರೆ ಇದ್ದರೆ ಇದನ್ನು TRUE ಗೆ "
+#~ "ಬದಲಾಯಿಸಿ."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "scroll_method ಕೀಲಿಯಿಂದ ಆರಿಸಲಾದ ವಿಧಾನದ ರೀತಿಯಲ್ಲಿಯೆ ಅಡ್ಡ ಚಲನೆಯನ್ನು ಅನುಮತಿಸಲು "
+#~ "ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "ಟಚ್‌ಪ್ಯಾಡ್‌ನಲ್ಲಿ ಮೆಲ್ಲಗೆ ತಟ್ಟುವುದರ ಮೂಲಕ ಮೌಸ್‌ ಕ್ಲಿಕ್‌ಗಳನ್ನು ಕಳುಹಿಸುವುದನ್ನು ಶಕ್ತಗೊಳಿಸಲು "
+#~ "ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ."
+
+#, fuzzy
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr ""
+#~ "ಟಚ್‌ಪ್ಯಾಡ್‌ನಲ್ಲಿ ಮೆಲ್ಲಗೆ ತಟ್ಟುವುದರ ಮೂಲಕ ಮೌಸ್‌ ಕ್ಲಿಕ್‌ಗಳನ್ನು ಕಳುಹಿಸುವುದನ್ನು ಶಕ್ತಗೊಳಿಸಲು "
+#~ "ಇದನ್ನು TRUE ಗೆ ಬದಲಾಯಿಸಿ."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "GNOME ಸಿದ್ಧತೆಗಳ ಡೀಮನ್"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈಯರ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "ತೆರೆಯ ಮೇಲಣ ಕೀಲಿಮಣೆಯನ್ನು ಟಾಗಲ್‌ ಮಾಡಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "ತೆರೆ ಓದುಗನನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Bounce keys"
+#~ msgstr "ಪುಟಿಯುವ ಕೀಲಿಗಳು"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈಯರನ್ನು ಆನ್‌ ಮಾಡಲು ಅಥವ ಆಫ್‌ ಬಳಸಲಾಗುವ ಆಜ್ಞೆ."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "ತೆರೆಯ ಮೇಲಿನ ಕೀಲಿಮಣೆಯನ್ನು ಆನ್‌ ಮಾಡಲು ಅಥವ ಆಫ್‌ ಬಳಸಲಾಗುವ ಆಜ್ಞೆ."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "ಓದುಗನನ್ನು ಆನ್‌ ಮಾಡಲು ಅಥವ ಆಫ್‌ ಬಳಸಲಾಗುವ ಆಜ್ಞೆ."
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "ನಿಲುಕಣಾ ಕೀಲಿಮಣೆ ಪ್ಲಗ್ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "ಹಿನ್ನಲೆ ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "ಮನೆಸ್ವಚ್ಛಗೊಳಿಸುವ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "ಕೀಲಿ-ಬದ್ಧತೆಗಳ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "ಕೀಲಿಮಣೆ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "ಮೀಡಿಯಾ ಕೀಲಿಗಳನ್ನು ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "ಮೌಸ್ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "ಧ್ವನಿ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳುವ ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "xrdb ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "xsettings ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Mouse keys"
+#~ msgstr "ಮೌಸ್‌ ಕೀಲಿಗಳು"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "ತೆರೆಯ ಮೇಲಣ ಕೀಲಿ ಮಣೆ"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "ತೆರೆಯ ಮ್ಯಾಗ್ನಿಫೈರ್‌"
+
+#~ msgid "Screen reader"
+#~ msgstr "ತೆರೆ ಓದುಗ"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "ಅಗತ್ಯವಿಲ್ಲದ ತಾತ್ಕಾಲಿಕ ಕಡತ ಕ್ಯಾಶೆಯನ್ನು ಅಳಿಸಿಹಾಕಲು, ಮನೆಸ್ವಚ್ಛಗೊಳಿಸುವ ಪ್ಲಗ್ಇನ್ ಅನ್ನು "
+#~ "ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "ಕ್ಲಿಪ್‌ಬೋರ್ಡಿನ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ "
+#~ "(ನಿಜಕ್ಕೆ) ಹೊಂದಿಸಿ."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "ಗಣಕತೆರೆ ಹಿನ್ನಲೆ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ "
+#~ "(ನಿಜಕ್ಕೆ) ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "ಅಕ್ಷರ ಶೈಲಿ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "ಕೀಲಿಮಣೆ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "ಮೌಸ್ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "ಮಲ್ಟಿಮೀಡಿಯಾ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ "
+#~ "(ನಿಜಕ್ಕೆ) ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "ಧ್ವನಿ ನಮೂನೆ ಕ್ಯಾಶೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "ನಿಲುಕಣಾ ಕೀಲಿಮಣೆ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ "
+#~ "(ನಿಜಕ್ಕೆ) ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "ಕೀಲಿಬದ್ಧತೆಗಳನ್ನು ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ "
+#~ "(ನಿಜಕ್ಕೆ) ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "ನಮೂದಿಸುವ ವಿರಾಮಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "xrdb ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "xsettings ಅನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid "Slow keys"
+#~ msgstr "ನಿಧಾನಗತಿಯ ಕೀಲಿಗಳು"
+
+#~ msgid "Sticky keys"
+#~ msgstr "ಸ್ಟಿಕಿ ಕೀಲಿಗಳು"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫಯರ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ನ ಹೆಸರು"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "ತೆರೆಯ ಮೇಲಣ ಕೀಲಿಮಣೆಯನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ನ ಹೆಸರು"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "ತೆರೆ ಓದುಗನನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ನ ಹೆಸರು"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "ಮ್ಯಾಗ್ನಿಫಯರ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ನ ಹೆಸರು ಇದಾಗಿದೆ. ಈ ಹೆಸರನ್ನು "
+#~ "ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ ಆದ್ಯತೆಗಳ ಸಂವಾದದಲ್ಲಿ ತೋರಿಸಲಾಗುವುದು."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "ತೆರೆಯ ಮೇಲಣ ಕೀಲಿ ಮಣೆಯನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ನ ಹೆಸರು ಇದಾಗಿದೆ. ಈ "
+#~ "ಹೆಸರನ್ನು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ ಆದ್ಯತೆಗಳ ಸಂವಾದದಲ್ಲಿ ತೋರಿಸಲಾಗುವುದು."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "ತೆರೆ ಓದುಗನನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ನ ಹೆಸರು ಇದಾಗಿದೆ. ಈ ಹೆಸರನ್ನು "
+#~ "ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ ಆದ್ಯತೆಗಳ ಸಂವಾದದಲ್ಲಿ ತೋರಿಸಲಾಗುವುದು."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈಯರ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡು"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "ತೆರೆಯ ಮೇಲಣ ಕೀಲಿ ಮಣೆಯನ್ನು ಟಾಗಲ್ ಮಾಡು"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "ತೆರೆ ಓದುಗನನ್ನು ಟಾಗಲ್ ಮಾಡು"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr "ಪುಟಿಕೆ ಕೀಲಿಗಳ ಕೀಲಿಮಣೆಯ ನಿಲುಕಿಸುವ ಸವಲತ್ತು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "ಮೌಸ್‌ನ ಕೀಲಿಗಳ ಕೀಲಿಮಣೆಯ ನಿಲುಕಿಸುವ ಸವಲತ್ತು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "ತೆರೆಯ ಮೇಲಣ ಕೀಲಿಮಣೆಯು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "ತೆರೆಯ ಮ್ಯಾಗ್ನಿಫಯರ್ ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "ನಿಧಾನಗತಿಯ ಕೀಲಿಗಳ ಕೀಲಿಮಣೆಯ ನಿಲುಕಿಸುವ ಸವಲತ್ತು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "ಸ್ಟಿಕಿ ಕೀಲಿಗಳ ಕೀಲಿಮಣೆಯ ನಿಲುಕಿಸುವ ಸವಲತ್ತು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "ಒಂದು ಡಿಮನ್ ಆಗಬೇಡ"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "ಪ್ಲಗ್ಇನ್ ಸಿದ್ಧತೆಗಳು ಲೋಡ್ ಆಗಬೇಕಿರುವ GConf ಪ್ರಿಫಿಕ್ಸ್‍"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "ನಿಲುಕಣಾ ಕೀಲಿಮಣೆ"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "ನಿಲುಕಣಾ ಕೀಲಿಮಣೆ ಪ್ಲಗ್ಇನ್"
+
+#, fuzzy
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "ನೆರವನ್ನು ತೋರಿಸುವಾಗ ಒಂದು ದೋಷ ಉಂಟಾಗಿದೆ: %s\n"
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "ನೆರವನ್ನು ತೋರಿಸುವಾಗ ಒಂದು ದೋಷ ಉಂಟಾಗಿದೆ: %s\n"
+#~ "#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+#~ "ಸಹಾಯವನ್ನು ತೋರಿಸುವಾಗ ಒಂದು ದೋಷ ಎದುರಾಗಿದೆ: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "ನಿಧಾನ ಕೀಲಿಗಳನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "ನಿಧಾನ ಕೀಲಿಗಳನ್ನು ನೀವು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "ನೀವು ಈಗತಾನ ಶಿಫ್ಟ್‍ ಕೀಲಿಯನ್ನು ಎಂಟು ಸೆಕೆಂಡುಗಳ ಕಾಲ ಒತ್ತಿ ಹಿಡಿದಿದ್ದೀರಿ.  ಈ ಶಾರ್ಟ್-ಕಟ್, "
+#~ "ನಿಧಾನ ಕೀಲಿಗಳ ಸವಲತ್ತಾಗಿದ್ದು, ನಿಮ್ಮ ಕೀಲಿಮಣೆ ಕೆಲಸಮಾಡುವ ರೀತಿಯ ಮೇಲೆ ಇದು ಪರಿಣಾಮ "
+#~ "ಬೀರುತ್ತದೆ."
+
+#~ msgid "Don't deactivate"
+#~ msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬೇಡ"
+
+#~ msgid "Activate"
+#~ msgstr "ಸಕ್ರಿಯಗೊಳಿಸು"
+
+#~ msgid "Deactivate"
+#~ msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "ಸಕ್ರಿಯಗೊಳಿಸಬೇಡ(_n)"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬೇಡ(_n)"
+
+#~ msgid "_Activate"
+#~ msgstr "ಸಕ್ರಿಯಗೊಳಿಸು(_A)"
+
+#~ msgid "_Deactivate"
+#~ msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು(_D)"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "ನಿಧಾನ ಕೀಲಿಗಳ ಎಚ್ಚರಿಕೆ"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "ನೀವು ಸ್ಟಿಕಿ ಕೀಲಿಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "ನೀವು ಸ್ಟಿಕಿ ಕೀಲಿಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "ನೀವು ಈಗತಾನ ಶಿಫ್ಟ್‍ ಕೀಲಿಯನ್ನು ಕ್ರಮವಾಗಿ ಐದು ಬಾರಿ ಒತ್ತಿದ್ದೀರಿ.  ಈ ಶಾರ್ಟ್-ಕಟ್ ಸ್ಟಿಕಿ "
+#~ "ಕೀಲಿಗಳ ಸವಲತ್ತಾಗಿದ್ದು, ನಿಮ್ಮ ಕೀಲಿಮಣೆ ಕೆಲಸಮಾಡುವ ರೀತಿಯ ಮೇಲೆ ಇದು ಪರಿಣಾಮ ಬೀರುತ್ತದೆ."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "ನೀವು ಈಗತಾನೆ ಎರಡು ಕೀಲಿಗಳನ್ನು ಒಂದೆ ಬಾರಿಗೆ, ಅಥವ ಶಿಫ್ಟ್‍ ಕೀಲಿಯನ್ನು ಕ್ರಮವಾಗಿ ಐದು "
+#~ "ಬಾರಿ ಒತ್ತಿದ್ದೀರಿ  ಈ ಶಾರ್ಟ್-ಕಟ್, ಸ್ಟಿಕಿ ಕೀಲಿಗಳ ಸವಲತ್ತಾಗಿದ್ದು, ನಿಮ್ಮ ಕೀಲಿಮಣೆ "
+#~ "ಕೆಲಸಮಾಡುವ ರೀತಿಯ ಮೇಲೆ ಇದು ಪರಿಣಾಮ ಬೀರುತ್ತದೆ."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "ಸ್ಟಿಕಿ ಕೀಲಿಗಳ ಎಚ್ಚರಿಕೆ"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "ಜಾಗತಿಕ ನಿಲುಕಣಾ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "ಬಣ್ಣಗಳ ಗಾಢತೆಯನ್ನು ಹೆಚ್ಚಿಸು(_c)"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "ಪಠ್ಯವನ್ನು ದೊಡ್ಡದಾಗಿ, ಓದಲು ಸುಲಭವಾಗುವಂತೆ ಮಾಡು(_t)"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "ಕೀಲಿಗಳನ್ನು ಅಂಗೀಕರಿಸಲು ಅವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ(ನಿಧಾನ ಕೀಲಿಗಳು) (_h)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "ತೆರೆಯ ಮೇಲಣ ಕೀಲಿ ಮಣೆ(_k)"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "ತೆರೆಯ ಮ್ಯಾಗ್ನಿಫೈರ್‌ ಅನ್ನು ಬಳಸು(_m)"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "ತೆರೆ ಓದುಗನ್ನು ಬಳಸು(_r)"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "ನಕಲಿ ಕೀಲಿಒತ್ತುಗಳನ್ನು ಆಲಕ್ಷಿಸು(_I)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ಗಳನ್ನು ಒಂದು ಬಾರಿಗೆ ಒಂದರಂತೆ ಒತ್ತು(_P) (ಸ್ಟಿಕಿ ಕೀಲಿಗಳು)"
+
+#, fuzzy
+#~ msgid "Background"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "ಹಿನ್ನಲೆ\n"
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "ಹಿನ್ನಲೆ\n"
+#~ "#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+#~ "ಹಿನ್ನಲೆ ಚಿತ್ರ"
+
+#~ msgid "Background plugin"
+#~ msgstr "ಹಿನ್ನಲೆ ಪ್ಲಗ್ಇನ್"
+
+#~ msgid "Clipboard"
+#~ msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಪ್ಲಗ್ಇನ್"
+
+#~ msgid "Dummy"
+#~ msgstr "ಡಮ್ಮಿ"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "ಡಮ್ಮಿ ಪ್ಲಗ್ಇನ್"
+
+#~ msgid "Font"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿ"
+
+#~ msgid "Font plugin"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿ ಪ್ಲಗ್ಇನ್"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "ಈ ಸಂದೇಶವನ್ನು ಪುನಃ ತೋರಿಸಬೇಡ"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "ಪರಿಮಾಣ \"%s\" ದಲ್ಲಿ ಕೇವಲ %s ಡಿಸ್ಕ್ ಸ್ಥಳವು ಮಾತ್ರ ಬಾಕಿ ಇದೆ."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "ಈ ಗಣಕದಲ್ಲಿ ಕೇವಲ %s ಡಿಸ್ಕ್ ಸ್ಥಳವು ಮಾತ್ರ ಬಾಕಿ ಇದೆ."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "ಕಸದಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡುವ ಮೂಲಕ, ಬಳಕೆಗೆ ಬಾರದ ಪ್ರೊಗ್ರಾಮ್‌ಗಳನ್ನು ಅಥವ ಕಡತಗಳನ್ನು "
+#~ "ತೆಗೆಯುವ ಮೂಲಕ, ಅಥವ ಕಡತಗಳನ್ನು ಇನ್ನೊಂದು ಡಿಸ್ಕಿಗೆ ಅಥವ ವಿಭಾಗಕ್ಕೆ ಸ್ಥಳಾಂತರಿಸುವ ಮೂಲಕ "
+#~ "ಡಿಸ್ಕಿನಲ್ಲಿ ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸಬಹುದು."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "ಬಳಕೆಗೆ ಬಾರದ ಪ್ರೊಗ್ರಾಮ್‌ಗಳನ್ನು ಅಥವ ಕಡತಗಳನ್ನು ತೆಗೆಯುವ ಮೂಲಕ, ಅಥವ ಕಡತಗಳನ್ನು ಬೇರೊಂದು "
+#~ "ಡಿಸ್ಕಿಗೆ ಅಥವ ವಿಭಾಗಕ್ಕೆ ಸ್ಥಳಾಂತರಿಸುವ ಮೂಲಕ ಡಿಸ್ಕಿನಲ್ಲಿ ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸಬಹುದು."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "ಕಸದಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡುವ ಮೂಲಕ, ಬಳಕೆಗೆ ಬಾರದ ಪ್ರೊಗ್ರಾಮ್‌ಗಳನ್ನು ಅಥವ ಕಡತಗಳನ್ನು "
+#~ "ತೆಗೆಯುವ ಮೂಲಕ, ಅಥವ ಕಡತಗಳನ್ನು ಒಂದು ಹೊರಗಿನ ಡಿಸ್ಕಿಗೆ ಸ್ಥಳಾಂತರಿಸುವ ಮೂಲಕ ಡಿಸ್ಕಿನಲ್ಲಿ "
+#~ "ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸಬಹುದು."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "ಬಳಕೆಗೆ ಬಾರದ ಪ್ರೊಗ್ರಾಮ್‌ಗಳನ್ನು ಅಥವ ಕಡತಗಳನ್ನು ತೆಗೆಯುವ ಮೂಲಕ, ಅಥವ ಕಡತಗಳನ್ನು ಒಂದು "
+#~ "ಹೊರಗಿನ ಡಿಸ್ಕಿಗೆ ಸ್ಥಳಾಂತರಿಸುವ ಮೂಲಕ ಡಿಸ್ಕಿನಲ್ಲಿ ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸಬಹುದು."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "ಡಿಸ್ಕ್‌ ಜಾಗ ಕಡಿಮೆ ಇದೆ"
+
+#~ msgid "Empty Trash"
+#~ msgstr "ಕಸಬುಟ್ಟಿಯನ್ನು ಖಾಲಿಮಾಡು"
+
+#~ msgid "Ignore"
+#~ msgstr "ಅಲಕ್ಷಿಸು"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "%lu ಅಂಶವನ್ನು (%lu ಗಳಲ್ಲಿ) ತೆಗೆದು ಹಾಕಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "From: "
+#~ msgstr "ಇಂದ: "
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "ಕಸದಬುಟ್ಟಿಯಲ್ಲಿನ ಎಲ್ಲಾ ಅಂಶಗಳನ್ನು ಖಾಲಿಮಾಡಬೇಕೆ?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "ನೀವು ಕಸದಬುಟ್ಟಿಯ ಅಂಶಗಳನ್ನು ಖಾಲಿ ಮಾಡಲು ಆಯ್ಕೆ ಮಾಡಿದಲ್ಲಿ, ಅದರಲ್ಲಿ ಎಲ್ಲಾ ಅಂಶಗಳು "
+#~ "ಶಾಶ್ವತವಾಗಿ ನಾಶಗೊಳ್ಳುತ್ತವೆ. ಅವನ್ನು ನೀವು ಪ್ರತ್ಯೇಕವಾಗಿಯೂ ಸಹ ಅಳಿಸಲು ಸಾಧ್ಯ ಎನ್ನುವದನ್ನು "
+#~ "ದಯವಿಟ್ಟು ಗಮನಿಸಿ."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "ಕಸಬುಟ್ಟಿಯನ್ನು ಖಾಲಿಮಾಡು(_E)"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "ಕೀಲಿಬದ್ಧತೆಯು (%s) ಅಮಾನ್ಯವಾಗಿದೆ"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "ಕೀಲಿಬದ್ಧತೆ (%s) ಪೂರ್ಣವಾಗಿಲ್ಲ"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "(%s) ಅನ್ನು ಚಲಾಯಿಸುವಾಗ ದೋಷ\n"
+#~ "ಎದುರಾಗಿದೆ. ಅದು (%s) ಕೀಲಿಗೆ ಹೊಂದಿಕೊಂಡಿದೆ"
+
+#~ msgid "Keybindings"
+#~ msgstr "ಕೀಲಿಬದ್ಧತೆಗಳು"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "ಕೀಲಿಬದ್ಧತೆಗಳ ಪ್ಲಗ್ಇನ್"
+
+#, fuzzy
+#~ msgid "Keyboard"
+#~ msgstr ""
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "ಕೀಲಿ ಮಣೆ\n"
+#~ "#-#-#-#-#  kn.po (gnome-settings-daemon.master.kn)  #-#-#-#-#\n"
+#~ "ಕೀಲಿ ಮಣೆ\n"
+#~ "#-#-#-#-#  kn.po (gnome-control-center.master.kn)  #-#-#-#-#\n"
+#~ "ಕೀಲಿಮಣೆ"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "ಕೀಲಿ ಮಣೆ ಪ್ಲಗ್ಇನ್"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳು(_P)"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "ಲಭ್ಯವಿರುವ ಕಡತಗಳು(_v):"
+
+#~ msgid "Load modmap files"
+#~ msgstr "ಮೋಡ್‌ಮ್ಯಾಪ್ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡು"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "ಈ ಸಂದೇಶವನ್ನು ಪುನಃ ತೋರಿಸಬೇಡ(_D)"
+
+#~ msgid "_Load"
+#~ msgstr "ಲೋಡ್ ಮಾಡು(_L)"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "ಲೋಡ್ ಮಾಡಲಾದ ಕಡತಗಳು(_L):"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "ಪೂರ್ವನಿಯೋಜಿತಟರ್ಮಿನಲ್ ಪಡೆಯಲಾಗಿಲ್ಲ. ನಿಮ್ಮ ಪೂರ್ವನಿಯೋಜಿತ ಟರ್ಮಿನಲ್ ಆಜ್ಞೆಯನ್ನು "
+#~ "ಹೊಂದಿಸಲಾಗಿದೆ ಹಾಗು ಒಂದು ಮಾನ್ಯವಾದ ಅನ್ವಯಕ್ಕೆ ಸೂಚಿತಗೊಂಡಿದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "ಆಜ್ಞೆಯನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s\n"
+#~ "ಇದು ಒಂದು ಮಾನ್ಯವಾದ ಆಜ್ಞೆಯಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u ಔಟ್‌ಪುಟ್‌"
+#~ msgstr[1] "%u ಔಟ್‌ಪುಟ್‌ಗಳು"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u ಇನ್‌ಪುಟ್‌"
+#~ msgstr[1] "%u ಇನ್‌ಪುಟ್‌ಗಳು"
+
+#~ msgid "System Sounds"
+#~ msgstr "ಗಣಕದ ಧ್ವನಿಗಳು"
+
+#~ msgid "Media keys"
+#~ msgstr "ಮೀಡಿಯಾ ಕೀಲಿಗಳು"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "ಮೀಡಿಯಾ ಕೀಲಿಗಳು ಪ್ಲಗ್ಇನ್"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "ಮೌಸ್‌ ನಿಲುಕಣಾ ಸೌಕರ್ಯಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "Mouse"
+#~ msgstr "ಮೌಸ್"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "ಮೌಸ್ ಪ್ಲಗ್‌ಇನ್"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "ಟೈಪಿಂಗ್ ವಿರಾಮ ಪ್ಲಗ್ಇನ್"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "ತೆರೆಯ ಗಾತ್ರ ಹಾಗು ಸುತ್ತುವಿಕೆಯನ್ನು ಹೊಂದಿಸು"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "ಪ್ರದರ್ಶಕದ ಸಂರಚನೆಯನ್ನು ಮರಳಿ ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "ಪ್ರದರ್ಶಕದ ಸಂರಚನೆಯನ್ನು ಬ್ಯಾಕ್‌ಅಪ್‌ನಿಂದ ಮರಳಿ ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "%d ಸೆಕೆಂಡಿನಲ್ಲಿ ಪ್ರದರ್ಶಕವನ್ನು ಅದರ ಹಿಂದಿನ ಸಂರಚನೆಗೆ ಮರಳಿಸಲಾಗುವುದು"
+#~ msgstr[1] "%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಪ್ರದರ್ಶಕವನ್ನು ಅದರ ಹಿಂದಿನ ಸಂರಚನೆಗೆ ಮರಳಿಸಲಾಗುವುದು"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "ಪ್ರದರ್ಶಕವು ಸರಿಯಾಗಿ ಕಾಣಿಸುತ್ತಿದೆಯೆ?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "ಹಿಂದಿನ ಸಂರಚನೆಯನ್ನು ಮರಳಿ ಸ್ಥಾಪಿಸು(_R)"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "ಈ ಸಂರಚನೆಯನ್ನು ಇರಿಸಿಕೊ(_K)"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಪ್ರದರ್ಶಕದ ಸಂರಚನೆಯನ್ನು ಅನ್ವಯಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "ತೆರೆಯ ಮಾಹಿತಿಯನ್ನು ಪುನಶ್ಚೇತನಗೊಳಿಸಲಾಗಲಿಲ್ಲ: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "ಆದರೂ ಸಹ ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ."
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "Normal"
+#~ msgstr "ಸಾಮಾನ್ಯ"
+
+#~ msgid "Left"
+#~ msgstr "ಎಡ"
+
+#~ msgid "Right"
+#~ msgstr "ಬಲ"
+
+#~ msgid "Upside Down"
+#~ msgstr "ತಲೆ ಕೆಳಗೆ"
+
+#~ msgid "Configure display settings"
+#~ msgstr "ಪ್ರದರ್ಶನ ಸಿದ್ಧತೆಗಳನ್ನು ಸಂರಚಿಸು"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "ತೆರೆಗಳಿಗಾಗಿ ಶೇಖರಿಸಲಾದ ಸಂರಚನೆಯನ್ನು ಅನ್ವಯಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "ಬಳಕೆದಾರರ ನೆಲೆ ಕಡತಕೋಶವನ್ನು ಕಂಡಹಿಡಿಯಲಾಗುತ್ತದೆ"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "X ಸಂಪನ್ಮೂಲ ದತ್ತಸಂಚಯವನ್ನು ನಿರ್ವಹಿಸು"
+
+#~ msgid "X Resource Database"
+#~ msgstr "X ಸಂಪನ್ಮೂಲ ದತ್ತಸಂಚಯ"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "GConf ಕೀಲಿ %s ಅನ್ನು %s ಗೆ ಹೊಂದಿಸಲಾಗಿತ್ತು ಆದರೆ ಅದರ ನಿರೀಕ್ಷಿತ ಮೌಲ್ಯವು %s ಆಗಿದೆ\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "X ಸಿದ್ಧತೆಗಳನ್ನು ವ್ಯವಸ್ಥಾಪಿಸು"
+
+#~ msgid "X Settings"
+#~ msgstr "X ಸಿದ್ಧತೆಗಳು"
+
+#~ msgid "Unknown"
+#~ msgstr "ಗೊತ್ತಿರದ"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "\"%s\" ಕೀಲಿಮಣೆ ಲೇಔಟ್"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "ಕೀಲಿಮಣೆ ಲೇಔಟ್"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown"
+#~ msgstr ""
+#~ "ಕಡಿಮೆ ಡಿಸ್ಕ್ ಸ್ಥಳವಿದೆ ಎಂದು ಎಚ್ಚರಿಸಲು ಅಗತ್ಯವಿರುವ ಮುಕ್ತ ಸ್ಥಳದ ಪ್ರತಿಶತದ ಮಿತಿ. ಮುಕ್ತ "
+#~ "ಸ್ಥಳದ ಪ್ರತಿಶತವು ಇದಕ್ಕಿಂತ ಕಡಿಮೆಯಾದಲ್ಲಿ, ಒಂದು ಎಚ್ಚರಿಕೆಯನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ"
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown"
+#~ msgstr ""
+#~ "ಪ್ರಮಾಣವನ್ನು GB ಯಲ್ಲಿ ಸೂಚಿಸಿ. ಮುಕ್ತ ಸ್ಥಳದ ಪ್ರಮಾಣವು ಇದಕ್ಕಿಂತ ಹೆಚ್ಚಿದ್ದಲ್ಲಿ, ಯಾವುದೆ "
+#~ "ಎಚ್ಚರಿಕೆಗಳು ಕಾಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ"
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning"
+#~ msgstr ""
+#~ "ತರುವಾಯದ ಎಚ್ಚರಿಕೆಯನ್ನು ನೀಡುವ ಮೊದಲು ಡಿಸ್ಕಿನ ಮುಕ್ತ ಸ್ಥಳವು ಯಾವ ಪ್ರತಿಶತಕ್ಕೆ ಕಡಿಮೆ ಆಗ "
+#~ "ಬೇಕು ಎಂದು ಸೂಚಿಸಿ"
+
+#~ msgid "Binding to eject an optical disk."
+#~ msgstr "ಒಂದು ಆಪ್ಟಿಕಲ್ ಡಿಸ್ಕನ್ನು ಹೊರತಳ್ಳಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid ""
+#~ "If a notification icon with display related things should be shown in the "
+#~ "panel."
+#~ msgstr ""
+#~ "ಪ್ರದರ್ಶನಕ್ಕೆ ಸಂಬಂಧಿತವಾದ ವಿಷಯಗಳನ್ನು ಒಳಗೊಂಡ ಒಂದು ಸೂಚನಾ ಚಿಹ್ನೆಯನ್ನು ಫಲಕದಲ್ಲಿ "
+#~ "ತೋರಿಸಬೇಕೆ."
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~ "- edge scrolling, 2 - two-finger scrolling"
+#~ msgstr ""
+#~ "ಟಚ್‌ಪ್ಯಾಡ್ ಚಲನೆಯ ವಿಧಾನವನ್ನು ಆರಿಸಿ. ಬೆಂಬಲವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ: 0 - ಅಶಕ್ತಗೊಂಡ, 1 - "
+#~ "ಅಂಚಿನಲ್ಲಿ ಚಲನೆ, 2 - ಎರಡು ಬೆರಳಿನ ಚಲನೆ"
+
+#~ msgid "Enable xrandr plugin"
+#~ msgstr "xrandr ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgstr ""
+#~ "xrandr ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "ತೆರೆಯ ಓದುಗವು ಚಾಲಿತವಾಗಿದೆಯೆ."
+
+#~ msgid "Exit after a time - for debugging"
+#~ msgstr "ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ನಿರ್ಗಮಿಸು - ದೋಷನಿವಾರಣೆಗಾಗಿ"
+
+#~ msgid "Don't activate"
+#~ msgstr "ಸಕ್ರಿಯಗೊಳಿಸಬೇಡ"
+
+#~ msgid "Don't show any warnings again for this filesystem"
+#~ msgstr "ಈ ಕಡತ ವ್ಯವಸ್ಥೆಗಾಗಿ ಈ ಸಂದೇಶವನ್ನು ಪುನಃ ತೋರಿಸಬೇಡ"
+
+#~ msgid "Examine..."
+#~ msgstr "ಪರಿಶೀಲಿಸು..."
+
+#~ msgid "<i>Removing: %s</i>"
+#~ msgstr "<i>ತೆಗೆದು ಹಾಕಲಾಗುತ್ತಿದೆ: %s</i>"
+
+#~ msgid "Preparing to empty trash..."
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡಲು ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "ಮೋಡ್‌ಮ್ಯಾಪ್ ಕಡತವನ್ನು(ಗಳನ್ನು) ಲೋಡ್ ಮಾಡಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid ""
+#~ "Mouse accessibility requires mousetweaks to be installed on your system."
+#~ msgstr "ಮೌಸ್‌ ನಿಲುಕಣೆಗಾಗಿ ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಮೌಸ್‌ಟ್ವೀಕ್‌ಗಳು ಅನುಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "ಮೌಸ್ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Typing Break"
+#~ msgstr "ಟೈಪಿಂಗ್ ವಿರಾಮ"
+
+#~ msgid "<i>Rotation not supported</i>"
+#~ msgstr "<i>ಸುತ್ತುವಿಕೆ ಬೆಂಬಲವಿಲ್ಲಾ</i>"
+
+#~ msgid "_Configure Display Settings ..."
+#~ msgstr "ಪ್ರದರ್ಶನ ಸಿದ್ಧತೆಗಳನ್ನು ಸಂರಚಿಸುತ್ತದೆ(_C) ..."
+
+#~ msgid "Current network location"
+#~ msgstr "ಪ್ರಸಕ್ತ ಜಾಲಬಂಧ ಸ್ಥಳ"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "ಹೆಚ್ಚಿನ ಹಿನ್ನಲೆ ಚಿತ್ರಗಳ URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "ಹೆಚ್ಚಿನ ಪರಿಸರ ವಿನ್ಯಾಸಗಳ URL"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "ಇದನ್ನು ನಿಮ್ಮ ಪ್ರಸಕ್ತ ಸ್ಥಳದ ಹೆಸರಿಗೆ ಹೊಂದಿಸಿ. ಇದನ್ನು ಸೂಕ್ತವಾದ ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿ "
+#~ "ಸಂರಚನೆಯನ್ನು ನಿರ್ಧರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "ಎಲ್ಲಿಂದ ಹೆಚ್ಚಿನ ಗಣಕತೆರೆ ಹಿನ್ನಲೆ ಚಿತ್ರಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಬೇಕೊ ಅಲ್ಲಿಯ URL. ಖಾಲಿಯಾಗಿ "
+#~ "ಇರಿಸಿದಲ್ಲಿ ಕೊಂಡಿಯು ಕಾಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "ಎಲ್ಲಿಂದ ಹೆಚ್ಚಿನ ಗಣಕತೆರೆ ಪರಿಸರವಿನ್ಯಾಸಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಬೇಕೊ ಅಲ್ಲಿಯ URL. ಖಾಲಿಯಾಗಿ "
+#~ "ಇರಿಸಿದಲ್ಲಿ ಕೊಂಡಿಯು ಕಾಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ."
+
+#~ msgid "Image/label border"
+#~ msgstr "ಚಿತ್ರ/ಲೇಬಲ್ ಅಂಚು"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "ಎಚ್ಚರಿಕಾ ಸಂವಾದದಲ್ಲಿನ ಲೇಬಲ್‌ನ ಹಾಗು ಚಿತ್ರದ ಸುತ್ತಮುತ್ತಲಿನ ಅಂಚಿನ ಅಗಲ"
+
+#~ msgid "Alert Type"
+#~ msgstr "ಎಚ್ಚರಿಕೆ ಬಗೆ"
+
+#~ msgid "The type of alert"
+#~ msgstr "ಎಚ್ಚರಿಕೆಯ ಬಗೆ"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "ಎಚ್ಚರಿಕೆ ಗುಂಡಿಗಳು"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "ಎಚ್ಚರಿಕೆ ಸಂವಾದದಲ್ಲಿ ತೋರಿಸಲಾದ ಗುಂಡಿಗಳು"
+
+#~ msgid "Show more _details"
+#~ msgstr "ಇನ್ನಷ್ಟು ವಿವರಗಳನ್ನು ತೋರಿಸು (_d)"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಹೆಬ್ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಹೆಬ್ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ತೋರುಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ತೋರು ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಮಧ್ಯದ ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಮಧ್ಯದ ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಉಂಗುರ ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಉಂಗುರದ ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಕಿರು ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಕಿರು ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ಹೆಬ್ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ಹೆಬ್ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ತೋರು ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ತೋರು ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ಮಧ್ಯದ ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಎಡ ಮಧ್ಯದ ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ಉಂಗುರದ ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ಉಂಗುರದ ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ಕಿರು ಬೆರಳನ್ನು %s ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "ನಿಮ್ಮ ಬಲ ಕಿರು ಬೆರಳನ್ನು %s ನ ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "ನಿಮ್ಮ ಬೆರಳನ್ನು ಓದುಗನ ಮೇಲೆ ಇನ್ನೊಮ್ಮೆ ಇರಿಸಿ"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "ನಿಮ್ಮ ಬೆರಳನ್ನು ಇನ್ನೊಮ್ಮೆ ಸ್ವೈಪ್‌ ಮಾಡಿ"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "ಸ್ವೈಪ್ ಮಾಡಿದ ಕಾಲಾವಧಿ ಬಹಳ ಸಣ್ಣದಾಗಿದೆ, ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "ನಿಮ್ಮ ಬೆರಳು ಮಧ್ಯದಲ್ಲಿ ಇಲ್ಲ, ನಿಮ್ಮ ಬೆರಳನ್ನು ಇನ್ನೊಮ್ಮೆ ಸ್ವೈಪ್‌ ಮಾಡಿ ಪ್ರಯತ್ನಿಸಿ"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "ನಿಮ್ಮ ಬೆರಳನ್ನು ತೆಗೆಯಿರಿ, ಹಾಗು ಬೆರಳನ್ನು ಇನ್ನೊಮ್ಮೆ ಸ್ವೈಪ್‌ ಮಾಡಿ ಪ್ರಯತ್ನಿಸಿ"
+
+#~ msgid "Select Image"
+#~ msgstr "ಚಿತ್ರವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "No Image"
+#~ msgstr "ಯಾವುದೆ ಚಿತ್ರವಿಲ್ಲ"
+
+#~ msgid "Images"
+#~ msgstr "ಚಿತ್ರಗಳು"
+
+#~ msgid "All Files"
+#~ msgstr "ಎಲ್ಲಾ ಕಡತಗಳು"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "ವಿಳಾಸ ಪುಸ್ತಕ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲು ಪ್ರಯತ್ನಿಸುವಾಗ ಒಂದು ದೋಷವು ಎದುರಾಗಿದೆ\n"
+#~ "ಎವಲ್ಯೂಶನ್ ದತ್ತಾಂಶ ಪರಿಚಾರಕವು ಈ ಪ್ರೋಟೊಕಾಲನ್ನು ನಿಭಾಯಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "ವಿಳಾಸ ಪುಸ್ತಕವನ್ನು ತೆರೆಯಲಾಗಲಿಲ್ಲ"
+
+#~ msgid "About %s"
+#~ msgstr "%s ನ ಬಗ್ಗೆ"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "ವಿಳಾಸ(_d):"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "ಸಹಾಯಕ(_s):"
+
+#~ msgid "About Me"
+#~ msgstr "ನನ್ನ ಬಗ್ಗೆ"
+
+#~ msgid "Address"
+#~ msgstr "ವಿಳಾಸ"
+
+#~ msgid "C_ity:"
+#~ msgstr "ಊರು(_i):"
+
+#~ msgid "C_ompany:"
+#~ msgstr "ಕಂಪನಿ(_o):"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "ಕ್ಯಾಲೆಂಡರ್(_n):"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು(_r)..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "ಊರು(_t):"
+
+#~ msgid "Co_untry:"
+#~ msgstr "ದೇಶ(_u):"
+
+#~ msgid "Contact"
+#~ msgstr "ಸಂಪರ್ಕ ವಿಳಾಸ"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "ದೇಶ(_n):"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "ಬೆರಳಗುರುತಿನ ಪ್ರವೇಶವನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_F)..."
+
+#~ msgid "Email"
+#~ msgstr "ಇಮೇಲ್"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "ಬೆರಳಗುರುತಿನ ಪ್ರವೇಶವನ್ನು ಶಕ್ತಗೊಳಿಸು(_F)..."
+
+#~ msgid "Full Name"
+#~ msgstr "ಸಂಪೂರ್ಣ ಹೆಸರು"
+
+#~ msgid "Hom_e:"
+#~ msgstr "ಮನೆ(_e):"
+
+#~ msgid "Home"
+#~ msgstr "ನೆಲೆ"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "ಇನ್‌ಸ್ಟಂಟ್ ಮೆಸೇಜಿಂಗ್"
+
+#~ msgid "Job"
+#~ msgstr "ಕಾರ್ಯ"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "P.O. ಪೆಟ್ಟಿಗೆ(_b):"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P._O. ಪೆಟ್ಟಿಗೆ:"
+
+#~ msgid "Personal Info"
+#~ msgstr "ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ"
+
+#~ msgid "Select your photo"
+#~ msgstr "ನಿಮ್ಮ ಭಾವಚಿತ್ರವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "ರಾಜ್ಯ/ಪ್ರದೇಶ(_v):"
+
+#~ msgid "Telephone"
+#~ msgstr "ದೂರವಾಣಿ"
+
+#~ msgid "User name:"
+#~ msgstr "ಬಳಕೆದಾರ ಹೆಸರು:"
+
+#~ msgid "Web"
+#~ msgstr "ಜಾಲ"
+
+#~ msgid "Web _log:"
+#~ msgstr "ಜಾಲ ದಾಖಲೆ(_l):"
+
+#~ msgid "Wor_k:"
+#~ msgstr "ಕೆಲಸ(_k):"
+
+#~ msgid "Work"
+#~ msgstr "ಕೆಲಸ"
+
+#~ msgid "Work _fax:"
+#~ msgstr "ಕೆಲಸದಲ್ಲಿನ ಫ್ಯಾಕ್ಸ್‍(_f):"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "ಝಿಪ್/ಅಂಚೆ ಕೋಡ್(_P):"
+
+#~ msgid "_Address:"
+#~ msgstr "ವಿಳಾಸ(_A):"
+
+#~ msgid "_Department:"
+#~ msgstr "ವಿಭಾಗ(_D):"
+
+#, fuzzy
+#~ msgid "_GroupWise:"
+#~ msgstr "ಗುಂಪಿನ ಕ್ರಮ(_G):"
+
+#~ msgid "_Home page:"
+#~ msgstr "ನೆಲೆ ಪುಟ(_H):"
+
+#~ msgid "_Home:"
+#~ msgstr "ಮನೆ(_H):"
+
+#~ msgid "_Manager:"
+#~ msgstr "ವ್ಯವಸ್ಥಾಪಕ(_M):"
+
+#~ msgid "_Mobile:"
+#~ msgstr "ಮೊಬೈಲ್(_M):"
+
+#~ msgid "_Profession:"
+#~ msgstr "ಉದ್ಯೋಗ(_P):"
+
+#~ msgid "_State/Province:"
+#~ msgstr "ರಾಜ್ಯ/ಪ್ರದೇಶ(_S):"
+
+#~ msgid "_Title:"
+#~ msgstr "ಶೀರ್ಷಿಕೆ(_T):"
+
+#~ msgid "_Work:"
+#~ msgstr "ಕೆಲಸ(_W):"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "ಯಾಹೂ(_Y):"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_ZIP/ಅಂಚೆ ಕೋಡ್:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "ನಿಮ್ಮ ವಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿಸಿ"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "ನೀವು ಈ ಸಾಧನವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವಂತಿಲ್ಲ. ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಸಂಪರ್ಕಿಸಿ."
+
+#~ msgid "The device is already in use."
+#~ msgstr "ಸಾಧನವು ಈಗಾಗಲೆ ಬಳಕೆಯಲ್ಲಿದೆ."
+
+#~ msgid "An internal error occured"
+#~ msgstr "ಒಂದು ಆಂತರಿಕ ದೋಷವು ಎದುರಾಗಿದೆ"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "ನೋಂದಾಯಿಸಲಾದ ಬೆರಳಗುರುತುಗಳನ್ನು ಅಳಿಸಬೇಕೆ?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "ಬೆರಳಗುರುತುಗಳನ್ನು ಅಳಿಸು(_D)"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "ನೀವು ನೋಂದಾಯಿಸಲಾದ ಬೆರಳಗುರುತುಗಳನ್ನು ಅಳಿಸಿ ಆ ಮೂಲಕ ಬೆರಳಗುರುತಿನ ಪ್ರವೇಶವನ್ನು "
+#~ "ಅಶಕ್ತಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid "Done!"
+#~ msgstr "ಆಯಿತು!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "'%s' ಸಾಧನವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "'%s' ಸಾಧನದಲ್ಲಿ ಬೆರಳಿನ ಗುರುತನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಆರಂಭಿಸು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "ಯಾವುದೆ ಬೆರಳಗುರುತು ಓದುಗನನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "ನೆರವಿಗಾಗಿ ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಕೇಳಿ."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "ಬೆರಳಗುರುತು ಪ್ರವೇಶವನ್ನು ಶಕ್ತಗೊಳಿಸಿ"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "ಬೆರಳಗುರುತಿನ ಪ್ರವೇಶವನ್ನು ಶಕ್ತಗೊಳಿಸಲು, '%s' ಸಾಧನವನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ನಿಮ್ಮ "
+#~ "ಬೆರಳಗುರುತುಗಳನ್ನು ಉಳಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "ಬೆರಳನ್ನು ಓದುಗನ ಮೇಲೆ ಇನ್ನೊಮ್ಮೆ ಸ್ವೈಪ್ ಮಾಡಿ"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "ಬೆರಳನ್ನು ಓದುಗನ ಮೇಲೆ ಇರಿಸಿ"
+
+#~ msgid "Left index finger"
+#~ msgstr "ಎಡ ತೋರು ಬೆರಳು"
+
+#~ msgid "Left little finger"
+#~ msgstr "ಎಡ ಕಿರು ಬೆರಳು"
+
+#~ msgid "Left middle finger"
+#~ msgstr "ಎಡ ಮಧ್ಯ ಬೆರಳು"
+
+#~ msgid "Left ring finger"
+#~ msgstr "ಎಡ ಉಂಗುರದ ಬೆರಳು"
+
+#~ msgid "Left thumb"
+#~ msgstr "ಎಡ ಹೆಬ್ಬೆರಳು"
+
+#~ msgid "Other finger: "
+#~ msgstr "ಇತರೆ ಬೆರಳು: "
+
+#~ msgid "Right index finger"
+#~ msgstr "ಬಲ ತೋರು ಬೆರಳು"
+
+#~ msgid "Right little finger"
+#~ msgstr "ಬಲ ಕಿರು ಬೆರಳು"
+
+#~ msgid "Right middle finger"
+#~ msgstr "ಬಲ ಮಧ್ಯ ಬೆರಳು"
+
+#~ msgid "Right ring finger"
+#~ msgstr "ಬಲ ಉಂಗುರದ ಬೆರಳು"
+
+#~ msgid "Right thumb"
+#~ msgstr "ಬಲ ಹೆಬ್ಬೆರಳು"
+
+#~ msgid "Select finger"
+#~ msgstr "ಬೆರಳನ್ನು ಆರಿಸಿ"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಬೆರಳಗುರುತನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ. ಈಗ ನೀವು ನಿಮ್ಮ ಬೆರಳಗುರುತಿನ ಓದುಗನನ್ನು "
+#~ "ಬಳಸಿಕೊಂಡು ಪ್ರವೇಶಿಸಬಹುದಾಗಿದೆ."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "ಚೈಲ್ಡ್‍ ಅನಿರೀಕ್ಷಿತವಾಗಿ ನಿರ್ಗಮಿಸಿದೆ"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "backend_stdin IO ಮಾರ್ಗವನ್ನು ಮುಚ್ಚಲಾಗಿಲ್ಲ: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "backend_stdout IO ಮಾರ್ಗವನ್ನು ಮುಚ್ಚಲಾಗಿಲ್ಲ: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "ದೃಢೀಕರಿಸಲಾಗಿದೆ!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ನೀವು ಆರಂಭದಲ್ಲಿ ದೃಢೀಕರಿಸಿದ ನಂತರ ಬದಲಾಯಿಸಲ್ಪಟ್ಟಿದೆ! ದಯವಿಟ್ಟು "
+#~ "ಪುನಃ ದೃಢೀಕರಿಸಿ."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "ಆ ಗುಪ್ತಪದವು ಸರಿಯಲ್ಲ."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "ನಿಮ್ಮ ಗುಪ್ತಪದವು ಬದಲಾಯಿಸಲ್ಪಟ್ಟಿದೆ."
+
+#~ msgid "System error: %s."
+#~ msgstr "ಗಣಕ ದೋಷ: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "ಗುಪ್ತಪದವು ಬಹಳ ಚಿಕ್ಕದಾಗಿದೆ."
+
+#~ msgid "The password is too simple."
+#~ msgstr "ಗುಪ್ತಪದವು ಬಹಳ ಸರಳವಾಗಿದೆ."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "ಹೊಸ ಹಾಗು ಹಳೆಯ ಗುಪ್ತಪದಗಳು ಒಂದನ್ನೊಂದು ಬಹಳ ಹೋಲುತ್ತವೆ."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಒಂದು ಅಂಕೆ ಅಥವ ವಿಶೇಷ ಅಕ್ಷರವನ್ನು(ಗಳನ್ನು) ಹೊಂದಿರಲೇಬೇಕು."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "ಹೊಸ ಹಾಗು ಹಳೆಯ ಗುಪ್ತಪದಗಳು ಒಂದೇ ಆಗಿವೆ."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "%s ಅನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "ಬ್ಯಾಕೆಂಡನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "ಒಂದು ಗಣಕ ದೋಷವು ಎದುರಾಗಿದೆ"
+
+#~ msgid "Checking password..."
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಲು <b>ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು</b> ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹೊಸ ಗುಪ್ತಪದವನ್ನು <b>ಹೊಸ ಗುಪ್ತಪದ</b> ಕ್ಷೇತ್ರದಲ್ಲಿ ದಾಖಲಿಸಿ."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "<b> ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಪುನಃ ನಮೂದಿಸು</b> ಕ್ಷೇತ್ರದಲ್ಲಿ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು "
+#~ "ಪುನಃ ನಮೂದಿಸಿ."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "ಎರಡೂ ಗುಪ್ತಪದಗಳು ಒಂದೇ ಸಮವಾಗಿಲ್ಲ."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು(_s)"
+
+#~ msgid "Change password"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು"
+
+#~ msgid "Change your password"
+#~ msgstr "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಿ"
+
+#~ msgid "Current _password:"
+#~ msgstr "ಈಗಿನ ಗುಪ್ತಪದ(_p):"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಲು, ನಿಮ್ಮ ಈಗಿನ ಗುಪ್ತಪದವನ್ನು ಈ ಕೆಳಗಿನ ಕ್ಷೇತ್ರದಲ್ಲಿ "
+#~ "ನಮೂದಿಸಿ ಹಾಗು <b>ದೃಢೀಕರಿಸು</b> ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. \n"
+#~ "ನೀವು ದೃಢೀಕರಿಸಿದ ನಂತರ, ನಿಮ್ಮ ಹೊಸ ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ, ಅದರ ಪರಿಶೀಲನೆಗೆ ಪುನಃ "
+#~ "ಟೈಪಿಸಿ ಹಾಗು<b>ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು</b> ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#~ msgid "_Authenticate"
+#~ msgstr "ದೃಢೀಕರಿಸು(_A)"
+
+#~ msgid "_New password:"
+#~ msgstr "ಹೊಸ ಗುಪ್ತಪದ(_N):"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಪುನಃ ನಮೂದಿಸಿ(_R):"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "ನಿಲುಕಿಸಿಕೊಳ್ಳಬಹುದಾದಂತಹ ಪ್ರವೇಶ(_g)"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನಗಳು"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನದ ಆದ್ಯತೆಗಳು"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "ನೀವು ಮುಂದಿನ ಬಾರಿ ಪ್ರವೇಶಿಸುವವರೆಗೂ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನಗಳಿಗೆ ಮಾಡಲಾದ ಬದಲಾವಣೆಗಳು "
+#~ "ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರುವುದಿಲ್ಲ."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "ಮುಚ್ಚು ಹಾಗು ನಿರ್ಗಮಿಸು(_L)"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "ಇಚ್ಛೆಯ ಅನ್ವಯಗಳ ಸಂವಾದಕ್ಕೆ ತೆರಳು"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "ನಿಲುಕಣಾ ಪ್ರವೇಶ ಸಂವಾದಕ್ಕೆ ತೆರಳು"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆ ಸಂವಾದಕ್ಕೆ ತೆರಳು"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆ ಸಂವಾದಕ್ಕೆ ತೆರಳು"
+
+#~ msgid "Preferences"
+#~ msgstr "ಆದ್ಯತೆಗಳು"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನವನ್ನು ಶಕ್ತಗೊಳಿಸು(_E)"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆ(_K)"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "ಮೌಸ್‌ನ ನಿಲುಕಣೆ(_M)"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "ಅಪೇಕ್ಷಿತ ಅನ್ವಯಗಳು(_P)"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "ನೀವು ಪ್ರವೇಶಿಸಿದಾಗ ಯಾವ ನಿಲುಕಣಾ ಸವಲತ್ತುಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಬೇಕು ಎಂದು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "ವಾಲ್‍ಪೇಪರನ್ನು ಸೇರಿಸು"
+
+#~ msgid "All files"
+#~ msgstr "ಎಲ್ಲಾ ಕಡತಗಳು"
+
+#~ msgid "Font may be too large"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯು ಬಹಳ ದೊಡ್ಡದಾಗಿದೆ"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "ಆರಿಸಲಾದ ಅಕ್ಷರಶೈಲಿಯು %d ಪಾಯಿಂಟಿನಷ್ಟು ದೊಡ್ಡದಾಗಿದೆ, ಹಾಗು ಇದು ಗಣಕವನ್ನು "
+#~ "ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಬಳಸಲು ಕಷ್ಟವಾಗಿಸುತ್ತದೆ.  ಆದ್ದರಿಂದ %d ಗಿಂತ ಚಿಕ್ಕ ಗಾತ್ರದ "
+#~ "ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸಲು ಸಲಹೆ ಮಾಡಲಾಗುತ್ತದೆ."
+#~ msgstr[1] ""
+#~ "ಆರಿಸಲಾದ ಅಕ್ಷರಶೈಲಿಯು %d ಪಾಯಿಂಟ್‍ಗಳಷ್ಟು ದೊಡ್ಡದಾಗಿದೆ, ಹಾಗು ಇದು ಗಣಕವನ್ನು "
+#~ "ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಬಳಸಲು ಕಷ್ಟವಾಗಿಸುತ್ತದೆ.  ಆದ್ದರಿಂದ %d ಗಿಂತ ಚಿಕ್ಕ ಗಾತ್ರದ "
+#~ "ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸಲು ಸಲಹೆ ಮಾಡಲಾಗುತ್ತದೆ."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "ಆರಿಸಲಾದ ಅಕ್ಷರಶೈಲಿಯು %d ಪಾಯಿಂಟಿನಷ್ಟು ದೊಡ್ಡದಾಗಿದೆ, ಹಾಗು ಇದು ಗಣಕವನ್ನು "
+#~ "ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಬಳಸಲು ಕಷ್ಟವಾಗಿಸುತ್ತದೆ.  ಆದ್ದರಿಂದ ಚಿಕ್ಕ ಗಾತ್ರದ ಅಕ್ಷರಶೈಲಿಯನ್ನು "
+#~ "ಬಳಸಲು ಸಲಹೆ ಮಾಡಲಾಗುತ್ತದೆ."
+#~ msgstr[1] ""
+#~ "ಆರಿಸಲಾದ ಅಕ್ಷರಶೈಲಿಯು %d ಪಾಯಿಂಟ್‍ಗಳಷ್ಟು ದೊಡ್ಡದಾಗಿದೆ, ಹಾಗು ಇದು ಗಣಕವನ್ನು "
+#~ "ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಬಳಸಲು ಕಷ್ಟವಾಗಿಸುತ್ತದೆ.  ಆದ್ದರಿಂದ ಚಿಕ್ಕ ಗಾತ್ರದ ಅಕ್ಷರಶೈಲಿಯನ್ನು "
+#~ "ಬಳಸಲು ಸಲಹೆ ಮಾಡಲಾಗುತ್ತದೆ."
+
+#~ msgid "Use previous font"
+#~ msgstr "ಹಿಂದಿನ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು"
+
+#~ msgid "Use selected font"
+#~ msgstr "ಆರಿಸಲಾದ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "ಬಳಕೆದಾರ ಸಂಪರ್ಕಸಾಧನವನ್ನು ಕಡತವನ್ನು ಲೋಡ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "ಅನುಸ್ಥಾಪಿಸಲು ಒಂದು ಪರಿಸರವಿನ್ಯಾಸ ಇರುವ ಕಡತವನ್ನು ಸೂಚಿಸಿ"
+
+#~ msgid "filename"
+#~ msgstr "ಕಡತದಹೆಸರು"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr "ತೋರಿಸಲು ಪುಟದ ಹೆಸರನ್ನು ಸೂಚಿಸಿ"
+
+#~ msgid "page"
+#~ msgstr "ಪುಟ"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[WALLPAPER...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಸೂಚಕ"
+
+#~ msgid "Install"
+#~ msgstr "ಅನುಸ್ಥಾಪಿಸು"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "ಈ ಪರಿಸರವಿನ್ಯಾಸವು ಅಂದುಕೊಂಡಂತೆ ಕಾಣಿಸುವುದಿಲ್ಲ ಏಕೆಂದರೆ ಅಗತ್ಯವಿರುವ GTK+ "
+#~ "ಪರಿಸರವಿನ್ಯಾಸ ಎಂಜಿನ್ '%s' ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
+
+#~ msgid "Apply Background"
+#~ msgstr "ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಅನ್ವಯಿಸು"
+
+#~ msgid "Apply Font"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯನ್ನು ಅನ್ವಯಿಸು"
+
+#~ msgid "Revert Font"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯನ್ನು ಪೂರ್ವಸ್ಥಿತಿಗೆ ಮರಳಿಸು"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "ಪ್ರಸಕ್ತ ಪರಿಸರ ವಿನ್ಯಾಸವು ಒಂದು ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಹಾಗು ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಸಲಹೆ "
+#~ "ಮಾಡುತ್ತದೆ. ಹಾಗು ಹಿಂದೆ ಅನ್ವಯಿಸಲಾದ ಅಕ್ಷರಶೈಲಿ ಸಲಹೆಯ ಪೂರ್ವ ಸ್ಥಿತಿಗೆ ಮರಳಿಸಿಬಹುದು."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "ಪ್ರಸಕ್ತ ಪರಿಸರ ವಿನ್ಯಾಸವು ಒಂದು ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಸಲಹೆ ಮಾಡುತ್ತದೆ. ಹಾಗು ಹಿಂದೆ "
+#~ "ಅನ್ವಯಿಸಲಾದ ಅಕ್ಷರಶೈಲಿ ಸಲಹೆಯ ಪೂರ್ವ ಸ್ಥಿತಿಗೆ ಮರಳಿಸಿಬಹುದು."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "ಈಗಿನ ಪರಿಸರವಿನ್ಯಾಸ‍ ಒಂದು ಹಿನ್ನಲೆ ಚಿತ್ರ ಹಾಗು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "ಪ್ರಸಕ್ತ ಪರಿಸರ ವಿನ್ಯಾಸವು ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಸಲಹೆ ಮಾಡುತ್ತದೆ. ಹಾಗು ಹಿಂದೆ "
+#~ "ಅನ್ವಯಿಸಲಾದ ಅಕ್ಷರಶೈಲಿ ಸಲಹೆಯ ಪೂರ್ವ ಸ್ಥಿತಿಗೆ ಮರಳಿಸಿಬಹುದು."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "ಈಗಿನ ಪರಿಸರವಿನ್ಯಾಸ‍ ಒಂದು ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "ಹಿಂದೆ ಅನ್ವಯಿಸಲಾದ ಅಕ್ಷರಶೈಲಿ ಸಲಹೆಯ ಪೂರ್ವ ಸ್ಥಿತಿಗೆ ಮರಳಿಸಿಬಹುದು."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "ಈಗಿನ ಪರಿಸರವಿನ್ಯಾಸ‍ ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+
+#~ msgid "Custom"
+#~ msgstr "ಇಚ್ಛೆಯ"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "ಗೋಚರಿಕೆಯ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Best _shapes"
+#~ msgstr "ಉತ್ತಮ ಆಕಾರಗಳು(_s)"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "ಉತ್ತಮ ವೈದೃಶ್ಯ(_n)"
+
+#~ msgid "C_olors:"
+#~ msgstr "ಬಣ್ಣಗಳು(_o):"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "ಇಚ್ಛೆಯಂತೆ ಬದಲಾಯಿಸಿ(_u)..."
+
+#~ msgid "Center"
+#~ msgstr "ಮಧ್ಯಕ್ಕೆ ಹೊಂದಿಸಿದ"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ತೆರೆಸೂಚಕದ ಪರಿಸರವಿನ್ಯಾಸ‍ದ ಬದಲಾವಣೆಯು ನೀವು ಮುಂದಿನ ಬಾರಿ ಪ್ರವೇಶಿಸಿದಾಗ "
+#~ "ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರುತ್ತದೆ."
+
+#~ msgid "Colors"
+#~ msgstr "ಬಣ್ಣಗಳು"
+
+#~ msgid "Controls"
+#~ msgstr "ನಿಯಂತ್ರಣಗಳು"
+
+#~ msgid "Customize Theme"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಇಚ್ಛೆಗೆ ತಕ್ಕಂತೆ ಬದಲಾಯಿಸಿ"
+
+#~ msgid "D_etails..."
+#~ msgstr "ವಿವರಗಳು(_e)..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "ಗಣಕತೆರೆಯ ಅಕ್ಷರಶೈಲಿ(_k):"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯ ರೆಂಡರಿಂಗ್ ವಿವರಗಳು"
+
+#~ msgid "Fonts"
+#~ msgstr "ಅಕ್ಷರ ಶೈಲಿಗಳು"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "ಇನ್ನಷ್ಟು ಹಿನ್ನಲೆ ಚಿತ್ರಗಳನ್ನು ಆನ್‌ಲೈನಿನಲ್ಲಿ ಪಡೆದುಕೊಳ್ಳಿ"
+
+#~ msgid "Get more themes online"
+#~ msgstr "ಇನ್ನಷ್ಟು ಪರಿಸರವಿನ್ಯಾಸಗಳನ್ನು ಆನ್‌ಲೈನಿನಲ್ಲಿ ಪಡೆದುಕೊಳ್ಳಿ"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "ಗ್ರೇಸ್ಕೇಲ್(_y)"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "ಅಡ್ಡಲಾದ ಬದಲಾವಣೆ"
+
+#~ msgid "Icons"
+#~ msgstr "ಚಿಹ್ನೆಗಳು"
+
+#~ msgid "Icons only"
+#~ msgstr "ಚಿಹ್ನೆಗಳು ಮಾತ್ರ"
+
+#~ msgid "Large"
+#~ msgstr "ದೊಡ್ಡದಾದ"
+
+#~ msgid "N_one"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ(_o)"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "ಬಣ್ಣವನ್ನು ಸೂಚಿಸಲು ಒಂದು ಸಂವಾದವನ್ನು ತೆರೆ"
+
+#~ msgid "Pointer"
+#~ msgstr "ಸೂಚಕ"
+
+#~ msgid "R_esolution:"
+#~ msgstr "ರೆಸಲ್ಯೂಶನ್(_e):"
+
+#~ msgid "Rendering"
+#~ msgstr "ರೆಂಡರಿಂಗ್"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಹೀಗೆ ಉಳಿಸು..."
+
+#~ msgid "Save _As..."
+#~ msgstr "ಹೀಗೆ ಉಳಿಸು(_A)..."
+
+#~ msgid "Save _background image"
+#~ msgstr "ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಉಳಿಸು(_b)"
+
+#~ msgid "Scale"
+#~ msgstr "ಗಾತ್ರ ಬದಲಾವಣೆ"
+
+#~ msgid "Small"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgid "Smoothing"
+#~ msgstr "ಮೃದುಗೊಳಿಕೆ"
+
+#~ msgid "Solid color"
+#~ msgstr "ಗಾಢ ಬಣ್ಣ"
+
+#~ msgid "Span"
+#~ msgstr "ಸ್ಪ್ಯಾನ್"
+
+#, fuzzy
+#~ msgid "Stretch"
+#~ msgstr "ಹುಡುಕು"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "ಉಪಪಿಕ್ಸೆಲ್ (LCDಗಳು)(_p)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "ಉಪಪಿಕ್ಸೆಲ್ ಮೃದುಗೊಳಿಕೆ(_p) (LCDಗಳು)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "ಉಪಪಿಕ್ಸೆಲ್ ಅನುಕ್ರಮ"
+
+#~ msgid "Text"
+#~ msgstr "ಪಠ್ಯ"
+
+#~ msgid "Text below items"
+#~ msgstr "ಅಂಶಗಳ ಕೆಳಗೆ ಪಠ್ಯ"
+
+#~ msgid "Text beside items"
+#~ msgstr "ಅಂಶಗಳ ಬದಿಯಲ್ಲಿನ ಪಠ್ಯ"
+
+#~ msgid "Text only"
+#~ msgstr "ಪಠ್ಯ ಮಾತ್ರ"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "ಈಗಿನ ನಿಯಂತ್ರಣಗಳ ಪರಿಸರವಿನ್ಯಾಸ ಬಣ್ಣದ ಸ್ಕೀಮ್‍ಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."
+
+#~ msgid "Theme"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸ"
+
+#, fuzzy
+#~ msgid "Tile"
+#~ msgstr "ಚೌಕವನ್ನೊಳಗೊಂಡ"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "ಲಂಬವಾದ ಬದಲಾವಣೆ"
+
+#~ msgid "Window Border"
+#~ msgstr "ವಿಂಡೊ ಅಂಚು"
+
+#~ msgid "Zoom"
+#~ msgstr "ಗಾತ್ರಬದಲಿಸು"
+
+#~ msgid "_Add..."
+#~ msgstr "ಸೇರಿಸು(_A)..."
+
+#~ msgid "_Application font:"
+#~ msgstr "ಅನ್ವಯದ ಅಕ್ಷರಶೈಲಿ(_A):"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "ವಿವರಣೆ(_D):"
+
+#~ msgid "_Document font:"
+#~ msgstr "ದಸ್ತಾವೇಜಿನ ಅಕ್ಷರಶೈಲಿ(_D):"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯ ನಿಗದಿತ ಅಗಲ(_F):"
+
+#~ msgid "_Full"
+#~ msgstr "ಸಂಪೂರ್ಣ(_F)"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "ಇನ್‌ಪುಟ್‌ ಚೌಕಗಳು(_I):"
+
+#~ msgid "_Install..."
+#~ msgstr "ಅನುಸ್ಥಾಪಿಸು(_I)..."
+
+#~ msgid "_Medium"
+#~ msgstr "ಮಧ್ಯಮ(_M)"
+
+#~ msgid "_Monochrome"
+#~ msgstr "ಏಕವರ್ಣ(_M)"
+
+#~ msgid "_Name:"
+#~ msgstr "ಹೆಸರು(_N):"
+
+#~ msgid "_None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ(_N)"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತಕ್ಕೆ ಮರುಹೊಂದಿಸು(_R)"
+
+#~ msgid "_Selected items:"
+#~ msgstr "ಆರಿಸಲಾದ ಅಂಶಗಳು(_S):"
+
+#~ msgid "_Size:"
+#~ msgstr "ಗಾತ್ರ:(_S):"
+
+#~ msgid "_Slight"
+#~ msgstr "ಸ್ವಲ್ಪ(_S)"
+
+#~ msgid "_Style:"
+#~ msgstr "ಶೈಲಿ(_S):"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "ಉಪಕರಣ ಸಲಹೆಗಳು(_T):"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "ವಿಂಡೊ ಶೀರ್ಷಿಕೆ ಅಕ್ಷರಶೈಲಿ(_W):"
+
+#~ msgid "_Windows:"
+#~ msgstr "ವಿಂಡೋಗಳು(_W):"
+
+#~ msgid "dots per inch"
+#~ msgstr "ಪ್ರತಿ ಇಂಚಿನ ಚುಕ್ಕೆಗಳು"
+
+#~ msgid "Appearance"
+#~ msgstr "ಗೋಚರಿಕೆ"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "ಗಣಕತೆರೆಯನ್ನು ನೋಟವನ್ನು ಇಚ್ಛೆಗೆ ತಕ್ಕಂತೆ ಬದಲಾಯಿಸಿ"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "ಗಣಕತೆರೆಯ ವಿವಿಧ ಭಾಗಗಳಿಗೆ ಪ್ಯಾಕೇಜುಗಳ ಪರಿಸರವಿನ್ಯಾಸ‍ಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸಿ"
+
+#~ msgid "Theme Installer"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸ ಅನುಸ್ಥಾಪಕ"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome ಪ್ಯಾಕೇಜ್ ಅನುಸ್ಥಾಪಕ"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "ಯಾವುದೆ ಗಣಕತೆರೆ ಹಿನ್ನಲೆ ಚಿತ್ರವಿಲ್ಲ"
+
+#~ msgid "Slide Show"
+#~ msgstr "ಜಾರುಫಲಕದ ಪ್ರದರ್ಶನ"
+
+#~ msgid "Image"
+#~ msgstr "ಚಿತ್ರ"
+
+#~ msgid "multiple sizes"
+#~ msgstr "ಅನೇಕ ಗಾತ್ರಗಳು"
+
+#, fuzzy
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "ಪಿಕ್ಸೆಲ್"
+#~ msgstr[1] "ಪಿಕ್ಸೆಲ್‍ಗಳು"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "ಕಡತಕೋಶ: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "ಕಡತಕೋಶ: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "ಚಿತ್ರಗಳು ಕಾಣಿಸುತ್ತಿಲ್ಲ"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಲಿಲ್ಲ"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "%s ಉಪಯುಕ್ತತೆಯು ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಹೊರತೆಗೆಯುವಾಗ ಒಂದು ತೊಂದರೆ ಎದುರಾಗಿದೆ."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "ಆರಿಸಲಾದ ಕಡತವನ್ನು ಅನುಸ್ಥಾಪಿಸುವಾಗ ಒಂದು ದೋಷವು ಕಂಡುಬಂದಿದೆ"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "\"%s\" ಒಂದು ಮಾನ್ಯವಾದ ಪರಿಸರವಿನ್ಯಾಸ‍ದಂತೆ ಕಾಣಿಸುತ್ತಿಲ್ಲ."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "\"%s\" ಒಂದು ಮಾನ್ಯವಾದ ಪರಿಸರವಿನ್ಯಾಸ‍ದಂತೆ ಕಾಣಿಸುತ್ತಿಲ್ಲ. ಬಹುಷಃ ಇದು ನೀವು "
+#~ "ಸಂಕಲಿಸಬೇಕಿರುವ ಒಂದು ಪರಿಸರವಿನ್ಯಾಸ ಎಂಜಿನ್ ಇರಬಹುದು."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "\"%s\" ಪರಿಸರವಿನ್ಯಾಸ‍ಕ್ಕಾಗಿನ ಅನುಸ್ಥಾಪನೆಯು ವಿಫಲಗೊಂಡಿದೆ."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "\"%s\" ಪರಿಸರವಿನ್ಯಾಸ ಅನುಸ್ಥಾಪನೆಗೊಂಡಿದೆ."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "ನೀವದನ್ನು ಅನ್ವಯಿಸಲು ಬಯಸುತ್ತೀರೆ, ಅಥವ ಈಗಿರುವುದನ್ನೆ ಇರಿಸಿಕೊಳ್ಳಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "ಈಗಿರುವ ಥೀಮನ್ನು ಇರಿಸಿಕೊ"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "ಹೊಸ ಥೀಮನ್ನು ಅನ್ವಯಿಸು"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME ಪರಿಸರವಿನ್ಯಾಸ %s ಸರಿಯಾಗಿ ಅನುಸ್ಥಾಪಿತಗೊಂಡಿದೆ"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "ತಾತ್ಕಾಲಿಕ ಕೋಶವನ್ನು ಸೃಜಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "ಹೊಸ ಪರಿಸರವಿನ್ಯಾಸ‍ಗಳು ಯಶಸ್ವಿಯಾಗಿ ಅನುಸ್ಥಾಪಿಸಲ್ಪಟ್ಟಿವೆ."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "ಅನುಸ್ಥಾಪಿಸಲು ಯಾವುದೆ ಪರಿಸರವಿನ್ಯಾಸ ಕಡತದ ಸ್ಥಳಗಳು ಸೂಚಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಇಲ್ಲಿ ಅನುಸ್ಥಾಪಿಸಲು ಸಾಕಷ್ಟು ಅನುಮತಿಗಳಿಲ್ಲ:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಆರಿಸು"
+
+#~ msgid "Theme Packages"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸ ಪ್ಯಾಕೇಜ್‍ಗಳು"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸ‍ದ ಹೆಸರು ಇರಲೇಬೇಕು"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "ಈ ಪರಿಸರವಿನ್ಯಾಸ ಈಗಾಗಲೆ ಇದೆ. ನೀವದನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "ತಿದ್ದಿಬರೆ(_O)"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "ಈ ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ನೀವು ಅಳಿಸಿ ಹಾಕಲು ಇಚ್ಚಿಸುತ್ತೀರೆ?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "ಥೀಮನ್ನು ಅಳಿಸಲಾಗುವುದಿಲ್ಲ"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸದ ಎಂಜಿನ್‌ ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಲಿಲ್ಲ"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "ಸಿದ್ಧತಾ ವ್ಯವಸ್ಥಾಪಕ 'gnome-settings-daemon' ಅನ್ನು ಆರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.\n"
+#~ "GNOME ಸಿದ್ಧತವಾ ವ್ಯವಸ್ಥಾಪಕವು ಚಲಾಯಿತಗೊಳ್ಳದೆ, ಕೆಲವು ಆದ್ಯತೆಗಳು ಕಾರ್ಯರೂಪಕ್ಕೆ "
+#~ "ಬರುವುದಿಲ್ಲ. ಇದು DBus ನಲ್ಲಿನ ಒಂದು ತೊಂದರೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ, ಅಥವ ಒಂದು GNOME "
+#~ "ನದಾಗಿರದ (ಉದಾ. KDE) ಒಂದು ಸಿದ್ಧತಾ ವ್ಯವಸ್ಥಾಪಕವು ಈಗಾಗಲೆ ಸಕ್ರಿಯವಾಗಿದ್ದು ಅದು GNOME ನ "
+#~ "ಸಿದ್ಧತಾ ವ್ಯವಸ್ಥಾಪಕದೊಂದಿಗೆ ಘರ್ಷಣೆಗೆ ಕಾರಣವಾಗಿರಬಹುದು."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "ಶೇಖರಣಾ ಚಿಹ್ನೆ '%s' ಅನ್ನು ಲೋಡ್‌ ಮಾಡಲು ಆಗಲಿಲ್ಲ\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "ಕಡತವನ್ನು ನಕಲಿಸಲಾಗುತ್ತಿದೆ: %u, %u ನಲ್ಲಿ"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' ಅನ್ನು ನಕಲಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Copying files"
+#~ msgstr "ಕಡತಗಳನ್ನು ನಕಲಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Parent Window"
+#~ msgstr "ಮೂಲ ವಿಂಡೊ"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "ಸಂವಾದದ ಮೂಲ ವಿಂಡೊ"
+
+#~ msgid "From URI"
+#~ msgstr "URI ಇಂದ"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI ಪ್ರಸಕ್ತ ಇಲ್ಲಿಂದ ವರ್ಗಾಯಿತಗೊಳ್ಳುತ್ತಿದೆ"
+
+#~ msgid "To URI"
+#~ msgstr "URI ಗೆ"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI ಪ್ರಸಕ್ತ ಇಲ್ಲಿಗೆ ವರ್ಗಾಯಿತಗೊಳ್ಳುತ್ತಿದೆ"
+
+#~ msgid "Fraction completed"
+#~ msgstr "ಮುಗಿಸಲಾದ ಅನುಪಾತ"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "ಈಗ ಮುಗಿಸಲಾದ ವರ್ಗಾವಣೆಯ ಅಂಶ"
+
+#~ msgid "Current URI index"
+#~ msgstr "ಈಗಿನ URI ಇಂಡೆಕ್ಸ್‍"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "ಈಗಿನ URI ಇಂಡೆಕ್ಸ್‍ - 1 ರಿಂದ ಆರಂಭಗೊಳ್ಳುತ್ತದೆ"
+
+#~ msgid "Total URIs"
+#~ msgstr "ಒಟ್ಟು URIಗಳು"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "ಒಟ್ಟು ಸಂಖ್ಯೆಯ URIಗಳು"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "ಕಡತ '%s' ಈಗಾಗಲೆ ಇದೆ. ನೀವದನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid "_Skip"
+#~ msgstr "ಉಪೇಕ್ಷಿಸಿ (_S)"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "ಎಲ್ಲವನ್ನೂ ತಿದ್ದಿಬರೆ(_A)"
+
+#~ msgid "Key"
+#~ msgstr "ಕೀಲಿ"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "ಈ ಗುಣಲಕ್ಷಣ ಸಂಪಾದಕಕ್ಕೆ ಲಗತ್ತಿಸಲಾದ GConf ಕೀಲಿ"
+
+#~ msgid "Callback"
+#~ msgstr "ಕಾಲ್‍ಬ್ಯಾಕ್"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "ಕೀಲಿಗೆ ಸಂಬಂದಪಟ್ಟ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಿದಲ್ಲಿ ಈ ಕಾಲ್‌ಬ್ಯಾಕ್ ಅನ್ನು ಒದಗಿಸು"
+
+#~ msgid "Change set"
+#~ msgstr "ಬದಲಾವಣೆ ಸೆಟ್"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "ಅನ್ವಯಿಸಿದಾಗ gconf ಕ್ಲೈಂಟಿಗೆ ರವಾನಿಸಬೇಕಿರುವ ದತ್ತಾಂಶವನ್ನು ಹೊಂದಿರುವ GConf ಬದಲಾವಣೆ "
+#~ "ಸೆಟ್"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "ವಿಜೆಟ್‌ ಕಾಲ್‌ಬ್ಯಾಕ್‌ಗೆ ಪರಿವರ್ತನೆ"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "ವಿಜೆಟ್‌ಗೆ GConf ನಿಂದ ದತ್ತಾಂಶವನ್ನು ಮಾರ್ಪಡಿಸಬೇಕಾದಾಗ ಒದಗಿಸಬೇಕಿರುವ ಕಾಲ್‌ಬ್ಯಾಕ್"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "ವಿಜೆಟ್‌ ಕಾಲ್‌ಬ್ಯಾಕ್‌ನಿಂದ ಪರಿವರ್ತನೆ"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "ವಿಜೆಟ್‌ನಿಂದ GConf ಗೆ ದತ್ತಾಂಶವನ್ನು ಮಾರ್ಪಡಿಸಬೇಕಾದಾಗ ಒದಗಿಸಬೇಕಿರುವ ಕಾಲ್‌ಬ್ಯಾಕ್"
+
+#~ msgid "UI Control"
+#~ msgstr "UI ನಿಯಂತ್ರಣ"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "ಗುಣಗಳನ್ನು ನಿಯಂತ್ರಿಸುವ ಆಬ್ಜೆಕ್ಟ್‍ (ಸಾಮಾನ್ಯವಾಗಿ ಒಂದು ವಿಜೆಟ್)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "ಗುಣ ಸಂಪಾದಕದ ಆಬ್ಜೆಕ್ಟ್‍ ದತ್ತಾಂಶ"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "ನಿಗದಿತ ಗುಣಲಕ್ಷಣದ ಸಂಪಾದಕಕ್ಕೆ ಅಗತ್ಯವಿರುವ ಇಚ್ಛೆಯ ದತ್ತಾಂಶ"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "ಗುಣಲಕ್ಷಣದ ಸಂಪಾದಕ ದತ್ತಾಂಶ ಮುಕ್ತಗೊಳಿಕೆಯ ಕಾಲ್‌ಬ್ಯಾಕ್‌"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "ಗುಣಲಕ್ಷಣದ ಸಂಪಾದಕ ವಸ್ತುವಿನ ದತ್ತಾಂಶವನ್ನು ಮುಕ್ತಗೊಳಿಸಿದಾಗ ಸಲ್ಲಿಸಬೇಕಿರುವ ಕಾಲ್‌ಬ್ಯಾಕ್"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "'%s' ಕಡತವನ್ನು ಪತ್ತೆ ಹಚ್ಚಲಾಗಿಲ್ಲ.\n"
+#~ "\n"
+#~ "ಅದು ಇದೆಯೆಂದು ಖಚಿತಪಡಿಸಿಕೊಂಡು ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ, ಅಥವ ಬೇರೊಂದು "
+#~ "ಹಿನ್ನಲೆಚಿತ್ರವನ್ನು ಆರಿಸಿ."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "'%s' ಕಡತವನ್ನು ಹೇಗೆ ತೆರೆಯಬೇಕೆಂದು ನನಗೆ ತಿಳಿದಿಲ್ಲ.\n"
+#~ "ಬಹುಷಃ ಇದು ಒಂದು ಬೆಂಬಲಿತವಾಗಿರದ ಚಿತ್ರದ ಬಗೆ ಇರಬೇಕು.\n"
+#~ "\n"
+#~ "ದಯವಿಟ್ಟು ಒಂದು ಬದಲಿ ಚಿತ್ರವನ್ನು ಆರಿಸಿ."
+
+#~ msgid "Please select an image."
+#~ msgstr "ದಯವಿಟ್ಟು ಒಂದು ಚಿತ್ರವನ್ನು ಆರಿಸಿ."
+
+#~ msgid "_Select"
+#~ msgstr "ಆರಿಸಿ(_S)"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಸೂಚಕ - ಈಗಿರುವ"
+
+#~ msgid "White Pointer"
+#~ msgstr "ಬಿಳಿಬಣ್ಣದ ಸೂಚಕ"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "ಬಿಳಿಬಣ್ಣದ ಸೂಚಕ - ಈಗಿರುವ"
+
+#~ msgid "Large Pointer"
+#~ msgstr "ದೊಡ್ಡದಾದ ಸೂಚಕ"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "ದೊಡ್ಡದಾದ ಸೂಚಕ - ಈಗಿರುವ"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "ದೊಡ್ಡದಾದ ಬಿಳಿಯಬಣ್ಣದ ಸೂಚಕ - ಈಗಿರುವ"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "ದೊಡ್ಡದಾದ ಬಿಳಿಯಬಣ್ಣದ ಸೂಚಕ"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "ಈ ಪರಿಸರವಿನ್ಯಾಸವು ಅಂದುಕೊಂಡಂತೆ ಕಾಣಿಸುವುದಿಲ್ಲ ಏಕೆಂದರೆ ಅಗತ್ಯವಿರುವ GTK+ "
+#~ "ಪರಿಸರವಿನ್ಯಾಸ '%s' ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "ಈ ಪರಿಸರವಿನ್ಯಾಸವು ಅಂದುಕೊಂಡಂತೆ ಕಾಣಿಸುವುದಿಲ್ಲ ಏಕೆಂದರೆ ಅಗತ್ಯವಿರುವ ವಿಂಡೊ ವ್ಯವಸ್ಥಾಪಕ "
+#~ "ಪರಿಸರವಿನ್ಯಾಸ '%s' ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "ಈ ಪರಿಸರವಿನ್ಯಾಸವು ಅಂದುಕೊಂಡಂತೆ ಕಾಣಿಸುವುದಿಲ್ಲ ಏಕೆಂದರೆ ಅಗತ್ಯವಿರುವ ಚಿಹ್ನೆ "
+#~ "ಪರಿಸರವಿನ್ಯಾಸ '%s' ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "ಅಪೇಕ್ಷಿತ ಅನ್ವಯಗಳು"
+
+#~ msgid "Select your default applications"
+#~ msgstr "ನಿಮ್ಮ ಪೂರ್ವನಿಯೋಜಿತ ಅನ್ವಯಗಳನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "ಇಚ್ಛೆಯ ದೃಶ್ಯರೂಪದ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನವನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "ದೃಶ್ಯರೂಪದ ಸಹಾಯಕ"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "ಸಂರಚನೆಯನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "ಮುಖ್ಯ ಸಂಪರ್ಕಸಾಧನವನ್ನು ಲೋಡ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "ದಯವಿಟ್ಟು ಆಪ್ಲೆಟ್ ಸರಿಯಾಗಿ ಅನುಸ್ಥಾಪಿಸಲ್ಪಟ್ಟಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr "ತೋರಿಸಲು ಪುಟದ ಹೆಸರನ್ನು ಸೂಚಿಸಿ"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- GNOME ಪೂರ್ವನಿಯೋಜಿತ ಅನ್ವಯಗಳು"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "ಎಲ್ಲಾ %s ಸಂಭವಿಸುವಿಕೆಗಳು ನಿಜವಾದ ಸಂಪರ್ಕಕೊಂಡಿಯೊಂದಿಗೆ ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ"
+
+#~ msgid "C_ommand:"
+#~ msgstr "ಆಜ್ಞೆ(_o):"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "ಆಜ್ಞೆ(_m):"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "ಫ್ಲಾಗನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸು(_x):"
+
+#~ msgid "Image Viewer"
+#~ msgstr "ಚಿತ್ರ ವೀಕ್ಷಕ"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "ಇನ್‌ಸ್ಟಂಟ್ ಮೆಸೆಂಜರ್"
+
+#~ msgid "Internet"
+#~ msgstr "ಅಂತರ್ಜಾಲ"
+
+#~ msgid "Mail Reader"
+#~ msgstr "ಮೈಲ್ ಓದುಗ"
+
+#~ msgid "Mobility"
+#~ msgstr "ಚಲನೆ"
+
+#~ msgid "Multimedia"
+#~ msgstr "ಮಲ್ಟಿಮೀಡಿಯಾ"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "ಮಲ್ಟಿಮೀಡಿಯಾ ಪ್ಲೇಯರ್"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "ಕೊಂಡಿಯನ್ನು ಹೊಸ ಹಾಳೆಯಲ್ಲಿ ತೆರೆ(_t)"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "ಕೊಂಡಿಯನ್ನು ಹೊಸ ವಿಂಡೊದಲ್ಲಿ ತೆರೆ(_w)"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "ಕೊಂಡಿಯನ್ನು ಪೂರ್ವನಿಯೋಜಿತ ಜಾಲ ವೀಕ್ಷಕದಲ್ಲಿ ತೆರೆ (_d)"
+
+#~ msgid "Run at st_art"
+#~ msgstr "ಆರಂಭದಲ್ಲಿ ಚಲಾಯಿಸು(_a)"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "ಟರ್ಮಿನಲ್‍ನಲ್ಲಿ ಚಲಾಯಿಸು (_e)"
+
+#~ msgid "System"
+#~ msgstr "ಗಣಕ"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "ಟರ್ಮಿನಲ್ ಎಮ್ಯುಲೇಟರ್"
+
+#~ msgid "Text Editor"
+#~ msgstr "ಪಠ್ಯ ಸಂಪಾದಕ"
+
+#~ msgid "Video Player"
+#~ msgstr "ವೀಡಿಯೊ ಪ್ಲೇಯರ್"
+
+#~ msgid "Visual"
+#~ msgstr "ದೃಷ್ಟಿಗೋಚರ"
+
+#~ msgid "Web Browser"
+#~ msgstr "ಜಾಲ ವೀಕ್ಷಕ"
+
+#~ msgid "_Run at start"
+#~ msgstr "ಆರಂಭದಲ್ಲಿ ಚಲಾಯಿಸು(_R)"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee ಸಂಗೀತ ಪ್ಲೇಯರ್"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws ಮೈಲ್"
+
+#~ msgid "Dasher"
+#~ msgstr "ಡ್ಯಾಶರ್"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "ಡಿಬಿಯನ್ ಸೆನ್ಸಿಬಲ್ ವೀಕ್ಷಕ"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "ಡಿಬಿಯನ್ ಟರ್ಮಿನಲ್ ಎಮ್ಯುಲೇಟರ್"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany ಜಾಲ ವೀಕ್ಷಕ"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution ಮೈಲ್ ಓದುಗ"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Screen Reader ಇಲ್ಲದೆ GNOME ಮ್ಯಾಗ್ನಿಫೈಯರ್"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME OnScreen ಕೀಬೋರ್ಡ್"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME ಟರ್ಮಿನಲ್"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರಿನೊಂದಿಗೆ Gnopernicus"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape ಮೈಲ್"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Screen Reader ಇಲ್ಲದ KDE ಮ್ಯಾಗ್ನಿಫೈಯರ್"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux Screen Reader"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರಿನೊಂದಿಗೆ Linux Screen Reader"
+
+#~ msgid "Listen"
+#~ msgstr "Listen"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine ಸಂಗೀತ ಪ್ಲೇಯರ್"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರಿನೊಂದಿಗೆ Orca"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox ಸಂಗೀತ ಪ್ಲೇಯರ್"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Standard XTerminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem ಚಲನಚಿತ್ರ ಪ್ಲೇಯರ್"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "ಫಲಕವನ್ನು ಒಳಗೊಳ್ಳಿಸು(_p)"
+
+#~ msgid "Make Default"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾಗಿಸು"
+
+#~ msgid "Monitor"
+#~ msgstr "ಪರದೆ"
+
+#, fuzzy
+#~ msgid "Monitor Preferences"
+#~ msgstr "ಮೌಸ್ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Off"
+#~ msgstr "ಜಡ"
+
+#~ msgid "On"
+#~ msgstr "ಚಾಲಿತ"
+
+#~ msgid "Panel icon"
+#~ msgstr "ಫಲಕದ ಚಿಹ್ನೆ"
+
+#~ msgid "R_otation:"
+#~ msgstr "ತಿರುಗಿಸುವಿಕೆ(_o):"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "ಪುನಶ್ಚೇತದ ದರ(_f):"
+
+#~ msgid "Upside-down"
+#~ msgstr "ತಲೆ-ಕೆಳಗೆ"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "ತೆರೆಗಳನ್ನು ಪತ್ತೆ ಮಾಡು(_D)"
+
+#~ msgid "_Resolution:"
+#~ msgstr "ರೆಸಲ್ಯೂಶನ್_R):"
+
+#, fuzzy
+#~ msgid "_Show monitors in panel"
+#~ msgstr "ಫಲಕದಲ್ಲಿ ಪ್ರದರ್ಶಕದಲ್ಲಿ ತೋರಿಸು(_S)"
+
+#~ msgid "Monitors"
+#~ msgstr "ತೆರೆಗಳು"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "ತೆರೆಗಳ ಪ್ರತಿಬಿಂಬ"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "ತೆರೆ: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಉಳಿಸಲು ಆಗಲಿಲ್ಲ"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "ಪ್ರದರ್ಶಕದ ಸಂರಚನೆಯನ್ನು ಅನ್ವಯಿಸುವಾಗ ಅಧಿವೇಶನದ ಬಸ್ ಅನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "ಪ್ರದರ್ಶಕಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#, fuzzy
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಉಳಿಸಲು ಆಗಲಿಲ್ಲ"
+
+#, fuzzy
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಉಳಿಸಲು ಆಗಲಿಲ್ಲ"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "ತೆರೆಯ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ"
+
+#~ msgid "Desktop"
+#~ msgstr "ಗಣಕತೆರೆ"
+
+#~ msgid "New shortcut..."
+#~ msgstr "ಹೊಸ ಶಾರ್ಟ್-ಕಟ್..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "ವೇಗವರ್ಧಕ ಕೀಲಿ"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "ವೇಗವರ್ಧಕ ಮಾರ್ಪಡಿಸುವವು"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "ವೇಗವರ್ಧಕ ಕೀಲಿಕೋಡ್"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Accel ಕ್ರಮ"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "ವೇಗವರ್ಧಕದ ಬಗೆ."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<ಗೊತ್ತಿರದ ಕ್ರಿಯೆ>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "ಹೊಸ ಶಾರ್ಟ್-ಕಟ್ ಅನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "ಶಾರ್ಟ್-ಕಟ್ \"%s\" ಅನ್ನು ಬಳಸಲಾಗುವುದಿಲ್ಲ ಏಕೆಂದರೆ ಈ ಕೀಲಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಇದನ್ನು ಟೈಪ್ "
+#~ "ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.\n"
+#~ "ದಯವಿಟ್ಟು ಒಂದೆ ಸಮಯದಲ್ಲಿ Control, Alt ಅಥವ Shift ನಂತಹ ಕೀಲಿಯನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "\"%s\" ಶಾರ್ಟ್-ಕಟ್ ಅನ್ನು ಇದಕ್ಕಾಗಿ ಈಗಾಗಲೆ ಬಳಸಲಾಗಿದೆ\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "ಶಾರ್ಟ್-ಕಟ್‌ ಅನ್ನು \"%s\" ಗೆ ನಿಯೋಜಿಸಿದಲ್ಲಿ, \"%s\" ಶಾರ್ಟ್-ಕಟ್‌ ಅಶಕ್ತಗೊಳ್ಳುತ್ತದೆ."
+
+#~ msgid "_Reassign"
+#~ msgstr "ಮರಳಿ ನಿಯೋಜಿಸು(_R)"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "ಸಂರಚನಾ ದತ್ತಸಂಚಯದಲ್ಲಿ ಹೊಂದಿಸಲಾಗಿದ್ದ ಹೊಸ ವೇಗವರ್ಧಕವನ್ನು ತೆಗೆಯುವಲ್ಲಿ ದೋಷ: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "ಬಹಳಷ್ಟು ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
+
+#~ msgid "Action"
+#~ msgstr "ಕಾರ್ಯ"
+
+#~ msgid "Shortcut"
+#~ msgstr "ಶಾರ್ಟ್-ಕಟ್"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‍ಗಳು"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "ಒಂದು ಶಾರ್ಟ್-ಕಟ್ ಕೀಲಿಯನ್ನು ಸಂಪಾದಿಸಲು, ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಲಿನಲ್ಲಿ ಕ್ಲಿಕ್ಕಿಸಿ ಹಾಗು "
+#~ "ಒಂದು ಹೊಸ ಕೀಲಿ ಸಿದ್ಧತೆಯನ್ನು ಕ್ಲಿಕ್ಕಿಸಿ, ಅಥವ ಅಳಿಸಲು ಬ್ಯಾಕ್‍ಸ್ಪೇಸನ್ನು ಒತ್ತಿ."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "ಆಜ್ಞೆಗಳಿಗೆ ಶಾರ್ಟ್-ಕಟ್ ಕೀಲಿಗಳನ್ನು ನಿಯೋಜಿಸು"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "ಸಿದ್ಧತೆಗಳನ್ನು ಅನ್ವಯಿಸು ಹಾಗು ನಿರ್ಗಮಿಸು (ಸಹವರ್ತನೀಯತೆ ಮಾತ್ರ; ಈಗ ಡೆಮನ್‍ನಿಂದ "
+#~ "ನಿಭಾಯಿಸಲ್ಪಡುತ್ತದೆ)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "ನಮೂದಿಸುವ ವಿರಾಮ ಸಿದ್ಧತೆಗಳನ್ನು ತೋರಿಸುವ ಪುಟಗಳೊಂದಿಗೆ ಆರಂಭಿಸು"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "ನಿಲುಕಣಾ ಸಿದ್ಧತೆಗಳು ಕಾಣಿಸುವುದರೊಂದಿಗೆ ಪುಟವನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- GNOME ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "ನಿಲುಕಣಾ ಸವಲತ್ತುಗಳು ಆನ್ ಅಥವ ಆಫ್ ಆದಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು(_a)"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "ಒಂದು ಮಾರ್ಪಡಕ ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ಬೀಪ್ ಶಬ್ಧ ಮಾಡು(_m)"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "ಹೊರಳಿಕೆ ಕೀಲಿಯು ಒತ್ತಲ್ಪಟ್ಟಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು(_t)"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "ಒಂದು ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು(_e)"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "ಒಂದು ಕೀಲಿಯು ತಿರಸ್ಕರಿಸಲ್ಪಟ್ಟಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು(_c)"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "ಕೀಲಿಯು ಅಂಗೀಕರಿಸಲ್ಪಟ್ಟಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು(_a) "
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "ಕೀಲಿಯು ತಿರಸ್ಕರಿಸಲ್ಪಟ್ಟಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು(_r) "
+
+#~ msgid "Bounce Keys"
+#~ msgstr "ಪುಟಿಯುವ ಕೀಲಿಗಳು"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "ವಿಂಡೊ ಶೀರ್ಷಿಕೆಪಟ್ಟಿಯನ್ನು ಹೊಳೆಯುವಂತೆ ಮಾಡು(_w)"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "ಸಂಪೂರ್ಣ ತೆರೆಯನ್ನು ಹೊಳೆಯುವಂತೆ ಮಾಡು(_s)"
+
+#~ msgid "General"
+#~ msgstr "ಸಾಮಾನ್ಯ"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆ ಧ್ವನಿರೂಪದ ಪ್ರತಿಕ್ರಿಯೆ(ಫೀಡ್‌ಬ್ಯಾಕ್)"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "ಎಚ್ಚರಿಕೆಯ ಧ್ವನಿಗಾಗಿನ ದೃಶ್ಯರೂಪದ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು(ಫೀಡ್‌ಬ್ಯಾಕ್‌) ತೋರಿಸು(_v)"
+
+#~ msgid "Slow Keys"
+#~ msgstr "ನಿಧಾನಗತಿಯ ಕೀಲಿಗಳು"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "ಸ್ಟಿಕಿ ಕೀಲಿಗಳು"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "ಧ್ವನಿಗಳಿಗಾಗಿನ ದೃಶ್ಯರೂಪದ ಆರಂಭ ಸೂಚನೆ"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "ವಿರಾಮಗಳನ್ನು ಮುಂದಕ್ಕೆ ಹಾಕುವುದನ್ನು ಅನುಮತಿಸು(_o)"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "ಧ್ವನಿ ರೂಪದ ಪ್ರತಿಕ್ರಿಯೆ(_F)..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "ತೆರೆಸೂಚಕದ ಮಿನುಗುವಿಕೆ"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "ತೆರೆಸೂಚಕವು ಪಠ್ಯ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಮಿನುಗುತ್ತದೆ(_b)"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "ತೆರೆಸೂಚಕವು ಮಿನುಗುವ ವೇಗ"
+
+#~ msgid "D_elay:"
+#~ msgstr "ವಿಳಂಬ(_e):"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "ಎರಡು ಕೀಲಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಒತ್ತಿದಲ್ಲಿ ಸ್ಟಿಕಿ ಕೀಲಿಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_b)"
+
+#~ msgid "Fast"
+#~ msgstr "ವೇಗ"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "ಕೀಲಿಯನ್ನು ಒತ್ತಿ ಹಿಡಿದಾಗ ಕೀಲಿಗಳ ಒತ್ತುವಿಕೆಯನ್ನು ಪುನರಾವರ್ತಿಸು(_r)"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "ಕೀಲಿಮಣೆ ಮಾದರಿ(_m):"
+
+#~ msgid "Layouts"
+#~ msgstr "ಲೇಔಟ್‍ಗಳು"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "ಪುನರಾವರ್ತಿತ ಕೀಲಮಣೆ ಬಳಕೆಯಿಂದ ಉಂಟಾಗುವ ಹಾನಿಯನ್ನು ತಪ್ಪಿಸುವ ಸಲುವಾಗಿ ನಿರ್ದಿಷ್ಟ "
+#~ "ಕಾಲಾವಧಿಯ ನಂತರ ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡು"
+
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದ"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "ಮೌಸ್ ಕೀಲಿಗಳು"
+
+#~ msgid "Move _Down"
+#~ msgstr "ಕೆಳಗೆ ಚಲಿಸು(_U)"
+
+#~ msgid "Move _Up"
+#~ msgstr "ಮೇಲೆ ಜರುಗಿಸು (_U)"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "ಪುನರಾವರ್ತನಾ ಕೀಲಿಗಳು"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "ಪುನರಾವರ್ತನೆಯ ಕೀಲಿಗಳ ವೇಗ"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತಕ್ಕೆ ಮರುಹೊಂದಿಸು(_f)"
+
+#~ msgid "S_peed:"
+#~ msgstr "ವೇಗ(_p):"
+
+#~ msgid "Short"
+#~ msgstr "ಸಣ್ಣ"
+
+#~ msgid "Slow"
+#~ msgstr "ನಿಧಾನ"
+
+#, fuzzy
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "ಕೀಲಿಮಣೆ ಲೇಔಟ್ ಆಯ್ಕೆಗಳು"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "ವೇಗವರ್ಧನೆ(_A):"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "ನಿಲುಕಣಾ ಸವಲತ್ತುಗಳನ್ನು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿಕೊಂಡು ಟಾಗಲ್ ಮಾಡಬಹುದು(_A)"
+
+#~ msgid "_Delay:"
+#~ msgstr "ವಿಳಂಬ (_D):"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "ವೇಗವಾದ ನಕಲಿ ಕೀಲಿಒತ್ತುವಿಕೆಗಳನ್ನು ಆಲಕ್ಷಿಸು(_I)"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "ಕೇವಲ ಹೆಚ್ಚು ಸಮಯದ ಕೀಲಿ ಒತ್ತುವಿಕೆಯನ್ನು ಮಾತ್ರ ಅನುಮತಿಸು(_O)"
+
+#~ msgid "_Options..."
+#~ msgstr "ಆಯ್ಕೆಗಳು(_O)..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "ಕೀಲಿಮಣೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಸೂಚಕವನ್ನು ನಿಯಂತ್ರಿಸುಬಹುದು (_P)"
+
+#, fuzzy
+#~ msgid "_Separate layout for each window"
+#~ msgstr "ಪ್ರತಿ ವಿಂಡೋಗಳಿಗೂ ಪ್ರತ್ಯೇಕ ಲೇಔಟ್(_l)"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "ಒಂದರ ನಂತರ ಇನ್ನೊಂದು ಕೀಲಿ ಒತ್ತುವಿಕೆಗಳನ್ನು ಸಿಮುಲೇಟ್ ಮಾಡು (_S)"
+
+#~ msgid "_Speed:"
+#~ msgstr "ವೇಗ(_S):"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "ಸಿದ್ಧತೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಲು ಬಗೆ(_T):"
+
+#~ msgid "By _country"
+#~ msgstr "ದೇಶದ ಮೇರೆಗೆ(_u)"
+
+#~ msgid "By _language"
+#~ msgstr "ಭಾಷೆಯ ಮೇರೆಗೆ(_l)"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "ಒಂದು ವಿನ್ಯಾಸವನ್ನು ಆರಿಸು"
+
+#~ msgid "Preview:"
+#~ msgstr "ಮುನ್ನೋಟ:"
+
+#~ msgid "_Country:"
+#~ msgstr "ದೇಶ(_C):"
+
+#~ msgid "_Language:"
+#~ msgstr "ಭಾಷೆ(_L):"
+
+#~ msgid "_Variants:"
+#~ msgstr "ವೇರಿಯಂಟ್‌ಗಳು(_V):"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "ಒಂದು ಕೀಲಿಮಣೆಯ ಮಾದರಿಯನ್ನು ಆರಿಸು"
+
+#~ msgid "_Models:"
+#~ msgstr "ಮಾದರಿಗಳು(_M):"
+
+#~ msgid "_Vendors:"
+#~ msgstr "ಮಾರಾಟಗಾರರು(_V):"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "ಕೀಲಿಮಣೆ ಲೇಔಟ್ ಆಯ್ಕೆಗಳು"
+
+#~ msgid "Layout"
+#~ msgstr "ಲೇಔಟ್"
+
+#~ msgid "Vendors"
+#~ msgstr "ಮಾರಾಟಗಾರರು"
+
+#~ msgid "Models"
+#~ msgstr "ಮಾದರಿಗಳು"
+
+#~ msgid "Default"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "ನಿಮ್ಮ ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "ಎಡಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "ಬಲಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "ಮೇಲಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "ಕೆಳಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "ಅಶಕ್ತಗೊಂಡ"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "ತೋರಿಸಲು ಪುಟದ ಹೆಸರನ್ನು ಸೂಚಿಸಿ"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- GNOME ಮೌಸ್‌ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "ಕ್ಲಿಕ್‌ನ ಬಗೆಯನ್ನು ಮುಂಚಿತವಾಗಿ ಆಯ್ಕೆ ಮಾಡು(_b)"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "ಮೌಸ್‌ನ ಹಾವಭಾವದೊಂದಿಗೆ ಕ್ಲಿಕ್‌ನ ಬಗೆಯನ್ನು ಆರಿಸಿ(_u)"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "ಎರಡು ಕ್ಲಿಕ್(_o):"
+
+#~ msgid "D_rag click:"
+#~ msgstr "ಎಳೆಯುವ ಕ್ಲಿಕ್(_r):"
+
+#, fuzzy
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "ಟೈಪಿಸುವಾಗ ಟಚ್‌ಪ್ಯಾಡ್ ಅನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_D)"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "ಎರಡು-ಬಾರಿ ಕ್ಲಿಕ್ಕಿಸುವ ಕಾಲಾವಧಿ ಮೀರಿಕೆ"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "ಎಳೆ ಹಾಗು ಹಾಕು"
+
+#~ msgid "Dwell Click"
+#~ msgstr "ಡ್ವೆಲ್‌ ಕ್ಲಿಕ್"
+
+#, fuzzy
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "ಟಚ್‌ಪ್ಯಾಡ್‌ನೊಂದಿಗೆ ಮೌಸ್‌ನ ಕ್ಲಿಕ್‌ಗಳನ್ನು ಶಕ್ತಗೊಳಿಸು(_c)"
+
+#, fuzzy
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "ಅಡ್ಡ ಚಲನೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_h)"
+
+#~ msgid "High"
+#~ msgstr "ಉತ್ತಮ"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "ಸೂಚಕವನ್ನು ಪತ್ತೆ ಮಾಡು"
+
+#~ msgid "Low"
+#~ msgstr "ಕೆಳ ಮಟ್ಟದ"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "ಮೌಸ್ ವಾಲಿಕೆ"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "ಸೂಚಕದ ವೇಗ"
+
+#~ msgid "Scrolling"
+#~ msgstr "ಚಲನೆ(ಸ್ಕ್ರಾಲಿಂಗ್)"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "ಅಪ್ರಮುಖ ಕ್ಲಿಕ್(_n):"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "ಕಂಟ್ರೋಲ್ ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ಸೂಚಕದ ಸ್ಥಾನವನ್ನು ಸೂಚಿಸು (_o)"
+
+#~ msgid "Show click type _window"
+#~ msgstr "ಕ್ಲಿಕ್ ಬಗೆಯ ವಿಂಡೋವನ್ನು ತೋರಿಸು(_w)"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "ಸಿಮುಲೇಟ್ ಆದ ಅಪ್ರಮುಖ ಕ್ಲಿಕ್"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "ಮಿತಿ(_e):"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "ಎರಡು ಬಾರಿಯ ಕ್ಲಿಕ್‌ನ ಸಿದ್ಧತೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಲು, ದೀಪದ ಬಲ್ಬಿನ ಮೇಲೆ ಎರಡುಬಾರಿ ಕ್ಲಿಕ್ಕಿಸಿ."
+
+#~ msgid "Touchpad"
+#~ msgstr "ಟಚ್‌ಪ್ಯಾಡ್"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "ಎರಡು ಬೆರಳಿನ ಚಲನೆ(_f)"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "ಕ್ಲಿಕ್‌ ಬಗೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೀವು ಡ್ವೆಲ್‌ ಕ್ಲಿಕ್ ಫಲಕ ಆಪ್ಲೆಟ್ ಅನ್ನೂ ಸಹ ನೀವು "
+#~ "ಬಳಸಬಹುದಾಗಿದೆ."
+
+#~ msgid "_Disabled"
+#~ msgstr "ಅಶಕ್ತಗೊಂಡ(_D)"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "ಅಂಚಿನ ಚಲನೆ(_E)"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "ಸೂಚಕದ ಚಲನೆಯನ್ನು ನಿಲ್ಲಿಸುವಾಗ ಕ್ಲಿಕ್‌ ಅನ್ನು ಆರಂಭಿಸು(_I)"
+
+#~ msgid "_Left-handed"
+#~ msgstr "ಎಡಗೈಯ(_L)"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "ಚಲನೆಯ ಮಿತಿ(_M):"
+
+#~ msgid "_Right-handed"
+#~ msgstr "ಬಲಗೈಯ(_R)"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "ಸಂವೇದನೆ(_S):"
+
+#~ msgid "_Single click:"
+#~ msgstr "ಒಂದು ಕ್ಲಿಕ್(_S):"
+
+#~ msgid "_Timeout:"
+#~ msgstr "ಮೀರಿದ ಸಮಯ(_T):"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "ಪ್ರಾಥಮಿಕ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ ಹಿಡಿಯುವ ಮೂಲಕ ಅಪ್ರಮುಖ ಕ್ಲಿಕ್‌ ಅನ್ನು ಆರಂಭಿಸಿ(_T)"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "ನಿಮ್ಮ ಮೌಸ್‍ನ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ"
+
+#~ msgid "New Location..."
+#~ msgstr "ಹೊಸ ಸ್ಥಳ..."
+
+#~ msgid "Location already exists"
+#~ msgstr "ಸ್ಥಳವು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
+
+#~ msgid "Network Proxy"
+#~ msgstr "ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿ"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿಯ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>ನೇರ ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕ(_r)</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>ಸ್ವಯಂಚಾಲಿತ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ(_A)</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>ಹಸ್ತಮುಖೇಯನ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ(_A)</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>ದೃಢೀಕರಣವನ್ನು ಬಳಸು(_U)</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "ಸ್ವಯಂಸಂರಚನಾ _URL:"
+
+#~ msgid "C_reate"
+#~ msgstr "ರಚಿಸು(_r)"
+
+#~ msgid "Create New Location"
+#~ msgstr "ಹೊಸ ಸ್ಥಳವನ್ನು ರಚಿಸು"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP ಪ್ರಾಕ್ಸಿ ವಿವರಗಳು"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP ಪ್ರಾಕ್ಸಿ:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "ಅತಿಥೇಯ ಪಟ್ಟಿಯನ್ನು ಆಲಕ್ಷಿಸು"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "ಅಲಕ್ಷಿಸಲಾದ ಅತಿಥೇಯಗಳು"
+
+#~ msgid "Location:"
+#~ msgstr "ಸ್ಥಳ:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Port:"
+#~ msgstr "ಸಂಪರ್ಕ ಸ್ಥಾನ:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "ಸಾಕ್ಸ್‌ ಅತಿಥೇಯ(_o):"
+
+#~ msgid "The location already exists."
+#~ msgstr "ಸ್ಥಳವು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
+
+#~ msgid "U_sername:"
+#~ msgstr "ಬಳಕೆದಾರಹೆಸರು(_s):"
+
+#~ msgid "_Delete Location"
+#~ msgstr "ಸ್ಥಳವನ್ನು ಅಳಿಸು(_D)"
+
+#~ msgid "_Details"
+#~ msgstr "ವಿವರಗಳು(_D)"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP ಪ್ರಾಕ್ಸಿ:"
+
+#~ msgid "_Location name:"
+#~ msgstr "ಸ್ಥಳದ ಹೆಸರು(_L):"
+
+#~ msgid "_Password:"
+#~ msgstr "ಗುಪ್ತಪದ(_P):"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "ಸುರಕ್ಷಿತ HTTP ಪ್ರಾಕ್ಸಿ (_S):"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "ಇದೆ ಪ್ರಾಕ್ಸಿಯನ್ನು ಎಲ್ಲಾ ಪ್ರೊಟೋಕಾಲ್‍ಗೂ ಬಳಸಿ(_U)"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "ನಿಮ್ಮ ವಿಂಡೋ ಮ್ಯಾನೇಜರಿಗಾಗಿನ ಆದ್ಯತೆಗಳ ಅನ್ವಯವನ್ನು ಆರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "ಹೈಪರ್(_y)"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "ಸೂಪರ್ (ಅಥವ \"Windows logo\") (_u)"
+
+#~ msgid "_Meta"
+#~ msgstr "ಮೆಟಾ(_M)"
+
+#~ msgid "Movement Key"
+#~ msgstr "ಚಲನಾ ಕೀಲಿ"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "ಶೀರ್ಷಿಕೆಪಟ್ಟಿ ಕಾರ್ಯ"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "ಒಂದು ವಿಂಡೊವನ್ನು ಜರುಗಿಸಲು, ಈ ಕೀಲಿಯನ್ನು ಒತ್ತಿ ಹಿಡಿದು ನಂತರ ವಿಂಡೋವನ್ನು ಎಳೆಯಿರಿ:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "ವಿಂಡೊ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Window Selection"
+#~ msgstr "ವಿಂಡೊ ಆಯ್ಕೆ"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "ಈ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಶೀರ್ಷಿಕೆಪಟ್ಟಿಯ ಮೇಲೆ ಎರಡು-ಬಾರಿ ಕ್ಲಿಕ್ಕಿಸಿ(_D):"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "ಏರಿಸುವ ಮುಂಚಿನ ಕಾಲಾವಧಿ(_I):"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ವಿಂಡೋವನ್ನು ಒಂದು ಕಾಲಾವಧಿಯ ನಂತರ ಏರಿಸು(_R)"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "ವಿಂಡೋಗಳ ಮೇಲೆ ಮೌಸನ್ನು ಇರಿಸಿದಾಗ ಅವನ್ನು ಆರಿಸು(_S)"
+
+#~ msgid "seconds"
+#~ msgstr "ಸೆಕೆಂಡುಗಳು"
+
+#~ msgid "Set your window properties"
+#~ msgstr "ನಿಮ್ಮ ವಿಂಡೊ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿಸಿ"
+
+#~ msgid "Windows"
+#~ msgstr "ವಿಂಡೋಗಳು"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕ \"%s\" ವು ಸಂರಚನಾ ಉಪಕರಣದಲ್ಲಿ ನೋಂದಾಯಿಸಲ್ಪಟ್ಟಿಲ್ಲ\n"
+
+#~ msgid "Maximize"
+#~ msgstr "ಹಿಗ್ಗಿಸು"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "ಲಂಬವಾಗಿ ಹಿಗ್ಗಿಸು"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "ಅಡ್ಡಲಾಗಿ ಹಿಗ್ಗಿಸು"
+
+#~ msgid "Minimize"
+#~ msgstr "ಕುಗ್ಗಿಸು"
+
+#~ msgid "Roll up"
+#~ msgstr "ಉರುಳಿಸು"
+
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "ಕೀಲಿಯು ಕಂಡು ಬಂದಿಲ್ಲ [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "ಆರಂಭದಲ್ಲಿ ಅಡಗಿಸು (ಶೆಲ್‌ ಅನ್ನು ಮೊದಲೆ ಲೋಡ್ ಮಾಡಲು ಸಹಾಯಕವಾಗುತ್ತದೆ)"
+
+#~ msgid "Filter"
+#~ msgstr "ಶೋಧಕ(Filter)"
+
+#~ msgid "Groups"
+#~ msgstr "ಸಮೂಹಗಳು"
+
+#~ msgid "Common Tasks"
+#~ msgstr "ಮಾಮೂಲಿ ಕಾರ್ಯಗಳು"
+
+#~ msgid "Control Center"
+#~ msgstr "ನಿಯಂತ್ರಣ ಕೇಂದ್ರ"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "ಕಾರ್ಯವು ಸಕ್ರಿಯಗೊಂಡಾಗ ನಿಯಂತ್ರಣ ಕೇಂದ್ರವನ್ನು ಮುಚ್ಚು"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "ಸೇರಿಸು ಅಥವ ತೆಗೆದುಹಾಕುವ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "ಸಹಾಯ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "ಆರಂಭ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr "ಅಪ್‍ಗ್ರೇಡ್ ಅಥವ ಅನ್ಇನ್‍ಸ್ಟಾಲ್ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್‍ನಿಂದ ನಿರ್ಗಮಿಸು"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "ಒಂದು ಸಹಾಯ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು ಮುಚ್ಚಬೇಕೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "ಒಂದು ಆರಂಭ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು ಮುಚ್ಚಬೇಕೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "ಸೇರಿಸು ಅಥವ ತೆಗೆದುಹಾಕುವ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು ಮುಚ್ಚಬೇಕೆ ಎಂದು "
+#~ "ಸೂಚಿಸುತ್ತದೆ."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "ನವೀಕರಣ ಅಥವ ಅನುಸ್ಥಾಪಿಸಲಾಗಿದ್ದನ್ನು ತೆಗೆದುಹಾಕುವ ಕ್ರಿಯೆಯು ನಡೆಸಲ್ಪಟ್ಟಾಗ ಶೆಲ್ ಅನ್ನು "
+#~ "ಮುಚ್ಚಬೇಕೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "ಕಾರ್ಯದ ಹೆಸರುಗಳು ಹಾಗು ಸಂಬಂಧಿಸಲ್ಪಟ್ಟ .desktop ಕಡತಗಳು"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "ನಿಯಂತ್ರಣ-ಕೇಂದ್ರದಲ್ಲಿ(ಕಂಟ್ರೋಲ್-ಸೆಂಟರ್) ತೋರಿಸಬೇಕಿರುವ ಕಾರ್ಯದ ಹೆಸರು. ಇದು ಒಂದು \";\" "
+#~ "ವಿಭಜಕವನ್ನು ಹಾಗು ನಂತರ ಆ ಕಾರ್ಯವನ್ನು ಆರಂಭಿಸಲು ಅಗತ್ಯವಿರುವ ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ."
+#~ "desktop ಕಡತದ ಹೆಸರನ್ನು ಹೊಂದಿರುತ್ತದೆ."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಬದಲಾಯಿಸು;gtk-theme-selector.desktop,ಇಚ್ಛೆಯ ಅನ್ವಯವನ್ನು "
+#~ "ಹೊಂದಿಸು;default-applications.desktop,ಮುದ್ರಕವನ್ನು ಸೇರಿಸು;gnome-cups-manager."
+#~ "desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "true ಆದರೆ (ನಿಜವೆಂದಾದರೆ), \"ಸಾಮಾನ್ಯ ಕಾರ್ಯ\"ವು ಸಕ್ರಿಯಗೊಳಿಸಲ್ಪಟ್ಟಾಗ ನಿಯಂತ್ರಣ-"
+#~ "ಕೇಂದ್ರವು ಮುಚ್ಚಲ್ಪಡುತ್ತದೆ."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME ಸಂರಚನಾ ಉಪಕರಣ"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, PCF ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "ನಿಜಕ್ಕೆ ಹೊಂದಿಸಿದಲ್ಲಿ, ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳು ತಂಬ್‍ನೈಲ್ ಆಗುತ್ತದೆ."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "ಈ ಕೀಲಿಯನ್ನು ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ "
+#~ "ಹೊಂದಿಸು."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "ಈ ಕೀಲಿಯನ್ನು PCF ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ "
+#~ "ಹೊಂದಿಸು."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "ಈ ಕೀಲಿಯನ್ನು ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ "
+#~ "ಹೊಂದಿಸು."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "ಈ ಕೀಲಿಯನ್ನು ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್‍ಗಳನ್ನು ಸೃಜಿಸಲು ಬಳಸಲ್ಪಡುವ ಆಜ್ಞೆಗೆ "
+#~ "ಹೊಂದಿಸು."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "PCF ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳಿಗಾಗಿನ ತಂಬ್‍ನೈಲ್ ಆಜ್ಞೆ"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "ಓಪನ್‍ಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "PCF ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "ಟ್ರುಟೈಪ್ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "ಟೈಪ್1 ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತಂಬ್‍ನೈಲ್ ಮಾಡಬೇಕೆ"
+
+#~ msgid "Name:"
+#~ msgstr "ಹೆಸರು:"
+
+#~ msgid "Style:"
+#~ msgstr "ಶೈಲಿ:"
+
+#~ msgid "Type:"
+#~ msgstr "ಪ್ರಕಾರ:"
+
+#~ msgid "Size:"
+#~ msgstr "ಗಾತ್ರ:"
+
+#~ msgid "Version:"
+#~ msgstr "ಆವೃತ್ತಿ:"
+
+#~ msgid "Copyright:"
+#~ msgstr "ಹಕ್ಕು:"
+
+#~ msgid "Description:"
+#~ msgstr "ವಿವರಣೆ:"
+
+#~ msgid "Installed"
+#~ msgstr "ಅನುಸ್ಥಾಪಿತಗೊಂಡಿದೆ"
+
+#~ msgid "Install Failed"
+#~ msgstr "ಅನುಸ್ಥಾಪನೆ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "ಬಳಕೆ: %s ಅಕ್ಷರಶೈಲಿಕಡತ\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯನ್ನು ಅನುಸ್ಥಾಪಿಸು(_n)"
+
+#~ msgid "Font Viewer"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿ ವೀಕ್ಷಕ"
+
+#~ msgid "Preview fonts"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯ ಮುನ್ನೋಟ"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "ಪಠ್ಯದಿಂದ ತಂಬ್‍ನೈಲ್‍ಗೆ (ಪೂರ್ವನಿಯೋಜಿತ: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿಯ ಗಾತ್ರ (ಪೂರ್ವನಿಯೋಜಿತ: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FONT-FILE OUTPUT-FILE"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "ಆರ್ಗ್ಯುಮೆಂಟ್‍ಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "ನಿಮ್ಮ ಫಿಲ್ಟರ್ \"%s\" ಯಾವುದೆ ಅಂಶಗಳಿಗೆ ತಾಳೆಯಾಗುತ್ತಿಲ್ಲ."
+
+#~ msgid "No matches found."
+#~ msgstr "ತಾಳೆಯಾಗುವ ಯಾವುವೂ ಕಂಡು ಬಂದಿಲ್ಲ."
+
+#~ msgid "Other"
+#~ msgstr "ಇತರೆ"
+
+#~ msgid "Start %s"
+#~ msgstr "%s ಅನ್ನು ಆರಂಭಿಸಿ"
+
+#~ msgid "Help"
+#~ msgstr "ಸಹಾಯ"
+
+#~ msgid "Upgrade"
+#~ msgstr "ನವೀಕರಿಸಿ"
+
+#~ msgid "Uninstall"
+#~ msgstr "ಅನುಸ್ಥಾಪಿಸಿದ್ದನ್ನು ತೆಗೆದುಹಾಕು"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "ನೆಚ್ಚಿನವುಗಳಿಂದ ತೆಗೆದು ಹಾಕು"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "ನೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸು"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "ಆರಂಭಿಕ ಪ್ರೋಗ್ರಾಂಗಳಿಂದ ತೆಗೆದು ಹಾಕು"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "ಆರಂಭಿಕ ಪ್ರೋಗ್ರಾಂಗಳಿಂದ ಸೇರಿಸು"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "ಹೊಸ ಸ್ಪ್ರೆಡ್-ಶೀಟ್"
+
+#~ msgid "New Document"
+#~ msgstr "ಹೊಸ ದಸ್ತಾವೇಜು"
+
+#~ msgid "Documents"
+#~ msgstr "ದಸ್ತಾವೇಜುಗಳು"
+
+#~ msgid "File System"
+#~ msgstr "ಕಡತ ವ್ಯವಸ್ಥೆ"
+
+#~ msgid "Network Servers"
+#~ msgstr "ಜಾಲಬಂಧ ಪರಿಚಾರಕಗಳು"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>ತೆಗೆ</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "ಮರುಹೆಸರಿಸು..."
+
+#~ msgid "Send To..."
+#~ msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸು"
+
+#~ msgid "Delete"
+#~ msgstr "ಅಳಿಸಿಹಾಕು"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "\"%s\" ಅನ್ನು ನೀವು ಖಚಿತವಾಗಿಯೂ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಹಾಕಲು ಬಯಸುತ್ತೀರೆ?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "ನೀವು ಒಂದು ಅಂಶವನ್ನು ಅಳಿಸಿ ಹಾಕಿದರೆ, ಅದು ಶಾಶ್ವತವಾಗಿ ಕಾಣೆಯಾಗುತ್ತದೆ."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "\"%s\" ನೊಂದಿಗೆ ತೆರೆ"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಅನ್ವಯದೊಂದಿಗೆ ತೆರೆ"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "ಕಡತ ವ್ಯವಸ್ಥಾಪಕದಲ್ಲಿ ತೆರೆ"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "ಇಂದು %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "ನಿನ್ನೆ %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "ಈಗ ಹುಡುಕು"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s ಅನ್ನು ತೆರೆ</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "ಗಣಕ ಅಂಶಗಳಿಂದ ತೆಗೆದು ಹಾಕು"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "ಮೌಸ್ ಆದ್ಯತೆಗಳು"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "ಸಕ್ರಿಯಗೊಳಿಸಬೇಡ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "ಕಡಿಮೆ ಡಿಸ್ಕ್ ಸ್ಥಳವಿದೆ ಎಂದು ಎಚ್ಚರಿಸಲು ಅಗತ್ಯವಿರುವ ಮುಕ್ತ ಸ್ಥಳದ ಪ್ರತಿಶತದ ಮಿತಿ. ಮುಕ್ತ "
+#~ "ಸ್ಥಳದ ಪ್ರತಿಶತವು ಇದಕ್ಕಿಂತ ಕಡಿಮೆಯಾದಲ್ಲಿ, ಒಂದು ಎಚ್ಚರಿಕೆಯನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "ಪ್ರಮಾಣವನ್ನು GB ಯಲ್ಲಿ ಸೂಚಿಸಿ. ಮುಕ್ತ ಸ್ಥಳದ ಪ್ರಮಾಣವು ಇದಕ್ಕಿಂತ ಹೆಚ್ಚಿದ್ದಲ್ಲಿ, ಯಾವುದೆ "
+#~ "ಎಚ್ಚರಿಕೆಗಳು ಕಾಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "ತರುವಾಯದ ಎಚ್ಚರಿಕೆಯನ್ನು ನೀಡುವ ಮೊದಲು ಡಿಸ್ಕಿನ ಮುಕ್ತ ಸ್ಥಳವು ಯಾವ ಪ್ರತಿಶತಕ್ಕೆ ಕಡಿಮೆ ಆಗ "
+#~ "ಬೇಕು ಎಂದು ಸೂಚಿಸಿ"
+
+#, fuzzy
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "ಒಂದು ಆಪ್ಟಿಕಲ್ ಡಿಸ್ಕನ್ನು ಹೊರತಳ್ಳಲು ಬದ್ಧವಾಗಿದೆ."
+
+#, fuzzy
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "ಪ್ರದರ್ಶನಕ್ಕೆ ಸಂಬಂಧಿತವಾದ ವಿಷಯಗಳನ್ನು ಒಳಗೊಂಡ ಒಂದು ಸೂಚನಾ ಚಿಹ್ನೆಯನ್ನು ಫಲಕದಲ್ಲಿ "
+#~ "ತೋರಿಸಬೇಕೆ."
+
+#, fuzzy
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "ಟಚ್‌ಪ್ಯಾಡ್ ಚಲನೆಯ ವಿಧಾನವನ್ನು ಆರಿಸಿ. ಬೆಂಬಲವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ: 0 - ಅಶಕ್ತಗೊಂಡ, 1 - "
+#~ "ಅಂಚಿನಲ್ಲಿ ಚಲನೆ, 2 - ಎರಡು ಬೆರಳಿನ ಚಲನೆ"
+
+#, fuzzy
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "xrandr ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#, fuzzy
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "xrandr ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#, fuzzy
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "xrandr ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "ಅಕ್ಷರ ಶೈಲಿ ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#, fuzzy
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ನಿರ್ಗಮಿಸು - ದೋಷನಿವಾರಣೆಗಾಗಿ"
+
+#, fuzzy
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "ಈ ಕಡತ ವ್ಯವಸ್ಥೆಗಾಗಿ ಈ ಸಂದೇಶವನ್ನು ಪುನಃ ತೋರಿಸಬೇಡ"
+
+#, fuzzy
+#~ msgid "Examine…"
+#~ msgstr "ಪರಿಶೀಲಿಸು..."
+
+#, fuzzy
+#~ msgid "Removing: %s"
+#~ msgstr "<i>ತೆಗೆದು ಹಾಕಲಾಗುತ್ತಿದೆ: %s</i>"
+
+#, fuzzy
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡಲು ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
+
+#, fuzzy
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "ಮೋಡ್‌ಮ್ಯಾಪ್ ಕಡತವನ್ನು(ಗಳನ್ನು) ಲೋಡ್ ಮಾಡಲು ಬಯಸುತ್ತೀರೆ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr "ಮೌಸ್‌ ನಿಲುಕಣೆಗಾಗಿ ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಮೌಸ್‌ಟ್ವೀಕ್‌ಗಳು ಅನುಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#, fuzzy
+#~ msgid "Rotation not supported"
+#~ msgstr "<i>ಸುತ್ತುವಿಕೆ ಬೆಂಬಲವಿಲ್ಲಾ</i>"
+
+#, fuzzy
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "ಪ್ರದರ್ಶನ ಸಿದ್ಧತೆಗಳನ್ನು ಸಂರಚಿಸುತ್ತದೆ(_C) ..."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "ಗಣಕವನ್ನು ನಿದ್ರೆಯ ಸ್ಥಿತಿಯಲ್ಲಿ ಇರಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.\n"
+#~ "ಗಣಕವು ಸರಿಯಾಗಿ ಸಂರಚಿತಗೊಂಡಿದೆಯೆ ಎಂದು ಪರಿಶೀಲಿಸಿ."
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "ಗಣಕವನ್ನು ಸ್ಥಗಿತಗೊಳಿಸಲು ಬದ್ಧವಾಗಿದೆ."
+
+#~ msgid "Suspend"
+#~ msgstr "ಸ್ಥಗಿತಗೊಳಿಸು"
+
+#, fuzzy
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "ಓದುಗನನ್ನು ಆನ್‌ ಮಾಡಲು ಅಥವ ಆಫ್‌ ಬಳಸಲಾಗುವ ಆಜ್ಞೆ."
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "ತೆರೆ ಓದುಗ"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "xrandr ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#, fuzzy
+#~ msgid "Toggle screenreader"
+#~ msgstr "ತೆರೆ ಓದುಗನನ್ನು ಟಾಗಲ್ ಮಾಡು"
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "ತೆರೆ ಓದುಗ"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "xrdb ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "ಅಕ್ಷರಶೈಲಿ ಪ್ಲಗ್ಇನ್"
+
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr "xrandr ಪ್ಲಗ್‌ಇನ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "xrandr ಸಿದ್ಧತೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಂತೆ ಪ್ಲಗ್ಇನ್‌ ಅನ್ನು ಶಕ್ತಗೊಳಿಸಲು true ಗೆ (ನಿಜಕ್ಕೆ) "
+#~ "ಹೊಂದಿಸಿ."
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "ಕೀಲಿಬದ್ಧತೆ (%s) ಪೂರ್ಣವಾಗಿಲ್ಲ"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "ಕೀಲಿಬದ್ಧತೆ (%s) ಪೂರ್ಣವಾಗಿಲ್ಲ"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "ಕೀಲಿಬದ್ಧತೆಯು (%s) ಅಮಾನ್ಯವಾಗಿದೆ"
+
+#, fuzzy
+#~ msgid "Volume"
+#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣ ಏರಿಕೆ"
+
+#~ msgid "_Jabber:"
+#~ msgstr "ಜಬ್ಬಾರ್(_J):"
+
+#~ msgid "Set the current background as the system-wide default"
+#~ msgstr "ವ್ಯವಸ್ಥೆಯಾದ್ಯಂತದ ಪೂರ್ವನಿಯೋಜಿತ ಮುದ್ರಕವಾಗಿ ಹೊಂದಿಸಲು ಬಯಸುತ್ತೀರೆ"
+
+#~ msgid "Fill screen"
+#~ msgstr "ಪೂರ್ಣ ತೆರೆ"
+
+#~ msgid "KDE Konsole"
+#~ msgstr "KDE Konsole"
+
+#~ msgid "KTerm"
+#~ msgstr "KTerm"
+
+#~ msgid "Netscape"
+#~ msgstr "ನೆಟ್‌ಸ್ಕೇಪ್"
+
+#~ msgid "Display Preferences"
+#~ msgstr "ಪ್ರದರ್ಶಕದ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "ತೆರೆಗಳನ್ನು ಅವುಗಳ ಸ್ಥಳದಲ್ಲಿ ಹೊಂದಿಸಲು ಎಳೆಯಿರಿ"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "ಪ್ರತಿಬಿಂಬಿತ ತೆರೆಗಳು(_M)"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "ತೆರೆಯ ರೆಸಲ್ಯೂಶನ್ ಅನ್ನು ಬದಲಾಯಿಸು"
+
+#~ msgid "Display"
+#~ msgstr "ಪ್ರದರ್ಶಕ"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "ವೇಗವರ್ಧನೆ(_c):"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "ಆರಿಸಲಾದ ಲೇಔಟ್‍ಗಳು(_S):"
+
+#~ msgid "C_ontrol"
+#~ msgstr "ನಿಯಂತ್ರಣ(_o)"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "The quick brown fox jumps over the lazy dog. 0123456789"
+
+#~ msgid "Edit"
+#~ msgstr "ಸಂಪಾದಿಸು"
+
+#~ msgid "Interface"
+#~ msgstr "ಸಂಪರ್ಕಸಾಧನ"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "ಮೆನುಗಳು ಹಾಗು ಉಪಕರಣಪಟ್ಟಿಕೆಗಳು"
+
+#~ msgid "Preview"
+#~ msgstr "ಮುನ್ನೋಟ"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "ಚಿಹ್ನೆಗಳನ್ನು ಮೆನು ಅಲ್ಲಿ ತೋರಿಸು(_i)"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "ಉಪಕರಣಪಟ್ಟಿಯ ಗುಂಡಿಯ ಲೇಬಲ್‍ಗಳು(_b):"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "ಸಂಪಾದಿಸಬಲ್ಲ ಮೆನು ಶಾರ್ಟ್-ಕಟ್ ಕೀಲಿಗಳು(_E)"
+
+#~ msgid "_File"
+#~ msgstr "ಕಡತ(_F)"

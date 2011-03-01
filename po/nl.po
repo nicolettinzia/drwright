@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2010-09-04 14:55+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -64,7 +64,7 @@ msgstr ""
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 #, fuzzy
 msgid "Enable debugging code"
 msgstr ""
@@ -73,15 +73,15 @@ msgstr ""
 "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
 "Debugging-code inschakelen"
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "Niet nagaan of het mededelingengebied bestaat"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "Typ-observatie"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 msgid ""
 "The typing monitor uses the notification area to display information. You "
 "don't seem to have a notification area on your panel. You can add it by "
@@ -94,32 +94,22 @@ msgstr ""
 "aan paneel' te kiezen, 'Mededelingengebied' te selecteren en op 'Toevoegen' "
 "te klikken."
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 msgid "_Take a Break"
 msgstr "_Pauze nemen"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr ""
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "%d minuut tot de volgende pauze"
 msgstr[1] "%d minuten tot de volgende pauze"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr ""
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, fuzzy, c-format
 msgid "Less than one minute until the next break"
 msgstr ""
@@ -128,7 +118,7 @@ msgstr ""
 "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
 "Minder dan een minuut tot de volgende pauze"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -137,11 +127,11 @@ msgstr ""
 "Niet in staat het tikpauze-eigenschappenvenster te tonen, als gevolg van de "
 "volgende foutmelding: %s"
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Geschreven door Richard Hult <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 #, fuzzy
 msgid "Eye candy added by Anders Carlsson"
 msgstr ""
@@ -150,7 +140,7 @@ msgstr ""
 "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
 "Tierelantijntjes toegevoegd door Anders Carlsson"
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 #, fuzzy
 msgid "A computer break reminder."
 msgstr ""
@@ -159,7 +149,7 @@ msgstr ""
 "#-#-#-#-#  nl.po (gnome-control-center)  #-#-#-#-#\n"
 "Een programma dat u herinnert te pauzeren bij computergebruik"
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 "Tino Meinen\n"
@@ -173,11 +163,11 @@ msgstr ""
 "\n"
 "Kijk voor meer informatie op http://nl.gnome.org/"
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Pauze uitstellen"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 #, fuzzy
 msgid "Take a break!"
 msgstr ""
@@ -187,11 +177,11 @@ msgstr ""
 "Neem even pauze!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -199,15 +189,19 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 #, fuzzy
 msgid "Whether the typing break can be postponed"
 msgstr "Of de schermlezer ingeschakeld is."
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 #, fuzzy
 msgid "Whether typing break is enabled"
 msgstr "Of de schermlezer ingeschakeld is."
@@ -244,9 +238,8 @@ msgstr "Scherm ve_rgrendelen om tikpauze af te dwingen"
 msgid "_Work interval lasts:"
 msgstr "_Werkduur:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "minuten"
+#~ msgid "minutes"
+#~ msgstr "minuten"
 
 #~ msgid "    "
 #~ msgstr "    "

@@ -1,0 +1,3351 @@
+# #-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#
+# Romanian translation for gnome-control-center
+# This file is distributed under the same license as the gnome-control-center package.
+# Mugurel Tudor <mugurelu@gnome.ro>, 2002, 2003.
+# Mișu Moldovan <dumol@gnome.ro> 2003, 2004.
+# Sebastian Ivan <sebastian.ivan@ubuntu.ro>, 2005.
+# Dan Damian <dand@gnome.ro>, 2005-2006.
+# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+# #-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#
+# Romanian translation for gnome-control-center
+# This file is distributed under the same license as the gnome-control-center package.
+# Mugurel Tudor <mugurelu@gnome.ro>, 2002, 2003.
+# Mișu Moldovan <dumol@gnome.ro> 2003, 2004.
+# Sebastian Ivan <sebastian.ivan@ubuntu.ro>, 2005.
+# Dan Damian <dand@gnome.ro>, 2005-2006.
+# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+# #-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#
+# Romanian translation for gnome-control-center
+# This file is distributed under the same license as the gnome-control-center package.
+# Mugurel Tudor <mugurelu@gnome.ro>, 2002, 2003.
+# Mișu Moldovan <dumol@gnome.ro> 2003, 2004.
+# Sebastian Ivan <sebastian.ivan@ubuntu.ro>, 2005.
+# Dan Damian <dand@gnome.ro>, 2005-2006.
+# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
+# Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-09-29 01:09+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+"#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+"#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "Activează codul pentru depanare"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "Nu verifica existența zonei de notificare"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Monitorizare tastare"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Monitorizarea tastării utilizează zona de notificare pentru a afișa "
+"informații. Nu aveți o astfel de zonă în panoul dumneavoastră. O puteți "
+"adăuga cu un click dreapta pe panou alegând „Adaugă la panou”, selectând "
+"„Zonă de notificare” și făcând clic pe „Adaugă”."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "_Ia o pauză"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minut până la următoarea pauză"
+msgstr[1] "%d minute până la următoarea pauză"
+msgstr[2] "%d de minute până la următoarea pauză"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Mai puțin de un minut până la următoarea pauză"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Nu s-a reușit deschiderea fereastrei pentru configurarea pauzelor de lucru. "
+"Eroarea este: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Scris de Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Îmbunătățiri vizuale aduse de Anders Carlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Un program pentru pauzele de lucru în munca cu calculatorul."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Lucian Adrian Grijincu\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Adi Roiban https://launchpad.net/~adiroiban\n"
+"  Cracknel https://launchpad.net/~cracknel-org\n"
+"  Dan Damian https://launchpad.net/~dand\n"
+"  Doru Horișco https://launchpad.net/~doruhushhush\n"
+"  Horia Duțescu https://launchpad.net/~horia.dutescu\n"
+"  Ionuț Jula https://launchpad.net/~ionutjula\n"
+"  Manuel R. Ciosici https://launchpad.net/~manuelciosici\n"
+"  Mircea MITU https://launchpad.net/~mache\n"
+"  Raziel88 https://launchpad.net/~raziel-theripper\n"
+"  Stas Sushkov https://launchpad.net/~sushkov\n"
+"  Valentin Bora https://launchpad.net/~bvali"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "_Amână pauza"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Luați o pauză!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Dacă citirea ecranului este activată."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Dacă citirea ecranului este activată."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Pauze de lucru"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "Pau_za de lucru durează:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "B_lochează ecranul pentru a forța pauzele de scriere"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "_Perioada de lucru durează:"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Ia o pauză acum (următoarea în %dm)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Ia o pauză acum (următoarea în mai puțin de un minut)"
+
+#~ msgid "minutes"
+#~ msgstr "minute"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Arbeit</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Bifați pentru a permite amânările pauzelor de lucru"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Durata pauzei de lucru în care nu se permite tastarea"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Durata perioadei de lucru înainte de începerea unei pauze"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/_Über"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pausenerinnerer"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Legt fest, ob ein Dialog angezeigt wird, wenn beim Ausführen des "
+#~ "Bildschirmschoners ein Fehler auftritt."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Fehler beim Start anzeigen"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% des Speicherplatzes auf »%s« wird benutzt"
+
+#~ msgid "Analyze"
+#~ msgstr "Analysieren"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "GNOME-Lautstärkeregler"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Fehler beim Starten des Bildschirmschoners:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Der Bildschirmschoner steht in dieser Sitzung nicht zur Verfügung."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern des Mauszeiger-Themas erforderlich."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
+#~ "Dies ist zum Ändern der Zeiger erforderlich."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Audiodatei %s konnte nicht als Beispiel %s geladen werden"
+
+#~ msgid "Login"
+#~ msgstr "Anmelden"
+
+#~ msgid "Logout"
+#~ msgstr "Abmelden"
+
+#~ msgid "Boing"
+#~ msgstr "Gong"
+
+#~ msgid "Siren"
+#~ msgstr "Sirene"
+
+#~ msgid "Clink"
+#~ msgstr "Klicken"
+
+#~ msgid "Beep"
+#~ msgstr "Piep"
+
+#~ msgid "No sound"
+#~ msgstr "Kein Klang"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Diesem Ereignis ist kein Klang zugewiesen."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
+#~ "Sie können das Paket »gnome-audio« installieren, um die Vorgabeklänge zu "
+#~ "erhalten."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Die Audiodatei für dieses Ereignis existiert nicht."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Audiodatei wählen"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Die Datei %s ist keine gültige wav-Datei"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Audiodatei wählen …"
+
+#, fuzzy
+#~ msgid "Sound"
+#~ msgstr ""
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Audio\n"
+#~ "#-#-#-#-#  ro.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Sunet"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Setzen Sie diesen Wert auf »True«, um die MIME-Typ-Handler für »text/"
+#~ "plain« und »text/*« synchron zu halten."
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "»text/plain« und »text/*«-Handler synchronisieren"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "Anscheinend hat bereits eine andere Anwendung auf den Schlüssel »%u« "
+#~ "zugegriffen."
+
+#~ msgid "Accessibility"
+#~ msgstr "Accesibilitate"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Prag pentru notificare procent liber"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Prag fără notificare procent liber"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Perioada minimă de notificare pentru avertizările repetitive"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Căi de montare de ignorat"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Procentul pragului de spațiu liber pentru avertizarea inițială de spațiu "
+#~ "liber redus pe disc. Dacă procentul spațiului liber scade sub această "
+#~ "valoare, se va afișa o avertizare."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Specifică o listă de căi pentru montare ce vor fi ignorate atunci când "
+#~ "mai au puțin spațiu liber."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Specifică un interval de timp în minute. Avertizări repetate pentru un "
+#~ "volum nu vor apărea mai des decât acest interval."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Specifică o valoare în GB. Dacă spațiul liber este mai mare, nu se va "
+#~ "afișa nicio avertizare."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Specifică procentajul de reducere a spațiului liber înainte de a trimite "
+#~ "un o nouă avertizare."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Prag procentaj spațiu liber pentru notificare subsecventă"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Asociere pentru scoatere disc optic."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Asociere pentru activarea sau dezactivarea touchpad-ului."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Asociere pentru pornirea calculatorului."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Asociere pentru pornirea clientului de email."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Asociere pentru pornirea programului de ajutor."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Asociere pentru pornirea player-ului media."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Asociere pentru pornirea uneltei de căutare."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Asociere pentru pornirea navigatorului Web."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Asociere pentru blocarea ecranului."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Asociere pentru ieșirea din sesiune."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Asociere pentru micșorarea volumului sistemului."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Asociere pentru oprirea sunetului sistemului."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Asociere pentru deschiderea dosarului personal."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Asociere pentru pauză redare."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Asociere pentru creșterea volumului sistemului."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Asociere pentru salt la piesa următoare."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Asociere pentru salt la piesa precedentă."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr "Asociere pentru pornire redare (sau comutare redare/pauză)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Asociere pentru oprire redare."
+
+#~ msgid "Eject"
+#~ msgstr "Scoate"
+
+#~ msgid "Home folder"
+#~ msgstr "Dosar personal"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Lansare calculator"
+
+#~ msgid "Launch email client"
+#~ msgstr "Lansare client de mail"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Lansare fereastră de ajutor"
+
+#~ msgid "Launch media player"
+#~ msgstr "Lansare player multimedia"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Lansare navigator web"
+
+#~ msgid "Lock screen"
+#~ msgstr "Blocare ecran"
+
+#~ msgid "Log out"
+#~ msgstr "Închidere sesiune"
+
+#~ msgid "Next track"
+#~ msgstr "Piesa următoare"
+
+#~ msgid "Pause playback"
+#~ msgstr "Suspendă redarea"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Redare (sau redare/pauză)"
+
+#~ msgid "Previous track"
+#~ msgstr "Piesa precedentă"
+
+#~ msgid "Search"
+#~ msgstr "Căutare"
+
+#~ msgid "Stop playback"
+#~ msgstr "Oprire redare"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Comută touchpad-ul"
+
+#~ msgid "Volume down"
+#~ msgstr "Volum micșorat"
+
+#~ msgid "Volume mute"
+#~ msgstr "Oprire sunet"
+
+#~ msgid "Volume step"
+#~ msgstr "Pas volum"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Pas volum ca procent."
+
+#~ msgid "Volume up"
+#~ msgstr "Volum mărit"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Fișierul de configurație implicit pentru RandR"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Arată ecranele în zona de notificare"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Modulul XRandR va căuta configurația implicită în fișierul specificat de "
+#~ "această cheie. Este similar cu ~/.config/monitors.xml care în mod normal "
+#~ "este stocat în dosarul personal al utilizatorului. Dacă un utilizator nu "
+#~ "are un astfel de fișier, sau dacă acesta nu se potrivește cu configurația "
+#~ "monitoarelor, se va utiliza fișierul specificat de această cheie."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Pornește monitorul extern după pornirea sistemului"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Pornește monitorul extern după pornirea sistemului dacă utilizatorul "
+#~ "conectează un monitor la pornirea sistemului."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Pornește monitorul laptopului după pornirea sistemului"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Pornește monitorul laptopului după pornirea sistemului dacă utilizatorul "
+#~ "conectează un monitor la pornirea sistemului."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Dacă să fie afișată în panou o iconiță de notificare cu informații legate "
+#~ "de ecran."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Antialiasing"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Hinting"
+
+#~ msgid "RGBA order"
+#~ msgstr "Ordine RGBA"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Ordinea elementelor subpixeli dintr-un ecran LCD; folosit doar când "
+#~ "antialiasing-ul este setat pe „rgba”. Valorile posibile sunt: „rgb” "
+#~ "pentru roșu la stânga (cel mai comun), „bgr” pentru albastru la stânga, "
+#~ "„vrgb” pentru roșu sus, „vbgr” pentru roșu jos."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Rezoluția folosită pentru conversia dimensiunii fontului în dimensiunea "
+#~ "pixelilor, în puncte pe inch."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Tipul de antialiasing folosit la randarea fonturilor. Valori posibile "
+#~ "sunt: „none” pentru dezactivare antialiasing, „grayscale” pentru "
+#~ "antialiasing standard în nuanțe de gri și „rgba” pentru antialiasing pe "
+#~ "subpixeli (doar pentru ecranele LCD)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Tipul de indiciu folosit la afișarea fonturilor. Valorile posibile sunt: "
+#~ "„none” pentru niciun indiciu, „slight” pentru cel de bază, „medium” "
+#~ "pentru moderat și  „full” pentru maxim (poate cauza distorsionarea formei "
+#~ "literelor)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Taste permise"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Dacă nu este gol, scurtăturile de tastatură vor fi ignorate atât timp cât "
+#~ "directorul lor GConf nu este în listă. Acest lucru este folosit pentru "
+#~ "limitări."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Dezactivare touchpad în timpul tastării"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Activare derulare orizontală"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Activare clic maus cu touchpad"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Activează touchpad-ul"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Alegere metodă derulare touchpad"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Alegere metoda de derulare touchpad. Valorile suportate sunt: 0: "
+#~ "dezactivat, 1: derulare la margini, 2: derulare cu două degete"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Definiți ca „TRUE” dacă aveți probleme cu atingerea accidentală a "
+#~ "touchpad-ului în timp ce tastați."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Definiți ca „TRUE” pentru a permite derularea orizontală prin aceeași "
+#~ "metodă selectată de cheia scroll_method."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Definiți ca „TRUE” pentru a putea trimite clicuri de maus prin atingerea "
+#~ "touchpad-ului."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Definiți ca „TRUE” pentru a activa toate touchpad-urile."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Serviciul de configurări GNOME"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Asociere pentru comutarea lupei."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Asociere pentru comutarea tastaturii pe ecran."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Asociere pentru comutarea cititorului de ecran."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Taste ce sar"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Comanda folosită pentru a activa sau dezactiva lupa."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Comanda folosită pentru a activa sau dezactiva tastatura pe ecran."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Comanda folosită pentru a activa sau dezactiva cititorul de ecran."
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Activare modul XRandR"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Activează facilitățile pentru accesibilitatea tastaturii"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Activare modul fundal"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Activare modul clipboard"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Activare modul font"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Activare modul de menaj"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Activare modul asociere taste"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Activare modul tastatură"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Activare modul taste media"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Activare modul maus"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Activare modul smartcard"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Activare modul sunet"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Activare modul pauze tastare"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Activare modul xrdb"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Activare modul xsettings"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Taste maus"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Tastatură pe ecran"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Lupă ecran"
+
+#~ msgid "Screen reader"
+#~ msgstr "Cititor ecran"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Definiți ca „true” pentru a activa modulul de menaj să șteargă fișierele "
+#~ "de cache."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "XRandR."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "clipboard."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "fundal."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "fonturi."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "tastatură."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare a blocării "
+#~ "ecranului la scoaterea smartcard-ului."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "maus."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "taste multimedia."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Definiți ca „true” pentru a activa modulul de administrare mostre de "
+#~ "sunet."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "tastatură de accesibilitate."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "asocieri taste."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "pauze tastare."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "xrdb."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare xsettings."
+
+#~ msgid "Slow keys"
+#~ msgstr "Taste încete"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Taste lipicioase"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Numele scurtăturii de tastatură pentru comutarea lupei"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr ""
+#~ "Numele scurtăturii de tastatură pentru comutarea tastaturii pe ecran"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr ""
+#~ "Numele scurtăturii de tastatură pentru comutarea cititorului de ecran"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Numele scurtăturii de tastatură pentru comutarea lupei. Acest nume va fi "
+#~ "afișat în dialogul preferințelor de tastatură."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Numele scurtăturii de tastatură pentru comutarea tastaturii pe ecran. "
+#~ "Acest nume va fi afișat în dialogul preferințelor de tastatură."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Numele scurtăturii de tastatură pentru comutarea cititorului de ecran. "
+#~ "Acest nume va fi afișat în dialogul preferințelor de tastatură."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Comută lupa"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Comută tastatura pe ecran"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Comută cititorul de ecran"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Dacă funcționalitatea de accesibilitate a tastaturii „taste ce sar”  este "
+#~ "activată."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Dacă funcționalitatea de accesibilitate tastatură „taste maus” este "
+#~ "activată."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Dacă tastatura pe ecran este pornită."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Dacă mărirea ecranului este activată."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Dacă funcționalitatea de accesibilitate tastatură „taste încete” este "
+#~ "activată."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Dacă funcționalitatea de accesibilitate tastatură „taste lipicioase” este "
+#~ "activată. "
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Definiți această cheie la „none”, „lock_screen” sau „force_logout”. "
+#~ "Acțiunea va fi efectuată când smartcardul utilizat la autentificare este "
+#~ "scos."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Acțiune la scoaterea smartcardului"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Nu deveni un serviciu"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "Prefix GConf de unde să fie încărcate configurările pentru modul"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Ieși după un timp (pentru depanare)"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Accesibilitate tastatură"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Modul accesibilitate tastatură"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "A intervenit o eroare la afișarea ajutorului: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Doriți să activați „Tastele încete”?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Doriți să dezactivați „Tastele încete”?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Ați ținut tasta Shift apăsată timp de opt secunde. Aceasta este tasta ce "
+#~ "activează „Tastele încete” și schimbă modul de funcționare al tastaturii."
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Nu dezactiva"
+
+#~ msgid "Activate"
+#~ msgstr "Activează"
+
+#~ msgid "Deactivate"
+#~ msgstr "Dezactivează"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_Nu activa"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "_Nu dezactiva"
+
+#~ msgid "_Activate"
+#~ msgstr "_Activează"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Dezactivează"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Alertă pentru „Taste încete”"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Doriți să activați „Modificatorii persistenți”?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Doriți să dezactivați „Modificatorii persistenți”?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Ați apăsat Shift de cinci ori la rând. Aceasta este combinația ce "
+#~ "activează „Modificatorii persistenți” și schimbă modul de funcționare al "
+#~ "tastaturii."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Ați apăsat două taste în același timp sau ați apăsat Shift de cinci ori "
+#~ "la rând. Aceste acțiuni inactivează „Modificatorii persistenți” și "
+#~ "schimbă modul de funcționare al tastaturii."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Alertă „Modificatori persistenți”"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Preferințe acces universal"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Îmbunătățește _contrastul în culori"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "Fă _textul mai mare și mai ușor de citit"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Tineți _apăsate tastele pentru a le accepta (Taste încete)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Folosește _tastatura pe ecran"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Folosește o _lupă de ecran"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Folosește citito_rul de ecran"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Ignoră apăsările duplicate de taste (taste ce sar)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr ""
+#~ "A_păsați scurtătura de tastatură, câte o tastă pe rând (taste încete)"
+
+#~ msgid "Background"
+#~ msgstr "Fundal"
+
+#~ msgid "Background plugin"
+#~ msgstr "Modul fundal"
+
+#~ msgid "Clipboard"
+#~ msgstr "Clipboard"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Modul clipboard"
+
+#~ msgid "Dummy"
+#~ msgstr "Nimic"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Modul demonstrativ"
+
+#~ msgid "Font"
+#~ msgstr "Fonturi"
+
+#~ msgid "Font plugin"
+#~ msgstr "Modul font"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "Nu mai arăta nicio avertizare pentru acest sistem de fișiere"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Nu mai arăta nicio avertizare"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Volumul „%s” mai are doar %s spațiu liber pe disc."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Acest calculator mai are doar %s spațiu liber pe disc."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Puteți obține mai mult spațiu liber prin golirea coșului de gunoi, "
+#~ "ștergerea programelor sau fișierelor nefolosite sau prin mutarea "
+#~ "fișierelor pe un alt disc sau partiție."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Puteți obține mai mult spațiu liber prin ștergerea programelor sau "
+#~ "fișierelor nefolosite sau prin mutarea fișierelor pe un alt disc sau "
+#~ "partiție."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Puteți obține mai mult spațiu liber prin golirea coșului de gunoi, "
+#~ "ștergerea programelor sau fișierelor nefolosite sau prin mutarea "
+#~ "fișierelor pe un disc extern."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Puteți obține mai mult spațiu liber prin ștergerea programelor sau "
+#~ "fișierelor nefolosite sau prin mutarea fișierelor pe un disc extern."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Spațiu redus pe disc"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Golește coșul de gunoi"
+
+#~ msgid "Examine…"
+#~ msgstr "Examinează…"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignoră"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Se șterge elementul: %lu din %lu"
+
+#~ msgid "Removing: %s"
+#~ msgstr "Se șterge: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Se golește coșul de gunoi"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Se pregătește golirea coșului de gunoi…"
+
+#~ msgid "From: "
+#~ msgstr "De la:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Goliți cu totul coșul de gunoi?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Dacă alegeți să goliți coșul de gunoi, toate elementele vor fi șterse "
+#~ "definitiv. De asemenea puteți să ștergeți elementele și individual."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Gol_ește coșul de gunoi"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Asocierea de taste (%s) nu este validă"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Asocierea de taste (%s) este incompletă"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Eroare la pornirea (%s)\n"
+#~ "care este mapat cheii (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Asociere taste"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Modul asociere taste"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastatură"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Modul tastatură"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Eroare la activarea configurației XKB.\n"
+#~ "Se poate întâmpla sub varii circumstanțe:\n"
+#~ " • o problemă în biblioteca libxklavier\n"
+#~ " • o problemă în serverul X (xkbcomp, utilitarele xmodmap)\n"
+#~ " • server X cu implementare libxkbfile incompatibilă\n"
+#~ "\n"
+#~ "Date de versiune ale serverului X:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Dacă raportați această problemă, includeți:\n"
+#~ " • Rezultatul comenzii <b>%s</b>\n"
+#~ " • Rezultatul comenzii <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Utilizați XFree 4.3.0.\n"
+#~ "Există probleme cunoscute în legătură cu configurații XKB complexe.\n"
+#~ "Încercați să utilizați o configurație mai simplă sau actualizați "
+#~ "versiunea pachetului XFree."
+
+#~ msgid "_Layouts"
+#~ msgstr "Aran_jamente"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "_Preferințe tastatură"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Afișează aranjamentul _curent"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Fișiere _disponibile:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Încărcare fișiere modmap"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Doriți să fie încărcate fișierele modmap?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Nu mai arăta acest mesaj în viitor"
+
+#~ msgid "_Load"
+#~ msgstr "Î_ncarcă"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "Fișiere î_ncărcate:"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Nu s-a putut obține terminalul implicit. Asigurați-vă de definirea și "
+#~ "validitatea comenzii pentru terminalul implicit."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Nu s-a putut executa comanda: %s\n"
+#~ "Asigurați-vă că aceasta este o comandă validă."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u ieșire"
+#~ msgstr[1] "%u ieșiri"
+#~ msgstr[2] "%u de ieșiri"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u intrare"
+#~ msgstr[1] "%u intrări"
+#~ msgstr[2] "%u de intrări"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sunete de sistem"
+
+#~ msgid "Media keys"
+#~ msgstr "Taste media"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Modul taste media"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Nu s-au putut activa facilitățile pentru accesibilitatea mausului"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Accesibilitățile mausului necesită instalarea Mousetweaks în sistemul "
+#~ "dumneavoastră."
+
+#~ msgid "Mouse"
+#~ msgstr "Maus"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Modul maus"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Modul pauze de lucru"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Definire dimensiune și rotire ecran"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Nu s-a putut comuta configurația monitorului"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Nu s-a putut restaura configurația ecranului"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr ""
+#~ "Nu s-a putut restaura configurația ecranului dintr-o copie de siguranță"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "Ecranul va fi restaurat la configurația anterioară în %d secundă"
+#~ msgstr[1] "Ecranul va fi restaurat la configurația anterioară în %d secunde"
+#~ msgstr[2] ""
+#~ "Ecranul va fi restaurat la configurația anterioară în %d de secunde"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Ecranul arată bine?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Restaurează configurația anterioară"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Păstrează această configurație"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Configurația aleasă pentru ecrane nu a putut fi aplicată"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Nu s-a putut reîncărca informația ecranului: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Se încearcă oricum comutarea configurării monitorului."
+
+#~ msgid "Rotation not supported"
+#~ msgstr "Rotirea nu este suportată"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Nu s-a putut salva configurația monitorului"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Left"
+#~ msgstr "Stânga"
+
+#~ msgid "Right"
+#~ msgstr "Dreapta"
+
+#~ msgid "Upside Down"
+#~ msgstr "Răsturnat"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Configurare preferințe ecran…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Configurare preferințe ecran"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Nu s-a putut aplica configurația stocată pentru monitoare"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Nu s-a putut determina dosarul personal al utilizatorului"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Administrare bază de date cu resurse X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Bază de date cu resurse X"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr "Cheia GConf %s este definită ca tip %s, dar tipul așteptat era %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Administrare de configurări X"
+
+#~ msgid "X Settings"
+#~ msgstr "Configurări X"
+
+#~ msgid "Module Path"
+#~ msgstr "Cale modul"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "calea către driverul smartcard PKCS #11"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "primit eroare sau închidere de la sursa de evenimente"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Sistemul de securitate NSS nu a putut fi inițializat"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "nu s-a găsit niciun driver de smartcard potrivit"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "driverul de smartcard „%s” nu a putut fi încărcat"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "nu se pot urmări evenimentele inițiate de card - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr ""
+#~ "s-a întâlnit o eroare neașteptată în timp ce se așteptau evenimente de la "
+#~ "smartcard"
+
+#~ msgid "Slot ID"
+#~ msgstr "ID slot"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Conectorul în care se află cadrul"
+
+#~ msgid "Slot Series"
+#~ msgstr "Serie de sloturi"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "identificatorul cardului per-slot"
+
+#~ msgid "name"
+#~ msgstr "nume"
+
+#~ msgid "Module"
+#~ msgstr "Modul"
+
+#~ msgid "smartcard driver"
+#~ msgstr "driver smartcard"
+
+#~ msgid "Change system time"
+#~ msgstr "Modifică ora sistemului"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Modifică fusul orar al sistemului"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Configurează ceasul fizic al calculatorului"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr ""
+#~ "Sunt necesare privilegii pentru a modifica fusul orar al sistemului."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "Sunt necesare privilegii pentru a modifica ora sistemului."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr ""
+#~ "Sunt necesare privilegii pentru a modifica ceasul fizic al calculatorului."
+
+#~ msgid "Unknown"
+#~ msgstr "Necunoscut"
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "Dacă citirea ecranului este activată."
+
+#~ msgid "Don't activate"
+#~ msgstr "Nu activa"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Preferințe maus"
+
+#~ msgid "Typing Break"
+#~ msgstr "Pauze de lucru"
+
+#~ msgid "Current network location"
+#~ msgstr "Locația de rețea curentă"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "URL pentru mai multe imagini de fundal"
+
+#~ msgid "More themes URL"
+#~ msgstr "URL pentru mai multe teme"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Scrieți numele locației curente de rețea. Această valoare este folosită "
+#~ "pentru a determina configurația potrivită pentru proxyul de rețea."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL-ul de la care să fie aduse mai multe imagini de fundal. Dacă este "
+#~ "lăsat gol, legătura nu va apărea."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL-ul de la care să fie aduse mai multe teme. Dacă este lăsat gol, "
+#~ "legătura nu va apărea."
+
+#~ msgid "Key"
+#~ msgstr "Cheie"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Cheia GConf căreia îi este atașat acest editor de proprietăți"
+
+#~ msgid "Callback"
+#~ msgstr "Retroapel"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Inițiază acest retroapel când valoarea asociată cheii se modifică"
+
+#~ msgid "Change set"
+#~ msgstr "Set schimbări"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Set de schimbări GConf conținând datele de trimis clientului Gconf pentru "
+#~ "aplicare"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Retroapel de conversie spre widget"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "Retroapel inițiat la conversia datelor din GConf spre widget"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Retroapel de conversie din widget"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "Retroapel inițiat la conversia datelor spre GConf din widget"
+
+#~ msgid "UI Control"
+#~ msgstr "Control UI"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Obiect care controlează proprietatea (în mod normal un widget)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Obiect editor proprietăți"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Date personalizate cerute de editorul specific de proprietăți"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Apel returnat de eliberare a datelor editorului de proprietăți"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr "Retroapel inițiat la eliberarea datelor din editorul de proprietăți"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Nu s-a putut găsi fișierul „%s”.\n"
+#~ "\n"
+#~ "Vă rugăm să verificați existența lui și încercați din nou, sau alegeți o "
+#~ "altă imagine de fundal."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Nu se știe cum se deschide fișierul „%s”.\n"
+#~ "Probabil e un tip de imagine care nu este suportat încă.\n"
+#~ "\n"
+#~ "Alegeți o altă imagine în locul ei."
+
+#~ msgid "Please select an image."
+#~ msgstr "Alegeți o imagine."
+
+#~ msgid "_Select"
+#~ msgstr "_Alege"
+
+#~ msgid "Date And Time"
+#~ msgstr "Data și ora"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "Panoul de preferințe pentru dată și oră"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Aplicații preferate"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Alegeți aplicațiile implicite"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Pornește tehnologia asistativă vizuală preferată"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Asistență vizuală"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Eroare la salvarea configurației: %s"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizat"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Nu s-a putut încărca interfața principală"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Asigurați-vă că această miniaplicație este corect instalată."
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Toate aparițiile %s vor fi înlocuite cu legătura propriu-zisă"
+
+#~ msgid "C_ommand:"
+#~ msgstr "C_omandă:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Co_mandă:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Indicator e_xec:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Vizualizator de imagini"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Mesagerie instant"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Client de email"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobilitate"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Player multimedia"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Deschide legăturile web în _taburi noi"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Deschide legăturile web în _ferestre noi"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr ""
+#~ "_Deschide legăturile web folosind configurările navigatorului web implicit"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Pornește la st_art"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Pornește în t_erminal"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Emulator de terminal"
+
+#~ msgid "Text Editor"
+#~ msgstr "Editor de text"
+
+#~ msgid "Video Player"
+#~ msgstr "Program de redare video"
+
+#~ msgid "Visual"
+#~ msgstr "Vizual"
+
+#~ msgid "Web Browser"
+#~ msgstr "Navigator de Internet"
+
+#~ msgid "_Run at start"
+#~ msgstr "Po_rnește la start"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Player muzică Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Navigatorul web implicit din Debian"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Emulator de terminal Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Navigator web Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Client e-mail Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Lupa GNOME fără cititor de ecran"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Tastatură pe ecran GNOME"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminal GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus cu lupă"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Lupa KDE fără Cititor de ecran"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Cititor de ecran Linux"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Cititor de ecran Linux cu lupă"
+
+#~ msgid "Listen"
+#~ msgstr "Ascultă"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Player muzică Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca cu lupă"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Player muzică Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Terminal X standard"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Player multimedia Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "<i>Note: may limit resolution options</i>"
+#~ msgstr "<i>Notă: poate limita opțiunile de rezoluție</i>"
+
+#~ msgid "Include _panel"
+#~ msgstr "Include _panou"
+
+#~ msgid "Make Default"
+#~ msgstr "Setează ca implicit"
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Off"
+#~ msgstr "Oprit"
+
+#~ msgid "On"
+#~ msgstr "Pornit"
+
+#~ msgid "Panel icon"
+#~ msgstr "Iconiță panou"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_otire:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "_Frecvență de reîmprospătare:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "Aceeași i_magine pe toate monitoarele"
+
+#~ msgid "Upside-down"
+#~ msgstr "Inversat"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Detectează monitoarele"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Rezoluție:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "A_rată monitoarele în panou"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Schimbă rezoluția și poziția monitoarelor"
+
+#~ msgid "Monitors"
+#~ msgstr "Monitoare"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Utilizare: %s FIȘIER_SURSĂ NUME_DESTINAȚIE\n"
+#~ "\n"
+#~ "Acest program instalează un profil RANDR pentru configurații cu mai "
+#~ "multe\n"
+#~ "monitoare într-o locație de sistem. Profilul rezultant va fi utilizat "
+#~ "când\n"
+#~ "modulul de extensie RANDR este executat în gnome-settings-daemon.\n"
+#~ "\n"
+#~ "FIȘIER_SURSĂ - o cale absolută, de obicei /home/numeutiizator/.config/"
+#~ "monitors.xml\n"
+#~ "\n"
+#~ "NUME_DESTINAȚIE - nume relativ al fișierului instalat.  Acesta va fi pus "
+#~ "în\n"
+#~ "            dosarul global al configurărilor RANDR, rezultatul va fi de "
+#~ "obicei %s/NUME_DESTINAȚIE\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Acest program poate fi utilizat doar de utilizatorul root"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Numele fișierului sursă trebuie să fie absolut"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Nu s-a putut deschide %s: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Nu s-au putut obține informații despre %s: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s trebuie să fie un fișier obișnuit\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Acest program trebuie rulat prin pkexec(1)"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID trebuie să fie definit la o valoare întreagă"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "%s trebuie să fie în posesia dumneavoastră\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s trebuie să nu aibă nicio componentă de dosar\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s trebuie să fie un dosar\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Nu s-a putut deschide %s/%s: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "Nu s-a putut redenumi %s la %s: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Autentificarea este necesară pentru a instala configurări multi-monitor "
+#~ "pentru toți utilizatorii"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Instalează configurări multi-monitor pentru tot sistemul"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Oglindire ecrane"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Monitor: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Alegeți un monitor pentru a-i schimba proprietățile; trageți-l pentru a-l "
+#~ "rearanja."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Nu s-a putut salva configurația monitorului"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Nu s-a putut obține magistrala sesiunii în timp ce se aplica configurația "
+#~ "monitoarelor"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Nu s-au putut detecta monitoarele"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Configurația monitorului a fost salvată"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr ""
+#~ "Această configurație va fi utilizată data viitoare când un utilizator se "
+#~ "autentifică."
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Nu s-a putut defini configurația implicită a monitoarelor"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Nu s-au putut obține informații despre ecran"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Scurtătură nouă..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Cheie de accelerare"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Acceleratori"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Codul cheii de accelerare"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Mod accelerator"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Tipul de accelerator."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Acțiune necunoscută>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Scurtături personalizate"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Eroare la salvarea noii combinații de taste"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Scurtătura „%s” nu se poate folosi deoarece nu se va putea scrie folosind "
+#~ "această tastă.\n"
+#~ "Încercați în combinație cu una din tastele Control, Alt sau Shift în "
+#~ "același timp."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Scurtătura „%s” este deja folosită pentru\n"
+#~ "„%s”"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Dacă reasociați scurtătura la „%s”, scurtătura „%s” va fi dezactivată."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Reasociază"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Eroare în timpul dezactivării acceleratorului în baza de date a "
+#~ "configurării: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Prea multe combinații de taste personalizate"
+
+#~ msgid "Action"
+#~ msgstr "Acțiune"
+
+#~ msgid "Shortcut"
+#~ msgstr "Scurtătură"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Scurtătură personalizată"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Scurtături tastatură"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Pentru a modifica o scurtătură, faceți clic pe rândul corespunzător și "
+#~ "tastați o nouă combinație de taste, sau apăsați „backspace” pentru a "
+#~ "șterge combinația de taste."
+
+#~ msgid "_Name:"
+#~ msgstr "_Nume:"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Asociați combinații comenzilor des utilizate"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr ""
+#~ "Sună când facilitățile pentru _accesibilitate sunt pornite sau oprite"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Sună când o tastă _modificatoare a fost apăsată"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Sună când o _tastă comutațională a fost apăsată"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Sună când o tastă _este apăsată"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Sună _când o tastă a fost respinsă"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Sună când o tastă a fost _acceptată"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Sună când tastă este _respinsă"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Taste fără repetiție"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Licărește titlul _ferestrei"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Licărește tot _ecranul"
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Reacție audio pentru accesibilitatea tastaturii"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Afișează reacții _vizuale pentru alertele de sunet"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Taste încete"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Taste lipicioase"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Indicații vizuale pentru sunete"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Pe_rmite amânarea pauzelor de lucru"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "_Reacție audio..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Cursor clipitor"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Cursorul clipește într-un câm_p text"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Viteză de clipire a cursorului"
+
+#~ msgid "D_elay:"
+#~ msgstr "Întârzi_ere:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "Dezacti_vează tastele lipicioase dacă două taste au fost apăsate în "
+#~ "acelși timp"
+
+#~ msgid "Fast"
+#~ msgstr "Rapid"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Tastele apăsate se _repetă până la eliberare"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Preferințe tastatură"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Model tastatură:"
+
+#~ msgid "Layouts"
+#~ msgstr "Aranjamente"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Listă de aranjamente de tastatură alese pentru utilizare"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Blochează ecranul după o anumită perioadă pentru a preveni problemele "
+#~ "provocate de lucrul prelungit la tastatură"
+
+#~ msgid "Long"
+#~ msgstr "Lungă"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Taste maus"
+
+#~ msgid "Move _Down"
+#~ msgstr "Mută mai _jos"
+
+#~ msgid "Move _Up"
+#~ msgstr "Mută mai s_us"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Multă aranjamentul de tastatură ales mai jos în listă"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Multă aranjamentul de tastatură ales mai sus în listă"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Fere_strele noi folosesc aranjamentul ferestrei active"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Tipărește o diagramă a aranjamentului de tastatură ales"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Elimină aranjamentul de tastatură ales din listă"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Repetare taste"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Viteză repetare taste"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Înlocuiește configurările aranjamentului de tastatură\n"
+#~ "ales cu configurările implicite"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Resetează la _valorile implicite"
+
+#~ msgid "S_peed:"
+#~ msgstr "Vite_ză:"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Alegeți un aranjament de tastatură de adăugat în listă"
+
+#~ msgid "Short"
+#~ msgstr "Scurtă"
+
+#~ msgid "Slow"
+#~ msgstr "Încet"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Vizualizați și editați opțiunile de aranjament de tastatură"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Acclerare:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "_Caracteristicile de accesibilitate pot fi comutate cu scurtături de taste"
+
+#~ msgid "_Add..."
+#~ msgstr "_Adaugă..."
+
+#~ msgid "_Delay:"
+#~ msgstr "Î_ntârziere:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Ignoră apăsările repetate și rapide de taste"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "Acceptă d_oar apăsările de taste lungi"
+
+#~ msgid "_Options..."
+#~ msgstr "_Opțiuni..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "Cursorul _poate fi controlat folosind tastele numerice"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Aranjamente _separate pentru fiecare fereastră"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simulează apăsări de taste simultane"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Viteză:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Tastați pentru a testa configurările:"
+
+#~ msgid "By _country"
+#~ msgstr "După ț_ară"
+
+#~ msgid "By _language"
+#~ msgstr "După _limbă"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Alegeți un aranjament"
+
+#~ msgid "Preview:"
+#~ msgstr "Previzualizare:"
+
+#~ msgid "_Country:"
+#~ msgstr "Ța_ră:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Limbă:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Variante:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Alegeți un model de tastatură"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modele:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Vânzători:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Opțiuni aranjament tastatură"
+
+#~ msgid "Layout"
+#~ msgstr "Aranjament"
+
+#~ msgid "Vendors"
+#~ msgstr "Vânzători"
+
+#~ msgid "Models"
+#~ msgstr "Modele"
+
+#~ msgid "Default"
+#~ msgstr "Implicit"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Schimbați opțiunile de tastare"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Nu s-a putut încărca iconița standard „%s”\n"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Mutare stânga"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Mutare dreapta"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Mutare sus"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Mutare jos"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Dezactivat"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Alegeți tipul de clic în prealabi_l"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Alegeți tipul de clic cu gesturi de ma_us"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "D_ublu clic:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Clic t_ragere:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Dezactivează _touchpadul în timpul tastării"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Timp alocat pentru dublu-clic"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Trage și mută"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Clic staționar"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Activează _clicurile cu touchpadul"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Activează derularea _orizontală"
+
+#~ msgid "High"
+#~ msgstr "Ridicată"
+
+#~ msgid "Large"
+#~ msgstr "Mare"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Localizează indicatorul"
+
+#~ msgid "Low"
+#~ msgstr "Scăzută"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Orientarea maus"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Viteza indicatorului"
+
+#~ msgid "Scrolling"
+#~ msgstr "Derulare"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Clic secu_ndar:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Afișează p_oziția indicatorului când tasta Control este apăsată"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Afișea_ză fereastra pentru tipuri de clic"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Click secundar simulat"
+
+#~ msgid "Small"
+#~ msgstr "Mică"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "Pra_g:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Pentru a testa configurațiile, încercați să efectuați un dublu-clic pe "
+#~ "bec."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Derulare cu două dege_te"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Puteți de asemenea să utilizați miniaplicația pentru Clic staționar "
+#~ "pentru a alege tipul clicului."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Dezactivat"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "D_erulare la margine"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Inițiază clic când oprește mișcarea indicatorului"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Stângaci"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "Prag de _mișcare:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "D_reptaci"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Sensibilitate:"
+
+#~ msgid "_Single click:"
+#~ msgstr "Clic _simplu:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Timp expirare:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "_Declanșează clicul secundar în timp ce este menținut butonul primar"
+
+#~| msgid "Touchpad"
+#~ msgid "Mouse and Touchpad"
+#~ msgstr "Maus și touchpad"
+
+#~| msgid "Set your mouse preferences"
+#~ msgid "Set your mouse and touchpad preferences"
+#~ msgstr "Definiți preferințele pentru maus și touchpad"
+
+#~ msgid "New Location..."
+#~ msgstr "Locație nouă..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Locația există deja"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Proxy rețea"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Opțiuni proxy rețea"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Conexiune di_rectă la Internet</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Configurare _automată pentru proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Configurare _manuală pentru proxy</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Utilizează autentificare</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL de autoconfigurare:"
+
+#~ msgid "C_reate"
+#~ msgstr "C_reează"
+
+#~ msgid "Create New Location"
+#~ msgstr "Creează o nouă locație"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detalii proxy HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Proxy H_TTP:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Listă de excepții"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Excepții"
+
+#~ msgid "Location:"
+#~ msgstr "Locație:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Opțiuni proxy rețea"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Configurare proxy rețea"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Server s_ocks:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Locația există deja."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Nume utilizator:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "Șterge _locația"
+
+#~ msgid "_Details"
+#~ msgstr "D_etalii"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Proxy _ftp:"
+
+#~ msgid "_Location name:"
+#~ msgstr "Nume _locație:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Parolă:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Proxy HTTP_S:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Folosește același proxy pentr_u toate protocoalele"
+
+#~ msgid "Universal Access"
+#~ msgstr "Acces universal"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr "<span size=\"x-large\">Ridicat/Invers</span>"
+
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr "<span size=\"x-large\">Ridicat</span>"
+
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr "<span size=\"x-large\">Scăzut</span>"
+
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr "<span size=\"x-large\">Normal</span>"
+
+#~ msgid "Acceptance delay:"
+#~ msgstr "Întârziere acceptare:"
+
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr ""
+#~ "Caracteristicile de accesibilitate pot fi activate sau dezactivate cu "
+#~ "scurtături de taste"
+
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Sună când tasta Caps sau tasta Num Lock este apăsată"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "Sună când o tastă este"
+
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "Sună când o tastă a fost respinsă"
+
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "Sună când o tastă modificatoare a fost apăsată"
+
+#~ msgid "Caribou"
+#~ msgstr "Caribou"
+
+#~ msgid "Change constrast:"
+#~ msgstr "Modifică contrastul:"
+
+#~ msgid "Contrast:"
+#~ msgstr "Contrast:"
+
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "Controlați cursorul folosind tastele numerice."
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "Controlați cursorul folosind camera video."
+
+#~ msgid "Ctrl+Alt+-"
+#~ msgstr "Ctrl+Alt+-"
+
+#~ msgid "Ctrl+Alt+0"
+#~ msgstr "Ctrl+Alt+0"
+
+#~ msgid "Ctrl+Alt+4"
+#~ msgstr "Ctrl+Alt+4"
+
+#~ msgid "Ctrl+Alt+8"
+#~ msgstr "Ctrl+Alt+8"
+
+#~ msgid "Ctrl+Alt+="
+#~ msgstr "Ctrl+Alt+="
+
+#~ msgid "Decrease size:"
+#~ msgstr "Micșorează dimensiunea:"
+
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "Dezacti_vează dacă două taste au fost apăsate în același timp"
+
+#~ msgid "Display"
+#~ msgstr "Afișare"
+
+#~ msgid "Display a textual description of speech and sounds."
+#~ msgstr "Afișează o descriere textuală a vorbirii și a sunetelor."
+
+#~ msgid "Flash the entire screen"
+#~ msgstr "Licărește tot ecranul"
+
+#~ msgid "Flash the window title"
+#~ msgstr "Licărește titlul ferestrei"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#~ msgid "Hearing"
+#~ msgstr "Auz"
+
+#~ msgid "High/Inverse"
+#~ msgstr "Ridicat/Invers"
+
+#~ msgid "HighContrast"
+#~ msgstr "ContrastRidicat"
+
+#~ msgid "HighContrastInverse"
+#~ msgstr "ContrastRidicatInversat"
+
+#~ msgid "I need assistance with:"
+#~ msgstr "Am nevoie de asistență pentru:"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ignoră apăsările repetate și rapide de taste"
+
+#~ msgid "Increase size:"
+#~ msgstr "Mărește dimensiunea:"
+
+#~ msgid "Keyboard Settings..."
+#~ msgstr "Configurări tastatură..."
+
+#~ msgid "Larger"
+#~ msgstr "Mai mare"
+
+#~ msgid "LowContrast"
+#~ msgstr "ContrastScăzut"
+
+#~ msgid "Mouse Settings..."
+#~ msgstr "Configurări maus..."
+
+#~ msgid "None"
+#~ msgstr "Niciuna"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "Tastatură pe ecran"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "Options..."
+#~ msgstr "Opțiuni..."
+
+#~ msgid "Pointing and Clicking"
+#~ msgstr "Indicare și clic cu mausul"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted."
+#~ msgstr ""
+#~ "Introduce o întârziere între momentul în care o tastă este apăsată și cel "
+#~ "în care este acceptată."
+
+#~ msgid "Screen Reader"
+#~ msgstr "Cititor de ecran"
+
+#~ msgid "Seeing"
+#~ msgstr "Văz"
+
+#~ msgid "Shift+Ctrl+Alt+-"
+#~ msgstr "Shift+Ctrl+Alt+-"
+
+#~ msgid "Shift+Ctrl+Alt+="
+#~ msgstr "Shift+Ctrl+Alt+="
+
+#~ msgid "Show Universal Access status"
+#~ msgstr "Afișează starea accesului universal"
+
+#~ msgid "Sound Settings..."
+#~ msgstr "Configurări sunet..."
+
+#~ msgid "Test flash"
+#~ msgstr "Testează licărirea"
+
+#~ msgid "Test:"
+#~ msgstr "Test:"
+
+#~ msgid "Text size:"
+#~ msgstr "Dimensiune text:"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination."
+#~ msgstr ""
+#~ "Tratează o secvență de taste modificatoare ca o combinație de taste."
+
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "Declanșează un clic când cursorul plutește deasupra."
+
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr ""
+#~ "Declanșează un clic secundar în timp ce este menținut butonul primar."
+
+#~ msgid "Turn on or off:"
+#~ msgstr "Activează sau dezactivează:"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "_Tastați aici pentru a testa configurările"
+
+#~ msgid "Typing"
+#~ msgstr "Tastare"
+
+#~ msgid "Typing Assistant"
+#~ msgstr "Asistent tastare"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Utilizează un indicator vizual când apare un sunet de alertă."
+
+#~ msgid "Use an alternative form of text input"
+#~ msgstr "Utilizează o formă alternativă de introducere de text"
+
+#~ msgid "Video Mouse"
+#~ msgstr "Maus video"
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Alerte vizuale"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Zoom in:"
+#~ msgstr "Apropiere:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "Depărtare:"
+
+#~ msgid "accepted"
+#~ msgstr "acceptată"
+
+#~ msgid "pressed"
+#~ msgstr "apăsată"
+
+#~ msgid "rejected"
+#~ msgstr "respinsă"
+
+#~ msgid "Control Center"
+#~ msgstr "Centrul de control"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Unealtă de configurare GNOME"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "La activare, pentru fonturile OpenType se vor crea miniaturi."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "La activare, pentru fonturile PCF se vor crea miniaturi."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "La activare, pentru fonturile TrueType se vor crea miniaturi."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "La activare, pentru fonturile Type1 se vor crea miniaturi."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Definiți această cheie cu comanda utilizată pentru a crea miniaturi "
+#~ "pentru fonturile OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Definiți această cheie cu comanda utilizată pentru a crea miniaturi "
+#~ "pentru fonturile PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Definiți această cheie cu comanda utilizată pentru a crea miniaturi "
+#~ "pentru fonturile TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Definiți această cheie cu comanda utilizată pentru a crea miniaturi "
+#~ "pentru fonturile Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Comanda de creare miniaturi pentru fonturile OpenType."
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Comanda de creare miniaturi pentru fonturile PCF."
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Comanda de creare miniaturi pentru fonturile TrueType."
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Comanda de creare miniaturi pentru fonturile Type1."
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Specifică dacă fonturile OpenType vor avea miniaturi."
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Specifică dacă fonturile PCF vor avea miniaturi."
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Specifică dacă fonturile TrueType vor avea miniaturi."
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Specifică dacă fonturile Type1 vor fi previzualizate."
+
+#~ msgid "Name:"
+#~ msgstr "Nume:"
+
+#~ msgid "Style:"
+#~ msgstr "Stil:"
+
+#~ msgid "Type:"
+#~ msgstr "Tip:"
+
+#~ msgid "Size:"
+#~ msgstr "Dimensiune:"
+
+#~ msgid "Version:"
+#~ msgstr "Versiune:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Drepturi de autor:"
+
+#~ msgid "Description:"
+#~ msgstr "Descriere:"
+
+#~ msgid "Installed"
+#~ msgstr "Instalat"
+
+#~ msgid "Install Failed"
+#~ msgstr "Instalarea a eșuat"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "utilizare: %s fișier tip font\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "I_nstalează font"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Vizualizator fonturi"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Previzualizare caractere"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Text în miniatură (implicit: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Mărime font (implicit: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "MĂRIME"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FIȘIER-FONT FIȘIER-IEȘIRE"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Eroare la procesarea argumentelor: %s\n"
+
+#~ msgid "Example Panel"
+#~ msgstr "Panou exemplu"
+
+#~ msgid "Example preferences panel"
+#~ msgstr "Panou preferințe exemplu"
+
+#~ msgid "System Settings"
+#~ msgstr "Configurări sistem"
+
+#~ msgid "_All Settings"
+#~ msgstr "To_ate configurările"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "Preferințe maus"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Nu activa"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Aranjament de tastatură „%s”"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Aranjament tastatură"
+
+#~ msgid "_Groups"
+#~ msgstr "_Grupuri"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Nu s-a reușit trecerea sistemului în modul „Adormire”.\n"
+#~ "Verificați configurările sistemului."
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Asociere pentru suspendare calculator."
+
+#~ msgid "Suspend"
+#~ msgstr "Suspendă"
+
+#, fuzzy
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Comanda folosită pentru a activa sau dezactiva cititorul de ecran."
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Cititor ecran"
+
+#, fuzzy
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Activare modul smartcard"
+
+#, fuzzy
+#~ msgid "Toggle screenreader"
+#~ msgstr "Comută cititorul de ecran"
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "Cititor ecran"
+
+#, fuzzy
+#~ msgid "Screensaver plugin"
+#~ msgstr "Activare modul xrdb"
+
+#, fuzzy
+#~ msgid "Sound plugin"
+#~ msgstr "Modul font"
+
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr "Activare modul clipboard"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "Definiți ca „True” pentru a activa modulul de administrare configurări "
+#~ "tastatură de accesibilitate."
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Asocierea de taste (%s) este incompletă"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Asocierea de taste (%s) este incompletă"
+
+#, fuzzy
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Asocierea de taste (%s) nu este validă"
+
+#, fuzzy
+#~ msgid "Volume"
+#~ msgstr "Volum mărit"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Închide centrul de control în momentul activării unei activități"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr ""
+#~ "Părăsește consola la execuția unei acțiuni de adăugare sau de ștergere"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Părăseșe consola la execuția unei acțiuni de ajutor"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Părăsește consola la execuția unei acțiuni de lansare"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "Părăsește consola la execuția unei acțiuni de actualizare sau de "
+#~ "dezinstalare"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr ""
+#~ "Indică dacă se va închide consola la execuția unei acțiuni de ajutor."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr ""
+#~ "Indică dacă se va închide consola la execuția unei acțiuni de pornire."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Indică dacă se va închide consola la execuția unei acțiuni de adăugare "
+#~ "sau de actualizare."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Indică dacă se va închide consola la execuția unei acțiuni de actualizare "
+#~ "sau de dezinstalare."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Numele sarcinilor și fișierele .desktop asociate"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Numele sarcinei ce va fi afișată în centrul de control urmată de "
+#~ "separatorul „;\" apoi numele fișierului de tip .desktop care să fie "
+#~ "pornit odată cu sarcina respectivă."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Schimbă temă;gtk-theme-selector.desktop,Definire aplicații preferate;"
+#~ "default-applications.desktop,Adăugare imprimantă;gnome-cups-manager."
+#~ "desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "dacă este „true”, control-center va fi închis la activarea unei „Sarcini "
+#~ "comune”"
+
+#~ msgid "Image/label border"
+#~ msgstr "Marginea imaginii/textului"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr ""
+#~ "Lățimea marginii din jurul textului și a imaginii din dialogul de alertă"
+
+#~ msgid "Alert Type"
+#~ msgstr "Tip alertă"
+
+#~ msgid "The type of alert"
+#~ msgstr "Tipul alertei"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Butoane alertă"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Butoanele afișate în dialogul de alertă"
+
+#~ msgid "Show more _details"
+#~ msgstr "Arată mai multe _detalii"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Puneți degetul mare de la mâna stângă pe %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Treceți degetul mare de la mâna stângă peste %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Puneți degetul arătător de la mâna stângă pe %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Treceți degetul arătător de la mâna stângă peste %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Puneți degetul mijlociu de la mâna stângă pe %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Treceți degetul mijlociu de la mâna stângă peste %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Puneți degetul inelar de la mâna stângă pe %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Treceți degetul inelar de la mâna stângă peste %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Puneți degetul mic de la mâna stângă pe %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Treceți degetul mic de la mâna stângă peste %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Puneți degetul mare de la mâna dreaptă pe %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Treceți degetul mare de la mâna dreaptă peste %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Puneți degetul arătător de la mâna dreaptă pe %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Treceți degetul arătător de la mâna dreaptă peste %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Puneți degetul mijlociu de la mâna dreaptă pe %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Treceți degetul mijlociu de la mâna dreaptă peste %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Puneți degetul inelar de la mâna dreaptă pe %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Treceți degetul inelar de la mâna dreaptă peste %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Puneți degetul mic de la mâna dreaptă pe %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Treceți degetul mic de la mâna dreaptă peste %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Puneți din nou degetul pe cititorul de amprente"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Treceți din nou degetul"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Trecerea a fost prea scurtă, mai încercați o dată"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Degetul nu a fost centrat, încercați să treceți din nou degetul"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Retrageți degetul și încercați să îl mai treceți o dată"
+
+#~ msgid "Select Image"
+#~ msgstr "Selectează imaginea"
+
+#~ msgid "No Image"
+#~ msgstr "Fără imagine"
+
+#~ msgid "Images"
+#~ msgstr "Imagini"
+
+#~ msgid "All Files"
+#~ msgstr "Toate fișierele"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "S-a produs o eroare la preluarea informațiilor de agendă\n"
+#~ "Serverul de date Evolution nu poate gestiona acest protocol"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Nu se poate deschide agenda"
+
+#~ msgid "About %s"
+#~ msgstr "Despre %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dresă:"
+
+#~ msgid "About Me"
+#~ msgstr "Despre mine"
+
+#~ msgid "Address"
+#~ msgstr "Adresă"
+
+#~ msgid "C_ity:"
+#~ msgstr "Or_aș:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "C_ompanie:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Cale_ndar:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Schimbă pa_rola..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "_Oraș:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "Ța_ră:"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Ța_ră:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Dezactivează autenti_ficarea pe bază de amprentă..."
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Activează autenti_ficarea pe bază de amprentă..."
+
+#~ msgid "Full Name"
+#~ msgstr "Nume complet"
+
+#~ msgid "Hom_e:"
+#~ msgstr "_Acasă:"
+
+#~ msgid "Home"
+#~ msgstr "Acasă"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Mesagerie instant"
+
+#~ msgid "Job"
+#~ msgstr "Serviciu"
+
+#~ msgid "M_SN:"
+#~ msgstr "MS_N:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Căs_uță poștală:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "Căsuță p_oștală:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Informații personale"
+
+#~ msgid "Select your photo"
+#~ msgstr "Alegeți fotografia dumneavoastră"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Stat/Pro_vincie:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefon"
+
+#~ msgid "User name:"
+#~ msgstr "Nume utilizator:"
+
+#~ msgid "Web"
+#~ msgstr "Internet"
+
+#~ msgid "Web _log:"
+#~ msgstr "B_log:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Serviciu:"
+
+#~ msgid "Work"
+#~ msgstr "Serviciu"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Fax serviciu:"

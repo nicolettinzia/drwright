@@ -1,0 +1,4050 @@
+# #-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#
+# Asturian translation for gnome-settings-daemon
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+# #-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#
+# Asturian translation for gnome-settings-daemon
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+# #-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# translation of control-center-2.0.po to Asturian
+# Asturian translation for control-center
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the control-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# Xose S. Puente <xspuente@gmail.com>, 2007.
+# Xandru Armesto <xandru@softastur.org>, 2010.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: control-center-2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-04-22 07:36+0200\n"
+"Last-Translator: Xandru Armesto <xandru@softastur.org>\n"
+"Language-Team: Asturian Team alministradores@softastur.org\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-01-03 20:16+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Language: asturian\n"
+"#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-01-03 20:16+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Language: asturian\n"
+"#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Virtaal 0.5.2\n"
+"X-Launchpad-Export-Date: 2010-04-15 17:20+0000\n"
+
+#: ../../../po/../src/main.c:61
+#, fuzzy
+msgid "Enable debugging code"
+msgstr ""
+"#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Activar el códigu de depuración\n"
+"#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Activar el códigu de depuración\n"
+"#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+"Activar códigu de depuración"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "Nun comprobar si esiste l'área de notificación"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Monitor de tecléu"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"El monitor de tecléu usa l'área de notificación p'amosar información. Paez "
+"que vusté nun tien l'área de notificación nel so panel. Pue amestala "
+"calcando col botón drechu sobro'l panel y seleicionando «Amestar al "
+"panel...», seleicionando «Área de notificación» y calcando en «Amestar»."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "_Tomar un descansu"
+
+#: ../../../po/../src/drwright.c:441
+#, fuzzy
+msgid "Disabled"
+msgstr ""
+"#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Desactiváu\n"
+"#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Desactiváu\n"
+"#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+"Deshabilitáu"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minutu hasta'l so siguiente descansu"
+msgstr[1] "%d minutos hasta'l so siguiente descansu"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Menos d'un minutu hasta'l siguiente descansu"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Nun pue amosase'l diálogu de les propiedaes del descansu d'escritura pol "
+"siguiente fallu: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Escritu por Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Vistosidá amestada por Anders Carlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Un recordatoriu pa los descansos frente a la computadora."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Esbardu https://launchpad.net/~esguil\n"
+"  Iñigo Varela https://launchpad.net/~ivarela\n"
+"  Marcos https://launchpad.net/~marcos.alvarez.costales\n"
+"  Xandru https://launchpad.net/~alarmes\n"
+"  Xandru Martino https://launchpad.net/~xandru-martino\n"
+"  Xuacu Saturio https://launchpad.net/~xuacusk8"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "_Posponer el descansu"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "¡Asele un pocu!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Si el llector de pantalla ta activáu."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Si el llector de pantalla ta activáu."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Descansu d'escritura"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "D_uración del intervalu de descansu:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "B_loquiar la pantalla pa forciar un descansu d'escritura"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "D_uración del intervalu de trabayu:"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Descansar agora (prósimu en %dm)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Descansar agora (prósimu en menos d'un minutu)"
+
+#~ msgid "minutes"
+#~ msgstr "minutos"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Arbeit</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
+#~ "#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+#~ "Comprobar si se permite posponer los descansos"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
+#~ "#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+#~ "Duración del descansu cuando la escritura nun ta permitía"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
+#~ "#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+#~ "Duración del trabayu enantes de forciar un descansu"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/_Über"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pausenerinnerer"
+
+#~ msgid "Accessibility"
+#~ msgstr "Accesibilidá"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Umbral de notificación pal espaciu llibre"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Umbral de notificación pa nun notificar espaciu llibre"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Periodu mínimu de notificación p'avisos repetíos"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Puntos de montaxe pa inorar"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown"
+#~ msgstr ""
+#~ "Porcentaxe de solera d'espaciu llibre pa l'avisu d'entamu d'espaciu baxu. "
+#~ "Si'l porcentaxe d'espaciu ye inferior al porcentaxe apaecerá un avisu."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Especificar una llista de puntos de montaxe pa inorar cuando tán baxos "
+#~ "d'espaciu."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Especificar tiempu en minutos. Los subsecuentes avisos pa un volume nun "
+#~ "apaecerán más de siguío qu'esti periodu."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown"
+#~ msgstr ""
+#~ "Especificar el tamañu en GiB. Si l'espaciu llibre ye mayor qu'esti, nun "
+#~ "apaecerá dengún avisu."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning"
+#~ msgstr ""
+#~ "Especificar el porcentaxe de discu llibre qu'hai que menguar enantes "
+#~ "d'amosar un avisu subsecuente."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Umbrales de notificación d'espaciu llibre subsecuentes"
+
+#~ msgid "Binding to eject an optical disk."
+#~ msgstr "Vínculu pa espulsar un discu ópticu."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Vínculu pa llanzar la calculadora."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Vínculu pa llanzar el veceru de corréu-e."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Vínculu pa llanzar el visor d'aida."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Vínculu pa llanzar el reproductor multimedia."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Vínculu pa llanzar la ferramienta de gueta."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Vínculu pa llanzar el restolador web."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Vínculu pa bloquiar la pantalla."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Vínculu pa salir de la sesión."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Vínculu pa baxar el volume del sistema."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Vínculu pa silenciar el volume del sistema."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Vínculu p'abrir la carpeta personal."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Vínculu pa posar la reproducción."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Vínculu pa xubir el volume del sistema."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Vínculu pa saltar a la siguiente pista."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Vínculu pa saltar a la pista anterior."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Vínculu p'aniciar la reproducción (o conmutar ente reproducción/pausa)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Vínculu pa parar la reproducción."
+
+#~ msgid "Eject"
+#~ msgstr "Espulsar"
+
+#~ msgid "Home folder"
+#~ msgstr "Carpeta Home"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Llanzar la calculadora"
+
+#~ msgid "Launch email client"
+#~ msgstr "Llanzar el veceru de corréu-e"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Llanzar el visor d'aida"
+
+#~ msgid "Launch media player"
+#~ msgstr "Llanzar el reproductor multimedia"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Llanzar restolador web"
+
+#~ msgid "Lock screen"
+#~ msgstr "Bloquiar la pantalla"
+
+#~ msgid "Log out"
+#~ msgstr "Desconeutar"
+
+#~ msgid "Next track"
+#~ msgstr "Siguiente pista"
+
+#~ msgid "Pause playback"
+#~ msgstr "Posar la reproducción"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Reproducir (o reproducir/posar)"
+
+#~ msgid "Previous track"
+#~ msgstr "Pista anterior"
+
+#~ msgid "Search"
+#~ msgstr "Guetar"
+
+#~ msgid "Stop playback"
+#~ msgstr "Detener la reproducción"
+
+#~ msgid "Volume down"
+#~ msgstr "Baxar volume"
+
+#~ msgid "Volume mute"
+#~ msgstr "Silenciar"
+
+#~ msgid "Volume step"
+#~ msgstr "Pasu del volume"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Pasu del volume como porcentax del volume."
+
+#~ msgid "Volume up"
+#~ msgstr "Xubir volume"
+
+#~ msgid ""
+#~ "If a notification icon with display related things should be shown in the "
+#~ "panel."
+#~ msgstr ""
+#~ "Si habría d'amosar nel panel un iconu de notificación con elementos "
+#~ "rellacionaos cola pantalla."
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Amosar les pantalles nel área de notificación"
+
+#~ msgid "Antialiasing"
+#~ msgstr "Antialies"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#, fuzzy
+#~ msgid "Hinting"
+#~ msgstr ""
+#~ "#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Contornu\n"
+#~ "#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Contornu\n"
+#~ "#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+#~ "Suxiriendo"
+
+#~ msgid "RGBA order"
+#~ msgstr "Orde RGBA"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "L'orde de los elementos subpíxel nuna pantalla LCD; namái s'usa cuando "
+#~ "l'antialies ta configuráu en \"rgba\". Los valores dables son \"rgb\" pa "
+#~ "bermeyu a la esquierda, (el más avezáu), \"bgr\" p'azul a la esquierda, "
+#~ "\"vrgb\" pa bermeyu arriba y \"vbgr\" pa bermeyu abaxo."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Resolución qu'usar para convertir tamaños de fontes a tamaños de píxel, "
+#~ "en puntos per pulgada."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "El tipu d'antialies qu'usar cuando se renderizen les fontes. Los valores "
+#~ "dables son: \"none\" ensin antialies, \"grayscale\" pa escala de buxos "
+#~ "antialies estándar, \"rgba\" p'antialies de subpíxel (namái pa pantalles "
+#~ "LCD)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "El tipu de contornu qu'usar cuando se renderizen les fontes. Los valores "
+#~ "dables son: \"none\" ensin contornu, \"slight\" pa un contornu básicu, "
+#~ "\"medium\" pa un contornu moderáu y \"full\" pa un contornu máximo (pue "
+#~ "distorsionar les formes de les lletres)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Tecles permitíes"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Si nun ta baleru, los atayos de tecláu van inorase si'l so direutoriu "
+#~ "GConf nun ta na llista. Ésto ye afayadizo pa bloqueos."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Desactivar el touchpad al escribir"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Activar desplazamientu horizontal"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Activar pulsaciones del mur col touchpad"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Escoyer el métodu de desplazamientu del touchpad"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~ "- edge scrolling, 2 - two-finger scrolling"
+#~ msgstr ""
+#~ "Escoyer el métodu de desplazamientu del touchpad. Los valores sofitaos "
+#~ "son: 0 - desactiváu, 1 - desplazamientu nel borde, 2 - desplazamientu con "
+#~ "dos deos"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Afita esto a braeru si tienes problemes tocando accidentalmente'l "
+#~ "touchpad al escribir."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Afita esto a braeru pa permitir desplazamientu horizontal col mesmu "
+#~ "métodu escoyíu na clave scroll_method."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Afita esto a braeru pa poder mandar pulsaciones del mur calcando sobre'l "
+#~ "touchpad."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "Degorriu d'axustes de GNOME"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Combinación pa conmutar l'ampliador."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Combinación pa conmutar tecláu de pantalla."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Combinación pa conmutar el llector de pantalla."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Tecles de rebote"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Orde usada pa conmutar l'ampliador ente prendíu o apagáu."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Orde usada pa conmutar el tecláu de pantalla ente prendíu o apagáu."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr ""
+#~ "Orde usada pa conmutar el llector de pantalla ente prendíu o apagáu."
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Activar el complementu d'accesibilidá del tecláu"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Activar el complementu de fondu de pantalla"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Activar el complementu del cartafueyu"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Activar el complementu de fonte"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Activar el complementu de llimpieza"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Activar el complementu de combinaciones de tecles"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Activar el complementu de tecláu"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Activar el complementu de tecles multimedia"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Activar el complementu del mur"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Activar el complementu de soníu"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Activar el complementu de descansu d'escritura"
+
+#~ msgid "Enable xrandr plugin"
+#~ msgstr "Activar el complementu de xrandr"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Activar el complementu de xrdb"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Activar el complementu de xsettings"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Tecles del mur"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Tecláu de pantalla"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Ampliador de pantalla"
+
+#~ msgid "Screen reader"
+#~ msgstr "Llector de pantalla"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu de llimpieza, p'amenorgar la "
+#~ "caché de ficheros temporales."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes del "
+#~ "cartafueyu."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes del "
+#~ "fondu."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes de les "
+#~ "fontes."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes los "
+#~ "axustes del tecláu."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes del mur."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes de les "
+#~ "tecles multimedia."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que remana les cachés de muestréu "
+#~ "de soníu."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes "
+#~ "d'accesibilidá del tecláu"
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona les combinaciones de "
+#~ "tecles."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona  el descansu "
+#~ "d'escritura."
+
+#~ msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes xrandr."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes xrdb."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes "
+#~ "xsettings."
+
+#~ msgid "Slow keys"
+#~ msgstr "Tecles lentes"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Tecles persistentes"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "El nome del atayu de tecláu pa conmutar l'ampliador"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "El nome del atayu de tecláu pa conmutar el tecláu en pantalla"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr ""
+#~ "El nome de la combinación de tecles pa camudar al llector de pantalla"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Esti ye'l nome del atayu de tecláu pa conmutar l'ampliador. Esti nome "
+#~ "amosaráse nel diálogu de preferencies de los atayos de tecláu."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Esti ye'l nome del atayu de tecláu pa conmutar el tecláu de pantalla. "
+#~ "Esti nome amosaráse nel diálogu de preferencies de los atayos de tecláu."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Esti ye'l nome de la combinación de tecles pa camudar al llector de "
+#~ "pantalla. Esti nome apaecerá nel diálogu preferencies de les "
+#~ "combinaciones de tecles."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Conmutar l'ampliador"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Conmutar el tecláu de pantalla"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Conmutar el llector de pantalla"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Si la carauterística d'accesibilidá del tecláu rebote de tecles ta "
+#~ "activada."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Si la carauterística d'accesibilidá del tecláu tecles del mur ta activada."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Si el tecláu de pantalla ta activáu."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Si l'ampliador de pantalla ta activáu."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Si la carauterística d'accesibilidá del tecláu tecles lentes ta activada."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "Si la carauterística d'accesibilidá del tecláu tecles persistentes ta "
+#~ "activada."
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Non convertise nun degorriu"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "El prefixu de GConf dende'l que cargar los axustes del complementu"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Accesibilidá del tecláu"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Complementu d'accesibilidá del tecláu"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Hebo un fallu al amosar l'aida: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "¿Quies activar les «Tecles lentes»?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "¿Quies desactivar les «Tecles lentes»?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Acabes de calcar na tecla «Mayúscules» durante 8 segundos. Ésta ye la "
+#~ "combinación de tecles pa la carauterística «Tecles lentes», qu'afeuta al "
+#~ "mou nel que furrula'l tecláu."
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Nun desactivar"
+
+#~ msgid "Activate"
+#~ msgstr "Activar"
+
+#~ msgid "Deactivate"
+#~ msgstr "Desactivar"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Nu_n activar"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Nu_n desactivar"
+
+#~ msgid "_Activate"
+#~ msgstr "_Activar"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Desactivar"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Alerta de tecles lentes"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "¿Quies activar les «Tecles persistentes»?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "¿Quies desactivar les «Tecles persistentes»?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Acabes de calcar na tecla «Mayúscules» 5 vegaes. Esti ye l'accesu rápidu "
+#~ "pa la carauterística «Tecles persistentes», qu'afeuta al mou nel que "
+#~ "furrula el tecláu."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Acabes de calcar dos tecles al empar, o tienes calcao na tecla "
+#~ "«Mayúscules» 5 vegaes siguíes. Esto desautiva la carauterística de "
+#~ "«Tecles persistentes», lo qu'afeuta al mou nel que furrula'l tecláu."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Alerta de tecles persistentes"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Preferencies d'accesu universal"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Aumentar _contraste de colores"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "Facer el _testu mayor y más fácil de lleer"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Calcar y agua_ntar les tecles p'aceptales (tecles lentes)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Usar tecláu de _pantalla"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Usar a_mpliador de pantalla"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Usar llecto_r de pantalla"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Inorar el calcáu doble de tecles (rebote de tecles)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "Calcar una tecla cada vez pa los atayos (tecles _persistentes)"
+
+#~ msgid "Background"
+#~ msgstr "Fondu de pantalla"
+
+#~ msgid "Background plugin"
+#~ msgstr "Complementu de fondu de pantalla"
+
+#~ msgid "Clipboard"
+#~ msgstr "Cartafueyu"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Complementu del Cartafueyu"
+
+#~ msgid "Dummy"
+#~ msgstr "De preba"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Complementu de preba"
+
+#~ msgid "Font"
+#~ msgstr "Fonte"
+
+#~ msgid "Font plugin"
+#~ msgstr "Complementu de fonte"
+
+#~ msgid "Don't show any warnings again for this filesystem"
+#~ msgstr "Nun amosar dengún avisu otra vuelta pa esti sistema de ficheros"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Nun amosar dengún avisu otra vuelta."
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "El volume «%s» namái tien %s d'espaciu en discu llibre."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Esti equipu sólo tien %s d'espaciu en discu llibre."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Puedes lliberar espaciu vaciando la puxarra, desaniciando programes o "
+#~ "ficheros que nun uses o moviendo ficheros a otru discu o partición."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Puedes lliberar espaciu desaniciando programes o ficheros que nun uses o "
+#~ "moviendo ficheros a otru discu o partición."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Puedes lliberar espaciu vaciando la puxarra, desaniciando programes o "
+#~ "ficheros que nun uses  a un discu esternu."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Puedes lliberar espaciu vaciando la puxarra, desaniciando programes o "
+#~ "ficheros que nun uses o moviendo ficheros a un discu esternu."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Espaciu de discu escasu"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Vaciar basoria"
+
+#~ msgid "Examine..."
+#~ msgstr "Desaminar..."
+
+#~ msgid "Ignore"
+#~ msgstr "Inorar"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Desaniciando elementu %lu de %lu"
+
+#~ msgid "<i>Removing: %s</i>"
+#~ msgstr "<i>Desaniciando: %s</i>"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Vaciando la puxarra"
+
+#~ msgid "Preparing to empty trash..."
+#~ msgstr "Tresnando pa vaciar la puxarra..."
+
+#~ msgid "From: "
+#~ msgstr "De: "
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "¿Vaciar tolos oxetos de la basoria?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Si escueyes vaciar la papelera, tolos elementos que tienes desaniciaránse "
+#~ "pa siempres. Nota que tamién puedes desanicialos d'unu n'unu."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Vaciar bas_oria"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "L'asignación de tecles (%s) nun ye válida"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "L'asignación de tecles (%s) ta incompleta"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Hebo un fallu al tentar executar (%s)\n"
+#~ "que ta asociáu a la tecla (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Combinaciones de tecles"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Complementu de combinaciones de tecles"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tecláu"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Complementu de tecláu"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Ficheros afa_yadizos:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Cargar archivos modmap"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "¿Quies cargar el/los ficheru/os modmap?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Nun amosar esti mensax otra vegada"
+
+#~ msgid "_Load"
+#~ msgstr "_Carga"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "Fic_heros cargaos:"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Distribución del Tecláu"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Nun pudo obtenese'l terminal predetermináu. Compreba que'l comandu "
+#~ "predetermináu del terminal ta configuráu y dirixe a una aplicación válida."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Nun pudo executase'l comandu: %s\n"
+#~ "Compreba que ye un comandu válidu."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Nun ye dable poner la máquina en baxo consumu\n"
+#~ "Comprebe que la máquina tea configurada correchamente."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u salida"
+#~ msgstr[1] "%u salides"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u entrada"
+#~ msgstr[1] "%u entraes"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sones del Sistema"
+
+#~ msgid "Media keys"
+#~ msgstr "Tecles multimedia"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Complementu de tecles multimedia"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Nun pudieron activase les carauterístiques d'accesibilidá del mur"
+
+#~ msgid ""
+#~ "Mouse accessibility requires mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "La accesibilidá del mur necesita tener instalao mousetweaks nel sistema."
+
+#~ msgid "Mouse"
+#~ msgstr "Mur"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Complementu del mur"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Complementu de descansu d'escritura"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Afitar los axustes de tamañu y rotación de la pantalla"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Nun pudo restaurase la configuración de pantalla"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr ""
+#~ "Nun pudo restaurase la configuración de pantalla dende una copia de "
+#~ "seguridá"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] ""
+#~ "La pantalla reaniciaráse a la so configuración anterior en %d segundu"
+#~ msgstr[1] ""
+#~ "La pantalla reaniciaráse a la so configuración anterior en %d segundos"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "¿Vese bien la pantalla?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Restaurar la configuración anterior"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Caltener esta configuración"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "La configuración seleicionada pa les pantalles nun pudo aplicase"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Nun pudo refrescase la información de la pantalla: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Tentando camudar la configuración del monitor de toles maneres."
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Nun pudo camudase la configuración del monitor"
+
+#~ msgid "<i>Rotation not supported</i>"
+#~ msgstr "<i>Nun hai sofitu pa rotación</i>"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Nun pudo atroxase la configuración del monitor"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Left"
+#~ msgstr "Esquierda"
+
+#~ msgid "Right"
+#~ msgstr "Drecha"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Abaxo\n"
+#~ "#-#-#-#-#  ast.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Abaxo\n"
+#~ "#-#-#-#-#  ast.po (control-center-2.0)  #-#-#-#-#\n"
+#~ "Boca abaxo"
+
+#~ msgid "_Configure Display Settings ..."
+#~ msgstr "_Configurar los axustes de pantalla..."
+
+#~ msgid "Configure display settings"
+#~ msgstr "Configurar los axustes de pantalla"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Nun pudo aplicase la configuración atroxada pa los monitores"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Nun puede determinase'l direutoriu personal del usuariu"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Xestionar la base de datos de recursos de les X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Base de datos de recursos de les X"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "La clave %s de gconf definióse como tipu %s pero esperábase que'l so tipu "
+#~ "fuere %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Xestionar los axustes de les X"
+
+#~ msgid "X Settings"
+#~ msgstr "Axustes de les X"
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "Si el llector de pantalla ta activáu."
+
+#~ msgid "Don't activate"
+#~ msgstr "Nun activar"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Preferencies del Mur"
+
+#~ msgid "Typing Break"
+#~ msgstr "Descansu d'escritura"
+
+#~ msgid "Current network location"
+#~ msgstr "Allugamientu de la rede actual"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "URL pa más fondos"
+
+#~ msgid "More themes URL"
+#~ msgstr "URL pa más temes"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Afítalo al nome del so allugamientu actual. Úsase pa determinar la "
+#~ "configuración afayadiza del proxy de rede"
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL na qu'obtener más fondos pal escritoriu. Si s'afita a una cadena "
+#~ "balera, l'enllaz nun apaez."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL na qu'obtener más temes pal escritoriu. Si s'afita a una cadena "
+#~ "balera, l'enllaz nun apaez."
+
+#~ msgid "Image/label border"
+#~ msgstr "Berbesu semeya/etiqueta"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr ""
+#~ "Anchu al rodiu del berbesu de la etiqueta y semeya nel diálogu d'avisu"
+
+#~ msgid "Alert Type"
+#~ msgstr "Tipu d'Avisu"
+
+#~ msgid "The type of alert"
+#~ msgstr "El tipu d'alerta"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Botones d'Avisu"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Los botones que s'amuesen nel diálogu d'alerta"
+
+#~ msgid "Show more _details"
+#~ msgstr "Amosar más _detalles"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Pon el to muñón esquierdu en %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Pasa'l to muñón esquierdu per %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Pon el to furabollos esquierdu en %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Pasa'l to furabollos esquierdu per %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Llanta'l to patagorrín esquierdu enriba de %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Pasa'l to patagorrín esquierdu penriba de %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Llanta'l to caraputín esquierdu enriba de %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Pasa'l to caraputín izquierdu penriba de %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Llanta'l to moñín esquierdu enriba de %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Pasa'l to moñín esquierdu penriba de %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Llanta'l to muñón esquierdu enriba de %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Pasa'l to muñón esquierdu penriba de %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Llanta'l to furabollos drechu enriba de %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Pasa'l to furabollos drechu penriba de %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Llanta'l to patagorrín drechu enriba de %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Pasa'l to patagorrín drechu penriba de %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Llanta'l to caraputín drechu enriba de %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Pasa'l to caraputín drechu penriba de %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Llanta'l to moñín drechu enriba de %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Pasa'l to moñín drechu penriba de %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Llanta otra vuelta'l to deu nel llector"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Pasa otra vuelta'l to deu"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Paséstelu pocu tiempu; vuelvi a intentalo"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "El deu nun taba centráu, intenta pasar el to deu otra vuelta"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Quita'l deu y vuelve a pasalu otra vuelta"
+
+#~ msgid "Select Image"
+#~ msgstr "Esbillar Imaxe"
+
+#~ msgid "No Image"
+#~ msgstr "Nun hai Imaxe"
+
+#~ msgid "Images"
+#~ msgstr "Imaxes"
+
+#~ msgid "All Files"
+#~ msgstr "Tolos Ficheros"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Hebo un error intentando garrar la información de la llibreta de "
+#~ "direiciones\n"
+#~ "Servidor de Datos d'Evolution nun pudo afitar el protocolu"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Incapaz d'abrir la llibreta de direiciones"
+
+#~ msgid "About %s"
+#~ msgstr "Tocante a %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "D_ireicion/es:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "A_sistente:"
+
+#~ msgid "About Me"
+#~ msgstr "Tocante a min"
+
+#~ msgid "Address"
+#~ msgstr "Direición/es"
+
+#~ msgid "C_ity:"
+#~ msgstr "C_iudá:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "C_ompañía:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Cale_ndariu:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Camudar Cont_raseña..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Ci_udá:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "P_aís:"
+
+#~ msgid "Contact"
+#~ msgstr "Contautu"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "P_aís:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Desactivar l'entamu sesión con _Buelga"
+
+#~ msgid "Email"
+#~ msgstr "Corréu-e"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Activar l'entamu sesión con _Buelga"
+
+#~ msgid "Full Name"
+#~ msgstr "Nome Completu"
+
+#~ msgid "Hom_e:"
+#~ msgstr "_Domiciliu:"
+
+#~ msgid "Home"
+#~ msgstr "Entamu"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Mensaxería nel Intre"
+
+#~ msgid "Job"
+#~ msgstr "Trabayu"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Apartáu de C_orreos:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "Apartáu de C_orreos:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Información Personal"
+
+#~ msgid "Select your photo"
+#~ msgstr "Escueye la to semeya"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Estáu/Pro_vincia:"
+
+#~ msgid "Telephone"
+#~ msgstr "Teléfonu"
+
+#~ msgid "User name:"
+#~ msgstr "Nome d'usuariu:"
+
+#~ msgid "Web"
+#~ msgstr "Web"
+
+#~ msgid "Web _log:"
+#~ msgstr "Rexistr_u Web:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "Traba_yu:"
+
+#~ msgid "Work"
+#~ msgstr "Trabayu"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Fax del trabayu:"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "Códigu Postal:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Direición:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Departamentu:"
+
+#~ msgid "_GroupWise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "Pá_xina d'entamu:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Domiciliu:"
+
+#~ msgid "_Manager:"
+#~ msgstr "Al_ministrador:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Móvil:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Profesión:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "E_stáu/Provincia:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Títulu:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Trabayu:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "Códigu _Postal:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Configure la so información personal"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Nun tienes permisu pa entrar nel preséu. Contauta col alministrador del "
+#~ "to sistema."
+
+#~ msgid "The device is already in use."
+#~ msgstr "El preséu yá se ta usando"
+
+#~ msgid "An internal error occured"
+#~ msgstr "Hebo un fallu internu"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "¿Desaniciar les buelgues rexistraes?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Desaniciar buelgues"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "¿Quies desaniciar les tos buelgues rexistraes y asina desactivar l'entamu "
+#~ "de sesión con buelga?"
+
+#~ msgid "Done!"
+#~ msgstr "¡Fecho!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Nun se fue a acceder al preséu «%s»"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Nun pudo arrancase la captura dixital nel preséu «%s»"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Nun se pudo acceder a denguna llectura de buelgues"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Contauta col alministrador del to sistema pa que t'aíde"
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Activar l'entamu de sesión con buelga"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "P'activar l'aniciu de sesión con buelga dixital, tienes de guardar una "
+#~ "buelga emplegando'l preséu '%s'."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Pasa'l deu penriba'l llector"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Pon el deu nel llector"
+
+#~ msgid "Left index finger"
+#~ msgstr "Furabollos esquierdu"
+
+#~ msgid "Left little finger"
+#~ msgstr "Moñín esquierdu"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Deu mediu esquierdu"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Deu anular esquierdu"
+
+#~ msgid "Left thumb"
+#~ msgstr "Pulgar esquierdu"
+
+#~ msgid "Other finger: "
+#~ msgstr "Otru deu: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Furabollos drechu"
+
+#~ msgid "Right little finger"
+#~ msgstr "Moñín drechu"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Deu mediu drechu"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Deu anular drechu"
+
+#~ msgid "Right thumb"
+#~ msgstr "Pulgar drechu"
+
+#~ msgid "Select finger"
+#~ msgstr "Escoyer deu"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "La to buelga dixital guardóse correutamente. Agora deberíes poder aniciar "
+#~ "sesión emplegando'l llector de buelgues dixital."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "El fíu salió inesperadamente"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Nun ye dable apagar el canal de E/S backend_stdin: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Nun ye dable apagar el canal de E/S backend_stdout: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "¡Reconocíu!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "La to clave foi camudada dende la to identificación inicial! Por favor re-"
+#~ "identificate."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "La contraseña foi incorreuta."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "La to clave foi camudada."
+
+#~ msgid "System error: %s."
+#~ msgstr "Error del sistema: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "La contraseña ye mui curtia"
+
+#~ msgid "The password is too simple."
+#~ msgstr "La contraseña ye mui cenciella"
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "La contraseña nueva y la vieya son abondo asemeyaes"
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "La nueva clave tien de contener númberos o carauteres especiales."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "La contraseña vieya y la nueva son la mesma"
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Nun pue llanzase %s: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Nun ye dable llanzar el backend"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Hebo un fallu del sistema"
+
+#~ msgid "Checking password..."
+#~ msgstr "Comprobando contraseña..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Caca en <b>Camudar Contraseña</b> pa camudar la contraseña."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Teclea la contraseña nel campu <b>Contraseña nueva</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Por favor, teclea la contraseña otra vegada nel campu <b>Reescribi la "
+#~ "nueva contraseña</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Les dos claves nun son iguales."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Camudar la Contraseña"
+
+#~ msgid "Change password"
+#~ msgstr "Camudar la Contraseña"
+
+#~ msgid "Change your password"
+#~ msgstr "Cambiar la to contraseña"
+
+#~ msgid "Current _password:"
+#~ msgstr "Contraseña _actual:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Pa camudar la to clave, introduz la to clave actual nel campu d'abaxo y "
+#~ "calca <b>Autentificar</b>.\n"
+#~ "Dempués de que seyas autentificáu, introduz la to nueva clave, "
+#~ "reintroduciéndola pa verificala y calca <b>Camudar clave</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Autenticar"
+
+#~ msgid "_New password:"
+#~ msgstr "_Nueva contraseña:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Volve_r a escribir la nueva contraseña:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Lo_gin accesible"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Teunoloxíes d'asistencia"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Preferencies de les teunoloxíes d'asistencia"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Los cambeos p'activar les teunoloxíes d'asistencia nun tendrán efeutu "
+#~ "fasta que salga ya anicie sesión nuevamente."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Zarrar y _Salir"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Dir al diálogu d'Aplicaciones Preferíes"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Dir al diálogu d'Entrada Acesible"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Dir al diálogu de l'acesibilidá del tecláu"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Saltar al diálogu d'Accesibilidá del mur"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencies"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "Habilitar t_eunoloxíes d'asistencia"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "Acesibilidá _Tecláu"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "_Accesibilidá del Mur"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "Aplicaciones _Preferíes"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Escueyi qué carauterístiques d'accesibilidá activar al aniciar sesión"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Amestar Fondu d'Escritoriu"
+
+#~ msgid "All files"
+#~ msgstr "Tolos ficheros"
+
+#~ msgid "Font may be too large"
+#~ msgstr "La fonte seique seya enforma grande"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "La fonte seleicionada ye %d puntu de grande, y pue facer abegoso l'usu "
+#~ "del equipu. Encamiéntase que seleicione un tamañu menor de %d."
+#~ msgstr[1] ""
+#~ "La fonte seleicionada ye %d puntos de grande, y pue facer abegoso l'usu "
+#~ "del equipu. Encamiéntase que seleicione un tamañu menor de %d."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "La fonte seleicionada ye %d puntu de grande, y pue facer abegoso l'usu "
+#~ "del equipu. Encamiéntase que seleicione un tamañu menor."
+#~ msgstr[1] ""
+#~ "La fonte seleicionada ye %d puntos de grande, y pue facer abegoso l'usu "
+#~ "del equipu. Encamiéntase que seleicione un tamañu menor."
+
+#~ msgid "Use previous font"
+#~ msgstr "Usar la fonte anterior"
+
+#~ msgid "Use selected font"
+#~ msgstr "Usar la fonte seleicionada"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Nun pudo cargase'l ficheru d'interfaz d'usuariu: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Especifica'l nome de ficheru del tema a instalar"
+
+#~ msgid "filename"
+#~ msgstr "nome de ficheru"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Especifique'l nome de la páxina p'amosar (theme|background|fonts|"
+#~ "interface)"
+
+#~ msgid "page"
+#~ msgstr "páxina"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[Tapiz…]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Punteru Predetermináu"
+
+#~ msgid "Install"
+#~ msgstr "Instalar"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Esti tema nun s'amosará como se pretende porque'l motor de temes GTK+ "
+#~ "necesariu «%s» nun ta instaláu."
+
+#~ msgid "Apply Background"
+#~ msgstr "Aplicar tapiz"
+
+#~ msgid "Apply Font"
+#~ msgstr "Aplicar fonte"
+
+#~ msgid "Revert Font"
+#~ msgstr "Revertir la fonte"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer un tapiz y una fonte. Arriendes, pue revertise la "
+#~ "cabera suxerencia de tipografía aplicada."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer un tapiz. Arriendes, pue revertise la cabera "
+#~ "suxerencia de fonte aplicada."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "El tema actual suxer un tapiz y una fonte."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer una fonte. Arriendes, pue revertise la cabera "
+#~ "suxerencia de fonte aplicada."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "El tema actual suxer un tapiz."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Pue revertise la cabera suxerencia de tipografía aplicada."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "El tema actual suxer una fonte."
+
+#~ msgid "Custom"
+#~ msgstr "Personalizáu"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Preferencies d'aspeutu"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Meyores forme_s"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Meyor co_ntraste"
+
+#~ msgid "C_olors:"
+#~ msgstr "C_olores:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "Pe_rsonalizar..."
+
+#~ msgid "Center"
+#~ msgstr "Centru"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "El cambéu del tema de cursor nun fadrá efeutu hasta que salga y anicie "
+#~ "sesión de nuevu."
+
+#~ msgid "Colors"
+#~ msgstr "Colores"
+
+#~ msgid "Controls"
+#~ msgstr "Controles"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Personalizar tema"
+
+#~ msgid "D_etails..."
+#~ msgstr "D_etalles..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Fonte pal _escritoriu:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detalles de Procesamientu de Fontes"
+
+#~ msgid "Fonts"
+#~ msgstr "Fontes"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Obtener más fondos en llinia"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Obtener más temes en llinia"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Escala de b_uxos"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Dilíu horizontal"
+
+#~ msgid "Icons"
+#~ msgstr "Iconos"
+
+#~ msgid "Icons only"
+#~ msgstr "Namái iconos"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "N_one"
+#~ msgstr "D_engún"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Abrir un diálogu pa especificar el color"
+
+#~ msgid "Pointer"
+#~ msgstr "Punteru"
+
+#~ msgid "R_esolution:"
+#~ msgstr "R_esolución:"
+
+#~ msgid "Rendering"
+#~ msgstr "Renderizando"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Guardar tema como…"
+
+#~ msgid "Save _As..."
+#~ msgstr "Guardar _como…"
+
+#~ msgid "Save _background image"
+#~ msgstr "Guardar imaxe de _fondu"
+
+#~ msgid "Scale"
+#~ msgstr "Escala"
+
+#~ msgid "Small"
+#~ msgstr "Pequeñu"
+
+#~ msgid "Smoothing"
+#~ msgstr "Suavizáu"
+
+#~ msgid "Solid color"
+#~ msgstr "Color sólidu"
+
+#~ msgid "Span"
+#~ msgstr "Espander"
+
+#~ msgid "Stretch"
+#~ msgstr "Estiramientu"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_pixel (LCDs)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Atenuao de sub_pixel (LCDs)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Orde subpixel"
+
+#~ msgid "Text"
+#~ msgstr "Testu"
+
+#~ msgid "Text below items"
+#~ msgstr "Testu baxo los elementos"
+
+#~ msgid "Text beside items"
+#~ msgstr "Testu al delláu de los elementos"
+
+#~ msgid "Text only"
+#~ msgstr "Namái testu"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "El tema actual de controles nun tien sofitu pa esquemes de colores."
+
+#~ msgid "Theme"
+#~ msgstr "Temes"
+
+#~ msgid "Tile"
+#~ msgstr "Mosaicu"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Dilíu Vertical"
+
+#~ msgid "Window Border"
+#~ msgstr "Llende de la Ventana"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "_Add..."
+#~ msgstr "_Amestar..."
+
+#~ msgid "_Application font:"
+#~ msgstr "Fonte de Progr_ama:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Descripción:"
+
+#~ msgid "_Document font:"
+#~ msgstr "Fonte de _documentu:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Fonte d'anchor _fixu:"
+
+#~ msgid "_Full"
+#~ msgstr "C_ompletu"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "Caxes d'_entrada:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Instalar…"
+
+#~ msgid "_Medium"
+#~ msgstr "_Mediu"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monocromu"
+
+#~ msgid "_Name:"
+#~ msgstr "_Nome:"
+
+#~ msgid "_None"
+#~ msgstr "_Dengún"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_Restablecer valores predeterminaos"
+
+#~ msgid "_Selected items:"
+#~ msgstr "Elementos _seleicionaos:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Tamañu:"
+
+#~ msgid "_Slight"
+#~ msgstr "Le_ve"
+
+#~ msgid "_Style:"
+#~ msgstr "E_stilu:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Conseyos:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Fonte de títulu de _Ventana:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Ventanes:"
+
+#~ msgid "dots per inch"
+#~ msgstr "puntos por pulgada"
+
+#~ msgid "Appearance"
+#~ msgstr "Aspeutu"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Personaliza l'aspeutu del escritoriu"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Instala paquetes de temes pa delles partes del escritoriu"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Instalador de temes"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Paquete de tema GNOME"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Ensin fondu d'escritoriu"
+
+#~ msgid "Slide Show"
+#~ msgstr "Amosar diapositives"
+
+#~ msgid "Image"
+#~ msgstr "Imaxe"
+
+#~ msgid "multiple sizes"
+#~ msgstr "tamaños múltiples"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s por %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "píxel"
+#~ msgstr[1] "píxeles"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Carpeta: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Carpeta: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Falta la imaxe"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Nun pue instalase'l tema"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "La utilidá %s nun ta instalada."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Hebo un fallu al estrayer el tema."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Hebo un fallu al instalar el ficheru seleicionáu"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "«%s» nun paez ser un tema válidu."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "«%s» nun paez ser un tema válidu. Pue ser un motor de temes que tien de "
+#~ "compilar."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "La instalación del tema «%s» falló."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Instalóse'l tema «%s»."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "¿Quies aplicalu agora, o caltener el so tema actual?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Caltener el tema actual"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Aplicar el nuevu tema"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "El tema de GNOME %s instalóse correchamente"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Falló al criar la carpeta temporal"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Los nuevos temes instaláronse con ésitu."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr ""
+#~ "Nun s'especificó dengún allugamientu del ficheru del tema pa instalar"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Permisos insuficientes pa instalar el tema en:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Esbilla un tema"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Paquetes de temes"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "El nome del tema tien de tar presente"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Yá esiste'l tema. ¿Prestaríate trocalu?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Sobroscribir"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "¿Quies desaniciar esti tema?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Nun pue desaniciase'l tema"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Nun pudo instalase'l motor del tema"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Nun se puede arrancar el xestor de configuración «gnome-settings-"
+#~ "daemon».\n"
+#~ "Si'l xestor de configuración de GNOME nun se ta executando, seique delles "
+#~ "preferencies nun furrulen. Esto puede ser el síntoma d'un problema con "
+#~ "DBus o qu'un xestor de configuración que nun ye de GNOME (por exemplu "
+#~ "KDE) yá tea activu y engarriáu col xestor de configuración de GNOME."
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Nun pue cargase l'iconu de fábrica «%s»\n"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Copiando ficheru: %u de %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Copiando '%s'"
+
+#~ msgid "Copying files"
+#~ msgstr "Copiando ficheros"
+
+#~ msgid "Parent Window"
+#~ msgstr "Ventana raíz"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Ventana raigón del diálogu"
+
+#~ msgid "From URI"
+#~ msgstr "De URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI ta tresfiriendo de"
+
+#~ msgid "To URI"
+#~ msgstr "A URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI ta tresfiriendo a"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Fracción completada"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Fraición de tresferencia actual completa"
+
+#~ msgid "Current URI index"
+#~ msgstr "Índiz URI actual"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Índiz URI actual - entama dende 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "URIs Totales"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Númberu total d'URIs"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "El ficheru «%s» yá esiste. ¿Quier sobroscribilu?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Saltar"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Sobroscribir _too"
+
+#~ msgid "Key"
+#~ msgstr "Clave"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Clave de gconf a la que ta asociáu esti editor de propiedaes"
+
+#~ msgid "Callback"
+#~ msgstr "Retornu de llamada"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Emitir este retornu de llamada cuando camude'l valor asociáu cola clave"
+
+#~ msgid "Change set"
+#~ msgstr "Conxuntu de cambeos"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Conxuntu de cambeos de gconf que contién datos que deben remitise al "
+#~ "veceru de gconf cuando s'apliquen"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Conversión a retornu de llamada del widget"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Retornu de llamada qu'hai d'emitir cuando se vayan a convertir datos de "
+#~ "gconf al widget"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Conversión dende'l retornu de llamada del widget"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Retornu de llamada que tien d'emitise cuando vayan a convertise datos del "
+#~ "widget a gconf"
+
+#~ msgid "UI Control"
+#~ msgstr "Control UI"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Oxetu que remana la propiedá (xeneralmente, un widget)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Datos d'oxetu del editor de propiedaes"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Datos personalizaos requeríos pol editor de propiedaes específicu"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Retornu de llamada de lliberación de datos del editor de propiedaes"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Retornu de llamada que tien d'emitise cuando vayan a lliberase datos "
+#~ "d'oxetu del editor de propiedaes"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Nun pudo alcontrase'l ficheru «%s».\n"
+#~ "\n"
+#~ "Compruebe si esiste y torne a tentalo o escueya una imaxe de fondu "
+#~ "distinta."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Nun ye dable abrir el ficheru «%s».\n"
+#~ "Pue que se trate d'un tipu d'imaxe qu'entá nun s'almite.\n"
+#~ "\n"
+#~ "Seleicione una imaxe distinta."
+
+#~ msgid "Please select an image."
+#~ msgstr "Por favor seleicione una imaxe."
+
+#~ msgid "_Select"
+#~ msgstr "_Seleicionar"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Punteru Predetermináu - Actual"
+
+#~ msgid "White Pointer"
+#~ msgstr "Punteru Blancu"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Punteru Blancu - Actual"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Punteru Grande"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Punteru Grande - Actual"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Punteru Blancu Grande - Actual"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Punteru Blancu Grande"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Esti tema nun va amosase como se pretende porque'l el tema GTK+ necesariu "
+#~ "«%s» nun ta instaláu."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Esti tema nun va amosase como se pretende porque'l el tema del xestor de "
+#~ "ventanes necesariu «%s» nun ta instaláu."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Esti tema nun va amosase como se pretende porque'l el tema d'iconos "
+#~ "necesariu «%s» nun ta instaláu."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Programes Preferíos"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Escueyi los tos programes predeterminaos"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Aniciar la teunoloxía d'asistencia visual prefería"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Asistencia visual"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Error al guardar configuración: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Nun fue a cargar la interfaz principal"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Tea xuru de que la miniaplicación ta instalada correchamente"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Especifique'l nome de la páxina p'amosar (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- Aplicaciones GNOME predetermináes"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Toles apariciones de %s reemplazaránse pol enllaz actual"
+
+#~ msgid "C_ommand:"
+#~ msgstr "C_omandu:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Co_mandu:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Etiqueta d'e_xecución:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Visor d'imáxenes"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Mensaxería nel intre"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Llector de corréu"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobilidá"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Reproductor multimedia"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Abrir enllaz nuna pestaña nueva"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Abrir enllaz nuna _ventana nueva"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Abrir enllaz col navegador web pre_determináu"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Exe_cutar al entamu"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Executar nel t_erminal"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Emulador de terminal"
+
+#~ msgid "Text Editor"
+#~ msgstr "Editor de Testu"
+
+#~ msgid "Video Player"
+#~ msgstr "Reproductor de vídeu"
+
+#~ msgid "Visual"
+#~ msgstr "Visual"
+
+#~ msgid "Web Browser"
+#~ msgstr "Restolador web"
+
+#~ msgid "_Run at start"
+#~ msgstr "_Executar al entamu"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Reproductor de música Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Restolador Sensible de Debian"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Emulador de terminal de Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Navegador Web Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Llector de Corréu Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "Magnificador de GNOME ensin llector de pantalla"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "Tecláu en pantalla de GNOME"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminal GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeón"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus con magnificador"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Corréu Iceape"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "Magnificador de KDE ensin llector de pantalla"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Llector de pantalla de Linux"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Llector de pantalla de Linux con magnificador"
+
+#~ msgid "Listen"
+#~ msgstr "Sentir"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Corréu de Mozilla"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Reproductor de música Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Ópera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca con magnificador"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Reproductor de música Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "Corréu SeaMonkey"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "XTerminal Estándar"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Reproductor de películes Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "Incluyir pa_nel"
+
+#~ msgid "Make Default"
+#~ msgstr "Facer Predetermináu"
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Preferencies del monitor"
+
+#~ msgid "Off"
+#~ msgstr "Apagáu"
+
+#~ msgid "On"
+#~ msgstr "Encesu"
+
+#~ msgid "Panel icon"
+#~ msgstr "Iconu de panel"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_otación:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Frecuencia de refrescu:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "La _mesma imaxe en tolos monitores"
+
+#~ msgid "Upside-down"
+#~ msgstr "Al revés"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Deteutar monitores"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Resolución:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Amosar pantalles nel panel"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Camudar la resolución y posición de los monitores"
+
+#~ msgid "Monitors"
+#~ msgstr "Pantalles"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Mirror Screens"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Monitor: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Esbillar un monitor pa cambiar les sos propiedaes; arrastralu reubícalu."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Nun pudo guardase la configuración del monitor"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Nun pudo algamase el bus de sesión al aplicar la configuración de pantalla"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Nun pudieron detectase pantalles"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Guardóse la configuración del monitor"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr ""
+#~ "Esta configuración va usase la próxima vegada que daquién se rexistre."
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Nun pudo afitase la configuración predefinía pa los monitores"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Nun pudo algamase información de pantalla"
+
+#~ msgid "Sound"
+#~ msgstr "Soníu"
+
+#~ msgid "Desktop"
+#~ msgstr "Escritoriu"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Combinación nueva..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tecla Aceleradora"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modificadores del Acelerador"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Códigu de tecla de la combinación"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Mou de la combinación"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "El tipu d'acelerador."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Aición desconocida>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Combinación personalizada"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Error al guardar l'atayu nuevu"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Nun pue usase la combinación de tecles «%s» porque fadríase enforma "
+#~ "abegoso escribir usando esta tecla.\n"
+#~ "Por favor, téntelo con una tecla como Control, Alt o Mayús. al mesmu "
+#~ "tiempu."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "La combinación «%s» yá ta usándose pa\n"
+#~ "«%s»"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Si reasigna la combinación a «%s» desactivaráse la combinación «%s»."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Reasignar"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Fallu al desaniciar una combinación de tecles na base de datos de "
+#~ "configuración: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Demasiaos atayos personalizaos"
+
+#~ msgid "Action"
+#~ msgstr "Aición"
+
+#~ msgid "Shortcut"
+#~ msgstr "Atayu"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Combinación personalizada"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Atayos del Tecláu"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Pa editar una combinación nueva calque na filera correspondiente y teclee "
+#~ "una combinación de tecles nueva, o calque Retrocesu pa desaniciala."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Da-y una combinación de tecles a comandos"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Namái aplicar la configuración y salir (namái por compatibilidad; remanáu "
+#~ "agora por un degorriu)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr ""
+#~ "Aniciar la páxina amosando la configuración del descansu d'escritura"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Aniciar la páxina amosando la configuración d'accesibilidá"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Preferencies del tecláu de GNOME"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr ""
+#~ "Pitar cuando s'activen o desactiven les característiques d'_accesibilidá"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Pitar al calcar un _modificador"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Pitar al calcar una _tecla conmutable"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Pitar al cal_car una tecla"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Pitar si se refu_ga la tecla"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Pitar cuando la tecla s'_aceute"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Pitar si se _refuga la tecla"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Tecles de rebote"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Destellu de la barra de títulu de la _ventana"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Destellu de la pantalla _completa"
+
+#~ msgid "General"
+#~ msgstr "Xeneral"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Comentarios sobro los soníos d'accesibilidá del tecláu"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Amosar rempuesta _visual pa les alertes de soníu"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Tecles lentes"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Tecles pegañoses"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Indicadores visuales pa soníos"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Permitir p_osponer los descansos"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Co_mentarios sobro'l soníu..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Parpaguéu del cursor"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "El cursor pa_rpaguea nos campos de testu"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Velocidá de parpaguéu del cursor"
+
+#~ msgid "D_elay:"
+#~ msgstr "A_llanciu:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "_Desactivar les tecles persistentes si se calquen dos tecles al empar"
+
+#~ msgid "Fast"
+#~ msgstr "Rápidu"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr ""
+#~ "Les pulsaciones de tecles _repítense cuando la tecla se caltién calcada"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Preferencies del tecláu"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Modelu de tecláu:"
+
+#~ msgid "Layouts"
+#~ msgstr "Distribuciones"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Llista de distribuciones teclaos seleicionaos pa usar"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Bloquia la pantalla dempués d'un ciertu intervalu p'aidar a prevenir les "
+#~ "lesiones pol usu repetitivu del tecláu"
+
+#~ msgid "Long"
+#~ msgstr "Llargu"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Tecles del Mur"
+
+#~ msgid "Move _Down"
+#~ msgstr "_Mover Abaxo"
+
+#~ msgid "Move _Up"
+#~ msgstr "M_over Arriba"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Mover la distribución de tecláu seleicionada p'abaxo na llista"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Mover la distribución de tecláu seleicionada p'arriba na llista"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Les ventanes nueves u_sen la distribución de la ventana activa"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Imprentar una diagrama de la distribución de tecláu selecionada"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Esborrar la distribución de tecláu selecionada de la llista"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Repetir tecles"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Velocidá de repetición de les tecles"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Trocar la configuración actual de tecláu pola\n"
+#~ "configuración por defeutu"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Restablecer valores _predeterminaos"
+
+#~ msgid "S_peed:"
+#~ msgstr "Veloci_dá:"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Seleicionar una distribución de tecláu p'amestala a la llista"
+
+#~ msgid "Short"
+#~ msgstr "Curtiu"
+
+#~ msgid "Slow"
+#~ msgstr "Lentu"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Ver y editar les opciones de distribución de tecláu"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Aceleración:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "Permitir conmutar les carauterístiques d'_accesibilidá dende "
+#~ "combinaciones de tecles"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Retrasu:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Inorar pulsaciones duplicaes rápides"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "N_amái aceutar tecles calcaes durante ciertu tiempu"
+
+#~ msgid "_Options..."
+#~ msgstr "_Opciones..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "Permitir remanar el _punteru usando'l tecláu numbéricu"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Separtar la _distribución pa cada ventana"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simular pulsaciones de múltiples tecles"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Velocidá:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Escriba pa comprobar la configuración:"
+
+#~ msgid "By _country"
+#~ msgstr "Por _país"
+
+#~ msgid "By _language"
+#~ msgstr "Por _llingua"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Escueyi una distribución"
+
+#~ msgid "Preview:"
+#~ msgstr "Vista previa:"
+
+#~ msgid "_Country:"
+#~ msgstr "_País:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Llingua:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Variantes:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Escueyi un modelu de tecláu"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modelos:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Fabricantes:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Opciones de distribución del tecláu"
+
+#~ msgid "Unknown"
+#~ msgstr "Desconocíu"
+
+#~ msgid "Layout"
+#~ msgstr "Disposición"
+
+#~ msgid "Vendors"
+#~ msgstr "Fabricantes"
+
+#~ msgid "Models"
+#~ msgstr "Modelos"
+
+#~ msgid "Default"
+#~ msgstr "Predetermináu"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Afitar les preferencies de tecláu"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Mover a la esquierda"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Mover a la drecha"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Mover arriba"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Mover abaxo"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Desactiváu"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Especifique'l nome de la páxina p'amosar (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- GNOME Preferencies del Mur"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Escueyi'l tipu de pulsación d'an_temanu"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Escueyi'l tipu de pulsación con _xestos del mur"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "Pulsación d_uble:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Pulsación d'a_rrastre:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "_Desactivar el touchpad al escribir"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Allanciu del duble clic"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Arrastrar y llantar"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Pulsación al posase"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Activar pul_saciones del mur col touchpad"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Activar desplazamientu _horizontal"
+
+#~ msgid "High"
+#~ msgstr "Altu"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Llocalizar el punteru"
+
+#~ msgid "Low"
+#~ msgstr "Baxu"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Orientación del mur"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Velocidá del mur"
+
+#~ msgid "Scrolling"
+#~ msgstr "Desplazamientu"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Pulsación secu_ndaria:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Amosar la posición del punteru al calcar la tecla Control"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Amosar la _ventana del tipu de pulsación"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Pulsación secundaria simulada"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Umbral:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Pa prebar les configuraciones del duble clic, intente facer duble clic "
+#~ "nel focu"
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "_Desplazamientu con dos deos"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Tamién puedes usar la miniaplicación Dwell Click pa escoyer la triba "
+#~ "pulsación."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Desactiváu"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Berbesu de desplazamientu"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Aniciar la pulsación cuando se pare'l movimientu del punteru"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Maniegu"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "Umbral de _movimientu:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Diestru"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Sensibilidá:"
+
+#~ msgid "_Single click:"
+#~ msgstr "Pulsación _cenciella:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Tiempu d'espera:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "D_isparar la pulsación secundaria al caltener pulsáu el botón primariu"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Afitar les preferencies del mur"
+
+#~ msgid "New Location..."
+#~ msgstr "Allugamientu nuevu..."
+
+#~ msgid "Location already exists"
+#~ msgstr "L'allugamientu yá existe"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Proxy de Rede"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Afitar les preferencies de proxy de rede"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Conexón Di_reuta a Internet</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Configuración _Automática del proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Configuración _Manual del proxy</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Utiliza autenticación</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL d'Autoconfiguración:"
+
+#~ msgid "C_reate"
+#~ msgstr "C_rear"
+
+#~ msgid "Create New Location"
+#~ msgstr "Crear un allugamientu nuevu"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detalles Proxy HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Proxy H_TTP:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Inorar llista d'Agospiadores"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Hosts inoraos"
+
+#~ msgid "Location:"
+#~ msgstr "Allugamientu"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Preferencies del Proxy de Rede"
+
+#~ msgid "Port:"
+#~ msgstr "Puertu:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Configuración del Proxy"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ock host:"
+
+#~ msgid "The location already exists."
+#~ msgstr "L'allugamientu yá existe."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Usuariu:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Desaniciar allugamientu"
+
+#~ msgid "_Details"
+#~ msgstr "_Detalles"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Proxy _FTP:"
+
+#~ msgid "_Location name:"
+#~ msgstr "N_ome d'allugamientu:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Contraseña:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Proxy HTTP _Seguru:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Usar el mesmu proxy pa tolos protocolos"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "Nun se pue aniciar l'aplicación de preferencies pal so xestor de ventanes"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "_Hiper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "_Super (o «Logu de Windows»)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Tecla de movimientu"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Aición de barra de titulu"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Pa mover una ventana, caltenga calcada esta tecla y llueu arrastre la "
+#~ "ventana:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Preferencies de Ventana"
+
+#~ msgid "Window Selection"
+#~ msgstr "Seleición de ventana"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Doble-click na barra de títulu pa facer esta aición:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Intervalu enantes d'elevar:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Elevar les ventanes seleicionaes tres d'un intervalu"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Seleicionar ventanes cuando'l mur se mueve sobro elles"
+
+#~ msgid "seconds"
+#~ msgstr "segundos"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Afitar les propiedaes de les ventanes"
+
+#~ msgid "Windows"
+#~ msgstr "Ventanes"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "El xestor de ventanes «%s» nun rexistró una ferramienta de configuración\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maximizar"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Maximizar verticalmente"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Maximizar horizontalmente"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimizar"
+
+#~ msgid "Roll up"
+#~ msgstr "Endolcar"
+
+#~ msgid "None"
+#~ msgstr "Dengún"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "tecla non alcontrada [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Anubrir nel entamu (afayadizo pa precargar la consola)"
+
+#~ msgid "Filter"
+#~ msgstr "Fieltru"
+
+#~ msgid "Groups"
+#~ msgstr "Grupos"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Xeres comunes"
+
+#~ msgid "Control Center"
+#~ msgstr "Centru de control"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Zarra'l centru de control cuando s'activa una xera"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr ""
+#~ "Abandona la consola cuando se tien fecho una aición d'amestáu o desaniciu"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Abandona la consola cuando se tien fecho una aición d'aida"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Abandona la consola cuando se tien fecho una aición d'aniciu"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "Abandona la consola cuando se tien fecho una aición d'actualización o "
+#~ "desinstalación"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr ""
+#~ "Conseña si hai de zarrar la consola cuando se tien executao una aición "
+#~ "d'aida."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr ""
+#~ "Conseña si hai de zarrar la consola cuando se tien executao una aición "
+#~ "d'aniciu."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Conseña si hai de zarrar la consola cuando se tien executao una aición "
+#~ "d'amestáu o desaniciu."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Conseña si hai de zarrar la consola cuando se tien executao una aición "
+#~ "d'actualización o desinstalación."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Nomes de xeres y ficheros .desktop asociaos"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "El nome de la xera que despliegar nel centru de control siguíu por un "
+#~ "separtador «;» y llueu el nome d'un ficheru .desktop asociáu que llanzar "
+#~ "pa esa xera."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Camudar el tema;gtk-theme-selector.desktop,Afitar les aplicaciones "
+#~ "preferíes;default-applications.desktop,Amestar imprentadora;gnome-cups-"
+#~ "manager.desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "Si ye braero, el centru de control zarrarase cuando s'active una «Xera "
+#~ "común»."
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Ferramienta de configuración de GNOME"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si ta afitao a «true», entós les tipografíes OpenType miniaturizaránse."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Si ta afitao a «true», entós les tipografíes PFC miniaturizaránse."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si ta afitao a «true», entós les tipografíes TrueType miniaturizaránse."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si ta afitao a «true», entós les tipografíes Type1 miniaturizaránse."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Ponga nesta clave la orde qu'hai d'usar pa criar miniatures de les "
+#~ "tipografíes OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Ponga nesta clave la orde qu'hai d'usar pa crear miniatures de les "
+#~ "tipografíes PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Ponga nesta clave la orde qu'hai d'usar pa crear miniatures de les "
+#~ "tipografíes TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Pon nesta clave la orde qu'hai d'usar pa crear miniatures de les "
+#~ "tipografíes Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Comandu pa miniaturizar les tipografíes OpenType"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Comandu pa miniaturizar les tipografíes PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Comandu pa miniaturizar les tipografíes TrueType"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Comandu pa miniaturizar les tipografíes Type1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Conseña si hai de miniaturizar les tipografíes OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Conseña si hai de miniaturizar les tipografíes PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Conseña si hai de miniaturizar les tipografíes TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Conseña si hai de miniaturizar les tipografíes Type1"
+
+#~ msgid "Name:"
+#~ msgstr "Nome:"
+
+#~ msgid "Style:"
+#~ msgstr "Estilu:"
+
+#~ msgid "Type:"
+#~ msgstr "Triba:"
+
+#~ msgid "Size:"
+#~ msgstr "Tamañu:"
+
+#~ msgid "Version:"
+#~ msgstr "Versión:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Copyright:"
+
+#~ msgid "Description:"
+#~ msgstr "Descripción:"
+
+#~ msgid "Installed"
+#~ msgstr "Instalada"
+
+#~ msgid "Install Failed"
+#~ msgstr "Falló la instalación"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "usu: %s ficheru de tipografíes\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "I_nstalar Fonte"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Visor de tipografíes"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Vista previa de les tipografíes"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Testu a miniaturizar (predetermináu: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TESTU"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Tamañu de la fonte (predetermináu: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "TAMAÑU"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FICHERU-DE-TIPOGRAFÍA ARCHIVU-DE-SALIDA"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Fallu al analizar los argumentos: %s\n"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "El to filtru «%s» nun concasa con oxetu dalu"
+
+#~ msgid "No matches found."
+#~ msgstr "Nun s'atoparon coincidencies."
+
+#~ msgid "Other"
+#~ msgstr "Otru"
+
+#~ msgid "Start %s"
+#~ msgstr "Entamar %s"
+
+#~ msgid "Help"
+#~ msgstr "Aida"
+
+#~ msgid "Upgrade"
+#~ msgstr "Actualizar"
+
+#~ msgid "Uninstall"
+#~ msgstr "Desinstalar"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Desaniciar de favoritos"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Amestar a favoritos"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Desaniciar de los programes d'entamu"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Amestar a los programes d'entamu"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Fueya de cálculu nueva"
+
+#~ msgid "New Document"
+#~ msgstr "Documentu nuevu"
+
+#~ msgid "Documents"
+#~ msgstr "Documentos"
+
+#~ msgid "File System"
+#~ msgstr "Sistema de Ficheros"
+
+#~ msgid "Network Servers"
+#~ msgstr "Servidores de Rede"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Abrir</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Renomar..."
+
+#~ msgid "Send To..."
+#~ msgstr "Unviar A..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Mover a la papelera"
+
+#~ msgid "Delete"
+#~ msgstr "Desaniciar"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "¿Daveres quier esaniciar pa siempres «%s»?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Si desanicia un elementu, piérdese pa siempres."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Abrir con \"%s\""
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Abrir cola aplicación predeterminada"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Abrir nel alministrador de ficheros"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Güei %H:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Ayeri %H:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %H:%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d %b %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Guetar agora"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Abrir %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Desaniciar d'elementos de sistema"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "Preferencies del Mur"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Nun activar"
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Vínculu pa suspender l'equipu."
+
+#~ msgid "Suspend"
+#~ msgstr "Suspender"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Afite a «true» p'amosar un diálogu cuando heba errores al executar el "
+#~ "salvapantalles."
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Afite a «true» pa executar el salvapantalles al aniciar sesión."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Amosar errores d'arranque"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Aniciar el salvapantalles"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Activar el complementu de salvapantalles"
+
+#~ msgid "Set to True to enable the plugin to manage screensaver settings."
+#~ msgstr ""
+#~ "Afite a «true» p'activar el complementu que xestiona los axustes del "
+#~ "salvapantalles."
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Hebo un erru al aniciar el salvapantalles:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "El salvapantalles nun furrulará nesta sesión."
+
+#~ msgid "Screensaver"
+#~ msgstr "Salvapantalles"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "Complementu de salvapantalles"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Password dialogs as normal windows"
+#~ msgstr "Diálogos de _Clave como una ventana normal"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Probando la nueva configuración. Si nun respuendes en %d segundu "
+#~ "restauraráse la configuración anterior."
+#~ msgstr[1] ""
+#~ "Probando la nueva configuración. Si nun respuendes en %d segundos "
+#~ "restauraráse la configuración anterior."
+
+#~ msgid "Keep Settings"
+#~ msgstr "Caltener la configuración"
+
+#~ msgid "Do you want to keep these settings?"
+#~ msgstr "¿Deseya caltener esta configuración?"
+
+#~ msgid "Use _previous settings"
+#~ msgstr "Usar la configuración _anterior"
+
+#~ msgid "_Keep settings"
+#~ msgstr "_Caltener la configuración"
+
+#~ msgid "Desktop effects could not be enabled"
+#~ msgstr "Los efeutos d'escritoriu nun pudieron activase"
+
+#~ msgid ""
+#~ "Please run \"Appearance/Desktop Effects\" again after restarting the "
+#~ "computer, when the new graphics driver is active."
+#~ msgstr ""
+#~ "Execute «Aspeutu/efeutos d'escritoriu» otra vuelta, dempués de reaniciar "
+#~ "l'equipu, cuando'l controlador de gráficos nuevu tea activu."
+
+#~ msgid "Revert Button Layout"
+#~ msgstr "Revertir diseñu de botón"
+
+#~ msgid ""
+#~ "The current theme suggests a background, a font and a button layout. "
+#~ "Also, the last applied font and button layout suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer un fondu, una fonte y un diseñu de botón. Arriendes, "
+#~ "la cabera suxerencia de fonte y de disposición de los botones aplicada, "
+#~ "puede revertise."
+
+#~ msgid ""
+#~ "The current theme suggests a background, a font and a button layout. "
+#~ "Also, the last applied button layout suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer un fondu, una fonte y un diseñu de botón. Arriendes, "
+#~ "la cabera suxerencia de disposición de los botones aplicada, puede "
+#~ "revertise."
+
+#~ msgid ""
+#~ "The current theme suggests a background and a button layout. Also, the "
+#~ "last applied font and button layout suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer un fondu, y un diseñu de botón. Arriendes, la cabera "
+#~ "suxerencia de fonte y de disposición de los botones aplicada, puede "
+#~ "revertise."
+
+#~ msgid ""
+#~ "The current theme suggests a font and a button layout. Also, the last "
+#~ "applied button_layout suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer un fondu, y un diseñu de botón. Arriendes, la cabera "
+#~ "suxerencia de disposición de los botones aplicada, puede revertise."
+
+#~ msgid ""
+#~ "The current theme suggests a button layout. Also, the last button layout "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "El tema actual suxer un diseñu de botón. Arriendes, la cabera suxerencia "
+#~ "de disposición de los botones puede revertise."
+
+#~ msgid "<b>C_ustom:</b> Uses custom set of effects."
+#~ msgstr "<b>_Personalizáu:</b> Usar un conxuntu personalizáu d'efeutos."
+
+#~ msgid "<b>Compiz is not installed</b>"
+#~ msgstr "<b>Compiz nun ta instaláu</b>"
+
+#~ msgid ""
+#~ "<b>E_xtra:</b> Provides more aesthetically pleasing set of effects. "
+#~ "Requires faster graphics card."
+#~ msgstr ""
+#~ "<b>E_stra:</b> Apurre un conxuntu d'efeutos estéticamente más agradables. "
+#~ "Requier d'una tarxeta gráfica más potente."
+
+#~ msgid "<b>Mutter is running, can't switch to other effects.</b>"
+#~ msgstr ""
+#~ "<b>El silenciador ta executándose, nun pueden camudase a otros efeutos.</"
+#~ "b>"
+
+#~ msgid ""
+#~ "<b>N_ormal:</b> Provides improved usability and good balance between "
+#~ "attractiveness and moderate performance requirements."
+#~ msgstr ""
+#~ "<b>N_ormal:</b> Proporciona meyor usabilidá, y un bon equilibriu ente "
+#~ "atractivu y moderaos requisitos de funcionamientu."
+
+#~ msgid ""
+#~ "<b>_None:</b> Provides a simple desktop environment without any effects."
+#~ msgstr ""
+#~ "<b>_Dengún:</b> Proporciona un entornu d'escritoriu cenciellu ensin "
+#~ "dengún efeutu."
+
+#~ msgid "Visual Effects"
+#~ msgstr "Efeutos visuales"
+
+#~ msgid ""
+#~ "It appears that your graphics driver does not support the necessary "
+#~ "extensions to use this tool.  Do you want to use your graphics driver "
+#~ "vendor's tool instead?"
+#~ msgstr ""
+#~ "Paez que'l to preséu gráficu nun soporta les estensiones necesaries pa "
+#~ "usar esta ferramienta.  ¿Quies usar la ferramienta del fabricante del "
+#~ "preséu gráficu?"
+
+#~ msgid "%d x %d (%s)"
+#~ msgstr "%d x %d (%s)"
+
+#~ msgid ""
+#~ "Your settings cannot be applied because the virtual resolution is not big "
+#~ "enough to contain your screens"
+#~ msgstr ""
+#~ "La so configuración nun puede aplicase porque la resolución virtual nun "
+#~ "ye lo suficientemente grande pa contener les sos pantalles"
+
+#~ msgid "Please log out and log back in again"
+#~ msgstr "Por favor, cole de la sesión y torne a entrar"
+
+#~ msgid ""
+#~ "The installation of an additional component (%s) is required in order to "
+#~ "apply your settings. Would you like to install it now?"
+#~ msgstr ""
+#~ "Necesétase la instalación de componentes adicionales (%s) pa poder "
+#~ "aplicar les sos opciones. ¿Deseya instalalos agora?"
+
+#~ msgid "Apply System-Wide..."
+#~ msgstr "Aplica a tol sistema..."
+
+#~ msgid ""
+#~ "Do you want to apply these settings system-wide, so that they are also "
+#~ "used for package installation and other system services?"
+#~ msgstr ""
+#~ "¿Quies aplicar estes opciones a tol sistema pa que s'usen tamién na "
+#~ "instalación de paquetes y otros servicios del sistema?"
+
+#~ msgid "Reset"
+#~ msgstr "Resetear"
+
+#~ msgid "Enable mouse _clicks with touchpad"
+#~ msgstr "Habilitar facer _clic col touchpad"
+
+#~ msgid "Interface"
+#~ msgstr "Interface"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "Menu _editable d'atayos del tecláu"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Etiquetes de _botones na barra ferramientes:"
+
+#~ msgid "C_ontrol"
+#~ msgstr "_Ctrl"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Separate _layout for each window"
+#~ msgstr "Separtar la _distribución pa cada ventana"
+
+#~ msgid "Enable _horizontal scrolling"
+#~ msgstr "Habilitar desplazamientu _horizontal"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Amosar _iconos nos menús"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Cambiar la resolución de pantalla"
+
+#~ msgid ""
+#~ "Please run \"Apperance/Desktop Effects\" again after restarting the "
+#~ "computer, when the new graphics driver is active."
+#~ msgstr ""
+#~ "Por favor, torne a executar «Aspeutu->Efeutos d'escritoriu» dempués de "
+#~ "reaniciar l'equipu, cuando tea activu el nuevu controlador gráficu."
+
+#~ msgid "_File"
+#~ msgstr "_Ficheru"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "A_celeración:"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "_Pantalles espeyu"
+
+#~ msgid "_Detect Monitors"
+#~ msgstr "_Deteutar monitores"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "_Opciones de distribución…"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "Munches gracies a toos y toes los que sofiten l'usu del software llibre "
+#~ "en llingua asturiana. Fai Llingua, fai Ubuntu."
+
+#~ msgid "_Show displays in panel"
+#~ msgstr "Amo_sar pantalles nel panel"

@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 19:26+0100\n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2008-09-20 11:58+0200\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
@@ -37,19 +37,19 @@ msgstr ""
 "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 msgid "Enable debugging code"
 msgstr "Aktivizoo kodin e debug"
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "Mos kontrollo praninë e zonës së njoftimeve"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "Kontrolli i shkrimit"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 #, fuzzy
 msgid ""
 "The typing monitor uses the notification area to display information. You "
@@ -70,12 +70,12 @@ msgstr ""
 "\"Shto në panel\" , gjeni \"Zona e njoftimit\" e klikoni mbi pulsantin "
 "«Shto»."
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 #, fuzzy
 msgid "_Take a Break"
 msgstr "/_Pusho pak"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 #, fuzzy
 msgid "Disabled"
 msgstr ""
@@ -86,12 +86,7 @@ msgstr ""
 "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
 "Çaktivizuar"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr ""
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, fuzzy, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
@@ -106,12 +101,7 @@ msgstr[1] ""
 "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
 "Mungojnë %d minuta deri në pushimin tjetër"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr ""
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, fuzzy, c-format
 msgid "Less than one minute until the next break"
 msgstr ""
@@ -122,7 +112,7 @@ msgstr ""
 "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
 "Mungon më pak se një minutë deri në pushimin tjetër"
 
-#: ../src/drwright.c:611
+#: ../../../po/../src/drwright.c:553
 #, fuzzy, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -135,15 +125,15 @@ msgstr ""
 "E pamundur hapja e dritares së dialogut të pronësive të pushimit për shkak "
 "të gabimit në vijim: %s"
 
-#: ../src/drwright.c:628
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Shkruar nga Richard Hult <richard@imendio.com>"
 
-#: ../src/drwright.c:629
+#: ../../../po/../src/drwright.c:573
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Eye candy shtuar nga Anders Carlsson"
 
-#: ../src/drwright.c:638
+#: ../../../po/../src/drwright.c:582
 #, fuzzy
 msgid "A computer break reminder."
 msgstr ""
@@ -154,26 +144,26 @@ msgstr ""
 "#-#-#-#-#  sq.po (gnome-control-center HEAD)  #-#-#-#-#\n"
 "Një program për t'ju kujtuar për të pushuar gjatë punës në kompjuter."
 
-#: ../src/drwright.c:640
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 "Elian Myftiu <elian@alblinux.net>, 2003-2006\n"
 "Laurent Dhima <laurenti@alblinux.net>, 2008"
 
-#: ../src/drw-break-window.c:181
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Shty për më vonë pushimin"
 
-#: ../src/drw-break-window.c:227
+#: ../../../po/../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "Pusho pak!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of minutes of typing time before break mode starts"
+msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of minutes that the typing break should last"
+msgid "Number of seconds that the typing break should last"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
@@ -181,14 +171,18 @@ msgid "Phrase to unlock the break screen with"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Whether the settings daemon should activate the typing break plugin"
+msgid "Priority to use for this plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
-msgid "Whether the typing break can be postponed"
+msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Whether typing break is enabled"
 msgstr ""
 
@@ -222,9 +216,8 @@ msgstr "B_lloko ekranin për të detyruar kryrjen e një pushimi"
 msgid "_Work interval lasts:"
 msgstr "Intervali i _punës:"
 
-#: ../src/drwright-panel.glade.h:5
-msgid "minutes"
-msgstr "minuta"
+#~ msgid "minutes"
+#~ msgstr "minuta"
 
 #~ msgid "    "
 #~ msgstr "    "

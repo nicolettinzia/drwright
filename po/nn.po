@@ -1,0 +1,6910 @@
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+# translation of nn.po to Norwegian Nynorsk
+# Norwegian (nynorsk) translation of gnome-control-center.
+# Copyright (C) 1999-2008 Free Software Foundation, Inc.
+# Copyright (C) Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+#
+# Eskild Hustvedt <eskildh@gnome.org> 2008
+# Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003, 2004, 2006.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+# translation of nn.po to Norwegian Nynorsk
+# Norwegian (nynorsk) translation of gnome-control-center.
+# Copyright (C) 1999-2008 Free Software Foundation, Inc.
+# Copyright (C) Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+#
+# Eskild Hustvedt <eskildh@gnome.org> 2008
+# Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003, 2004, 2006.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+# translation of nn.po to Norwegian Nynorsk
+# Norwegian (nynorsk) translation of gnome-control-center.
+# Copyright (C) 1999-2008 Free Software Foundation, Inc.
+# Copyright (C) Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+# Eskild Hustvedt <eskildh@gnome.org> 2008
+# Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+# Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2003-2008.
+# Torstein Adolf Winterseth <kvikende@yahoo.no>, 2010.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-02-28 10:25+0100\n"
+"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#
+#: ../../../po/../src/main.c:61
+#, fuzzy
+msgid "Enable debugging code"
+msgstr ""
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Aktiver feilsøkingskode\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Aktiver feilsøkingskode\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Aktiver feilsøkingsmodus"
+
+#
+#: ../../../po/../src/main.c:63
+#, fuzzy
+msgid "Don't check whether the notification area exists"
+msgstr ""
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Ikkje sjekk om varslingsområde eksisterer\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Ikkje sjekk om varslingsområde eksisterer\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Ikkje sjekk om varslingsområdet finst"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Skriveovervakar"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Skriveovervakaren brukar varslingsområdet til å visa informasjon. Det ser "
+"ikkje ut til at du har eit varslingsområde på panelet ditt. Du kan leggja "
+"til eit ved å høgreklikka på panelet og velja «Legg til på panelet» og "
+"deretter «Varslingsområde», og så klikka «Legg til»."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "_Ta ein pause"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "Av"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minutt til neste pause"
+msgstr[1] "%d minutt til neste pause"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Mindre enn eitt minutt til neste pause"
+
+#: ../../../po/../src/drwright.c:553
+#, fuzzy, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Kan ikkje få fram dialogen med skrivepauseeigenskapane på grunn av denne "
+"feilen: %s\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Kan ikkje få fram dialogen med skrivepauseeigenskapane på grunn av denne "
+"feilen: %s\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Klarte ikkje få fram dialogen med skrivepauseeigenskapane på grunn av denne "
+"feilen: %s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Skriven av Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Pynt lagt til av Anders Carlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Ei påminning om å ta ein pause frå datamaskina."
+
+#
+#: ../../../po/../src/drwright.c:584
+#, fuzzy
+msgid "translator-credits"
+msgstr ""
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Kjartan Maraas <kmaraas@gnome.org>\n"
+"Eskild Hustvedt <eskildh@gnome.org>\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Kjartan Maraas <kmaraas@gnome.org>\n"
+"Eskild Hustvedt <eskildh@gnome.org>\n"
+"#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+"Kjartan Maraas <kmaraas@gnome.org>\n"
+"Eskild Hustvedt <eskildh@gnome.org>\n"
+"Åsmund Skjæveland <aasmunds@ulrik.uio.no>\n"
+"Torstein Adolf Winterseth <kvikende@yahoo.no>\n"
+"\n"
+"Send merknader og feilrapportar til <i18n-no@lister.ping.uio.no>"
+
+#
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "_Utsett pause"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Ta ein pause!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Om skjermlesaren er slått på."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Om skjermlesaren er slått på."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Skrivepause"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+#, fuzzy
+msgid "_Allow postponing of breaks"
+msgstr "Till_at utsetjing av pausar"
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "_Pausen varar:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "_Lås skjermen for å tvinga ein skrivepause"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "_Arbeidsøkta varar:"
+
+#~ msgid "minutes"
+#~ msgstr "minutt"
+
+#
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Jobb</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Jobb</b>"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Kontroller om pausar kan utsetjast"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Lengd på skrivepause"
+
+#, fuzzy
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Lengd på arbeidstid før tvungen pause"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Lengd på arbeidstid før tvungen pause"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/_Om"
+
+#, fuzzy
+#~ msgid "/_Remove Icon"
+#~ msgstr "Fje_rn"
+
+#, fuzzy
+#~ msgid "One minute until the next break"
+#~ msgstr "%d minutt til neste pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#, fuzzy
+#~ msgid "Quit"
+#~ msgstr "_Avslutt"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#, fuzzy
+#~ msgid "Break reminder"
+#~ msgstr "Ei påminning om å ta ein pause frå datamaskina."
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Datei mit der Vorgabekonfiguration für RandR"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "Das XRandR-Plugin sucht in der durch diesen Schlüssel angegebenen Datei "
+#~ "nach einer Vorgabekonfiguration. Dies verhält sich ähnlich wie ~/.config/"
+#~ "monitors.xml, die normalerweise in den persönlichen Ordnern der Benutzer "
+#~ "gespeichert wird. Falls ein Benutzer nicht über solch eine Datei verfügt "
+#~ "oder seine Konfiguration nicht zu den vorhandenen Bildschirmen passt, "
+#~ "wird die in diesem Schlüssel angegebene Datei stattdessen verwendet."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Externen Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Externen Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Laptop-Bildschirm nach Systemstart einschalten"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Laptop-Bildschirm nach Systemstart einschalten, falls der Benutzer den "
+#~ "externen Bildschirm beim Systemstart anschließt."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Setzen Sie dies auf »none« (nichts tun), »lock_screen« (Bildschirm "
+#~ "sperren) oder »force_logout« (Abmelden erzwingen). Die Aktion wird "
+#~ "ausgeführt, wenn die zum Anmelden benutzte Smartcard entfernt wird."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Smartcard-Entfernung"
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u Ausgabe"
+#~ msgstr[1] "%u Ausgaben"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u Eingabe"
+#~ msgstr[1] "%u Eingaben"
+
+#~ msgid "Module Path"
+#~ msgstr "Modulpfad"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "Pfad zum Smartcard PKCS #11-Treiber"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "Fehler empfangen oder Abbruch seitens der Ereignisquelle"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Das NSS-Sicherheitssystem konnte nicht initialisiert werden"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "Es konnte kein passender Smartcard-Treiber gefunden werden"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "Smartcard-Treiber »%s« konnte nicht geladen werden"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr ""
+#~ "Überwachung auf eingehende Karten-Ereignisse ist fehlgeschlagen - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr ""
+#~ "Unerwarteter Fehler trat beim Warten auf eingehende Karten-Ereignisse auf"
+
+#~ msgid "Slot ID"
+#~ msgstr "Slot-Kennung"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Der Slot, in welchem sich die Karte befindet"
+
+#~ msgid "Slot Series"
+#~ msgstr "Slot-Reihe"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "Slotweise Kartenbezeichnung"
+
+#~ msgid "Module"
+#~ msgstr "Modul"
+
+#~ msgid "smartcard driver"
+#~ msgstr "Smartcard-Treiber"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Hardware-Uhr konfigurieren"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Zeitzone des Systems zu "
+#~ "ändern."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Systemzeit zu ändern."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr ""
+#~ "Systemverwalterrechte sind erforderlich, um die Hardware-Uhr zu "
+#~ "konfigurieren."
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "%d%% des Speicherplatzes auf »%s« wird benutzt"
+
+#~ msgid "Analyze"
+#~ msgstr "Analysieren"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
+
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+#
+#~ msgid "Accessibility"
+#~ msgstr "Tilgjenge"
+
+# TNL: Usikker!
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Terskelen for ledig plass i prosent før varsling"
+
+# TNL: Usikker!
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Terskelen for ledig plass med inga varsling"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Minimal tid mellom åtvaringar"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Monteringsstiger å ignorera"
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Oppgje ei liste med monteringsstiger å oversjå når dei har lite diskplass."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Oppgje ei tid i minutt. Etterfølgjande varsel for ei lagringseining vil "
+#~ "ikkje visast oftare enn den gjevne tida."
+
+# TNL: Usikker!
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Terskelen for følgjande ledig plass i prosent før varsling"
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Snøggtast for å slå styrebrettet av og på."
+
+#
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Snøggtast for å starta kalkulator."
+
+#
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Snøggtast for å starta e-postklient."
+
+#
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Snøggtast for å starta hjelplesar."
+
+#
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Snøggtast for å starta mediaspelar."
+
+#
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Snøggtast for å starta søkjeverktøy."
+
+#
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Snøggtast for å starta nettlesar."
+
+#
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Snøggtast for å låsa skjermen."
+
+#
+#~ msgid "Binding to log out."
+#~ msgstr "Snøggtast for å logga ut."
+
+#
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Snøggtast for å lægja volumet."
+
+#
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Snøggtast for å dempa volumet."
+
+#
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Snøggtast for å opna heimemappa."
+
+#
+#~ msgid "Binding to pause playback."
+#~ msgstr "Snøggtast for å setja avspeling på pause."
+
+#
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Snøggtast for å høgja volumet."
+
+#
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Snøggtast for å hoppa til neste spor."
+
+#
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Snøggtast for å hoppa til førre spor."
+
+#
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr ""
+#~ "Snøggtast for å starta avspeling (eller byte mellom avspeling/pause)."
+
+#
+#~ msgid "Binding to stop playback."
+#~ msgstr "Snøggtast for å stoppa avspeling."
+
+#~ msgid "Eject"
+#~ msgstr "Løys ut"
+
+#~ msgid "Home folder"
+#~ msgstr "Heimemappe"
+
+#
+#~ msgid "Launch calculator"
+#~ msgstr "Start kalkulator"
+
+#
+#~ msgid "Launch email client"
+#~ msgstr "Start e-postklient"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Start hjelplesar"
+
+#
+#~ msgid "Launch media player"
+#~ msgstr "Start mediaavspelar"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Start nettlesar"
+
+#~ msgid "Lock screen"
+#~ msgstr "Lås skjermen"
+
+#~ msgid "Log out"
+#~ msgstr "Logg ut"
+
+#
+#~ msgid "Next track"
+#~ msgstr "Neste spor"
+
+#
+#~ msgid "Pause playback"
+#~ msgstr "Pause avspeling"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Spel (eller spel/pause)"
+
+#
+#~ msgid "Previous track"
+#~ msgstr "Førre spor"
+
+#~ msgid "Search"
+#~ msgstr "Søk"
+
+#
+#~ msgid "Stop playback"
+#~ msgstr "Stopp avspeling"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Skru av og på styreplate"
+
+#~ msgid "Volume down"
+#~ msgstr "Lågare lyd"
+
+#~ msgid "Volume mute"
+#~ msgstr "Lyd av"
+
+#~ msgid "Volume step"
+#~ msgstr "Lydstyrkesteg"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Lydstyrkesteg som ein prosentdel av lydstyrka"
+
+#~ msgid "Volume up"
+#~ msgstr "Høgare lyd"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Vis skjermar i varslingsområdet"
+
+#
+#~ msgid "Antialiasing"
+#~ msgstr "Antialiasing"
+
+#
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+#
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+#
+#~ msgid "Hinting"
+#~ msgstr "Hinting"
+
+#
+#~ msgid "RGBA order"
+#~ msgstr "RGBA-rekkjefølgja"
+
+#
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Rekkjefølgja for underpikselelementer på ein LCD-skjerm; brukast berre "
+#~ "når utjevning er sett til «rgba». Moglege verdiar er «rgb» for raud til "
+#~ "venstre (mest vanleg), «bgr» for blå til venstre, «vrgb» for raud øvst, "
+#~ "«vbgr» for raud nedst."
+
+#
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Oppløysing som brukast for å konvertera skriftstorleikar til "
+#~ "pikselstorleikar i punkt per tomme."
+
+#
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Type utjamning som skal brukast ved teikning av skrifter. Moglege verdiar "
+#~ "er: «none» for inga utjamning, «grayscale» for vanleg gråtoneutjamning og "
+#~ "«rgba» for underpikselutjamning (berre LCD-skjermer)."
+
+#
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Type hinting som skal brukast ved rendring av skrifter. Moglege verdiar "
+#~ "er «none» for inga hinting, «slight» for grunnleggjande, «medium» for "
+#~ "moderat, og «full» for maksimal hinting (kan forårsake forvrenging av "
+#~ "bokstavformer)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Tillete tastar"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Om ikkje-tom vil snøggtastar verta ignorert unnteken viss GConf-mappa "
+#~ "deira er i lista. Dette er høveleg for å låsa ned maskina."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Slå av styreplata medan du skriv"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Slå på horisontal rulling"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Slå på museklikk med styreplata"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Slå på styreplata"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Vel rullingsmetode for styreplata"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Set denne til TRUE viss du har problem med at du uheldigvis treff "
+#~ "skriveplata medan du skriv."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Set denne til TRUE for å tillata horisontal rulling ved bruk av same "
+#~ "metode som vald i scroll_method-nøkkelen."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Set denne til TRUE for å kunna klikka med musa ved å trykkja på "
+#~ "styreplata."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Set denne til TRUE for å slå på alle styreplater"
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "GNOME innstillingsnisse"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Snøggtast for å slå skjermforstørraren av og på."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Snøggtast for å slå tastatur på skjermen av og på."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Snøggtast for å slå skjermlesar av og på."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Sprettetastar"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Kommando brukt for å slå forstørraren av og på."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Kommando brukt for å slå tastaturet på skjermen av og på."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Kommando brukt for å slå skjermlesaren av og på."
+
+#
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Aktiver tillegg for tilgjenge for tastatur"
+
+#
+#~ msgid "Enable background plugin"
+#~ msgstr "Aktiver tillegg for bakgrunn"
+
+#
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Aktiver tillegg for utklippstavle"
+
+#
+#~ msgid "Enable font plugin"
+#~ msgstr "Aktiver tillegg for skrift"
+
+#
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Aktiver tillegg for opprydning"
+
+#
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Aktiver tillegg for snøggtastar"
+
+#
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Aktiver tillegg for tastatur"
+
+#
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Aktiver tillegg for mediatastar"
+
+#
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Aktiver tillegg for mus"
+
+#
+#~ msgid "Enable sound plugin"
+#~ msgstr "Aktiver tillegg for lyd"
+
+#
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Aktiver tillegg for skrivepause"
+
+#
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Aktiver tillegg for xrdb"
+
+#
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Aktiver tillegg for xsettings"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Mustastar"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Tastatur på skjermen"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Skjermforstørrar"
+
+#~ msgid "Screen reader"
+#~ msgstr "Skjermlesar"
+
+#
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Set til True viss du vil slå på programtillegget for oppryddning, for å "
+#~ "fjerna snøgglager."
+
+#
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "utklippstavle."
+
+#
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "skrivebordsbakgrunn."
+
+#
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "skrift."
+
+#
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "tastatur."
+
+#
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for mus."
+
+#
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "multimediatastar."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Set til True for å slå på tillegget for å handsama mellomlager for "
+#~ "lydklipp."
+
+#
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "tilgjenge for tastatur."
+
+#
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr "Set til True for å aktivera tillegg for å handtera snøggtastar."
+
+#
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr "Set til True for å aktivera tillegg for å handtera skrivepauser."
+
+#
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for xrdb."
+
+#
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "Set til True for å aktivera tillegg for å handtera xsettings."
+
+#~ msgid "Slow keys"
+#~ msgstr "Trege tastar"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Seige tastar"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Namnet på snøggtasten for å slå forstørraren av og på"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "Namnet på snøggtasten for å slå tastaturet på skjermen av og på"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "Namnet på snøggtasten for å slå skjermlesaren av og på"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Dette er namnet på snøggtasten for å slå forstørraren av og på. Dette "
+#~ "namnet vil verta vist i dialogvindauge for snøggtastinnstillingar."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Dette er namnet på snøggtasten for å slå tastatur på skjermen av og på. "
+#~ "Dette namnet vil verta vist i dialogvindauge for snøggtastinnstillingar."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Dette er namnet på snøggtasten for å slå skjermlesaren av og på. Dette "
+#~ "namnet vil verta vist i dialogvindauge for snøggtastinnstillingar."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Slå forstørrar av og på"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Slå tastatur på skjermen av og på"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Slå skjermlesar av og på"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr "Om sprettetastfunksjonen er slått på."
+
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+# TNL: Kva er «mouse keys keyboard accessibility feature»?
+#, fuzzy
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om sprettetastfunksjonen er slått på.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Om tastatur på skjermen er slått på."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Om skjermforstørraren er slått på."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Om trege tastarfunksjonen er slått på."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Om seige tastarfunksjonen er slått på."
+
+#
+#~ msgid "Don't become a daemon"
+#~ msgstr "Ikkje køyr som ein nisse"
+
+#
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "GConf-prefiks for lasting av innstillingar for tillegg"
+
+#
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Tastatur for tilgjenge"
+
+#
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Tillegg for tastatur for tilgjenge"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Ein feil oppstod når hjelpeteksten skulle visast: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Vil du slå på trege tastar?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Vil du slå av trege tastar?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Du heldt nede Shift-tasten i 8 sekund. Dette er snøggtasten for trege "
+#~ "tastar-funksjonen, som påverkar korleis tastaturet ditt virkar."
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Ikkje slå av"
+
+#~ msgid "Activate"
+#~ msgstr "Slå på"
+
+#~ msgid "Deactivate"
+#~ msgstr "Slå av"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Ikk_je slå på"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "Ikk_je slå av"
+
+#~ msgid "_Activate"
+#~ msgstr "Slå _på"
+
+#~ msgid "_Deactivate"
+#~ msgstr "Slå _av"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Varsel om trege tastar"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Vil du slå på seige tastar?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Vil du slå av seige tastar?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Du trykte Shift fem gongar på rad. Det er snøggtasten til seige tastar-"
+#~ "eigenskapen, som påverkar korleis tastaturet ditt fungerer."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Du trykte to tastar på ein gong, eller trykte Shift fem gongar på rad. "
+#~ "Det slår av seige tastareigenskapen, som påverkar korleis tastaturet "
+#~ "fungerer."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Varsel om seige tastar"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Universale tilgjengeval"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Auk _kontrastar i fargar"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "Gjer _tekst større og lettare å lesa"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "Trykk og held tasten inne for å godta dei (trege tastar)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Bruk tastatur på skjermen"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Bruk skjerm_forstørrar"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Bruk skjerm_lesar"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Ignorar dupliserte tastaturtrykk (sprettetastar)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "_Trykk inn tastatursnarvegar ein tast om gongen (seige tastar)"
+
+#
+#~ msgid "Background"
+#~ msgstr "Bakgrunn"
+
+#
+#~ msgid "Background plugin"
+#~ msgstr "Tillegg for bakgrunn"
+
+#
+#~ msgid "Clipboard"
+#~ msgstr "Utklippstavle"
+
+#
+#~ msgid "Clipboard plugin"
+#~ msgstr "Tillegg for utklippstavle"
+
+#
+#~ msgid "Dummy"
+#~ msgstr "Dummy"
+
+#
+#~ msgid "Dummy plugin"
+#~ msgstr "Dummy-tillegg"
+
+#
+#~ msgid "Font"
+#~ msgstr "Skrift"
+
+#
+#~ msgid "Font plugin"
+#~ msgstr "Tillegg for skrift"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "_Ikkje vis nokre varsel igjen"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Lagringseininga «%s» har berre %s diskplass att."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Denne datamaskina har berre %s diskplass att."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Du kan frigjera diskplass ved å tømma papirkorga, fjerna ubrukte program "
+#~ "og filer, eller flytta filer til ei anna lagringseining eller partisjon."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Du kan frigjera diskplass ved å fjerna ubrukte program og filer, eller "
+#~ "flytta filer til ei anna lagringseining eller partisjon."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Du kan frigjera diskplass ved å tømma papirkorga, fjerna ubrukte program "
+#~ "og filer, eller flytta filer til ei ekstern lagringseining."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Du kan frigjera diskplass ved å fjerna ubrukte program og filer, eller "
+#~ "flytta filer til ei ekstern lagringseining."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Lite diskplass"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Tøm papirkorga"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorer"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Fjernar oppføring %lu av %lu"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Tømmar papirkorga"
+
+#~ msgid "From: "
+#~ msgstr "Frå: "
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Slett alle oppføringane i papirkorga?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Dersom du tømmar papirkorga, vert oppføringane sletta for godt. Legg "
+#~ "merke til at du kan velja kva for filer du vil sletta."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Tøm papirkorg"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Snøggtast «%s» er ikkje gyldig"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Snøggtast «%s» er ufullstendig"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Feil i freistnad på å køyra «%s»\n"
+#~ "som er bunde til tasten «%s»"
+
+#
+#~ msgid "Keybindings"
+#~ msgstr "Snøggtastar"
+
+#
+#~ msgid "Keybindings plugin"
+#~ msgstr "Tillegg for snøggtastar"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastatur"
+
+#
+#~ msgid "Keyboard plugin"
+#~ msgstr "Tillegg for tastatur"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "_Brukarval for tastatur"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "_Tilgjengelege filer:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Last modmap-filer"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Ikkje vis denne meldinga igjen."
+
+#~ msgid "_Load"
+#~ msgstr "_Last"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Lasta filer:"
+
+#
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Klarte ikkje finna forvald terminal. Sjekk at kommando for forvald "
+#~ "terminal er sett og peikar til eit gyldig program."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Klarte ikkje køyra kommandoen: %s\n"
+#~ "Sjekk om dette er ein gyldig kommando."
+
+#~ msgid "System Sounds"
+#~ msgstr "Systemlydar"
+
+#
+#~ msgid "Media keys"
+#~ msgstr "Mediatastar"
+
+#
+#~ msgid "Media keys plugin"
+#~ msgstr "Tillegg for medietastar"
+
+#
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Klarte ikkje aktivera tilgjengefunksjonar for mus"
+
+#~ msgid "Mouse"
+#~ msgstr "Mus"
+
+#
+#~ msgid "Mouse plugin"
+#~ msgstr "Tillegg for mus"
+
+#
+#~ msgid "Typing break plugin"
+#~ msgstr "Tillegg for skrivepause"
+
+#
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Rediger innstillingar for skjermstørrelse og rotasjon"
+
+#
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Klarte ikkje byta innstillingane til skjermen"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Klarte ikkje gjenoppretta innstillingane til skjermen"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "Klarte ikkje gjenoppretta skjerminnstillingane frå ein reservekopi"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "Skjermen vil gjenoppretta tidlegare innstillingar om %d sekund"
+#~ msgstr[1] "Skjermen vil gjenoppretta tidlegare innstillingar om %d sekund"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Ser skjermen grei ut?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Gjenopprett tidlegare innstiingar"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Held fast ved desse innstillingane"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Dei valde skjerminnstillingane kunne ikkje brukast"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Klarte ikkje oppfriska skjerminformasjonen: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Prøver å byta skjerminnstillingar likevel."
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Klarte ikkje lagra av skjerminnstillingar"
+
+#
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#
+#~ msgid "Left"
+#~ msgstr "Venstre"
+
+#
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Høgre:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Høgre:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Høgre"
+
+#~ msgid "Upside Down"
+#~ msgstr "Opp-ned"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Still inn skjermen"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Klarte ikkje å bruka dei lagra innstillingane for skjermar"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Klarte ikkje avgjera heimekatalogen til brukaren"
+
+#
+#~ msgid "Manage the X resource database"
+#~ msgstr "Handter X-ressursdatabasen"
+
+#
+#~ msgid "X Resource Database"
+#~ msgstr "X-ressursdatabase"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "GConf-nøkkelen «%s» er sett til type «%s», men den venta typen er «%s»\n"
+
+#
+#~ msgid "Manage X Settings"
+#~ msgstr "Handter innstillingar for X"
+
+#
+#~ msgid "X Settings"
+#~ msgstr "Innstillingar for X"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukjend"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Tastaturutforming «%s»"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Tastaturutforming"
+
+#~ msgid "_Groups"
+#~ msgstr "_Grupper"
+
+#~ msgid "Sound"
+#~ msgstr "Lyd"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Eigenskapar for mus"
+
+#, fuzzy
+#~ msgid "Image/label border"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Bilete/merkelapp-bord\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Bilete/merkelapp-bord\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Bilet- og merkelappbord"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Breidde på borden rundt merkelappen og biletet i varslingsdialogen"
+
+#~ msgid "Alert Type"
+#~ msgstr "Type varsel"
+
+#~ msgid "The type of alert"
+#~ msgstr "Typen varsel"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Varselknappar"
+
+#, fuzzy
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Knappane som visast i varseldialogen\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Knappane som visast i varseldialogen\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Knappane som vert viste i varseldialogen"
+
+#~ msgid "Show more _details"
+#~ msgstr "Vis fleire _detaljar"
+
+#~ msgid "Select Image"
+#~ msgstr "Vel bilete"
+
+#, fuzzy
+#~ msgid "No Image"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ingen bilete\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ingen bilete\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Inkje bilete"
+
+#~ msgid "Images"
+#~ msgstr "Bilete"
+
+#~ msgid "All Files"
+#~ msgstr "Alle filer"
+
+#, fuzzy
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ein feil oppsod under freistnaden på å henta adressebokinformasjon\n"
+#~ "Evolution Data Server kan ikkje handsama protokollen\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ein feil oppsod under freistnaden på å henta adressebokinformasjon\n"
+#~ "Evolution Data Server kan ikkje handsama protokollen\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ein feil oppstod under freistnaden på å henta adressebokinformasjon\n"
+#~ "Evolution Data Server kan ikkje handsama protokollen"
+
+#, fuzzy
+#~ msgid "Unable to open address book"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje opne adressebok\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje opne adressebok\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje opna adresseboka"
+
+#~ msgid "About %s"
+#~ msgstr "Om %s"
+
+#~ msgid "About Me"
+#~ msgstr "Om meg"
+
+#, fuzzy
+#~ msgid "Set your personal information"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set inn personleg informasjon\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set inn personleg informasjon\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Legg inn personleg informasjon"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dresse:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "A_ssistent:"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "C_ity:"
+#~ msgstr "_By:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Firma:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kale_nder:"
+
+#, fuzzy
+#~ msgid "Change Passwo_rd..."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Byt Passo_rd...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Byt Passo_rd...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Byt passo_rd ..."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Byt pa_ssord"
+
+#~ msgid "Change password"
+#~ msgstr "Byt passord"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "_By:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "La_nd:"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "La_nd:"
+
+#, fuzzy
+#~ msgid "Current _password:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gamalt _passord:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gamalt _passord:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Noverande _passord:"
+
+#~ msgid "Full Name"
+#~ msgstr "Fullt namn"
+
+#~ msgid "Hom_e:"
+#~ msgstr "He_im:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Post_boks:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P_ostboks:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Personleg informasjon"
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "Skriv passordet ditt om igjen i feltet <b>Gjenta nytt passord</b>."
+
+#
+#~ msgid "Select your photo"
+#~ msgstr "Vel fotografi"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Stat/pro_vins:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "For å endra passordet ditt må du skriva passordet du har no i feltet "
+#~ "under, og klikka <b>Autentiser</b>.\n"
+#~ "Etter at du har autentisert deg, skriv du det nye passordet to gongar og "
+#~ "klikkar <b>Byt passord</b>."
+
+#~ msgid "User name:"
+#~ msgstr "Brukarnamn:"
+
+#~ msgid "Web _log:"
+#~ msgstr "Nett_logg:"
+
+#, fuzzy
+#~ msgid "Wor_k:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Arbeid\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Arbeid\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Arbeid:"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Faks på arbeid:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "_Postnummer:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adresse:"
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Autentiser"
+
+#~ msgid "_Department:"
+#~ msgstr "Av_deling:"
+
+#, fuzzy
+#~ msgid "_Groupwise:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Groupwise\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Groupwise\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Heimeside:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Heim:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Sjef:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Mobil:"
+
+#~ msgid "_New password:"
+#~ msgstr "_Nytt passord:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Yrke:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "Sk_riv nytt passord ein gong til:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Stat/provins:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Tittel:"
+
+#, fuzzy
+#~ msgid "_Work:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Arbeid\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Arbeid\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Arbeid:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "_Postnummer:"
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Barnet avslutta uventa"
+
+#, fuzzy
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje å stoppa backend_stdin-IO-kanalen: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje å stoppa backend_stdin-IO-kanalen: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje stoppa backend_stdin-IO-kanalen: %s"
+
+#, fuzzy
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje å stoppa backend_stdout-IO-kanalen: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje å stoppa backend_stdout-IO-kanalen: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje stoppa backend_stdout-IO-kanalen: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Autentisert."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Passordet ditt har vorte endra sidan du autentiserte fyrste gong. Du må "
+#~ "autentisera deg på nytt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Passordet ditt har vorte endra sidan du autentiserte fyrste gong. Du må "
+#~ "autentisera deg på nytt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Passordet ditt har vorte endra sidan du autentiserte første gong. Du må "
+#~ "autentisera deg på nytt."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Passordet var feil."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Passordet er endra."
+
+#, fuzzy
+#~ msgid "System error: %s."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Systemfeil: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Systemfeil: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Systemfeil: %s."
+
+#~ msgid "The password is too short."
+#~ msgstr "Passordet er for kort."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Passordet er for enkelt."
+
+#, fuzzy
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gamalt og nytt passord er for like.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gamalt og nytt passord er for like.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gammalt og nytt passord er for like."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr "Det nye passordet må innehalda tal eller spesialteikn."
+
+#, fuzzy
+#~ msgid "The old and new passwords are the same."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gamalt og nytt passord er det same.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gamalt og nytt passord er det same.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gammalt og nytt passord er det same."
+
+#, fuzzy
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje starta %s: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje starta %s: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje starta %s: %s"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Ein systemfeil har oppstått"
+
+#, fuzzy
+#~ msgid "Checking password..."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kontrollerer passordet ...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kontrollerer passordet ...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kontrollerer passordet …"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Klikk <b>Byt passord</b> for å endra passordet ditt."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Skriv passordet ditt i feltet <b>Nytt passord</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Dei to passorda er ikkje like."
+
+#
+#, fuzzy
+#~ msgid "Accessible Lo_gin"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pålo_gging med hjelpeteknologi\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pålo_gging med hjelpeteknologi\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Tilgjengeleg på_logging"
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Endring for å aktivere hjelpeteknologi vil ikkje tre i kraft før du "
+#~ "logger inn neste gong.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Endring for å aktivere hjelpeteknologi vil ikkje tre i kraft før du "
+#~ "logger inn neste gong.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Hjelpeteknologi vert teke i bruk neste gong du loggar inn."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Lukk og _logg ut"
+
+#
+#, fuzzy
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialog for forvalgte program\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialog for forvalgte program\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialog for forvalde program"
+
+#
+#, fuzzy
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialog for pålogging med tilgjenge\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialog for pålogging med tilgjenge\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialogvindauge for tilgjengeleg pålogging"
+
+#
+#, fuzzy
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialog for tilgjenge for tastatur\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialog for tilgjenge for tastatur\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gå til dialogvindauge for tastaturtilgjenge"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Slå på hjelpeteknologi"
+
+#
+#, fuzzy
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Tilg_jenge for tastatur\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Tilg_jenge for tastatur\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Tastaturtilgjenge"
+
+#
+#~ msgid "_Preferred Applications"
+#~ msgstr "_Foretrukne program"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Fart:"
+
+#, fuzzy
+#~ msgid "_Type to test settings:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Skriv for å testa innstillingane.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Skriv for å testa innstillingane.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Skriv for å testa innstillingane:"
+
+#~ msgid "seconds"
+#~ msgstr "sekund"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Legg til bakgrunn"
+
+#
+#~ msgid "All files"
+#~ msgstr "Alle filer"
+
+#, fuzzy
+#~ msgid "Font may be too large"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skrifttypen kan vera for stor\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skrifttypen kan vera for stor\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skrifta kan vera for stor"
+
+#, fuzzy
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er %1$d punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein storleik mindre enn "
+#~ "%2$d.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er %1$d punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein storleik mindre enn "
+#~ "%2$d.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifta er %1$d punkt stor, og kan gjera det vanskeleg å bruka "
+#~ "datamaskina. Det er tilrådd at du vel ein storleik mindre enn %2$d."
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er %d punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein storleik mindre enn %d.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er %d punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein storleik mindre enn %d.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifta er %d punkt stor, og kan gjera det vanskeleg å bruka "
+#~ "datamaskina. Det er tilrådd at du vel ein storleik mindre enn %d."
+
+#, fuzzy
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er eitt punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein mindre skrifttype.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er eitt punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein mindre skrifttype.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifta er %d punkt stor, og kan gjera det vanskeleg å bruka "
+#~ "datamaskina. Det er tilrådd at du vel ein mindre skrifttype."
+#~ msgstr[1] ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er %d punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein mindre skrifttype.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifttypen er %d punkt stor, og kan gjera det vanskeleg å "
+#~ "bruka datamaskinen. Det er tilrådd at du vel ein mindre skrifttype.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den valde skrifta er %d punkt stor, og kan gjera det vanskeleg å bruka "
+#~ "datamaskina. Det er tilrådd at du vel ein mindre skrifttype."
+
+#
+#~ msgid "Use previous font"
+#~ msgstr "Bruk førre skrift"
+
+#
+#~ msgid "Use selected font"
+#~ msgstr "Bruk vald skrift"
+
+#
+#, fuzzy
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgi filnamn på eit drakt som skal installerast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgi filnamn på eit drakt som skal installerast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgje filnamnet på ei drakt som skal installerast"
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgi namn på fana som skal vert viste (theme|background|fonts|"
+#~ "interface)\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgi namn på fana som skal vert viste (theme|background|fonts|"
+#~ "interface)\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgje namn på sida som skal visast (theme|background|fonts|interface)"
+
+#
+#~ msgid "page"
+#~ msgstr "side"
+
+#
+#, fuzzy
+#~ msgid "[WALLPAPER...]"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "[BAKGRUNN...]\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "[BAKGRUNN...]\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "[BAKGRUNN …]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Forvald peikar"
+
+#
+#~ msgid "Apply Background"
+#~ msgstr "Bruk bakgrunn"
+
+#
+#~ msgid "Apply Font"
+#~ msgstr "Bruk skrift"
+
+#
+#, fuzzy
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt foreslår ein bakgrunn og ein skrift.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt foreslår ein bakgrunn og ein skrift.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Noverande drakt foreslår ein bakgrunn og ei skrift."
+
+#
+#, fuzzy
+#~ msgid "The current theme suggests a background."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt foreslår ein bakgrunn.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt foreslår ein bakgrunn.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Noverande drakt foreslår ein bakgrunn."
+
+#
+#, fuzzy
+#~ msgid "The current theme suggests a font."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt foreslår ein skrift.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt foreslår ein skrift.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Noverande drakt foreslår ei skrift."
+
+#, fuzzy
+#~ msgid "Custom"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Eigendefinert\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Eigendefinert\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sjølvvald"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Best _fasong"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Best ko_ntrast"
+
+#
+#, fuzzy
+#~ msgid "C_ustomize..."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Til_pass...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Til_pass...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Til_pass ..."
+
+#
+#, fuzzy
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Endringar i drakt for markør trer i kraft neste gong du logger inn.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Endringar i drakt for markør trer i kraft neste gong du logger inn.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den nye peikardrakta vert teken i bruk neste gong du loggar inn."
+
+#
+#~ msgid "Colors"
+#~ msgstr "Fargar"
+
+# TRN: Altså, den delen av vindauget som er sjølve programmet.
+#~ msgid "Controls"
+#~ msgstr "Programdrakt"
+
+#
+#~ msgid "Customize Theme"
+#~ msgstr "Tilpass drakt"
+
+#~ msgid "D_etails..."
+#~ msgstr "D_etaljar ..."
+
+#, fuzzy
+#~ msgid "Des_ktop font:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "S_krift for skrivebordet:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "S_krift for skrivebordet:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "S_krift på skrivebordet:"
+
+#, fuzzy
+#~ msgid "Font Rendering Details"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Detaljar om teikning av skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Detaljar om teikning av skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Detaljar om teikning av skrifer"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "G_råtone"
+
+#~ msgid "Icons"
+#~ msgstr "Ikon"
+
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~ msgid "N_one"
+#~ msgstr "_Ingen"
+
+#, fuzzy
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Opne ein dialog for å oppgje fargen\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Opne ein dialog for å oppgje fargen\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Opne ein dialog for å velja fargen"
+
+#
+#~ msgid "Pointer"
+#~ msgstr "Peikar"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Oppløysing:"
+
+#
+#, fuzzy
+#~ msgid "Save Theme As..."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lagra drakt som...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lagra drakt som...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lagra drakta som ..."
+
+#
+#, fuzzy
+#~ msgid "Save _As..."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lagra _som...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lagra _som...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lagra _som ..."
+
+#~ msgid "Small"
+#~ msgstr "Liten"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Under_pikslar (LCD-ar)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Utjamning på under_pikselnivå (LCD-ar)"
+
+#
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#
+#, fuzzy
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt for kontroller støttar ikkje fargeskjema.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Aktivt drakt for kontroller støttar ikkje fargeskjema.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Den noverande drakta for kontrollelement støttar ikkje fargeskjema."
+
+#~ msgid "Theme"
+#~ msgstr "Drakt"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Window Border"
+#~ msgstr "Vindaugsramme"
+
+#, fuzzy
+#~ msgid "_Add..."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Legg til ...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Legg til ...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Legg til …"
+
+#~ msgid "_Application font:"
+#~ msgstr "Skrift som progr_amma skal bruka:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "Skil_dring:"
+
+#, fuzzy
+#~ msgid "_Document font:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skrift for _dokumenter:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skrift for _dokumenter:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skrift i _dokument:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "Skrift med _fast breidde:"
+
+#~ msgid "_Full"
+#~ msgstr "_Full"
+
+#
+#~ msgid "_Input boxes:"
+#~ msgstr "_Inndataboksar:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Installer ..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Middels"
+
+#, fuzzy
+#~ msgid "_Monochrome"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Monokrom\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Monokrom\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Einsfarga"
+
+#~ msgid "_Name:"
+#~ msgstr "_Namn:"
+
+#~ msgid "_None"
+#~ msgstr "I_ngen"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#
+#, fuzzy
+#~ msgid "_Reset to Defaults"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set til fo_rval\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set til fo_rval\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set til fo_rvald"
+
+#
+#~ msgid "_Selected items:"
+#~ msgstr "_Valde oppføringar:"
+
+#
+#~ msgid "_Size:"
+#~ msgstr "_Storleik:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Litt"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stil:"
+
+#
+#~ msgid "_Tooltips:"
+#~ msgstr "Verk_tøytips:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Skrift i _vindaugstitlar:"
+
+#
+#~ msgid "_Windows:"
+#~ msgstr "_Vindauge:"
+
+#~ msgid "dots per inch"
+#~ msgstr "punkt per tomme"
+
+#
+#~ msgid "Appearance"
+#~ msgstr "Utsjåande"
+
+#
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Tilpass utsjåande for skrivebordet"
+
+#
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Installerer draktpakkar for ulike deler av skrivebordet"
+
+#
+#~ msgid "Theme Installer"
+#~ msgstr "Installering av drakt"
+
+#
+#~ msgid "Gnome Theme Package"
+#~ msgstr "GNOME draktpakke"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "piksel"
+#~ msgstr[1] "pikslar"
+
+#
+#, fuzzy
+#~ msgid "Cannot install theme"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje installere drakt\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje installere drakt\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje installera drakta"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Verktøyet %s er ikkje installert."
+
+#
+#, fuzzy
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Det oppsto eit problem under utpakking av drakt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Det oppsto eit problem under utpakking av drakt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Det oppsto eit problem under utpakking av drakta."
+
+#
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Det oppsto ein feil under installering av vald fil"
+
+#, fuzzy
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "«%s» ser ikkje ut til å vera eit gyldig drakt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "«%s» ser ikkje ut til å vera eit gyldig drakt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "«%s» ser ikkje ut til å vera ei gyldig drakt."
+
+#, fuzzy
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "«%s» ser ikkje ut til å vera eit gyldig drakt. Det kan vera ein "
+#~ "draktmotor som du må kompilere.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "«%s» ser ikkje ut til å vera eit gyldig drakt. Det kan vera ein "
+#~ "draktmotor som du må kompilere.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "«%s» ser ikkje ut til å vera ei gyldig drakt. Det kan vera ein draktmotor "
+#~ "som du må kompilera."
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME-drakta %s installert"
+
+#, fuzzy
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Installasjon av drakt «%s» mislukkast.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Installasjon av drakt «%s» mislukkast.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Installasjon av drakta «%s» mislukkast."
+
+#, fuzzy
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Drakt «%s» er installert.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Drakt «%s» er installert.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Drakta «%s» er installert."
+
+#
+#, fuzzy
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vil du bruka det no, eller behalde aktivt drakt?\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vil du bruka det no, eller behalde aktivt drakt?\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vil du byta drakt no, eller bruka den noverande drakta?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Bruk gamal drakt"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Bruk ny drakt"
+
+#, fuzzy
+#~ msgid "Failed to create temporary directory"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje å laga mellombels katalog\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje å laga mellombels katalog\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Klarte ikkje laga mellombels katalog"
+
+#
+#, fuzzy
+#~ msgid "New themes have been successfully installed."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Nye drakt vart installert.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Nye drakt vart installert.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Nye drakter vart installerte."
+
+#, fuzzy
+#~ msgid "No theme file location specified to install"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ikkje oppgjeve nokon adresser til draktfiler som skal installerast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ikkje oppgjeve nokon adresser til draktfiler som skal installerast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ingen oppgjevne adresser til draktfiler som skal installerast"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Har ikkje dei naudsynte løyva til å installera drakta i:\n"
+#~ "%s"
+
+#
+#~ msgid "Select Theme"
+#~ msgstr "Vel drakt"
+
+#
+#~ msgid "Theme Packages"
+#~ msgstr "Draktpakkar"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Drakta må ha eit namn"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Drakta finst frå før. Vil du erstatta henne?"
+
+#
+#~ msgid "_Overwrite"
+#~ msgstr "_Overskriv"
+
+#
+#, fuzzy
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vil du slette denne drakta?\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vil du slette denne drakta?\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vil du sletta denne drakta?"
+
+#
+#, fuzzy
+#~ msgid "Theme cannot be deleted"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Drakt kan ikkje slettast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Drakt kan ikkje slettast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Drakta kan ikkje slettast"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Klarte ikkje lasta standardikonet «%s»\n"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Kopierer «%s»"
+
+#~ msgid "Copying files"
+#~ msgstr "Kopierer filer"
+
+#
+#~ msgid "Parent Window"
+#~ msgstr "Opphavsvindauge"
+
+#
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Dialogens opphavsvindauge"
+
+#~ msgid "From URI"
+#~ msgstr "Frå URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI overføringa kjem frå"
+
+#~ msgid "To URI"
+#~ msgstr "til URI"
+
+#, fuzzy
+#~ msgid "URI currently transferring to"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "URI overføringa går til\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "URI overføringa går til\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "URI vert overført til"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Del som er ferdig"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Kor stor del av overføringa som er ferdig"
+
+#~ msgid "Current URI index"
+#~ msgstr "Indeks av noverande URI"
+
+# TRN: Treng tankestrek, ikkje bindestrek.
+#, fuzzy
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Noverande URI-indeks - Startar på 1\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Noverande URI-indeks - Startar på 1\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Noverande URI-indeks – Startar på 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "URI-ar totalt"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Tal på kor mange URI-ar det er totalt"
+
+#, fuzzy
+#~ msgid "Key"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lykjel\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lykjel\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Nøkkel"
+
+#, fuzzy
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "GConf-lykjel som denne eigenskapsredigeraren brukar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "GConf-lykjel som denne eigenskapsredigeraren brukar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "GConf-nøkkel som denne eigenskapsredigeraren brukar"
+
+#, fuzzy
+#~ msgid "Callback"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ring tilbake\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ring tilbake\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Tilbakekall"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Send dette tilbakekallet når verdien knytta til nøkkelen vert endra"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Endringssettet til GConf inneheld data som skal sendast vidare til gconf-"
+#~ "klienten når endringane vert gjort verksame"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Konvertering til skjermelement-tilbakekall"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Tilbakekall som skal sendast når data skal konverterast frå GConf til "
+#~ "skjermelementet"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Konvertering frå skjermelement-tilbakekall"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Tilbakekall som skal sendast når data skal konverterast til GConf frå "
+#~ "skjermelementet"
+
+#~ msgid "UI Control"
+#~ msgstr "UI-kontroll"
+
+#, fuzzy
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Objekt som kontrollerar eigenskapen (normalt ein widget)\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Objekt som kontrollerar eigenskapen (normalt ein widget)\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Objekt som kontrollerar eigenskapen (normalt eit kontrollelement)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Objektdata for redigering av eigenskapar"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Eigendefinerte data som trengst til eigenskapredigeringsprogrammet"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Tilbakekall som frigjer data frå eigenskapredigeringsprogrammet"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Tilbakekall som skal sendast når eigenskapsredigeringsprogrammet skal "
+#~ "frigjera objektdata"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Kan ikkje finna fila «%s»\n"
+#~ "\n"
+#~ "Kontroller at fila finst og prøv på nytt, eller vel eit anna "
+#~ "bakgrunnsbilete."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Veit ikkje korleis fila «%s» skal opnast.\n"
+#~ "Kanskje det er ein biletetype som ikkje er støtta enno.\n"
+#~ "\n"
+#~ "Vel eit anna bilete i staden."
+
+#~ msgid "Please select an image."
+#~ msgstr "Vel eit bilete."
+
+#~ msgid "_Select"
+#~ msgstr "_Vel"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Forvald peikar – noverande"
+
+#~ msgid "White Pointer"
+#~ msgstr "Kvit peikar"
+
+# TRN: Tankestrek
+#~ msgid "White Pointer - Current"
+#~ msgstr "Kvit peikar – noverande"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Stor peikar"
+
+# TRN: Tankestrek.
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Stor peikar – noverande"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Stor kvit peikar – noverande"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Stor kvit peikar"
+
+#, fuzzy
+#~ msgid "Preferred Applications"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Foretrukne program\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Foretrukne program\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Fortrukne program"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Vel standardprogramma dine"
+
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+#
+# #-#-#-#-#  nn.po (nn)  #-#-#-#-#
+#
+#~ msgid "Visual"
+#~ msgstr "Visuell"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Kunne ikkje lasta brukergrensesnittet"
+
+#, fuzzy
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kontroller at programmet er rett installert.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kontroller at programmet er rett installert.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kontroller at programmet er rett installert"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Alle tilfella av «%s» vil bytast ut med ei lenkje"
+
+#
+#~ msgid "C_ommand:"
+#~ msgstr "K_ommando:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ko_mmando:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "E_xec-flagg:"
+
+#~ msgid "Internet"
+#~ msgstr "Internett"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Opna lenkje i ny _fane"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Opna lenkje i nytt _vindauge"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Opna lenkje etter innstillingane i _nettlesaren"
+
+#
+#~ msgid "Run at st_art"
+#~ msgstr "Køyr ved oppst_art"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Køyr i ein t_erminal"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#
+#~ msgid "_Run at start"
+#~ msgstr "Køyr ved oppsta_rt"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee musikkavspelar"
+
+#
+#~ msgid "Claws Mail"
+#~ msgstr "Claws e-post"
+
+#
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian standard nettlesar"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Terminalemulator for Debian"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+# TRN: Dette er då eit program.
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany nettlesar"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution e-postlesar"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#
+#, fuzzy
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "GNOME forstørrelsesglass utan skjermlesar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "GNOME forstørrelsesglass utan skjermlesar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "GNOME lupe utan skjermlesar"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME terminal"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#
+#, fuzzy
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gnopernicus med forstørrelsesglass\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gnopernicus med forstørrelsesglass\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Gnopernicus med lupe"
+
+#
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape e-post"
+
+#
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#
+#, fuzzy
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "KDE forstørrelsesglass utan skjermlesar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "KDE forstørrelsesglass utan skjermlesar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "KDE lupe utan skjermlesar"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#
+#, fuzzy
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Linux skjermlesar med forstørrelsesglass\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Linux skjermlesar med forstørrelsesglass\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Linux skjermlesar med lupe"
+
+#
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla e-post"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine musikkavspelar"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#
+#, fuzzy
+#~ msgid "Orca with Magnifier"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Orca med forstørrelsesglass\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Orca med forstørrelsesglass\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Orca med lupe"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox musikkavspelar"
+
+#
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey e-post"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Standard X-terminal"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem filmavspelar"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Oppløysing:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Opp_friskingsrate:"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_otering:"
+
+#~ msgid "Desktop"
+#~ msgstr "Skrivebord"
+
+#, fuzzy
+#~ msgid "Accelerator key"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snøggtast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snøggtast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snarvegstast"
+
+#, fuzzy
+#~ msgid "Accelerator modifiers"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Endringstastar for snøggtastar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Endringstastar for snøggtastar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Endringstastar for snarvegar"
+
+#, fuzzy
+#~ msgid "Accelerator keycode"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Tastekodar for snøggtastar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Tastekodar for snøggtastar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Tastekodar for snarvegar"
+
+#, fuzzy
+#~ msgid "Accel Mode"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snøggtastmodus\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snøggtastmodus\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snarvegtastmodus"
+
+#, fuzzy
+#~ msgid "The type of accelerator."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Typen snøggtast.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Typen snøggtast.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Typen snarveg."
+
+#, fuzzy
+#~ msgid "<Unknown Action>"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "<Ukjent handling>\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "<Ukjent handling>\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "<Ukjend handling>"
+
+#~ msgid "Action"
+#~ msgstr "Handling"
+
+#, fuzzy
+#~ msgid "Shortcut"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snarveg\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snarveg\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Snøggtast"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Snøggtastar"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Tileigna snøggtastar til kommandoar"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Berre gjer endringane aktive og avslutt (berre for kompatibilitet; vert "
+#~ "no handsama av nissen)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Start sida med innstillingane for skrivepausar framme"
+
+#
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- Innstillingar for tastatur"
+
+#
+#, fuzzy
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når _endringstast trykkjes ned\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når _endringstast trykkjes ned\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når _endringstast vert trykt ned"
+
+#
+#, fuzzy
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når endrings_tast trykkjes ned\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når endrings_tast trykkjes ned\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når endrings_tast vert trykt ned"
+
+#
+#, fuzzy
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast trykkjes n_ed\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast trykkjes n_ed\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast vert trykt n_ed"
+
+#
+#, fuzzy
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast a_vvises\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast a_vvises\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast vert a_vvist"
+
+#
+#, fuzzy
+#~ msgid "Beep when key is _accepted"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast er godt_as\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast er godt_as\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip når tast vert godt_eken"
+
+#
+#, fuzzy
+#~ msgid "Beep when key is _rejected"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip nå_r tast avvises\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip nå_r tast avvises\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Pip nå_r tast vert avvist"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Vel ein tastaturmodell"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Vel ei utforming"
+
+#
+#, fuzzy
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Markøren _blinker i tekstfelt\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Markøren _blinker i tekstfelt\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skrivemerket _blinkar i tekstfelt"
+
+#, fuzzy
+#~ msgid "Cursor blinks speed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Blinkerate på markøren\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Blinkerate på markøren\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kor fort skrivemerket blinkar"
+
+#
+#~ msgid "D_elay:"
+#~ msgstr "Paus_e:"
+
+#
+#, fuzzy
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Deakti_ver viss to tastar trykkjes ned samtidig\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Deakti_ver viss to tastar trykkjes ned samtidig\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Deakti_ver når to tastar vert trykt ned samtidig"
+
+#
+#, fuzzy
+#~ msgid "General"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Generelt\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Generelt\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Almennt"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Tastetrykk vert _repeterte når tasten vert halden nede"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Tastatur_modell:"
+
+#~ msgid "Layouts"
+#~ msgstr "Utformingar"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Lås skjermen etter ei viss tid for å hindra slitasje og skade etter lang "
+#~ "tastaturbruk"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Førehandsvis:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Førehandsvis:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Forhandsvis:"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Tasterepetisjonsrate"
+
+#
+#, fuzzy
+#~ msgid "Reset to De_faults"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set til _forval\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set til _forval\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set til _standard"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Pause:"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modellar:"
+
+#
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Godta berre lange tastetrykk"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Fart:"
+
+#
+#~ msgid "_Variants:"
+#~ msgstr "_Variantar:"
+
+#
+#, fuzzy
+#~ msgid "_Vendors:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Leverandører:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Leverandører:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Leverandørar:"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Forvald\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Forvald\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Standard"
+
+#~ msgid "Layout"
+#~ msgstr "Formgjeving"
+
+#
+#, fuzzy
+#~ msgid "Vendors"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Leverandører\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Leverandører\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Leverandørar"
+
+#~ msgid "Models"
+#~ msgstr "Modellar"
+
+#, fuzzy
+#~ msgid "Set your keyboard preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Still inn brukarvala dine for tastaturet\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Still inn brukarvala dine for tastaturet\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett opp instillingar for tastatur"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Aksellerasjon:"
+
+# TRN: Finn betre ord!
+#, fuzzy
+#~ msgid "_Sensitivity:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Varleik:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Varleik:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "_Følsemd:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Tidsgrense:"
+
+#, fuzzy
+#~ msgid "Set your mouse preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Still inn brukarvala dine for musa\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Still inn brukarvala dine for musa\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett opp instillingane for musa"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Mellomtenar i nettverket"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett brukarval for mellomtenar i nettverket\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett brukarval for mellomtenar i nettverket\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett opp instillingane for mellomtenar i nettverket"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Direkte tilkopling til Internettet</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Automatisk oppsett av mellomtenar</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Manuelt oppsett av mellomtenar</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>Br_uk autentisering</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_URL med automatisk oppsett:"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detaljar om HTTP-mellomtenar"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP-mellomtenar:"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Brukarval for mellomtenar i nettverket\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Brukarval for mellomtenar i nettverket\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Innstillingar for mellomtenar i nettverket"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_OCKS-vert:"
+
+#~ msgid "U_sername:"
+#~ msgstr "Br_ukarnamn:"
+
+#~ msgid "_Details"
+#~ msgstr "_Detaljar"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP-mellomtenar:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Passord:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Trygg HTTP-mellomtenar:"
+
+#
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Br_uk same mellomtenar for alle protokollar"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Blink med tittellinja på _vindauget"
+
+#
+#, fuzzy
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje starta innstillingar for din vindushandsamar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje starta innstillingar for din vindushandsamar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Kan ikkje starta innstillingsprogrammet til vindaugehandsamaren din"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (eller «Windows-tast»)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#, fuzzy
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Trykk og hald nede denne tasten, og grip så tak i vindauget, for å "
+#~ "_flytta det:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Trykk og hald nede denne tasten, og grip så tak i vindauget, for å "
+#~ "_flytta det:\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Trykk og hald nede denne tasten, og grip så tak i vindauget, for å flytta "
+#~ "det:"
+
+#, fuzzy
+#~ msgid "Window Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Brukarval for vindauge\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Brukarval for vindauge\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Innstillingar for vindauge"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Dobbeltklikk på tittellinja for å gjera dette:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Pause før vindauget vert løfta opp:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Løft opp valde vindauge etter ei tid"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Vel vindauge når musa går over dei"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set dine vindaugseigenskapar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Set dine vindaugseigenskapar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vel vindaugseigenskapar"
+
+#~ msgid "Windows"
+#~ msgstr "Vindauge"
+
+#
+#~ msgid "Help"
+#~ msgstr "Hjelp"
+
+#
+#~ msgid "Upgrade"
+#~ msgstr "Oppgrader"
+
+#
+#~ msgid "Uninstall"
+#~ msgstr "Avinstaller"
+
+#
+#, fuzzy
+#~ msgid "Remove from Favorites"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Fjern frå favoritter\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Fjern frå favoritter\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Fjern frå favorittar"
+
+#
+#, fuzzy
+#~ msgid "Add to Favorites"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Legg til i favoritter\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Legg til i favoritter\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Legg til i favorittar"
+
+#
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Fjern frå oppstartsprogram"
+
+#
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Legg til i oppstartsprogram"
+
+#
+#~ msgid "Other"
+#~ msgstr "Anna"
+
+#
+#~ msgid "New Spreadsheet"
+#~ msgstr "Nytt rekneark"
+
+#
+#~ msgid "New Document"
+#~ msgstr "Nytt dokument"
+
+#
+#~ msgid "Home"
+#~ msgstr "Heim"
+
+#
+#~ msgid "File System"
+#~ msgstr "Filsystem"
+
+#
+#~ msgid "Network Servers"
+#~ msgstr "Nettverkstenarar"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Opna</b>"
+
+#
+#, fuzzy
+#~ msgid "Send To..."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Send til...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Send til...\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Send til …"
+
+#
+#, fuzzy
+#~ msgid "Move to Trash"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Flytt til papirkurv\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Flytt til papirkurv\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Flytt til papirkorg"
+
+#
+#~ msgid "Delete"
+#~ msgstr "Slett"
+
+#, fuzzy
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Er du sikker på at du vil slette «%s» permanent?\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Er du sikker på at du vil slette «%s» permanent?\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Er du sikker på at du vil sletta «%s» for godt?"
+
+#
+#, fuzzy
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Viss du sletter ein oppføring vert den borte for godt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Viss du sletter ein oppføring vert den borte for godt.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Viss du sletter ei oppføring, vert ho borte for godt."
+
+#
+#, fuzzy
+#~ msgid "Open with Default Application"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Opna med forvald program\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Opna med forvald program\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Opna med det vanlege programmet"
+
+#
+#~ msgid "Open in File Manager"
+#~ msgstr "Opna i filhandsamar"
+
+#
+#~ msgid "Find Now"
+#~ msgstr "Finn no"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Fjern frå systemoppføringar"
+
+#, fuzzy
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Windaugshandsamaren «%s» har ikkje registrert noko oppsettsverktøy\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Windaugshandsamaren «%s» har ikkje registrert noko oppsettsverktøy\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Vindaugehandsamaren «%s» har ikkje registrert noko oppsettsverktøy\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Maksimer"
+
+#
+#~ msgid "Minimize"
+#~ msgstr "Minimer"
+
+#~ msgid "Roll up"
+#~ msgstr "Rull opp"
+
+#
+#, fuzzy
+#~ msgid "None"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Inga\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Inga\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Ingen"
+
+#, fuzzy
+#~ msgid "key not found [%s]\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "tast ikkje funne [%s]\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "tast ikkje funne [%s]\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "tast ikkje funnen [%s]\n"
+
+#
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#
+#~ msgid "Common Tasks"
+#~ msgstr "Vanlege oppgåver"
+
+#
+#~ msgid "Control Center"
+#~ msgstr "Kontrollsenter"
+
+#
+#, fuzzy
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lukk kontrollsenteret når ein oppgave aktiverast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lukk kontrollsenteret når ein oppgave aktiverast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Lukk kontrollsenteret når ei oppgåve vert aktivert"
+
+#
+#, fuzzy
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein \"legg til\"- eller ein \"ta bort\"-handling "
+#~ "utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein \"legg til\"- eller ein \"ta bort\"-handling "
+#~ "utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skalet når ei «legg til»-handling eller ei «ta vekk»-handling "
+#~ "vert utført"
+
+#
+#, fuzzy
+#~ msgid "Exit shell on help action performed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein hjelpe-handling utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein hjelpe-handling utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skalet når ei hjelpehandling vert utført"
+
+#
+#, fuzzy
+#~ msgid "Exit shell on start action performed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein start-handling utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein start-handling utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skalet når ei starthandling vert utført"
+
+#
+#, fuzzy
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein oppgraderings- eller avinstalleringshandling "
+#~ "utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skall når ein oppgraderings- eller avinstalleringshandling "
+#~ "utførast\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Avslutt skalet når ei oppgraderings- eller avinstalleringshandling vert "
+#~ "utført"
+
+#
+#, fuzzy
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgavenamn og tilhørende .desktop-filer\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgavenamn og tilhørende .desktop-filer\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgåvenamn og tilhøyrande .desktop-filer"
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgavenamnet som skal vert viste i kontrollsenteret (og må difor "
+#~ "oversettes) etterfulgt av ein \";\"-deleteikn, så filnamnet til ein "
+#~ "tilhørende .desktop-fil som skal starta for den oppgaven.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgavenamnet som skal vert viste i kontrollsenteret (og må difor "
+#~ "oversettes) etterfulgt av ein \";\"-deleteikn, så filnamnet til ein "
+#~ "tilhørende .desktop-fil som skal starta for den oppgaven.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Oppgåvenamnet som vert vist i kontrollsenteret, etterfølgd av eit «;»-"
+#~ "skiljeteikn og filnamnet til ei tilknytta .desktop-fil å starta for den "
+#~ "oppgåva."
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "[Endra drakt;gtk-theme-selector.desktop,Vel forvalgte program;default-"
+#~ "applications.desktop,Legg til skrivar;gnome-cups-manager.desktop]\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "[Endra drakt;gtk-theme-selector.desktop,Vel forvalgte program;default-"
+#~ "applications.desktop,Legg til skrivar;gnome-cups-manager.desktop]\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "[Endra drakt;gtk-theme-selector.desktop,Vel foretrukne program;default-"
+#~ "applications.desktop,Legg til skrivar;gnome-cups-manager.desktop]"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Oppsettsverktøy for GNOME"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "Dersom sann, vert det laga miniatyrar av OpenType-skrifttypar."
+
+#, fuzzy
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av PCF-skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av PCF-skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av PCF-skrifter."
+
+#, fuzzy
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av TrueType-skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av TrueType-skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av TrueType-skrifter."
+
+#, fuzzy
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av Type1-skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av Type1-skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Dersom sann, vert det laga miniatyrar av Type1-skrifter."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av OpenType-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av OpenType-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av OpenType-"
+#~ "skrifter."
+
+#, fuzzy
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av PCF-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av PCF-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av PCF-skrifter."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av TrueType-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av TrueType-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av TrueType-"
+#~ "skrifter."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av Type1-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av Type1-"
+#~ "skrifttypar.\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Sett denne nøkkelen til kommandoen som lagar miniatyrar av Type1-skrifter."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Miniatyr-OpenType-kommando"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Miniatyr-PCF-kommando"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Miniatyr-TrueType-kommando"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Miniatyr-Type1-kommando"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av OpenType-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av OpenType-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av OpenType-skrifter"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av PCF-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av PCF-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av PCF-skrifter"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av TrueType-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av TrueType-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av TrueType-skrifter"
+
+#, fuzzy
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av Type1-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av Type1-skrifttypar\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Om det skal lagast miniatyrar av Type1-skrifter"
+
+#~ msgid "Name:"
+#~ msgstr "Namn:"
+
+#~ msgid "Style:"
+#~ msgstr "Stil:"
+
+#~ msgid "Type:"
+#~ msgstr "Type:"
+
+#~ msgid "Size:"
+#~ msgstr "Storleik:"
+
+#~ msgid "Version:"
+#~ msgstr "Versjon:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Opphavsrett:"
+
+#~ msgid "Description:"
+#~ msgstr "Skildring:"
+
+#, fuzzy
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "bruk: %s skrifttypefil\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "bruk: %s skrifttypefil\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "bruk: %s skriftfil\n"
+
+#
+#, fuzzy
+#~ msgid "Font Viewer"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skriftvising\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skriftvising\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skriftvisar"
+
+#
+#, fuzzy
+#~ msgid "Preview fonts"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Førehandsvis skrifter\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Førehandsvis skrifter\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Forhandsvis skrifter"
+
+#
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Tekst for miniatyr (forval: Aa)"
+
+#
+#~ msgid "TEXT"
+#~ msgstr "TEKST"
+
+#
+#, fuzzy
+#~ msgid "Font size (default: 64)"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skriftstørrelse (forval: 64)\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skriftstørrelse (forval: 64)\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Skriftstorleik (forval: 64)"
+
+#
+#, fuzzy
+#~ msgid "SIZE"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "STØRRELSE\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "STØRRELSE\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "STORLEIK"
+
+#
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "SKRIFTFIL UTDATAFIL"
+
+#, fuzzy
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr ""
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Feil ved lesing av argumenter: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Feil ved lesing av argumenter: %s\n"
+#~ "#-#-#-#-#  nn.po (nn)  #-#-#-#-#\n"
+#~ "Feil ved lesing av argument: %s\n"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Icons only"
+#~ msgstr "Berre ikon"
+
+#~ msgid "Text only"
+#~ msgstr "Berre tekst"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown"
+#~ msgstr ""
+#~ "Terskelen for ledig diskplass i prosent før varsel om lite diskplass "
+#~ "visast. Om prosent ledig diskplass kjem under denne terskelen, vil du få "
+#~ "eit varsel."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown"
+#~ msgstr ""
+#~ "Oppgje eit tal i GB. Om ledig diskplass er meir enn dette vil ingen "
+#~ "varsel visast."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning"
+#~ msgstr ""
+#~ "Oppgje prosenten som den ledige diskplassen skal reduserast med før "
+#~ "påfølgjande varsel visast."
+
+#
+#~ msgid "Binding to eject an optical disk."
+#~ msgstr "Snøggtast for å løysa ut ei optisk plate."
+
+#~ msgid ""
+#~ "If a notification icon with display related things should be shown in the "
+#~ "panel."
+#~ msgstr ""
+#~ "Om eit varslingsikon med skjermrelaterte ting skal verta vist i panelet."
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~ "- edge scrolling, 2 - two-finger scrolling"
+#~ msgstr ""
+#~ "Vel rullingsmetode for styreplata. Støtta verdiar er: 0 - avslått, 1 - "
+#~ "kantrulling, 2 - to-fingerrulling"
+
+#
+#~ msgid "Enable xrandr plugin"
+#~ msgstr "Aktiver tillegg for xrandr"
+
+#
+#~ msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "xrandr."
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "Om skjermlesaren er slått på."
+
+#~ msgid "Exit after a time - for debugging"
+#~ msgstr "Avslutt etter ei tid - for feilsøkjing"
+
+#~| msgid "Do_n't activate"
+#~ msgid "Don't activate"
+#~ msgstr "Ikkje slå på"
+
+#~| msgid "Do _not show this warning again"
+#~ msgid "Don't show any warnings again for this filesystem"
+#~ msgstr "_Ikkje vis nokre varsel igjen for dette filsystemet"
+
+#~| msgid "Rename..."
+#~ msgid "Examine..."
+#~ msgstr "Undersøk …"
+
+#~| msgid "<b>Open %s</b>"
+#~ msgid "<i>Removing: %s</i>"
+#~ msgstr "<i>Fjernar: %s</i>"
+
+#~ msgid "Preparing to empty trash..."
+#~ msgstr "Førebur tømming av papirkorg …"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Feil under aktivering av XKB-oppsettet.\n"
+#~ "Dette kan skje i visse situasjonar:\n"
+#~ "- ein feil i libxklavier-biblioteket\n"
+#~ "- ein feil i X-tenaren (xkbcomp, xmodmap-verktøy)\n"
+#~ "- X-tenar med inkompatibel libxkbfile-implementasjon\n"
+#~ "\n"
+#~ "Versjonsinformasjon for X-tenaren:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Dersom du sender inn ein feilrapport om dette, ta med:\n"
+#~ "- Resultatet av <b>%s</b>\n"
+#~ "- Resultatet av <b>%s</b>"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Du brukar XFree 4.3.0.\n"
+#~ "Det er kjende problem med innfløkte XKB-oppsett.\n"
+#~ "Prøv å bruka eit enklare oppsett eller ein nyare versjon av XFree."
+
+#~ msgid "Show Current _Layout"
+#~ msgstr "Vis noverande _utforming"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Vil du lasta modmap-filene?"
+
+#~| msgid ""
+#~| "Mouse accessibility requires the mousetweaks daemon to be installed on "
+#~| "your system."
+#~ msgid ""
+#~ "Mouse accessibility requires mousetweaks to be installed on your system."
+#~ msgstr "Tilgjenge for mus krev at mousetweaks er installert på systemet."
+
+#~ msgid "Typing Break"
+#~ msgstr "Skrivepause"
+
+#~ msgid "<i>Rotation not supported</i>"
+#~ msgstr "<i>Rotering er ikkje støtta</i>"
+
+#~ msgid "_Configure Display Settings ..."
+#~ msgstr "_Still inn skjermen …"
+
+#
+#~ msgid "filename"
+#~ msgstr "filnamn"
+
+#~ msgid "Change set"
+#~ msgstr "Sett av endringar"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Till_at utsetjing av pausar"
+
+#~ msgid "Current network location"
+#~ msgstr "Noverande nettverksadresse"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Adresse til fleire bakgrunnar"
+
+#~ msgid "More themes URL"
+#~ msgstr "Adresse til fleire tema"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Set denne til ditt noverande lokasjonsnamn. Denne vert brukt til å "
+#~ "bestemma rett mellomtenarinnstilling."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "Adresse til å finna fleire skrivebordsbakgrunnar. Dersom ho er sett til "
+#~ "ei tom streng vil ikkje lenkja visast."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "Adresse til å finne skrivebordsdrakt. Dersom ho er sett til ei tom streng "
+#~ "vil ikkje lenkja visast."
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Legg din venstre tommel på %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Dra din venstre tommel over %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Legg din venstre peikefinger på %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Dra din venstre peikefinger over %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Legg din venstre langfinger på %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Dra din venstre langfinger over %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Legg din venstre ringfinger på %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Dra din venstre ringfinger over %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Legg din venstre litlefinger på %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Dra din venstre litlefinger over %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Legg din høgre tommel på %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Dra din høgre tommel over %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Legg din høgre peikefinger på %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Dra din høgre peikefinger over %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Legg din høgre langfinger på %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Dra din høgre langfinger over %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Legg din høgre ringfinger på %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Dra din høgre ringfigner over %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Legg din høgre litlefinger på %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Dra din høgre litlefinger over %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Legg fingeren din på lesaren ein gong til"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Dra fingeren over lesaren ein gong til"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "For kort, prøv igjen"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Fingeren din låg ikkje i midten. Dra over ein gong til."
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Løft opp fingeren for så å dra han over ein gong til"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Slå av innlogging via _fingeravtrykk"
+
+#~ msgid "Email"
+#~ msgstr "E-post"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Slå på innlogging via _fingeravtrykk"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Lynmelding"
+
+#~ msgid "Job"
+#~ msgstr "Arbeid"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefon"
+
+#~ msgid "Web"
+#~ msgstr "Vev"
+
+#~ msgid "Work"
+#~ msgstr "Arbeid"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Du har ikkje løyve til å opna eininga. Kontakt systemadministratoren."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Eininga er alt i bruk."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Ein intern feil har oppstått"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Slett registrerte fingeravtrykk?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Slett fingeravtrykk"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Vil du sletta registrerte fingeravtrykk slik at innlogging via "
+#~ "fingeravtrykk vert avslått?"
+
+#~ msgid "Done!"
+#~ msgstr "Ferdig!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Klarte ikkje opna eininga «%s»"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Klarte ikkje starta innlesing av fingeravtrykk på eining «%s»"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Klarte ikkje opna fingeravtrykklesar"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Kontakt systemadministratoren for å få hjelp."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Slå på innlogging via fingeravtrykk"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "For å slå på innlogging via fingeravtrykk må du lagra eitt fingeravtrykk "
+#~ "ved å bruka eininga «%s»"
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Dra fingeren over lesaren"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Legg fingaren på lesaren"
+
+#~ msgid "Left index finger"
+#~ msgstr "Venstre peikefinger"
+
+#~ msgid "Left little finger"
+#~ msgstr "Venstre litlefinger"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Venstre langfinger"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Venstre ringfinger"
+
+#~ msgid "Left thumb"
+#~ msgstr "Venstre tommel"
+
+#~ msgid "Other finger: "
+#~ msgstr "Andre fingrar: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Høgre peikefinger"
+
+#~ msgid "Right little finger"
+#~ msgstr "Høgre litlefinger"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Høgre langfinger"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Høgre ringfinger"
+
+#~ msgid "Right thumb"
+#~ msgstr "Høgre tommel"
+
+#~ msgid "Select finger"
+#~ msgstr "Vel finger"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Fingeravtrykket ditt vart lagra. Du skal no kunne logga inn ved hjelp av "
+#~ "fingeravtrykklesaren din."
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Klarte ikkje starta motor"
+
+#~ msgid "Change your password"
+#~ msgstr "Byt passordet ditt"
+
+#
+#~ msgid "Assistive Technologies"
+#~ msgstr "Hjelpeteknologi"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Innstillingar for hjelpeteknologi"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Gå til dialogvindauge for mustilgjenge"
+
+#~ msgid "Preferences"
+#~ msgstr "Innstillingar"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "_Mustilgjenge"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Vel kva for tilgjengefunksjonar som skal slåast på når du loggar inn"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Klarte ikkje lasta fil til brukergrensesnittet: %s"
+
+#~ msgid "Install"
+#~ msgstr "Installer"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Drakta vil ikkje sjå heilt rett ut fordi den nødvendige GTK+-draktmotoren "
+#~ "«%s» er ikkje installert."
+
+#~ msgid "Revert Font"
+#~ msgstr "Forkast skrift"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Noverande drakt foreslår ein bakgrunn og ei skrift. I tillegg kan det "
+#~ "sist valte skriftforslaget forkastast."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Noverande drakt foreslår ein bakgrunn. I tillegg kan det sist valte "
+#~ "skriftforslaget forkastast."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Noverande drakt foreslår ei skrift. I tillegg kan det sist valte "
+#~ "skriftforslaget forkastast."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "I tillegg kan det sist valte skriftforslaget forkastast."
+
+#
+#~ msgid "Appearance Preferences"
+#~ msgstr "Innstillingar for utsjåande"
+
+#~ msgid "C_olors:"
+#~ msgstr "_Fargar:"
+
+#~ msgid "Center"
+#~ msgstr "Midten"
+
+#
+#~ msgid "Fonts"
+#~ msgstr "Skrifter"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Hent fleire bakgrunnar frå Internettet"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Hent fleire draktar frå Internett"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Horisontal gradient"
+
+#~ msgid "Rendering"
+#~ msgstr "Oppteikning"
+
+#
+#~ msgid "Save _background image"
+#~ msgstr "Lagra _bakgrunnsbilete"
+
+#~ msgid "Scale"
+#~ msgstr "Skaler"
+
+#~ msgid "Smoothing"
+#~ msgstr "Utjamning"
+
+#~ msgid "Solid color"
+#~ msgstr "Heilfylt farge"
+
+#~ msgid "Span"
+#~ msgstr "Vidd"
+
+#~ msgid "Stretch"
+#~ msgstr "Strekk"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Underpikselrekkjefølgje"
+
+#~ msgid "Text below items"
+#~ msgstr "Tekst under oppføring"
+
+#~ msgid "Text beside items"
+#~ msgstr "Tekst ved sida av oppføringar"
+
+#~ msgid "Tile"
+#~ msgstr "Tittel"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Vertikal gradient"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Ingen skrivebordsbakgrunn"
+
+#~ msgid "Slide Show"
+#~ msgstr "Lysbileteframsyning"
+
+#~ msgid "Image"
+#~ msgstr "Bilete"
+
+#~ msgid "multiple sizes"
+#~ msgstr "fleire storleikar"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Mappe: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Mappe: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Bilete manglar"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Klarte ikkje installera draktmotor"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Klarte ikkje starta programmet for handsaming av innstillingar, «gnome-"
+#~ "settings-daemon».\n"
+#~ "Når GNOMEs program for handsaming av innstillingar ikkje køyrer, kan det "
+#~ "henda at nokre val ikkje vil trå i kraft. Dette kan indikere eit problem "
+#~ "med DBus, eller at det alt køyrer eit program for handsaming av "
+#~ "innstillingar (t.d. KDEs) og er i konflikt med GNOMEs."
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Kopierer fil: %u av %u"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Fila «%s» finst alt. Vil du erstatta henne?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Hopp over"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Erstatt _alle"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Drakta vil ikkje sjå heilt rett ut fordi den nødvendige GTK+-drakta «%s» "
+#~ "er ikkje installert."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Drakta vil ikkje sjå heilt rett ut fordi den nødvendige "
+#~ "vindaugehandsamardrakta «%s» er ikkje installert."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Drakta vil ikkje sjå heilt rett ut fordi den nødvendige ikondrakta «%s» "
+#~ "er ikkje installert."
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Start den foretrukne visuelle hjelpeteknologien"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Visuell hjelp"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Feil ved lagring av konfigurasjon: %s"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr "Oppgje namn på sida som skal visast (internet|media|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- Forvalde program"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Biletvisar"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Lynmelding"
+
+#~ msgid "Mail Reader"
+#~ msgstr "E-postlesar"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobilitet"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Multimediaavspelar"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Terminalemulator"
+
+#~ msgid "Text Editor"
+#~ msgstr "Tekstredigering"
+
+#~ msgid "Video Player"
+#~ msgstr "Filmavspelar"
+
+#~ msgid "Web Browser"
+#~ msgstr "Nettlesar"
+
+#
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME Tastatur på skjermen"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux skjermlesar"
+
+#~ msgid "Listen"
+#~ msgstr "Lytt"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Include _panel"
+#~ msgstr "Inkluder _panel"
+
+#~ msgid "Monitor"
+#~ msgstr "Skjerm"
+
+#~| msgid "Mouse Preferences"
+#~ msgid "Monitor Preferences"
+#~ msgstr "Eigenskapar for mus"
+
+#~ msgid "Off"
+#~ msgstr "Av"
+
+#~ msgid "On"
+#~ msgstr "På"
+
+#~ msgid "Panel icon"
+#~ msgstr "Panelikon"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "Sa_me bilete på alle skjermar"
+
+#~ msgid "Upside-down"
+#~ msgstr "Opp-ned"
+
+#~| msgid "_Detect Monitors"
+#~ msgid "_Detect monitors"
+#~ msgstr "_Oppdag skjermar"
+
+#~| msgid "_Show displays in panel"
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Vis skjermar i panelet"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Endra oppløysing og posisjonen til skjermar"
+
+#~| msgid "Monitor"
+#~ msgid "Monitors"
+#~ msgstr "Skjermar"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Spegla skjermar"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Skjerm: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Klarte ikkje lagra skjerminnstillingane"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Klarte ikkje finna øktbussen under aktivering av skjerminnstillingar"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Klarte ikkje oppdaga skjermar"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Klarte ikkje få informasjon om skjermen"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Vel skjerm for å endra eigenskapane hans; dreg han for å endra "
+#~ "plasseringa hans."
+
+#~ msgid "New shortcut..."
+#~ msgstr "Ny snøggtast …"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Eigendefinerte snøggtastar"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Klarte ikkje lagra den nye snøggtasten"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Snarvegen «%s» kan ikkje brukast fordi det vil verta umogleg å skriva med "
+#~ "denne tasten.\n"
+#~ "Prøv igjen med ein tastekombinasjon som inneheld Ctrl, Alt eller Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Snøggtasten «%s» er alt i bruk av:\n"
+#~ " «%s»"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Om du forandrar snøggtasten til «%s» vil snøggtasten «%s» verta avslått."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Tildel på nytt"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "Feil ved fjerning av snarvegstast frå oppsettdatabasen: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "For mange eigendefinerte snøggtastar"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Eigendefinert snøggtast"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Vel rada og skriv inn ein ny snøggtastkombinasjon for å endra ein "
+#~ "snøggtast, eller trykk rettetasten for å nullstilla."
+
+#
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Vis sida med innstillingane for tilgjenge"
+
+#
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Pip når funksjonar for _tilgjenge vert slått av eller på"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Sprettetastar"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Lat heile _skjermen blinke"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Tilbakemelding via lyd for tastaturtilgjenge"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Vis visuell tilbakemelding for alarmlydar"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Trege tastar"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Seige tastar"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Visuelle hint for lydar"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Tilbakemelding via _lyd …"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Blinkande skrivemerke"
+
+#~ msgid "Fast"
+#~ msgstr "Snøgg"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Innstillingar for tastatur"
+
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Mustastar"
+
+#~ msgid "Move _Down"
+#~ msgstr "Flytt _ned"
+
+#~ msgid "Move _Up"
+#~ msgstr "Flytt _opp"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Nye vindauge _brukar utforminga til aktivt vindauge"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Repeterande tastar"
+
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgid "Slow"
+#~ msgstr "Treg"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr "_Gjer det mogleg å slå av og på tilgjenge med tastaturet"
+
+#
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Oversjå fleire raske trykk på same tast"
+
+#~ msgid "_Options..."
+#~ msgstr "_Innstillingar …"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "Muse_peikaren kan styrast "
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "Eiga _utforming for kvart vindauge"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Simuler samtidige tastetrykk"
+
+#~ msgid "By _country"
+#~ msgstr "Etter _land:"
+
+#~ msgid "By _language"
+#~ msgstr "Etter _språk"
+
+#~ msgid "_Country:"
+#~ msgstr "_Land:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Språk"
+
+#
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Alternativ for tastaturutforming"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Flytt til venstre"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Flytt til høgre"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Flytt opp"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Flytt ned"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Av"
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Oppgje namn på sida som skal visast (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "- Innstillingar for mus"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Vel klikktype på _forhand"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Vel klikktype med m_usrørsler"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "D_obbeltklikk:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "D_ra-klikk:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Slå av _styreplata under skriving"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Tidsgrense for dobbeltklikk"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Dra og slepp"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Kvileklikk"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Slå på museklikk med styreplata"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Slå på h_orisontal rulling"
+
+#~ msgid "High"
+#~ msgstr "Høg"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Lokaliser musepeikar"
+
+#~ msgid "Low"
+#~ msgstr "Låg"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Orientering av musa"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Peikarfart"
+
+#~ msgid "Scrolling"
+#~ msgstr "Rulling"
+
+#
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Hø_greklikk:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Vi_s kor peikaren er når Ctrl-tasten vert trykt ned"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Vis klikktype-_vindauget"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Simulert høgreklikk"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Grense:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr "Prøv å dobbeltklikka på lyspæra for å testa innstillingane dine."
+
+#~ msgid "Touchpad"
+#~ msgstr "Styreplate"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Rulling med to _fingrar"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr "Du kan òg bruka kvileklikk-panelprogrammet til å velja klikktype."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Av"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Kantrulling"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Start klikk når peikaren kjem til ro"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Keivhendt"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "_Rørslegrense:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Høgrehendt"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Enkeltklikk:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_Høgreklikk ved å halda nede venstre knapp"
+
+#~ msgid "New Location..."
+#~ msgstr "Ny lokasjon …"
+
+#~ msgid "Location already exists"
+#~ msgstr "Lokasjonen finst alt"
+
+#~ msgid "C_reate"
+#~ msgstr "_Lag"
+
+#~ msgid "Create New Location"
+#~ msgstr "Lag ny lokasjon"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Vertar å oversjå"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Vertar å oversjå"
+
+#~ msgid "Location:"
+#~ msgstr "Lokasjon:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Oppsett av mellomtenar"
+
+#~ msgid "The location already exists."
+#~ msgstr "Lokasjonen finst alt."
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Slett lokasjon"
+
+#~ msgid "_Location name:"
+#~ msgstr "Namn på _lokasjon:"
+
+#~ msgid "Movement Key"
+#~ msgstr "Flyttetast"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Handling i tittellinja"
+
+#~ msgid "Window Selection"
+#~ msgstr "Vel vindauge"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Maksimer vertikalt"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Maksimer horisontalt"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Skjul ved oppstart (nyttig ved forhandslasting av skalet)"
+
+#
+#~ msgid "Groups"
+#~ msgstr "Grupper"
+
+#
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "Styrer om skalet skal lukkast når ei hjelpehandling vert utført."
+
+#
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "Styrer om skalet skal lukkast når ei starthandling vert utført."
+
+#
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Styrer om skalet skal lukkast når ei «legg til»-handling eller ei «ta "
+#~ "vekk»-handling vert utført."
+
+#
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Viser om skalet skal lukkast når ei oppgraderings- eller "
+#~ "avinstalleringshandling vert utført."
+
+#
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr ""
+#~ "viss sann, vil kontrollsenteret avsluttast når ei \"«Vanleg oppgave» er "
+#~ "aktivert."
+
+#~ msgid "Installed"
+#~ msgstr "Installert"
+
+#~ msgid "Install Failed"
+#~ msgstr "Installasjon feila"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "I_nstaller skrift"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Filteret «%s» gjev ingen treff."
+
+#~ msgid "No matches found."
+#~ msgstr "Ingen treff funne."
+
+#~ msgid "Start %s"
+#~ msgstr "Start %s"
+
+#~ msgid "Documents"
+#~ msgstr "Dokument"
+
+#
+#~ msgid "Rename..."
+#~ msgstr "Endra namn …"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Opna med «%s»"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H.%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "I dag, %H.%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "I går, %H.%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %H.%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d. %b, %H.%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d. %b %Y"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Opna %s</b>"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Brukarval"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Ikkje slå på"
+
+#, fuzzy
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Terskelen for ledig diskplass i prosent før varsel om lite diskplass "
+#~ "visast. Om prosent ledig diskplass kjem under denne terskelen, vil du få "
+#~ "eit varsel."
+
+#, fuzzy
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Oppgje eit tal i GB. Om ledig diskplass er meir enn dette vil ingen "
+#~ "varsel visast."
+
+#, fuzzy
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Oppgje prosenten som den ledige diskplassen skal reduserast med før "
+#~ "påfølgjande varsel visast."
+
+#
+#, fuzzy
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Snøggtast for å løysa ut ei optisk plate."
+
+#, fuzzy
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Om eit varslingsikon med skjermrelaterte ting skal verta vist i panelet."
+
+#, fuzzy
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Vel rullingsmetode for styreplata. Støtta verdiar er: 0 - avslått, 1 - "
+#~ "kantrulling, 2 - to-fingerrulling"
+
+#
+#, fuzzy
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Aktiver tillegg for xrandr"
+
+#
+#, fuzzy
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Aktiver tillegg for xrandr"
+
+#
+#, fuzzy
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "xrandr."
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Set til True for å aktivere tillegg for å handtere innstillingar for "
+#~ "skjermsparar."
+
+#, fuzzy
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Avslutt etter ei tid - for feilsøkjing"
+
+#, fuzzy
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "_Ikkje vis nokre varsel igjen for dette filsystemet"
+
+#, fuzzy
+#~ msgid "Examine…"
+#~ msgstr "Undersøk …"
+
+#, fuzzy
+#~ msgid "Removing: %s"
+#~ msgstr "<i>Fjernar: %s</i>"
+
+#, fuzzy
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Førebur tømming av papirkorg …"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Feil under aktivering av XKB-oppsettet.\n"
+#~ "Dette kan skje i visse situasjonar:\n"
+#~ "- ein feil i libxklavier-biblioteket\n"
+#~ "- ein feil i X-tenaren (xkbcomp, xmodmap-verktøy)\n"
+#~ "- X-tenar med inkompatibel libxkbfile-implementasjon\n"
+#~ "\n"
+#~ "Versjonsinformasjon for X-tenaren:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Dersom du sender inn ein feilrapport om dette, ta med:\n"
+#~ "- Resultatet av <b>%s</b>\n"
+#~ "- Resultatet av <b>%s</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Du brukar XFree 4.3.0.\n"
+#~ "Det er kjende problem med innfløkte XKB-oppsett.\n"
+#~ "Prøv å bruka eit enklare oppsett eller ein nyare versjon av XFree."
+
+#
+#, fuzzy
+#~ msgid "_Layouts"
+#~ msgstr "_Utformingar"
+
+#, fuzzy
+#~ msgid "Show _Current Layout"
+#~ msgstr "Vis noverande _utforming"
+
+#, fuzzy
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Vil du lasta modmap-filene?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr "Tilgjenge for mus krev at mousetweaks er installert på systemet."
+
+#, fuzzy
+#~ msgid "Rotation not supported"
+#~ msgstr "<i>Rotering er ikkje støtta</i>"
+
+#, fuzzy
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Still inn skjermen …"
+
+#
+#, fuzzy
+#~ msgid "name"
+#~ msgstr "filnamn"
+
+#, fuzzy
+#~ msgid "Change system time"
+#~ msgstr "Sett av endringar"
+
+#, fuzzy
+#~ msgid "Change system time zone"
+#~ msgstr "Sett av endringar"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Klarte ikkje setja maskinen i kvilemodus.\n"
+#~ "Kontroller at maskinen er sett opp rett."
+
+#
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Binding for å gå til kvilemodus."
+
+#
+#~ msgid "Suspend"
+#~ msgstr "Kvilemodus"
+
+#
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Set til True for å visa ein melding når det oppstår problemer med å køyra "
+#~ "skjermspararen."
+
+#
+#, fuzzy
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr ""
+#~ "Set til True for å aktivere tillegg for å handtere innstillingar for "
+#~ "skjermsparar."
+
+#
+#~ msgid "Show startup errors"
+#~ msgstr "Vis feil ved oppstart"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Start skjermsparar"
+
+#
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Aktiver tillegg for skjermsparar"
+
+#, fuzzy
+#~ msgid "Toggle screenreader"
+#~ msgstr "Slå skjermlesar av og på"
+
+#, fuzzy
+#~ msgid "GNOME Volume Control"
+#~ msgstr "Ukjend volumkontroll %d"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Ein feil oppstod då skjermspararen vart starta:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Skjermspararen vil ikkje fungera i denne økta."
+
+#, fuzzy
+#~ msgid "Screensaver"
+#~ msgstr "Start skjermsparar"
+
+#
+#~ msgid "Screensaver plugin"
+#~ msgstr "Tillegg for skjermsparar"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Kan ikkje laga katalogen «%s».\n"
+#~ "Denne katalogen er naudsynt for å kunna endra musepeikardrakta."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Kan ikkje laga katalogen «%s».\n"
+#~ "Denne katalogen er naudsynt for å kunna endra markøren."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Klarte ikkje å lasta lydfila «%s» som sample «%s»"
+
+#~ msgid "Login"
+#~ msgstr "Logg inn"
+
+#~ msgid "Logout"
+#~ msgstr "Logg ut"
+
+#~ msgid "Boing"
+#~ msgstr "Boing"
+
+#~ msgid "Siren"
+#~ msgstr "Sirene"
+
+#~ msgid "Clink"
+#~ msgstr "Klink"
+
+#~ msgid "Beep"
+#~ msgstr "Systempip"
+
+#~ msgid "No sound"
+#~ msgstr "Ingen lyd"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Ingen lyd vald for denne hendinga."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Lydfila for denne hendinga finst ikkje.\n"
+#~ "Legg inn pakka «gnome-audio» dersom du vil\n"
+#~ "ha eit sett med standardlydar."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Lydfila for denne hendinga finst ikkje."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Vel lydfil"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Fila «%s» er ikkje ei gyldig wav-fil"
+
+#
+#~ msgid "Select sound file..."
+#~ msgstr "Vel lydfil..."
+
+#
+#~ msgid "Sound plugin"
+#~ msgstr "Tillegg for lyd"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Dersom denne er sett til sann, vil MIME-handsamarane for text/plain og "
+#~ "text/* haldast synkroniserte"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Synkroniser handsamarane for text/plain og text/*"
+
+#
+#, fuzzy
+#~ msgid "Enable default editor plugin"
+#~ msgstr "Aktiver tillegg for xrandr"
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "Set til True for å aktivera tillegg for å handtera innstillingar for "
+#~ "xrandr."
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Handlinga til snøggtasten «%s» er definert fleire gongar\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Snøggtasten «%s» er definert fleire gongar\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr ""
+#~ "Det ser ut til at eit anna program allereie har tilgang til tasten «%u»."
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Snøggtasten «%s» er allereie i bruk\n"
+
+#~ msgid "Volume"
+#~ msgstr "Lydstyrke"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_Ikkje vis denne meldinga igjen."
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr "Ukjend innloggings-ID, brukadatabasen kan vera defekt"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>E-post</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Heim</b>"
+
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>Lynmelding</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Arbeid</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Telefon</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Nettside</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Byt passord</span>"
+
+#
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Hjelpeteknologi</b>"
+
+#
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Innstillingar</b>"
+
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Brukarval for hjelpeteknologi"
+
+#
+#~ msgid "Assistive Technology"
+#~ msgstr "Hjelpeteknologi"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr ""
+#~ "Slå på støtte for GNOME sine hjelpefunksjonar for handicappa når du "
+#~ "loggar inn"
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "Noko gjekk feil då dialogen for brukarval om mus vart starta: %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "Kan ikkje importera AccessX-innstillingar frå fila «%s»"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Importer innstillingar for hjelpefunksjonar"
+
+#~ msgid "_Import"
+#~ msgstr "_Importer"
+
+#
+#~ msgid "Keyboard Accessibility"
+#~ msgstr "Tilgjenge for tastatur"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Dette systemet har ikkje XKB-utvidinga. Hjelpefunksjonane for tastaturet "
+#~ "vil ikkje fungera utan."
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Bruk _sprettande knappar</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Bruk tre_ge tastar</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Bruk _mustastar</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Slå på _repeterande tastar</b>"
+
+# TRN: Ugh. Her burde det då finnast noko betre.
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Bruk _limtastar</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Hjelpefunksjonar</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Brytartastar</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Grunnleggjande"
+
+#~ msgid "Beep if key is re_jected"
+#~ msgstr "Pip når ein tast vert a_vvist"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr "Pip når hjelpe_funksjonar vert slått av eller på frå tastaturet."
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "Pip når _endringstast vert trykt ned"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr ""
+#~ "Pip ein gong når ein LED vert slått på, og to gongar når ein vert slått "
+#~ "av."
+
+#~ msgid "Beep when key is:"
+#~ msgstr "Pip når tasten er:"
+
+#~ msgid "Del_ay:"
+#~ msgstr "_Pause:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Pause mellom tastetrykk og _musrørsle:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "Slå av dersom to tastar vert try_kte ned samstundes"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "Bruk vekslek_nappar"
+
+#~ msgid "Filters"
+#~ msgstr "Filter"
+
+# TRN: Likar ikkje heilt.
+#~ msgid "I_gnore duplicate keypresses within:"
+#~ msgstr "_Oversjå like tastetrykk i løpet av:"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Dersom ein tast vert trykt ned fleire gongar etter kvarandre i løpet av "
+#~ "eit tidsrom som brukaren kan velja, vert berre set fyrste trykket "
+#~ "registrert."
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Brukarval for tilgjengefunksjonar for tastaturet (AccessX)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Høgaste _fart på peikaren:"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "_Brukarval for mus ..."
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "Berre godta tastetrykk etter at tasten har vore halden inne ei tid som "
+#~ "brukaren har stilt inn."
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Utfør fleire samtidige tastetrykk ved å trykka ned endringstastar i "
+#~ "rekkefølgje."
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Tida som vert brukt til å akse_llerera til høgaste fart:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Bruk det numeriske tastaturet til å kontrollera musepeikaren."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "Slå av _dersom ikkje brukt på:"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "_Importer innstillingar for tilgjengefunksjonar ..."
+
+#~ msgid "_Only accept keys held for:"
+#~ msgstr "_Berre godta tastetrykk når tasten er halden inne i:"
+
+#~ msgid "_accepted"
+#~ msgstr "_godteken"
+
+#~ msgid "_pressed"
+#~ msgstr "_trykt"
+
+#~ msgid "_rejected"
+#~ msgstr "_avvist"
+
+#~ msgid "characters/second"
+#~ msgstr "teikn per sekund"
+
+#~ msgid "milliseconds"
+#~ msgstr "millisekund"
+
+#~ msgid "pixels/second"
+#~ msgstr "pikslar per sekund"
+
+#
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>_Fargar</b>"
+
+#
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Menyar og verktøylinjer</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Førehandsvising</b>"
+
+#
+#~ msgid "<b>Rendering</b>"
+#~ msgstr "<b>Rendring</b>"
+
+#
+#~ msgid "<b>Smoothing</b>"
+#~ msgstr "<b>Utjevning</b>"
+
+#
+#~ msgid "<b>Subpixel Order</b>"
+#~ msgstr "<b>Subpikselrekkjefølgja</b>"
+
+#
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>_Bakgrunn</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "Klipp _ut"
+
+#
+#~ msgid ""
+#~ "Centered\n"
+#~ "Fill screen\n"
+#~ "Scaled\n"
+#~ "Zoom\n"
+#~ "Tiled"
+#~ msgstr ""
+#~ "Sentrert\n"
+#~ "Fyll skjermen\n"
+#~ "Skalert\n"
+#~ "Zoom\n"
+#~ "Fliser"
+
+#
+#~ msgid "Edit"
+#~ msgstr "Rediger"
+
+#
+#~ msgid "Go _to Fonts Folder"
+#~ msgstr "Gå _til skriftmappen"
+
+#
+#~ msgid "Interface"
+#~ msgstr "Grensesnitt"
+
+#~ msgid "New File"
+#~ msgstr "Ny fil"
+
+#~ msgid "Open File"
+#~ msgstr "Opna fil"
+
+#~ msgid "Save File"
+#~ msgstr "Lagra fil"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Vis _ikon i menyar"
+
+#
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "Helfylt farge\n"
+#~ "Horisontal gradient\n"
+#~ "Vertikal gradient"
+
+#
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "Tekst under oppføringar\n"
+#~ "Tekst ved sida av oppføringar\n"
+#~ "Berre ikon\n"
+#~ "Berre tekst"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Merkelappar på verktøylinje_knappar:"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopier"
+
+#
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "R_edigerbare snarvegtastar for meny"
+
+#~ msgid "_File"
+#~ msgstr "_Fil"
+
+#~ msgid "_New"
+#~ msgstr "_Ny"
+
+#~ msgid "_Open"
+#~ msgstr "_Opna"
+
+#~ msgid "_Paste"
+#~ msgstr "_Lim inn"
+
+#~ msgid "_Print"
+#~ msgstr "S_kriv ut"
+
+#~ msgid "_Save"
+#~ msgstr "_Lagra"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Ikkje noko bakgrunn"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s by %d %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s av %d %s\n"
+#~ "Mappe: %s"
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s er stien kor draktfilene vert installerte. Han kan ikkje brukast som "
+#~ "kjeldeadresse"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Kan ikkje starta «gnome-settings-daemon», programmet som styrer "
+#~ "innstillingane. Når dette programmet ikkje køyrer, kan det vera nokon av "
+#~ "brukarvala dine som ikkje vert verksame. Dette kan tyda på eit problem "
+#~ "med Bonobo, eller meat ein annan innstillingshandsamar (t.d. KDE sin) "
+#~ "allereie køyrer, og skapar problem for GNOME sin innstillingshandsamar."
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Ta i bruk innstillingar og avslutt"
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Hent og lagra gamle innstillingar"
+
+#~ msgid "Connecting..."
+#~ msgstr "Koplar til..."
+
+#
+#~ msgid "Autostart the preferred AT"
+#~ msgstr "Start foretrukket hjelpeteknologi automatisk"
+
+#~ msgid "<b>Image Viewer</b>"
+#~ msgstr "<b>Bildevisingsprogram</b>"
+
+#~ msgid "<b>Instant Messenger</b>"
+#~ msgstr "<b>Lynmelding</b>"
+
+#~ msgid "<b>Mail Reader</b>"
+#~ msgstr "<b>E-postlesar</b>"
+
+#
+#~ msgid "<b>Mobility</b>"
+#~ msgstr "<b>Mobilitet</b>"
+
+#
+#~ msgid "<b>Multimedia Player</b>"
+#~ msgstr "<b>Multimedieavspelar</b>"
+
+#~ msgid "<b>Terminal Emulator</b>"
+#~ msgstr "<b>Terminalemulator</b>"
+
+#~ msgid "<b>Text Editor</b>"
+#~ msgstr "<b>Redigeringsprogram for tekst</b>"
+
+#~ msgid "<b>Video Player</b>"
+#~ msgstr "<b>Filmavspelar</b>"
+
+#
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Visuell</b>"
+
+#~ msgid "<b>Web Browser</b>"
+#~ msgstr "<b>Nettlesar<b/>"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Endra skjermoppløysing"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Skjermoppløysing"
+
+#
+#~ msgid "Inverted"
+#~ msgstr "Omvendt"
+
+#~ msgid "Default Settings"
+#~ msgstr "Standardinnstillingar"
+
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Innstillingar for skjerm %d\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Set opp skjermoppløysingar"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "Gjer dette til standard berre for denne _datamaskinen (%s)"
+
+#~ msgid "Options"
+#~ msgstr "Val"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Prøver dei nye innstillingane. Dersom du ikkje reagerer i løpet av eitt "
+#~ "sekund, vil dei gamle innstillingane verta gjenoppretta."
+#~ msgstr[1] ""
+#~ "Prøver dei nye innstillingane. Dersom du ikkje reagerer i løpet av %d "
+#~ "sekund, vil dei gamle innstillingane verta gjenoppretta."
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Hald på oppløysinga"
+
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr "Vil du ha denne oppløysinga?"
+
+#
+#~ msgid "Use _Previous Resolution"
+#~ msgstr "Bruk _førre oppløysning"
+
+#
+#~ msgid "_Keep Resolution"
+#~ msgstr "_Behald oppløysning"
+
+#
+#~ msgid ""
+#~ "The X server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "X-tenaren støttar ikkje XRandR-utvidelsen. Endringar i oppløysning kan "
+#~ "ikkje utførast medan den køyrer."
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Denne versjonen av XRandR-utvidinga er ikkje kompatibel med dette "
+#~ "programmet. Du kan ikkje endra oppløysinga medan X-tenaren køyrer."
+
+#~ msgid "New accelerator..."
+#~ msgstr "Ny snøggtast ..."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time.\n"
+#~ msgstr ""
+#~ "Snarvegen «%s» kan ikkje brukast fordi den vil vera umulig å skriva med "
+#~ "denne tasten.\n"
+#~ "Vennligst prøv att med ein tastekombinasjon som inneheld Control, Alt "
+#~ "eller Shift.\n"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ msgstr ""
+#~ "Snøggtasten «%s» er allereie brukt til:\n"
+#~ " «%s»\n"
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr "Feil ved lagring av ny snøggtast i oppsettdatabasen: %s\n"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s\n"
+#~ msgstr "Feil ved fjerning av snøggtast frå oppsettdatabasen: %s\n"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new "
+#~ "accelerator, or press backspace to clear."
+#~ msgstr ""
+#~ "For å redigera ein snøggtast klikkar du på rada snøggtasten står i, og "
+#~ "trykker den nye snøggtasten. Du kan også trykka Backspace for å sletta "
+#~ "snøggtasten."
+
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "<b>Blinkande markør</b>"
+
+#
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Generelt</b>"
+
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "<b>Repeter tastar</b>"
+
+#
+#~ msgid "<b>Slow Keys</b>"
+#~ msgstr "<b>Trege tastar</b>"
+
+#
+#~ msgid "<b>Sticky Keys</b>"
+#~ msgstr "<b>Klebrige tastar</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Snøgg</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Lang</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Stutt</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Treg</i></small>"
+
+#
+#~ msgid "A_cceleration:"
+#~ msgstr "A_ksellerasjon:"
+
+#
+#~ msgid "Keyboard Accessibility Notifications"
+#~ msgstr "Varsling om tilgjenge for tastatur"
+
+#
+#~ msgid "Layout _Options..."
+#~ msgstr "Alternativ for _utforming..."
+
+#
+#~ msgid "Separate _layout for each window"
+#~ msgstr "Eigen _utforming for kvart vindauge"
+
+#
+#~ msgid "_Allow to control the pointer using the keyboard"
+#~ msgstr "Till_at kontroll av peikaren med tastaturet"
+
+#
+#~ msgid "_Allow to turn accessibility features on and off from the keyboard"
+#~ msgstr "Till_at å slå av og på funksjonar for tilgjenge frå tastaturet"
+
+#
+#~ msgid "_Notifications..."
+#~ msgstr "_Varsling..."
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Valde utformingar:"
+
+#
+#~ msgid "_Simulate simultanous keypresses"
+#~ msgstr "_Simuler samtidige tastetrykk"
+
+#
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#
+#~ msgid "gtk-help"
+#~ msgstr "gtk-help"
+
+#
+#~ msgid "Language and Location"
+#~ msgstr "Språk og stad"
+
+#
+#~ msgid "Set your language and location preferences"
+#~ msgstr "Set dine innstillingar for språk og stad"
+
+#
+#~ msgid ""
+#~ "<i>Region and language changes take effect the next time you log in.</i>"
+#~ msgstr ""
+#~ "<i>Endringar i region og språk trer i kraft neste gong du logger inn.</i>"
+
+#
+#~ msgid "Localization Preferences"
+#~ msgstr "Innstillingar for lokalisering"
+
+#
+#~ msgid "Region:"
+#~ msgstr "Region:"
+
+#
+#~ msgid "Selected languages:"
+#~ msgstr "Valde språk:"
+
+#~ msgid "%d millisecond"
+#~ msgid_plural "%d milliseconds"
+#~ msgstr[0] "%d millisekund"
+#~ msgstr[1] "%d millisekund"
+
+#~ msgid "<b>Double-Click Timeout </b>"
+#~ msgstr "<b>Tidsgrense for dobbeltklikk</b>"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Dra og slepp</b>"
+
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr "<b>Orientering av musa</b>"
+
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<b>Fart</b>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Snøgg</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Høg</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Høg</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Låg</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Treg</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Liten</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Knappar"
+
+#~ msgid "Motion"
+#~ msgstr "Rørsle"
+
+#~ msgid "_Left-handed mouse"
+#~ msgstr "_Venstrehendt mus"
+
+#~ msgid "_Threshold:"
+#~ msgstr "_Dørstokk:"
+
+#
+#~ msgid "      "
+#~ msgstr "      "
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Vertar å ignorera</b>"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Slå på lydar og kopla lydar til hendingar"
+
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "Kunne ikkje laga testrør for «%s»"
+
+#~ msgid "Not connected"
+#~ msgstr "Ikkje tilkopla"
+
+#
+#~ msgid "Autodetect"
+#~ msgstr "Gjenkjenn automatisk"
+
+#
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - Avansert Linux lydarkitektur"
+
+#
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART lydtenar"
+
+#
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - Enlightened lydtenar"
+
+#
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - Ope lydsystem"
+
+#
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "PulseAudio lydtenar"
+
+#
+#~ msgid "Test Sound"
+#~ msgstr "Test lyd"
+
+#
+#~ msgid "Silence"
+#~ msgstr "Stillhet"
+
+#
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr "- Innstillingar for lyd"
+
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>Lydkonferanse</b>"
+
+#
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>Forvalgte spor for mikser</b>"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>Musikk og filmar</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>Lydhendingar</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Testar ...</span>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "Klikk OK for å avslutta."
+
+#~ msgid "Devices"
+#~ msgstr "Einingar"
+
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "B_ruk programvare-lydmiksing (ESD)"
+
+#~ msgid "Flash _entire screen"
+#~ msgstr "Blink med h_eile skjermen"
+
+#
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "Vel eining og spor som skal kontrollerast med tastaturet. Bruk Shift- og "
+#~ "Control-tastane for å velja fleire spor viss nødvendig."
+
+#
+#~ msgid "So_und playback:"
+#~ msgstr "A_vspeling av lyd:"
+
+#
+#~ msgid "Sou_nd capture:"
+#~ msgstr "Oppta_k av lyd:"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Eigenskapar for lyd"
+
+#~ msgid "Sounds"
+#~ msgstr "Lydar"
+
+#~ msgid "System Beep"
+#~ msgstr "Systempip"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Testing Pipeline"
+#~ msgstr "Testar røyr"
+
+#
+#~ msgid "_Device:"
+#~ msgstr "_Eining:"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "_Slå på systempip"
+
+#~ msgid "_Play system sounds"
+#~ msgstr "_Spel systemlydar"
+
+#
+#~ msgid "_Sound playback:"
+#~ msgstr "Av_speling av lyd:"
+
+#~ msgid "_Visual system beep"
+#~ msgstr "_Visuelt systempip"
+
+#~ msgid "C_ontrol"
+#~ msgstr "C_ontrol"
+
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "<b>Flyttetast</b>"
+
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>Handling i tittellinja</b>"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Vel vindauge</b>"
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "Feil under oppretting av signalrøyr."
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Type bg_applier: BG_APPLIER_ROOT for rotvindauget eller "
+#~ "BG_APPLIER_PREVIEW for førehandsvising"
+
+#~ msgid "Preview Width"
+#~ msgstr "Breidde på førehandsvisinga"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Breidde dersom påføringa er ei førehandsvising. Standard er 64."
+
+#~ msgid "Preview Height"
+#~ msgstr "Høgde på førehandsvisinga"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Høgde dersom påføringa er ei førehandsvising. Standard er 48."
+
+#~ msgid "Screen"
+#~ msgstr "Skjerm"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Skjermen BGApplier skal teikna på"
+
+#~ msgid "<b>Start %s</b>"
+#~ msgstr "<b>Start %s</b>"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Inga treff funne.</b></span><span>\n"
+#~ "\n"
+#~ "Filteret <b>%s</b> gjev ikkje treff på nokon oppføringar.</span>"
+
+#
+#~ msgid "Edited %m/%d/%Y"
+#~ msgstr "Redigert %d.%m.%Y"
+
+#~ msgid "<b>Open with \"%s\"</b>"
+#~ msgstr "<b>Opna med «%s»</b>"
+
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "Uventet attributt «%s» for element «%s»"
+
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "Attributt «%s» i element «%s» vart ikkje funne"
+
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "Uventet tag «%s», tag «%s» forventet"
+
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "Uventet tag «%s» inne i «%s»"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "Inga gyldig bokmerkefil funne i datakatalogene"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "Ein bokmerke-URI for «%s» eksisterer allereie"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "Inga bokmerke funne for URI «%s»"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "Inga MIME-type definert i bokmerke for URI «%s»"
+
+#~ msgid "No private flag has been defined in bookmark for URI '%s'"
+#~ msgstr "Privat flagg er ikkje definert i bokmerke for URI «%s»"
+
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "Inga grupper sett i bokmerke for URI «%s»"
+
+#~ msgid "No application with name '%s' registered a bookmark for '%s'"
+#~ msgstr "Inga program med namn «%s» har registrert eit bokmerke for «%s»"
+
+#~ msgid "E-mail"
+#~ msgstr "E-post"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Snøggtast som startar e-post."
+
+#~ msgid "Eject's shortcut."
+#~ msgstr "Snøggtast som opnar skuffa."
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Snøggtast som opnar heimemappa."
+
+#
+#~ msgid "Launch calculator's shortcut"
+#~ msgstr "Snarveg for å starta kalkulator."
+
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Snøggtast som startar hjelplesar."
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Snøggtast som startar nettlesar."
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Snøggtast som låser skjermen."
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Snøggtast som loggar ut."
+
+#
+#~ msgid "Media player key's shortcut."
+#~ msgstr "Snarveg for medieavspelertast."
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Snøggtast som går til neste spor."
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Snøggtast som pausar avspeling."
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Snøggtast som startar eller startar/pausar avspeling."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Snøggtast som går til førre spor."
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Snøggtast som startar søk."
+
+#~ msgid "Sleep"
+#~ msgstr "Kvilemodus"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Snøggtast som går til kvilemodus."
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Snøggtast som stoppar avspeling."
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Snøggtast som dempar lyden."
+
+#
+#~ msgid "Volume mute's shortcut."
+#~ msgstr "Snarveg for demp volum."
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "Snøggtast som aukar lyden."
+
+#
+#~ msgid "Indicates whether to close the shell when a help action is performed"
+#~ msgstr ""
+#~ "Indikerer hvorvidt skallet skal lukkast når ein hjelpe-handling utførast"
+
+#
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed"
+#~ msgstr ""
+#~ "Indikerer hvorvidt skallet skal lukkast når ein start-handling utførast"
+
+#
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed"
+#~ msgstr ""
+#~ "Indikerer hvorvidt skallet skal lukkast når ein \"legg til\"- eller ein "
+#~ "\"ta bort\"-handling utførast"
+
+#
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed"
+#~ msgstr ""
+#~ "Indikerer hvorvidt skallet skal lukkast når ein oppgraderings- eller "
+#~ "avinstalleringshandling utførast"
+
+#
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is activated"
+#~ msgstr ""
+#~ "viss sann, vil kontrollsenteret avsluttast når ein \"Vanleg oppgave\" er "
+#~ "aktivert"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "Bruk denne skrifttypen i programma"
+
+#~ msgid "Sets the default application font"
+#~ msgstr "Set forvald skrift"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "abcdefghijklmnopqrstuvwxyzæøå 1234567890"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Bruk ny skrifttype?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "Ikkje bruk _skrifttypen"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "Drakta du har valt foreslår å bruka ein ny skrifttype. Ei "
+#~ "førehandsframvising av skrifttypen er vist under."
+
+#~ msgid "_Apply font"
+#~ msgstr "Bruk _skrifttypen"
+
+#~ msgid "Themes"
+#~ msgstr "Drakter"
+
+#~ msgid "Description"
+#~ msgstr "Skildring"
+
+# TRN: Dette er drakta i arbeidsflata, altså GTK-delen av programmet.
+#~ msgid "Control theme"
+#~ msgstr "Drakta i programområdet"
+
+#~ msgid "Window border theme"
+#~ msgstr "Drakt på vindaugsrammene"
+
+#~ msgid "Icon theme"
+#~ msgstr "Ikondrakt"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr "Dersom sann, vert det laga miniatyrar av installerte drakter."
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "Dersom sann, vert det laga miniatyrar av drakter."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Sett denne nøkkelen til kommandoen som vert brukt til å laga miniatyrar "
+#~ "av installerte drakter."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "Sett denne nøkkelen til kommandoen som vert brukt til å laga miniatyrar "
+#~ "av drakter."
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "Miniatyr-kommando for installerte drakter"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "Miniatyr-kommando for drakter"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Om det skal lagast miniatyrar av installerte drakter"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Om det skal lagast miniatyrar av drakter"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABCDÆØÅ"
+
+#
+#~ msgid "[FILE]"
+#~ msgstr "[FIL]"
+
+#~ msgid "Apply theme"
+#~ msgstr "Bruk drakt"
+
+#
+#~ msgid "Sets the default theme"
+#~ msgstr "Set forvald drakt"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>Program</b>"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Start desse hjelpefunksjonane kvar gong du loggar inn"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'orca' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Hjelpefunksjonane er ikkje tilgjengelege på systemet ditt. Pakken «gok» "
+#~ "må vera installert for at du skal ha tastatur på skjermen, og pakken "
+#~ "«orca» må vera installert dersom du vil ha skjermlesing og høve til å "
+#~ "forstørra skjermen."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gok' package must be installed in order to get on-screen keyboard "
+#~ "support."
+#~ msgstr ""
+#~ "Du manglar nokon hjelpefunksjonar. Pakken «gok» må vera installert dersom "
+#~ "du vil ha tastatur på skjermen."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'orca' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Du manglar nokon hjelpefunksjonar. Pakken «orca» må vera installert "
+#~ "dersom du vil ha skjermlesing og forstørring av skjermen."
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Endra bakgrunnsinnstillingane på skrivebordet ditt"
+
+#~ msgid "Desktop Background"
+#~ msgstr "Skrivebordsbakgrunn"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Brukarval for bakgrunn"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Legg til bakgrunn"
+
+#~ msgid "_Finish"
+#~ msgstr "_Fullfør"
+
+#~ msgid "Centered"
+#~ msgstr "Midtstilt"
+
+#~ msgid "Fill Screen"
+#~ msgstr "Fyll skjermen"
+
+#~ msgid "Scaled"
+#~ msgstr "Skalert"
+
+#~ msgid "Tiled"
+#~ msgstr "Flislagt"
+
+#~ msgid "Solid Color"
+#~ msgstr "Heilfylt farge"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Vassrett fargeovergang"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "Loddrett fargeovergang"
+
+#~ msgid "To:"
+#~ msgstr "Til:"
+
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "Evolution e-postlesar 1.4"
+
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "Evolution e-postlesar 1.5"
+
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "Evolution e-postlesar 1.6"
+
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "Evolution e-postlesar 2.0"
+
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "Evolution e-postlesar 2.2"
+
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "Evolution e-postlesar 2.4"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Links tekst-nettlesar"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Lynx tekst-nettlesar"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "W3M tekst-nettlesar"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "_Bruk oppløysinga"
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Vel skrifttypane som skal brukast på skrivebordet"
+
+#~ msgid "Window Management"
+#~ msgstr "Handsaming av vindauge"
+
+#~ msgid "There was an error launching the keyboard tool: %s"
+#~ msgstr "Ein feil oppstod under start av tastaturverktøyet: %s"
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "_Tilgjengelege utformingar:"
+
+#~ msgid "Choose..."
+#~ msgstr "Vel ..."
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Microsoft Natural Keyboard"
+
+#~ msgid "The default pointer that ships with X"
+#~ msgstr "Standardpeikaren som følgjer med X"
+
+#~ msgid "The default pointer inverted"
+#~ msgstr "Standard peikar, omvendte fargar"
+
+#~ msgid "Large version of normal pointer"
+#~ msgstr "Stor variant av den vanlege peikaren"
+
+#~ msgid "Large version of white pointer"
+#~ msgstr "Stor variant av den kvite peikaren"
+
+# TRN: Dette er drakta i arbeidsflata, altså GTK-delen av programmet.
+#~ msgid "Pointer Theme"
+#~ msgstr "Drakta for peikaren"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<p>Finn peikar</b>"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Framhev _peikaren når du trykker Ctrl"
+
+#~ msgid "Medium"
+#~ msgstr "Middels"
+
+#~ msgid "Pointer Size:"
+#~ msgstr "Storleik på peikaren:"
+
+#~ msgid "Sound & Video Preferences"
+#~ msgstr "Eigenskapar for lyd og video"
+
+#~ msgid "Theme deleted succesfully. Please select another theme."
+#~ msgstr "Drakta sletta. Vel ei anna drakt."
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Fann ingen drakter på systemet ditt. Det tyder på at «Vel drakt»-dialogen "
+#~ "ikkje var ordentleg installert, eller at du ikkje har installert «gnome-"
+#~ "themes»-pakken."
+
+#~ msgid "This theme is not in a supported format."
+#~ msgstr "Denne drakta er ikkje i eit støtta format."
+
+#~ msgid ""
+#~ "Can not install themes. \n"
+#~ "The gzip utility is not installed."
+#~ msgstr ""
+#~ "Kklarte ikkje å installera drakta.\n"
+#~ "Verktøyet gzip er ikkje installert."
+
+#~ msgid "The theme is an engine. You need to compile the theme."
+#~ msgstr "Drakta er ein motor. Du må kompilera drakta."
+
+#~ msgid "The file format is invalid"
+#~ msgstr "Filformatet er ugyldig"
+
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">The theme \"%s\" has been installed."
+#~ "</span>\n"
+#~ "\n"
+#~ "Would you like to apply it now, or keep your current theme?"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Drakta «%s» er installert.</span>\n"
+#~ "\n"
+#~ "Vil du bruka henne, eller halda på drakta du har no?"
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "Adressa til draktfila som skal installerast er ugyldig"
+
+#~ msgid "The file format is invalid."
+#~ msgstr "Filformatet er ugyldig."
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "Du kan lagra denne drakta ved å klikka på «Lagra drakt»-knappen."
+
+#~ msgid ""
+#~ "The default theme schemas could not be found on your system.  This means "
+#~ "that you probably don't have metacity installed, or that your gconf is "
+#~ "configured incorrectly."
+#~ msgstr ""
+#~ "Skjemaet til standarddrakta vart ikkje funne. Dette tyder på at Metacity "
+#~ "ikkje er installert, eller at GConf er satt opp feil."
+
+#~ msgid "<b>You do not have permission to change theme settings</b>"
+#~ msgstr "<b>Du har ikkje løyve til å endra draktinnstillingane</b>"
+
+#~ msgid "Save Theme"
+#~ msgstr "Lagra drakt"
+
+#~ msgid "Theme _Details"
+#~ msgstr "_Detaljar om drakta"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Denne drakta foreslår ingen særskilte skrifttypar eller bakgrunnar."
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Denne drakta foreslår ei bestemt skrift og ein bestemt bakgrunn."
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Installer drakt ..."
+
+#~ msgid "_Revert"
+#~ msgstr "Gå tilbake til lag_ra"
+
+#~ msgid "theme selection tree"
+#~ msgstr "Draktveljartre"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr "Tilpass utsjånaden til verktøylinjer og menylinjer i programma"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Åtferd og utsjånad</b>"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Brukarval for menyar og verktøylinjer"
+
+#~ msgid "Text below icons"
+#~ msgstr "Tekst under ikon"
+
+#~ msgid "Text beside icons"
+#~ msgstr "Tekst attmed ikon"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "_Verktøylinjer kan flyttast"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "Brukarval for skrivebord"
+
+#~ msgid ""
+#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.</b>\n"
+#~ "\n"
+#~ "Expected was %s, but the the following settings were found: %s.\n"
+#~ "\n"
+#~ "Which set would you like to use?"
+#~ msgstr ""
+#~ "<b>Tastaturinnstillingane i X er ikkje like tastaturinnstillingane i "
+#~ "GNOME.</b>\n"
+#~ "\n"
+#~ "Venta %s, men fann: %s\n"
+#~ "\n"
+#~ "Kva for eit sett innstillingar vil du bruka?"
+
+#~ msgid ""
+#~ "Couldn't load the Glade file.\n"
+#~ "Make sure that this daemon is properly installed."
+#~ msgstr ""
+#~ "Klarte ikkje lasta Glade-fil.\n"
+#~ "Kontroller at nissen er rett installert."
+
+#~ msgid ""
+#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
+#~ "Useful for re-applying xmodmap based adjustments"
+#~ msgstr ""
+#~ "Ei samling skript å køyra kvar gong tastaturinnstillingane vert lasta på "
+#~ "nytt. Nyttig for å ta i bruk justeringar laga med xmodmap"
+
+#~ msgid "A list of modmap files available in the $HOME directory."
+#~ msgstr "Ei liste over modmap-filer i $HOME-katalogen."
+
+#~ msgid "Default group, assigned on window creation"
+#~ msgstr "Standardgruppa, tileigna når vindauget vert laga"
+
+#~ msgid "Keep and manage separate group per window"
+#~ msgstr "Lag og handsama særskilde grupper for kvart vindauge"
+
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Handsamarar for tastaturoppdatering"
+
+#~ msgid "Keyboard model"
+#~ msgstr "Tastaturmodell"
+
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr ""
+#~ " Tastaturinnstillingar i GConf vil verta overstyrte frå systemet ASAP "
+#~ "(forelda)"
+
+#~ msgid "Save/restore indicators together with layout groups"
+#~ msgstr "Lagra/gjenoppratta indikatorar i lag med utformingsgrupper"
+
+#~ msgid "Show layout names instead of group names"
+#~ msgstr "Vis utformingsnamn i staden for gruppenamn"
+
+#~ msgid ""
+#~ "Show layout names instead of group names (only for versions of XFree "
+#~ "supporting multiple layouts)"
+#~ msgstr ""
+#~ "Vis utformingsnamn i staden for gruppenamn (berre for variantar av XFree "
+#~ "som støttar fleire utformingar)"
+
+#~ msgid "Suppress the \"X sysconfig changed\" warning message"
+#~ msgstr "Gøym «X sysconfig changed»-åtvaringa"
+
+#~ msgid "The Keyboard Preview, X offset"
+#~ msgstr "Tastatur-førehandsvisinga, X-forskyving"
+
+#~ msgid "The Keyboard Preview, Y offset"
+#~ msgstr "Tastatur-førehandsvisinga, Y-forskyving"
+
+#~ msgid "The Keyboard Preview, height"
+#~ msgstr "Tastatur-førehandsvisinga, høgde"
+
+#~ msgid "The Keyboard Preview, width"
+#~ msgstr "Tastatur-førehandsvisinga, breidde"
+
+#~ msgid ""
+#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
+#~ "configuration) This key has been deprecated since GNOME 2.12, please "
+#~ "unset the model, layouts and options keys to get the default system "
+#~ "configuration."
+#~ msgstr ""
+#~ "Tastaturinnstillingane i GConf vil straks verta overstyrte av "
+#~ "systeminnstillingane. Denne tasten har vore forelda sidan GNOME 2.12. "
+#~ "Nullstill modell, utforming og val-tastar for å få standard systemoppsett."
+
+#~ msgid "keyboard model"
+#~ msgstr "tastaturmodell"
+
+#~ msgid "modmap file list"
+#~ msgstr "modmap-filliste"
+
+#
+#~ msgid "Set to True to enable the plugin to manage screensaver settings."
+#~ msgstr ""
+#~ "Set til True for å aktivere tillegg for å handtere innstillingar for "
+#~ "skjermsparar."
+
+#~ msgid "_Quit"
+#~ msgstr "_Avslutt"
+
+#~ msgid "<b>_Lock screen to enforce typing break</b>"
+#~ msgstr "<b>_Lås skjermen for å tvinga ein skrivepause.</b>"
+
+#
+#~ msgid "_Layouts:"
+#~ msgstr "_Utformingar"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "Ukjend volumkontroll %d"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Ta ein pause"
+
+#~ msgid "_Remove"
+#~ msgstr "Fje_rn"

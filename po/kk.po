@@ -1,0 +1,865 @@
+# Kazakh translation for gnome-control-center.
+# Copyright (C) 2010 gnome-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-control-center package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-09-16 15:51+0600\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Poedit-Language: Kazakh\n"
+"X-Poedit-Country: KAZAKHSTAN\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr ""
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr ""
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr ""
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "Де_малу уақыты"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "Сөндірулі"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr ""
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr ""
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr ""
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr ""
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr ""
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Демалу уақыты!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Whether the typing break can be postponed"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Whether typing break is enabled"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Қалаулар"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr ""
+
+#~ msgid "minutes"
+#~ msgstr "минут"
+
+#~ msgid "Show more _details"
+#~ msgstr "_Көбірек ақпарат шығару"
+
+#~ msgid "Select Image"
+#~ msgstr "Суретті таңдау"
+
+#~ msgid "No Image"
+#~ msgstr "Сурет жоқ"
+
+#~ msgid "Images"
+#~ msgstr "Суреттер"
+
+#~ msgid "All Files"
+#~ msgstr "Барлық файлдар"
+
+#~ msgid "About %s"
+#~ msgstr "%s туралы"
+
+#~ msgid "About Me"
+#~ msgstr "Мен туралы"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "C_ity:"
+#~ msgstr "Қа_ла:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Парольді ө_згерту..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Қал_а:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Ел:"
+
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Е_л:"
+
+#~ msgid "Email"
+#~ msgstr "Эл. пошта"
+
+#~ msgid "Full Name"
+#~ msgstr "Толық аты"
+
+#~ msgid "Home"
+#~ msgstr "Үй"
+
+#~ msgid "Job"
+#~ msgstr "Жұмыс"
+
+#~ msgid "Personal Info"
+#~ msgstr "Жеке ақпарат"
+
+#~ msgid "User name:"
+#~ msgstr "Пайдаланушы аты:"
+
+#~ msgid "Web"
+#~ msgstr "Веб"
+
+#~ msgid "Work"
+#~ msgstr "Жұмыс"
+
+#~ msgid "_Address:"
+#~ msgstr "_Адресі:"
+
+#~ msgid "_Department:"
+#~ msgstr "Бөлім:"
+
+#, fuzzy
+#~ msgid "_Home:"
+#~ msgstr "Үйге"
+
+#~ msgid "_Title:"
+#~ msgstr "А_тауы:"
+
+#~ msgid "_Work:"
+#~ msgstr "Жұ_мыс:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "Yahoo а_дресі:"
+
+#~ msgid "Done!"
+#~ msgstr "Дайын!"
+
+#~ msgid "System error: %s."
+#~ msgstr "Жүйелік қате: %s."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "%s жөнелту қатесі: %s"
+
+#~ msgid "Change password"
+#~ msgstr "Парольді өзгерту"
+
+#~ msgid "Change your password"
+#~ msgstr "Пароліңізді өзгертіңіз"
+
+#~ msgid "_New password:"
+#~ msgstr "Жаңа _пароль:"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "Таңд_амалы қолданбалар"
+
+#~ msgid "All files"
+#~ msgstr "Барлық файлдар"
+
+#~ msgid "filename"
+#~ msgstr "файл аты"
+
+#~ msgid "page"
+#~ msgstr "парақ"
+
+#~ msgid "Custom"
+#~ msgstr "Таңдауыңызша"
+
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#~ msgid "Center"
+#~ msgstr "Ортасы"
+
+#~ msgid "Colors"
+#~ msgstr "Түстер"
+
+#~ msgid "Fonts"
+#~ msgstr "Қаріптер"
+
+#~ msgid "Hinting"
+#~ msgstr "Тегістеу"
+
+#~ msgid "Icons"
+#~ msgstr "Таңбашалар"
+
+#~ msgid "Icons only"
+#~ msgstr "Тек таңбашалар"
+
+#~ msgid "Large"
+#~ msgstr "Үлкен"
+
+#, fuzzy
+#~ msgid "N_one"
+#~ msgstr "бір"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Түсті таңдау үшін сұхбат терезесін ашу"
+
+#, fuzzy
+#~ msgid "R_esolution:"
+#~ msgstr "Кең_ейтілуі:"
+
+#~ msgid "Rendering"
+#~ msgstr "Өңдеу"
+
+#~ msgid "Save _As..."
+#~ msgstr "Қала_йша сақтау..."
+
+#~ msgid "Small"
+#~ msgstr "Кішкентай"
+
+#~ msgid "Text"
+#~ msgstr "Мәтін"
+
+#~ msgid "Text only"
+#~ msgstr "Тек мәтін"
+
+#~ msgid "Theme"
+#~ msgstr "Тема"
+
+#~ msgid "Zoom"
+#~ msgstr "Үлкейту"
+
+#~ msgid "_Add..."
+#~ msgstr "Қ_осу..."
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "Ан_ықтамасы:"
+
+#~ msgid "_Full"
+#~ msgstr "Т_олық"
+
+#~ msgid "_Medium"
+#~ msgstr "О_рташа"
+
+#~ msgid "_Name:"
+#~ msgstr "_Аты:"
+
+#~ msgid "_None"
+#~ msgstr "_Ешнәрсе"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_Бастапқы түріне келтіру"
+
+#~ msgid "_Size:"
+#~ msgstr "Ө_лшемі:"
+
+#~ msgid "_Slight"
+#~ msgstr "Әл_сіз"
+
+#~ msgid "_Style:"
+#~ msgstr "_Стилі:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Терезелер:"
+
+#~ msgid "Appearance"
+#~ msgstr "Сыртқы түрі"
+
+#~ msgid "Image"
+#~ msgstr "Сурет"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "пиксель"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Уақытша буманы жасау қатесі"
+
+#~ msgid "Select Theme"
+#~ msgstr "Теманы таңдаңыз"
+
+#~ msgid "_Overwrite"
+#~ msgstr "Үстінен _жазу"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Көмекті көрсету кезінде қате кетті: %s"
+
+#~ msgid "_Skip"
+#~ msgstr "А_ттап кету"
+
+#~ msgid "Key"
+#~ msgstr "Кілт"
+
+#~ msgid "_Select"
+#~ msgstr "Таң_дау"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Таңдамалы қолданбалар"
+
+#~ msgid "Accessibility"
+#~ msgstr "Қолжетерлілік"
+
+#~ msgid "C_ommand:"
+#~ msgstr "К_оманда:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Коман_да:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Суреттерді көрсетуші"
+
+#~ msgid "Internet"
+#~ msgstr "Интернет"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Пошта қолданбасы"
+
+#~ msgid "Multimedia"
+#~ msgstr "Мультимедиа"
+
+#~ msgid "System"
+#~ msgstr "Жүйелік"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Терминал эмуляторы"
+
+#~ msgid "Text Editor"
+#~ msgstr "Мәтін түзетушісі"
+
+#~ msgid "Video Player"
+#~ msgstr "Видео плеері"
+
+#~ msgid "Web Browser"
+#~ msgstr "Веб браузері"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee Music Player"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian Sensible Browser"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian терминал эмуляторы"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany веб браузері"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution Mail Reader"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME терминалы"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Mail"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine Music Player"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "RXVT"
+#~ msgstr "Rxvt"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox Music Player"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Mail"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem Movie Player"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Left"
+#~ msgstr "Сол жақ"
+
+#~ msgid "Monitor"
+#~ msgstr "Монитор"
+
+#~ msgid "Normal"
+#~ msgstr "Қалыпты"
+
+#~ msgid "Off"
+#~ msgstr "Сөндірулі"
+
+#~ msgid "On"
+#~ msgstr "Қосулы"
+
+#~ msgid "Right"
+#~ msgstr "Оң жақ"
+
+#, fuzzy
+#~ msgid "_Resolution:"
+#~ msgstr "Ажыратылымдығы"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "%s ашу мүмкін емес: %s\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "%s/%s ашу мүмкін емес: %s\n"
+
+#, fuzzy
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "%s атын жаңа %s атына ауыстыру мүмкін емес: %s\n"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Гц"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Айналы экрандар"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Монитор: %s"
+
+#~ msgid "Sound"
+#~ msgstr "Дыбыс"
+
+#~ msgid "Desktop"
+#~ msgstr "Қалыпты компьютер"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Белгісіз әрекет>"
+
+#~ msgid "Action"
+#~ msgstr "Әрекет"
+
+#~ msgid "Shortcut"
+#~ msgstr "Жарлық"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Пернетақта жарлықтары"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Қайталанатын пернелер"
+
+#~ msgid "General"
+#~ msgstr "Жалпы"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Баяу пернелер"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Жабысқақ пернелер"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Пернетақта _түрі:"
+
+#~ msgid "Long"
+#~ msgstr "Ұзақ"
+
+#~ msgid "Move _Down"
+#~ msgstr "Төмен жы_лжыту"
+
+#~ msgid "Move _Up"
+#~ msgstr "Ж_оғары апару"
+
+#~ msgid "Short"
+#~ msgstr "Қысқа"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "Үд_ету:"
+
+#~ msgid "_Delay:"
+#~ msgstr "Күт_у:"
+
+#~ msgid "_Options..."
+#~ msgstr "_Опциялар..."
+
+#~ msgid "_Show..."
+#~ msgstr "Көр_сету..."
+
+#~ msgid "_Speed:"
+#~ msgstr "Ж_ылдамдық:"
+
+#~ msgid "Preview:"
+#~ msgstr "Алдын-ала қарау:"
+
+#~ msgid "_Country:"
+#~ msgstr "Е_л:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Тіл:"
+
+#~ msgid "Unknown"
+#~ msgstr "Белгісіз"
+
+#~ msgid "Layout"
+#~ msgstr "Жайма"
+
+#~ msgid "Default"
+#~ msgstr "Бастапқы"
+
+#~ msgid "Keyboard"
+#~ msgstr "Пернетақта"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Ұстап апару мен тастау"
+
+#~ msgid "High"
+#~ msgstr "Жоғары"
+
+#~ msgid "Low"
+#~ msgstr "Төмен"
+
+#~ msgid "Scrolling"
+#~ msgstr "Айналдыру"
+
+#~ msgid "_Disabled"
+#~ msgstr "Сөн_дірулі"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Солақай"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Оңақай"
+
+#~ msgid "_Single click:"
+#~ msgstr "Бі_рлік шерту:"
+
+#~ msgid "Mouse"
+#~ msgstr "Тышқан"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Аутентификацияны қолдану</b>"
+
+#~ msgid "C_reate"
+#~ msgstr "Жаса_у"
+
+#~ msgid "Location:"
+#~ msgstr "Орналасуы:"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "_Details"
+#~ msgstr "Кө_бірек"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Орналасудың атауы:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Пароль:"
+
+#~ msgid "_Alt"
+#~ msgstr "Alt"
+
+#~ msgid "_Meta"
+#~ msgstr "Meta"
+
+#~ msgid "seconds"
+#~ msgstr "секунд"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Maximize"
+#~ msgstr "Максималды қылу"
+
+#~ msgid "None"
+#~ msgstr "Ешнәрсе"
+
+#~ msgid "Filter"
+#~ msgstr "Фильтр"
+
+#~ msgid "Groups"
+#~ msgstr "Топтар"
+
+#~ msgid "Name:"
+#~ msgstr "Аты:"
+
+#~ msgid "Style:"
+#~ msgstr "Стиль:"
+
+#~ msgid "Type:"
+#~ msgstr "Түрі:"
+
+#~ msgid "Size:"
+#~ msgstr "Өлшемі:"
+
+#~ msgid "Version:"
+#~ msgstr "Нұсқасы:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Copyright:"
+
+#~ msgid "Description:"
+#~ msgstr "Анықтамасы:"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "No matches found."
+#~ msgstr "Сәйкестіктер табылмады."
+
+#~ msgid "Other"
+#~ msgstr "Басқа"
+
+#, fuzzy
+#~ msgid "Start %s"
+#~ msgstr "Ба_стау"
+
+#~ msgid "Help"
+#~ msgstr "Көмек"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Таңдамалыларға қосу"
+
+#~ msgid "Documents"
+#~ msgstr "Құжаттар"
+
+#~ msgid "File System"
+#~ msgstr "Файлдық жүйе"
+
+#~ msgid "Search"
+#~ msgstr "Іздеу"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Ашу</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Атын ауыстыру..."
+
+#, fuzzy
+#~ msgid "Send To..."
+#~ msgstr "%s қазір %s үшін жіберу"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Қоқыс шелегіне тастау"
+
+#~ msgid "Delete"
+#~ msgstr "Өшіру"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "\"%s\" көмегімен ашу"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Негізгі қолданбамен ашу"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Файлдық шолушысында ашу"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Today %l:%M %p"
+
+#, fuzzy
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Кеше"
+
+#, fuzzy
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Қазір табу"
+
+#, fuzzy
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "А_шу..."

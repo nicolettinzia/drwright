@@ -16,31 +16,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwrite\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=drwright&component=general\n"
-"POT-Creation-Date: 2011-02-15 19:58+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
 "PO-Revision-Date: 2011-02-16 20:24+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: ../src/main.c:63
+#: ../../../po/../src/main.c:61
 msgid "Enable debugging code"
 msgstr "Zapnout ladicí kód"
 
-#: ../src/main.c:65
+#: ../../../po/../src/main.c:63
 msgid "Don't check whether the notification area exists"
 msgstr "Nekontrolovat, zda existuje oznamovací oblast"
 
-#: ../src/main.c:91
+#: ../../../po/../src/main.c:87
 msgid "Typing Monitor"
 msgstr "Sledování psaní"
 
-#: ../src/main.c:108
+#: ../../../po/../src/main.c:103
 msgid ""
 "The typing monitor uses the notification area to display information. You "
 "don't seem to have a notification area on your panel. You can add it by "
@@ -52,20 +51,15 @@ msgstr ""
 "pravým tlačítkem a vybráním „Přidat na panel“, zvolením „Oznamovací oblast“ "
 "a kliknutím na „Přidat“."
 
-#: ../src/drwright.c:142
+#: ../../../po/../src/drwright.c:123
 msgid "_Take a Break"
 msgstr "_Udělat si přestávku"
 
-#: ../src/drwright.c:504
+#: ../../../po/../src/drwright.c:441
 msgid "Disabled"
 msgstr "Zakázáno"
 
-#: ../src/drwright.c:513
-#, c-format
-msgid "Take a break now (next in %dm)"
-msgstr "Udělat si právě teď přestávku (další za %d min)"
-
-#: ../src/drwright.c:515
+#: ../../../po/../src/drwright.c:448
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
@@ -73,17 +67,12 @@ msgstr[0] "%d minuta do další přestávky"
 msgstr[1] "%d minuty do další přestávky"
 msgstr[2] "%d minut do další přestávky"
 
-#: ../src/drwright.c:521
-#, c-format
-msgid "Take a break now (next in less than one minute)"
-msgstr "Udělat si právě teď přestávku (další za méně než minutu)"
-
-#: ../src/drwright.c:523
+#: ../../../po/../src/drwright.c:452
 #, c-format
 msgid "Less than one minute until the next break"
 msgstr "Méně než jedna minuta do další přestávky"
 
-#: ../src/drwright.c:630
+#: ../../../po/../src/drwright.c:553
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -92,19 +81,19 @@ msgstr ""
 "Nelze zobrazit dialog vlastností přestávky ve psaní kvůli následující chybě: "
 "%s"
 
-#: ../src/drwright.c:649
+#: ../../../po/../src/drwright.c:572
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Napsal Richard Hult <richard@imendio.com>"
 
-#: ../src/drwright.c:650
+#: ../../../po/../src/drwright.c:573
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Hezkou grafiku přidal Anders Carlsson"
 
-#: ../src/drwright.c:659
+#: ../../../po/../src/drwright.c:582
 msgid "A computer break reminder."
 msgstr "Upomínka na počítačové přestávky."
 
-#: ../src/drwright.c:661
+#: ../../../po/../src/drwright.c:584
 msgid "translator-credits"
 msgstr ""
 "David Šauer <davids@penguin.cz>\n"
@@ -116,11 +105,11 @@ msgstr ""
 "Lukáš Novotný <lukasnov@cvs.gnome.org>\n"
 "Petr Kovář <pknbe@volny.cz>"
 
-#: ../src/drw-break-window.c:184
+#: ../../../po/../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Odložit přestávku"
 
-#: ../src/drw-break-window.c:228
+#: ../../../po/../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "Udělejte si přestávku!"
 
@@ -180,6 +169,12 @@ msgstr "Zamykat _obrazovku kvůli vynucení přestávky ve psaní"
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "Inte_rval práce trvá:"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Udělat si právě teď přestávku (další za %d min)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Udělat si právě teď přestávku (další za méně než minutu)"
 
 #~ msgid "minutes"
 #~ msgstr "minut"

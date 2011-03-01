@@ -1,0 +1,4481 @@
+# #-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#
+# Lithuanian translation of gnome-settings-daemon
+# Copyright © 2000-2008, 2010 Free Software Foundation, Inc.
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000-2002.
+# Vaidotas Zemlys <mpiktas@delfi.lt>, 2003.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2007, 2010.
+# Gintautas Miliauskas <gintautas@miliauskas.lt>, 2006, 2007, 2008, 2009.
+# Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2008.
+# #-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#
+# Lithuanian translation of gnome-settings-daemon
+# Copyright © 2000-2008, 2010 Free Software Foundation, Inc.
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000-2002.
+# Vaidotas Zemlys <mpiktas@delfi.lt>, 2003.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2007, 2010.
+# Gintautas Miliauskas <gintautas@miliauskas.lt>, 2006, 2007, 2008, 2009.
+# Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2008.
+# #-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#
+# Translation of gnome-control-center.HEAD.lt.po to Lithuanian
+# Lithuanian translation of gnome-control-center
+# Copyright (C) 2000-2009 Free Software Foundation, Inc.
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000-2002.
+# Vaidotas Zemlys <mpiktas@delfi.lt>, 2003.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2007, 2009, 2010.
+# Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007.
+# Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2008.
+# Aurimas Černius <aurisc4@gmail.com>, 2010.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-01 20:22+0100\n"
+"PO-Revision-Date: 2010-09-12 21:16+0300\n"
+"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
+"Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.6.1\n"
+"#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.6.1\n"
+"#-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: ../../../po/../src/main.c:61
+msgid "Enable debugging code"
+msgstr "Įjungti derinimo kodą"
+
+#: ../../../po/../src/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "Netikrinti, ar yra pranešimų vieta"
+
+#: ../../../po/../src/main.c:87
+msgid "Typing Monitor"
+msgstr "Spausdinimo monitorius"
+
+#: ../../../po/../src/main.c:103
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Spausdinimo monitorius informacijos rodymui naudoja skydelio pranešimų "
+"vietą. Nepanašu, kad Jūsų skydelyje ši vieta yra. Galite ją įdėti ant "
+"skydelio spustelėję dešinįjį pelės mygtuką ir pasirinkę „Įdėti į skydelį“, "
+"„Pranešimų vieta“ ir paspaudę „Pridėti“."
+
+#: ../../../po/../src/drwright.c:123
+msgid "_Take a Break"
+msgstr "_Pailsėti"
+
+#: ../../../po/../src/drwright.c:441
+msgid "Disabled"
+msgstr "Išjungta"
+
+#: ../../../po/../src/drwright.c:448
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "%d minutė iki kitos pertraukėlės"
+msgstr[1] "%d minutės iki kitos pertraukėlės"
+msgstr[2] "%d minučių iki kitos pertraukėlės"
+
+#: ../../../po/../src/drwright.c:452
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "Mažiau nei viena minutė iki kitos pertraukėlės"
+
+#: ../../../po/../src/drwright.c:553
+#, c-format
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Nepavyko parodyti spausdinimo pertraukos nustatymų dialogo dėl šios klaidos: "
+"%s"
+
+#: ../../../po/../src/drwright.c:572
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Sukurė Richard Hult <richard@imendio.com>"
+
+#: ../../../po/../src/drwright.c:573
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Gražią išvaizdą pridėjo Anders Carlsson"
+
+#: ../../../po/../src/drwright.c:582
+msgid "A computer break reminder."
+msgstr "Priminimas apie poilsį nuo kompiuterio."
+
+#: ../../../po/../src/drwright.c:584
+msgid "translator-credits"
+msgstr ""
+"Žygimantas Beručka <zygis@gnome.org>,\n"
+"Gintautas Miliauskas <gintas@akl.lt>,\n"
+"Justina Klingaitė <justina.klingaite@gmail.com>,\n"
+"Vaidotas Zemlys <mpiktas@delfi.lt>,\n"
+"Gediminas Paulauskas <menesis@chatsubo.lt>"
+
+#: ../../../po/../src/drw-break-window.c:189
+msgid "_Postpone Break"
+msgstr "_Atidėti pertraukėlę"
+
+#: ../../../po/../src/drw-break-window.c:234
+msgid "Take a break!"
+msgstr "Pailsėkite!"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Priority to use for this plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+#, fuzzy
+msgid "Whether the typing break can be postponed"
+msgstr "Ar ekrano skaityklė įjungta."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#, fuzzy
+msgid "Whether typing break is enabled"
+msgstr "Ar ekrano skaityklė įjungta."
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#, fuzzy
+msgid "Typing Break Preferences"
+msgstr "Spausdinimo pertraukėlė"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Typing Break preferences panel"
+msgstr ""
+
+#. Translators: those are keywords for the example control-center panel
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+msgid "Typing;Break;RSI;Workrave;"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:1
+msgid "_Allow postponing of breaks"
+msgstr ""
+
+#: ../src/drwright-panel.glade.h:2
+msgid "_Break interval lasts:"
+msgstr "_Pertraukėlės tęsiasi:"
+
+#: ../src/drwright-panel.glade.h:3
+msgid "_Lock screen to enforce typing break"
+msgstr "Už_rakinti ekraną verčiant pailsėti nuo spausdinimo"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Work interval lasts:"
+msgstr "_Darbo periodas tęsiasi:"
+
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Padaryti pertrauką dabar (kita po %dm)"
+
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Padaryti pertrauką dabar (kita mažiau nei po minutės)"
+
+#~ msgid "minutes"
+#~ msgstr "min."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Break</b>"
+#~ msgstr "<b>Pause</b>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr ""
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "<b>Arbeit</b>\n"
+#~ "#-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "<b>Darbas</b>"
+
+#, fuzzy
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr ""
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
+#~ "#-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Pažymėkite, jeigu norite, kad pertraukėles būtų galima atidėti"
+
+#, fuzzy
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr ""
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
+#~ "#-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Pertraukėlės trukmė, kai neleidžiama spausdinti"
+
+#~ msgid "Duration of warning before starting a break"
+#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+
+#, fuzzy
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr ""
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
+#~ "#-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Darbo trukmė iki priverstinės pertraukos"
+
+#~ msgid "Optional phrase to use for postponing a break"
+#~ msgstr ""
+#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
+#~ "soll"
+
+#~ msgid "_Warning time is"
+#~ msgstr "_Vorwarnzeit ist"
+
+#~ msgid "DrWright is already running."
+#~ msgstr "DrWright läuft bereits."
+
+#~ msgid "/_Enabled"
+#~ msgstr "/_Aktiviert"
+
+#~ msgid "/_About"
+#~ msgstr "/_Über"
+
+#~ msgid "/_Remove Icon"
+#~ msgstr "/_Symbol entfernen"
+
+#~ msgid "One minute until the next break"
+#~ msgstr "Eine Minute bis zur nächsten Pause"
+
+#~ msgid "Quit DrWright?"
+#~ msgstr "DrWright beenden?"
+
+#~ msgid "Don't forget to take regular breaks."
+#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "About DrWright"
+#~ msgstr "Info zu DrWright"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pausenerinnerer"
+
+#~ msgid "Accessibility"
+#~ msgstr "Pritaikymas neįgaliesiems"
+
+#~ msgid "Free percentage notify threshold"
+#~ msgstr "Laisvos vietos nuošimčių pranešimo slenkstis"
+
+#~ msgid "Free space no notify threshold"
+#~ msgstr "Laisvos vietos nuošimčių nepranešinėjimo slenkstis"
+
+#~ msgid "Minimum notify period for repeated warnings"
+#~ msgstr "Mažiausias pranešimų periodas kartojamiems įspėjimams"
+
+#~ msgid "Mount paths to ignore"
+#~ msgstr "Nepaisytini prijungimo keliai"
+
+#~ msgid ""
+#~ "Percentage free space threshold for initial warning of low disk space. If "
+#~ "the percentage free space drops below this, a warning will be shown."
+#~ msgstr ""
+#~ "Laisvos vietos nuošimčių slenkstis pradiniam įspėjimui apie vietos "
+#~ "trūkumą diske. Jei laisvos vietos bus mažiau negu nurodyta, bus parodytas "
+#~ "įspėjimas."
+
+#~ msgid "Specify a list of mount paths to ignore when they run low on space."
+#~ msgstr ""
+#~ "Nurodykite skirsnių kelius, kuriuose laisvos vietos trūkumas turėtų būti "
+#~ "ignoruojamas."
+
+#~ msgid ""
+#~ "Specify a time in minutes. Subsequent warnings for a volume will not "
+#~ "appear more often than this period."
+#~ msgstr ""
+#~ "Nurodykite laiką minutėmis. Tolesni pranešimai skirsniui bus rodomi ne "
+#~ "dažniau kaip tokiu periodu."
+
+#~ msgid ""
+#~ "Specify an amount in GB. If the amount of free space is more than this, "
+#~ "no warning will be shown."
+#~ msgstr ""
+#~ "Nurodykite kiekį gigabaitais. Jei laisvos vietos skaičius didesnis, "
+#~ "pranešimas nebus rodomas."
+
+#~ msgid ""
+#~ "Specify the percentage that the free disk space should reduce by before "
+#~ "issuing a subsequent warning."
+#~ msgstr ""
+#~ "Nurodykite procentais, kiek turi sumažėti laisva disko vieta prieš "
+#~ "parodant tolesnį įspėjimą."
+
+#~ msgid "Subsequent free percentage notify threshold"
+#~ msgstr "Tolesnė laisvos vietos nuošimčių pranešimo riba"
+
+#~ msgid "Binding to eject an optical disc."
+#~ msgstr "Priskyrimas optiniam diskui išstumti."
+
+#~ msgid "Binding to enable or disable the touchpad."
+#~ msgstr "Priskyrimas jutikliniam kilimėliui įjungti/išjungti."
+
+#~ msgid "Binding to launch the calculator."
+#~ msgstr "Priskyrimas skaičiuotuvui paleisti."
+
+#~ msgid "Binding to launch the email client."
+#~ msgstr "Priskyrimas elektroninio pašto programai paleisti."
+
+#~ msgid "Binding to launch the help browser."
+#~ msgstr "Priskyrimas pagalbos žinynui paleisti."
+
+#~ msgid "Binding to launch the media player."
+#~ msgstr "Priskyrimas medijos leistuvui paleisti."
+
+#~ msgid "Binding to launch the search tool."
+#~ msgstr "Priskyrimas paieškos priemonei paleisti."
+
+#~ msgid "Binding to launch the web browser."
+#~ msgstr "Priskyrimas žiniatinklio naršyklei paleisti."
+
+#~ msgid "Binding to lock the screen."
+#~ msgstr "Priskyrimas ekranui užrakinti."
+
+#~ msgid "Binding to log out."
+#~ msgstr "Priskyrimas atsijungti."
+
+#~ msgid "Binding to lower the system volume."
+#~ msgstr "Priskyrimas sistemos garsų garsumui sumažinti."
+
+#~ msgid "Binding to mute the system volume."
+#~ msgstr "Priskyrimas sistemos garsams nutildyti."
+
+#~ msgid "Binding to open the Home folder."
+#~ msgstr "Priskyrimas namų aplankui atverti."
+
+#~ msgid "Binding to pause playback."
+#~ msgstr "Priskyrimas grojimui pristabdyti."
+
+#~ msgid "Binding to raise the system volume."
+#~ msgstr "Priskyrimas sistemos garsų garsumui padidinti."
+
+#~ msgid "Binding to skip to next track."
+#~ msgstr "Priskyrimas pereiti prie kito takelio."
+
+#~ msgid "Binding to skip to previous track."
+#~ msgstr "Priskyrimas pereiti prie ankstesnio takelio."
+
+#~ msgid "Binding to start playback (or toggle play/pause)."
+#~ msgstr "Priskyrimas grojimui pradėti (ar grojimui/pristabdymui perjungti)."
+
+#~ msgid "Binding to stop playback."
+#~ msgstr "Priskyrimas grojimui sustabdyti."
+
+#~ msgid "Eject"
+#~ msgstr "Išstumti"
+
+#~ msgid "Home folder"
+#~ msgstr "Namų aplankas"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Paleisti skaičiuotuvą"
+
+#~ msgid "Launch email client"
+#~ msgstr "Paleisti elektroninio pašto programą"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Paleisti žinyno naršyklę"
+
+#~ msgid "Launch media player"
+#~ msgstr "Paleisti medijos leistuvą"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Paleisti žiniatinklio naršyklę"
+
+#~ msgid "Lock screen"
+#~ msgstr "Užrakinti ekraną"
+
+#~ msgid "Log out"
+#~ msgstr "Atsijungti"
+
+#~ msgid "Next track"
+#~ msgstr "Kitas takelis"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pristabdyti grojimą"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Groti (arba groti/pauzė)"
+
+#~ msgid "Previous track"
+#~ msgstr "Ankstesnis takelis"
+
+#~ msgid "Search"
+#~ msgstr "Ieškoti"
+
+#~ msgid "Stop playback"
+#~ msgstr "Sustabdyti grojimą"
+
+#~ msgid "Toggle touchpad"
+#~ msgstr "Įjungti/išjungti jutiklinį kilimėlį"
+
+#~ msgid "Volume down"
+#~ msgstr "Sumažinti garsumą"
+
+#~ msgid "Volume mute"
+#~ msgstr "Nutildyti"
+
+#~ msgid "Volume step"
+#~ msgstr "Garsumo žingnis"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Garsumo žingsnelis procentine garsumo dalimi."
+
+#~ msgid "Volume up"
+#~ msgstr "Padidinti garsumą"
+
+#~ msgid "File for default configuration for RandR"
+#~ msgstr "Numatytųjų RandR nustatymų failas"
+
+#~ msgid "Show Displays in Notification Area"
+#~ msgstr "Rodyti ekranus pranešimų srityje"
+
+#~ msgid ""
+#~ "The XRandR plugin will look for a default configuration in the file "
+#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
+#~ "normally gets stored in users' home directories. If a user does not have "
+#~ "such a file, or has one that does not match the user's setup of monitors, "
+#~ "then the file specified by this key will be used instead."
+#~ msgstr ""
+#~ "XRandR įskiepis ieškos numatytųjų nustatymų faile, nurodytame šiame "
+#~ "rakte. Jis panašus į ~/.config/monitors.xml failą, kuris paprastai "
+#~ "saugomas naudotojo namų aplanke. Jeigu naudotojas neturi tokio failo arba "
+#~ "jo turimas failas nesutampa su naudotojo vaizduoklių sąranka, tuomet "
+#~ "vietoje to bus naudojamas šio rakto nurodytas failas."
+
+#~ msgid "Turn on external monitor after system boot"
+#~ msgstr "Įjungti išorinį vaizduoklį įkėlus sistemą"
+
+#~ msgid ""
+#~ "Turn on external monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Įjungti išorinį vaizduoklį įkėlus sistemą, jei naudotojas prijungia "
+#~ "išorinį vaizduoklį sistemos įkelties metu."
+
+#~ msgid "Turn on laptop monitor after system boot"
+#~ msgstr "Įjungti nešiojamojo kompiuterio ekraną įkėlus sistemą"
+
+#~ msgid ""
+#~ "Turn on laptop monitor after system boot if user plugs in external "
+#~ "monitor on system boot."
+#~ msgstr ""
+#~ "Įjungti nešiojamojo kompiuterio ekraną įkėlus sistemą, jei naudotojas "
+#~ "prijungia išorinį vaizduoklį sistemos įkelties metu."
+
+#~ msgid ""
+#~ "Whether a notification icon with display-related things should be shown "
+#~ "in the panel."
+#~ msgstr ""
+#~ "Ar skydelyje rodyti pranešimų piktogramą, susijusią su ekrano nustatymais."
+
+#~ msgid "Antialiasing"
+#~ msgstr "Glotninimas"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid "Hinting"
+#~ msgstr "Taškinė korekcija"
+
+#~ msgid "RGBA order"
+#~ msgstr "RGBA tvarka"
+
+#~ msgid ""
+#~ "The order of subpixel elements on an LCD screen; only used when "
+#~ "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
+#~ "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
+#~ "\"vbgr\" for red on bottom."
+#~ msgstr ""
+#~ "Subpikselinių elementų tvarka skystųjų kristalų ekrane; naudojama tik "
+#~ "tada, kai glodinimo vertė yra „rgba“. Galimos vertės: „rgb“ – raudona "
+#~ "kairėje (dažniausiai pasitaikantis tipas), „bgr“ – mėlyna kairėje, „vrgb“ "
+#~ "– raudona viršuje, ir „vbgr“ – raudona apačioje."
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Raiška, naudojama verčiant šriftų dydį į dydį pikseliais, taškais į colį."
+
+#~ msgid ""
+#~ "The type of antialiasing to use when rendering fonts. Possible values "
+#~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+#~ msgstr ""
+#~ "Glodinimo tipas naudojamas atvaizduojant šriftus. Galimos vertės: „none“ "
+#~ "– neglodinti, „grayscale“ – standartinis glodinimas, „rgba“ – "
+#~ "popikselinis glotninimas (tik skystųjų kristalų vaizduokliams)."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Taškinės korekcijos tipas šriftams atvaizduoti. Galimos vertės yra: "
+#~ "„none“ – netaikyti taškinės korekcijos, „slight“ – bazinė, „medium“ – "
+#~ "vidutinė ir „full“ – didžiausia galima (gali iškraipyti kai kurių raidžių "
+#~ "formą)."
+
+#~ msgid "Allowed keys"
+#~ msgstr "Leidžiami klavišai"
+
+#~ msgid ""
+#~ "If non-empty, keybindings will be ignored unless their GConf directory is "
+#~ "in the list. This is useful for lockdown."
+#~ msgstr ""
+#~ "Jei netuščias, klavišų susiejimų bus nepaisoma, nebent jų GConf aplankas "
+#~ "būtų sąraše. Ši parinktis naudinga funkcijoms riboti."
+
+#~ msgid "Disable touchpad while typing"
+#~ msgstr "Išjungti jutiklinį kilimėlį spausdinimo metu"
+
+#~ msgid "Enable horizontal scrolling"
+#~ msgstr "Įjungti horizontalų slinkimą"
+
+#~ msgid "Enable mouse clicks with touchpad"
+#~ msgstr "Įjungti pelės spustelėjimus naudojant jutiklinį kilimėlį"
+
+#~ msgid "Enable touchpad"
+#~ msgstr "Įjungti jutiklinį kilimėlį"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Pasirinkite jutiklinio kilimėlio slinkties metodą"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+#~ "edge scrolling, and 2: two-finger scrolling"
+#~ msgstr ""
+#~ "Pasirinkite jutiklinio kilimėlio slinkties metodą. Galimos reikšmės: 0 – "
+#~ "išjungta, 1 – slinkimas krašte, 2 – slinkimas dviem pirštais"
+
+#~ msgid ""
+#~ "Set this to TRUE if you have problems with accidentally hitting the "
+#~ "touchpad while typing."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, jei kartais rašydami tekstą netyčia kliudote "
+#~ "jutiklinį kilimėlį."
+
+#~ msgid ""
+#~ "Set this to TRUE to allow horizontal scrolling by the same method "
+#~ "selected with the scroll_method key."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, jei norite leisti horizontalią slinktį tuo pačiu "
+#~ "metodu, kaip ir scroll_method rakte."
+
+#~ msgid ""
+#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, jei norite atlikti spragtelėjimus trumpai "
+#~ "paliesdami jutiklinį kilimėlį."
+
+#~ msgid "Set this to TRUE to enable all touchpads."
+#~ msgstr "Nustatykite teigiamą, jei norite įjungti visas paliesties lenteles."
+
+#~ msgid "GNOME Settings Daemon"
+#~ msgstr "GNOME nustatymų tarnyba"
+
+#~ msgid "Binding to toggle the magnifier."
+#~ msgstr "Priskyrimas lupai įjungti/išjungti."
+
+#~ msgid "Binding to toggle the on-screen keyboard."
+#~ msgstr "Priskyrimas klaviatūrai ekrane."
+
+#~ msgid "Binding to toggle the screen reader."
+#~ msgstr "Priskyrimas ekrano skaityklei."
+
+#~ msgid "Bounce keys"
+#~ msgstr "Šoklūs klavišai"
+
+#~ msgid "Command used to turn the magnifier on or off."
+#~ msgstr "Komanda lupai įjungti/išjungti."
+
+#~ msgid "Command used to turn the on-screen keyboard on or off."
+#~ msgstr "Komanda klaviatūrai ekrane įjungti/išjungti."
+
+#~ msgid "Command used to turn the screen reader on or off."
+#~ msgstr "Komanda ekrano skaityklei įjungti/išjungti."
+
+#~ msgid "Enable XRandR plugin"
+#~ msgstr "Įjungti XRandR įskiepį"
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Įjungti klaviatūros pritaikymo neįgaliesiems įskiepį"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Įjungti darbalaukio fono įskiepį"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Įjungti iškarpinės įskiepį"
+
+#~ msgid "Enable font plugin"
+#~ msgstr "Įjungti šriftų įskiepį"
+
+#~ msgid "Enable housekeeping plugin"
+#~ msgstr "Įjungti priežiūros įskiepį"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Įjungti klavišų susiejimų įskiepį"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Įjungti klaviatūros įskiepį"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Įjungti multimedijos klavišų įskiepį"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Įjungti pelės įskiepį"
+
+#~ msgid "Enable smartcard plugin"
+#~ msgstr "Įjungti smartcard įskiepį"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Įjungti garso įskiepį"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Įjungti spausdinimo pertraukėlių įskiepį"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Įjungti xrdb įskiepį"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Įjungti xsettings įskiepį"
+
+#~ msgid "Mouse keys"
+#~ msgstr "Pelės klavišai"
+
+#~ msgid "On-screen keyboard"
+#~ msgstr "Klaviatūra ekrane"
+
+#~ msgid "Screen magnifier"
+#~ msgstr "Ekrano lupa"
+
+#~ msgid "Screen reader"
+#~ msgstr "Ekrano skaityklė"
+
+#~ msgid ""
+#~ "Set to True to enable the housekeeping plugin, to prune transient file "
+#~ "caches."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti priežiūros įskiepį, valantį failų "
+#~ "podėlius."
+
+#~ msgid "Set to True to enable the plugin to manage XRandR settings."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, jei norite įjungti įskiepį XRandR parametrams "
+#~ "valdyti."
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti iškarpinės nustatymų įskiepį."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti darbalaukio fono nustatymų įskiepį."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti įskiepį šriftų parametrams valdyti."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti klaviatūros nustatymų įskiepį."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage locking the screen on "
+#~ "smartcard removal."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti įskiepį ekrano užrakinimui išimant "
+#~ "lustinę kortelę valdyti."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Nustatykite teigiamą, norėdami įjungti pelės nustatymų įskiepį."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti multimedijos klavišų nustatymų "
+#~ "įskiepį."
+
+#~ msgid "Set to True to enable the plugin to manage sound sample caches."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti garso elementų podėlių valdymo "
+#~ "įskiepį."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti klaviatūros pritaikymo "
+#~ "neįgaliesiems nustatymų įskiepį."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr "Nustatykite teigiamą, norėdami įjungti klavišų susiejimų įskiepį."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr ""
+#~ "Nustatykite teigiamą, norėdami įjungti spausdinimo pertraukėlių įskiepį."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "Nustatykite teigiamą, norėdami įjungti xrdb nustatymų įskiepį."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "Nustatykite teigiamą, norėdami įjungti xsettings nustatymų įskiepį."
+
+#~ msgid "Slow keys"
+#~ msgstr "Lėtieji klavišai"
+
+#~ msgid "Sticky keys"
+#~ msgstr "Kibieji klavišai"
+
+#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
+#~ msgstr "Klaviatūros susiejimas lupos įjungimui/išjungimui"
+
+#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
+#~ msgstr "Klaviatūros susiejimas klaviatūros ekrane įjungimui/išjungimui"
+
+#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
+#~ msgstr "Klaviatūros susiejimas skaityklės įjungimui/išjungimui"
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
+#~ "name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Tai klaviatūros trumpinio lupai įjungti/išjungti vardas. Šis vardas bus "
+#~ "rodomas klaviatūros trumpinių nustatymų dialoge."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the on-screen "
+#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
+#~ "dialog."
+#~ msgstr ""
+#~ "Tai klaviatūros trumpinio klaviatūrai ekrane įjungti/išjungti vardas. Šis "
+#~ "vardas bus rodomas klaviatūros trumpinių nustatymų dialoge."
+
+#~ msgid ""
+#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
+#~ "This name will be shown in the keyboard shortcut preferences dialog."
+#~ msgstr ""
+#~ "Tai klaviatūros trumpinio ekrano skaityklei įjungti/išjungti vardas. Šis "
+#~ "vardas bus rodomas klaviatūros trumpinių nustatymų dialoge."
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Įjungti/išjungti lupą"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Naudoti klaviatūrą ekrane"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Jungti ekrano _skaityklę"
+
+#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#~ msgstr "Ar šoklių klavišų funkcija įjungta."
+
+#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+#~ msgstr "Ar pelės klavišų funkcija įjungta."
+
+#~ msgid "Whether the on-screen keyboard is turned on."
+#~ msgstr "Ar klaviatūra ekrane įjungta."
+
+#~ msgid "Whether the screen magnifier is turned on."
+#~ msgstr "Ar ekrano lupa įjungta."
+
+#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
+#~ msgstr "Ar įjungta lėtų klavišų funkcija."
+
+#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
+#~ msgstr "Ar įjungta kibių klavišų funkcija."
+
+#~ msgid ""
+#~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+#~ "action will get performed when the smartcard used for log in is removed."
+#~ msgstr ""
+#~ "Galimos reikšmės: „none“, „lock_screen“ ir „force_logout“. Šis veiksmas "
+#~ "bus vykdomas išėmus prisijungimui naudojamą lustinę kortelę."
+
+#~ msgid "Smartcard removal action"
+#~ msgstr "Lustinės kortelės išėmimo veiksmas"
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Neveikti kaip tarnyba"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "GConf priešdėlis, iš kur įkelti įskiepių nustatymus"
+
+#~ msgid "Exit after a time (for debugging)"
+#~ msgstr "Išeiti po tam tikro laiko (derinimui)"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Klaviatūros pritaikymas neįgaliesiems"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Klaviatūros pritaikymo neįgaliesiems įskiepis"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Įvyko klaida bandant parodyti žinyną: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Ar norite įjungti lėtuosius klavišus?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Ar norite išjungti lėtuosius klavišus?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Jūs laikėte nuspaudę Shift klavišą 8 sekundes. Tai yra šaukinys lėtųjų "
+#~ "klavišų funkcijai, pakeičiančiai jūsų klaviatūros veikimą, įjungti."
+
+#~ msgid "Don't deactivate"
+#~ msgstr "Neišjungti"
+
+#~ msgid "Activate"
+#~ msgstr "Įjungti"
+
+#~ msgid "Deactivate"
+#~ msgstr "Išjungti"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_Neįjungti"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "_Neišjungti"
+
+#~ msgid "_Activate"
+#~ msgstr "Įj_ungti"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Išjungti"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Lėtųjų klavišų įspėjimas"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Ar norite įjungti kibiuosius klavišus?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Ar norite išjungti kibiuosius klavišus?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Ką tik paspaudėte Shift klavišą 5 kartus iš eilės.  Tai yra kibiųjų "
+#~ "klavišų funkcijos šaukinys. Kibieji klavišai leidžia jums kitaip naudotis "
+#~ "klaviatūra."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Ką tik paspaudėte du klavišus vienu metu, arba Shift klavišą 5 kartus iš "
+#~ "eilės. Tai išjungia kibiųjų klavišų funkciją, leidžiančią jums kitaip "
+#~ "naudotis klaviatūra."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Kibiųjų klavišų įspėjimas"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Universaliosios prieigos nustatymai"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "Padidinti spalvų _kontrastą"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "Padidinti _tekstą"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr ""
+#~ "Nuspausti ir _laikyti klavišus, norint juos įvesti (lėtieji klavišai)"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "Naudoti klaviatūrą _ekrane"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "Naudoti ekrano _lupą"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "Naudoti ekrano _skaityklę"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_Nepaisyti pasikartojančių paspaudimų (šoklieji klavišai)"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "_Nuspausti sparčiuosius klavišus po vieną (kibieji klavišai)"
+
+#~ msgid "Background"
+#~ msgstr "Fonas"
+
+#~ msgid "Background plugin"
+#~ msgstr "Fono įskiepis"
+
+#~ msgid "Clipboard"
+#~ msgstr "Iškarpinė"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Iškarpinės įskiepis"
+
+#~ msgid "Dummy"
+#~ msgstr "Butaforinis"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Butaforinis įskiepis"
+
+#~ msgid "Font"
+#~ msgstr "Šriftai"
+
+#~ msgid "Font plugin"
+#~ msgstr "Šriftų įskiepis"
+
+#~ msgid "Don't show any warnings again for this file system"
+#~ msgstr "Daugiau nerodyti jokių įspėjimų šiai failų sistemai"
+
+#~ msgid "Don't show any warnings again"
+#~ msgstr "Daugiau nerodyti jokių įspėjimų"
+
+#~ msgid "The volume \"%s\" has only %s disk space remaining."
+#~ msgstr "Diske „%s“ liko tik %s vietos."
+
+#~ msgid "This computer has only %s disk space remaining."
+#~ msgstr "Kompiuteryje liko tik %s vietos."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to another disk or partition."
+#~ msgstr ""
+#~ "Galite atlaisvinti vietos diske išvalydami šiukšlinę, ištrindami "
+#~ "nenaudojamas programas ir failus arba perkeldami failus į kitą kaupiklį "
+#~ "ar skirsnį."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to another disk or partition."
+#~ msgstr ""
+#~ "Galite atlaisvinti vietos ištrindami nenaudojamas programas ir failus "
+#~ "arba perkeldami failus į kitą kaupiklį ar skirsnį."
+
+#~ msgid ""
+#~ "You can free up disk space by emptying the Trash, removing unused "
+#~ "programs or files, or moving files to an external disk."
+#~ msgstr ""
+#~ "Galite atlaisvinti vietos diske išvalydami šiukšlinę, ištrindami "
+#~ "nenaudojamas programas ir failus arba perkeldami failus į išorinį "
+#~ "kaupiklį."
+
+#~ msgid ""
+#~ "You can free up disk space by removing unused programs or files, or by "
+#~ "moving files to an external disk."
+#~ msgstr ""
+#~ "Galite atlaisvinti vietos diske ištrindami nenaudojamas programas ir "
+#~ "failus arba perkeldami failus į išorinį kaupiklį."
+
+#~ msgid "Low Disk Space"
+#~ msgstr "Baigiasi vieta diske"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Išvalyti šiukšlinę"
+
+#~ msgid "Examine…"
+#~ msgstr "Ištirti…"
+
+#~ msgid "Ignore"
+#~ msgstr "Nepaisyti"
+
+#~ msgid "Removing item %lu of %lu"
+#~ msgstr "Šalinama %lu elementas iš %lu"
+
+#~ msgid "Removing: %s"
+#~ msgstr "Šalinama: %s"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Valoma šiukšlinė"
+
+#~ msgid "Preparing to empty trash…"
+#~ msgstr "Ruošiamasi išvalyti šiukšlinę…"
+
+#~ msgid "From: "
+#~ msgstr "Nuo:"
+
+#~ msgid "Empty all of the items from the trash?"
+#~ msgstr "Išvalyti visus failus iš šiukšlinės?"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Jei išvalysite šiukšlinę, visi joje esantys duomenys bus prarasti. Beje, "
+#~ "juos galite ištrinti atskirai."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Išvalyti šiukšlinę"
+
+#~ msgid "Key binding (%s) is invalid"
+#~ msgstr "Klavišų susiejimas (%s) netinkamas"
+
+#~ msgid "Key binding (%s) is incomplete"
+#~ msgstr "Klavišų susiejimas (%s) nevisas"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Klaida bandant paleisti (%s),\n"
+#~ "susietą su klavišu (%s)"
+
+#~ msgid "Keybindings"
+#~ msgstr "Klavišų susiejimai"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Klavišų susiejimų įskiepis"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klaviatūra"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Klaviatūros įskiepis"
+
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ " • a bug in libxklavier library\n"
+#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ " • X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ " • The result of <b>%s</b>\n"
+#~ " • The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Klaida įjungiant XKB konfigūraciją.\n"
+#~ "Tai gali nutikti įvairiomis aplinkybėmis:\n"
+#~ " • klaida libxklavier bibliotekoje\n"
+#~ " • klaida X serveryje (xkbcomp, xmodmap programose)\n"
+#~ " • X serveris su nesuderinama libxkbfile realizacija\n"
+#~ "\n"
+#~ "\n"
+#~ "X serverio versijos duomenys:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Jei pranešite apie šią klaidą, pateikit šią informaciją:\n"
+#~ " • <b>%s</b> rezultatą\n"
+#~ " • <b>%s</b> rezultatą"
+
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or using a later version of the XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Naudojate XFree 4.3.0.\n"
+#~ "Yra žinomų problemų su sudėtingomis XKB konfigūracijomis.\n"
+#~ "Pabandykite naudoti paprastesnę konfigūraciją arba naujesnę XFree "
+#~ "programinės įrangos versiją."
+
+#~ msgid "_Layouts"
+#~ msgstr "_Išdėstymai"
+
+#~ msgid "Keyboard _Preferences"
+#~ msgstr "Klaviatūros _nustatymai"
+
+#~ msgid "Show _Current Layout"
+#~ msgstr "Rodyti _dabartinį išdėstymą"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "P_rieinami failai:"
+
+#~ msgid "Load modmap files"
+#~ msgstr "Įkelti modmap failus"
+
+#~ msgid "Would you like to load the modmap files?"
+#~ msgstr "Ar norite įkelti modmap failus?"
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Daugiau nerodyti šio pranešimo"
+
+#~ msgid "_Load"
+#~ msgstr "Į_kelti"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "Į_kelti failai:"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Nepavyko gauti numatytojo teminalo. Patikrinkite, ar jūsų numatytojo "
+#~ "terminalo komanda yra nustatyta ir nurodo tinkamą programą."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Nepavyko paleisti komandos: %s\n"
+#~ "Įsitikinkite, kad tai tinkama komanda."
+
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u išvestis"
+#~ msgstr[1] "%u išvestys"
+#~ msgstr[2] "%u išvesčių"
+
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u įvestis"
+#~ msgstr[1] "%u įvestys"
+#~ msgstr[2] "%u įvesčių"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sistemos garsai"
+
+#~ msgid "Media keys"
+#~ msgstr "Multimedijos klavišai"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Multimedijos klavišų įskiepis"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Nepavyko įjungti pelės pritaikymo neįgaliesiems ypatybių"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr ""
+#~ "Norint pritaikyti pelę neįgaliesiems, sistemoje turi būti įdiegta "
+#~ "Mousetweaks programa."
+
+#~ msgid "Mouse"
+#~ msgstr "Pelė"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Pelės įskiepis"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Spausdinimo pertraukėlių įskiepis"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Nustatyti ekrano dydį ir pasukimą"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "Nepavyko pakeisti vaizduoklio nustatymų"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "Nepavyko atkurti ekrano nustatymų"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "Nepavyko atkurti ekrano nustatymų iš atsarginės kopijos"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "Ankstesni ekrano nustatymai bus grąžinti už %d sekundės"
+#~ msgstr[1] "Ankstesni ekrano nustatymai bus grąžinti už %d sekundžių"
+#~ msgstr[2] "Ankstesni ekrano nustatymai bus grąžinti už %d sekundžių"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Ar ekrane vaizdas atrodo gerai?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "_Atkurti ankstesnius nustatymus"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "_Palikti šiuos nustatymus"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "Nepavyko pritaikyti pasirinktų ekranų nustatymų"
+
+#~ msgid "Could not refresh the screen information: %s"
+#~ msgstr "Nepavyko atnaujinti ekrano informacijos: %s"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "Vis vien bandoma pakeisti vaizduoklio nustatymus."
+
+#~ msgid "Rotation not supported"
+#~ msgstr "Pasukimas nepalaikomas"
+
+#~ msgid "Could not save monitor configuration"
+#~ msgstr "Nepavyko įrašyti vaizduoklio nustatymų"
+
+#, fuzzy
+#~ msgid "Normal"
+#~ msgstr ""
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "Normalus\n"
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "Normalus\n"
+#~ "#-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Normali"
+
+#~ msgid "Left"
+#~ msgstr "Kairė"
+
+#~ msgid "Right"
+#~ msgstr "Dešinė"
+
+#, fuzzy
+#~ msgid "Upside Down"
+#~ msgstr ""
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "Apverstas\n"
+#~ "#-#-#-#-#  lt.po (gnome-settings-daemon gnome-2-32)  #-#-#-#-#\n"
+#~ "Apverstas\n"
+#~ "#-#-#-#-#  lt.po (gnome-control-center master)  #-#-#-#-#\n"
+#~ "Apversta"
+
+#~ msgid "_Configure Display Settings…"
+#~ msgstr "_Keisti ekranų nustatymus…"
+
+#~ msgid "Configure display settings"
+#~ msgstr "Keisti ekranų nustatymus"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "Nepavyko pritaikyti įrašytų vaizduoklių nustatymų"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Nepavyko nustatyti naudotojo namų aplanko"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Tvarkyti X resursų duomenų bazę"
+
+#~ msgid "X Resource Database"
+#~ msgstr "X resursų duomenų bazė"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr "GConf rakto %s tipas %s, bet jo tipas turėtų būti %s\n"
+
+#~ msgid "Manage X Settings"
+#~ msgstr "Tvarkyti X serverio nustatymus"
+
+#~ msgid "X Settings"
+#~ msgstr "X serverio nustatymai"
+
+#~ msgid "Module Path"
+#~ msgstr "Modulio kelias"
+
+#~ msgid "path to smartcard PKCS #11 driver"
+#~ msgstr "kelias iki lustinės kortelės PKCS #11 tvarkyklės"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "gauta klaida arba strigtis iš įvykio šaltinio"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "Nepavyko inicijuoti NSS saugumo sistemos"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "nepavyko rasti tinkamos lustinės kortelės tvarkyklės"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "nepavyko įkelti lustinės kortelės tvarkyklės „%s“"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "nepavyko stebėti gaunamų kortelės įvykių – %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr "laukiant lustinės kortelės įvykių aptikta netikėta klaida"
+
+#~ msgid "Slot ID"
+#~ msgstr "Lizdo ID"
+
+#~ msgid "The slot the card is in"
+#~ msgstr "Lizdas, kuriame yra kortelė"
+
+#~ msgid "Slot Series"
+#~ msgstr "Lizdų serija"
+
+#~ msgid "per-slot card identifier"
+#~ msgstr "lizdų kortelių identifikatorius"
+
+#~ msgid "name"
+#~ msgstr "pavadinimas"
+
+#~ msgid "Module"
+#~ msgstr "Modulis"
+
+#~ msgid "smartcard driver"
+#~ msgstr "lustinės kortelės tvarkyklė"
+
+#~ msgid "Change system time"
+#~ msgstr "Keisti sistemos laiką"
+
+#~ msgid "Change system time zone"
+#~ msgstr "Keisti sistemos laiko juostą"
+
+#~ msgid "Configure hardware clock"
+#~ msgstr "Konfigūruoti aparatinį laikrodį"
+
+#~ msgid "Privileges are required to change the system time zone."
+#~ msgstr ""
+#~ "Norint pakeisti sistemos laiko juostą, reikia administratoriaus teisių."
+
+#~ msgid "Privileges are required to change the system time."
+#~ msgstr "Norint pakeisti sistemos laiką, reikia administratoriaus teisių."
+
+#~ msgid "Privileges are required to configure the hardware clock."
+#~ msgstr ""
+#~ "Norint konfigūruoti aparatinį laikrodį, reikia administratoriaus teisių."
+
+#~ msgid "Unknown"
+#~ msgstr "Nežinomas"
+
+#~ msgid "Sound"
+#~ msgstr "Garsas"
+
+#~ msgid "Whether the screen reader is turned on."
+#~ msgstr "Ar ekrano skaityklė įjungta."
+
+#~ msgid "Don't activate"
+#~ msgstr "Neįjungti"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Pelės nustatymai"
+
+#~ msgid "Typing Break"
+#~ msgstr "Spausdinimo pertraukėlė"
+
+#~ msgid "Current network location"
+#~ msgstr "Dabartinė vieta tinkle"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Daugiau fono paveikslėlių URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "Nuoroda į daugiau temų"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Nustatykite tai į jūsų dabartinį vietovardį. Tai yra naudojama siekiant "
+#~ "nustatyti atitinkamą tarpinio tinklo serverio konfigūraciją."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL, kur gauti daugiau darbastalio fono paveikslėlių. Jeigu reikšmė "
+#~ "tuščia, ši nuoroda nebus rodoma."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL, kur gauti daugiau darbo aplinkos temų. Jeigu reikšmė tuščia, ši "
+#~ "nuoroda nebus rodoma."
+
+#~ msgid "Key"
+#~ msgstr "Raktas"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "GConf raktas, prie kurio šis savybės redaktorius yra prikabintas"
+
+#~ msgid "Callback"
+#~ msgstr "Perspėjimas"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Paleisti šį perspėjimą, kai pakeičiama su klavišu susieta reikšmė"
+
+#~ msgid "Change set"
+#~ msgstr "Pakeitimų aibė"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf pakeitimų aibė su duomenimis persiunčiama gconf klientui esant "
+#~ "pritaikymui"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Pakeitimas į valdymo elemento atgalinį ryšį"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Atgalinis ryšys, grąžintinas, kuomet ketinama konvertuoti duomenis iš "
+#~ "GConf į valdymo elementą"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Pakeitimas iš valdymo elmento atgalinio ryšio"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Atgalinis ryšys, grąžintinas, kuomet ketinama konvertuoti duomenis į "
+#~ "GConf iš valdymo elemento"
+
+#~ msgid "UI Control"
+#~ msgstr "UI valdymas"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objektas, valdantis ypatybę (paprastai tai yra valdymo elementas)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Ypatybių redaktoriaus objekto duomenys"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Tam tikram ypatybių redaktoriui reikia pasirinktinių duomenų"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Ypatybių redaktoriaus duomenų atlaisvinimo atgalinis ryšys"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Atgalinis ryšys, grąžintinas, kuomet ketinama atlaisvinti ypatybių "
+#~ "redaktoriaus objekto duomenis"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Nepavyko rasti failo „%s“.\n"
+#~ "\n"
+#~ "Įsitikinkite, kad failas egzistuoja ir pabandykite dar kartą, arba "
+#~ "pasirinkite kitą fono paveikslėlį."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Neaišku, kaip atverti failą „%s“.\n"
+#~ "Galbūt tai toks paveikslėlio formatas, kuris dar nepalaikomas.\n"
+#~ "\n"
+#~ "Pasirinkite kitą paveikslėlį."
+
+#~ msgid "Please select an image."
+#~ msgstr "Pasirinkite paveikslėlį."
+
+#~ msgid "_Select"
+#~ msgstr "_Pasirinkti"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Pageidaujamos programos"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Parinkite savo numatytąsias programas"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Paleisti pageidaujamą vaizdinę pagalbinę technologiją"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Vaizdinė pagalba"
+
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Klaida įrašant konfigūraciją: %s"
+
+#~ msgid "Custom"
+#~ msgstr "Pasirinktinė"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Nepavyko įkelti pagrindinės sąsajos"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "Įsitikinkite, kad šis įtaisas yra įdiegtas tinkamai"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Visi %s pasikartojimai bus pakeisti nurodyta nuoroda"
+
+#~ msgid "C_ommand:"
+#~ msgstr "Ko_manda:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ko_manda:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "_Vykdyti žymą:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Paveikslėlių peržiūros programa"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Pokalbių programa"
+
+#~ msgid "Internet"
+#~ msgstr "Internetas"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Pašto programa"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobilumas"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedija"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Multimedijos grotuvas"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Atverti nuorodą naujoje _kortelėje"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Atverti nuorodą naujame _lange"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Atverti nuorodą kaip numatyta _naršyklėje"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Paleisti p_aleisties metu"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Paleisti t_erminale"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Terminalo emuliatorius"
+
+#~ msgid "Text Editor"
+#~ msgstr "Tekstų rengyklė"
+
+#~ msgid "Video Player"
+#~ msgstr "Vaizdo leistuvas"
+
+#~ msgid "Visual"
+#~ msgstr "Vaizdo"
+
+#~ msgid "Web Browser"
+#~ msgstr "Žiniatinklio naršyklė"
+
+#~ msgid "_Run at start"
+#~ msgstr "Paleisti p_aleisties metu"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Muzikos grotuvas Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Automatiškai parenkama Debian naršyklė"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian terminalo emuliatorius"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Žiniatinklio naršyklė Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Pašto programa Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "GNOME lupa be ekrano skaityklės"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME klaviatūra ekrane"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME terminalas"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus su lupa"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape paštas"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE lupa su ekrano skaitykle"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux ekrano skaityklė"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linux ekrano skaityklė su lupa"
+
+#~ msgid "Listen"
+#~ msgstr "Klausyti"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muzikos grotuvas Muine"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca su lupa"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Muzikos grotuvas Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey paštas"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "Standartinis XTerminalas"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Filmų leistuvas Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "Įtraukti _skydelį"
+
+#~ msgid "Make Default"
+#~ msgstr "Padaryti numatytuoju"
+
+#~ msgid "Monitor"
+#~ msgstr "Vaizduoklis"
+
+#~ msgid "Off"
+#~ msgstr "Išjungta"
+
+#~ msgid "On"
+#~ msgstr "Įjungta"
+
+#~ msgid "Panel icon"
+#~ msgstr "Skydelio piktograma"
+
+#~ msgid "R_otation:"
+#~ msgstr "_Pasukimas:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "At_naujinimo dažnis:"
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "_Tas pats vaizdas visuose vaizduokliuose"
+
+#~ msgid "Upside-down"
+#~ msgstr "Apversta"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Aptikti vaizduoklius"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Skiriamoji geba:"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "R_odyti vaizduoklius skydelyje"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Pakeisti vaizduoklių raišką ir poziciją"
+
+#~ msgid "Monitors"
+#~ msgstr "Vaizduokliai"
+
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Naudojimas: %s ŠALTINIO_FAILAS TIKSLO_PAVADINIMAS\n"
+#~ "\n"
+#~ "Ši programa įdiegia RANDR profilį daugelio vaizduoklių nustatymams į\n"
+#~ "sisteminę vietą.  Profilis bus naudojamas kai RANDR įskiepis "
+#~ "paleidžiamas\n"
+#~ "per gnome-settings-daemon.\n"
+#~ "\n"
+#~ "ŠALTINIO_FAILAS - pilnas kelias, dažniausiai /home/username/.config/"
+#~ "monitors.xml\n"
+#~ "\n"
+#~ "TIKSLO_PAVADINIMAS - santykinis įdiegto failo pavadinimas. Šis bus "
+#~ "patalpintas į\n"
+#~ "            sistemos katalogas RANDR konfigūracijoms,\n"
+#~ "            tad rezultatas dažniausiai bus %s/TIKSLO_PAVADINIMAS\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Šią programą gali paleisti tik root naudotojas"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Šaltinio failas turi būti su absoliučiu keliu"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Nepavyko atverti %s: %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Nepavyko gauti informacijos failui %s: %s\n"
+
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s turi būti įprastinis failas\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Šią programą galima paleisti tik per pkexec(1)"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID reikšmė turi būti sveikas skaičius"
+
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "Jūs turite būti %s savininkas\n"
+
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s neturi turėti jokių katalogo komponentų\n"
+
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s turi būti katalogas\n"
+
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "Nepavyko atverti %s/%s: %s\n"
+
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "Nepavyko pervadinti %s į %s: %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Reikia patvirtinti tapatybę, norint įdiegti daugelio vaizduoklių "
+#~ "nustatymus visiems naudotojams"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Įdiegti daugelio vaizduoklių nustatymus visai sistemai"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Dublikuoti ekranai"
+
+#~ msgid "Monitor: %s"
+#~ msgstr "Vaizduoklis: %s"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Norėdami pakeisti vaizduoklio savybes, pasirinkite jį, vilkite norėdami "
+#~ "pertvarkyti jo poziciją."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Nepavyko įrašyti vaizduoklio konfigūracijos"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "Nepavyko gauti seanso magistralės pritaikant ekrano konfigūraciją"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Nepavyko aptikti ekranų"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Vaizduoklio konfigūracijos išsaugota"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr "Ši konfigūracija bus naudojama kitą kartą kam nors prisijungus."
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Nepavyko nustatyti numatytosios vaizduoklių konfigūracijos"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Nepavyko gauti ekrano informacijos"
+
+#~ msgid "Desktop"
+#~ msgstr "Darbalaukis"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Naujas susiejimas..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Spartusis klavišas"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Sparčiojo klavišo modifikatoriai"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Sparčiojo klavišo kodas"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Sp. klavišo tipas"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Sparčiojo klavišo tipas."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Nežinomas veiksmas>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Pasirinktiniai susiejimai"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Klaida įrašant naują susiejimą"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Negalima naudoti sparčiojo klavišo „%s“, kadangi nebegalėsite spausdinti "
+#~ "šiuo klavišu.\n"
+#~ "Bandykite klavišą kartu su tokiais klavišai kaip Control, Alt ar Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Susiejimas „%s“ jau yra naudojamas\n"
+#~ "„%s“"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "Jei priskirsite spartųjį klavišą komandai „%s“, „%s“ bus išjungtas."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Priskirti iš naujo"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "Klaida nustatant akseleratorių konfigūracijos duombazėje: %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Per daug pasirinktinių susiejimų"
+
+#~ msgid "Action"
+#~ msgstr "Veiksmas"
+
+#~ msgid "Shortcut"
+#~ msgstr "Susiejimas"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Pasirinktinis susiejimas"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Klavišų susiejimai"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Norėdami pakeisti spartųjį klavišą, spustelėkite atitinkamą eilutę ir "
+#~ "paspauskite spartųjį klavišą. Norėdami jį ištrinti, spauskite Backspace."
+
+#~ msgid "_Name:"
+#~ msgstr "_Pavadinimas:"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Priskirti sparčiuosius klavišus komandoms"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr ""
+#~ "_Pyptelėti, kai išjungiamos ar įjungiamos pritaikymo neįgaliesiems "
+#~ "funkcijos"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Pyptelėti, kai paspaustas _modifikatorius"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Pyptelėti, kai paspaustas per_jungimo klavišas"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Pyptelėti, kai pa_spaustas klavišas"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Pyptelėti, jei klavišas _netinkamas"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Pyptelėti, kai _klavišas yra priimtas"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Pyptelėti, jei klavišas n_etinkamas"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Tamprūs klavišai"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Blyksi _lango antraštė"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Blyksi _visas ekranas"
+
+#~ msgid "General"
+#~ msgstr "Bendri"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Klaviatūros pritaikymo neįgaliesiems garsinis atsakas"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Vietoj perspėjimo garso rodyti _vaizdinį atsaką"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Lėtieji klavišai"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Kibieji klavišai"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Vaizdiniai garsų ženklai"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Le_isti atidėti pertraukėles"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Garsinis _atsakas..."
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Žymeklio mirksėjimas"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Žymeklis teksto laukeliuose _mirksi"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Žymeklio mirksėjimo greitis"
+
+#~ msgid "D_elay:"
+#~ msgstr "D_elsa:"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr "Išjun_gti kibiuosius klavišus, jei kartu paspaudžiami du klavišai"
+
+#~ msgid "Fast"
+#~ msgstr "Greitas"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Klavišų paspaudimai _kartojami, kai laikomas nuspaustas klavišas"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Klaviatūros nustatymai"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Klaviatūros _modelis:"
+
+#~ msgid "Layouts"
+#~ msgstr "Išdėstymai"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Naudojimui pasirinktų klaviatūros išdėstymų sąrašas"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Užrakinti ekraną po tam tikro laiko siekiant padėti išvengti traumų, "
+#~ "gaunamų be pertraukos ilgai spausdinant"
+
+#~ msgid "Long"
+#~ msgstr "Ilgas"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Pelės mygtukai"
+
+#~ msgid "Move _Down"
+#~ msgstr "_Nuleisti"
+
+#~ msgid "Move _Up"
+#~ msgstr "_Pakelti"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "Perkelti pasirinktą klaviatūros išdėstymą žemyn sąraše"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Perkelti pasirinktą klaviatūros išdėstymą aukštyn sąraše"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Naujiems langams _naudojamas aktyvaus lango išdėstymas"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Atspausdinti pasirinkto klaviatūros išdėstymo diagramą"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Pašalinti pasirinktą klaviatūros išdėstymą iš sąrašo"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Kartojimo klavišai"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Kartojamų klavišų greitis"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Pakeisti dabartinius klaviatūros išdėstymus\n"
+#~ "numatytaisiais nustatymais."
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Atstatyti į _numatytuosius"
+
+#~ msgid "S_peed:"
+#~ msgstr "G_reitis:"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Pasirinkite klaviatūros išdėstymą pridėjimui į sąrašo"
+
+#~ msgid "Short"
+#~ msgstr "Trumpas"
+
+#~ msgid "Slow"
+#~ msgstr "Lėtas"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Rodyti ir keisti klaviatūros išdėstymo parinktys"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Greitėjimas:"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "_Pritaikymo neigaliesiems funkcijos gali būti įjungtos ir išjungtos "
+#~ "sparčiaisiais klavišais"
+
+#~ msgid "_Add..."
+#~ msgstr "Pri_dėti..."
+
+#~ msgid "_Delay:"
+#~ msgstr "_Delsa:"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Nepaisyti greitų dvigubų klavišų paspaudimų"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Reaguoti tik į ilgus klavišų paspaudimus"
+
+#~ msgid "_Options..."
+#~ msgstr "_Parinktys..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "_Leisti valdyti žymeklį klaviatūra"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "_Atskiras išdėstymas kiekvienam langui"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Imituoti vienalaikius klavišų paspaudimus"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Greitis:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "Paspausdinkite parametrų _patikrinimui:"
+
+#~ msgid "By _country"
+#~ msgstr "Pagal _šalį"
+
+#~ msgid "By _language"
+#~ msgstr "Pagal _kalbą"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Pasirinkite išdėstymą"
+
+#~ msgid "Preview:"
+#~ msgstr "Peržiūra:"
+
+#~ msgid "_Country:"
+#~ msgstr "Ša_lis:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Kalba:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Variantai:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Pasirinkite klaviatūros modelį"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modelis:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Pardavėjai:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Klaviatūros išdėstymo parinktys"
+
+#~ msgid "Layout"
+#~ msgstr "Išdėstymas"
+
+#~ msgid "Vendors"
+#~ msgstr "Pardavėjai"
+
+#~ msgid "Models"
+#~ msgstr "Modeliai"
+
+#~ msgid "Default"
+#~ msgstr "Numatytasis"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Keisti klaviatūros nustatymus"
+
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Nepavyko įkelti standartinės piktogramos „%s“\n"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "Kairėn"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "Dešinėn"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "Aukštyn"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "Žemyn"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "Išjungta"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Pasirinkti spustelėjimo tipą iš _anksto"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Pasirinkti spustelėjimo tipą pelės _gestais"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "Dvigu_bas spustelėjimas:"
+
+#~ msgid "D_rag click:"
+#~ msgstr "_Vilkimas spustelint:"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Spausdinimo _metu išjungti jutiklinį kilimėlį"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Dvigubo spustelėjimo trukmė"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Vilkimas"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Uždelstas spustelėjimas"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Leisti _spustelėti pele jutikliniame kilimėlyje"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Įjungti _horizontalią slinktį"
+
+#~ msgid "High"
+#~ msgstr "Aukštas"
+
+#~ msgid "Large"
+#~ msgstr "Didelis"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Rasti žymeklį"
+
+#~ msgid "Low"
+#~ msgstr "Žemas"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Pelės orientacija"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Žymeklio greitis"
+
+#~ msgid "Scrolling"
+#~ msgstr "Slinktis"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "A_ntrinis spustelėjimas:"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "_Rodyti žymeklio vietą paspaudus Control klavišą"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Rodyti spustelėjimo tipų _langą"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Imituoti antriniai spustelėjimai"
+
+#~ msgid "Small"
+#~ msgstr "Mažas"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Slenkstis:"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Norėdami patikrinti dvigubo spustelėjimo nustatymus, spustelėkite "
+#~ "elektros lemputę."
+
+#~ msgid "Touchpad"
+#~ msgstr "Jutiklinis kilimėlis"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Slinktis dviem _pirštais"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Spustelėjimo tipą taip pat galite pasirinkti naudodamiesi lūkuriuojančio "
+#~ "spustelėjimo skydelio įtaisu."
+
+#~ msgid "_Disabled"
+#~ msgstr "_Išjungta"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Kraštinė slinktis"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Pradėti spustelėjimą sustabdžius pelės žymeklį"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Kairei rankai"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "_Judesio slenkstis:"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Dešinei rankai"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Jautrumas:"
+
+#~ msgid "_Single click:"
+#~ msgstr "Paprastas _spustelėjimas:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Trukmė:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "Su_kurti antrinį spustelėjimą laikant pagrindinį mygtuką"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Keisti pelės nustatymus"
+
+#~ msgid "New Location..."
+#~ msgstr "Nauja vieta..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Vieta jau egzistuoja"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Tarpinis tinklo serveris"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Nurodyti tarpinio tinklo serverio nustatymus"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_Tiesioginis ryšys su internetu</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Automatinis tarpinio serverio konfigūravimas</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Rankinis tarpinio serverio konfigūravimas</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Naudoti tapatybės nustatymą</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Autokonfigūravimo _URL:"
+
+#~ msgid "C_reate"
+#~ msgstr "_Sukurti"
+
+#~ msgid "Create New Location"
+#~ msgstr "Sukurti naują vietą"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP tarpinio serverio informacija"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP tarpinis serveris:"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Nepaisyti kompiuterių sąrašo"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Nepaisomi kompiuteriai"
+
+#~ msgid "Location:"
+#~ msgstr "Vieta:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Tarpinio tinklo serverio nustatymai"
+
+#~ msgid "Port:"
+#~ msgstr "Prievadas:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Tarpinio tinklo serverio konfigūravimas"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks serveris:"
+
+#~ msgid "The location already exists."
+#~ msgstr "Vieta jau egzistuoja."
+
+#~ msgid "U_sername:"
+#~ msgstr "_Naudotojo vardas:"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Trinti vietą:"
+
+#~ msgid "_Details"
+#~ msgstr "_Išsamiau"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP tarpinis serveris:"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Vietos pavadinimas:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Slaptažodis:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Saugus HTTP tarpinis serveris:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Na_udoti tą patį tarpinį serverį visiems protokolams"
+
+#, fuzzy
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Pakeiskite savo slaptažodį</span>"
+
+#, fuzzy
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Pakeiskite savo slaptažodį</span>"
+
+#, fuzzy
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Pakeiskite savo slaptažodį</span>"
+
+#, fuzzy
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Pakeiskite savo slaptažodį</span>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr ""
+#~ "_Pritaikymo neigaliesiems funkcijos gali būti įjungtos ir išjungtos "
+#~ "sparčiaisiais klavišais"
+
+#, fuzzy
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Pyptelėti, kai pa_spaustas klavišas"
+
+#, fuzzy
+#~ msgid "Beep when a key is"
+#~ msgstr "Pyptelėti, kai pa_spaustas klavišas"
+
+#, fuzzy
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "Pyptelėti, jei klavišas _netinkamas"
+
+#, fuzzy
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "Pyptelėti, kai paspaustas _modifikatorius"
+
+#, fuzzy
+#~ msgid "Change constrast:"
+#~ msgstr "Pakeitimų aibė"
+
+#, fuzzy
+#~ msgid "Contrast:"
+#~ msgstr "Kontaktas"
+
+#, fuzzy
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "_Leisti valdyti žymeklį klaviatūra"
+
+#, fuzzy
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "Išjun_gti kibiuosius klavišus, jei kartu paspaudžiami du klavišai"
+
+#~ msgid "Display"
+#~ msgstr "Ekranas"
+
+#, fuzzy
+#~ msgid "Flash the entire screen"
+#~ msgstr "Blyksi _visas ekranas"
+
+#, fuzzy
+#~ msgid "Flash the window title"
+#~ msgstr "Blyksi _lango antraštė"
+
+#, fuzzy
+#~ msgid "Hearing"
+#~ msgstr "Vaizdavimas"
+
+#, fuzzy
+#~ msgid "HighContrast"
+#~ msgstr "Kontaktas"
+
+#, fuzzy
+#~ msgid "Hover Click"
+#~ msgstr "Uždelstas spustelėjimas"
+
+#, fuzzy
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "_Nepaisyti greitų dvigubų klavišų paspaudimų"
+
+#, fuzzy
+#~ msgid "Keyboard Settings..."
+#~ msgstr "Klavišų susiejimai"
+
+#, fuzzy
+#~ msgid "Larger"
+#~ msgstr "Didelis"
+
+#, fuzzy
+#~ msgid "LowContrast"
+#~ msgstr "Kontaktas"
+
+#, fuzzy
+#~ msgid "Mouse Settings..."
+#~ msgstr "Pelės orientacija"
+
+#, fuzzy
+#~ msgid "Nomon"
+#~ msgstr "Joks"
+
+#~ msgid "None"
+#~ msgstr "Joks"
+
+#, fuzzy
+#~ msgid "On screen keyboard"
+#~ msgstr "GNOME klaviatūra ekrane"
+
+#, fuzzy
+#~ msgid "Options..."
+#~ msgstr "_Parinktys..."
+
+#, fuzzy
+#~ msgid "Screen Reader"
+#~ msgstr "Linux ekrano skaityklė"
+
+#, fuzzy
+#~ msgid "Seeing"
+#~ msgstr "Vaizdavimas"
+
+#, fuzzy
+#~ msgid "Test:"
+#~ msgstr "Tekstas"
+
+#, fuzzy
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "_Pradėti spustelėjimą sustabdžius pelės žymeklį"
+
+#, fuzzy
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr "Su_kurti antrinį spustelėjimą laikant pagrindinį mygtuką"
+
+#, fuzzy
+#~ msgid "Type here to test settings"
+#~ msgstr "Paspausdinkite parametrų _patikrinimui:"
+
+#, fuzzy
+#~ msgid "Typing"
+#~ msgstr "Spausdinimo pertraukėlė"
+
+#, fuzzy
+#~ msgid "Typing Assistant"
+#~ msgstr "_Padėjėjas:"
+
+#, fuzzy
+#~ msgid "Video Mouse"
+#~ msgstr "Pelė"
+
+#, fuzzy
+#~ msgid "Visual Alerts"
+#~ msgstr "Vaizdo"
+
+#~ msgid "Zoom"
+#~ msgstr "Pritraukti"
+
+#, fuzzy
+#~ msgid "Zoom in:"
+#~ msgstr "Pritraukti"
+
+#, fuzzy
+#~ msgid "Zoom out:"
+#~ msgstr "Pritraukti"
+
+#~ msgid "Control Center"
+#~ msgstr "Valdymo centras"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME konfigūravimo įrankis"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Jeigu reikšmė teigiama, bus bus kuriamos OpenType šriftų miniatūros."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Jeigu reikšmė teigiama, bus bus kuriamos PCF šriftų miniatūros."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Jeigu reikšmė teigiama, bus bus kuriamos TrueType šriftų miniatūros."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Jeigu reikšmė teigiama, bus bus kuriamos Type1 šriftų miniatūros."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Šiame rakte nurodykite komandą, kuri bus naudojama kurti OpenType šriftų "
+#~ "miniatiūroms."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Šiame rakte nurodykite komandą, kuri bus naudojama kurti PCF šriftų "
+#~ "miniatiūroms."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Šiame rakte nurodykite komandą, kuri bus naudojama kurti TrueType šriftų "
+#~ "miniatiūroms."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Šiame rakte nurodykite komandą, kuri bus naudojama kurti Type1 šriftų "
+#~ "miniatiūroms."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Peržiūros komanda OpenType šriftams"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Peržiūros komanda PCF šriftams"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Peržiūros komanda TrueType šriftams"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Peržiūros komanda Type1 šriftams"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Ar rodyti OpenType šriftų miniatiūras"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Ar rodyti PCF šriftų miniatiūras"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Ar rodyti TrueType šriftų miniatiūras"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Ar rodyti Type1 šriftų miniatiūras"
+
+#~ msgid "Name:"
+#~ msgstr "Pavadinimas:"
+
+#~ msgid "Style:"
+#~ msgstr "Stilius:"
+
+#~ msgid "Type:"
+#~ msgstr "Tipas:"
+
+#~ msgid "Size:"
+#~ msgstr "Dydis:"
+
+#~ msgid "Version:"
+#~ msgstr "Versija:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Autorinės teisės:"
+
+#~ msgid "Description:"
+#~ msgstr "Aprašymas:"
+
+#~ msgid "Installed"
+#~ msgstr "Įdiegta"
+
+#~ msgid "Install Failed"
+#~ msgstr "Įdiegti nepavyko"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "naudojimas: %s šriftofailas\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Į_diegti šriftą"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Šriftų peržiūros programa"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Peržiūros šriftai"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Tekstas į miniatiūrą (įprasta: Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKSTAS"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Šrifto dydis (standartinis: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "DYDIS"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ŠRIFTO-FAILAS IŠVESTIES-FAILAS"
+
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Klaida skaitant argumentus: %s\n"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "Pelės nustatymai"
+
+#, fuzzy
+#~ msgid "Don't Quit"
+#~ msgstr "Neįjungti"
+
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Klaviatūros išdėstymas „%s“"
+
+#~ msgid "Keyboard Layout"
+#~ msgstr "Klaviatūros išdėstymas"
+
+#~ msgid "_Groups"
+#~ msgstr "_Grupės"
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Nepavyko užmigdyti kompiuterio.\n"
+#~ "Įsitikinkite, kad kompiuteris sukonfigūruotas teisingai."
+
+#~ msgid "Binding to suspend the computer."
+#~ msgstr "Priskyrimas užmigdyti kompiuterį."
+
+#~ msgid "Suspend"
+#~ msgstr "Užmigdyti"
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr ""
+#~ "Nustatykite tiesa, jei norite rodyti pranešimo dialogą apie ekrano "
+#~ "užsklandos klaidas."
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr ""
+#~ "Nustatykite tiesa, jei norite prisijungimo metu paleisti ekrano užsklandą."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Rodyti paleidimo klaidas"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Paleisti ekrano užsklandą"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Įjungti ekrano užsklandos įskiepį"
+
+#~ msgid "Toggle screenreader"
+#~ msgstr "Jungti ekrano _skaityklę"
+
+#~ msgid "%d%% of the disk space on `%s' is in use"
+#~ msgstr "Naudojama %d%% disko „%s“ vietos"
+
+#~ msgid "Analyze"
+#~ msgstr "Analizuoti"
+
+#~ msgid "GNOME Volume Control"
+#~ msgstr "GNOME garsumo valdymas"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Įvyko klaida paleidžiant ekrano užsklandą:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ekrano užsklanda šioje sesijoje neveiks."
+
+#~ msgid "Screensaver"
+#~ msgstr "Ekrano užsklanda"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "Ekrano užsklandos įskiepis"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Nepavyko sukurti aplanko „%s“.\n"
+#~ "To reikia norint leisti pakeisti žymeklių temą."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Nepavyko sukurti aplanko „%s“.\n"
+#~ "To reikia norint leisti pakeisti žymeklius."
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Nepavyko įkelti garso failo %s kaip pavyzdžio %s"
+
+#~ msgid "Login"
+#~ msgstr "Prisijungti"
+
+#~ msgid "Logout"
+#~ msgstr "Atsijungti"
+
+#~ msgid "Boing"
+#~ msgstr "Trinkt"
+
+#~ msgid "Siren"
+#~ msgstr "Sirena"
+
+#~ msgid "Clink"
+#~ msgstr "Cinkt"
+
+#~ msgid "Beep"
+#~ msgstr "Pypt"
+
+#~ msgid "No sound"
+#~ msgstr "Jokio garso"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Šiam įvykiui nėra nustatyto garso."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Šiam įvykiui priskirtas garsinis failas neegzistuoja.\n"
+#~ "Galbūt norite įdiegti gnome-audio paketą, kuriame yra numatytieji garsai."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Šiam įvykiui skirtas garso failas neegzistuoja."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Pasirinkite garso failą"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Failas %s nėra tinkamas wav failas"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Pasirinkite garso failą..."
+
+#~ msgid "Sound plugin"
+#~ msgstr "Garso įskiepis"
+
+#~ msgid "An error occurred while configuring the screen"
+#~ msgstr "Konfigūruojant ekraną įvyko klaida"
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Nustatykite tiesa, jei norite išlaikyti text/plain ir text/* tvarkykles "
+#~ "sinchronizuotas."
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Sinchronizuoti text/plain ir text/* tvarkykles"
+
+#~ msgid "Enable default editor plugin"
+#~ msgstr "Įjungti numatytojo redaktoriaus įskiepį"
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr ""
+#~ "Nustatykite tiesa, norėdami įjungti numatytojo teksto redaktoriaus "
+#~ "nustatymų įskiepį."
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Klavišų susiejimo (%s) veiksmas yra nustatytas per daug kartų\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Klavišų susiejimas (%s) yra panaudotas kelis kartus\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "Panašu, kad kita programa jau turi prieigą prie klavišo „%u“."
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Klavišų susiejimas (%s) jau yra panaudotas\n"
+
+#~ msgid "Volume"
+#~ msgstr "Garsumas"
+
+#~ msgid "Image/label border"
+#~ msgstr "Paveikslėlio / užrašo rėmelis"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Rėmelio aplink užrašą ir paveikslėlį perspėjimo dialoge plotis"
+
+#~ msgid "Alert Type"
+#~ msgstr "Perspėjimo tipas"
+
+#~ msgid "The type of alert"
+#~ msgstr "Perspėjimo tipas"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Perspėjimo mygtukai"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Perspėjimo dialoge rodomi mygtukai"
+
+#~ msgid "Show more _details"
+#~ msgstr "Rodyti _išsamiau"
+
+#~ msgid "Select Image"
+#~ msgstr "Pasirinkite paveikslėlį"
+
+#~ msgid "No Image"
+#~ msgstr "Nėra paveikslėlio"
+
+#~ msgid "Images"
+#~ msgstr "Paveikslėliai"
+
+#~ msgid "All Files"
+#~ msgstr "Visi failai"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Bandant gauti adresų knygelės informaciją įvyko klaida\n"
+#~ "Evolution duomenų serveris negali apdoroti šio protokolo"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Nepavyko atverti adresų knygelės"
+
+#~ msgid "About %s"
+#~ msgstr "Apie %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dresas:"
+
+#~ msgid "About Me"
+#~ msgstr "Apie mane"
+
+#~ msgid "Address"
+#~ msgstr "Adresas"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Miestas:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "Į_monė:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kale_ndorius:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Pakeisti slaptažo_dį..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Mies_tas:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "Ša_lis:"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Ša_lis:"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "Išjungti prisijungimą _piršto antspaudu..."
+
+#~ msgid "Email"
+#~ msgstr "El. paštas"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "Įjungti prisijungimą _piršto antspaudu..."
+
+#~ msgid "Full Name"
+#~ msgstr "Vardas, pavardė"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Nam_ai:"
+
+#~ msgid "Home"
+#~ msgstr "Namai"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Greitos žinutės"
+
+#~ msgid "Job"
+#~ msgstr "Darbas"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Pašto d_ėžutė:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "Pašt_o dėžutė:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Asmeninė informacija"
+
+#~ msgid "Select your photo"
+#~ msgstr "Pasirinkite savo fotografiją"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Valstija/pro_vincija:"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefonas"
+
+#~ msgid "User name:"
+#~ msgstr "Naudotojo vardas:"
+
+#~ msgid "Web"
+#~ msgstr "Žiniatinklis"
+
+#~ msgid "Web _log:"
+#~ msgstr "Žiniatinklio žurna_las:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_Darbas:"
+
+#~ msgid "Work"
+#~ msgstr "Darbas"
+
+#~ msgid "Work _fax:"
+#~ msgstr "Darbo _faksas:"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "_Zip/pašto kodas:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Adresas:"
+
+#~ msgid "_Department:"
+#~ msgstr "Pa_dalinys:"
+
+#~ msgid "_GroupWise:"
+#~ msgstr "_GroupWise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Namų tinklalapis:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Namai:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Vadovas:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Mobilusis tel.:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Profesija:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Valstija/provincija:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Pareigos:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Darbas:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_Zip/pašto kodas:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Nurodyti asmeninę informaciją"
+
+#~ msgid ""
+#~ "You are not allowed to access the device. Contact your system "
+#~ "administrator."
+#~ msgstr ""
+#~ "Jums neleidžiama naudotis šiuo įrenginiu. Susisiekite su sistemos "
+#~ "administratoriumi."
+
+#~ msgid "The device is already in use."
+#~ msgstr "Įrenginys jau naudojamas."
+
+#~ msgid "An internal error occured"
+#~ msgstr "Įvyko vidinė klaida"
+
+#~ msgid "Delete registered fingerprints?"
+#~ msgstr "Ar ištrinti įrašytus pirštų antspaudus?"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "_Ištrinti pirštų antspaudus"
+
+#~ msgid ""
+#~ "Do you want to delete your registered fingerprints so fingerprint login "
+#~ "is disabled?"
+#~ msgstr ""
+#~ "Ar norite ištrinti įrašytus pirštų antspaudus, kad būtų išjungtas "
+#~ "prisijungimas pirštų antspaudais?"
+
+#~ msgid "Done!"
+#~ msgstr "Baigta!"
+
+#~ msgid "Could not access '%s' device"
+#~ msgstr "Nepavyko pasiekti įrenginio „%s“"
+
+#~ msgid "Could not start finger capture on '%s' device"
+#~ msgstr "Nepavyko pradėti piršto antspaudo nuskaitymo įrenginiu „%s“"
+
+#~ msgid "Could not access any fingerprint readers"
+#~ msgstr "Nepavyko pasiekti pirštų antspaudų skaitytuvo"
+
+#~ msgid "Please contact your system administrator for help."
+#~ msgstr "Susisiekite su sistemos administratoriumi, jei reikia pagalbos."
+
+#~ msgid "Enable Fingerprint Login"
+#~ msgstr "Leisti prisijungti piršto antspaudu"
+
+#~ msgid ""
+#~ "To enable fingerprint login, you need to save one of your fingerprints, "
+#~ "using the '%s' device."
+#~ msgstr ""
+#~ "Jei norite prisijungti pirštų antspaudu, turite įrašyti bent vieną iš "
+#~ "savo pirštų antspaudų įrenginiu „%s“."
+
+#~ msgid "Swipe finger on reader"
+#~ msgstr "Braukite pirštą per skaitytuvą"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Uždėkite pirštą ant skaitytuvo"
+
+#~ msgid "Left index finger"
+#~ msgstr "Kairysis smilius"
+
+#~ msgid "Left little finger"
+#~ msgstr "Kairysis mažasis pirštas"
+
+#~ msgid "Left middle finger"
+#~ msgstr "Kairysis didysis pirštas"
+
+#~ msgid "Left ring finger"
+#~ msgstr "Kairysis bevardis pirštas"
+
+#~ msgid "Left thumb"
+#~ msgstr "Kairysis smilius"
+
+#~ msgid "Other finger: "
+#~ msgstr "Kitas pirštas: "
+
+#~ msgid "Right index finger"
+#~ msgstr "Dešinysis smilius"
+
+#~ msgid "Right little finger"
+#~ msgstr "Dešinysis mažasis pirštas"
+
+#~ msgid "Right middle finger"
+#~ msgstr "Dešinysis didysis pirštas"
+
+#~ msgid "Right ring finger"
+#~ msgstr "Dešinysis bevardis pirštas"
+
+#~ msgid "Right thumb"
+#~ msgstr "Dešinysis nykštys"
+
+#~ msgid "Select finger"
+#~ msgstr "Pasirinkite pirštą"
+
+#~ msgid ""
+#~ "Your fingerprint was successfully saved. You should now be able to log in "
+#~ "using your fingerprint reader."
+#~ msgstr ""
+#~ "Pirštų antspaudai sėkmingai įrašyti. Dabar galite prisijungti "
+#~ "naudodamiesi pirštų antspaudų skaitytuvu."
+
+#~ msgid "Child exited unexpectedly"
+#~ msgstr "Antrinis procesas netikėtai užsidarė"
+
+#~ msgid "Could not shutdown backend_stdin IO channel: %s"
+#~ msgstr "Nepavyko išjungti backend_stdin IO kanalo: %s"
+
+#~ msgid "Could not shutdown backend_stdout IO channel: %s"
+#~ msgstr "Nepavyko išjungti backend_stdout IO kanalo: %s"
+
+#~ msgid "Authenticated!"
+#~ msgstr "Tapatybė patvirtinta!"
+
+#~ msgid ""
+#~ "Your password has been changed since you initially authenticated! Please "
+#~ "re-authenticate."
+#~ msgstr ""
+#~ "Jūsų slaptažodis pakeistas, nuo pradinio Jūsų tapatybės atpažinimo. "
+#~ "Prisijunkite iš naujo tapatybės atpažinimui."
+
+#~ msgid "That password was incorrect."
+#~ msgstr "Slaptažodis buvo neteisingas."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "Jūsų slaptažodis pakeistas."
+
+#~ msgid "System error: %s."
+#~ msgstr "Sistemos klaida: %s. "
+
+#~ msgid "The password is too short."
+#~ msgstr "Slaptažodis per trumpas."
+
+#~ msgid "The password is too simple."
+#~ msgstr "Slaptažodis per peprastas."
+
+#~ msgid "The old and new passwords are too similar."
+#~ msgstr "Senas ir naujas slaptažodžiai yra per daug panašūs."
+
+#~ msgid "The new password must contain numeric or special character(s)."
+#~ msgstr ""
+#~ "Naujas slaptažodis turi susidėti iš skaičių arba specialių simbolio(-ų)."
+
+#~ msgid "The old and new passwords are the same."
+#~ msgstr "Senas ir naujas slaptažodžiai yra tokie patys."
+
+#~ msgid "The new password has already been used recently."
+#~ msgstr "Naujas slaptažodis neseniai jau buvo naudotas."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Nepavyko paleisti %s: %s"
+
+#~ msgid "Unable to launch backend"
+#~ msgstr "Nepavyko paleisti posistemės"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Įvyko sistemos klaida"
+
+#~ msgid "Checking password..."
+#~ msgstr "Tikrinamas slaptažodis..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "Norėdami pakeisti slaptažodį, spustelėkite <b>Pakeisti slaptažodį</b>."
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Įveskite savo slaptažodį laukelyje <b>Naujas slaptažodis</b>."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Įveskite savo slaptažodį dar kartą laukelyje <b>Pakartokite naują "
+#~ "slaptažodį</b>."
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "Šie du slaptažodžiai nėra vienodi."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Keisti _slaptažodį"
+
+#~ msgid "Change password"
+#~ msgstr "Keisti slaptažodį"
+
+#~ msgid "Change your password"
+#~ msgstr "Keisti slaptažodį"
+
+#~ msgid "Current _password:"
+#~ msgstr "_Dabartinis slaptažodis:"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "Norėdami pakeisti slaptažodį, įveskite esamą Jūsų slaptažodį laukelyje "
+#~ "žemiau ir paspauskite <b>Patvirtinti tapatybę</b>.\n"
+#~ "Kai patvirtinsite savo tapatybę, įveskite naują slaptažodį, pakartokite "
+#~ "jį ir paspauskite <b>Pakeisti slaptažodį</b>."
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Patvirtini tapatybę"
+
+#~ msgid "_New password:"
+#~ msgstr "_Naujas slaptažodis:"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_Pakartokite naują slaptažodį:"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Neįgaliesiems pritaikytas prisijun_gimas"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Pagalbinės technologijos"
+
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Pagalbinių technologijų nustatymai"
+
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "Pakeitimai įjungti pagalbines technologijas neįsigalios iki kito "
+#~ "prisijungimo."
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Užverti ir _atsijungti"
+
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Pereiti prie Pageidaujamų programų dialogo"
+
+#~ msgid "Jump to the Accessible Login dialog"
+#~ msgstr "Pereiti prie Neįgaliesiems pritaikyto prisijungimo dialogo"
+
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "Pereiti prie Klaviatūros pritaikymo neįgaliesiems dialogo"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Pereiti prie pelės pritaikymo neįgaliesiems dialogo"
+
+#~ msgid "Preferences"
+#~ msgstr "Nustatymai"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "Į_jungti pagalbines technologijas"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "_Klaviatūros pritaikymas neįgaliesiems"
+
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "_Pelės pritaikymas neįgaliesiems"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "_Pageidaujamos programos"
+
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "Pasirinkti, kurias pritaikymo neįgaliesiems savybes įjungti prisijungiant"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Pridėti darbastalio paveikslėlį"
+
+#~ msgid "All files"
+#~ msgstr "Visi failai"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Šriftas gali būti per didelis"
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Pasirinktas šriftas yra %d taško dydžio, dėl tokio dydžio gali būti "
+#~ "nepatogu dirbti kompiuteriu. Rekomenduojama, kad pasirinktumėte dydį "
+#~ "mažesnį negu %d taškas."
+#~ msgstr[1] ""
+#~ "Pasirinktas šriftas yra %d taškų dydžio, dėl tokio dydžio gali būti "
+#~ "nepatogu dirbti kompiuteriu. Rekomenduojama, kad pasirinktumėte dydį "
+#~ "mažesnį negu %d taškai."
+#~ msgstr[2] ""
+#~ "Pasirinktas šriftas yra %d taškų dydžio, dėl tokio dydžio gali būti "
+#~ "nepatogu dirbti kompiuteriu. Rekomenduojama, kad pasirinktumėte dydį "
+#~ "mažesnį negu %d taškų."
+
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Pasirinktas šriftas yra %d taško dydžio, esant tokiam dydžiui gali būti "
+#~ "nepatogu dirbti kompiuteriu. Rekomenduojama, kad pasirinktumėte mažesnio "
+#~ "dydžio šriftą."
+#~ msgstr[1] ""
+#~ "Pasirinktas šriftas yra %d taškų dydžio, esant tokiam dydžiui gali būti "
+#~ "nepatogu dirbti kompiuteriu. Rekomenduojama, kad pasirinktumėte mažesnio "
+#~ "dydžio šriftą."
+#~ msgstr[2] ""
+#~ "Pasirinktas šriftas yra %d taškų dydžio, esant tokiam dydžiui gali būti "
+#~ "nepatogu dirbti kompiuteriu. Rekomenduojama, kad pasirinktumėte mažesnio "
+#~ "dydžio šriftą."
+
+#~ msgid "Use previous font"
+#~ msgstr "Naudoti ankstesnį šriftą"
+
+#~ msgid "Use selected font"
+#~ msgstr "Naudoti pasirinktą šriftą"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Nepavyko įkelti naudotojo sąsajos failo: %s"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Nurodykite įdiegtinos temos failo pavadinimą"
+
+#~ msgid "filename"
+#~ msgstr "failo pavadinimas"
+
+#~ msgid ""
+#~ "Specify the name of the page to show (theme|background|fonts|interface)"
+#~ msgstr ""
+#~ "Nurodykite rodytino puslapio pavadinimą (theme|background|fonts|interface)"
+
+#~ msgid "page"
+#~ msgstr "puslapis"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[DARBASTALIO PAVEIKSLĖLIS...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Numatytasis žymeklis"
+
+#~ msgid "Install"
+#~ msgstr "Įdiegti"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme "
+#~ "engine '%s' is not installed."
+#~ msgstr ""
+#~ "Ši tema neatrodys taip, kaip turi atrodyti, nes reikiamas GTK+ temos "
+#~ "variklis „%s“ neįdiegtas."
+
+#~ msgid "Apply Background"
+#~ msgstr "Pritaikyti foną"
+
+#~ msgid "Apply Font"
+#~ msgstr "Pritaikyti šriftą"
+
+#~ msgid "Revert Font"
+#~ msgstr "Atmesti šriftą"
+
+#~ msgid ""
+#~ "The current theme suggests a background and a font. Also, the last "
+#~ "applied font suggestion can be reverted."
+#~ msgstr ""
+#~ "Ši tema siūlo foną ir šriftą.  Beje, paskutinis pritaikytas šrifto "
+#~ "pasiūlymas gali būti atmestas."
+
+#~ msgid ""
+#~ "The current theme suggests a background. Also, the last applied font "
+#~ "suggestion can be reverted."
+#~ msgstr ""
+#~ "Ši tema siūlo foną.  Beje, paskutinis pritaikytas šrifto pasiūlymas gali "
+#~ "būti atmestas."
+
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Ši tema siūlo fono paveikslėlį ir šriftą."
+
+#~ msgid ""
+#~ "The current theme suggests a font. Also, the last applied font suggestion "
+#~ "can be reverted."
+#~ msgstr ""
+#~ "Ši tema siūlo šriftą.  Beje, paskutinis pritaikytas šrifto pasiūlymas "
+#~ "gali būti atmestas."
+
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Ši tema siūlo fono paveikslėlį."
+
+#~ msgid "The last applied font suggestion can be reverted."
+#~ msgstr "Paskutinis pritaikytas šrifto pasiūlymas gali būti atmestas."
+
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Ši tema siūlo šriftą."
+
+#~ msgid "Best _shapes"
+#~ msgstr "Geriausia _forma"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Geriausias ko_ntrastas"
+
+#~ msgid "C_olors:"
+#~ msgstr "_Spalvos:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "D_erinti..."
+
+#~ msgid "Center"
+#~ msgstr "Centruoti"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "Žymeklio temos pakeitimas įsigalioja kito prisijungimo metu."
+
+#~ msgid "Colors"
+#~ msgstr "Spalvos"
+
+#~ msgid "Controls"
+#~ msgstr "Valdymas"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Derinti temą"
+
+#~ msgid "D_etails..."
+#~ msgstr "Išsa_miau..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "_Darbastalio šriftas:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Šriftų atvaizdavimo informacija"
+
+#~ msgid "Fonts"
+#~ msgstr "Šriftai"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "Atsisiųsti daugiau fonų"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Atsiųsti daugiau temų"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "P_ilkumo pustonių"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Horizontalus gradientas"
+
+#~ msgid "Icons"
+#~ msgstr "Piktogramos"
+
+#~ msgid "Icons only"
+#~ msgstr "Tik piktogramos"
+
+#~ msgid "N_one"
+#~ msgstr "J_okios"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Atverkite dialogą norėdami nurodyti spalvą"
+
+#~ msgid "Pointer"
+#~ msgstr "Žymeklis"
+
+#~ msgid "R_esolution:"
+#~ msgstr "R_aiška:"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Išsaugoti temą kaip..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Išsaugoti _kaip..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Išsaugoti _fono paveikslėlį"
+
+#~ msgid "Scale"
+#~ msgstr "Ištempti (proporcingai)"
+
+#~ msgid "Smoothing"
+#~ msgstr "Glotninimas"
+
+#~ msgid "Solid color"
+#~ msgstr "Viena spalva"
+
+#~ msgid "Span"
+#~ msgstr "Apgaubti"
+
+#~ msgid "Stretch"
+#~ msgstr "Ištempti"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Po_pikselinis (LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Po_pikselinis glotninimas (LCD)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Popikselių tvarka"
+
+#~ msgid "Text below items"
+#~ msgstr "Tekstas po elementais"
+
+#~ msgid "Text beside items"
+#~ msgstr "Tekstas šalia elementų"
+
+#~ msgid "Text only"
+#~ msgstr "Tik tekstas"
+
+#~ msgid "The current controls theme does not support color schemes."
+#~ msgstr "Esama valdymo elementų tema nepalaiko spalvų schemų."
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Tile"
+#~ msgstr "Iškloti"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Vertikalus gradientas"
+
+#~ msgid "Window Border"
+#~ msgstr "Lango rėmelis"
+
+#~ msgid "_Application font:"
+#~ msgstr "_Programų šriftas:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Aprašymas:"
+
+#~ msgid "_Document font:"
+#~ msgstr "D_okumentų šriftas:"
+
+#~ msgid "_Fixed width font:"
+#~ msgstr "_Fiksuoto pločio šriftas:"
+
+#~ msgid "_Full"
+#~ msgstr "_Visa"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "Į_vesties laukeliai:"
+
+#~ msgid "_Install..."
+#~ msgstr "Į_diegti..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Vidutinė"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Vienspalvis"
+
+#~ msgid "_None"
+#~ msgstr "_Joks"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_Atstatyti į numatytąsias"
+
+#~ msgid "_Selected items:"
+#~ msgstr "Pa_sirinkti elementai:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Dydis:"
+
+#~ msgid "_Slight"
+#~ msgstr "_Nežymi"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stilius:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Paaiškinimai:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_Langų antraščių š_riftas:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Langai:"
+
+#~ msgid "dots per inch"
+#~ msgstr "taškų colyje"
+
+#~ msgid "Appearance"
+#~ msgstr "Išvaizda"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Keisti darbo aplinkos išvaizdą"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Įdiegia įvairių darbo aplinkos dalių temų paketus"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Temų diegyklė"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome temų paketas"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Nėra darbastalio fono"
+
+#~ msgid "Slide Show"
+#~ msgstr "Skaidrių rodymas"
+
+#~ msgid "Image"
+#~ msgstr "Paveikslėlis"
+
+#~ msgid "multiple sizes"
+#~ msgstr "keli dydžiai"
+
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s su %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "taškelis"
+#~ msgstr[1] "taškeliai"
+#~ msgstr[2] "taškelių"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Aplankas: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Aplankas: %s"
+
+#~ msgid "Image missing"
+#~ msgstr "Trūksta paveikslėlio"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Temos įdiegti nepavyko"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Sistemoje neįdiegta programa %s."
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "Klaida išskleidžiant temą."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Įvyko klaida diegiant pasirinktą failą"
+
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "„%s“ nėra tinkamas temos failas."
+
+#~ msgid ""
+#~ "\"%s\" does not appear to be a valid theme. It may be a theme engine "
+#~ "which you need to compile."
+#~ msgstr ""
+#~ "„%s“ nėra tinkamas temos failas. Tai gali būti temų valdiklis, kurį teks "
+#~ "susikompiliuoti savarankiškai."
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Nepavyko įdiegti temos „%s“."
+
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "Tema „%s“ įdiegta."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Pritaikyti ją dabar, ar palikti esamą temą?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Palikti esamą temą"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Pritaikyti naują temą"
+
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME tema %s įdiegta teisingai"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Nepavyko sukurti laikinojo aplanko"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Naujos temos sėkmingai įdiegtos."
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Nenurodyta įdiegtinos temos failo vieta"
+
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Neturite reikiamų teisių idiegti temą į:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Pasirinkite temą"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Temų paketai"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Temos pavadinimas turi būti nurodytas"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Ši tema jau egzistuoja. Ar norite ją perrašyti?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "Pe_rrašyti"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Ar norite pašalinti šią temą?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Tema negali būti ištrinta"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Nepavyko įdiegti temos variklio"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Nepavyko paleisti nustatymų valdyklės „gnome-settings-daemon“.\n"
+#~ "Neveikiant GNOME nustatymų valdyklei kai kurie nustatymai gali neveikti. "
+#~ "Tai gali reikšti, jog yra problemų su DBus arba šiuo metu yra aktyvi ne "
+#~ "GNOME (pvz., KDE) nustatymų valdyklė ir kyla konfliktas su GNOME "
+#~ "nustatymų valdykle."
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Kopijuojamas failas: %u iš %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Kopijuojama „%s“"
+
+#~ msgid "Copying files"
+#~ msgstr "Failai kopijuojami"
+
+#~ msgid "Parent Window"
+#~ msgstr "Motininis langas"
+
+#~ msgid "Parent window of the dialog"
+#~ msgstr "Motininis dialogo langas"
+
+#~ msgid "From URI"
+#~ msgstr "Šaltinio URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI, iš kurio dabar siunčiama"
+
+#~ msgid "To URI"
+#~ msgstr "Paskirties URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI, į kur dabar siunčiama"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Atlikta dalis"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Jau atlikta siuntimo dalis"
+
+#~ msgid "Current URI index"
+#~ msgstr "Esamo URI numeris"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Esamo URI numeris – prasideda nuo 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "URI skaičius"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Kiek iš viso yra URI"
+
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "Failas „%s“ jau egzistuoja. Ar norite jį perrašyti?"
+
+#~ msgid "_Skip"
+#~ msgstr "_Praleisti"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "Perrašyti _visus"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Numatytasis žymeklis – dabartinis"
+
+#~ msgid "White Pointer"
+#~ msgstr "Baltas žymeklis"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Baltas žymeklis – dabartinis"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Didelis žymeklis"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Didelis žymeklis – dabartinis"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Didelis baltas žymeklis – dabartinis"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Didelis baltas žymeklis"
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required GTK+ theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Ši tema neatrodys taip, kaip turėtų, nes reikiama GTK+ tema „%s“ "
+#~ "neįdiegta."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required window manager "
+#~ "theme '%s' is not installed."
+#~ msgstr ""
+#~ "Ši tema neatrodys taip, kaip turėtų, nes reikiama langų valdyklės tema "
+#~ "„%s“ neįdiegta."
+
+#~ msgid ""
+#~ "This theme will not look as intended because the required icon theme '%s' "
+#~ "is not installed."
+#~ msgstr ""
+#~ "Ši tema neatrodys taip, kaip turėtų, nes reikiama piktogramų tema „%s“ "
+#~ "neįdiegta."
+
+#~ msgid ""
+#~ "Specify the name of the page to show (internet|multimedia|system|a11y)"
+#~ msgstr ""
+#~ "Nurodykite rodytino puslapio pavadinimą (internet|multimedia|system|a11y)"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "– GNOME numatytosios programos"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "Vaizduoklio nustatymai"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Tik pritaikyti parametrus ir išeiti (tiktai suderinamumui; dabar tai yra "
+#~ "valdoma posistemės)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Atverti puslapį rodant spausdinimo pertraukėlės parametrus"
+
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Atverti puslapį rodant pritaikymo neįgaliesiems parametrus"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "– GNOME klaviatūros nustatymai"
+
+#~ msgid "_Show..."
+#~ msgstr "_Rodyti..."
+
+#~ msgid "Specify the name of the page to show (general|accessibility)"
+#~ msgstr "Nurodykite rodytino puslapio pavadinimą (general|accessibility)"
+
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "– GNOME pelės nustatymai"
+
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr "Nepavyko paleisti langų tvarkyklės nustatymo programos"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (arba „Windows logo“)"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Movement Key"
+#~ msgstr "Judėjimo klavišas"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Lango antraštės veiksmas"
+
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Norėdami perkelti langą, laikykite nuspaudę šį klavišą, tada tempkite "
+#~ "langą:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Langų nustatymai"
+
+#~ msgid "Window Selection"
+#~ msgstr "Langų pasirinkimas"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Du kartus spustelėjus antraštės juostą, atliekamas šis veiksmas:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Delsa prieš iškeliant:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Iškelti pasirinktus langus po tam tikro laiko tarpo"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Pasirinkti langus, kai virš jų yra pelės žymeklis"
+
+#~ msgid "seconds"
+#~ msgstr "sekundžių"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Nustatyti langų ypatybes"
+
+#~ msgid "Windows"
+#~ msgstr "Langai"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "Langų tvarkyklė „%s“ nepriregistravo savo konfigūravimo įrankio\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Išdidinama"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Išdidinti vertikaliai"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Išdidinti horizontaliai"
+
+#~ msgid "Minimize"
+#~ msgstr "Suskleidžiama"
+
+#~ msgid "Roll up"
+#~ msgstr "Suvyniojama"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "klavišas nerastas [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Paleidus, paslėpti (naudinga norint iš anksto įkelti apvalkalą)"
+
+#~ msgid "Filter"
+#~ msgstr "Filtruoti"
+
+#~ msgid "Groups"
+#~ msgstr "Grupės"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Įprastos užduotys"
+
+#~ msgid "Close the control-center when a task is activated"
+#~ msgstr "Užverti valdymo centrą, kai sužadinama užduotis"
+
+#~ msgid "Exit shell on add or remove action performed"
+#~ msgstr "Išeiti iš aplinkos, kai atliekamas pridėjimo ar išmetimo veiksmas"
+
+#~ msgid "Exit shell on help action performed"
+#~ msgstr "Išeiti iš aplinkos, kai atliekamas pagalbos veiksmas"
+
+#~ msgid "Exit shell on start action performed"
+#~ msgstr "Išeiti iš aplinkos, kai įvykdomas paleidimo veiksmas"
+
+#~ msgid "Exit shell on upgrade or uninstall action performed"
+#~ msgstr ""
+#~ "Išeiti iš aplinkos, kai įvykdomas atnaujinimo ar išinstaliavimo veiksmas"
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a help action is performed."
+#~ msgstr "Nurodo, ar išeiti iš aplinkos, kai įvykdomas pagalbos veiksmas."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when a start action is performed."
+#~ msgstr "Nurodo, ar išeiti iš aplinkos, kai įvykdomas paleidimo veiksmas."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an add or remove action is "
+#~ "performed."
+#~ msgstr ""
+#~ "Nurodo, ar išeiti iš aplinkos, kai atliekamas pridėjimo ar šalinimo "
+#~ "veiksmas."
+
+#~ msgid ""
+#~ "Indicates whether to close the shell when an upgrade or uninstall action "
+#~ "is performed."
+#~ msgstr ""
+#~ "Nurodo, ar išeiti iš aplinkos, kai įvykdomas atnaujinimo ar pašalinimo "
+#~ "veiksmas."
+
+#~ msgid "Task names and associated .desktop files"
+#~ msgstr "Užduočių vardai ir atitinkami .desktop failai"
+
+#~ msgid ""
+#~ "The task name to be displayed in the control-center followed by a \";\" "
+#~ "separator then the filename of an associated .desktop file to launch for "
+#~ "that task."
+#~ msgstr ""
+#~ "Užduoties vardas, rodomas valdymo centre, kabliataškis („;“) ir "
+#~ "atitinkamo vykdomojo .desktop failo, skirto paleisti šiai užduočiai, "
+#~ "vardas."
+
+#~ msgid ""
+#~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
+#~ "default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+#~ msgstr ""
+#~ "[Keisti temą;gtk-theme-selector.desktop,Nustatyti pageidaujamas programas;"
+#~ "default-applications.desktop,Pridėti spausdintuvą;gnome-cups-manager."
+#~ "desktop]"
+
+#~ msgid ""
+#~ "if true, the control-center will close when a \"Common Task\" is "
+#~ "activated."
+#~ msgstr "Jei tiesa, valdymo centras užsivers įvykdžius „paprastą užduotį“."
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Filtras „%s“ neatitinka jokių įrašų."
+
+#~ msgid "No matches found."
+#~ msgstr "Atitikmenų nerasta."
+
+#~ msgid "Other"
+#~ msgstr "Kita"
+
+#~ msgid "Start %s"
+#~ msgstr "Paleisti %s"
+
+#~ msgid "Help"
+#~ msgstr "Žinynas"
+
+#~ msgid "Upgrade"
+#~ msgstr "Atnaujinti"
+
+#~ msgid "Uninstall"
+#~ msgstr "Ištrinti"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Pašalinti mėgiamiausiųjų"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Įtraukti į mėgiamiausiuosius"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Pašalinti iš paleidimo programų"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Pridėti prie paleidimo programų"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Nauja skaičialentė"
+
+#~ msgid "New Document"
+#~ msgstr "Naujas dokumentas"
+
+#~ msgctxt "Home folder"
+#~ msgid "Home"
+#~ msgstr "Namai"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumentai"
+
+#~ msgid "File System"
+#~ msgstr "Failų sistema"
+
+#~ msgid "Network Servers"
+#~ msgstr "Tinklo serveris"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Atverti</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Pervadinti..."
+
+#~ msgid "Send To..."
+#~ msgstr "Siųsti į..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Perkelti į šiukšlinę"
+
+#~ msgid "Delete"
+#~ msgstr "Ištrinti"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Ar tikrai norite ištrinti „%s“ visam laikui?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Ištrynus elementą, jis prarandamas negrįžtamai."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Atverti su „%s“"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Atverti su numatytąja programa"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Atverti failų naršyklėje"
+
+#~ msgid "Remove from recent menu"
+#~ msgstr "Pašalinti iš neseniai naudotų sąrašo"
+
+#~ msgid "Purge all the recent items"
+#~ msgstr "Pašalinti visus neseniai naudotus elementus"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Šiandien %l:%M %p"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Vakar %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Rasti dabar"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Atverti %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Pašalinti iš sistemos elementų"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Uždėkite kairįjį nykštį ant %s"
+
+#~ msgid "Swipe your left thumb on %s"
+#~ msgstr "Braukite kairįjį nykštį per %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Uždėkite kairįjį smilių ant %s"
+
+#~ msgid "Swipe your left index finger on %s"
+#~ msgstr "Braukite kairįjį smilių per %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Uždėkite kairįjį didįjį pirštą ant %s"
+
+#~ msgid "Swipe your left middle finger on %s"
+#~ msgstr "Braukite kairįjį didįjį pirštą per %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Uždėkite kairįjį bevardį pirštą ant %s"
+
+#~ msgid "Swipe your left ring finger on %s"
+#~ msgstr "Braukite kairįjį bevardį pirštą per %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Uždėkite kairįjį mažylį pirštą ant %s"
+
+#~ msgid "Swipe your left little finger on %s"
+#~ msgstr "Braukite kairįjį mažylį pirštą per %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Uždėkite dešinįjį nykštį ant %s"
+
+#~ msgid "Swipe your right thumb on %s"
+#~ msgstr "Braukite dešinįjį nykštį per %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Uždėkite dešinįjį smilių ant %s"
+
+#~ msgid "Swipe your right index finger on %s"
+#~ msgstr "Braukite dešinįjį smilių per %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Uždėkite dešinįjį didįjį pirštą ant %s"
+
+#~ msgid "Swipe your right middle finger on %s"
+#~ msgstr "Braukite dešinįjį didįjį pirštą per %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Uždėkite dešinįjį bevardį pirštą ant %s"
+
+#~ msgid "Swipe your right ring finger on %s"
+#~ msgstr "Braukite dešinįjį bevardį pirštą per %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Uždėkite dešinįjį mažąjį pirštą ant %s"
+
+#~ msgid "Swipe your right little finger on %s"
+#~ msgstr "Braukite dešinįjį mažąjį pirštą per %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Uždėkite pirštą ant skaitytuvo dar kartą"
+
+#~ msgid "Swipe your finger again"
+#~ msgstr "Braukite pirštą per skaitytuvą dar kartą"
+
+#~ msgid "Swipe was too short, try again"
+#~ msgstr "Braukimas per trumpas, bandykite dar kartą"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Pirštas nebuvo centre, braukite dar kartą"
+
+#~ msgid "Remove your finger, and try swiping your finger again"
+#~ msgstr "Atkelkite pirštą ir pabandykite braukti dar kartą"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "Edit"
+#~ msgstr "Keisti"
+
+#~ msgid "Fill screen"
+#~ msgstr "Užpildyti ekraną"
+
+#~ msgid "Interface"
+#~ msgstr "Sąsaja"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "Meniu ir įrankių juostos"
+
+#~ msgid "Preview"
+#~ msgstr "Peržiūra"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Meniu rodyti _piktogramas"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Įrankių juostos _mygtukų užrašai:"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "_Keičiami spartieji meniu klavišai"
+
+#~ msgid "_File"
+#~ msgstr "_Failas"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Ekrano nustatymai"
+
+#~ msgid "Drag the monitors to set their place"
+#~ msgstr "Nurodykite vaizduoklių vietą juos nuvilkdami"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "_Dublikuoti ekranai"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Pakeisti ekrano skiriamąją gebą"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "_Greitėjimas:"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "Pa_sirinkti išdėstymai:"
+
+#~ msgid "C_ontrol"
+#~ msgstr "_Vald"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą. "
+#~ "0123456789"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "Nežinomas prisijungimo ID, naudotojo duomenų bazė gali būti sugadinta"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "Kairysis nykštys\n"
+#~ "Kairysis didysis pirštas\n"
+#~ "Kairysis bevardis pirštas\n"
+#~ "Kairysis mažasis pirštas\n"
+#~ "Dešinysis nykštys\n"
+#~ "Dešinysis didysis pirštas\n"
+#~ "Dešinysis bevardis pirštas\n"
+#~ "Dešinysis mažasis pirštas"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>Elektroninis paštas</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Namai</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Darbas</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Žiniatinklis</b>"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Pagalbinės technologijos</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Nustatymai</b>"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>S_palvos</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Peržiūra</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>_Darbastalio fonas</b>"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>Grąžinimo klavišai</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Bendri nustatymai</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Greitas</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Ilga</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Trumpa</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Lėtas</i></small>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Rasti žymeklį</b>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>Didelis</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>Didelis</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>Mažas</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>Mažas</i></small>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Nepaisyti kompiuterių sąrašo</b>"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Atitikmenų nerasta.</b> </span><span>\n"
+#~ "\n"
+#~ " Jūsų paiešką „<b>%s</b>“ atitinkančių elementų nerasta.</span>"
