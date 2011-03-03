@@ -35,14 +35,7 @@
 #include "drw-utils.h"
 #include "drw-timer.h"
 
-#define BLINK_TIMEOUT        1000
-#define BLINK_TIMEOUT_MIN    500
-#define BLINK_TIMEOUT_FACTOR 100
-
 #define WARN_TIME_MAX        (3 * 60 /* s */)
-
-#define POPUP_ITEM_ENABLED 1
-#define POPUP_ITEM_BREAK   2
 
 #define I_(string) (g_intern_static_string (string))
 
@@ -65,8 +58,6 @@ struct _DrWright {
 
 	DrwMonitor     *monitor;
 
-	GtkUIManager *ui_manager;
-
 	DrwState        state;
 	DrwTimer       *timer;
 	DrwTimer       *idle_timer;
@@ -80,48 +71,18 @@ struct _DrWright {
 	gint            warn_time;
 
 	gboolean        enabled;
-
-	guint           clock_timeout_id;
-	guint           blink_timeout_id;
-
-	gboolean        blink_on;
-
-	GtkStatusIcon  *icon;
-
-	GdkPixbuf      *neutral_bar;
-	GdkPixbuf      *red_bar;
-	GdkPixbuf      *green_bar;
-	GdkPixbuf      *disabled_bar;
-	GdkPixbuf      *composite_bar;
-
-	GtkWidget      *warn_dialog;
 };
 
 static void     activity_detected_cb           (DrwMonitor     *monitor,
 						DrWright       *drwright);
 static gboolean maybe_change_state             (DrWright       *drwright);
-static gint     get_time_left                  (DrWright       *drwright);
-static gboolean update_status                  (DrWright       *drwright);
 static void     break_window_done_cb           (GtkWidget      *window,
 						DrWright       *dr);
 static void     break_window_postpone_cb       (GtkWidget      *window,
 						DrWright       *dr);
 static void     break_window_destroy_cb        (GtkWidget      *window,
 						DrWright       *dr);
-static void     popup_break_cb                 (GtkAction      *action,
-						DrWright       *dr);
-static void     popup_preferences_cb           (GtkAction      *action,
-						DrWright       *dr);
-static void     popup_about_cb                 (GtkAction      *action,
-						DrWright       *dr);
-static void     init_tray_icon                 (DrWright       *dr);
 static GList *  create_secondary_break_windows (void);
-
-static const GtkActionEntry actions[] = {
-  {"Preferences", GTK_STOCK_PREFERENCES, NULL, NULL, NULL, G_CALLBACK (popup_preferences_cb)},
-  {"About", GTK_STOCK_ABOUT, NULL, NULL, NULL, G_CALLBACK (popup_about_cb)},
-  {"TakeABreak", NULL, N_("_Take a Break"), NULL, NULL, G_CALLBACK (popup_break_cb)}
-};
 
 extern gboolean debug;
 
@@ -131,145 +92,6 @@ setup_debug_values (DrWright *dr)
 	dr->type_time = 300;
 	dr->warn_time = 150;
 	dr->break_time = 60;
-}
-
-static void
-update_icon (DrWright *dr)
-{
-	GdkPixbuf *pixbuf;
-	GdkPixbuf *tmp_pixbuf;
-	gint       width, height;
-	gfloat     r;
-	gint       offset;
-	gboolean   set_pixbuf;
-
-	if (!dr->enabled) {
-		gtk_status_icon_set_from_pixbuf (dr->icon,
-						 dr->disabled_bar);
-		return;
-	}
-
-	tmp_pixbuf = gdk_pixbuf_copy (dr->neutral_bar);
-
-	width = gdk_pixbuf_get_width (tmp_pixbuf);
-	height = gdk_pixbuf_get_height (tmp_pixbuf);
-
-	set_pixbuf = TRUE;
-
-	switch (dr->state) {
-	case STATE_BREAK:
-	case STATE_BREAK_SETUP:
-		r = 1;
-		break;
-
-	case STATE_BREAK_DONE:
-	case STATE_BREAK_DONE_SETUP:
-	case STATE_START:
-		r = 0;
-		break;
-
-	default:
-		r = (float) (drw_timer_elapsed (dr->timer) + dr->save_last_time) /
-		    (float) dr->type_time;
-		break;
-	}
-
-	offset = CLAMP ((height - 0) * (1.0 - r), 1, height - 0);
-
-	switch (dr->state) {
-	case STATE_WARN:
-		pixbuf = dr->red_bar;
-		set_pixbuf = FALSE;
-		break;
-
-	case STATE_BREAK_SETUP:
-	case STATE_BREAK:
-		pixbuf = dr->red_bar;
-		break;
-
-	default:
-		pixbuf = dr->green_bar;
-	}
-
-	gdk_pixbuf_composite (pixbuf,
-			      tmp_pixbuf,
-			      0,
-			      offset,
-			      width,
-			      height - offset,
-			      0,
-			      0,
-			      1.0,
-			      1.0,
-			      GDK_INTERP_BILINEAR,
-			      255);
-
-	if (set_pixbuf) {
-		gtk_status_icon_set_from_pixbuf (dr->icon,
-						 tmp_pixbuf);
-	}
-
-	if (dr->composite_bar) {
-		g_object_unref (dr->composite_bar);
-	}
-
-	dr->composite_bar = tmp_pixbuf;
-}
-
-static gboolean
-blink_timeout_cb (DrWright *dr)
-{
-	gfloat r;
-	gint   timeout;
-
-	r = (dr->type_time - drw_timer_elapsed (dr->timer) - dr->save_last_time) / dr->warn_time;
-	timeout = BLINK_TIMEOUT + BLINK_TIMEOUT_FACTOR * r;
-
-	if (timeout < BLINK_TIMEOUT_MIN) {
-		timeout = BLINK_TIMEOUT_MIN;
-	}
-
-	if (dr->blink_on || timeout == 0) {
-		gtk_status_icon_set_from_pixbuf (dr->icon,
-						 dr->composite_bar);
-	} else {
-		gtk_status_icon_set_from_pixbuf (dr->icon,
-						 dr->neutral_bar);
-	}
-
-	dr->blink_on = !dr->blink_on;
-
-	if (timeout) {
-		dr->blink_timeout_id = g_timeout_add (timeout,
-						      (GSourceFunc) blink_timeout_cb,
-						      dr);
-	} else {
-		dr->blink_timeout_id = 0;
-	}
-
-	return FALSE;
-}
-
-static void
-start_blinking (DrWright *dr)
-{
-	if (!dr->blink_timeout_id) {
-		dr->blink_on = TRUE;
-		blink_timeout_cb (dr);
-	}
-
-	/*gtk_widget_show (GTK_WIDGET (dr->icon));*/
-}
-
-static void
-stop_blinking (DrWright *dr)
-{
-	if (dr->blink_timeout_id) {
-		g_source_remove (dr->blink_timeout_id);
-		dr->blink_timeout_id = 0;
-	}
-
-	/*gtk_widget_hide (GTK_WIDGET (dr->icon));*/
 }
 
 static gboolean
@@ -324,9 +146,6 @@ maybe_change_state (DrWright *dr)
 			dr->break_window = NULL;
 		}
 
-		gtk_status_icon_set_from_pixbuf (dr->icon,
-						 dr->neutral_bar);
-
 		dr->save_last_time = 0;
 
 		drw_timer_start (dr->timer);
@@ -336,8 +155,6 @@ maybe_change_state (DrWright *dr)
 			dr->state = STATE_RUNNING;
 		}
 
-		update_status (dr);
-		stop_blinking (dr);
 		break;
 
 	case STATE_RUNNING:
@@ -349,7 +166,6 @@ maybe_change_state (DrWright *dr)
 		} else if (dr->state != STATE_WARN
 			   && elapsed_time >= dr->type_time - dr->warn_time) {
 			dr->state = STATE_WARN;
-			start_blinking (dr);
 		}
 		break;
 
@@ -361,10 +177,6 @@ maybe_change_state (DrWright *dr)
 			dr->state = STATE_BREAK;
 			break;
 		}
-
-		stop_blinking (dr);
-		gtk_status_icon_set_from_pixbuf (dr->icon,
-						 dr->red_bar);
 
 		drw_timer_start (dr->timer);
 
@@ -407,10 +219,6 @@ maybe_change_state (DrWright *dr)
 		break;
 
 	case STATE_BREAK_DONE_SETUP:
-		stop_blinking (dr);
-		gtk_status_icon_set_from_pixbuf (dr->icon,
-						 dr->green_bar);
-
 		dr->state = STATE_BREAK_DONE;
 		break;
 
@@ -425,48 +233,7 @@ maybe_change_state (DrWright *dr)
 
 	dr->last_elapsed_time = elapsed_time;
 
-	update_icon (dr);
-
 	return TRUE;
-}
-
-static gboolean
-update_status (DrWright *dr)
-{
-	gint       min;
-	gchar     *str;
-
-	if (!dr->enabled) {
-		gtk_status_icon_set_tooltip_text (dr->icon,
-						  _("Disabled"));
-		return TRUE;
-	}
-
-	min = get_time_left (dr);
-
-	if (min >= 1) {
-		str = g_strdup_printf (ngettext("%d minute until the next break",
-						"%d minutes until the next break",
-						min), min);
-	} else {
-		str = g_strdup_printf (_("Less than one minute until the next break"));
-	}
-
-	gtk_status_icon_set_tooltip_text (dr->icon, str);
-
-	g_free (str);
-
-	return TRUE;
-}
-
-static gint
-get_time_left (DrWright *dr)
-{
-	gint elapsed_time;
-
-	elapsed_time = drw_timer_elapsed (dr->timer);
-
-	return floor (0.5 + (dr->type_time - elapsed_time - dr->save_last_time) / 60.0);
 }
 
 static void
@@ -491,118 +258,10 @@ settings_change_cb (GSettings  *settings,
                 dr->break_time = g_settings_get_int (settings, "break-time");
 	}
 	if (!key || key == I_("enabled")) {
-                GtkAction *action;
-
                 dr->enabled = g_settings_get_boolean (settings, "enabled");
-
-                action = gtk_ui_manager_get_action (dr->ui_manager,
-                                                    "/Pop/TakeABreak");
-                gtk_action_set_sensitive (action, dr->enabled);
-
-                update_status (dr);
 	}
 
 	maybe_change_state (dr);
-}
-
-static void
-popup_break_cb (GtkAction *action, DrWright *dr)
-{
-	if (dr->enabled) {
-		dr->state = STATE_BREAK_SETUP;
-		maybe_change_state (dr);
-	}
-}
-
-static void
-setup_display_cb (gpointer data)
-{
-        g_setenv ("DISPLAY", (char *) data, TRUE);
-}
-
-static void
-popup_preferences_cb (GtkAction *action, DrWright *dr)
-{
-	GdkScreen *screen;
-	GError    *error = NULL;
-	GtkWidget *menu;
-        char *argv[] = { BINDIR "/gnome-control-center", "typing-break", NULL };
-        char *display;
-
-	menu = gtk_ui_manager_get_widget (dr->ui_manager, "/Pop");
-	screen = gtk_widget_get_screen (menu);
-
-        if (screen != NULL) {
-                display = gdk_screen_make_display_name (screen);
-        } else {
-                display = NULL;
-        }
-
-        if (!g_spawn_async ("/",
-                            argv,
-                            NULL /* envv */,
-                            0,
-                            setup_display_cb, display,
-                            NULL,
-                            &error)) {
-		GtkWidget *error_dialog;
-
-		error_dialog = gtk_message_dialog_new (NULL, 0,
-						       GTK_MESSAGE_ERROR,
-						       GTK_BUTTONS_CLOSE,
-						       _("Unable to bring up the typing break properties dialog with the following error: %s"),
-						       error->message);
-		g_signal_connect (error_dialog,
-				  "response",
-				  G_CALLBACK (gtk_widget_destroy), NULL);
-		gtk_window_set_resizable (GTK_WINDOW (error_dialog), FALSE);
-		gtk_widget_show (error_dialog);
-
-		g_error_free (error);
-	}
-
-	g_free (display);
-}
-
-static void
-popup_about_cb (GtkAction *action, DrWright *dr)
-{
-	gint   i;
-	gchar *authors[] = {
-		N_("Written by Richard Hult <richard@imendio.com>"),
-		N_("Eye candy added by Anders Carlsson"),
-		NULL
-	};
-
-	for (i = 0; authors [i]; i++)
-		authors [i] = (char *) _(authors [i]);
-
-	gtk_show_about_dialog (NULL,
-			       "authors", authors,
-			       "comments",  _("A computer break reminder."),
-			       "logo-icon-name", "typing-monitor",
-			       "translator-credits", _("translator-credits"),
-			       "version", VERSION,
-			       NULL);
-}
-
-static void
-popup_menu_cb (GtkWidget *widget,
-	       guint      button,
-	       guint      activate_time,
-	       DrWright  *dr)
-{
-	GtkWidget *menu;
-
-	menu = gtk_ui_manager_get_widget (dr->ui_manager, "/Pop");
-
-	gtk_menu_popup (GTK_MENU (menu),
-			NULL,
-			NULL,
-			gtk_status_icon_position_menu,
-			dr->icon,
-			0,
-			gtk_get_current_event_time ());
 }
 
 static void
@@ -614,7 +273,6 @@ break_window_done_cb (GtkWidget *window,
 	dr->state = STATE_BREAK_DONE_SETUP;
 	dr->break_window = NULL;
 
-	update_status (dr);
 	maybe_change_state (dr);
 }
 
@@ -642,8 +300,6 @@ break_window_postpone_cb (GtkWidget *window,
 
 	drw_timer_start (dr->timer);
 	maybe_change_state (dr);
-	update_status (dr);
-	update_icon (dr);
 }
 
 static void
@@ -658,20 +314,6 @@ break_window_destroy_cb (GtkWidget *window,
 
 	g_list_free (dr->secondary_break_windows);
 	dr->secondary_break_windows = NULL;
-}
-
-static void
-init_tray_icon (DrWright *dr)
-{
-	dr->icon = gtk_status_icon_new_from_pixbuf (dr->neutral_bar);
-
-	update_status (dr);
-	update_icon (dr);
-
-	g_signal_connect (dr->icon,
-			  "popup_menu",
-			  G_CALLBACK (popup_menu_cb),
-			  dr);
 }
 
 static GList *
@@ -715,32 +357,11 @@ create_secondary_break_windows (void)
 DrWright *
 drwright_new (void)
 {
-	DrWright  *dr;
-	GtkActionGroup *action_group;
-
-	static const char ui_description[] =
-	  "<ui>"
-	  "  <popup name='Pop'>"
-	  "    <menuitem action='Preferences'/>"
-	  "    <menuitem action='About'/>"
-	  "    <separator/>"
-	  "    <menuitem action='TakeABreak'/>"
-	  "  </popup>"
-	  "</ui>";
-
-        dr = g_new0 (DrWright, 1);
+	DrWright *dr = g_new0 (DrWright, 1);
 
 	if (debug) {
 		setup_debug_values (dr);
 	}
-
-	dr->ui_manager = gtk_ui_manager_new ();
-
-	action_group = gtk_action_group_new ("MenuActions");
-	gtk_action_group_set_translation_domain (action_group, GETTEXT_PACKAGE);
-	gtk_action_group_add_actions (action_group, actions, G_N_ELEMENTS (actions), dr);
-	gtk_ui_manager_insert_action_group (dr->ui_manager, action_group, 0);
-	gtk_ui_manager_add_ui_from_string (dr->ui_manager, ui_description, -1, NULL);
 
 	dr->timer = drw_timer_new ();
 	dr->idle_timer = drw_timer_new ();
@@ -754,21 +375,9 @@ drwright_new (void)
 			  G_CALLBACK (activity_detected_cb),
 			  dr);
 
-	dr->neutral_bar = gdk_pixbuf_new_from_file (IMAGEDIR "/bar.png", NULL);
-	dr->red_bar = gdk_pixbuf_new_from_file (IMAGEDIR "/bar-red.png", NULL);
-	dr->green_bar = gdk_pixbuf_new_from_file (IMAGEDIR "/bar-green.png", NULL);
-	dr->disabled_bar = gdk_pixbuf_new_from_file (IMAGEDIR "/bar-disabled.png", NULL);
-
-	init_tray_icon (dr);
-
-	g_timeout_add_seconds (12,
-			       (GSourceFunc) update_status,
-			       dr);
-
 	g_timeout_add_seconds (1,
 			       (GSourceFunc) maybe_change_state,
 			       dr);
-
 
         dr->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
         settings_change_cb (dr->settings, NULL, dr);

@@ -33,7 +33,7 @@ gnome_typing_monitor_LDADD = \
 	$(INTLLIBS)
 
 imagedir = $(pkgdatadir)/pixmaps
-dist_image_DATA = bar.png bar-red.png bar-green.png bar-disabled.png ocean-stripes.png
+dist_image_DATA = ocean-stripes.png
 
 # Themeable application icon
 icondir = $(datadir)/icons/hicolor/48x48/apps

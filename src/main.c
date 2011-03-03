@@ -23,7 +23,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <glib/gi18n.h>
-#include <gdk/gdkx.h>
 #include <gtk/gtk.h>
 
 #include "drw-selection.h"
@@ -31,36 +30,14 @@
 
 gboolean debug = FALSE;
 
-static gboolean
-have_tray (void)
-{
-	Screen *xscreen = DefaultScreenOfDisplay (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()));
-	Atom    selection_atom;
-	char   *selection_atom_name;
-	
-	selection_atom_name = g_strdup_printf ("_NET_SYSTEM_TRAY_S%d",
-					       XScreenNumberOfScreen (xscreen));
-	selection_atom = XInternAtom (DisplayOfScreen (xscreen), selection_atom_name, False);
-	g_free (selection_atom_name);
-	
-	if (XGetSelectionOwner (DisplayOfScreen (xscreen), selection_atom)) {
-		return TRUE;
-	} else {
-		return FALSE;
-	}
-}
-
 int
 main (int argc, char *argv[])
 {
 	DrWright     *drwright;
 	DrwSelection *selection;
-	gboolean      no_check = FALSE;
         const GOptionEntry options[] = {
           { "debug", 'd', 0, G_OPTION_ARG_NONE, &debug,
             N_("Enable debugging code"), NULL },
-          { "no-check", 'n', 0, G_OPTION_ARG_NONE, &no_check,
-            N_("Don't check whether the notification area exists"), NULL },
 	  { NULL }
         };
         GOptionContext *option_context;
@@ -93,24 +70,6 @@ main (int argc, char *argv[])
 		return 0;
 	}
 
-	if (!no_check && !have_tray ()) {
-		GtkWidget *dialog;
-
-		dialog = gtk_message_dialog_new (
-			NULL, 0,
-			GTK_MESSAGE_INFO,
-			GTK_BUTTONS_CLOSE,
-			_("The typing monitor uses the notification area to display "
-			  "information. You don't seem to have a notification area "
-			  "on your panel. You can add it by right-clicking on your "
-			  "panel and choosing 'Add to panel', selecting 'Notification "
-			  "area' and clicking 'Add'."));
-		
-		gtk_dialog_run (GTK_DIALOG (dialog));
-
-		gtk_widget_destroy (dialog);
-	}
-	
 	drwright = drwright_new ();
 
 	gtk_main ();
