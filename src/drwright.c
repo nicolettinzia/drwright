@@ -28,6 +28,7 @@
 #include <gdk/gdk.h>
 #include <gdk/gdkkeysyms.h>
 #include <gtk/gtk.h>
+#include <libnotify/notify.h>
 
 #include "drwright.h"
 #include "drw-break-window.h"
@@ -55,6 +56,9 @@ struct _DrWright {
 	/* Widgets. */
 	GtkWidget      *break_window;
 	GList          *secondary_break_windows;
+
+	NotifyNotification *notification;
+	gint            num_minutes_last_displayed;
 
 	DrwMonitor     *monitor;
 
@@ -85,6 +89,69 @@ static void     break_window_destroy_cb        (GtkWidget      *window,
 static GList *  create_secondary_break_windows (void);
 
 extern gboolean debug;
+
+static void
+show_warning_notification (DrWright *dr, gboolean show)
+{
+	NotifyNotification *notification;
+	gint minutes, seconds;
+	gchar *summary, *body;
+	GError *error = NULL;
+
+	if (show == FALSE) {
+		if (dr->notification) {
+			gboolean success = notify_notification_close (dr->notification, &error);
+			if (success) {
+				g_object_unref (dr->notification);
+				dr->notification = NULL;
+			}
+			else {
+				g_warning ("%s", error->message);
+			}
+			g_clear_error (&error);
+		}
+		dr->num_minutes_last_displayed = -1;
+		return;
+	}
+
+	seconds = dr->type_time - drw_timer_elapsed (dr->timer) - dr->save_last_time;
+	minutes = (seconds / 60) + 1;
+
+	if (minutes == dr->num_minutes_last_displayed) {
+		return;
+	}
+	dr->num_minutes_last_displayed = minutes;
+
+	summary = _("Typing Break Reminder");
+
+	if (minutes > 1) {
+		body = g_strdup_printf (ngettext ("Approximately %d minute to the next break.",
+		                                  "Approximately %d minutes to the next break.",
+		                                  minutes),
+		                        minutes);
+	}
+	else {
+		body = g_strdup (_("Less than one minute to the next break."));
+	}
+
+	if (dr->notification) {
+		notification = dr->notification;
+		notify_notification_update (notification, summary, body, "typing-monitor");
+	}
+	else {
+		notification = notify_notification_new (summary, body, "typing-monitor");
+		notify_notification_set_hint (notification, "resident",
+		                              g_variant_new_boolean (TRUE));
+		dr->notification = notification;
+	}
+
+	if (!notify_notification_show (notification, &error)) {
+		g_warning ("%s", error->message);
+	}
+
+	g_clear_error (&error);
+	g_free (body);
+}
 
 static void
 setup_debug_values (DrWright *dr)
@@ -150,6 +217,7 @@ maybe_change_state (DrWright *dr)
 
 		drw_timer_start (dr->timer);
 		drw_timer_start (dr->idle_timer);
+		show_warning_notification (dr, FALSE);
 
 		if (dr->enabled) {
 			dr->state = STATE_RUNNING;
@@ -167,6 +235,9 @@ maybe_change_state (DrWright *dr)
 			   && elapsed_time >= dr->type_time - dr->warn_time) {
 			dr->state = STATE_WARN;
 		}
+		if (dr->state == STATE_WARN) {
+			show_warning_notification (dr, TRUE);
+		}
 		break;
 
 	case STATE_BREAK_SETUP:
@@ -177,6 +248,8 @@ maybe_change_state (DrWright *dr)
 			dr->state = STATE_BREAK;
 			break;
 		}
+
+		show_warning_notification (dr, FALSE);
 
 		drw_timer_start (dr->timer);
 
@@ -361,6 +434,10 @@ drwright_new (void)
 
 	if (debug) {
 		setup_debug_values (dr);
+	}
+
+	if (!notify_is_initted ()) {
+		notify_init (PACKAGE_NAME);
 	}
 
 	dr->timer = drw_timer_new ();
