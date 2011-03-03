@@ -95,6 +95,9 @@ notification_action_cb (NotifyNotification *notification,
                         const char *action,
                         DrWright *dr)
 {
+	GAppInfo *app_info;
+	GdkAppLaunchContext *launch_context;
+
 	g_assert (action != NULL);
 
 	if (g_strcmp0 (action, "take-break") == 0) {
@@ -102,6 +105,28 @@ notification_action_cb (NotifyNotification *notification,
 			dr->state = STATE_BREAK_SETUP;
 			maybe_change_state (dr);
 		}
+	}
+	else if (g_strcmp0 (action, "settings") == 0) {
+		GError *error = NULL;
+
+		launch_context = gdk_display_get_app_launch_context (gdk_display_get_default ());
+
+		app_info = g_app_info_create_from_commandline (BINDIR "/gnome-control-center typing-break",
+		                                               NULL,
+		                                               G_APP_INFO_CREATE_SUPPORTS_STARTUP_NOTIFICATION,
+		                                               &error);
+		if (error) {
+			g_warning ("%s", error->message);
+			goto out;
+		}
+
+		g_app_info_launch (app_info, NULL, G_APP_LAUNCH_CONTEXT (launch_context), &error);
+		if (error) {
+			g_warning ("%s", error->message);
+		}
+out:
+		g_clear_error (&error);
+		g_object_unref (launch_context);
 	}
 	else {
 		g_warning ("Unknown action: %s", action);
@@ -160,6 +185,10 @@ show_warning_notification (DrWright *dr, gboolean show)
 		notification = notify_notification_new (summary, body, "typing-monitor");
 		notify_notification_set_hint (notification, "resident",
 		                              g_variant_new_boolean (TRUE));
+		notify_notification_add_action (notification,
+		                                "settings", _("Settings…"),
+		                                NOTIFY_ACTION_CALLBACK (notification_action_cb),
+		                                dr, NULL);
 		notify_notification_add_action (notification,
 		                                "take-break", _("Take Break Now"),
 		                                NOTIFY_ACTION_CALLBACK (notification_action_cb),
