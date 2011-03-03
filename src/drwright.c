@@ -91,6 +91,24 @@ static GList *  create_secondary_break_windows (void);
 extern gboolean debug;
 
 static void
+notification_action_cb (NotifyNotification *notification,
+                        const char *action,
+                        DrWright *dr)
+{
+	g_assert (action != NULL);
+
+	if (g_strcmp0 (action, "take-break") == 0) {
+		if (dr->enabled) {
+			dr->state = STATE_BREAK_SETUP;
+			maybe_change_state (dr);
+		}
+	}
+	else {
+		g_warning ("Unknown action: %s", action);
+	}
+}
+
+static void
 show_warning_notification (DrWright *dr, gboolean show)
 {
 	NotifyNotification *notification;
@@ -142,6 +160,10 @@ show_warning_notification (DrWright *dr, gboolean show)
 		notification = notify_notification_new (summary, body, "typing-monitor");
 		notify_notification_set_hint (notification, "resident",
 		                              g_variant_new_boolean (TRUE));
+		notify_notification_add_action (notification,
+		                                "take-break", _("Take Break Now"),
+		                                NOTIFY_ACTION_CALLBACK (notification_action_cb),
+		                                dr, NULL);
 		dr->notification = notification;
 	}
 
