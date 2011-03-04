@@ -488,7 +488,7 @@ drwright_new (void)
 	}
 
 	if (!notify_is_initted ()) {
-		notify_init (PACKAGE_NAME);
+		notify_init (g_get_application_name ());
 	}
 
 	dr->timer = drw_timer_new ();
