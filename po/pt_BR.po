@@ -55,126 +55,73 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2010-12-25 11:16-0200\n"
-"Last-Translator: Flamarion Jorge <jorge.flamarion@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&component=general\n"
+"POT-Creation-Date: 2011-03-03 22:35+0000\n"
+"PO-Revision-Date: 2011-02-25 15:00-0300\n"
+"Last-Translator: Mateus Zenaide <matzenh@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.com>\n"
-"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  pt_BR.po (DrWright)  #-#-#-#-#\n"
-"#-#-#-#-#  pt_BR.po (gnome-settings-daemon)  #-#-#-#-#\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  pt_BR.po (gnome-control-center)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Country: BRAZIL\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
 msgstr "Habilitar código de depuração"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Não verifica se a área de notificação existe"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Monitor de digitação"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"O monitor de digitação usa a área de notificação para mostrar informações. "
-"Não parece haver uma área de notificação no seu painel. Você pode adicioná-"
-"la clicando no painel com o botão direito e escolhendo \"Adicionar ao painel"
-"\", selecionando \"Área de notificação\" e clicando em \"Adicionar\"."
+#: ../src/drwright.c:168
+#| msgid "Typing Break Preferences"
+msgid "Typing Break Reminder"
+msgstr "Lembrete de intervalo de digitação"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "_Fazer uma pausa"
-
-#: ../../../po/../src/drwright.c:441
-msgid "Disabled"
-msgstr "Desabilitado"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:171
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "%d minuto até o próximo intervalo"
-msgstr[1] "%d minutos até o próximo intervalo"
+#| msgid "%d minute until the next break"
+#| msgid_plural "%d minutes until the next break"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "Aproximadamente %d minuto até o próximo intervalo"
+msgstr[1] "Aproximadamente %d minutos até o próximo intervalo"
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
+#: ../src/drwright.c:177
+#| msgid "Less than one minute until the next break"
+msgid "Less than one minute to the next break."
 msgstr "Menos de um minuto até a próxima pausa"
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
+#: ../src/drwright.c:189
+msgid "Settings…"
 msgstr ""
-"Não foi possível abrir o diálogo de propriedades do intervalo com o seguinte "
-"erro: %s"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Escrito por Richard Hult <richard@imendio.com>"
+#: ../src/drwright.c:193
+#| msgid "_Take a Break"
+msgid "Take Break Now"
+msgstr "Fazer uma pausa"
 
-#: ../../../po/../src/drwright.c:573
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Efeitos visuais adicionados por Anders Carlsson"
-
-#: ../../../po/../src/drwright.c:582
-msgid "A computer break reminder."
-msgstr "Um lembrete para uma pausa ao utilizar o computador"
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr ""
-"Ivan Passos <ivan@cyclades.com>\n"
-"Sandro Nunes Henrique <sandro@conectiva.com.br>\n"
-"Gustavo Maciel Dias Vieira <gustavo@sagui.org>\n"
-"Tiago Cardoso Menezes <zion@via-rs.net>\n"
-"Evandro Fernandes Giovanini <evandrofg@ig.com.br>\n"
-"Alex Camacho Castilho <gnomebr@uol.com.br>\n"
-"Guilherme de S. Pastore <gpastore@colband.com.br>\n"
-"Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
-"Luiz Armesto <luiz.armesto@gmail.com>\n"
-"Og Maciel <ogmaciel@ubuntu.com>\n"
-"Washington Lins <washington-lins@uol.com.br>\n"
-"Raul Pereira <contato@raulpereira.com>\n"
-"Jonh Wendell <wendell@bani.com.br>\n"
-"Henrique P Machado <zehrique@gmail.com>\n"
-"Djavan Fagundes <dnoway@gmail.com>\n"
-"André Gondim <andregondim@ubuntu.com>\n"
-"Antonio Fernandes C. Neto <fernandes@pelivre.org>"
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Adiar intervalo"
 
-#: ../../../po/../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "Faça uma pausa!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-#, fuzzy
 msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
-"Número de minutos de tempo de digitação antes de iniciar o modo de pausa"
+"Número de segundos de tempo de digitação antes de iniciar o modo de "
+"interrupção"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-#, fuzzy
 msgid "Number of seconds that the typing break should last"
-msgstr "Número de minutos que o intervalo de digitação deve durar"
+msgstr "Número de segundos que o intervalo de digitação deve durar"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
@@ -182,7 +129,7 @@ msgstr "Frase para desbloquear a tela de pausa"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "Prioridade para usar este plug-in"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
@@ -226,11 +173,3 @@ msgstr "B_loquear a tela para forçar intervalo"
 msgid "_Work interval lasts:"
 msgstr "Intervalo de _trabalho dura:"
 
-#~ msgid "Take a break now (next in %dm)"
-#~ msgstr "Faça uma pausa agora (próxima em %dm)"
-
-#~ msgid "Take a break now (next in less than one minute)"
-#~ msgstr "Faça uma pausa agora (próxima em menos de um minuto)"
-
-#~ msgid "minutes"
-#~ msgstr "minutos"
