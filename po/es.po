@@ -37,15 +37,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2011-02-19 15:05+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&component=general\n"
+"POT-Creation-Date: 2011-03-03 22:35+0000\n"
+"PO-Revision-Date: 2011-03-06 16:13+0100\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "#-#-#-#-#  es.po (drwright.HEAD)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.0.2\n"
 "#-#-#-#-#  es.po (gnome-settings-daemon.HEAD)  #-#-#-#-#\n"
@@ -55,92 +56,48 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
 msgstr "Activar el código de depuración"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "No comprobar si existe el área de notificación"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Monitor de tecleo"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"El monitor de tecleo utiliza el área de notificación para mostrar "
-"información. Parece que usted no tiene el área de notificación en su panel. "
-"Puede añadirla pulsando con el botón derecho sobre el panel y seleccionando "
-"«Añadir al panel», seleccionando «Área de notificación» y pulsando en "
-"«Añadir»."
+#: ../src/drwright.c:168
+#| msgid "Break reminder"
+msgid "Typing Break Reminder"
+msgstr "Recordador de descansos de escritura"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "_Tomar un descanso"
-
-#: ../../../po/../src/drwright.c:441
-msgid "Disabled"
-msgstr "Desactivado"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:171
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "%d minuto hasta su siguiente descanso"
-msgstr[1] "%d minutos hasta su siguiente descanso"
+#| msgid "%d minute until the next break"
+#| msgid_plural "%d minutes until the next break"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "%d minuto hasta su siguiente descanso."
+msgstr[1] "%d minutos hasta su siguiente descanso."
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "Menos de un minuto hasta el siguiente descanso"
+#: ../src/drwright.c:177
+#| msgid "Less than one minute until the next break"
+msgid "Less than one minute to the next break."
+msgstr "Menos de un minuto hasta el siguiente descanso."
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"No se puede mostrar el diálogo de las propiedades del descanso de escritura "
-"por el siguiente error: %s"
+#: ../src/drwright.c:189
+#| msgid "X Settings"
+msgid "Settings…"
+msgstr "Configuración…"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Escrito por Richard Hult <richard@imendio.com>"
+#: ../src/drwright.c:193
+#| msgid "_Take a Break"
+msgid "Take Break Now"
+msgstr "Tomar un descanso ahora"
 
-#: ../../../po/../src/drwright.c:573
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Interfaz más agradable añadida por Anders Carlsson"
-
-#: ../../../po/../src/drwright.c:582
-msgid "A computer break reminder."
-msgstr "Un recordatorio para los descansos frente al equipo."
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr ""
-"Jorge González <jorgegonz@svn.gnome.org>, 2007, 2010\n"
-"Traductores anteriores:\n"
-"Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007\n"
-"Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, "
-"2006\n"
-"Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998-2001\n"
-"Carlos Perelló Marín <carlos@gnome-db.org>, 2001\n"
-"Héctor García Álvarez <hector@scouts-es.org>, 2001\n"
-"QA: Germán Poo Caamaño <gpoo@ubiobio.cl>, 2002\n"
-"Lucas Di Pentima <lucas@lunix.com.ar>, 2002\n"
-"Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002, 2003"
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Posponer el descanso"
 
-#: ../../../po/../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "¡Tómese un descanso!"
 
@@ -204,6 +161,54 @@ msgstr "B_loquear la pantalla para forzar un descanso de escritura"
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "D_uración del intervalo de trabajo:"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "No comprobar si existe el área de notificación"
+
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "El monitor de tecleo utiliza el área de notificación para mostrar "
+#~ "información. Parece que usted no tiene el área de notificación en su "
+#~ "panel. Puede añadirla pulsando con el botón derecho sobre el panel y "
+#~ "seleccionando «Añadir al panel», seleccionando «Área de notificación» y "
+#~ "pulsando en «Añadir»."
+
+#~ msgid "Disabled"
+#~ msgstr "Desactivado"
+
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "No se puede mostrar el diálogo de las propiedades del descanso de "
+#~ "escritura por el siguiente error: %s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Escrito por Richard Hult <richard@imendio.com>"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "Interfaz más agradable añadida por Anders Carlsson"
+
+#~ msgid "A computer break reminder."
+#~ msgstr "Un recordatorio para los descansos frente al equipo."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Jorge González <jorgegonz@svn.gnome.org>, 2007, 2010\n"
+#~ "Traductores anteriores:\n"
+#~ "Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007\n"
+#~ "Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, "
+#~ "2006\n"
+#~ "Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998-2001\n"
+#~ "Carlos Perelló Marín <carlos@gnome-db.org>, 2001\n"
+#~ "Héctor García Álvarez <hector@scouts-es.org>, 2001\n"
+#~ "QA: Germán Poo Caamaño <gpoo@ubiobio.cl>, 2002\n"
+#~ "Lucas Di Pentima <lucas@lunix.com.ar>, 2002\n"
+#~ "Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002, 2003"
 
 #~ msgid "Take a break now (next in %dm)"
 #~ msgstr "Descansar ahora (el siguiente en %dm)"
@@ -325,9 +330,6 @@ msgstr "D_uración del intervalo de trabajo:"
 
 #~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 #~ msgstr "Escrito por Richard Hult &lt;richard@imendo.com&gt;"
-
-#~ msgid "Break reminder"
-#~ msgstr "Recordador de descansos"
 
 #~ msgid "_Postpone break"
 #~ msgstr "_Posponer descanso"
@@ -1375,9 +1377,6 @@ msgstr "D_uración del intervalo de trabajo:"
 
 #~ msgid "Manage X Settings"
 #~ msgstr "Gestionar los ajustes de las X"
-
-#~ msgid "X Settings"
-#~ msgstr "Ajustes de las X"
 
 #~ msgid "Module Path"
 #~ msgstr "Ruta del módulo"
