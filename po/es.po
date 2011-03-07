@@ -33,15 +33,16 @@
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
 # Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007.
 # Jorge González <jorgegonz@svn.gnome.org>, 2008, 2007, 2009, 2010, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=drwright&component=general\n"
-"POT-Creation-Date: 2011-03-03 22:35+0000\n"
-"PO-Revision-Date: 2011-03-06 16:13+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"POT-Creation-Date: 2011-03-06 23:25+0000\n"
+"PO-Revision-Date: 2011-03-07 12:44+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,31 +66,25 @@ msgid "Typing Monitor"
 msgstr "Monitor de tecleo"
 
 #: ../src/drwright.c:168
-#| msgid "Break reminder"
 msgid "Typing Break Reminder"
 msgstr "Recordador de descansos de escritura"
 
 #: ../src/drwright.c:171
 #, c-format
-#| msgid "%d minute until the next break"
-#| msgid_plural "%d minutes until the next break"
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "%d minuto hasta su siguiente descanso."
 msgstr[1] "%d minutos hasta su siguiente descanso."
 
 #: ../src/drwright.c:177
-#| msgid "Less than one minute until the next break"
 msgid "Less than one minute to the next break."
 msgstr "Menos de un minuto hasta el siguiente descanso."
 
 #: ../src/drwright.c:189
-#| msgid "X Settings"
 msgid "Settings…"
 msgstr "Configuración…"
 
 #: ../src/drwright.c:193
-#| msgid "_Take a Break"
 msgid "Take Break Now"
 msgstr "Tomar un descanso ahora"
 
@@ -134,12 +129,14 @@ msgid "Whether typing break is enabled"
 msgstr "Indica si el descanso de tecleo está activado"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Typing Break Preferences"
-msgstr "Preferencias del descanso de tecleo"
+#| msgid "Enable typing breaks plugin"
+msgid "Change typing break settings"
+msgstr "Cambiar la configuración de los descansos de escritura"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr "Panel de preferencias del descanso de tecleo"
+#| msgid "Typing Break Reminder"
+msgid "Typing Break"
+msgstr "Descanso de escritura"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -161,6 +158,12 @@ msgstr "B_loquear la pantalla para forzar un descanso de escritura"
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "D_uración del intervalo de trabajo:"
+
+#~ msgid "Typing Break Preferences"
+#~ msgstr "Preferencias del descanso de tecleo"
+
+#~ msgid "Typing Break preferences panel"
+#~ msgstr "Panel de preferencias del descanso de tecleo"
 
 #~ msgid "Don't check whether the notification area exists"
 #~ msgstr "No comprobar si existe el área de notificación"
@@ -727,9 +730,6 @@ msgstr "D_uración del intervalo de trabajo:"
 #~ msgid "Enable sound plugin"
 #~ msgstr "Activar el complemento de sonido"
 
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Activar el complemento de descanso de escritura"
-
 #~ msgid "Enable xrdb plugin"
 #~ msgstr "Activar el complemento de xrdb"
 
@@ -997,8 +997,8 @@ msgstr "D_uración del intervalo de trabajo:"
 #~ "keyboard works."
 #~ msgstr ""
 #~ "Acaba de pulsar dos teclas a la vez, o ha pulsado la tecla «Mayúsculas» 5 "
-#~ "veces seguidas. Esto desactiva la característica de «Teclas "
-#~ "persistentes», lo cual afecta a la forma en que funciona su teclado."
+#~ "veces seguidas. Esto desactiva la característica de «Teclas persistentes», "
+#~ "lo cual afecta a la forma en que funciona su teclado."
 
 #~ msgid "Sticky Keys Alert"
 #~ msgstr "Alerta de teclas persistentes"
@@ -2041,8 +2041,7 @@ msgstr "D_uración del intervalo de trabajo:"
 #~ msgid ""
 #~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
 #~ "disabled."
-#~ msgstr ""
-#~ "Si reasigna la combinación a «%s» se desactivará la combinación «%s»."
+#~ msgstr "Si reasigna la combinación a «%s» se desactivará la combinación «%s»."
 
 #~ msgid "_Reassign"
 #~ msgstr "_Reasignar"
@@ -4970,5 +4969,4 @@ msgstr "D_uración del intervalo de trabajo:"
 #~ msgstr "No hay establecido ningún grupo para el URI «%s»"
 
 #~ msgid "No application with name '%s' registered a bookmark for '%s'"
-#~ msgstr ""
-#~ "Ninguna aplicación con el nombre «%s» registró un marcador para «%s»"
+#~ msgstr "Ninguna aplicación con el nombre «%s» registró un marcador para «%s»"
