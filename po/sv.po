@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-06 20:29+0100\n"
-"PO-Revision-Date: 2011-03-06 20:31+0100\n"
+"POT-Creation-Date: 2011-04-09 10:17+0200\n"
+"PO-Revision-Date: 2011-04-09 10:18+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -25,7 +25,7 @@ msgstr "Aktivera felsökningskod"
 # Osäker
 #: ../src/main.c:64
 msgid "Typing Monitor"
-msgstr "Skrivandeövervakare"
+msgstr "Skrivningsövervakare"
 
 #: ../src/drwright.c:168
 msgid "Typing Break Reminder"
@@ -87,12 +87,12 @@ msgid "Whether typing break is enabled"
 msgstr "Huruvida skrivpauser är aktiverade"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Typing Break Preferences"
-msgstr "Inställningar för skrivpauser"
+msgid "Change typing break settings"
+msgstr "Ändra inställningar för skrivpauser"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr "Inställningspanel för skrivpauser"
+msgid "Typing Break"
+msgstr "Skrivpauser"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -115,6 +115,10 @@ msgstr "_Lås skärmen för att tvinga fram skrivpaus"
 msgid "_Work interval lasts:"
 msgstr "_Arbetsintervallet varar:"
 
+#~ msgid "Typing Break Preferences"
+#~ msgstr "Inställningar för skrivpauser"
+#~ msgid "Typing Break preferences panel"
+#~ msgstr "Inställningspanel för skrivpauser"
 #~ msgid "Don't check whether the notification area exists"
 #~ msgstr "Kontrollera inte huruvida notifieringsytan finns eller inte"
 
@@ -488,8 +492,6 @@ msgstr "_Arbetsintervallet varar:"
 #~ msgstr "Aktivera insticksmodulen för möss"
 #~ msgid "Enable sound plugin"
 #~ msgstr "Aktivera insticksmodulen för ljud"
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Aktivera insticksmodulen för paus i skrivande"
 #~ msgid "Enable xrandr plugin"
 #~ msgstr "Aktivera insticksmodulen xrandr"
 #~ msgid "Enable xrdb plugin"
