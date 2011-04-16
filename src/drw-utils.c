@@ -19,6 +19,8 @@
  */
 
 #include <config.h>
+#include <unistd.h>
+#include <gio/gio.h>
 #include <gdk/gdk.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gtk/gtk.h>
@@ -222,3 +224,14 @@ drw_setup_background (GtkWidget *window)
 	}
 }
 
+static gboolean
+drw_is_program_in_path (const char *program)
+{
+	char *tmp = g_find_program_in_path (program);
+	if (tmp != NULL) {
+		g_free (tmp);
+		return TRUE;
+	} else {
+		return FALSE;
+	}
+}

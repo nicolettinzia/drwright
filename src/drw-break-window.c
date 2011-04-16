@@ -22,6 +22,7 @@
 
 #include <config.h>
 #include <string.h>
+#include <unistd.h>
 #include <math.h>
 #include <glib/gi18n.h>
 #include <gio/gio.h>
@@ -52,6 +53,8 @@ struct _DrwBreakWindowPrivate {
 	guint      postpone_delay;
 	gint       elapsed_idle_time;
 
+        gboolean   enable_lock;
+
 	GSettings *settings;
 };
 
@@ -67,11 +70,18 @@ struct _DrwBreakWindowPrivate {
 enum {
 	DONE,
 	POSTPONE,
+	LOCK,
 	LAST_SIGNAL
+};
+
+enum {
+        PROP_0,
+        PROP_ENABLE_LOCK
 };
 
 static void         drw_break_window_class_init    (DrwBreakWindowClass *klass);
 static void         drw_break_window_init          (DrwBreakWindow      *window);
+static void         drw_break_window_constructed   (GObject             *object);
 static void         drw_break_window_finalize      (GObject             *object);
 static void         drw_break_window_dispose       (GObject             *object);
 static gboolean     postpone_sensitize_cb          (DrwBreakWindow      *window);
@@ -84,10 +94,30 @@ G_DEFINE_TYPE (DrwBreakWindow, drw_break_window, GTK_TYPE_WINDOW)
 static guint signals[LAST_SIGNAL];
 
 static void
+drw_break_window_set_property (GObject      *object,
+                               guint         property_id,
+                               const GValue *value,
+                               GParamSpec   *pspec)
+{
+        DrwBreakWindow *window = DRW_BREAK_WINDOW (object);
+        DrwBreakWindowPrivate *priv = window->priv;
+
+        switch (property_id) {
+                case PROP_ENABLE_LOCK:
+                        priv->enable_lock = g_value_get_boolean (value);
+                        break;
+                default:
+                        G_OBJECT_WARN_INVALID_PROPERTY_ID (object, property_id, pspec);
+        }
+}
+
+static void
 drw_break_window_class_init (DrwBreakWindowClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
+        object_class->set_property = drw_break_window_set_property;
+        object_class->constructed = drw_break_window_constructed;
         object_class->finalize = drw_break_window_finalize;
         object_class->dispose = drw_break_window_dispose;
 
@@ -100,6 +130,16 @@ drw_break_window_class_init (DrwBreakWindowClass *klass)
 			      g_cclosure_marshal_VOID__VOID,
 			      G_TYPE_NONE, 0);
 
+	signals[LOCK] =
+		g_signal_new ("lock",
+			      G_TYPE_FROM_CLASS (klass),
+			      G_SIGNAL_RUN_LAST,
+			      0,
+			      NULL, NULL,
+			      g_cclosure_marshal_VOID__VOID,
+			      G_TYPE_NONE, 0);
+
+	signals[DONE] =
 	signals[DONE] =
 		g_signal_new ("done",
 			      G_TYPE_FROM_CLASS (klass),
@@ -109,13 +149,35 @@ drw_break_window_class_init (DrwBreakWindowClass *klass)
 			      g_cclosure_marshal_VOID__VOID,
 			      G_TYPE_NONE, 0);
 
+        g_object_class_install_property
+                (object_class,
+                 PROP_ENABLE_LOCK,
+                 g_param_spec_boolean ("enable-lock", NULL, NULL,
+                                       FALSE,
+                                       G_PARAM_WRITABLE |
+                                       G_PARAM_CONSTRUCT_ONLY |
+                                       G_PARAM_STATIC_STRINGS));
+
 	g_type_class_add_private (klass, sizeof (DrwBreakWindowPrivate));
+}
+
+static void
+lock_clicked_cb (GtkWidget *button, DrwBreakWindow *window)
+{
+	g_signal_emit (window, signals[LOCK], 0, NULL);
 }
 
 static void
 drw_break_window_init (DrwBreakWindow *window)
 {
-	DrwBreakWindowPrivate *priv;
+        window->priv = DRW_BREAK_WINDOW_GET_PRIVATE (window);
+}
+
+static void
+drw_break_window_constructed (GObject *object)
+{
+        DrwBreakWindow        *window = DRW_BREAK_WINDOW (object);
+	DrwBreakWindowPrivate *priv = window->priv;
 	GtkWidget             *vbox;
 	GtkWidget             *hbox;
 	GtkWidget             *align;
@@ -124,6 +186,7 @@ drw_break_window_init (DrwBreakWindow *window)
 	GtkWidget             *outer_vbox;
 	GtkWidget             *button_box;
 	gboolean               allow_postpone;
+	GtkWidget             *lock_button;
 
 	gint                   root_monitor = 0;
 	GdkScreen             *screen = NULL;
@@ -131,8 +194,6 @@ drw_break_window_init (DrwBreakWindow *window)
 	gint                   right_padding;
 	gint                   bottom_padding;
 
-	priv = DRW_BREAK_WINDOW_GET_PRIVATE (window);
-	window->priv = priv;
 
         priv->settings = g_settings_new (DRW_SETTINGS_SCHEMA_ID);
 
@@ -180,12 +241,17 @@ drw_break_window_init (DrwBreakWindow *window)
 
 	gtk_box_pack_start (GTK_BOX (outer_vbox), align, TRUE, TRUE, 0);
 
-	if (allow_postpone) {
-		button_box = gtk_hbox_new (FALSE, 0);
-		gtk_widget_show (button_box);
+	if (allow_postpone || priv->enable_lock) {
+		button_box = gtk_hbutton_box_new ();
+                gtk_button_box_set_layout (GTK_BUTTON_BOX (button_box), GTK_BUTTONBOX_END);
+                gtk_container_set_border_width (GTK_CONTAINER (button_box), 12);
+                gtk_box_set_spacing (GTK_BOX (button_box), 12);
 
-		gtk_container_set_border_width (GTK_CONTAINER (button_box), 12);
+                gtk_box_pack_start (GTK_BOX (outer_vbox), button_box, FALSE, FALSE, 0);
+                gtk_widget_show (button_box);
+        }
 
+        if (allow_postpone) {
 		priv->postpone_button = gtk_button_new_with_mnemonic (_("_Postpone Break"));
                 gtk_button_set_focus_on_click (GTK_BUTTON (priv->postpone_button), FALSE);
 		gtk_widget_show (priv->postpone_button);
@@ -209,9 +275,17 @@ drw_break_window_init (DrwBreakWindow *window)
 		gtk_entry_set_has_frame (GTK_ENTRY (priv->postpone_entry), FALSE);
 
 		gtk_box_pack_end (GTK_BOX (button_box), priv->postpone_entry, FALSE, TRUE, 4);
-
-		gtk_box_pack_end (GTK_BOX (outer_vbox), button_box, FALSE, TRUE, 0);
 	}
+
+        if (priv->enable_lock) {
+                lock_button = gtk_button_new_with_mnemonic (_("_Lock Screen"));
+                gtk_widget_show (lock_button);
+                gtk_box_pack_start (GTK_BOX (button_box), lock_button, FALSE, FALSE, 0);
+                g_signal_connect (lock_button,
+                                  "clicked",
+                                  G_CALLBACK (lock_clicked_cb),
+                                  window);
+        }
 
 	vbox = gtk_vbox_new (FALSE, 0);
 	gtk_widget_show (vbox);
@@ -236,7 +310,6 @@ drw_break_window_init (DrwBreakWindow *window)
 	g_free (str);
 
 	gtk_box_pack_start (GTK_BOX (hbox), priv->break_label, FALSE, FALSE, 12);
-
 
 	priv->clock_label = gtk_label_new (NULL);
 	gtk_misc_set_alignment (GTK_MISC (priv->clock_label), 0.5, 0.5);
@@ -310,7 +383,7 @@ drw_break_window_dispose (GObject *object)
 }
 
 GtkWidget *
-drw_break_window_new (void)
+drw_break_window_new (gboolean enable_lock)
 {
 	GObject *object;
 
@@ -319,6 +392,7 @@ drw_break_window_new (void)
 			       "skip-taskbar-hint", TRUE,
 			       "skip-pager-hint", TRUE,
 			       "focus-on-map", TRUE,
+                               "enable-lock", enable_lock,
 			       NULL);
 
 	return GTK_WIDGET (object);

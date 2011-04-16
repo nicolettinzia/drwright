@@ -23,7 +23,6 @@
 
 #include <gtk/gtk.h>
 
-void drw_setup_background (GtkWidget *window);
-
+void     drw_setup_background (GtkWidget *window);
 
 #endif /* __DRW_UTILS_H__ */

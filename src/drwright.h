@@ -27,4 +27,6 @@ typedef struct _DrWright DrWright;
 
 DrWright *drwright_new (void);
 
+gboolean  drwright_can_lock_screen (DrWright *dr);
+
 #endif /* __DR_WRIGHT_H__ */

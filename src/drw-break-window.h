@@ -48,7 +48,7 @@ struct _DrwBreakWindowClass {
 };
 
 GType       drw_break_window_get_type (void) G_GNUC_CONST;
-GtkWidget * drw_break_window_new      (void);
+GtkWidget * drw_break_window_new      (gboolean can_lock);
 void        drw_break_window_set_elapsed_idle_time (DrwBreakWindow *window,
                                                     gint seconds);
 

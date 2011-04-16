@@ -53,6 +53,8 @@ typedef enum {
 struct _DrWright {
         GSettings      *settings;
 
+        GDBusProxy     *screensaver_proxy;
+
 	/* Widgets. */
 	GtkWidget      *break_window;
 	GList          *secondary_break_windows;
@@ -84,11 +86,54 @@ static void     break_window_done_cb           (GtkWidget      *window,
 						DrWright       *dr);
 static void     break_window_postpone_cb       (GtkWidget      *window,
 						DrWright       *dr);
+static void     break_window_lock_cb           (GtkWidget      *window,
+						DrWright       *dr);
 static void     break_window_destroy_cb        (GtkWidget      *window,
 						DrWright       *dr);
 static GList *  create_secondary_break_windows (void);
 
 extern gboolean debug;
+
+#define GNOME_SCREENSAVER_BUS_NAME      "org.gnome.ScreenSaver"
+#define GNOME_SCREENSAVER_OBJECT_PATH   "/org/gnome/ScreenSaver"
+#define GNOME_SCREENSAVER_INTERFACE     "org.gnome.ScreenSaver"
+
+/* FIXMEchpe: make this async! */
+static GDBusProxy *
+get_screensaver_proxy (DrWright *dr)
+{
+        GDBusConnection *connection;
+        GVariant *result;
+        GError *error = NULL;
+
+        if (dr->screensaver_proxy != NULL)
+                return dr->screensaver_proxy;
+
+        connection = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
+        if (connection == NULL)
+                return NULL;
+
+        dr->screensaver_proxy =
+          g_dbus_proxy_new_sync (connection,
+                                 G_DBUS_PROXY_FLAGS_DO_NOT_LOAD_PROPERTIES |
+                                 G_DBUS_PROXY_FLAGS_DO_NOT_CONNECT_SIGNALS |
+                                 G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
+                                 NULL,
+                                 GNOME_SCREENSAVER_BUS_NAME,
+                                 GNOME_SCREENSAVER_OBJECT_PATH,
+                                 GNOME_SCREENSAVER_INTERFACE,
+                                 NULL,
+                                 NULL);
+        g_object_unref (connection);
+
+        return dr->screensaver_proxy;
+}
+
+gboolean
+drwright_can_lock_screen (DrWright *dr)
+{
+        return get_screensaver_proxy (dr) != NULL;
+}
 
 static void
 notification_action_cb (NotifyNotification *notification,
@@ -304,7 +349,7 @@ maybe_change_state (DrWright *dr)
 
 		drw_timer_start (dr->timer);
 
-		dr->break_window = drw_break_window_new ();
+		dr->break_window = drw_break_window_new (drwright_can_lock_screen (dr));
 
 		drw_break_window_set_elapsed_idle_time (DRW_BREAK_WINDOW (dr->break_window),
 		                                        elapsed_idle_time);
@@ -321,6 +366,11 @@ maybe_change_state (DrWright *dr)
 		g_signal_connect (dr->break_window,
 				  "postpone",
 				  G_CALLBACK (break_window_postpone_cb),
+				  dr);
+
+		g_signal_connect (dr->break_window,
+				  "lock",
+				  G_CALLBACK (break_window_lock_cb),
 				  dr);
 
 		g_signal_connect (dr->break_window,
@@ -424,6 +474,51 @@ break_window_postpone_cb (GtkWidget *window,
 
 	drw_timer_start (dr->timer);
 	maybe_change_state (dr);
+}
+
+static void
+screensaver_locked_cb (GDBusProxy *proxy,
+                       GAsyncResult *result,
+                       DrWright *dr)
+{
+  GVariant *variant;
+
+  variant = g_dbus_proxy_call_finish (proxy, result, NULL);
+  if (variant == NULL)
+          return;
+
+  g_variant_unref (variant);
+
+  /* We keep the break window. If the user unlocks before the break is up,
+   * it'll still prevent typing; otherwise the timeout will have killed
+   * it in the meantime.
+   *
+   * FIXME: make sure we don't go to 'break' again while the screen is
+   * locked.
+   */
+}
+
+static void
+break_window_lock_cb (GtkWidget *window,
+		      DrWright  *dr)
+{
+        GDBusProxy *proxy;
+
+        proxy = get_screensaver_proxy (dr);
+        if (proxy == NULL)
+                return;
+
+        /* ungrab the keyboard so the screensaver can start */
+	gdk_keyboard_ungrab (GDK_CURRENT_TIME);
+
+        g_dbus_proxy_call (proxy,
+                           "Lock",
+                           g_variant_new ("()"),
+                           G_DBUS_CALL_FLAGS_NONE,
+                           -1,
+                           NULL,
+                           (GAsyncReadyCallback) screensaver_locked_cb,
+                           dr);
 }
 
 static void
