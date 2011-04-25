@@ -3,40 +3,37 @@
 # gnome-control-center for Latvian.
 # Copyright (C) 2001, 2006, 2007 Free Software Foundation, Inc.
 #
-# Artis Trops <hornet@navigators.lv>, 2001.
-# Raivis Dejus <orvils@gmail.com>, 2006, 2007.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
 # #-#-#-#-#  lv.po (lv)  #-#-#-#-#
 # translation of lv.po to Latvian
 # gnome-control-center for Latvian.
 # Copyright (C) 2001, 2006, 2007 Free Software Foundation, Inc.
 #
-# Artis Trops <hornet@navigators.lv>, 2001.
-# Raivis Dejus <orvils@gmail.com>, 2006, 2007.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
 # #-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#
 # translation of gnome-control-center.HEAD.lv.po to Latvian
 # gnome-control-center for Latvian.
 # Copyright (C) 2001, 2006, 2007, 2009 Free Software Foundation, Inc.
 #
 # Artis Trops <hornet@navigators.lv>, 2001.
+# Raivis Dejus <orvils@gmail.com>, 2006, 2007.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
 # Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
 # Anita Reitere <nitalynx@gmail.com>, 2010.
-#, fuzzy
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD.lv\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2010-04-21 12:59+0300\n"
-"Last-Translator: Anita Reitere <nitalynx@gmail.com>\n"
-"Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=drwright&component=general\n"
+"POT-Creation-Date: 2011-03-06 23:25+0000\n"
+"PO-Revision-Date: 2011-04-18 23:03+0300\n"
+"Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.1\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
@@ -48,186 +45,97 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
 msgstr "Ieslēgt atkļūdošans kodu"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Nepārbaudīt, vai eksistē paziņojumu apgabals"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Drukāšanas pārraugs"
 
-#: ../../../po/../src/main.c:103
-#, fuzzy
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Drukāšanas pzrraugs izmanto paziņojumu lauku lai uzrādītu displeja "
-"informāciju. Šķiet ka Jums nav paziņojumu lauka uz Jūsu paneļa. Jūs varat "
-"pievienot to klikšķinot ar labo peles taustinju uz Jūsu paneļa un izvēloties "
-"'Pievienot panelim', izvēloties 'Paziņoumu lauks' un uzklikšķinot uz "
-"'Pievienot'.\n"
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Drukāšanas pzrraugs izmanto paziņojumu lauku lai uzrādītu displeja "
-"informāciju. Šķiet ka Jums nav paziņojumu lauka uz Jūsu paneļa. Jūs varat "
-"pievienot to klikšķinot ar labo peles taustinju uz Jūsu paneļa un izvēloties "
-"'Pievienot panelim', izvēloties 'Paziņoumu lauks' un uzklikšķinot uz "
-"'Pievienot'.\n"
-"#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-"Drukāšanas pārraugs rāda informāciju paziņojumu laukā. Šķiet, uz jūsu paneļa "
-"tāda nav. To var pievienot, klikšķinot ar labo peles taustiņu uz paneļa un "
-"izvēloties 'Pievienot panelim', tad 'Paziņojumu lauks', un tad 'Pievienot'."
+#: ../src/drwright.c:168
+msgid "Typing Break Reminder"
+msgstr "Rakstīšanas pārtraukuma atgādinātājs"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "Laiks a_tpūtai"
-
-#: ../../../po/../src/drwright.c:441
-#, fuzzy
-msgid "Disabled"
-msgstr ""
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Deaktivizēts\n"
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Deaktivizēts\n"
-"#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-"Atslēgts"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:171
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "%d minūte līdz nākamajam pārtraukumam"
-msgstr[1] "%d minūtes līdz nākamajam pārtraukumam"
-msgstr[2] "%d minūšu līdz nākamajam pārtraukumam"
+#| msgid "%d minute until the next break"
+#| msgid_plural "%d minutes until the next break"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "Apmēram %d minūte līdz nākamajam pārtraukumam."
+msgstr[1] "Apmēram %d minūtes līdz nākamajam pārtraukumam."
+msgstr[2] "Apmēram %d minūšu līdz nākamajam pārtraukumam."
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "Mazāk par vienu minūti līdz nākamajam pārtraukumam"
+#: ../src/drwright.c:177
+#| msgid "Less than one minute until the next break"
+msgid "Less than one minute to the next break."
+msgstr "Mazāk par vienu minūti līdz nākamajam pārtraukumam."
 
-#: ../../../po/../src/drwright.c:553
-#, fuzzy, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Neizdevās parādīt drukāšanas pārtraukumu uzstādījumu izvēlni ar sekojošām "
-"kļūdām: %s\n"
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Neizdevās parādīt drukāšanas pārtraukumu uzstādījumu izvēlni ar sekojošām "
-"kļūdām: %s\n"
-"#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-"Neizdevās parādīt drukāšanas pārtraukumu iestatījumu logu. Kļūda: %s"
+#: ../src/drwright.c:189
+#| msgid "X Settings"
+msgid "Settings…"
+msgstr "Iestatījumi…"
 
-#: ../../../po/../src/drwright.c:572
-#, fuzzy
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr ""
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Ričarda Hulta rakstīts <richard@imendio.com>\n"
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Ričarda Hulta rakstīts <richard@imendio.com>\n"
-"#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-"Programmētājs: Richard Hult <richard@imendio.com>"
+#: ../src/drwright.c:193
+#| msgid "_Take a Break"
+msgid "Take Break Now"
+msgstr "Tagad atpūsties"
 
-#: ../../../po/../src/drwright.c:573
-#, fuzzy
-msgid "Eye candy added by Anders Carlsson"
-msgstr ""
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Acs konfekte pievienota Adersam Karlssonam\n"
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Acs konfekte pievienota Adersam Karlssonam\n"
-"#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-"Noformētājs: Anders Carlsson"
-
-#: ../../../po/../src/drwright.c:582
-msgid "A computer break reminder."
-msgstr "Datora pārtraukuma atgādinātājs."
-
-#: ../../../po/../src/drwright.c:584
-#, fuzzy
-msgid "translator-credits"
-msgstr ""
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Raivis Dejus <orvils@gmail.com>\n"
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Raivis Dejus <orvils@gmail.com>\n"
-"#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-"Raivis Dejus <orvils@gmail.com> Anita Reitere <nitalynx@gmail.com>"
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Atlikt pārtraukumu"
 
-#: ../../../po/../src/drw-break-window.c:234
-#, fuzzy
+#: ../src/drw-break-window.c:234
 msgid "Take a break!"
-msgstr ""
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Aiziet atpūties!\n"
-"#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-"Aiziet atpūties!\n"
-"#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-"Laiks atpūtai!"
+msgstr "Aiziet atpūties!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
 msgid "Number of seconds of typing time before break mode starts"
-msgstr ""
+msgstr "Pēc cik ilga rakstīšanas laika sekundēs sāksies pārtraukuma režīms"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
 msgid "Number of seconds that the typing break should last"
-msgstr ""
+msgstr "Cik garai būtu jābūt rakstīšanas pauzei (sekundēs)"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
-msgstr ""
+msgstr "Parole, ar ko atslēgt pārtraukuma ekrānu"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "Prioritāte, ko izmantot šim spraudnim"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
+"Vai iestatījumu dēmonam vajadzētu aktivēt rakstīšanas pārtraukumu spraudni"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-#, fuzzy
 msgid "Whether the typing break can be postponed"
-msgstr "Vai ekrāna lasītājs ir ieslēgts."
+msgstr "Vai rakstīšanas pauzi var pārcelt uz vēlāku laiku"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
-#, fuzzy
 msgid "Whether typing break is enabled"
-msgstr "Vai ekrāna lasītājs ir ieslēgts."
+msgstr "Vai rakstīšanas pārtraukums ir aktivēts"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#, fuzzy
-msgid "Typing Break Preferences"
-msgstr "Tēmas iestatījumi"
+#| msgid "Enable typing breaks plugin"
+msgid "Change typing break settings"
+msgstr "Mainīt rakstīšanas pārtraukumu iestatījumus"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr ""
+msgid "Typing Break"
+msgstr "Rakstīšanas pārtraukums"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
 msgid "Typing;Break;RSI;Workrave;"
-msgstr ""
+msgstr "Rakstīšana;Pārtraukums;RSI;Workrave;"
 
 #: ../src/drwright-panel.glade.h:1
-#, fuzzy
 msgid "_Allow postponing of breaks"
-msgstr "Atljaut pārtaukumu atlikšanu"
+msgstr "Ļ_aut pārcelt rakstīšanas pārtraukumus"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
@@ -240,6 +148,95 @@ msgstr "S_lēgt ekrānu, lai uzspiestu darba pārtraukumu"
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "_Darba intervāls ilgst:"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "Nepārbaudīt, vai eksistē paziņojumu apgabals"
+
+#, fuzzy
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Drukāšanas pzrraugs izmanto paziņojumu lauku lai uzrādītu displeja "
+#~ "informāciju. Šķiet ka Jums nav paziņojumu lauka uz Jūsu paneļa. Jūs varat "
+#~ "pievienot to klikšķinot ar labo peles taustinju uz Jūsu paneļa un "
+#~ "izvēloties 'Pievienot panelim', izvēloties 'Paziņoumu lauks' un "
+#~ "uzklikšķinot uz 'Pievienot'.\n"
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Drukāšanas pzrraugs izmanto paziņojumu lauku lai uzrādītu displeja "
+#~ "informāciju. Šķiet ka Jums nav paziņojumu lauka uz Jūsu paneļa. Jūs varat "
+#~ "pievienot to klikšķinot ar labo peles taustinju uz Jūsu paneļa un "
+#~ "izvēloties 'Pievienot panelim', izvēloties 'Paziņoumu lauks' un "
+#~ "uzklikšķinot uz 'Pievienot'.\n"
+#~ "#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
+#~ "Drukāšanas pārraugs rāda informāciju paziņojumu laukā. Šķiet, uz jūsu "
+#~ "paneļa tāda nav. To var pievienot, klikšķinot ar labo peles taustiņu uz "
+#~ "paneļa un izvēloties 'Pievienot panelim', tad 'Paziņojumu lauks', un tad "
+#~ "'Pievienot'."
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr ""
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Deaktivizēts\n"
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Deaktivizēts\n"
+#~ "#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
+#~ "Atslēgts"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Neizdevās parādīt drukāšanas pārtraukumu uzstādījumu izvēlni ar sekojošām "
+#~ "kļūdām: %s\n"
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Neizdevās parādīt drukāšanas pārtraukumu uzstādījumu izvēlni ar sekojošām "
+#~ "kļūdām: %s\n"
+#~ "#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
+#~ "Neizdevās parādīt drukāšanas pārtraukumu iestatījumu logu. Kļūda: %s"
+
+#, fuzzy
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr ""
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Ričarda Hulta rakstīts <richard@imendio.com>\n"
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Ričarda Hulta rakstīts <richard@imendio.com>\n"
+#~ "#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
+#~ "Programmētājs: Richard Hult <richard@imendio.com>"
+
+#, fuzzy
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr ""
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Acs konfekte pievienota Adersam Karlssonam\n"
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Acs konfekte pievienota Adersam Karlssonam\n"
+#~ "#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
+#~ "Noformētājs: Anders Carlsson"
+
+#~ msgid "A computer break reminder."
+#~ msgstr "Datora pārtraukuma atgādinātājs."
+
+#, fuzzy
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Raivis Dejus <orvils@gmail.com>\n"
+#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
+#~ "Raivis Dejus <orvils@gmail.com>\n"
+#~ "#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
+#~ "Raivis Dejus <orvils@gmail.com> Anita Reitere <nitalynx@gmail.com>"
+
+#, fuzzy
+#~ msgid "Typing Break Preferences"
+#~ msgstr "Tēmas iestatījumi"
 
 #~ msgid "minutes"
 #~ msgstr "minūtes"
@@ -329,10 +326,6 @@ msgstr "_Darba intervāls ilgst:"
 #~ msgid "About DrWright"
 #~ msgstr "Info zu DrWright"
 
-#, fuzzy
-#~ msgid "Break reminder"
-#~ msgstr "Datora pārtraukuma atgādinātājs."
-
 #~ msgid "File for default configuration for RandR"
 #~ msgstr "Datei mit der Vorgabekonfiguration für RandR"
 
@@ -374,9 +367,9 @@ msgstr "_Darba intervāls ilgst:"
 #~ "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
 #~ "action will get performed when the smartcard used for log in is removed."
 #~ msgstr ""
-#~ "Setzen Sie dies auf »none« (nichts tun), »lock_screen« (Bildschirm "
-#~ "sperren) oder »force_logout« (Abmelden erzwingen). Die Aktion wird "
-#~ "ausgeführt, wenn die zum Anmelden benutzte Smartcard entfernt wird."
+#~ "Setzen Sie dies auf »none« (nichts tun), »lock_screen« (Bildschirm sperren) "
+#~ "oder »force_logout« (Abmelden erzwingen). Die Aktion wird ausgeführt, wenn "
+#~ "die zum Anmelden benutzte Smartcard entfernt wird."
 
 #~ msgid "Smartcard removal action"
 #~ msgstr "Smartcard-Entfernung"
@@ -759,9 +752,6 @@ msgstr "_Darba intervāls ilgst:"
 
 #~ msgid "Enable sound plugin"
 #~ msgstr "Ieslēgt skaņas spraudni"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Ieslēgt rakstīšanas pārtraukšanas spraudni"
 
 #~ msgid "Enable xrdb plugin"
 #~ msgstr "Ieslēgt xrdb spraudni"
@@ -1298,14 +1288,11 @@ msgstr "_Darba intervāls ilgst:"
 
 #~ msgid "GConf key %s set to type %s but its expected type was %s\n"
 #~ msgstr ""
-#~ "GConf atslēga %s ir iestatīta uz tipu %s, bet tai vajadzētu būt ar tipu "
-#~ "%s\n"
+#~ "GConf atslēga %s ir iestatīta uz tipu %s, bet tai vajadzētu būt ar tipu %"
+#~ "s\n"
 
 #~ msgid "Manage X Settings"
 #~ msgstr "Pārvaldīt X iestatījumus"
-
-#~ msgid "X Settings"
-#~ msgstr "X iestatījumi"
 
 #~ msgid "Unknown"
 #~ msgstr "Nezināms"
@@ -1324,16 +1311,6 @@ msgstr "_Darba intervāls ilgst:"
 
 #~ msgid "Mouse Preferences"
 #~ msgstr "Peles iestatījumi"
-
-#, fuzzy
-#~ msgid "Typing Break"
-#~ msgstr ""
-#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-#~ "Rakstīšanas pārtraukums\n"
-#~ "#-#-#-#-#  lv.po (lv)  #-#-#-#-#\n"
-#~ "Rakstīšanas pārtraukums\n"
-#~ "#-#-#-#-#  lv.po (gnome-control-center.HEAD.lv)  #-#-#-#-#\n"
-#~ "Drukāšanas pārtraukums"
 
 #, fuzzy
 #~ msgid "Image/label border"
