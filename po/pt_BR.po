@@ -3,7 +3,6 @@
 # Copyright (C) 2002, Free Software Foundation, Inc.
 # Gustavo Franco <stratus@acm.org>, 2003.
 # Leonardo Ferreira Fontenelle <leo.fontenlle@gmail.com>, 2008.
-#
 # #-#-#-#-#  pt_BR.po (gnome-settings-daemon)  #-#-#-#-#
 # Brazilian Portuguese translation of gnome-control-center.
 # Copyright (C) 1999-2007 Free Software Foundation, Inc.
@@ -26,7 +25,6 @@
 # Vladimir Melo <vmelo@gnome.org>, 2009.
 # Henrique P. Machado <hpmachado@gnome.org>, 2009, 2010.
 # Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010.
-#
 # #-#-#-#-#  pt_BR.po (gnome-control-center)  #-#-#-#-#
 # Brazilian Portuguese translation of GNOME Control Center.
 # Copyright (C) 1999-2008 The GNOME Control Center authors.
@@ -51,22 +49,22 @@
 # Krix Apolinário <krixapolinario@gmail.com>, 2009.
 # Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010.
 # Flamarion Jorge <jorge.flamarion@gmail.com>, 2010.
-#
+# Djavan Fagundes <djavan@comum.org>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=drwright&component=general\n"
-"POT-Creation-Date: 2011-03-03 22:35+0000\n"
-"PO-Revision-Date: 2011-02-25 15:00-0300\n"
-"Last-Translator: Mateus Zenaide <matzenh@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.com>\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=drwright&component=general\n"
+"POT-Creation-Date: 2011-03-06 23:25+0000\n"
+"PO-Revision-Date: 2011-05-03 14:13-0200\n"
+"Last-Translator: Djavan Fagundes <djavan@comum.org>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.6.1\n"
 "X-Poedit-Country: BRAZIL\n"
 
 #: ../src/main.c:40
@@ -78,30 +76,25 @@ msgid "Typing Monitor"
 msgstr "Monitor de digitação"
 
 #: ../src/drwright.c:168
-#| msgid "Typing Break Preferences"
 msgid "Typing Break Reminder"
 msgstr "Lembrete de intervalo de digitação"
 
 #: ../src/drwright.c:171
 #, c-format
-#| msgid "%d minute until the next break"
-#| msgid_plural "%d minutes until the next break"
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "Aproximadamente %d minuto até o próximo intervalo"
 msgstr[1] "Aproximadamente %d minutos até o próximo intervalo"
 
 #: ../src/drwright.c:177
-#| msgid "Less than one minute until the next break"
 msgid "Less than one minute to the next break."
 msgstr "Menos de um minuto até a próxima pausa"
 
 #: ../src/drwright.c:189
 msgid "Settings…"
-msgstr ""
+msgstr "Configurações…"
 
 #: ../src/drwright.c:193
-#| msgid "_Take a Break"
 msgid "Take Break Now"
 msgstr "Fazer uma pausa"
 
@@ -145,12 +138,14 @@ msgid "Whether typing break is enabled"
 msgstr "Se o intervalo de digitação está habilitado"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Typing Break Preferences"
-msgstr "Preferências do intervalo de digitação"
+#| msgid "Whether typing break is enabled"
+msgid "Change typing break settings"
+msgstr "Alterar as configurações do intervalo de digitação"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr "Painel de preferências do intervalo de digitação"
+#| msgid "Typing Break Reminder"
+msgid "Typing Break"
+msgstr "Intervalo de digitação"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
