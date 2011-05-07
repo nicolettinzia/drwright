@@ -1,5 +1,5 @@
 # Hungarian translation of drwright
-# Copyright (C) 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# Copyright (C) 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the drwright package.
 #
 # Szabolcs Ban <shooby at gnome dot hu>, 1998, 1999, 2000.
@@ -8,14 +8,15 @@
 # Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
 # Gabor Sari <saga at gnome dot hu>, 2003.
 # Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
 # Mate ORY <orymate at gmail d0t com>, 2006.
+# Balázs Úr <urbalazs at gmail dot com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2010-12-26 13:02+0100\n"
+"POT-Creation-Date: 2011-05-07 19:17+0200\n"
+"PO-Revision-Date: 2011-05-07 19:21+0200\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
 "Language: \n"
@@ -25,96 +26,52 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
 msgstr "Hibakeresési kód engedélyezése"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Ne ellenőrizze az értesítési terület létezését"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Gépelésfigyelő"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"A gépelésfigyelő az értesítési területet használja információk "
-"megjelenítésére. Úgy tűnik, az Ön paneljén nincs értesítési terület. A panel "
-"helyi menüjében a „Hozzáadás” pont alatt az „Értesítési terület” elemet "
-"kiválasztva hozzáadhatja a panelhez."
+#: ../src/drwright.c:168
+msgid "Typing Break Reminder"
+msgstr "Emlékeztető gépelési szünet tartására"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "_Szünet tartása"
-
-#: ../../../po/../src/drwright.c:441
-msgid "Disabled"
-msgstr "Tiltva"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:171
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "%d perc van hátra a következő szünetig"
-msgstr[1] "%d perc van hátra a következő szünetig"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "Körülbelül %d perc van hátra a következő szünetig."
+msgstr[1] "Körülbelül %d perc van hátra a következő szünetig."
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "Kevesebb mint egy perc van hátra a következő szünetig"
+#: ../src/drwright.c:177
+msgid "Less than one minute to the next break."
+msgstr "Kevesebb mint egy perc van hátra a következő szünetig."
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"A következő hiba miatt nem jeleníthető meg a gépelési szünet "
-"beállításablaka: %s"
+#: ../src/drwright.c:189
+msgid "Settings…"
+msgstr "Beállítások…"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Írta: Richard Hult <richard@imendio.com>"
+#: ../src/drwright.c:193
+msgid "Take Break Now"
+msgstr "Szünet tartása most"
 
-#: ../../../po/../src/drwright.c:573
-msgid "Eye candy added by Anders Carlsson"
-msgstr "A csinosításokat Anders Carlsson végezte"
-
-# FIXME ezt szebben
-#: ../../../po/../src/drwright.c:582
-msgid "A computer break reminder."
-msgstr "Emlékeztető gépelési szünet tartására."
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr ""
-"Dvornik László <dvornik at gnome dot hu>\n"
-"Kelemen Gábor <kelemeng at gnome dot hu>\n"
-"Tímár András <timar at gnome dot hu>"
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "_Szünet elhalasztása"
 
-#: ../../../po/../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:234
 msgid "Take a break!"
 msgstr "Tartson szünetet!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-#, fuzzy
 msgid "Number of seconds of typing time before break mode starts"
-msgstr "Gépelési idő szünet előtt (perc)"
+msgstr "A szünet kezdete előtti gépelési idő másodpercben"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-#, fuzzy
 msgid "Number of seconds that the typing break should last"
-msgstr "Ennyi percig tartson a gépelési szünet"
+msgstr "A gépelési szünet hossza másodpercben"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
@@ -122,7 +79,7 @@ msgstr "A szünet képernyő feloldása ezzel a jelszóval"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "A bővítménnyel használandó prioritás"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
@@ -137,12 +94,12 @@ msgid "Whether typing break is enabled"
 msgstr "A gépelési szünet be van-e kapcsolva"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Typing Break Preferences"
-msgstr "Gépelési szünet beállításai"
+msgid "Change typing break settings"
+msgstr "Gépelési szünet beállításainak módosítása"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr "Gépelési szünet beállítópanel"
+msgid "Typing Break"
+msgstr "Gépelési szünet"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -167,11 +124,3 @@ msgstr "Képernyő záro_lása a gépelési szünet kikényszerítéséhez"
 msgid "_Work interval lasts:"
 msgstr "_Munka időtartama:"
 
-#~ msgid "Take a break now (next in %dm)"
-#~ msgstr "Tartson szünetet most (következő %dp múlva)"
-
-#~ msgid "Take a break now (next in less than one minute)"
-#~ msgstr "Tartson szünetet most (következő egy percen belül)"
-
-#~ msgid "minutes"
-#~ msgstr "perc"
