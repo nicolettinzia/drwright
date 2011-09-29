@@ -13,7 +13,7 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 AC_INIT([Typing Break],
-        [3.0.2],
+        [3.2.0],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=drwright],
         [drwright])
 
@@ -46,7 +46,6 @@ GTK_REQUIRED=3.0.0
 LIBCANBERRA_REQUIRED=0
 LIBNOTIFY_REQUIRED=0.7
 GSD_REQUIRED=2.91.8
-GNOMECC_REQUIRED=2.91.6
 
 # ************
 # Typing Break
