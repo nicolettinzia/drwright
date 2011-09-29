@@ -26,11 +26,18 @@
 #include <errno.h>
 #include <string.h>
 
+#include <gio/gio.h>
+#include <gtk/gtk.h>
+
 #include "drw-cc-panel.h"
 
 #define DRW_SETTINGS_SCHEMA_ID "org.gnome.settings-daemon.plugins.typing-break"
 
-G_DEFINE_DYNAMIC_TYPE (DrwCcPanel, drw_cc_panel, CC_TYPE_PANEL)
+/* from libgnome-control-center */
+#define CC_SHELL_PANEL_EXTENSION_POINT "control-center-1"
+
+static GType drw_cc_panel_type;
+static gpointer drw_cc_panel_parent_class;
 
 #if 0
 #define DRW_PANEL_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), DRW_TYPE_CC_PANEL, DrwCcPanelPrivate))
@@ -142,6 +149,8 @@ drw_cc_panel_class_init (DrwCcPanelClass *klass)
 {
   GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
+  drw_cc_panel_parent_class = g_type_class_peek_parent (klass);
+
   /* g_type_class_add_private (klass, sizeof (DrwCcPanelPrivate)); */
 
   object_class->get_property = drw_cc_panel_get_property;
@@ -220,10 +229,45 @@ drw_cc_panel_init (DrwCcPanel *self)
 }
 
 void
-drw_cc_panel_register (GIOModule *module)
+drw_cc_panel_register_type (GTypeModule *module)
 {
-  drw_cc_panel_register_type (G_TYPE_MODULE (module));
+  GType parent_type, g_define_type_id;
+  GTypeQuery query;
+  GTypeInfo type_info = {
+    0,
+    (GBaseInitFunc) NULL,
+    (GBaseFinalizeFunc) NULL,
+    (GClassInitFunc) drw_cc_panel_class_init,
+    (GClassFinalizeFunc) drw_cc_panel_class_finalize,
+    NULL,
+    0,
+    0,
+    (GInstanceInitFunc) drw_cc_panel_init,
+    NULL
+  };
+
+  parent_type = g_type_from_name ("CcPanel");
+  g_assert (parent_type != G_TYPE_INVALID);
+
+  g_type_query (parent_type, &query);
+  type_info.class_size = query.class_size;
+  type_info.instance_size = query.instance_size;
+
+  g_define_type_id =
+    drw_cc_panel_type =
+      g_type_module_register_type (module,
+                                   parent_type,
+                                   "DrwCcPanel",
+                                   &type_info,
+                                   0);
+
   g_io_extension_point_implement (CC_SHELL_PANEL_EXTENSION_POINT,
-                                  DRW_TYPE_CC_PANEL,
+                                  g_define_type_id,
                                   "typing-break", 0);
+}
+
+GType
+drw_cc_panel_get_type (void)
+{
+  return drw_cc_panel_type;
 }

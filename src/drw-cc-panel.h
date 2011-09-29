@@ -21,7 +21,7 @@
 #ifndef DRW_CC_PANEL_H
 #define DRW_CC_PANEL_H
 
-#include <libgnome-control-center/cc-panel.h>
+#include <glib-object.h>
 
 G_BEGIN_DECLS
 
@@ -51,21 +51,9 @@ typedef struct _DrwCcPanel DrwCcPanel;
 typedef struct _DrwCcPanelClass DrwCcPanelClass;
 typedef struct _DrwCcPanelPrivate DrwCcPanelPrivate;
 
-struct _DrwCcPanel
-{
-  CcPanel parent;
-
-  DrwCcPanelPrivate *priv;
-};
-
-struct _DrwCcPanelClass
-{
-  CcPanelClass parent_class;
-};
-
 GType drw_cc_panel_get_type (void) G_GNUC_CONST;
 
-void  drw_cc_panel_register (GIOModule *module);
+void  drw_cc_panel_register_type (GTypeModule *module);
 
 G_END_DECLS
 

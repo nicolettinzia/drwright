@@ -22,6 +22,8 @@
 
 #include "drw-cc-panel.h"
 
+#include <glib-object.h>
+#include <gio/gio.h>
 #include <glib/gi18n-lib.h>
 
 void
@@ -31,7 +33,7 @@ g_io_module_load (GIOModule *module)
   bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 
   /* register the panel */
-  drw_cc_panel_register (module);
+  drw_cc_panel_register_type (G_TYPE_MODULE (module));
 }
 
 void
