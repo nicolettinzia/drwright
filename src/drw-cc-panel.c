@@ -247,7 +247,10 @@ drw_cc_panel_register_type (GTypeModule *module)
   };
 
   parent_type = g_type_from_name ("CcPanel");
-  g_assert (parent_type != G_TYPE_INVALID);
+  if (parent_type == 0 || !g_type_is_a (parent_type, GTK_TYPE_WIDGET)) {
+    drw_cc_panel_type = G_TYPE_INVALID;
+    return;
+  }
 
   g_type_query (parent_type, &query);
   type_info.class_size = query.class_size;
