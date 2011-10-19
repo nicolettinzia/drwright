@@ -30,6 +30,7 @@ gnome_typing_monitor_CFLAGS = \
 gnome_typing_monitor_LDADD = \
 	$(TYPING_LIBS)		\
 	$(SCREENSAVER_LIBS)	\
+	$(LIBM) \
 	$(INTLLIBS)
 
 imagedir = $(pkgdatadir)/pixmaps
