@@ -223,15 +223,3 @@ drw_setup_background (GtkWidget *window)
 		set_surface_background (window);
 	}
 }
-
-static gboolean
-drw_is_program_in_path (const char *program)
-{
-	char *tmp = g_find_program_in_path (program);
-	if (tmp != NULL) {
-		g_free (tmp);
-		return TRUE;
-	} else {
-		return FALSE;
-	}
-}
