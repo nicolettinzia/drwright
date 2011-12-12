@@ -39,9 +39,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drwright.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=drwright&component=general\n"
-"POT-Creation-Date: 2011-03-06 23:25+0000\n"
-"PO-Revision-Date: 2011-03-07 12:44+0100\n"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-12-11 12:55+0000\n"
+"PO-Revision-Date: 2011-12-12 13:59+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -65,34 +65,39 @@ msgstr "Activar el código de depuración"
 msgid "Typing Monitor"
 msgstr "Monitor de tecleo"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Recordador de descansos de escritura"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "%d minuto hasta su siguiente descanso."
 msgstr[1] "%d minutos hasta su siguiente descanso."
 
-#: ../src/drwright.c:177
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Menos de un minuto hasta el siguiente descanso."
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Configuración…"
 
-#: ../src/drwright.c:193
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Tomar un descanso ahora"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Posponer el descanso"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+#| msgid "Lock Screen"
+msgid "_Lock Screen"
+msgstr "_Bloquear la pantalla"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "¡Tómese un descanso!"
 
@@ -129,12 +134,10 @@ msgid "Whether typing break is enabled"
 msgstr "Indica si el descanso de tecleo está activado"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#| msgid "Enable typing breaks plugin"
 msgid "Change typing break settings"
 msgstr "Cambiar la configuración de los descansos de escritura"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-#| msgid "Typing Break Reminder"
 msgid "Typing Break"
 msgstr "Descanso de escritura"
 
@@ -4731,9 +4734,6 @@ msgstr "D_uración del intervalo de trabajo:"
 
 #~ msgid "No Wallpaper"
 #~ msgstr "Sin tapiz"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Bloquear la pantalla"
 
 #~ msgid "Shutdown"
 #~ msgstr "Apagar"
