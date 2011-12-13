@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drwrite\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=drwright&component=general\n"
-"POT-Creation-Date: 2011-03-06 23:25+0000\n"
-"PO-Revision-Date: 2011-03-12 20:41+0100\n"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-12-11 12:55+0000\n"
+"PO-Revision-Date: 2011-12-13 18:44+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,40 +36,39 @@ msgstr "Zapnout ladicí kód"
 msgid "Typing Monitor"
 msgstr "Sledování psaní"
 
-#: ../src/drwright.c:168
-#| msgid "Typing Break Preferences"
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Připomínání přestávek ve psaní"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
-#| msgid "%d minute until the next break"
-#| msgid_plural "%d minutes until the next break"
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "Přibližně %d minuta do další přestávky"
 msgstr[1] "Přibližně %d minuty do další přestávky"
 msgstr[2] "Přibližně %d minut do další přestávky"
 
-#: ../src/drwright.c:177
-#| msgid "Less than one minute until the next break"
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Méně než jedna minuta do další přestávky."
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Nastavení…"
 
-#: ../src/drwright.c:193
-#| msgid "_Take a Break"
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Udělat si přestávku teď"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Odložit přestávku"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "Za_mknout obrazovku"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Udělejte si přestávku!"
 
@@ -102,12 +101,10 @@ msgid "Whether typing break is enabled"
 msgstr "Zda jsou přestávky ve psaní povoleny"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#| msgid "Whether typing break is enabled"
 msgid "Change typing break settings"
 msgstr "Nastavení přestávek ve psaní"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-#| msgid "Typing Break Preferences"
 msgid "Typing Break"
 msgstr "Přestávka ve psaní"
 
@@ -131,59 +128,3 @@ msgstr "Zamykat _obrazovku kvůli vynucení přestávky ve psaní"
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "Inte_rval práce trvá:"
-
-#~ msgid "Don't check whether the notification area exists"
-#~ msgstr "Nekontrolovat, zda existuje oznamovací oblast"
-
-#~ msgid ""
-#~ "The typing monitor uses the notification area to display information. You "
-#~ "don't seem to have a notification area on your panel. You can add it by "
-#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
-#~ "'Notification area' and clicking 'Add'."
-#~ msgstr ""
-#~ "Sledování psaní používá k zobrazování informací oznamovací oblast. Na "
-#~ "vašem panelu zřejmě nemáte oznamovací oblast. Můžete ji přidat kliknutím "
-#~ "na panel pravým tlačítkem a vybráním „Přidat na panel“, zvolením "
-#~ "„Oznamovací oblast“ a kliknutím na „Přidat“."
-
-#~ msgid "Disabled"
-#~ msgstr "Zakázáno"
-
-#~ msgid ""
-#~ "Unable to bring up the typing break properties dialog with the following "
-#~ "error: %s"
-#~ msgstr ""
-#~ "Nelze zobrazit dialog vlastností přestávky ve psaní kvůli následující "
-#~ "chybě: %s"
-
-#~ msgid "Written by Richard Hult <richard@imendio.com>"
-#~ msgstr "Napsal Richard Hult <richard@imendio.com>"
-
-#~ msgid "Eye candy added by Anders Carlsson"
-#~ msgstr "Hezkou grafiku přidal Anders Carlsson"
-
-#~ msgid "A computer break reminder."
-#~ msgstr "Upomínka na počítačové přestávky."
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "David Šauer <davids@penguin.cz>\n"
-#~ "Jiří Lebl <jirka@5z.cz>\n"
-#~ "Michal Bukovjan <bukm@centrum.cz>\n"
-#~ "Miloslav Trmač <mitr@volny.cz>\n"
-#~ "Jakub Friedl <jfriedl@suse.cz>\n"
-#~ "Petr Tomeš <ptomes@gmail.com>\n"
-#~ "Lukáš Novotný <lukasnov@cvs.gnome.org>\n"
-#~ "Petr Kovář <pknbe@volny.cz>"
-
-#~ msgid "Typing Break preferences panel"
-#~ msgstr "Panel předvoleb přestávek ve psaní"
-
-#~ msgid "Take a break now (next in %dm)"
-#~ msgstr "Udělat si právě teď přestávku (další za %d min)"
-
-#~ msgid "Take a break now (next in less than one minute)"
-#~ msgstr "Udělat si právě teď přestávku (další za méně než minutu)"
-
-#~ msgid "minutes"
-#~ msgstr "minut"
