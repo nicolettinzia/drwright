@@ -87,7 +87,7 @@ PKG_CHECK_MODULES([GSD_PLUGIN],[
   gtk+-3.0
   gdk-x11-3.0])
 
-gsd_plugindir=`$PKG_CONFIG --variable plugindir gnome-settings-daemon`
+gsd_plugindir='${libdir}/gnome-settings-daemon-3.0'
 AC_SUBST([gsd_plugindir])
 
 GSD_INTLTOOL_PLUGIN_RULE='%.gnome-settings-plugin:   %.gnome-settings-plugin.in   $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)/po/.intltool-merge-cache $(top_srcdir)/po $< [$]@'
