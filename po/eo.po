@@ -1,26 +1,24 @@
-# Esperanto translation for drwright
-# Copyright (c) 2006 -2011 Free Software Foundation, Inc.
+# Esperanto translation for drwright.
+# Copyright (c) 2006 -2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as drwright package.
 #
 # Joop EGGEN <joop_eggen@yahoo.de>, 2006.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010, 2011.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: control-center\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=drwright&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-03-26 17:35+0000\n"
-"PO-Revision-Date: 2011-04-03 02:09+0200\n"
+"POT-Creation-Date: 2011-04-03 00:12+0000\n"
+"PO-Revision-Date: 2012-03-10 10:21+0100\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
-"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
-"Language: eo\n"
+"Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Launchpad-Export-Date: 2010-06-21 14:48+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../src/main.c:40
 msgid "Enable debugging code"
@@ -63,7 +61,7 @@ msgstr "Faru paŭzon!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
 msgid "Number of seconds of typing time before break mode starts"
-msgstr "Nombro da sekundoj de tajpadotempo antaŭ ol paŭza reĝimo komencos"
+msgstr "Nombro da sekundoj de tajpadotempo antaŭ ol paŭza reĝimo komencos"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
 msgid "Number of seconds that the typing break should last"
@@ -71,23 +69,23 @@ msgstr "Nombro da sekundoj kiom tajpadpaŭzo daŭru"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
-msgstr ""
+msgstr "Frazo por malŝlosi la paŭzoekranon"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "Prioritato por uzi tiun kromprogramon"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
-msgstr ""
+msgstr "Ĉu la agordar-demono aktivigu la tajpad-paŭzo-kromprogramon?"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 msgid "Whether the typing break can be postponed"
-msgstr ""
+msgstr "Ĉu eblas prokrasti la tajpad-paŭzon?"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Whether typing break is enabled"
-msgstr ""
+msgstr "Ĉu la tajpad-paŭzo estas enŝaltite?"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
 msgid "Change typing break settings"
@@ -99,8 +97,9 @@ msgstr "Tajpadpaŭzo"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
+#, fuzzy
 msgid "Typing;Break;RSI;Workrave;"
-msgstr ""
+msgstr "Tajpado;Paŭzo;?;?;"
 
 #: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
@@ -112,7 +111,7 @@ msgstr "_Paŭza intervalo daŭras:"
 
 #: ../src/drwright-panel.glade.h:3
 msgid "_Lock screen to enforce typing break"
-msgstr ""
+msgstr "_Ŝlosi la ekranon por devigi tajpad-paŭzon"
 
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
