@@ -1,201 +1,202 @@
-# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# #-#-#-#-#  sr.po (DrWright)  #-#-#-#-#
+# Serbian translation of drwright
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004.
+# This file is distributed under the same license as the drwright package.
+# Maintainer: Danilo Šegan <dsegan@gmx.net>
+# #-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#
 # Serbian translation of gnome-control-center
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003 - 2009.
-#
 # This file is distributed under the same license as the gnome-control-center package.
-#
 # Maintainer: Veljko M. Stanojević <veljko@vms.homelinux.net>
 # Reviewed on 2005-03-03 by: Danilo Šegan <danilo@gnome.org>
 # Translated on 2006-03-11 by: Slobodan D. Sredojević <slobo@akrep.be>
 # Miloš Popović <gpopac@gmail.com>, 2010.
-#
-# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
-# Serbian translation of gnome-control-center
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2003 - 2009.
-#
-# This file is distributed under the same license as the gnome-control-center package.
-#
-# Maintainer: Veljko M. Stanojević <veljko@vms.homelinux.net>
-# Reviewed on 2005-03-03 by: Danilo Šegan <danilo@gnome.org>
-# Translated on 2006-03-11 by: Slobodan D. Sredojević <slobo@akrep.be>
-# Miloš Popović <gpopac@gmail.com>, 2010.
-#
-# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# #-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#
 # Serbian translation of gnome-control-center
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
-#
 # This file is distributed under the same license as the gnome-control-center package.
-#
 # Maintainer: Veljko M. Stanojević <veljko@vms.homelinux.net>
 # Reviewed on 2005-03-03 by: Danilo Šegan <danilo@gnome.org>
 # Translated on 2006-03-11 by: Slobodan D. Sredojević <slobo@akrep.be>
 # Miloš Popović <gpopac@gmail.com>, 2010.
-#
-#, fuzzy
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2010-08-23 00:51+0200\n"
-"Last-Translator: Miloš Popović <gpopac@gmail.com>\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=drwright&component=general\n"
+"POT-Creation-Date: 2011-03-06 23:25+0000\n"
+"PO-Revision-Date: 2012-03-10 12:06+0200\n"
+"Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Project-Style: gnome\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
-msgstr "Uključi kod za traženje grešaka"
+msgstr "Uključuje kod za ispravljanje grešaka"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Ne proveravaj da li postoji obaveštajna zona"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Praćenje kucanja"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"Praćenje kucanja koristi obaveštajnu zonu panela za prikaz podataka. Čini se "
-"da vi nemate obaveštajnu zonu na panelu. Možete je dodati desnim-klikom na "
-"panel i izborom „Dodaj na panel > Obaveštajna zona“ i klikom na „Dodaj“."
+#: ../src/drwright.c:168
+msgid "Typing Break Reminder"
+msgstr "Podsetnik za odmor od kucanja"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "_Uzmi odmor"
-
-#: ../../../po/../src/drwright.c:441
-msgid "Disabled"
-msgstr "Onemogućeno"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:171
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "%d minut do sledećeg odmora"
-msgstr[1] "%d minuta do sledećeg odmora"
-msgstr[2] "%d minuta do sledećeg odmora"
-msgstr[3] "Jedan minut do sledećeg odmora"
+#| msgid "%d minute until the next break"
+#| msgid_plural "%d minutes until the next break"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "Približno %d minut do sledećeg odmora."
+msgstr[1] "Približno %d minuta do sledećeg odmora."
+msgstr[2] "Približno %d minuta do sledećeg odmora."
+msgstr[3] "Približno jedan minut do sledećeg odmora."
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "Manje od jednog minuta do sledećeg odmora"
+#: ../src/drwright.c:177
+#| msgid "Less than one minute until the next break"
+msgid "Less than one minute to the next break."
+msgstr "Manje od jednog minuta do sledećeg odmora."
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"Ne može da prikaže prozorče za podešavanje odmora od kucanja usled sledeće "
-"greške: %s"
+#: ../src/drwright.c:189
+#| msgid "X Settings"
+msgid "Settings…"
+msgstr "Podešavanja…"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Napisao Ričard Hult <richard@imendio.com>"
+#: ../src/drwright.c:193
+#| msgid "_Take a Break"
+msgid "Take Break Now"
+msgstr "Odmorite se sada"
 
-#: ../../../po/../src/drwright.c:573
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Ulepšao Anders Karlsson"
-
-#: ../../../po/../src/drwright.c:582
-msgid "A computer break reminder."
-msgstr "Podsetnik za uzimanje odmora."
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr ""
-"Veljko M. Stanojević <veljko@vms.homelinux.net>\n"
-"Goran Rakić <grakic@devbase.net>\n"
-"Danilo Šegan <danilo@gnome.org>\n"
-"\n"
-"Prevod.org — prevod na srpski jezik."
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "Od_loži odmor"
 
-#: ../../../po/../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:234
 msgid "Take a break!"
-msgstr "Uzmi odmor!"
+msgstr "Odmorite se malo!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
 msgid "Number of seconds of typing time before break mode starts"
-msgstr ""
+msgstr "Broj sekundi vremena kucanja pre početka odmora"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
 msgid "Number of seconds that the typing break should last"
-msgstr ""
+msgstr "Koliko sekundi treba da traje odmor od kucanja"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
-msgstr ""
+msgstr "Izraz za otključavanje ekrana odmora"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "Prioritet koji će biti korišćen za ovaj priključak"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
-msgstr ""
+msgstr "Da li demon podešavanja treba da aktivira priključak za odmor od kucanja"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-#, fuzzy
 msgid "Whether the typing break can be postponed"
-msgstr "Određuje da li je uključen čitač ekrana."
+msgstr "Da li odmor od kucanja može biti odložen"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
-#, fuzzy
 msgid "Whether typing break is enabled"
-msgstr "Određuje da li je uključen čitač ekrana."
+msgstr "Da li je uključen odmor od kucanja"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#, fuzzy
-msgid "Typing Break Preferences"
-msgstr "Odmor od kucanja"
+#| msgid "Enable typing breaks plugin"
+msgid "Change typing break settings"
+msgstr "Izmenite podešavanja odmora od kucanja"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr ""
+msgid "Typing Break"
+msgstr "Odmor od kucanja"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
 msgid "Typing;Break;RSI;Workrave;"
-msgstr ""
+msgstr "Kucanje;Odmor;RSI;"
 
 #: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
-msgstr ""
+msgstr "_Dopusti odlaganje odmora"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
-msgstr "_Odmor traje:"
+msgstr "Vreme trajanja _odmora:"
 
 #: ../src/drwright-panel.glade.h:3
 msgid "_Lock screen to enforce typing break"
-msgstr "_Zaključaj ekran kako bi primorao na odmor pri kucanju"
+msgstr "_Zaključaj ekran da primoraš na odmor od kucanja"
 
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
-msgstr "Period _rada traje:"
+msgstr "Vreme trajanja _rada:"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "Ne proveravaj da li postoji obaveštajna zona"
+
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "Praćenje kucanja koristi obaveštajnu zonu panela za prikaz podataka. Čini "
+#~ "se da vi nemate obaveštajnu zonu na panelu. Možete je dodati desnim-"
+#~ "klikom na panel i izborom „Dodaj na panel > Obaveštajna zona“ i klikom na "
+#~ "„Dodaj“."
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "Isključeno\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Onemogućeno\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Onemogućeno"
+
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Ne može da prikaže prozorče za podešavanje odmora od kucanja usled sledeće "
+#~ "greške: %s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Napisao Ričard Hult <richard@imendio.com>"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "Ulepšao Anders Karlsson"
+
+#, fuzzy
+#~ msgid "A computer break reminder."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "Podsetnik za odmor pri radu.\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Podsetnik za uzimanje odmora."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Veljko M. Stanojević <veljko@vms.homelinux.net>\n"
+#~ "Goran Rakić <grakic@devbase.net>\n"
+#~ "Danilo Šegan <danilo@gnome.org>\n"
+#~ "\n"
+#~ "Prevod.org — prevod na srpski jezik."
+
+#, fuzzy
+#~ msgid "Typing Break Preferences"
+#~ msgstr "Podešenja teme"
 
 #~ msgid "Take a break now (next in %dm)"
 #~ msgstr "Uzmite pauzu (sledeća je za %d minuta)"
@@ -203,6 +204,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Take a break now (next in less than one minute)"
 #~ msgstr "Uzmite pauzu (sledeća je za menje od jednog minuta)"
 
+# #-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#
 # bug(danilo): plural-forms
 #~ msgid "minutes"
 #~ msgstr "minuta"
@@ -214,253 +216,119 @@ msgstr "Period _rada traje:"
 #~ msgstr "*"
 
 #~ msgid "<b>Break</b>"
-#~ msgstr "<b>Pause</b>"
+#~ msgstr "<b>Odmor</b>"
 
 #, fuzzy
 #~ msgid "<b>Work</b>"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "<b>Arbeit</b>\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "<b>Rad</b>\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "<b>Posao</b>"
 
 #, fuzzy
 #~ msgid "Check if breaks are allowed to be postponed"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Legt fest, ob Pausen verschoben werden dürfen\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "Uključite ako je dozvoljeno odlaganje odmora\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Uključi ako je dozvoljeno odlaganje odmora"
+
+#~ msgid "DrWright Preferences"
+#~ msgstr "Postavke DrMileve"
 
 #, fuzzy
 #~ msgid "Duration of the break when typing is disallowed"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Länge einer Pause, in der Tippen nicht erlaubt ist\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "Trajanje odmora u toku kojeg je kucanje zabranjeno\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Trajanje odmora kada je kucanje onemogućeno"
 
 #~ msgid "Duration of warning before starting a break"
-#~ msgstr "Vorwarnzeit, bevor eine Pause ausgelöst wird"
+#~ msgstr "Trajanje upozorenja pre započinjanja odmora"
 
 #, fuzzy
 #~ msgid "Duration of work before forcing a break"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Arbeitszeit, bevor eine Pause erzwungen wird.</span>\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "Trajanje rada pre odlaska na odmor\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Trajanje rada pre nametanja odmora"
 
 #~ msgid "Optional phrase to use for postponing a break"
-#~ msgstr ""
-#~ "Optionale Zeichenkette, die zum Verschieben einer Pause verwendet werden "
-#~ "soll"
+#~ msgstr "Izraz po izboru koji se koristi za odlaganje odmora"
+
+#~ msgid "_Break interval lasts"
+#~ msgstr "_Odmor traje"
 
 #~ msgid "_Warning time is"
-#~ msgstr "_Vorwarnzeit ist"
+#~ msgstr "Vreme _upozorenja je"
+
+#~ msgid "_Work interval lasts"
+#~ msgstr "_Rad traje"
 
 #~ msgid "DrWright is already running."
-#~ msgstr "DrWright läuft bereits."
+#~ msgstr "DrMileva je već pokrenuta."
+
+#~ msgid ""
+#~ "DrWright uses the notification area to display information. You don't "
+#~ "seem to have a notification area on your panel. You can add it by right-"
+#~ "clicking on your panel and choose 'Add to panel -> Utilities -> "
+#~ "Notification area'."
+#~ msgstr ""
+#~ "DrMileva koristi obaveštajnu zonu za prikaz obaveštenja. Čini se da na "
+#~ "vašem panelu nema obaveštajne zone. Možete je dodati desnim-klikom na "
+#~ "panel i izborom „Dodaj na panel > Alati > Obaveštajna zona“."
 
 #~ msgid "/_Enabled"
-#~ msgstr "/_Aktiviert"
+#~ msgstr "/_Uključeno"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Idite na odmor"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Postavke"
 
 #, fuzzy
 #~ msgid "/_About"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "/_Über\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "/_O...\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "/_O programu"
 
 #~ msgid "/_Remove Icon"
-#~ msgstr "/_Symbol entfernen"
+#~ msgstr "/U_kloni ikonu"
 
+# bug: plural-forms
+#~ msgid "%d minutes until the next break"
+#~ msgstr "%d minuta do sledećeg odmora"
+
+# bug: plural-forms
 #~ msgid "One minute until the next break"
-#~ msgstr "Eine Minute bis zur nächsten Pause"
+#~ msgstr "Jedan minut do sledećeg odmora"
 
 #~ msgid "Quit DrWright?"
-#~ msgstr "DrWright beenden?"
+#~ msgstr "Zatvorite DrMilevu?"
 
 #~ msgid "Don't forget to take regular breaks."
-#~ msgstr "Vergessen Sie nicht, regelmäßige Pausen einzulegen."
+#~ msgstr "Ne zaboravite da uzimate redovne odmore."
+
+#~ msgid "Don't Quit"
+#~ msgstr "Ne zatvaraj"
 
 #~ msgid "Quit"
-#~ msgstr "Beenden"
+#~ msgstr "Zatvori"
 
 #~ msgid "About DrWright"
-#~ msgstr "Info zu DrWright"
+#~ msgstr "O DrMilevi"
 
-#, fuzzy
-#~ msgid "Break reminder"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Pausenerinnerer\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Podsetnik za odmore"
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Napisao Ričard Hult &lt;rhult@codefactory.se&gt;"
 
-#, fuzzy
-#~ msgid ""
-#~ "Cannot create the directory \"%s\".\n"
-#~ "This is needed to allow changing the mouse pointer theme."
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
-#~ "Dies ist zum Ändern des Mauszeiger-Themas erforderlich.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Ne mogu da napravim direktorijum „%s“.\n"
-#~ "Ovo je neophodno da bi se omogućila promena kursora."
-
-#, fuzzy
-#~ msgid ""
-#~ "Cannot create the directory \"%s\".\n"
-#~ "This is needed to allow changing cursors."
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Das Verzeichnis »%s« konnte nicht angelegt werden.\n"
-#~ "Dies ist zum Ändern der Zeiger erforderlich.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Ne mogu da napravim direktorijum „%s“.\n"
-#~ "Ovo je neophodno da bi se omogućila promena kursora."
-
-#, fuzzy
-#~ msgid "Couldn't load sound file %s as sample %s"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Audiodatei %s konnte nicht als Beispiel %s geladen werden\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Ne mogu da učitam datoteku %s kao probni %s"
-
-#~ msgid "Login"
-#~ msgstr "Anmelden"
-
-#, fuzzy
-#~ msgid "Logout"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Abmelden\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Odjavi se"
-
-#~ msgid "Boing"
-#~ msgstr "Gong"
-
-#, fuzzy
-#~ msgid "Siren"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Sirene\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Sirena"
-
-#, fuzzy
-#~ msgid "Clink"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Klicken\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Klink"
-
-#, fuzzy
-#~ msgid "Beep"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Piep\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Bip"
-
-#~ msgid "No sound"
-#~ msgstr "Kein Klang"
-
-#, fuzzy
-#~ msgid "Sound not set for this event."
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Diesem Ereignis ist kein Klang zugewiesen.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Zvuk za _ovaj događaj nije postavljen."
-
-#, fuzzy
-#~ msgid ""
-#~ "The sound file for this event does not exist.\n"
-#~ "You may want to install the gnome-audio package for a set of default "
-#~ "sounds."
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
-#~ "Sie können das Paket »gnome-audio« installieren, um die Vorgabeklänge zu "
-#~ "erhalten.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Zvučna datoteka za ovaj događaj ne postoji.\n"
-#~ "Možda bi trebali instalirati gnome-audio paket da biste imali osnovne "
-#~ "zvukove."
-
-#, fuzzy
-#~ msgid "The sound file for this event does not exist."
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Die Audiodatei für dieses Ereignis existiert nicht.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Zvučna datoteka za ovaj događaj ne postoji."
-
-#, fuzzy
-#~ msgid "Select Sound File"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Audiodatei wählen\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Odaberite datoteku sa zvukom"
-
-#, fuzzy
-#~ msgid "The file %s is not a valid wav file"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Die Datei %s ist keine gültige wav-Datei\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Datoteka %s ne predstavlja ispravnu WAV datoteku"
-
-#, fuzzy
-#~ msgid "Select sound file..."
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Audiodatei wählen …\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Odaberite datoteku sa zvukom..."
-
-#, fuzzy
-#~ msgid "Sound"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Audio\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Zvuk"
-
-#~ msgid "An error occurred while configuring the screen"
-#~ msgstr "Beim Einstellen des Bildschirms ist ein Fehler aufgetreten"
-
-#~ msgid ""
-#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
-#~ "synchronized."
-#~ msgstr ""
-#~ "Setzen Sie diesen Wert auf »True«, um die MIME-Typ-Handler für »text/"
-#~ "plain« und »text/*« synchron zu halten."
-
-#, fuzzy
-#~ msgid "Sync text/plain and text/* handlers"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "»text/plain« und »text/*«-Handler synchronisieren\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Uskladi rukovaoce za text/plain i text/*"
-
-#, fuzzy
-#~ msgid "It seems that another application already has access to key '%u'."
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Anscheinend hat bereits eine andere Anwendung auf den Schlüssel »%u« "
-#~ "zugegriffen.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Čini se da neki drugi program već ima pristup ključu „%u“."
+#~ msgid "_Postpone break"
+#~ msgstr "Od_loži odmor"
 
 #~ msgid "Accessibility"
 #~ msgstr "Pristupačnost"
@@ -477,6 +345,9 @@ msgstr "Period _rada traje:"
 #~ msgid "Mount paths to ignore"
 #~ msgstr "Putanje za montiranje koje treba zanemariti"
 
+#~| msgid ""
+#~| "Percentage free space threshold for initial warning of low disk space. "
+#~| "If the percentage free space drops below this, a warning will be shown"
 #~ msgid ""
 #~ "Percentage free space threshold for initial warning of low disk space. If "
 #~ "the percentage free space drops below this, a warning will be shown."
@@ -494,16 +365,22 @@ msgstr "Period _rada traje:"
 #~ "Specify a time in minutes. Subsequent warnings for a volume will not "
 #~ "appear more often than this period."
 #~ msgstr ""
-#~ "Odredite vreme u minutima. Upozorenja za disk se neće ponovo prikazati "
-#~ "pre isteka ovog vremena."
+#~ "Odredite vreme u minutima. Upozorenja za disk se neće ponovo prikazati pre "
+#~ "isteka ovog vremena."
 
+#~| msgid ""
+#~| "Specify an amount in GB. If the amount of free space is more than this, "
+#~| "no warning will be shown"
 #~ msgid ""
 #~ "Specify an amount in GB. If the amount of free space is more than this, "
 #~ "no warning will be shown."
 #~ msgstr ""
-#~ "Odredite veličinu u gigabajtima. Upozorenja se neće prikazivati ukoliko "
-#~ "je slobodan prostor veći od ove vrednosti."
+#~ "Odredite veličinu u gigabajtima. Upozorenja se neće prikazivati ukoliko je "
+#~ "slobodan prostor veći od ove vrednosti."
 
+#~| msgid ""
+#~| "Specify the percentage that the free disk space should reduce by before "
+#~| "issuing a subsequent warning"
 #~ msgid ""
 #~ "Specify the percentage that the free disk space should reduce by before "
 #~ "issuing a subsequent warning."
@@ -514,6 +391,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Subsequent free percentage notify threshold"
 #~ msgstr "Prag za ponovnog obaveštenja o procentu slobodnog prostora"
 
+#~| msgid "Binding to eject an optical disk."
 #~ msgid "Binding to eject an optical disc."
 #~ msgstr "Vezujem za izbacivanje optičkog diska."
 
@@ -574,21 +452,17 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Eject"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Izbacivanje medijuma\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Izbacivanje medijuma\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Izbaci"
 
 #, fuzzy
 #~ msgid "Home folder"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Otvaranje lične fascikle\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Otvaranje lične fascikle\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Lična fascikla"
 
 #~ msgid "Launch calculator"
@@ -600,11 +474,9 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Launch help browser"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Pokretanje pregledača pomoći\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Pokretanje pregledača pomoći\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Pokreni pregledač pomoći"
 
 #~ msgid "Launch media player"
@@ -613,11 +485,9 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Launch web browser"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Pokretanje Internet preglednika\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Pokretanje Internet preglednika\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Pokreni čitač veba"
 
 #~ msgid "Lock screen"
@@ -626,11 +496,9 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Log out"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Odjavljivanje sa sistema\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Odjavljivanje sa sistema\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Odjava"
 
 #~ msgid "Next track"
@@ -642,11 +510,9 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Play (or play/pause)"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Puštanje (ili puštanje/pauziranje)\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Puštanje (ili puštanje/pauziranje)\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Pusti (ili pusti/pauziraj)"
 
 #~ msgid "Previous track"
@@ -664,21 +530,17 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Volume down"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Utišavanje zvuka\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Utišavanje zvuka\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Utišaj"
 
 #, fuzzy
 #~ msgid "Volume mute"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Isključivanje zvuka\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Isključivanje zvuka\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Isključi zvuk"
 
 #~ msgid "Volume step"
@@ -690,11 +552,9 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Volume up"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Pojačavanje zvuka\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Pojačavanje zvuka\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Pojačaj"
 
 #~ msgid "File for default configuration for RandR"
@@ -712,9 +572,8 @@ msgstr "Period _rada traje:"
 #~ msgstr ""
 #~ "IksRandR dodatak će tražiti podrazumevana podešavanja u datoteci iz ovog "
 #~ "ključa. Ovo je slično kao ~/.config/monitors.xml koja se obično čuva u "
-#~ "ličnom direktorijumu korisnika. Datoteka iz ovog ključa se koristi "
-#~ "ukoliko nema takve datoteke, ili se ona ne poklapa sa podešavanjima "
-#~ "ekrana."
+#~ "ličnom direktorijumu korisnika. Datoteka iz ovog ključa se koristi ukoliko "
+#~ "nema takve datoteke, ili se ona ne poklapa sa podešavanjima ekrana."
 
 #~ msgid "Turn on external monitor after system boot"
 #~ msgstr "Uključi spoljni ekran nakon pokretanja"
@@ -723,8 +582,7 @@ msgstr "Period _rada traje:"
 #~ "Turn on external monitor after system boot if user plugs in external "
 #~ "monitor on system boot."
 #~ msgstr ""
-#~ "Uključuje spoljni ekran pri podizanju sistema ukoliko ga korisnik "
-#~ "priključi."
+#~ "Uključuje spoljni ekran pri podizanju sistema ukoliko ga korisnik priključi."
 
 #~ msgid "Turn on laptop monitor after system boot"
 #~ msgstr "Uključi ekran prenosnog računara nakon pokretanja"
@@ -736,6 +594,9 @@ msgstr "Period _rada traje:"
 #~ "Uključuje ekran prenosnog računara pri podizanju sistema ukoliko korisnik "
 #~ "priključi spoljni ekran."
 
+#~| msgid ""
+#~| "If a notification icon with display related things should be shown in "
+#~| "the panel."
 #~ msgid ""
 #~ "Whether a notification icon with display-related things should be shown "
 #~ "in the panel."
@@ -749,26 +610,19 @@ msgstr "Period _rada traje:"
 #~ msgid "DPI"
 #~ msgstr "TPI"
 
-# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# #-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#
 # ranije je bilo „saveti“, ali možda je bolje „hintovi“
 #
 # Uh, uh, ovo se odnosi na doterivanje fontova nego na savete
 # ~Miloš
-# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
-# ranije je bilo „saveti“, ali možda je bolje „hintovi“
-#
-# Uh, uh, ovo se odnosi na doterivanje fontova nego na savete
-# ~Miloš
-# #-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#
+# #-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#
 # ranije je bilo „saveti“, ali možda je bolje „hintovi“
 #, fuzzy
 #~ msgid "Hinting"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Doterivanje\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Doterivanje\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Saveti"
 
 #~ msgid "RGBA order"
@@ -781,9 +635,9 @@ msgstr "Period _rada traje:"
 #~ "\"vbgr\" for red on bottom."
 #~ msgstr ""
 #~ "Redosled elemenata za doterivanje ispod piksela na LCD ekranu. Koristi se "
-#~ "samo kada je umekšavanje ivica postavljeno na „rgba“. Moguće vrednosti "
-#~ "su: „rgb“ za crvenu sleva (najkorišćenije), „bgr“ za zelenu sleva, „vrgb“ "
-#~ "za crvenu odozgo i „vbgr“ za crvenu odozdo."
+#~ "samo kada je umekšavanje ivica postavljeno na „rgba“. Moguće vrednosti su: "
+#~ "„rgb“ za crvenu sleva (najkorišćenije), „bgr“ za zelenu sleva, „vrgb“ za "
+#~ "crvenu odozgo i „vbgr“ za crvenu odozdo."
 
 #~ msgid ""
 #~ "The resolution used for converting font sizes to pixel sizes, in dots per "
@@ -797,10 +651,10 @@ msgstr "Period _rada traje:"
 #~ "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 #~ "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
 #~ msgstr ""
-#~ "Vrsta umekšavanja ivica prilikom iscrtavanja fontova. Dozvoljene "
-#~ "vrednosti su: „none“ za isključivanje umekšavanja, „grayscale„ za "
-#~ "standardno umekšavanje u sivim tonovima i „rgba„ za doterivanje ispod "
-#~ "piksela (samo za LCD ekrane)."
+#~ "Vrsta umekšavanja ivica prilikom iscrtavanja fontova. Dozvoljene vrednosti "
+#~ "su: „none“ za isključivanje umekšavanja, „grayscale„ za standardno "
+#~ "umekšavanje u sivim tonovima i „rgba„ za doterivanje ispod piksela (samo za "
+#~ "LCD ekrane)."
 
 # formama pisma = pisanim formama???
 # ~Miloš
@@ -809,10 +663,10 @@ msgstr "Period _rada traje:"
 #~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
 #~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
 #~ msgstr ""
-#~ "Vrsta doterivanja prilikom iscrtavanja fontova. Moguće vrednosti su: "
-#~ "„none“ za isključivanje doterivanja, „slight“ za osnovno doterivanje, "
-#~ "„medium“ za srednji nivo doterivanja i „full“ za najveće doterivanje "
-#~ "(može da napravi izobličenja u formama pisma)."
+#~ "Vrsta doterivanja prilikom iscrtavanja fontova. Moguće vrednosti su: „none“ "
+#~ "za isključivanje doterivanja, „slight“ za osnovno doterivanje, „medium“ za "
+#~ "srednji nivo doterivanja i „full“ za najveće doterivanje (može da napravi "
+#~ "izobličenja u formama pisma)."
 
 #~ msgid "Allowed keys"
 #~ msgstr "Dozvoljeni ključevi"
@@ -839,6 +693,9 @@ msgstr "Period _rada traje:"
 #~ msgid "Select the touchpad scroll method"
 #~ msgstr "Izaberite režim klizanja preko dodirne table"
 
+#~| msgid ""
+#~| "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 "
+#~| "- edge scrolling, 2 - two-finger scrolling"
 #~ msgid ""
 #~ "Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
 #~ "edge scrolling, and 2: two-finger scrolling"
@@ -895,6 +752,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Command used to turn the screen reader on or off."
 #~ msgstr "Naredba za uključivanje ili isključivanje čitača ekrana."
 
+#~| msgid "Enable xrandr plugin"
 #~ msgid "Enable XRandR plugin"
 #~ msgstr "Uključi IksRandR dodatak"
 
@@ -925,14 +783,12 @@ msgstr "Period _rada traje:"
 #~ msgid "Enable mouse plugin"
 #~ msgstr "Uključi dodatak za miša"
 
+#~| msgid "Enable xrandr plugin"
 #~ msgid "Enable smartcard plugin"
 #~ msgstr "Uključi dodatak za pametne kartice"
 
 #~ msgid "Enable sound plugin"
 #~ msgstr "Uključi dodatak za zvuk"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Uključi dodatak za prekide prilikom kucanja"
 
 #~ msgid "Enable xrdb plugin"
 #~ msgstr "Uključi xrdb dodatak"
@@ -956,9 +812,10 @@ msgstr "Period _rada traje:"
 #~ "Set to True to enable the housekeeping plugin, to prune transient file "
 #~ "caches."
 #~ msgstr ""
-#~ "Uključite radi pokretanja dodatka za čišćenje sistema koji uklanja "
-#~ "privremene datoteke."
+#~ "Uključite radi pokretanja dodatka za čišćenje sistema koji uklanja privremene "
+#~ "datoteke."
 
+#~| msgid "Set to True to enable the plugin to manage xrandr settings."
 #~ msgid "Set to True to enable the plugin to manage XRandR settings."
 #~ msgstr ""
 #~ "Postavite na „True“ (tačno) kako bo dodatak upravljao IksRandR "
@@ -977,23 +834,22 @@ msgstr "Period _rada traje:"
 #~ msgid "Set to True to enable the plugin to manage keyboard settings."
 #~ msgstr "Uključite za pokretanje dodatka koji podešava tastaturu."
 
+#~| msgid "Set to True to enable the plugin to manage screensaver settings."
 #~ msgid ""
 #~ "Set to True to enable the plugin to manage locking the screen on "
 #~ "smartcard removal."
 #~ msgstr ""
-#~ "Postavite na „True“ (tačno) kako bi dodatak zaključao ekran pri "
-#~ "uklanjanju pametne kartice."
+#~ "Postavite na „True“ (tačno) kako bi dodatak zaključao ekran pri uklanjanju "
+#~ "pametne kartice."
 
 #~ msgid "Set to True to enable the plugin to manage mouse settings."
 #~ msgstr "Uključite za pokretanje dodatka koji podešava miša."
 
 #~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
-#~ msgstr ""
-#~ "Uključite za pokretanje dodatka koji podešava multimedijalne tastere."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava multimedijalne tastere."
 
 #~ msgid "Set to True to enable the plugin to manage sound sample caches."
-#~ msgstr ""
-#~ "Uključite za pokretanje dodatka koji upravlja ostavom zvučnih isečaka."
+#~ msgstr "Uključite za pokretanje dodatka koji upravlja ostavom zvučnih isečaka."
 
 #~ msgid ""
 #~ "Set to True to enable the plugin to manage the accessibility keyboard "
@@ -1005,8 +861,7 @@ msgstr "Period _rada traje:"
 #~ msgstr "Uključite za pokretanje dodatka koji podešava prečice na tastaturi."
 
 #~ msgid "Set to True to enable the plugin to manage typing breaks."
-#~ msgstr ""
-#~ "Uključite za pokretanje dodatka koji podešava odmor prilikom kucanja."
+#~ msgstr "Uključite za pokretanje dodatka koji podešava odmor prilikom kucanja."
 
 #~ msgid "Set to True to enable the plugin to manage xrdb settings."
 #~ msgstr "Uključite za pokretanje dodatka koji podešava xrdb."
@@ -1033,8 +888,8 @@ msgstr "Period _rada traje:"
 #~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
 #~ "name will be shown in the keyboard shortcut preferences dialog."
 #~ msgstr ""
-#~ "Ovo je naziv prečice na tastaturi koja uključuje lupu. Naziv je prikazan "
-#~ "u prozorčetu sa postavkama prečica na tastaturi."
+#~ "Ovo je naziv prečice na tastaturi koja uključuje lupu. Naziv je prikazan u "
+#~ "prozorčetu sa postavkama prečica na tastaturi."
 
 #~ msgid ""
 #~ "This is the name of the keyboard shortcut to toggle the on-screen "
@@ -1086,8 +941,8 @@ msgstr "Period _rada traje:"
 #~ "action will get performed when the smartcard used for log in is removed."
 #~ msgstr ""
 #~ "Postavite na „none“ (ništa), „lock_screen“ (zaključaj ekran) ili "
-#~ "„force_logout“ (primoraj odjavu). Ove radnje se primenjuju kada se "
-#~ "korisnik prijavljuje putem pametne kartice."
+#~ "„force_logout“ (primoraj odjavu). Ove radnje se primenjuju kada se korisnik "
+#~ "prijavljuje putem pametne kartice."
 
 #~ msgid "Smartcard removal action"
 #~ msgstr "Radnja pru uklanjanju pametne kartice"
@@ -1098,6 +953,7 @@ msgstr "Period _rada traje:"
 #~ msgid "GConf prefix from which to load plugin settings"
 #~ msgstr "Gkonfov prefiks iz koga se čitaju podešavanja za dodatke"
 
+#~| msgid "Exit after a time - for debugging"
 #~ msgid "Exit after a time (for debugging)"
 #~ msgstr "Izađi nakon određenog vremena (za traženje grešaka)"
 
@@ -1110,31 +966,25 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "There was an error displaying help: %s"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Došlo je do greške prilikom prikaza pomoći: %s\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Došlo je do greške prilikom prikaza pomoći: %s\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Došlo je do greške prilikom prikazivanja pomoći: %s"
 
 #, fuzzy
 #~ msgid "Do you want to activate Slow Keys?"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Želite li da uključite spore tastere?\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Želite li da uključite spore tastere?\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Želite li da pokrenete spore tastere?"
 
 #, fuzzy
 #~ msgid "Do you want to deactivate Slow Keys?"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Želite li da uključite spore tastere?\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Želite li da uključite spore tastere?\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Želite li da isključite spore tastere?"
 
 #~ msgid ""
@@ -1143,6 +993,9 @@ msgstr "Period _rada traje:"
 #~ msgstr ""
 #~ "Upravo ste držali taster Shift pritisnut 8 sekundi.  Ovo je prečica za "
 #~ "mogućnost sporih tastera, koja utiče na to kako radi vaša tastatura."
+
+#~ msgid "Don't activate"
+#~ msgstr "Ne pokreći"
 
 #~ msgid "Don't deactivate"
 #~ msgstr "Ne obustavljaj"
@@ -1174,11 +1027,9 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Do you want to deactivate Sticky Keys?"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Želite li da isključite lepljive tastere?\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Želite li da isključite lepljive tastere?\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Želite li da isključite spore lepljive tastere?"
 
 #~ msgid ""
@@ -1253,6 +1104,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Font plugin"
 #~ msgstr "Dodatak za font"
 
+#~| msgid "Don't show any warnings again for this filesystem"
 #~ msgid "Don't show any warnings again for this file system"
 #~ msgstr "Ne prikazuj upozorenja za ovaj sistem datoteka"
 
@@ -1285,8 +1137,7 @@ msgstr "Period _rada traje:"
 #~ "programs or files, or moving files to an external disk."
 #~ msgstr ""
 #~ "Možete osloboditi prostor na disku izbacivanjem smeća, uklanjanjem "
-#~ "nepotrebnih programa ili datoteka ili premeštanjem datoteka na spoljni "
-#~ "disk."
+#~ "nepotrebnih programa ili datoteka ili premeštanjem datoteka na spoljni disk."
 
 #~ msgid ""
 #~ "You can free up disk space by removing unused programs or files, or by "
@@ -1301,6 +1152,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Empty Trash"
 #~ msgstr "Izbaci smeće"
 
+#~| msgid "Examine..."
 #~ msgid "Examine…"
 #~ msgstr "Ispitaj…"
 
@@ -1310,12 +1162,14 @@ msgstr "Period _rada traje:"
 #~ msgid "Removing item %lu of %lu"
 #~ msgstr "Uklanjam %lu stavku od %lu"
 
+#~| msgid "<i>Removing: %s</i>"
 #~ msgid "Removing: %s"
 #~ msgstr "Uklanjam: %s"
 
 #~ msgid "Emptying the trash"
 #~ msgstr "Izbacujem smeće"
 
+#~| msgid "Preparing to empty trash..."
 #~ msgid "Preparing to empty trash…"
 #~ msgstr "Pripremam se da izbacim smeće…"
 
@@ -1360,6 +1214,20 @@ msgstr "Period _rada traje:"
 #~ msgid "Keyboard plugin"
 #~ msgstr "Dodatak za tastaturu"
 
+#~| msgid ""
+#~| "Error activating XKB configuration.\n"
+#~| "It can happen under various circumstances:\n"
+#~| "- a bug in libxklavier library\n"
+#~| "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~| "- X server with incompatible libxkbfile implementation\n"
+#~| "\n"
+#~| "X server version data:\n"
+#~| "%s\n"
+#~| "%d\n"
+#~| "%s\n"
+#~| "If you report this situation as a bug, please include:\n"
+#~| "- The result of <b>%s</b>\n"
+#~| "- The result of <b>%s</b>"
 #~ msgid ""
 #~ "Error activating XKB configuration.\n"
 #~ "It can happen under various circumstances:\n"
@@ -1389,6 +1257,11 @@ msgstr "Period _rada traje:"
 #~ " • Rezultat <b>%s</b>\n"
 #~ " • Rezultat <b>%s</b>"
 
+#~| msgid ""
+#~| "You are using XFree 4.3.0.\n"
+#~| "There are known problems with complex XKB configurations.\n"
+#~| "Try using a simpler configuration or taking a fresher version of XFree "
+#~| "software."
 #~ msgid ""
 #~ "You are using XFree 4.3.0.\n"
 #~ "There are known problems with complex XKB configurations.\n"
@@ -1406,6 +1279,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Keyboard _Preferences"
 #~ msgstr "_Postavke tastature"
 
+#~| msgid "Show Current _Layout"
 #~ msgid "Show _Current Layout"
 #~ msgstr "Prika_ži trenutni raspored"
 
@@ -1415,6 +1289,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Load modmap files"
 #~ msgstr "Učitaj modmap datoteke"
 
+#~| msgid "Would you like to load the modmap file(s)?"
 #~ msgid "Would you like to load the modmap files?"
 #~ msgstr "Da li želite da učitate modmap datoteke?"
 
@@ -1432,13 +1307,10 @@ msgstr "Period _rada traje:"
 #~ "Could not get default terminal. Verify that your default terminal command "
 #~ "is set and points to a valid application."
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Ne mogu da nađem podrazumevani terminal. Proverite da li je naredba za "
 #~ "terminal postavljena i da li pokazuje na postojeći program.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Ne mogu da nađem podrazumevani terminal. Proverite da li je naredba za "
-#~ "terminal postavljena i da li pokazuje na postojeći program.\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Ne mogu da nađem podrazumevani terminal. Proverite da li je naredba za "
 #~ "terminal postavljena i da pokazuje na postojeći program."
 
@@ -1476,9 +1348,19 @@ msgstr "Period _rada traje:"
 #~ msgstr "Ne mogu da uključim pristupačnost miša"
 
 #, fuzzy
+#~| msgid ""
+#~| "Mouse accessibility requires mousetweaks to be installed on your system."
 #~ msgid ""
 #~ "Mouse accessibility requires Mousetweaks to be installed on your system."
 #~ msgstr "Za pristupačnost miša morate da instalirate Mousetweaks program."
+
+#, fuzzy
+#~ msgid "Mouse Preferences"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Podešavanja miša\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Podešavanje miša"
 
 #~ msgid "Mouse"
 #~ msgstr "Miš"
@@ -1530,6 +1412,7 @@ msgstr "Period _rada traje:"
 #~ msgid "Trying to switch the monitor configuration anyway."
 #~ msgstr "Pokušavam da ipak učitam podešavanja monitora."
 
+#~| msgid "<i>Rotation not supported</i>"
 #~ msgid "Rotation not supported"
 #~ msgstr "Nije podržano rotiranje"
 
@@ -1548,13 +1431,12 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Upside Down"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Naopačke\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Naopačke\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Izvrnuto"
 
+#~| msgid "_Configure Display Settings ..."
 #~ msgid "_Configure Display Settings…"
 #~ msgstr "Podesi _ekrane…"
 
@@ -1578,9 +1460,6 @@ msgstr "Period _rada traje:"
 
 #~ msgid "Manage X Settings"
 #~ msgstr "Uredi podešavanja Iksa"
-
-#~ msgid "X Settings"
-#~ msgstr "Podešavanja Iksa"
 
 #~ msgid "Module Path"
 #~ msgstr "Putanja do modula"
@@ -1612,6 +1491,7 @@ msgstr "Period _rada traje:"
 #~ msgid "The slot the card is in"
 #~ msgstr "Slot u kome je kartica"
 
+#~| msgid "Slow keys"
 #~ msgid "Slot Series"
 #~ msgstr "Niz slotova"
 
@@ -1621,6 +1501,7 @@ msgstr "Period _rada traje:"
 #~ msgid "name"
 #~ msgstr "ime"
 
+#~| msgid "Mouse"
 #~ msgid "Module"
 #~ msgstr "Modul"
 
@@ -1648,29 +1529,10 @@ msgstr "Period _rada traje:"
 #, fuzzy
 #~ msgid "Unknown"
 #~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Nepoznat\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Nepoznat\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
 #~ "Nepoznato"
-
-#~ msgid "Whether the screen reader is turned on."
-#~ msgstr "Određuje da li je uključen čitač ekrana."
-
-#~ msgid "Don't activate"
-#~ msgstr "Ne pokreći"
-
-#, fuzzy
-#~ msgid "Mouse Preferences"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Podešavanja miša\n"
-#~ "#-#-#-#-#  sr@latin.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Podešavanje miša"
-
-#~ msgid "Typing Break"
-#~ msgstr "Odmor od kucanja"
 
 #~ msgid "Current network location"
 #~ msgstr "Trenutno mrežno mesto"
@@ -2814,8 +2676,8 @@ msgstr "Period _rada traje:"
 #~ "GConf change set containing data to be forwarded to the gconf client on "
 #~ "apply"
 #~ msgstr ""
-#~ "GConf promena skupa koji sadrži podatke za prosleđivanje gconf klijent "
-#~ "pri primeni"
+#~ "GConf promena skupa koji sadrži podatke za prosleđivanje gconf klijent pri "
+#~ "primeni"
 
 #~ msgid "Conversion to widget callback"
 #~ msgstr "Promena u povratni poziv grafičke kontrole"
@@ -3330,8 +3192,7 @@ msgstr "Period _rada traje:"
 
 #~ msgid "Could not get session bus while applying display configuration"
 #~ msgstr ""
-#~ "Ne mogu da dobijem magistralu sesije tokom primenjivanja podešavanja za "
-#~ "ekran"
+#~ "Ne mogu da dobijem magistralu sesije tokom primenjivanja podešavanja za ekran"
 
 #~ msgid "Could not detect displays"
 #~ msgstr "Ne mogu da nađem ekrane"
@@ -3349,6 +3210,9 @@ msgstr "Period _rada traje:"
 
 #~ msgid "Could not get screen information"
 #~ msgstr "Ne mogu da dobijem podatke o ekranu"
+
+#~ msgid "Sound"
+#~ msgstr "Zvuk"
 
 #~ msgid "Desktop"
 #~ msgstr "Radna površina"
@@ -3769,8 +3633,7 @@ msgstr "Period _rada traje:"
 #~ msgid ""
 #~ "To test your double-click settings, try to double-click on the light bulb."
 #~ msgstr ""
-#~ "Probajte da kliknete na sijalicu radi provere podešavanja dvostrukog "
-#~ "klika."
+#~ "Probajte da kliknete na sijalicu radi provere podešavanja dvostrukog klika."
 
 #~ msgid "Touchpad"
 #~ msgstr "Dodirna tabla"
@@ -4040,9 +3903,8 @@ msgstr "Period _rada traje:"
 #~ "separator then the filename of an associated .desktop file to launch for "
 #~ "that task."
 #~ msgstr ""
-#~ "Ime stavke koje će se prikazati u upravljačkom centru praćeno znakom "
-#~ "„;“za odvajanje i putanjom do pridružene .desktop datoteke koja će biti "
-#~ "pokrenuta."
+#~ "Ime stavke koje će se prikazati u upravljačkom centru praćeno znakom „;“za "
+#~ "odvajanje i putanjom do pridružene .desktop datoteke koja će biti pokrenuta."
 
 #~ msgid ""
 #~ "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;"
@@ -4072,8 +3934,7 @@ msgstr "Period _rada traje:"
 
 #~ msgid "If set to true, then TrueType fonts will be thumbnailed."
 #~ msgstr ""
-#~ "Ako je postavljeno, onda će se za TruTajp fontove koristiti umanjeni "
-#~ "prikaz"
+#~ "Ako je postavljeno, onda će se za TruTajp fontove koristiti umanjeni prikaz"
 
 #~ msgid "If set to true, then Type1 fonts will be thumbnailed."
 #~ msgstr ""
@@ -4082,25 +3943,25 @@ msgstr "Period _rada traje:"
 #~ msgid ""
 #~ "Set this key to the command used to create thumbnails for OpenType fonts."
 #~ msgstr ""
-#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
-#~ "prikaza kod OpenTajp fontova."
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza "
+#~ "kod OpenTajp fontova."
 
 #~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
 #~ msgstr ""
-#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
-#~ "prikaza kod PCF fontove."
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza "
+#~ "kod PCF fontove."
 
 #~ msgid ""
 #~ "Set this key to the command used to create thumbnails for TrueType fonts."
 #~ msgstr ""
-#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
-#~ "prikaza kod TruTajp fontova."
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza "
+#~ "kod TruTajp fontova."
 
 #~ msgid ""
 #~ "Set this key to the command used to create thumbnails for Type1 fonts."
 #~ msgstr ""
-#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog "
-#~ "prikaza kod Tajp1 fontova."
+#~ "Dodeli ovaj taster naredbi koja se koristi za pravljenje umanjenog prikaza "
+#~ "kod Tajp1 fontova."
 
 #~ msgid "Thumbnail command for OpenType fonts"
 #~ msgstr "Naredba za umanjeni prikaz kod OpenTajp fontova"
@@ -4291,29 +4152,15 @@ msgstr "Period _rada traje:"
 #~ msgid "Remove from System Items"
 #~ msgstr "Ukloni iz sistemskih stavki"
 
-#, fuzzy
-#~ msgid "/_Preferences"
-#~ msgstr "Podešavanja miša"
-
-#, fuzzy
-#~ msgid "Don't Quit"
-#~ msgstr "Ne pokreći"
-
 #~ msgid "Keyboard Layout \"%s\""
 #~ msgstr "Raspored tastature „%s“"
-
-#~ msgid "Keyboard Layout"
-#~ msgstr "Raspored tastature"
 
 #~ msgid "_Groups"
 #~ msgstr "_Grupe"
 
-#~ msgid ""
-#~ "Couldn't put the machine to sleep.\n"
-#~ "Verify that the machine is correctly configured."
-#~ msgstr ""
-#~ "Ne mogu da uspavam računar.\n"
-#~ "Proverite da li je računar ispravno podešen."
+#~| msgid "Keyboard"
+#~ msgid "Keyboard Layout"
+#~ msgstr "Raspored tastature"
 
 #~ msgid "Binding to suspend the computer."
 #~ msgstr "Vezujem za obustavljanje računara."
@@ -4322,11 +4169,18 @@ msgstr "Period _rada traje:"
 #~ msgstr "Obustavi"
 
 #~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Ne mogu da uspavam računar.\n"
+#~ "Proverite da li je računar ispravno podešen."
+
+#~ msgid ""
 #~ "Set to True to display a dialog when there are errors running the "
 #~ "screensaver."
 #~ msgstr ""
-#~ "Uključite radi prikaza prozorčića kada se jave greške pri pokretanju "
-#~ "čuvara ekrana."
+#~ "Uključite radi prikaza prozorčića kada se jave greške pri pokretanju čuvara "
+#~ "ekrana."
 
 #~ msgid "Set to True to run the screensaver at login."
 #~ msgstr "Uključite za pokretanje čuvara ekrana po prijavi."
@@ -4370,34 +4224,6 @@ msgstr "Period _rada traje:"
 
 #~ msgid "Screensaver plugin"
 #~ msgstr "Dodatak za čuvara ekrana"
-
-#, fuzzy
-#~ msgid "Sound plugin"
-#~ msgstr "Dodatak za font"
-
-#, fuzzy
-#~ msgid "Enable default editor plugin"
-#~ msgstr "Uključi dodatak za spisak isečaka"
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage the default text editor "
-#~ "setting."
-#~ msgstr ""
-#~ "Uključite za pokretanje dodatka koji podešava pristupačnost tastature."
-
-#~ msgid "Key Binding (%s) has its action defined multiple times\n"
-#~ msgstr "Akcija povezanog tastera (%s) je više puta definisana\n"
-
-#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
-#~ msgstr "Veza povezanog tastera (%s) je više puta definisana\n"
-
-#, fuzzy
-#~ msgid "Key Binding (%s) is already in use\n"
-#~ msgstr "Nije ispravna veza sa tasterom (%s)"
-
-#~ msgid "Volume"
-#~ msgstr "Jačina"
 
 #~ msgid "_Jabber:"
 #~ msgstr "_Jabber:"
@@ -4458,8 +4284,7 @@ msgstr "Period _rada traje:"
 
 #~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
 #~ msgstr ""
-#~ "Ajšo, lepoto i čežnjo, za ljubav srca moga dođi u Hadžiće na kafu. "
-#~ "0123456789"
+#~ "Ajšo, lepoto i čežnjo, za ljubav srca moga dođi u Hadžiće na kafu. 0123456789"
 
 #~| msgid "No Desktop Background"
 #~ msgid "_Desktop Background"
@@ -4850,6 +4675,9 @@ msgstr "Period _rada traje:"
 #~ msgid "Testing event sound"
 #~ msgstr "Proveri zvučni signal"
 
+#~ msgid "Select Sound File"
+#~ msgstr "Odaberite datoteku sa zvukom"
+
 #~ msgid "Sound files"
 #~ msgstr "Zvučne datoteke"
 
@@ -4858,6 +4686,9 @@ msgstr "Period _rada traje:"
 
 #~ msgid "Lock Screen"
 #~ msgstr "Zaključaj ekran"
+
+#~ msgid "Logout"
+#~ msgstr "Odjavi se"
 
 #~ msgid "Shutdown"
 #~ msgstr "Ugasi računar"
@@ -5092,8 +4923,8 @@ msgstr "Period _rada traje:"
 #~ "The version of the XRandR extension is incompatible with this program. "
 #~ "Runtime changes to the display size are not available."
 #~ msgstr ""
-#~ "Ova verzija XRandR proširenja nije usklađena sa ovi programom. Nisu "
-#~ "moguće promene rezolucije ekrana u hodu."
+#~ "Ova verzija XRandR proširenja nije usklađena sa ovi programom. Nisu moguće "
+#~ "promene rezolucije ekrana u hodu."
 
 #~ msgid "New accelerator..."
 #~ msgstr "Nova prečica..."
@@ -5155,11 +4986,37 @@ msgstr "Period _rada traje:"
 #~ msgid "_Enable system beep"
 #~ msgstr "_Uključi sistemsko zvonce"
 
+#~ msgid "Volume"
+#~ msgstr "Jačina"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Ne mogu da napravim direktorijum „%s“.\n"
+#~ "Ovo je neophodno da bi se omogućila promena kursora."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Ne mogu da napravim direktorijum „%s“.\n"
+#~ "Ovo je neophodno da bi se omogućila promena kursora."
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Akcija povezanog tastera (%s) je više puta definisana\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Veza povezanog tastera (%s) je više puta definisana\n"
+
 #~ msgid "Key Binding (%s) is incomplete\n"
 #~ msgstr "Povezanost tastera (%s) nije dovršena\n"
 
 #~ msgid "Key Binding (%s) is invalid\n"
 #~ msgstr "Povezanost tastera (%s)nije ispravna\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "Čini se da neki drugi program već ima pristup ključu „%u“."
 
 #~ msgid ""
 #~ "Error activating XKB configuration.\n"
@@ -5225,6 +5082,9 @@ msgstr "Period _rada traje:"
 
 #~ msgid "Keep GNOME settings"
 #~ msgstr "Zadrži podešavanja iz Gnoma"
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Ne mogu da učitam datoteku %s kao probni %s"
 
 #~ msgid "Do _not show this warning again."
 #~ msgstr "_Nemoj više da prikazuješ ovo upozorenje."
@@ -5296,11 +5156,43 @@ msgstr "Period _rada traje:"
 #~ msgid "No application with name '%s' registered a bookmark for '%s'"
 #~ msgstr "Program sa imenom „%s“ nije napravio obeleživač za „%s“"
 
+#~ msgid "Siren"
+#~ msgstr "Sirena"
+
+#~ msgid "Clink"
+#~ msgstr "Klink"
+
+#~ msgid "Beep"
+#~ msgstr "Bip"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Zvuk za _ovaj događaj nije postavljen."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Zvučna datoteka za ovaj događaj ne postoji.\n"
+#~ "Možda bi trebali instalirati gnome-audio paket da biste imali osnovne "
+#~ "zvukove."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Zvučna datoteka za ovaj događaj ne postoji."
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Datoteka %s ne predstavlja ispravnu WAV datoteku"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Odaberite datoteku sa zvukom..."
+
 #~ msgid ""
 #~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
 #~ msgstr ""
-#~ "Ako je postavljeno, mime rukovaoci za text/plain i text/* će biti "
-#~ "usklađeni"
+#~ "Ako je postavljeno, mime rukovaoci za text/plain i text/* će biti usklađeni"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Uskladi rukovaoce za text/plain i text/*"
 
 #~ msgid "E-mail's shortcut."
 #~ msgstr "Prečica za e-poštu."
@@ -5394,8 +5286,7 @@ msgstr "Period _rada traje:"
 
 #~ msgid "If set to true, then installed themes will be thumbnailed."
 #~ msgstr ""
-#~ "Ako je postavljeno, onda će se za instalirane teme koristiti umanjeni "
-#~ "prikaz"
+#~ "Ako je postavljeno, onda će se za instalirane teme koristiti umanjeni prikaz"
 
 #~ msgid "If set to true, then themes will be thumbnailed."
 #~ msgstr "Ako je postavljeno, onda će se za teme koristiti umanjeni prikaz"
@@ -5657,9 +5548,6 @@ msgstr "Period _rada traje:"
 #~ msgid "Theme Details"
 #~ msgstr "Detalji teme"
 
-#~ msgid "Theme Preferences"
-#~ msgstr "Podešenja teme"
-
 #~ msgid "This theme suggests a background:"
 #~ msgstr "Ova tema predlaže pozadinu:"
 
@@ -5833,8 +5721,8 @@ msgstr "Period _rada traje:"
 #~ "Keyboard settings in gconf will be overridden from the system ASAP "
 #~ "(deprecated)"
 #~ msgstr ""
-#~ "Podešavanja tastature u GKonfu će ubrzo biti prevaziđena od strane "
-#~ "sistema (zastarelo)"
+#~ "Podešavanja tastature u GKonfu će ubrzo biti prevaziđena od strane sistema "
+#~ "(zastarelo)"
 
 #~ msgid "Save/restore indicators together with layout groups"
 #~ msgstr "Sačuvaj/vrati pokazatelje zajedno sa grupama rasporeda"

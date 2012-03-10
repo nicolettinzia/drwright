@@ -1,197 +1,129 @@
 # #-#-#-#-#  sr.po (DrWright)  #-#-#-#-#
 # Serbian translation of drwright
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004.
-#
 # This file is distributed under the same license as the drwright package.
-#
 # Maintainer: Данило Шеган <dsegan@gmx.net>
-#
 # #-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#
 # Serbian translation of gnome-control-center
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003 - 2009.
-#
 # This file is distributed under the same license as the gnome-control-center package.
-#
 # Maintainer: Вељко М. Станојевић <veljko@vms.homelinux.net>
 # Reviewed on 2005-03-03 by: Данило Шеган <danilo@gnome.org>
 # Translated on 2006-03-11 by: Слободан Д. Средојевић <slobo@akrep.be>
 # Милош Поповић <gpopac@gmail.com>, 2010.
-#
 # #-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#
 # Serbian translation of gnome-control-center
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
-#
 # This file is distributed under the same license as the gnome-control-center package.
-#
 # Maintainer: Вељко М. Станојевић <veljko@vms.homelinux.net>
 # Reviewed on 2005-03-03 by: Данило Шеган <danilo@gnome.org>
 # Translated on 2006-03-11 by: Слободан Д. Средојевић <slobo@akrep.be>
 # Милош Поповић <gpopac@gmail.com>, 2010.
-#
-#, fuzzy
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2010-08-23 00:51+0200\n"
-"Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=drwright&component=general\n"
+"POT-Creation-Date: 2011-03-06 23:25+0000\n"
+"PO-Revision-Date: 2012-03-10 12:06+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
-"#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Project-Style: gnome\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
-msgstr "Укључи код за тражење грешака"
+msgstr "Укључује код за исправљање грешака"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Не проверавај да ли постоји обавештајна зона"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Праћење куцања"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"Праћење куцања користи обавештајну зону панела за приказ података. Чини се "
-"да ви немате обавештајну зону на панелу. Можете је додати десним-кликом на "
-"панел и избором „Додај на панел > Обавештајна зона“ и кликом на „Додај“."
+#: ../src/drwright.c:168
+msgid "Typing Break Reminder"
+msgstr "Подсетник за одмор од куцања"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "_Узми одмор"
-
-#: ../../../po/../src/drwright.c:441
-#, fuzzy
-msgid "Disabled"
-msgstr ""
-"#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
-"Искључено\n"
-"#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
-"Онемогућено\n"
-"#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
-"Онемогућено"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:171
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "%d минут до следећег одмора"
-msgstr[1] "%d минута до следећег одмора"
-msgstr[2] "%d минута до следећег одмора"
-msgstr[3] "Један минут до следећег одмора"
+#| msgid "%d minute until the next break"
+#| msgid_plural "%d minutes until the next break"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "Приближно %d минут до следећег одмора."
+msgstr[1] "Приближно %d минута до следећег одмора."
+msgstr[2] "Приближно %d минута до следећег одмора."
+msgstr[3] "Приближно један минут до следећег одмора."
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "Мање од једног минута до следећег одмора"
+#: ../src/drwright.c:177
+#| msgid "Less than one minute until the next break"
+msgid "Less than one minute to the next break."
+msgstr "Мање од једног минута до следећег одмора."
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"Не може да прикаже прозорче за подешавање одмора од куцања услед следеће "
-"грешке: %s"
+#: ../src/drwright.c:189
+#| msgid "X Settings"
+msgid "Settings…"
+msgstr "Подешавања…"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Написао Ричард Хулт <richard@imendio.com>"
+#: ../src/drwright.c:193
+#| msgid "_Take a Break"
+msgid "Take Break Now"
+msgstr "Одморите се сада"
 
-#: ../../../po/../src/drwright.c:573
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Улепшао Андерс Карлссон"
-
-#: ../../../po/../src/drwright.c:582
-#, fuzzy
-msgid "A computer break reminder."
-msgstr ""
-"#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
-"Подсетник за одмор при раду.\n"
-"#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
-"Подсетник за узимање одмора."
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr ""
-"Вељко М. Станојевић <veljko@vms.homelinux.net>\n"
-"Горан Ракић <grakic@devbase.net>\n"
-"Данило Шеган <danilo@gnome.org>\n"
-"\n"
-"Prevod.org — превод на српски језик."
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:189
 msgid "_Postpone Break"
 msgstr "Од_ложи одмор"
 
-#: ../../../po/../src/drw-break-window.c:234
-#, fuzzy
+#: ../src/drw-break-window.c:234
 msgid "Take a break!"
-msgstr ""
-"#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
-"Одморите мало!\n"
-"#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
-"Узми одмор!"
+msgstr "Одморите се мало!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
 msgid "Number of seconds of typing time before break mode starts"
-msgstr ""
+msgstr "Број секунди времена куцања пре почетка одмора"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
 msgid "Number of seconds that the typing break should last"
-msgstr ""
+msgstr "Колико секунди треба да траје одмор од куцања"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Phrase to unlock the break screen with"
-msgstr ""
+msgstr "Израз за откључавање екрана одмора"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "Приоритет који ће бити коришћен за овај прикључак"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
-msgstr ""
+msgstr "Да ли демон подешавања треба да активира прикључак за одмор од куцања"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-#, fuzzy
 msgid "Whether the typing break can be postponed"
-msgstr "Одређује да ли је укључен читач екрана."
+msgstr "Да ли одмор од куцања може бити одложен"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
-#, fuzzy
 msgid "Whether typing break is enabled"
-msgstr "Одређује да ли је укључен читач екрана."
+msgstr "Да ли је укључен одмор од куцања"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#, fuzzy
-msgid "Typing Break Preferences"
-msgstr "Подешења теме"
+#| msgid "Enable typing breaks plugin"
+msgid "Change typing break settings"
+msgstr "Измените подешавања одмора од куцања"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr ""
+msgid "Typing Break"
+msgstr "Одмор од куцања"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
 msgid "Typing;Break;RSI;Workrave;"
-msgstr ""
+msgstr "Куцање;Одмор;РСИ;"
 
 #: ../src/drwright-panel.glade.h:1
 msgid "_Allow postponing of breaks"
@@ -199,15 +131,72 @@ msgstr "_Допусти одлагање одмора"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
-msgstr "_Одмор траје:"
+msgstr "Време трајања _одмора:"
 
 #: ../src/drwright-panel.glade.h:3
 msgid "_Lock screen to enforce typing break"
-msgstr "_Закључај екран како би приморао на одмор при куцању"
+msgstr "_Закључај екран да примораш на одмор од куцања"
 
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
-msgstr "Период _рада траје:"
+msgstr "Време трајања _рада:"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "Не проверавај да ли постоји обавештајна зона"
+
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "Праћење куцања користи обавештајну зону панела за приказ података. Чини "
+#~ "се да ви немате обавештајну зону на панелу. Можете је додати десним-"
+#~ "кликом на панел и избором „Додај на панел > Обавештајна зона“ и кликом на "
+#~ "„Додај“."
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr ""
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "Искључено\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Онемогућено\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Онемогућено"
+
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Не може да прикаже прозорче за подешавање одмора од куцања услед следеће "
+#~ "грешке: %s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Написао Ричард Хулт <richard@imendio.com>"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "Улепшао Андерс Карлссон"
+
+#, fuzzy
+#~ msgid "A computer break reminder."
+#~ msgstr ""
+#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
+#~ "Подсетник за одмор при раду.\n"
+#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Подсетник за узимање одмора."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Вељко М. Станојевић <veljko@vms.homelinux.net>\n"
+#~ "Горан Ракић <grakic@devbase.net>\n"
+#~ "Данило Шеган <danilo@gnome.org>\n"
+#~ "\n"
+#~ "Prevod.org — превод на српски језик."
+
+#, fuzzy
+#~ msgid "Typing Break Preferences"
+#~ msgstr "Подешења теме"
 
 #~ msgid "Take a break now (next in %dm)"
 #~ msgstr "Узмите паузу (следећа је за %d минута)"
@@ -337,14 +326,6 @@ msgstr "Период _рада траје:"
 
 #~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 #~ msgstr "Написао Ричард Хулт &lt;rhult@codefactory.se&gt;"
-
-#, fuzzy
-#~ msgid "Break reminder"
-#~ msgstr ""
-#~ "#-#-#-#-#  sr.po (DrWright)  #-#-#-#-#\n"
-#~ "Подсетник за одмор\n"
-#~ "#-#-#-#-#  sr.po (gnome-control-center)  #-#-#-#-#\n"
-#~ "Подсетник за одморе"
 
 #~ msgid "_Postpone break"
 #~ msgstr "Од_ложи одмор"
@@ -808,9 +789,6 @@ msgstr "Период _рада траје:"
 
 #~ msgid "Enable sound plugin"
 #~ msgstr "Укључи додатак за звук"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Укључи додатак за прекиде приликом куцања"
 
 #~ msgid "Enable xrdb plugin"
 #~ msgstr "Укључи xrdb додатак"
@@ -1390,9 +1368,6 @@ msgstr "Период _рада траје:"
 #~ msgid "Mouse plugin"
 #~ msgstr "Додатак за миша"
 
-#~ msgid "Typing Break"
-#~ msgstr "Одмор од куцања"
-
 #~ msgid "Typing break plugin"
 #~ msgstr "Додатак за одмор приликом куцања"
 
@@ -1485,9 +1460,6 @@ msgstr "Период _рада траје:"
 
 #~ msgid "Manage X Settings"
 #~ msgstr "Уреди подешавања Икса"
-
-#~ msgid "X Settings"
-#~ msgstr "Подешавања Икса"
 
 #~ msgid "Module Path"
 #~ msgstr "Путања до модула"
