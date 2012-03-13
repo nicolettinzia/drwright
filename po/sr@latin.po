@@ -23,10 +23,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=drwright&component=general\n"
-"POT-Creation-Date: 2011-03-06 23:25+0000\n"
-"PO-Revision-Date: 2012-03-10 12:06+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=drwrig"
+"ht&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-10 23:17+0000\n"
+"PO-Revision-Date: 2012-03-13 11:43+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -45,14 +45,12 @@ msgstr "Uključuje kod za ispravljanje grešaka"
 msgid "Typing Monitor"
 msgstr "Praćenje kucanja"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Podsetnik za odmor od kucanja"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
-#| msgid "%d minute until the next break"
-#| msgid_plural "%d minutes until the next break"
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "Približno %d minut do sledećeg odmora."
@@ -60,65 +58,66 @@ msgstr[1] "Približno %d minuta do sledećeg odmora."
 msgstr[2] "Približno %d minuta do sledećeg odmora."
 msgstr[3] "Približno jedan minut do sledećeg odmora."
 
-#: ../src/drwright.c:177
-#| msgid "Less than one minute until the next break"
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Manje od jednog minuta do sledećeg odmora."
 
-#: ../src/drwright.c:189
-#| msgid "X Settings"
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Podešavanja…"
 
-#: ../src/drwright.c:193
-#| msgid "_Take a Break"
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Odmorite se sada"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "Od_loži odmor"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+#| msgid "Lock Screen"
+msgid "_Lock Screen"
+msgstr "_Zaključaj ekran"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Odmorite se malo!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr "Broj sekundi vremena kucanja pre početka odmora"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr "Koliko sekundi treba da traje odmor od kucanja"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr "Izraz za otključavanje ekrana odmora"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr "Prioritet koji će biti korišćen za ovaj priključak"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr "Da li demon podešavanja treba da aktivira priključak za odmor od kucanja"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-msgid "Whether the typing break can be postponed"
-msgstr "Da li odmor od kucanja može biti odložen"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "Prioritet koji će biti korišćen za ovaj priključak"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Whether typing break is enabled"
 msgstr "Da li je uključen odmor od kucanja"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#| msgid "Enable typing breaks plugin"
-msgid "Change typing break settings"
-msgstr "Izmenite podešavanja odmora od kucanja"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the typing break can be postponed"
+msgstr "Da li odmor od kucanja može biti odložen"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "Broj sekundi vremena kucanja pre početka odmora"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr "Koliko sekundi treba da traje odmor od kucanja"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Phrase to unlock the break screen with"
+msgstr "Izraz za otključavanje ekrana odmora"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
 msgid "Typing Break"
 msgstr "Odmor od kucanja"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Change typing break settings"
+msgstr "Izmenite podešavanja odmora od kucanja"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -126,20 +125,20 @@ msgid "Typing;Break;RSI;Workrave;"
 msgstr "Kucanje;Odmor;RSI;"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "_Dopusti odlaganje odmora"
+msgid "_Lock screen to enforce typing break"
+msgstr "_Zaključaj ekran da primoraš na odmor od kucanja"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "Vreme trajanja _odmora:"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "_Zaključaj ekran da primoraš na odmor od kucanja"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "Vreme trajanja _rada:"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "_Dopusti odlaganje odmora"
 
 #~ msgid "Don't check whether the notification area exists"
 #~ msgstr "Ne proveravaj da li postoji obaveštajna zona"
@@ -4683,9 +4682,6 @@ msgstr "Vreme trajanja _rada:"
 
 #~ msgid "Custom..."
 #~ msgstr "Proizvoljno..."
-
-#~ msgid "Lock Screen"
-#~ msgstr "Zaključaj ekran"
 
 #~ msgid "Logout"
 #~ msgstr "Odjavi se"
