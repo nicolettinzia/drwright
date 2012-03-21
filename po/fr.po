@@ -1,5 +1,5 @@
 # French Translation of drwright
-# Copyright (C) 2002-2011 Free Software Foundation, Inc.
+# Copyright (C) 2002-2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the drwright package.
 #
 # Jean Schurger <yshark@schurger.org>, 2002.
@@ -12,10 +12,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drwright fr master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=drwright&component=general\n"
-"POT-Creation-Date: 2011-03-06 23:25+0000\n"
-"PO-Revision-Date: 2011-03-12 14:14+0100\n"
-"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-10 09:22+0000\n"
+"PO-Revision-Date: 2012-03-10 14:37+0100\n"
+"Last-Translator: Pierre Henry <pierrehenry73@yahoo.fr>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,92 +30,96 @@ msgstr "Activer le code de débogage"
 msgid "Typing Monitor"
 msgstr "Moniteur de saisie"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Rappel de la pause de saisie"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
-msgstr[0] "Environ %d minute avant la prochaine pause"
-msgstr[1] "Environ %d minutes avant la prochaine pause"
+msgstr[0] "Environ %d minute avant la prochaine pause."
+msgstr[1] "Environ %d minutes avant la prochaine pause."
 
-#: ../src/drwright.c:177
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Moins d'une minute avant la prochaine pause."
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Paramètres…"
 
-#: ../src/drwright.c:193
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Faites une pause maintenant"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Différer la pause"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "_Verrouiller l'écran"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Faites une pause !"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr "Nombre de secondes de temps de saisie avant le début du mode pause"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr "Durée de la pause de saisie en secondes"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr "Phrase de déverrouillage de l'écran de pause"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr "Priorité à utiliser pour ce grffon"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 "Indique si le service des paramètres doit activer le greffon de pause de "
 "saisie"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-msgid "Whether the typing break can be postponed"
-msgstr "Indique si la pause de saisie peut être différée"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "Priorité à utiliser pour ce grffon"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Whether typing break is enabled"
 msgstr "Indique si la pause de saisie est activée"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Change typing break settings"
-msgstr "Modifier les paramètres de la pause de saisie"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the typing break can be postponed"
+msgstr "Indique si la pause de saisie peut être différée"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "Nombre de secondes de temps de saisie avant le début du mode pause"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr "Durée de la pause de saisie en secondes"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Phrase to unlock the break screen with"
+msgstr "Phrase de déverrouillage de l'écran de pause"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
 msgid "Typing Break"
 msgstr "Pause de saisie"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Change typing break settings"
+msgstr "Modifier les paramètres de la pause de saisie"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
 msgid "Typing;Break;RSI;Workrave;"
-msgstr "Saisie;Pause;TMS;Workrave;"
+msgstr "Saisie;Pause;TMS;"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "_Autoriser l'ajournement des pauses"
+msgid "_Lock screen to enforce typing break"
+msgstr "_Verrouiller l'écran pour forcer une pause"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "La période de _pause dure :"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "_Verrouiller l'écran pour forcer une pause"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "La période de _travail dure :"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "_Autoriser l'ajournement des pauses"
