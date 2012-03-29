@@ -1,8 +1,15 @@
 NULL =
 
+EXTRA_DIST =
+
 # Typing break
 
 pkglibexec_PROGRAMS = gnome-typing-monitor
+
+BUILT_SOURCES = \
+	drw-resources.c \
+	drw-resources.h \
+	$(NULL)
 
 gnome_typing_monitor_SOURCES =			\
 	main.c					\
@@ -17,7 +24,9 @@ gnome_typing_monitor_SOURCES =			\
 	drw-selection.c				\
 	drw-selection.h				\
 	drw-timer.c				\
-	drw-timer.h
+	drw-timer.h \
+	$(BUILT_SOURCES) \
+	$(NULL)
 
 gnome_typing_monitor_CPPFLAGS = \
 	-DGNOMELOCALEDIR="\"$(datadir)/locale\""	\
@@ -33,8 +42,7 @@ gnome_typing_monitor_LDADD = \
 	$(LIBM) \
 	$(INTLLIBS)
 
-imagedir = $(pkgdatadir)/pixmaps
-dist_image_DATA = ocean-stripes.png
+EXTRA_DIST += ocean-stripes.png
 
 # Themeable application icon
 icondir = $(datadir)/icons/hicolor/48x48/apps
@@ -136,6 +144,11 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 @INTLTOOL_DESKTOP_RULE@
 
+# Resources
+
+drw-resources.h drw-resources.c: drwright.gresource.xml Makefile $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies --sourcedir $(srcdir) $(srcdir)/drwright.gresource.xml)
+	$(AM_V_GEN) $(GLIB_COMPILE_RESOURCES) --target $@ --sourcedir $(srcdir) --generate --c-name drw $<
+
 # GSettings
 
 gsettings_schemas_in_files = org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in
@@ -149,7 +162,7 @@ gsettings_SCHEMAS = $(gsettings_schemas_in_files:.gschema.xml.in=.gschema.xml)
 
 # Clean
 
-EXTRA_DIST = 			\
+EXTRA_DIST += 			\
 	$(builder_in_files)	\
 	$(gsd_plugin_in_files)	\
 	$(gsettings_schemas_in_files) 	\
@@ -160,12 +173,14 @@ CLEANFILES = 			\
 	$(desktop_DATA)		\
 	$(gsettings_SCHEMAS)	\
 	$(gsd_plugin_DATA)	\
+	$(BUILT_SOURCES)	\
 	$(NULL)
 
 DISTCLEANFILES =		\
 	$(builder_DATA)		\
 	$(desktop_DATA)		\
 	$(gsd_plugin_DATA)	\
+	$(BUILT_SOURCES)	\
 	$(NULL)
 
 # includes

@@ -158,7 +158,7 @@ set_surface_background (GtkWidget *window)
 	width = gdk_screen_get_width (screen);
 	height = gdk_screen_get_height (screen);
 
-	pixbuf = gdk_pixbuf_new_from_file (IMAGEDIR "/ocean-stripes.png", NULL);
+	pixbuf = gdk_pixbuf_new_from_resource ("/org/gnome/drwright/ocean-stripes.png", NULL);
 
 	rect.x = 0;
 	rect.y = 0;
