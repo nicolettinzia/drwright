@@ -2,14 +2,17 @@ NULL =
 
 EXTRA_DIST =
 
+BUILT_SOURCES = \
+	drw-resources.c \
+	drw-resources.h \
+	drw-cc-resources.c \
+	drw-cc-resources.h \
+	$(NULL)
+
 # Typing break
 
 pkglibexec_PROGRAMS = gnome-typing-monitor
 
-BUILT_SOURCES = \
-	drw-resources.c \
-	drw-resources.h \
-	$(NULL)
 
 gnome_typing_monitor_SOURCES =			\
 	main.c					\
@@ -25,12 +28,12 @@ gnome_typing_monitor_SOURCES =			\
 	drw-selection.h				\
 	drw-timer.c				\
 	drw-timer.h \
-	$(BUILT_SOURCES) \
+	drw-resources.c \
+	drw-resources.h \
 	$(NULL)
 
 gnome_typing_monitor_CPPFLAGS = \
 	-DGNOMELOCALEDIR="\"$(datadir)/locale\""	\
-	-DIMAGEDIR=\"$(pkgdatadir)/pixmaps\"		\
 	-DBINDIR="\"$(bindir)\""			\
 	$(AM_CPPFLAGS)
 gnome_typing_monitor_CFLAGS = \
@@ -112,10 +115,11 @@ libdrwrightccp_la_SOURCES = \
 	drw-cc-module.c	\
 	drw-cc-panel.c	\
 	drw-cc-panel.h	\
+	drw-cc-resources.c \
+	drw-cc-resources.h \
 	$(NULL)
 libdrwrightccp_la_CPPFLAGS = \
         -DLOCALEDIR="\"$(datadir)/locale\""	\
-	-DBUILDERDIR="\"$(builderdir)\""	\
 	$(AM_CPPFLAGS)
 libdrwrightccp_la_CFLAGS = \
 	$(CCPANEL_CFLAGS)	\
@@ -131,13 +135,11 @@ libdrwrightccp_la_LDFLAGS = \
 	-no-undefined \
 	$(AM_LDFLAGS)
 
-builderdir = $(pkgdatadir)
-builder_in_files = drwright-panel.glade
-builder_DATA = $(builder_in_files:.glade=.ui)
-
 desktopdir = $(datadir)/applications
 desktop_in_files = gnome-typing-break-panel.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
+
+builder_in_files = drwright-panel.glade
 
 %.ui: %.glade
 	$(AM_V_GEN) $(GTK_BUILDER_CONVERT) $< $@ >/dev/null
@@ -148,6 +150,12 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 drw-resources.h drw-resources.c: drwright.gresource.xml Makefile $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies --sourcedir $(srcdir) $(srcdir)/drwright.gresource.xml)
 	$(AM_V_GEN) $(GLIB_COMPILE_RESOURCES) --target $@ --sourcedir $(srcdir) --generate --c-name drw $<
+
+# hack! https://bugzilla.gnome.org/show_bug.cgi?id=673101
+drwright-cc.gresource.xml: drwright-panel.ui
+
+drw-cc-resources.h drw-cc-resources.c: drwright-cc.gresource.xml Makefile $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies --sourcedir $(srcdir) --sourcedir . $(srcdir)/drwright-cc.gresource.xml)
+	$(AM_V_GEN) XMLLINT=$(XMLLINT) $(GLIB_COMPILE_RESOURCES) --target $@ --sourcedir $(srcdir) --sourcedir . --generate --c-name drw_cc $<
 
 # GSettings
 
@@ -169,7 +177,7 @@ EXTRA_DIST += 			\
 	$(NULL)
 
 CLEANFILES = 			\
-	$(builder_DATA)		\
+	$(builder_in_files:.glade=.ui) \
 	$(desktop_DATA)		\
 	$(gsettings_SCHEMAS)	\
 	$(gsd_plugin_DATA)	\
@@ -177,7 +185,7 @@ CLEANFILES = 			\
 	$(NULL)
 
 DISTCLEANFILES =		\
-	$(builder_DATA)		\
+	$(builder_in_files:.glade=.ui) \
 	$(desktop_DATA)		\
 	$(gsd_plugin_DATA)	\
 	$(BUILT_SOURCES)	\

@@ -177,7 +177,7 @@ drw_cc_panel_init (DrwCcPanel *self)
   builder = gtk_builder_new ();
   gtk_builder_set_translation_domain (builder, GETTEXT_PACKAGE);
 
-  if (!gtk_builder_add_from_file (builder, BUILDERDIR "/drwright-panel.ui", &error))
+  if (!gtk_builder_add_from_resource (builder, "/org/gnome/drwright/drwright-panel.ui", &error))
     g_error ("%s", error->message);
 
   widget = (GtkWidget *) gtk_builder_get_object (builder, "typing-break-preferences-box");

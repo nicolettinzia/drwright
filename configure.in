@@ -115,6 +115,12 @@ if test -z "$GLIB_COMPILE_RESOURCES"; then
   AC_MSG_ERROR([glib-compile-resources not found])
 fi
 
+AC_ARG_VAR([XMLLINT],[the xmllint programme])
+AC_PATH_PROG([XMLLINT],[xmllint],[])
+if test -z "$XMLLINT"; then
+  AC_MSG_ERROR([xmllint not found])
+fi
+
 # *********
 # GSettings
 # *********
