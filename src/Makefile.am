@@ -76,9 +76,13 @@ libtyping_break_la_CFLAGS = \
 	$(GSD_PLUGIN_CFLAGS)	\
 	$(AM_CFLAGS)
 
-libtyping_break_la_LDFLAGS = 		\
-	$(GSD_PLUGIN_LDFLAGS)	\
-	$(NULL)
+libtyping_break_la_LDFLAGS = \
+	-export-dynamic \
+	-export-symbols-regex '^register_gnome_settings_plugin' \
+	-module \
+	-avoid-version \
+	-no-undefined \
+	$(AM_LDFLAGS)
 
 libtyping_break_la_LIBADD  = 		\
 	$(GSD_PLUGIN_LIBS)	\
@@ -112,7 +116,12 @@ libdrwrightccp_la_LIBADD = \
 	$(CCPANEL_LIBS)	\
 	$(INTLLIBS)
 libdrwrightccp_la_LDFLAGS = \
-	$(CCPANEL_LDFLAGS)
+	-export-dynamic \
+	-export-symbols-regex '^g_io_module_(load|unload)' \
+	-avoid-version \
+	-module \
+	-no-undefined \
+	$(AM_LDFLAGS)
 
 builderdir = $(pkgdatadir)
 builder_in_files = drwright-panel.glade
