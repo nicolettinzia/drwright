@@ -13,7 +13,6 @@ BUILT_SOURCES = \
 
 pkglibexec_PROGRAMS = gnome-typing-monitor
 
-
 gnome_typing_monitor_SOURCES =			\
 	main.c					\
 	drwright.c				\
@@ -28,6 +27,9 @@ gnome_typing_monitor_SOURCES =			\
 	drw-selection.h				\
 	drw-timer.c				\
 	drw-timer.h \
+	$(NULL)
+
+nodist_gnome_typing_monitor_SOURCES = \
 	drw-resources.c \
 	drw-resources.h \
 	$(NULL)
@@ -115,6 +117,8 @@ libdrwrightccp_la_SOURCES = \
 	drw-cc-module.c	\
 	drw-cc-panel.c	\
 	drw-cc-panel.h	\
+	$(NULL)
+nodist_libdrwrightccp_la_SOURCES = \
 	drw-cc-resources.c \
 	drw-cc-resources.h \
 	$(NULL)
