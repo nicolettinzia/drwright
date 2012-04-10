@@ -1,17 +1,17 @@
 # Danish translation of DrWright.
-# Copyright (C) 2011 Richard Hult <richard@imendo.com>.
+# Copyright (C) 2012 Richard Hult <richard@imendo.com>.
 # This file is distributed under the same license as the drwright package.
 # Kim Schulz <kim@gnome.dk>, 2003.
 # Martin Willemoes Hansen <mwh@sysrq.dk>, 2004.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
-# Joe Hansen (joedalton2@yahoo.dk), 2011.
+# Joe Hansen (joedalton2@yahoo.dk), 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-17 18:10+0200\n"
-"PO-Revision-Date: 2011-09-17 22:21+0200\n"
+"POT-Creation-Date: 2012-04-10 12:52+0200\n"
+"PO-Revision-Date: 2012-03-25 22:21+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -28,77 +28,81 @@ msgstr "Aktiver fejlsøgningskode"
 msgid "Typing Monitor"
 msgstr "Tasteovervåger"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Pausepåminder"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "Cirka %d minut til næste pause."
 msgstr[1] "Cirka %d minutter til næste pause."
 
-#: ../src/drwright.c:177
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Mindre end et minut til næste pause."
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Indstillinger…"
 
-#: ../src/drwright.c:193
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Hold en pause nu"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Udsæt pause"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "_Lås skærm"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Tag en pause!"
 
-# Antallet af tastetid i sekunder før pausetilstand starter
-# Tastetid i sekunder før pausetilstand starter
-# Antal sekunder med indtastning før pauseskærm starter
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr "Tastetid i sekunder før pausetilstand starter"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr "Antallet af sekunder som indtastningspausen skal vare"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr "Frase til at åbne pauseskærmen med"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr "Prioritet for dette udvidelsesmodul"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 "Om opsætningsdæmonen skal aktivere udvidelsesmodulet for indtastningspause"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-msgid "Whether the typing break can be postponed"
-msgstr "Om indtastningspausen kan udsættes"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "Prioritet for dette udvidelsesmodul"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Whether typing break is enabled"
 msgstr "Om indtastningspause er aktiveret"
 
-# skift eller ændr
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Change typing break settings"
-msgstr "Skift indstillinger for indtastningspause"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the typing break can be postponed"
+msgstr "Om indtastningspausen kan udsættes"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+# Antallet af tastetid i sekunder før pausetilstand starter
+# Tastetid i sekunder før pausetilstand starter
+# Antal sekunder med indtastning før pauseskærm starter
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "Tastetid i sekunder før pausetilstand starter"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr "Antallet af sekunder som indtastningspausen skal vare"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Phrase to unlock the break screen with"
+msgstr "Frase til at åbne pauseskærmen med"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
 msgid "Typing Break"
 msgstr "Indtastningspause"
+
+# skift eller ændr
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Change typing break settings"
+msgstr "Skift indstillinger for indtastningspause"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -106,17 +110,17 @@ msgid "Typing;Break;RSI;Workrave;"
 msgstr "Indtastning;pause;RSI;arbejdsraseri"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "_Tillad udsættelse af pauser"
+msgid "_Lock screen to enforce typing break"
+msgstr "_Lås skærm for at gennemtvinge tastepauser"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "_Pauseinterval tager:"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "_Lås skærm for at gennemtvinge tastepauser"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "_Arbejdsinterval tager:"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "_Tillad udsættelse af pauser"
