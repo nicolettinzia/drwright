@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dr. Wright\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2011-02-28 19:28+0200\n"
+"POT-Creation-Date: 2012-04-13 01:59+0300\n"
+"PO-Revision-Date: 2012-04-13 02:00+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Gezer (Hebrew) <gezer@lists.launchpad.net>\n"
 "Language: he\n"
@@ -21,78 +21,46 @@ msgstr ""
 "X-Poedit-Country: ISRAEL\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
 msgstr "Enable debugging code"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Don't check whether the notification area exists"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Typing Monitor"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
+#: ../src/drwright.c:213
+msgid "Typing Break Reminder"
+msgstr "תזכורת הפסקת הקלדה"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "ל_קחת להפסקה"
-
-#: ../../../po/../src/drwright.c:441
-msgid "Disabled"
-msgstr "מנוטרל"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:216
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "דקה עד ההפסקה הבאה"
-msgstr[1] "%d דקות עד ההפסקה הבאה"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "עוד דקה עד ההפסקה הבאה."
+msgstr[1] "עוד %d דקות עד ההפסקה הבאה."
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "פחות מדקה אחת עד ההפסקה הבאה"
+#: ../src/drwright.c:222
+msgid "Less than one minute to the next break."
+msgstr "פחות מדקה אחת עד ההפסקה הבאה."
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr "לא ניתן להעלות את תיבת דו־שיח מאפייני הפסקת ההקלדה עקב השגיאה הבאה: %s"
+#: ../src/drwright.c:234
+msgid "Settings…"
+msgstr "הגדרות"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "נכתב על ידי Richard Hult‏ <richard@imendio.com>"
+#: ../src/drwright.c:238
+msgid "Take Break Now"
+msgstr "לקחת הפסקה עכשיו"
 
-#: ../../../po/../src/drwright.c:573
-msgid "Eye candy added by Anders Carlsson"
-msgstr "העיצוב המרהיב נוסף על־ידי Anders Carlsson"
-
-#: ../../../po/../src/drwright.c:582
-msgid "A computer break reminder."
-msgstr "מזכיר הפסקות מהמחשב."
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr "ירון שהרבני <sh.yaron@gmail.com>"
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_דחיית ההפסקה"
 
-#: ../../../po/../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "_נעילת המסך"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "לצאת להפסקה!"
 
@@ -125,12 +93,12 @@ msgid "Whether typing break is enabled"
 msgstr "Whether typing break is enabled"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Typing Break Preferences"
-msgstr "העדפות הפסקת הקלדה"
+msgid "Change typing break settings"
+msgstr "שינוי הגדרות הפסקת הקלדה"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr "לוח העדפות הפסקת הקלדה"
+msgid "Typing Break"
+msgstr "הפסקת הקלדה"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -152,6 +120,44 @@ msgstr "יש ל_נעול את הצג כדי לאלץ הפסקת הקלדה"
 #: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "זמן ה_עבודה נמשך:"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "Don't check whether the notification area exists"
+
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+
+#~ msgid "Disabled"
+#~ msgstr "מנוטרל"
+
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "לא ניתן להעלות את תיבת דו־שיח מאפייני הפסקת ההקלדה עקב השגיאה הבאה: %s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "נכתב על ידי Richard Hult‏ <richard@imendio.com>"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "העיצוב המרהיב נוסף על־ידי Anders Carlsson"
+
+#~ msgid "A computer break reminder."
+#~ msgstr "מזכיר הפסקות מהמחשב."
+
+#~ msgid "translator-credits"
+#~ msgstr "ירון שהרבני <sh.yaron@gmail.com>"
+
+#~ msgid "Typing Break preferences panel"
+#~ msgstr "לוח העדפות הפסקת הקלדה"
 
 #~ msgid "Take a break now (next in %dm)"
 #~ msgstr "נא לצאת להפסקה כעת (הבאה בעוד %d דקות)"
