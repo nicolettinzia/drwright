@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drwright\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-05 21:45+0200\n"
-"PO-Revision-Date: 2011-04-05 21:46+0200\n"
+"POT-Creation-Date: 2012-05-18 17:19+0200\n"
+"PO-Revision-Date: 2012-05-18 17:20+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -29,11 +29,11 @@ msgstr "Włącza kod debugowania"
 msgid "Typing Monitor"
 msgstr "Monitor pisania na klawiaturze"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Program do przypominania o przerwach w pisaniu"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
@@ -41,62 +41,66 @@ msgstr[0] "Około %d minuta do następnej przerwy."
 msgstr[1] "Około %d minuty do następnej przerwy."
 msgstr[2] "Około %d minut do następnej przerwy."
 
-#: ../src/drwright.c:177
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Mniej niż minuta do następnej przerwy."
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Ustawienia…"
 
-#: ../src/drwright.c:193
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Czas na przerwę"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Odłóż przerwę"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "Za_blokuj ekran"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Czas na przerwę!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr "Liczba sekund pisania przed rozpoczęciem trybu przerwy w pisaniu"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr "Liczba sekund trwania przerwy w pisaniu"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr "Hasło do odblokowania ekranu blokady"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr "Priorytet tej wtyczki"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 "Określa, czy usługa ustawień powinna aktywować wtyczkę przerwy w pisaniu"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-msgid "Whether the typing break can be postponed"
-msgstr "Określa, czy przerwa w pisaniu może być przekładana"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "Priorytet tej wtyczki"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Whether typing break is enabled"
 msgstr "Określa, czy przerwa w pisaniu jest włączona"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Change typing break settings"
-msgstr "Zmiana ustawień przerwy w pisaniu"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the typing break can be postponed"
+msgstr "Określa, czy przerwa w pisaniu może być przekładana"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "Liczba sekund pisania przed rozpoczęciem trybu przerwy w pisaniu"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr "Liczba sekund trwania przerwy w pisaniu"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Phrase to unlock the break screen with"
+msgstr "Hasło do odblokowania ekranu blokady"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
 msgid "Typing Break"
 msgstr "Przerwa w pisaniu"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Change typing break settings"
+msgstr "Zmiana ustawień przerwy w pisaniu"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -104,17 +108,17 @@ msgid "Typing;Break;RSI;Workrave;"
 msgstr "Pisanie;Przerwa;RSI;Praca;"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "_Możliwość przekładania przerw"
+msgid "_Lock screen to enforce typing break"
+msgstr "_Blokowanie ekranu wymuszające przerwę w pisaniu"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "_Długość przerwy:"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "_Blokowanie ekranu wymuszające przerwę w pisaniu"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "Długość czasu p_racy:"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "_Możliwość przekładania przerw"
