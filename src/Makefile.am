@@ -178,6 +178,8 @@ EXTRA_DIST += 			\
 	$(builder_in_files)	\
 	$(gsd_plugin_in_files)	\
 	$(gsettings_schemas_in_files) 	\
+	drwright.gresource.xml \
+	drwright-cc.gresource.xml \
 	$(NULL)
 
 CLEANFILES = 			\
