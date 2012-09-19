@@ -35,11 +35,6 @@ struct GsdTypingBreakPluginPrivate {
 GNOME_SETTINGS_PLUGIN_REGISTER (GsdTypingBreakPlugin, gsd_typing_break_plugin)
 
 static void
-gsd_typing_break_plugin_class_finalize (GsdTypingBreakPluginClass *klass)
-{
-}
-
-static void
 gsd_typing_break_plugin_init (GsdTypingBreakPlugin *plugin)
 {
         plugin->priv = GSD_TYPING_BREAK_PLUGIN_GET_PRIVATE (plugin);
