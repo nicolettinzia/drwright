@@ -1,40 +1,7 @@
-# #-#-#-#-#  gl.po (gnome-settings-daemon.master)  #-#-#-#-#
-# translation of gnome-settings-daemon.master.po to Galician
-# Galician translation of GNOME Control Center
+# Galician translation of drwright
 # (C) 2002 Free Software Foundation, Inc.
 #
-#
-# Rubén López Gómez <ryo@mundivia.es>, 1999,, 2000.
-# Manuel A. Fernández Montecelo <manuel@sindominio.net>, 2002.
-# Xabi García <xabigf@gmx.net>, 2002.
-# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
-# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007, 2008.
-# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
-# Suso Baleato <suso.baleato@xunta.es>, 2009.
-# Antón Méixome <meixome@mancomun.org>, 2009.
-# Xosé M. Lamas <correo.xmgz@gmail.com>, 2011.
-#
-# #-#-#-#-#  gl.po (gnome-settings-daemon.master)  #-#-#-#-#
-# translation of gnome-settings-daemon.master.po to Galician
-# Galician translation of GNOME Control Center
-# (C) 2002 Free Software Foundation, Inc.
-#
-#
-# Rubén López Gómez <ryo@mundivia.es>, 1999,, 2000.
-# Manuel A. Fernández Montecelo <manuel@sindominio.net>, 2002.
-# Xabi García <xabigf@gmx.net>, 2002.
-# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
-# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007, 2008.
-# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
-# Suso Baleato <suso.baleato@xunta.es>, 2009.
-# Antón Méixome <meixome@mancomun.org>, 2009.
-#
-# #-#-#-#-#  gl.po (gnome-control-center-master-po-gl-72290.merged)  #-#-#-#-#
-# translation of gnome-control-center-master-po-gl-72290.merged.po to Galician
-# Galician translation of GNOME Control Center
-# (C) 2002 Free Software Foundation, Inc.
-#
-# Rubén López Gómez <ryo@mundivia.es>, 1999,, 2000.
+# Rubén López Gómez <ryo@mundivia.es>, 1999, 2000.
 # Manuel A. Fernández Montecelo <manuel@sindominio.net>, 2002.
 # Xabi García <xabigf@gmx.net>, 2002.
 # Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
@@ -42,30 +9,29 @@
 # Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
 # Antón Méixome <meixome@mancomun.org>, 2009.
 # Antón Méixome <meixome@certima.net>, 2010.
-# Fran Diéguez <frandieguez@gnome.org>,2009, 2010, 2009, 2011.
+# Fran Diéguez <frandieguez@gnome.org>, 2009, 2010, 2009, 2011.
+# Xosé M. Lamas <correo.xmgz@gmail.com>, 2011.
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en <http://trasno.net>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center-master-po-gl-72290.merged\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-31 23:05+0200\n"
-"PO-Revision-Date: 2011-08-31 23:07+0200\n"
-"Last-Translator: Fran Diéguez <frandieguez@gnome.org>\n"
-"Language-Team: Galician <gnome-l10n-gl@gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-07-11 07:26+0000\n"
+"PO-Revision-Date: 2012-07-30 12:33+0200\n"
+"Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
+"Language-Team: proxecto@trasno.net\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  gl.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
-"#-#-#-#-#  gl.po (gnome-settings-daemon.master)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: KBabel 1.11.4\n"
-"#-#-#-#-#  gl.po (gnome-control-center-master-po-gl-72290.merged)  #-#-#-#-"
-"#\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Virtaal 0.7.0\n"
+"X-Project-Style: gnome\n"
 
 #: ../src/main.c:40
 msgid "Enable debugging code"
@@ -75,72 +41,76 @@ msgstr "Activar o código de depuración"
 msgid "Typing Monitor"
 msgstr "Monitor de tecleado"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Recordatorio de Descanso"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "%d minuto até o seu seguinte descanso"
 msgstr[1] "%d minutos até o seu seguinte descanso"
 
-#: ../src/drwright.c:177
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Menos dun minuto até o seguinte descanso"
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Configuracións de X"
 
-#: ../src/drwright.c:193
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Descansa un anaco"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Pospor o descanso"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "B_loquear a pantalla"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Tome un descanso!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr "Número de segundos escribindo antes de que comece o descanso"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr "Número de segundos que debe durar o descanso"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr "Frase para desbloquear a pantalla de descanso"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr "Prioridade de uso deste engadido"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr "Condicións nas que o engadido debe entrar en funcionamento"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-msgid "Whether the typing break can be postponed"
-msgstr "Situación na que o descanso pode ser obviado"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "Prioridade de uso deste engadido"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Whether typing break is enabled"
 msgstr "Indica se estamos nun descanso"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Change typing break settings"
-msgstr "Cambiar as preferencias do engadido"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the typing break can be postponed"
+msgstr "Situación na que o descanso pode ser obviado"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "Número de segundos escribindo antes de que comece o descanso"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr "Número de segundos que debe durar o descanso"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Phrase to unlock the break screen with"
+msgstr "Frase para desbloquear a pantalla de descanso"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
 msgid "Typing Break"
 msgstr "Descanso de escritura"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Change typing break settings"
+msgstr "Cambiar as preferencias do engadido"
 
 # Workrave entendoo como unha "rave" de traballo, poñerse a trballar a lo loco
 #. Translators: those are keywords for the example control-center panel
@@ -149,17 +119,17 @@ msgid "Typing;Break;RSI;Workrave;"
 msgstr "Teclear;Descanso;Pausa;Escribir"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "_Permitir retrasar as pausas"
+msgid "_Lock screen to enforce typing break"
+msgstr "_Bloquear a pantalla para reforzar o descanso de escritura"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "_Duración do intervalo de descanso:"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "_Bloquear a pantalla para reforzar o descanso de escritura"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "_Duración do intervalo de traballo:"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "_Permitir retrasar as pausas"
