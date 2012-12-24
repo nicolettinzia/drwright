@@ -10,19 +10,20 @@
 # Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
 # Mate ORY <orymate at gmail d0t com>, 2006.
-# Balázs Úr <urbalazs at gmail dot com>, 2011.
+# Balázs Úr <urbalazs at gmail dot com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: drwright master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-07 19:17+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-16 17:54+0000\n"
 "PO-Revision-Date: 2011-05-07 19:21+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -34,72 +35,76 @@ msgstr "Hibakeresési kód engedélyezése"
 msgid "Typing Monitor"
 msgstr "Gépelésfigyelő"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Emlékeztető gépelési szünet tartására"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "Körülbelül %d perc van hátra a következő szünetig."
 msgstr[1] "Körülbelül %d perc van hátra a következő szünetig."
 
-#: ../src/drwright.c:177
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
 msgstr "Kevesebb mint egy perc van hátra a következő szünetig."
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Beállítások…"
 
-#: ../src/drwright.c:193
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Szünet tartása most"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Szünet elhalasztása"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "_Képernyő zárolása"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Tartson szünetet!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr "A szünet kezdete előtti gépelési idő másodpercben"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr "A gépelési szünet hossza másodpercben"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr "A szünet képernyő feloldása ezzel a jelszóval"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr "A bővítménnyel használandó prioritás"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr "A beállításdémon aktiválja-e a gépelési szünet bővítményt"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-msgid "Whether the typing break can be postponed"
-msgstr "A gépelési szünet elhalasztható-e"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "A bővítménnyel használandó prioritás"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 msgid "Whether typing break is enabled"
 msgstr "A gépelési szünet be van-e kapcsolva"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-msgid "Change typing break settings"
-msgstr "Gépelési szünet beállításainak módosítása"
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the typing break can be postponed"
+msgstr "A gépelési szünet elhalasztható-e"
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr "A szünet kezdete előtti gépelési idő másodpercben"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr "A gépelési szünet hossza másodpercben"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Phrase to unlock the break screen with"
+msgstr "A szünet képernyő feloldása ezzel a jelszóval"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
 msgid "Typing Break"
 msgstr "Gépelési szünet"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Change typing break settings"
+msgstr "Gépelési szünet beállításainak módosítása"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -107,20 +112,19 @@ msgid "Typing;Break;RSI;Workrave;"
 msgstr "Gépelés;Szünet;RSI;Workrave;"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "A szünetek _elhalaszthatók"
+msgid "_Lock screen to enforce typing break"
+msgstr "Képernyő záro_lása a gépelési szünet kikényszerítéséhez"
 
 # itt az időtartam kifejezőbb
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "Szünet _időtartama:"
 
-#: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "Képernyő záro_lása a gépelési szünet kikényszerítéséhez"
-
 # itt az időtartam kifejezőbb
-#: ../src/drwright-panel.glade.h:4
+#: ../src/drwright-panel.glade.h:3
 msgid "_Work interval lasts:"
 msgstr "_Munka időtartama:"
 
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "A szünetek _elhalaszthatók"
