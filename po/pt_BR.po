@@ -50,22 +50,22 @@
 # Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010.
 # Flamarion Jorge <jorge.flamarion@gmail.com>, 2010.
 # Djavan Fagundes <djavan@comum.org>, 2011.
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=drwright&component=general\n"
-"POT-Creation-Date: 2011-03-06 23:25+0000\n"
-"PO-Revision-Date: 2011-05-03 14:13-0200\n"
-"Last-Translator: Djavan Fagundes <djavan@comum.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-12-26 14:32+0000\n"
+"PO-Revision-Date: 2013-01-14 01:30-0300\n"
+"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 0.6.1\n"
-"X-Poedit-Country: BRAZIL\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../src/main.c:40
 msgid "Enable debugging code"
@@ -75,77 +75,79 @@ msgstr "Habilitar código de depuração"
 msgid "Typing Monitor"
 msgstr "Monitor de digitação"
 
-#: ../src/drwright.c:168
+#: ../src/drwright.c:213
 msgid "Typing Break Reminder"
 msgstr "Lembrete de intervalo de digitação"
 
-#: ../src/drwright.c:171
+#: ../src/drwright.c:216
 #, c-format
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
-msgstr[0] "Aproximadamente %d minuto até o próximo intervalo"
-msgstr[1] "Aproximadamente %d minutos até o próximo intervalo"
+msgstr[0] "Aproximadamente %d minuto até o próximo intervalo."
+msgstr[1] "Aproximadamente %d minutos até o próximo intervalo."
 
-#: ../src/drwright.c:177
+#: ../src/drwright.c:222
 msgid "Less than one minute to the next break."
-msgstr "Menos de um minuto até a próxima pausa"
+msgstr "Menos de um minuto até a próxima pausa."
 
-#: ../src/drwright.c:189
+#: ../src/drwright.c:234
 msgid "Settings…"
 msgstr "Configurações…"
 
-#: ../src/drwright.c:193
+#: ../src/drwright.c:238
 msgid "Take Break Now"
 msgstr "Fazer uma pausa"
 
-#: ../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Adiar intervalo"
 
-#: ../src/drw-break-window.c:234
+#: ../src/drw-break-window.c:281
+msgid "_Lock Screen"
+msgstr "_Bloquear tela"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
 msgstr "Faça uma pausa!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
+msgid "Whether the settings daemon should activate the typing break plugin"
+msgstr ""
+"Se o daemon de configurações deve ativar o plug-in de intervalo de digitação"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "Prioridade para usar este plug-in"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Whether typing break is enabled"
+msgstr "Se o intervalo de digitação está habilitado"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
+msgid "Whether the typing break can be postponed"
+msgstr "Se o intervalo de digitação pode ser adiado"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Number of seconds of typing time before break mode starts"
 msgstr ""
 "Número de segundos de tempo de digitação antes de iniciar o modo de "
 "interrupção"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 msgid "Number of seconds that the typing break should last"
 msgstr "Número de segundos que o intervalo de digitação deve durar"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Phrase to unlock the break screen with"
 msgstr "Frase para desbloquear a tela de pausa"
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr "Prioridade para usar este plug-in"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
-msgid "Whether the settings daemon should activate the typing break plugin"
-msgstr ""
-"Se o daemon de configurações deve ativar o plug-in de intervalo de digitação"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-msgid "Whether the typing break can be postponed"
-msgstr "Se o intervalo de digitação pode ser adiado"
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
-msgid "Whether typing break is enabled"
-msgstr "Se o intervalo de digitação está habilitado"
-
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#| msgid "Whether typing break is enabled"
-msgid "Change typing break settings"
-msgstr "Alterar as configurações do intervalo de digitação"
-
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-#| msgid "Typing Break Reminder"
 msgid "Typing Break"
 msgstr "Intervalo de digitação"
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:2
+msgid "Change typing break settings"
+msgstr "Alterar as configurações do intervalo de digitação"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
@@ -153,18 +155,17 @@ msgid "Typing;Break;RSI;Workrave;"
 msgstr "Digitação;Pausa;RSI;Workrave;"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "Permitir _adiamento de pausas"
+msgid "_Lock screen to enforce typing break"
+msgstr "B_loquear a tela para forçar intervalo"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "_Intervalo de descanso dura:"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "B_loquear a tela para forçar intervalo"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "Intervalo de _trabalho dura:"
 
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "Permitir _adiamento de pausas"
