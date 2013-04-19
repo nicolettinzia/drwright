@@ -73,7 +73,6 @@ gsd_plugin_LTLIBRARIES = \
 	$(NULL)
 
 libtyping_break_la_SOURCES = 		\
-	gsd-typing-break-plugin.h	\
 	gsd-typing-break-plugin.c	\
 	gsd-typing-break-manager.h	\
 	gsd-typing-break-manager.c	\
