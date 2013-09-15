@@ -31,16 +31,17 @@
 # bounce key = kimmonäppäin
 # mouse key = hiirinäppäin
 # toggle key = piippaava näppäin
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2013.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2010-09-17 18:29+0300\n"
-"Last-Translator: Tommi Vainikainen <Unknown>\n"
-"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-04 11:40+0000\n"
+"PO-Revision-Date: 2013-09-15 15:16+0300\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,8 +52,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "#-#-#-#-#  fi.po (gnome-control-center)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 #, fuzzy
 msgid "Enable debugging code"
 msgstr ""
@@ -61,169 +63,176 @@ msgstr ""
 "#-#-#-#-#  fi.po (gnome-control-center)  #-#-#-#-#\n"
 "Ota vianetsintäkoodi käyttöön"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Älä tarkista, onko ilmoitusalue olemassa"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Kirjoituksen tarkkailija"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"Kirjoituksen tarkkailimen viestit näkyvät ilmoitusalueessa, jota tällä "
-"hetkellä ei ole paneelissa. Voit lisätä ilmoitusalueen paneeliin "
-"napsauttamalla paneelia hiiren oikealla painikkeella ja valitsemalla ”Lisää "
-"paneeliin” ja valitsemalla ”Ilmoitusalue”."
+#: ../src/drwright.c:213
+#| msgid "Break reminder"
+msgid "Typing Break Reminder"
+msgstr "Muistutus kirjoitustauosta"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "_Pidä tauko"
-
-#: ../../../po/../src/drwright.c:441
-msgid "Disabled"
-msgstr "Ei käytössä"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:216
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "%d minuutti seuraavaan taukoon"
-msgstr[1] "%d minuuttia seuraavaan taukoon"
+#| msgid "%d minute until the next break"
+#| msgid_plural "%d minutes until the next break"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "%d minuutti seuraavaan taukoon."
+msgstr[1] "%d minuuttia seuraavaan taukoon."
 
-#: ../../../po/../src/drwright.c:452
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "Alle yksi minuutti seuraavaan taukoon"
+#: ../src/drwright.c:222
+#| msgid "Less than one minute until the next break"
+msgid "Less than one minute to the next break."
+msgstr "Alle yksi minuutti seuraavaan taukoon."
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"Kirjoitustaukojen ominaisuusikkunan avaaminen ei onnistunut, sillä seuraava "
-"virhe tapahtui: %s"
+#: ../src/drwright.c:234
+#| msgid "X Settings"
+msgid "Settings…"
+msgstr "Asetukset…"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Kirjoittanut Richard Hult <richard@imendio.com>"
+#: ../src/drwright.c:238
+#| msgid "_Take a Break"
+msgid "Take Break Now"
+msgstr "Pidä tauko nyt"
 
-#: ../../../po/../src/drwright.c:573
-#, fuzzy
-msgid "Eye candy added by Anders Carlsson"
-msgstr ""
-"#-#-#-#-#  fi.po (drwright)  #-#-#-#-#\n"
-"Silmänruokaa lisännyt Anders Carlsson\n"
-"#-#-#-#-#  fi.po (gnome-control-center)  #-#-#-#-#\n"
-"Anders Carlsson lisäsi silmänruokaa"
-
-#: ../../../po/../src/drwright.c:582
-#, fuzzy
-msgid "A computer break reminder."
-msgstr ""
-"#-#-#-#-#  fi.po (drwright)  #-#-#-#-#\n"
-"Tietokoneen käyttötauosta muistuttuja.\n"
-"#-#-#-#-#  fi.po (gnome-control-center)  #-#-#-#-#\n"
-"Tietokoneen käyttötauoista muistuttava ohjelma."
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr ""
-"Ilkka Tuohela, 2005-2008\n"
-"Timo Jyrinki, 2008\n"
-"Pauli Virtanen 2000-2004\n"
-"Mikko Rauhala -2000\n"
-"\n"
-"http://www.gnome.fi/\n"
-"\n"
-"Launchpad Contributions:\n"
-"  Birunthan Mohanathas https://launchpad.net/~biru\n"
-"  Jiri Grönroos https://launchpad.net/~jiri-gronroos\n"
-"  Jussi Aalto https://launchpad.net/~jtaalto\n"
-"  Mikko Nissinen https://launchpad.net/~mikko\n"
-"  Timo Jyrinki https://launchpad.net/~timo-jyrinki\n"
-"  Tommi Vainikainen https://launchpad.net/~thv\n"
-"  maxpagels https://launchpad.net/~max-pagels1\n"
-"  papukaija https://launchpad.net/~papukaija"
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Lykkää taukoa"
 
-#: ../../../po/../src/drw-break-window.c:234
-#, fuzzy
+#: ../src/drw-break-window.c:281
+#| msgid "Lock screen"
+msgid "_Lock Screen"
+msgstr "_Lukitse näyttö"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
-msgstr ""
-"#-#-#-#-#  fi.po (drwright)  #-#-#-#-#\n"
-"Pidä tauko!\n"
-"#-#-#-#-#  fi.po (gnome-control-center)  #-#-#-#-#\n"
-"Pidäpä tauko!"
+msgstr "Pidä tauko!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-#, fuzzy
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr "Liitännäiseen käytettävä prioriteetti"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
+msgid "Whether typing break is enabled"
+msgstr "Onko kirjoitustauko käytössä"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 msgid "Whether the typing break can be postponed"
-msgstr "Onko näytönlukija päällä."
+msgstr "Voiko kirjoitustaukoa viivästyttää"
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr "Kirjoitustauon kesto sekunneissa"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
-#, fuzzy
-msgid "Whether typing break is enabled"
-msgstr "Onko näytönlukija päällä."
+msgid "Phrase to unlock the break screen with"
+msgstr ""
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#, fuzzy
-msgid "Typing Break Preferences"
+#| msgid "Typing break plugin"
+msgid "Typing Break"
 msgstr "Kirjoitustauko"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr ""
+#| msgid "Enable typing breaks plugin"
+msgid "Change typing break settings"
+msgstr "Muuta kirjoitustauon asetuksia"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
 msgid "Typing;Break;RSI;Workrave;"
-msgstr ""
+msgstr "Typing;Break;RSI;Workrave;Kirjoitustauko;"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "_Salli taukojen viivästäminen"
+msgid "_Lock screen to enforce typing break"
+msgstr "Pakota kirjoitustauko lukitsemalla näyttö"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "_Taukoaika kestää:"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "Pakota kirjoitustauko lukitsemalla näyttö"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "T_yöskentelyaika kestää:"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "_Salli taukojen viivästäminen"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "Älä tarkista, onko ilmoitusalue olemassa"
+
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "Kirjoituksen tarkkailimen viestit näkyvät ilmoitusalueessa, jota tällä "
+#~ "hetkellä ei ole paneelissa. Voit lisätä ilmoitusalueen paneeliin "
+#~ "napsauttamalla paneelia hiiren oikealla painikkeella ja valitsemalla "
+#~ "”Lisää paneeliin” ja valitsemalla ”Ilmoitusalue”."
+
+#~ msgid "Disabled"
+#~ msgstr "Ei käytössä"
+
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Kirjoitustaukojen ominaisuusikkunan avaaminen ei onnistunut, sillä "
+#~ "seuraava virhe tapahtui: %s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Kirjoittanut Richard Hult <richard@imendio.com>"
+
+#, fuzzy
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr ""
+#~ "#-#-#-#-#  fi.po (drwright)  #-#-#-#-#\n"
+#~ "Silmänruokaa lisännyt Anders Carlsson\n"
+#~ "#-#-#-#-#  fi.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Anders Carlsson lisäsi silmänruokaa"
+
+#, fuzzy
+#~ msgid "A computer break reminder."
+#~ msgstr ""
+#~ "#-#-#-#-#  fi.po (drwright)  #-#-#-#-#\n"
+#~ "Tietokoneen käyttötauosta muistuttuja.\n"
+#~ "#-#-#-#-#  fi.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Tietokoneen käyttötauoista muistuttava ohjelma."
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Ilkka Tuohela, 2005-2008\n"
+#~ "Timo Jyrinki, 2008\n"
+#~ "Pauli Virtanen 2000-2004\n"
+#~ "Mikko Rauhala -2000\n"
+#~ "\n"
+#~ "http://www.gnome.fi/\n"
+#~ "\n"
+#~ "Launchpad Contributions:\n"
+#~ "  Birunthan Mohanathas https://launchpad.net/~biru\n"
+#~ "  Jiri Grönroos https://launchpad.net/~jiri-gronroos\n"
+#~ "  Jussi Aalto https://launchpad.net/~jtaalto\n"
+#~ "  Mikko Nissinen https://launchpad.net/~mikko\n"
+#~ "  Timo Jyrinki https://launchpad.net/~timo-jyrinki\n"
+#~ "  Tommi Vainikainen https://launchpad.net/~thv\n"
+#~ "  maxpagels https://launchpad.net/~max-pagels1\n"
+#~ "  papukaija https://launchpad.net/~papukaija"
+
+#, fuzzy
+#~ msgid "Typing Break Preferences"
+#~ msgstr "Kirjoitustauko"
 
 #~ msgid "minutes"
 #~ msgstr "minuuttia"
@@ -335,9 +344,6 @@ msgstr "T_yöskentelyaika kestää:"
 
 #~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 #~ msgstr "Kirjoittanut Richard Hult &lt;richard@imendio.com&gt;"
-
-#~ msgid "Break reminder"
-#~ msgstr "Taukomuistuttaja"
 
 #~ msgid "_Postpone break"
 #~ msgstr "_Viivästytä taukoa"
@@ -471,9 +477,6 @@ msgstr "T_yöskentelyaika kestää:"
 
 #~ msgid "Launch web browser"
 #~ msgstr "Käynnistä WWW-selain"
-
-#~ msgid "Lock screen"
-#~ msgstr "Lukitse näyttö"
 
 #~ msgid "Log out"
 #~ msgstr "Kirjaudu ulos"
@@ -685,9 +688,6 @@ msgstr "T_yöskentelyaika kestää:"
 
 #~ msgid "Enable sound plugin"
 #~ msgstr "Käytä äänilisäosaa"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Käytä kirjoitustaukolisäosaa"
 
 #~ msgid "Enable xrandr plugin"
 #~ msgstr "Käytä xrandr-lisäosaa"
@@ -1223,9 +1223,6 @@ msgstr "T_yöskentelyaika kestää:"
 #~ msgid "Mouse plugin"
 #~ msgstr "Hiiriliitännäinen"
 
-#~ msgid "Typing break plugin"
-#~ msgstr "Kirjoitustauko-liitännäinen"
-
 #~ msgid "Set up screen size and rotation settings"
 #~ msgstr "Määritä näytön koko ja kiertoasetukset"
 
@@ -1306,9 +1303,6 @@ msgstr "T_yöskentelyaika kestää:"
 
 #~ msgid "Manage X Settings"
 #~ msgstr "Hallitse X-asetuksia"
-
-#~ msgid "X Settings"
-#~ msgstr "X-asetukset"
 
 #~ msgid "Sound"
 #~ msgstr "Ääni"
