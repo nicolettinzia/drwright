@@ -19,184 +19,192 @@
 # Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
 # Fatih Demir <kabalak@gtranslator.org>, 2000.
 # Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
-#, fuzzy
+# Muhammet Kara <muhammetk@gmail.com>, 2014.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-01 20:22+0100\n"
-"PO-Revision-Date: 2009-08-30 07:20+0300\n"
-"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
-"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=drwright&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 15:51+0000\n"
+"PO-Revision-Date: 2014-12-12 21:52+0200\n"
+"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
 "#-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#\n"
-"Plural-Forms:  nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
 "Plural-Forms:  nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
-#: ../../../po/../src/main.c:61
+#: ../src/main.c:40
 msgid "Enable debugging code"
 msgstr "Hata ayıklama kodunu etkinleştir"
 
-#: ../../../po/../src/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "Uyarı alanının mevcut olup olmadığını kontrol etme"
-
-#: ../../../po/../src/main.c:87
+#: ../src/main.c:64
 msgid "Typing Monitor"
 msgstr "Yazım Gözetleyicisi"
 
-#: ../../../po/../src/main.c:103
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"Yazım gözetleyicisi bilgileri göstermek için uyarı alanını kullanır. "
-"Panelinizde uyarı alanı yok gibi görülüyor. Panele sağ tıklayıp 'Panele "
-"ekle', 'Uyarı alanı' ve 'Ekle'yi tıklayarak alanı ekleyebilirsiniz."
+#: ../src/drwright.c:213
+#| msgid "Break reminder"
+msgid "Typing Break Reminder"
+msgstr "Yazma Molası Hatırlatıcı"
 
-#: ../../../po/../src/drwright.c:123
-msgid "_Take a Break"
-msgstr "_Mola ver"
-
-#: ../../../po/../src/drwright.c:441
-#, fuzzy
-msgid "Disabled"
-msgstr ""
-"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
-"Kapalı\n"
-"#-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#\n"
-"Devre Dışı\n"
-"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
-"Kapalı"
-
-#: ../../../po/../src/drwright.c:448
+#: ../src/drwright.c:216
 #, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "Sonraki molaya kadar %d dakika kaldı"
+#| msgid "%d minute until the next break"
+#| msgid_plural "%d minutes until the next break"
+msgid "Approximately %d minute to the next break."
+msgid_plural "Approximately %d minutes to the next break."
+msgstr[0] "Sonraki molaya yaklaşık %d dakika kaldı."
 
-#: ../../../po/../src/drwright.c:452
-#, fuzzy, c-format
-msgid "Less than one minute until the next break"
-msgstr ""
-"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
-"Sonraki araya kadar bir dakikadan daha az\n"
-"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
-"Sonraki molaya bir dakikadan az bir zaman kaldı"
+#: ../src/drwright.c:222
+msgid "Less than one minute to the next break."
+msgstr "Sonraki molaya bir dakikadan az zaman kaldı."
 
-#: ../../../po/../src/drwright.c:553
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"Bu hata yüzünde yazım molası özellikleri penceresi yukarı getirilemiyor: %s"
+#: ../src/drwright.c:234
+#| msgid "X Settings"
+msgid "Settings…"
+msgstr "Ayarlar…"
 
-#: ../../../po/../src/drwright.c:572
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Richard Hult <richard@imendio.com> tarafından yazıldı"
+#: ../src/drwright.c:238
+#| msgid "_Take a Break"
+msgid "Take Break Now"
+msgstr "Şimdi Mola Ver"
 
-#: ../../../po/../src/drwright.c:573
-#, fuzzy
-msgid "Eye candy added by Anders Carlsson"
-msgstr ""
-"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
-"Göz şekeri Anders Carlsson tarafından eklenmiştir\n"
-"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
-"Görsel güzellikler, Anders Carlsson tarafından eklendi"
-
-#: ../../../po/../src/drwright.c:582
-#, fuzzy
-msgid "A computer break reminder."
-msgstr ""
-"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
-"Bilgisayar arası vermek için hatırlatıcı.\n"
-"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
-"Bilgisayar molası hatırlatıcısı."
-
-#: ../../../po/../src/drwright.c:584
-msgid "translator-credits"
-msgstr "Barış Çiçek <baris@teamforce.name.tr>"
-
-#: ../../../po/../src/drw-break-window.c:189
+#: ../src/drw-break-window.c:255
 msgid "_Postpone Break"
 msgstr "_Molayı Ertele"
 
-#: ../../../po/../src/drw-break-window.c:234
-#, fuzzy
+#: ../src/drw-break-window.c:281
+#| msgid "Lock screen"
+msgid "_Lock Screen"
+msgstr "Ekranı Ki_litle"
+
+#: ../src/drw-break-window.c:308
 msgid "Take a break!"
-msgstr ""
-"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
-"Ara ver!\n"
-"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
-"Mola verin!"
+msgstr "Mola verin!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
-msgid "Number of seconds of typing time before break mode starts"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
-msgid "Number of seconds that the typing break should last"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-msgid "Phrase to unlock the break screen with"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-msgid "Priority to use for this plugin"
-msgstr ""
-
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
-#, fuzzy
-msgid "Whether the typing break can be postponed"
-msgstr "Ekran okuyucusunun açık olması."
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
+msgid "Priority to use for this plugin"
+msgstr ""
 
-#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
 #, fuzzy
 msgid "Whether typing break is enabled"
 msgstr "Ekran okuyucusunun açık olması."
 
-#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
 #, fuzzy
-msgid "Typing Break Preferences"
+msgid "Whether the typing break can be postponed"
+msgstr "Ekran okuyucusunun açık olması."
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
+msgid "Number of seconds of typing time before break mode starts"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
+msgid "Number of seconds that the typing break should last"
+msgstr ""
+
+#: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
+msgid "Phrase to unlock the break screen with"
+msgstr ""
+
+#: ../src/gnome-typing-break-panel.desktop.in.in.h:1
+#| msgid "Typing break plugin"
+msgid "Typing Break"
 msgstr "Yazım Molası"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-msgid "Typing Break preferences panel"
-msgstr ""
+#| msgid "Enable typing breaks plugin"
+msgid "Change typing break settings"
+msgstr "Yazım molası ayarlarını değiştir"
 
 #. Translators: those are keywords for the example control-center panel
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:4
 msgid "Typing;Break;RSI;Workrave;"
-msgstr ""
+msgstr "Yazım;Yazma;Daktilo;Mola;RSI;Workrave;"
 
 #: ../src/drwright-panel.glade.h:1
-msgid "_Allow postponing of breaks"
-msgstr "_Araların ertelenmesine izin veriniz"
+msgid "_Lock screen to enforce typing break"
+msgstr "_Yazım molasını mecbur kılmak için ekranı kilitle"
 
 #: ../src/drwright-panel.glade.h:2
 msgid "_Break interval lasts:"
 msgstr "_Mola aralıkları sonlanması:"
 
 #: ../src/drwright-panel.glade.h:3
-msgid "_Lock screen to enforce typing break"
-msgstr "_Yazım molasını mecbur kılmak için ekranı kilitle"
-
-#: ../src/drwright-panel.glade.h:4
 msgid "_Work interval lasts:"
 msgstr "_Çalışma aralıkları sonlanması:"
+
+#: ../src/drwright-panel.glade.h:4
+msgid "_Allow postponing of breaks"
+msgstr "_Araların ertelenmesine izin veriniz"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "Uyarı alanının mevcut olup olmadığını kontrol etme"
+
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "Yazım gözetleyicisi bilgileri göstermek için uyarı alanını kullanır. "
+#~ "Panelinizde uyarı alanı yok gibi görülüyor. Panele sağ tıklayıp 'Panele "
+#~ "ekle', 'Uyarı alanı' ve 'Ekle'yi tıklayarak alanı ekleyebilirsiniz."
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr ""
+#~ "#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+#~ "Kapalı\n"
+#~ "#-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#\n"
+#~ "Devre Dışı\n"
+#~ "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Kapalı"
+
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Bu hata yüzünde yazım molası özellikleri penceresi yukarı getirilemiyor: "
+#~ "%s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Richard Hult <richard@imendio.com> tarafından yazıldı"
+
+#, fuzzy
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr ""
+#~ "#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+#~ "Göz şekeri Anders Carlsson tarafından eklenmiştir\n"
+#~ "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Görsel güzellikler, Anders Carlsson tarafından eklendi"
+
+#, fuzzy
+#~ msgid "A computer break reminder."
+#~ msgstr ""
+#~ "#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
+#~ "Bilgisayar arası vermek için hatırlatıcı.\n"
+#~ "#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
+#~ "Bilgisayar molası hatırlatıcısı."
+
+#~ msgid "translator-credits"
+#~ msgstr "Barış Çiçek <baris@teamforce.name.tr>"
+
+#, fuzzy
+#~ msgid "Typing Break Preferences"
+#~ msgstr "Yazım Molası"
 
 #~ msgid "minutes"
 #~ msgstr "dakika"
@@ -307,9 +315,6 @@ msgstr "_Çalışma aralıkları sonlanması:"
 
 #~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
 #~ msgstr "Richard Hult &lt;richard@imendo.com&gt; tarafından yazılmıştır"
-
-#~ msgid "Break reminder"
-#~ msgstr "Ara hatırlatıcısı"
 
 #~ msgid "Postpone break"
 #~ msgstr "Arayı erteleyiniz"
@@ -441,9 +446,6 @@ msgstr "_Çalışma aralıkları sonlanması:"
 
 #~ msgid "Launch web browser"
 #~ msgstr "Web tarayıcı aç"
-
-#~ msgid "Lock screen"
-#~ msgstr "Ekranı kilitle"
 
 #~ msgid "Log out"
 #~ msgstr "Çıkış"
@@ -644,9 +646,6 @@ msgstr "_Çalışma aralıkları sonlanması:"
 
 #~ msgid "Enable sound plugin"
 #~ msgstr "Ses eklentisini etkinleştir"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Yazım molası eklentisini etkinleştir"
 
 #~ msgid "Enable xrandr plugin"
 #~ msgstr "Xrandr eklentisini etkinleştir"
@@ -1120,9 +1119,6 @@ msgstr "_Çalışma aralıkları sonlanması:"
 #~ msgid "Mouse plugin"
 #~ msgstr "Fare eklentisi"
 
-#~ msgid "Typing break plugin"
-#~ msgstr "Yazım molası eklentisi"
-
 #~ msgid "Set up screen size and rotation settings"
 #~ msgstr "Ekran boyutu ve döndürme çevirimi ayarlarını ata"
 
@@ -1208,9 +1204,6 @@ msgstr "_Çalışma aralıkları sonlanması:"
 
 #~ msgid "Manage X Settings"
 #~ msgstr "X Ayarlarını Yönet"
-
-#~ msgid "X Settings"
-#~ msgstr "X Ayarları"
 
 #~ msgid "Current network location"
 #~ msgstr "Mevcut ağ konumu"
