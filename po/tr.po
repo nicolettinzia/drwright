@@ -20,112 +20,101 @@
 # Fatih Demir <kabalak@gtranslator.org>, 2000.
 # Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
 # Muhammet Kara <muhammetk@gmail.com>, 2014.
+# Necdet Yücel <necdetyucel@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=drwright&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-18 15:51+0000\n"
-"PO-Revision-Date: 2014-12-12 21:52+0200\n"
-"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=drwrigh"
+"t&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-01-12 04:15+0000\n"
+"PO-Revision-Date: 2015-02-14 21:56+0000\n"
+"Last-Translator: Necdet Yücel <necdetyucel@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  tr.po (drwright)  #-#-#-#-#\n"
-"#-#-#-#-#  tr.po (gnome-settings-daemon)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"#-#-#-#-#  tr.po (gnome-control-center)  #-#-#-#-#\n"
-"Plural-Forms:  nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1423950964.000000\n"
 
-#: ../src/main.c:40
+#: ../src/main.c:38
 msgid "Enable debugging code"
 msgstr "Hata ayıklama kodunu etkinleştir"
 
-#: ../src/main.c:64
+#: ../src/main.c:62
 msgid "Typing Monitor"
 msgstr "Yazım Gözetleyicisi"
 
-#: ../src/drwright.c:213
-#| msgid "Break reminder"
+#: ../src/drwright.c:211
 msgid "Typing Break Reminder"
 msgstr "Yazma Molası Hatırlatıcı"
 
-#: ../src/drwright.c:216
+#: ../src/drwright.c:214
 #, c-format
-#| msgid "%d minute until the next break"
-#| msgid_plural "%d minutes until the next break"
 msgid "Approximately %d minute to the next break."
 msgid_plural "Approximately %d minutes to the next break."
 msgstr[0] "Sonraki molaya yaklaşık %d dakika kaldı."
 
-#: ../src/drwright.c:222
+#: ../src/drwright.c:220
 msgid "Less than one minute to the next break."
 msgstr "Sonraki molaya bir dakikadan az zaman kaldı."
 
-#: ../src/drwright.c:234
-#| msgid "X Settings"
+#: ../src/drwright.c:232
 msgid "Settings…"
 msgstr "Ayarlar…"
 
-#: ../src/drwright.c:238
-#| msgid "_Take a Break"
+#: ../src/drwright.c:236
 msgid "Take Break Now"
 msgstr "Şimdi Mola Ver"
 
-#: ../src/drw-break-window.c:255
+#: ../src/drw-break-window.c:253
 msgid "_Postpone Break"
 msgstr "_Molayı Ertele"
 
-#: ../src/drw-break-window.c:281
-#| msgid "Lock screen"
+#: ../src/drw-break-window.c:279
 msgid "_Lock Screen"
 msgstr "Ekranı Ki_litle"
 
-#: ../src/drw-break-window.c:308
+#: ../src/drw-break-window.c:306
 msgid "Take a break!"
 msgstr "Mola verin!"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:1
 msgid "Whether the settings daemon should activate the typing break plugin"
 msgstr ""
+"Ayarlar sürecinin yazma molası eklentisini etkinleştirip etkinleştirmeyeceği"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:2
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "Bu eklenti için kullanım önceliği"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:3
-#, fuzzy
 msgid "Whether typing break is enabled"
-msgstr "Ekran okuyucusunun açık olması."
+msgstr "Yazma molasının etkin olup olmadığı"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:4
-#, fuzzy
 msgid "Whether the typing break can be postponed"
-msgstr "Ekran okuyucusunun açık olması."
+msgstr "Yazma molasının ertelenip ertelenmediği"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:5
 msgid "Number of seconds of typing time before break mode starts"
-msgstr ""
+msgstr "Mola kipinin başlamasından önce yazmak için saniye sayısı"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:6
 msgid "Number of seconds that the typing break should last"
-msgstr ""
+msgstr "Mola kipinin sonlanması için gereken saniye miktarı"
 
 #: ../src/org.gnome.settings-daemon.plugins.typing-break.gschema.xml.in.h:7
 msgid "Phrase to unlock the break screen with"
-msgstr ""
+msgstr "Ekran kilidini açmak için parola"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:1
-#| msgid "Typing break plugin"
 msgid "Typing Break"
 msgstr "Yazım Molası"
 
 #: ../src/gnome-typing-break-panel.desktop.in.in.h:2
-#| msgid "Enable typing breaks plugin"
 msgid "Change typing break settings"
 msgstr "Yazım molası ayarlarını değiştir"
 
